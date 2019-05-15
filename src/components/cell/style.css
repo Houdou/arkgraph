@@ -1,0 +1,49 @@
+.cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	height: 32px;
+	width: auto;
+	min-width: 100px;
+	max-width: 180px;
+	background: #333;
+	border-right: 0.5px #666 solid;
+	border-bottom: 0.5px #666 solid;
+	color: #EEE;
+}
+
+.cell.header {
+	height: 40px;
+	font-weight: bold;
+	background: #888;
+	text-shadow: 0px 1px 5px rgba(48, 48, 48, 0.8);
+	border-color: transparent;
+
+	overflow: hidden;
+}
+.cell.header.T1 {
+	background-color: #9F9FA2;
+}
+.cell.header.T2 {
+	background-color: #DADC39;
+}
+.cell.header.T3 {
+	background-color: #16AFF0;
+}
+.cell.header.T4 {
+	background-color: #D3C3D4;
+}
+.cell.header.T5 {
+	background-color: #FCC90E;
+}
+
+.free-cell {
+	width: 20%;
+	max-width: 200px;
+}
+
+.cell span {
+	text-align: center
+}
