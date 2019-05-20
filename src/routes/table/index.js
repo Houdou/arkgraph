@@ -1,35 +1,29 @@
 import { h } from 'preact';
-// import { useEffect } from 'preact/hooks';
+import { useEffect } from 'preact/hooks';
 import style from './style';
 
-import ArkRowHeader from './TableHeader';
-import ArkRow from '../../components/row';
+import ArkTableHeader from './components/TableHeader';
 
-// import data from '../../model/data.json';
-import useRecords from '../../model/useRecords';
+import useData from '../../model/useData';
 
 const ArkTable = (props) => {
 	const {
-		records
-	} = useRecords();
+		state: { data },
+		addRow,
+	} = useData();
+
+	useEffect(() => {
+		addRow({});
+	}, []);
 
 	return (
 		<div class={style.table}>
-			<ArkRowHeader />
+			<ArkTableHeader />
 			{
-				Array(30).fill().map((_, i) => (
-					<ArkRow
-						cells={
-							Array(15).fill().map((__, j) => {
-								return j
-									? { content: i * 10 + j }
-									: { content: String.fromCharCode(i+65) };
-							})
-						}
-					/>
-				))
+				data && data.map(record => {
+					console.log(record);
+				})
 			}
-			<ArkRow cells={records} />
 		</div>
 	);
 };

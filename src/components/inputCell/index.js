@@ -2,7 +2,7 @@ import React from 'preact';
 import style from './style';
 import cn from 'classnames';
 
-const ArkCell = (props) => (
+const ArkInputCell = (props) => (
 	<div
 		class={
 			cn(
@@ -14,10 +14,8 @@ const ArkCell = (props) => (
 			)
 		}
 	>
-		{
-			props.content
-		}
+		<input type="text" value={props.name} />
 	</div>
 );
 
-export default ArkCell;
+export default ArkInputCell;

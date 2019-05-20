@@ -4,7 +4,7 @@ import ArkCell from '../cell';
 
 const ArkRow = (props) => {
 	const cell_props = {
-		header: props.header
+		header: props.header,
 	};
 
 	return (
@@ -13,11 +13,9 @@ const ArkRow = (props) => {
 			style={props.style}
 		>
 			{
-				props.cells.map(cell => {
-					return (
-						<ArkCell {...cell} {...cell_props} />
-					);
-				})
+				props.cells.map(cell => (
+					<ArkCell {...cell} {...cell_props} />
+				))
 			}
 		</div>
 	);

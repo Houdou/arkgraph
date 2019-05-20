@@ -16,7 +16,8 @@
   "eslintConfig": {
     "extends": "eslint-config-synacor",
     "rules": {
-      "camelcase": "off"
+      "camelcase": "off",
+      "comma-dangle": ["error", "always-multiline"]
     }
   },
   "eslintIgnore": [

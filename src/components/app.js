@@ -12,17 +12,17 @@ export default class App extends Component {
 	 *	@param {string} event.url	The newly routed URL
 	 */
 	handleRoute = e => {
-		this.currentUrl = e.url;
+	  this.currentUrl = e.url;
 	};
 
 	render() {
-		return (
-			<div id="app">
-				<Header />
-				<Router onChange={this.handleRoute}>
-					<ArkTable path="/" />
-				</Router>
-			</div>
-		);
+	  return (
+	    <div id="app">
+	      <Header />
+	      <Router onChange={this.handleRoute}>
+	        <ArkTable path="/" />
+	      </Router>
+	    </div>
+	  );
 	}
 }
