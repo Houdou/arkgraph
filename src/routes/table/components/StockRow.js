@@ -2,7 +2,8 @@ import { h } from 'preact';
 
 import ArkRow from '../../../components/row';
 
-const ArkTableHeader = ({
+const ArkStockRow = ({
+	record,
 	header_list,
 	header_skip,
 	resources_filter,
@@ -10,21 +11,19 @@ const ArkTableHeader = ({
 	<ArkRow
 		cells={
 			[
-				{ content: '名称' },
-				{ content: '升级项目' },
-				{ content: '现等级' },
-				{ content: '下一等级' },
+				{ content: '' },
+				{ content: '' },
+				{ content: '' },
+				{ content: '库存' },
 				...Array.from(header_list)
 					.splice(header_skip, header_list.length - header_skip)
 					.map(e => ({
-						content: e.name,
-						header_level: e.tier,
+						input: true,
 					})),
 			]
 		}
 		resources_filter={resources_filter}
-		header
 	/>
 );
 
-export default ArkTableHeader;
+export default ArkStockRow;

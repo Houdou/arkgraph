@@ -1,0 +1,34 @@
+.cell select {
+  -webkit-appearance: none;
+  border: none;
+  background: none;
+  outline: none;
+  text-align-last: center;
+}
+
+.cell,
+.cell select {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  font-family: 'Microsoft YaHei', 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+	height: 32px;
+	min-width: 100px;
+	width: 100px;
+	background: #444;
+	border-right: 0.5px #666 solid;
+	border-bottom: 0.5px #666 solid;
+	color: #EEE;
+  position: relative;
+}
+
+.cell.select:after {
+  content: '▼';
+  font-size: 8px;
+  position: absolute;
+  right: 6px;
+}

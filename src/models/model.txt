@@ -1,0 +1,22 @@
+data: [
+  Upgrade {
+    operator, // name
+    attribute, // Skill, Elite, Level,
+    from,
+    to,
+    requirements: [
+      [
+        {
+          resource: Resource {
+            id:
+            name:
+            ...
+          }
+          quantity: ,
+        }
+        , // -> AND
+      ], // -> OR
+    ]
+
+  }
+]

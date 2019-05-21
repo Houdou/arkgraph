@@ -1,0 +1,36 @@
+.cell input {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cell,
+.cell input {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  font-family: 'Microsoft YaHei', 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+	height: 32px;
+	min-width: 100px;
+	width: 100px;
+	background: #444;
+	border-right: 0.5px #666 solid;
+	border-bottom: 0.5px #666 solid;
+	color: #EEE;
+  position: relative;
+}
+
+.cell > input:empty:after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: auto;
+  left: 8px;
+  right: 8px;
+  bottom: 4px;
+  background-color: #EEE;
+}

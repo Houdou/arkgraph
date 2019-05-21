@@ -10,6 +10,7 @@ const ArkCell = (props) => (
 				style[props.header_level],
 				{
 					[style.header]: props.header,
+					[style.empty]: !props.content,
 				}
 			)
 		}

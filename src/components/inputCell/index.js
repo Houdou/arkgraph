@@ -14,7 +14,7 @@ const ArkInputCell = (props) => (
 			)
 		}
 	>
-		<input type="text" value={props.name} />
+		<input type="number" value={props.content} />
 	</div>
 );
 

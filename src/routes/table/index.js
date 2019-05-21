@@ -3,8 +3,25 @@ import { useEffect } from 'preact/hooks';
 import style from './style';
 
 import ArkTableHeader from './components/TableHeader';
+import ArkUpgradeRow from './components/UpgradeRow';
+import ArkUpgradeInputRow from './components/UpgradeInputRow';
+import ArkStockRow from './components/StockRow';
+import ArkSummaryRow from './components/SummaryRow';
 
-import useData from '../../model/useData';
+import useData from '../../models/useData';
+import Upgrade from '../../models/Upgrade';
+import { ATTRIBUTES } from '../../models/Attributes';
+import { RESOURCES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+
+const header_list = [
+	{ name: '名称' },
+	{ name: '升级项目' },
+	{ name: '现等级' },
+	{ name: '下一等级' },
+	...SKILL_BOOKS,
+	...MATERIALS,
+	...CHIPS,
+];
 
 const ArkTable = (props) => {
 	const {
@@ -13,16 +30,64 @@ const ArkTable = (props) => {
 	} = useData();
 
 	useEffect(() => {
-		addRow({});
+		addRow(
+			new Upgrade(
+				'陨星',
+				ATTRIBUTES.SKILL_LEVEL,
+				6,
+				7,
+				[
+					{
+						resource: RESOURCES['S-3-1'],
+						quantity: 6,
+					},
+					{
+						resource: RESOURCES['M-3-2'],
+						quantity: 2,
+					},
+					{
+						resource: RESOURCES['M-3-7'],
+						quantity: 4,
+					},
+				]
+			)
+		);
 	}, []);
+
+	const summary = data.map(record => record.requirements).reduce((prev, next) => {
+		next.forEach(requirement => {
+			prev[requirement.resource.id] = prev[requirement.resource.id] || 0;
+			prev[requirement.resource.id] += requirement.quantity;
+		});
+		return prev;
+	}, {});
+
+	const resources_filter = (index) =>
+		index < header_list.length && (
+			!header_list[index].tier || header_list[index].tier === 'T3'
+		);
+
+	const global_props = {
+		header_list,
+		header_skip: 4,
+		resources_filter,
+	};
 
 	return (
 		<div class={style.table}>
-			<ArkTableHeader />
+			<ArkTableHeader {...global_props} />
+			<ArkStockRow {...global_props} />
+			<ArkSummaryRow summary={summary} {...global_props} />
 			{
-				data && data.map(record => {
-					console.log(record);
-				})
+				data && data.map(record => (
+					<ArkUpgradeRow
+						record={record}
+						{...global_props}
+					/>
+				))
+			}
+			{
+				<ArkUpgradeInputRow {...global_props} />
 			}
 		</div>
 	);

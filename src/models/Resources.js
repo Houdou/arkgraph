@@ -1,4 +1,4 @@
-export const MATERIALS = [
+const MATERIALS = [
 	{
 		id: 'M-5-1',
 		name: 'D32钢',
@@ -404,3 +404,296 @@ export const MATERIALS = [
 		formula: {},
 	},
 ];
+
+const SKILL_BOOKS = [
+	{
+		id: 'S-2-1',
+		name: '技巧概要·卷1',
+		tier: 'T2',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'S-3-1',
+		name: '技巧概要·卷2',
+		tier: 'T3',
+		source: {},
+		formula: {
+			'S-2-1': 3,
+		},
+	},
+	{
+		id: 'S-4-1',
+		name: '技巧概要·卷3',
+		tier: 'T4',
+		source: {},
+		formula: {
+			'S-3-1': 3,
+		},
+	},
+];
+
+const EXP_TAPES = [
+	{
+		id: 'E-2-1',
+		name: '基础作战记录',
+		tier: 'T2',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'E-3-1',
+		name: '初级作战记录',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'E-4-1',
+		name: '中级作战记录',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'E-5-1',
+		name: '高级作战记录',
+		tier: 'T5',
+		source: {},
+		formula: {},
+	},
+];
+
+const CHIPS = [
+	{
+		id: 'C-3-1',
+		name: '先锋芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-1',
+		name: '先锋芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-1',
+		name: '先锋双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-1': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-2',
+		name: '近卫芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-2',
+		name: '近卫芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-2',
+		name: '近卫双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-2': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-3',
+		name: '重装芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-3',
+		name: '重装芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-3',
+		name: '重装双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-3': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-4',
+		name: '狙击芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-4',
+		name: '狙击芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-4',
+		name: '狙击双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-4': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-5',
+		name: '术士芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-5',
+		name: '术士芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-5',
+		name: '术士双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-5': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-6',
+		name: '医疗芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-6',
+		name: '医疗芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-6',
+		name: '医疗双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-6': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-7',
+		name: '辅助芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-7',
+		name: '辅助芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-7',
+		name: '辅助双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-7': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'C-3-8',
+		name: '特种芯片',
+		tier: 'T3',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-4-8',
+		name: '特种芯片组',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'C-5-8',
+		name: '特种双芯片',
+		tier: 'T5',
+		source: {},
+		formula: {
+			'C-4-8': 2,
+			'O-4-1': 1,
+		},
+	},
+	{
+		id: 'O-4-1',
+		name: '芯片助剂',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+];
+
+
+class Resource {
+	constructor(id, name, tier, formula, source) {
+		this.id = id;
+		this.name = name;
+		this.tier = tier;
+		this.formula = formula;
+		this.source = source;
+	}
+}
+
+const RESOURCES = {};
+
+[
+	...MATERIALS,
+	...SKILL_BOOKS,
+	...EXP_TAPES,
+	...CHIPS,
+].forEach(M => {
+	RESOURCES[M.id] = new Resource(M.id, M.name, M.tier, M.formula, M.source);
+});
+
+export {
+	RESOURCES,
+	MATERIALS,
+	SKILL_BOOKS,
+	EXP_TAPES,
+	CHIPS,
+};
+
+export default Resource;

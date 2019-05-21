@@ -1,5 +1,4 @@
 import { useReducer } from 'preact/hooks';
-import Requirement from './Requirement';
 
 const reducer = (state, action) => {
 	switch (action.type) {
@@ -18,7 +17,7 @@ const useData = () => {
 	const addRow = (row) => {
 		dispatch({
 			type: 'data.addRow',
-			payload: new Requirement(row, 4, []),
+			payload: row,
 		});
 	};
 

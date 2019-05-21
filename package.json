@@ -17,7 +17,11 @@
     "extends": "eslint-config-synacor",
     "rules": {
       "camelcase": "off",
-      "comma-dangle": ["error", "always-multiline"]
+      "comma-dangle": [
+        "error",
+        "always-multiline"
+      ],
+      "react/jsx-no-bind": "disable"
     }
   },
   "eslintIgnore": [
@@ -34,6 +38,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.6",
+    "fuse.js": "^3.4.4",
     "preact": "^10.0.0-beta.1",
     "preact-compat": "^3.18.5",
     "preact-router": "^3.0.0"

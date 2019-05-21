@@ -24,3 +24,13 @@ html, body {
 	width: 0px;  /* Remove scrollbar space */
 	background: transparent;  /* Optional: just make scrollbar invisible */
 }
+
+input {
+	-webkit-appearance: none;
+	outline: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
