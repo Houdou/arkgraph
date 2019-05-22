@@ -1,6 +1,4 @@
-import { ATTRIBUTES } from './Attributes';
-
-const OPERATORS = [
+exports.OPERATORS = [
 	{ name: '推进之王' },
 	{ name: '能天使' },
 	{ name: '闪灵' },
@@ -60,7 +58,7 @@ const OPERATORS = [
 	{ name: '暗索' },
 	{ name: '地灵' },
 	{ name: '调香师' },
-	{ name: '讯使' },
+	// { name: '讯使' },
 	{ name: '霜叶' },
 	{ name: '清道夫' },
 	{ name: '古米' },
@@ -91,13 +89,3 @@ const OPERATORS = [
 	{ name: 'Lancet-2' },
 	{ name: 'Castle-3' },
 ];
-
-export default class Operator {
-	constructor(name, attributes) {
-		this.name = name;
-		this.attributes = attributes;
-	}
-}
-export {
-	OPERATORS,
-};

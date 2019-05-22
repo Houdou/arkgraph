@@ -14,7 +14,16 @@ const ArkInputCell = (props) => (
 			)
 		}
 	>
-		<input type="number" value={props.content} />
+		<input
+			type="number"
+			value={props.content || props.value}
+			onChange={
+				e => {
+					const value = Math.max(Number(e.target.value), 0);
+					props.onChange && props.onChange(value);
+				}
+			}
+		/>
 	</div>
 );
 

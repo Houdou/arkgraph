@@ -28,6 +28,8 @@
     "build/*"
   ],
   "devDependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
     "eslint": "^4.9.0",
     "eslint-config-synacor": "^2.0.2",
     "identity-obj-proxy": "^3.0.0",

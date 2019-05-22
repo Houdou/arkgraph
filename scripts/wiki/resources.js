@@ -1,4 +1,11 @@
-const MATERIALS = [
+exports.RESOURCES = [
+	{
+		id: 'G-4-1',
+		name: '龙门币',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
 	{
 		id: 'M-5-1',
 		name: 'D32钢',
@@ -403,9 +410,6 @@ const MATERIALS = [
 		},
 		formula: {},
 	},
-];
-
-const SKILL_BOOKS = [
 	{
 		id: 'S-2-1',
 		name: '技巧概要·卷1',
@@ -431,9 +435,6 @@ const SKILL_BOOKS = [
 			'S-3-1': 3,
 		},
 	},
-];
-
-const EXP_TAPES = [
 	{
 		id: 'E-2-1',
 		name: '基础作战记录',
@@ -462,9 +463,6 @@ const EXP_TAPES = [
 		source: {},
 		formula: {},
 	},
-];
-
-const CHIPS = [
 	{
 		id: 'C-3-1',
 		name: '先锋芯片',
@@ -665,45 +663,3 @@ const CHIPS = [
 		formula: {},
 	},
 ];
-
-
-class Resource {
-	constructor(id, name, tier, formula, source) {
-		this.id = id;
-		this.name = name;
-		this.tier = tier;
-		this.formula = formula;
-		this.source = source;
-	}
-}
-
-const RESOURCES = {};
-
-const MONEY = {
-	id: 'G-4-1',
-	name: '龙门币',
-	tier: 'T4',
-	source: {},
-	formula: {},
-};
-
-[
-	MONEY,
-	...MATERIALS,
-	...SKILL_BOOKS,
-	...EXP_TAPES,
-	...CHIPS,
-].forEach(M => {
-	RESOURCES[M.id] = new Resource(M.id, M.name, M.tier, M.formula, M.source);
-});
-
-export {
-	MONEY,
-	RESOURCES,
-	MATERIALS,
-	SKILL_BOOKS,
-	EXP_TAPES,
-	CHIPS,
-};
-
-export default Resource;

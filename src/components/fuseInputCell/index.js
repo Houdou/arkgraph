@@ -30,17 +30,22 @@ const ArkFuseInputCell = (props) => (
 			)
 		}
 	>
-		<input type="text" value={props.content} onChange={e => {
-			const results = fuse.search(e.target.value);
-			if (results.length) {
-				const [{ name }] = results;
-				console.log(name);
-				e.target.value = name;
-			}
-			else {
-				console.log(results);
-			}
-		}}
+		<input
+			type="text"
+			value={props.content || props.value}
+			onChange={e => {
+				const results = fuse.search(e.target.value);
+				if (results.length) {
+					const [{ name }] = results;
+					if (props.onChange) {
+						props.onChange(name);
+					}
+				}
+				else {
+					console.log(results);
+					props.onChange(null);
+				}
+			}}
 		/>
 	</div>
 );

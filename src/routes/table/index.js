@@ -11,13 +11,14 @@ import ArkSummaryRow from './components/SummaryRow';
 import useData from '../../models/useData';
 import Upgrade from '../../models/Upgrade';
 import { ATTRIBUTES } from '../../models/Attributes';
-import { RESOURCES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+import { RESOURCES, MONEY, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
 	{ name: '名称' },
 	{ name: '升级项目' },
 	{ name: '现等级' },
 	{ name: '下一等级' },
+	MONEY,
 	...SKILL_BOOKS,
 	...MATERIALS,
 	...CHIPS,
@@ -64,7 +65,7 @@ const ArkTable = (props) => {
 
 	const resources_filter = (index) =>
 		index < header_list.length && (
-			!header_list[index].tier || header_list[index].tier === 'T3'
+			!header_list[index].tier || header_list[index].tier === 'T4'
 		);
 
 	const global_props = {
@@ -87,7 +88,9 @@ const ArkTable = (props) => {
 				))
 			}
 			{
-				<ArkUpgradeInputRow {...global_props} />
+				<ArkUpgradeInputRow
+					{...global_props}
+				/>
 			}
 		</div>
 	);

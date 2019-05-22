@@ -15,10 +15,15 @@ const ArkDropdownCell = (props) => (
 			)
 		}
 	>
-		<select name={props.name}>
+		<select name={props.name} onChange={e => props.onChange && props.onChange(e.target.value)}>
 			{
 				props.options.map(option => (
-					<option value={option.key}>{option.value}</option>
+					<option
+						value={option.key}
+						selected={option.key === props.value}
+					>
+						{option.value}
+					</option>
 				))
 			}
 		</select>
