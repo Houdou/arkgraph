@@ -9,8 +9,26 @@ import ArkInputCell from '../../../components/inputCell';
 
 import { ATTRIBUTES } from '../../../models/Attributes';
 
+// temp
+import { OPERATORS } from '../../../models/Operators';
+import { RESOURCES } from '../../../models/RESOURCES';
+
 const useRecordKey = () => {
-	const [record_key, setRecordKey] = useState({ operator: null, attribute: null, value: 1 });
+	const [record_key, setRecordKey_raw] = useState({ operator: null, attribute: null, value: 1 });
+	const [requirements, setRequirements] = useState([]);
+
+	const setRecordKey = (to_update) => {
+		const {
+			operator,
+			attribute,
+			value: attribute_level,
+		} = to_update;
+		const matching = OPERATORS.find(o => o.name === operator);
+		if (attribute === ATTRIBUTES.SKILL_LEVEL) {
+			setRequirements(matching.skills[attribute_level - 1].materials);
+		}
+		setRecordKey_raw(to_update);
+	};
 
 	const setOperator = (operator) => {
 		setRecordKey({
@@ -36,6 +54,7 @@ const useRecordKey = () => {
 		setOperator,
 		setAttribute,
 		setValue,
+		requirements,
 	};
 };
 
@@ -54,6 +73,7 @@ const ArkUpgradeInputRow = ({
 		setOperator,
 		setAttribute,
 		setValue,
+		requirements,
 	} = useRecordKey();
 
 	const OperatorInput = (props) => (

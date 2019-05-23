@@ -19,7 +19,7 @@ const ArkDropdownCell = (props) => (
 			{
 				props.options.map(option => (
 					<option
-						value={option.key}
+						value={option.value}
 						selected={option.key === props.value}
 					>
 						{option.value}
