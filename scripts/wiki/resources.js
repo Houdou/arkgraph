@@ -92,7 +92,7 @@ exports.RESOURCES = [
 	},
 	{
 		id: 'M-4-5',
-		name: '改良装置',
+		name: '改量装置',
 		tier: 'T4',
 		source: {
 			'4-10': '罕见',

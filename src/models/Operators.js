@@ -95,7 +95,7 @@ const OPERATORS_LIST = [
 ];
 
 const mapMaterial = (material) => ({
-	resource: Object.entries(RESOURCES).find(([k, v]) => v.name === material.resource),
+	resource: Object.entries(RESOURCES).find(([k, v]) => v.name === material.resource)[1].id,
 	quantity: Number(material.quantity),
 });
 

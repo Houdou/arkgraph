@@ -11,7 +11,7 @@ import { ATTRIBUTES } from '../../../models/Attributes';
 
 // temp
 import { OPERATORS } from '../../../models/Operators';
-import { RESOURCES } from '../../../models/RESOURCES';
+import { RESOURCES } from '../../../models/Resources';
 
 const useRecordKey = () => {
 	const [record_key, setRecordKey_raw] = useState({ operator: null, attribute: null, value: 1 });
