@@ -12,7 +12,7 @@ const parseJson = (record) => {
 		name: record.name,
 		pinyin: [].concat(...pinyin(record.name, {
 			style: pinyin.STYLE_NORMAL,
-		})),
+		})).join(' '),
 	};
 
 	operator.skills = Object.keys(record.materials.skill)
