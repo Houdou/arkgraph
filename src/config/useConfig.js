@@ -1,7 +1,7 @@
 import { useReducer } from 'preact/hooks';
 
 const STORAGE_KEY =  'Towa_ArkTable_Config';
-const STORAGE_VERSION =  '1.0.0';
+export const STORAGE_VERSION =  '1.0.0';
 
 const default_config = {
 	showAllResources: false,

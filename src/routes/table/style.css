@@ -1,5 +1,7 @@
 .table {
-	padding: 56px 0 320px;
+	padding: 56px 0;
+	margin-bottom: 320px;
 	height: 100%;
 	min-height: 100%;
+
 }

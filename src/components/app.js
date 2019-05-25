@@ -7,6 +7,7 @@ import useConfig from '../config/useConfig';
 import Header from './header';
 
 import ArkTable from '../routes/table';
+import ArkInfo from '../routes/info';
 
 const App = (props) => {
 	const [currentUrl, setCurrentUrl] = useState('/');
@@ -19,11 +20,13 @@ const App = (props) => {
 	return (
 		<div id="app">
 			<Header
+				currentUrl={currentUrl}
 				config={config}
 				toggleShowAllResources={toggleShowAllResources}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
 				<ArkTable path="/" config={config} />
+				<ArkInfo path="/info" />
 			</Router>
 		</div>
 	);

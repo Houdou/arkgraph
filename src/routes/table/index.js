@@ -29,17 +29,13 @@ const ArkTable = ({ config }) => {
 	const {
 		state: { data, stock },
 		load,
-		addRow,
 		addEmptyRow,
 		updateRow,
 		removeRow,
 		setStockItem,
-		setStockBulk,
 	} = useData();
 
 	useEffect(() => {
-		// load save
-		// addRow('银灰', ATTRIBUTES.ELITE_LEVEL, 0, 1);
 		load();
 	}, []);
 
