@@ -1,6 +1,12 @@
 [
   {
     "name": "推进之王",
+    "pinyin": [
+      "tui",
+      "jin",
+      "zhi",
+      "wang"
+    ],
     "skills": [
       {
         "level": 1,
@@ -309,12 +315,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "能天使",
+    "pinyin": [
+      "neng",
+      "tian",
+      "shi"
+    ],
     "skills": [
       {
         "level": 1,
@@ -623,12 +634,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "闪灵",
+    "pinyin": [
+      "shan",
+      "ling"
+    ],
     "skills": [
       {
         "level": 1,
@@ -937,12 +952,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "星熊",
+    "pinyin": [
+      "xing",
+      "xiong"
+    ],
     "skills": [
       {
         "level": 1,
@@ -1251,12 +1270,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "伊芙利特",
+    "pinyin": [
+      "yi",
+      "fu",
+      "li",
+      "te"
+    ],
     "skills": [
       {
         "level": 1,
@@ -1565,12 +1590,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "塞雷娅",
+    "pinyin": [
+      "sai",
+      "lei",
+      "ya"
+    ],
     "skills": [
       {
         "level": 1,
@@ -1879,12 +1909,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "银灰",
+    "pinyin": [
+      "yin",
+      "hui"
+    ],
     "skills": [
       {
         "level": 1,
@@ -2193,12 +2227,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "夜莺",
+    "pinyin": [
+      "ye",
+      "ying"
+    ],
     "skills": [
       {
         "level": 1,
@@ -2507,12 +2545,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "艾雅法拉",
+    "pinyin": [
+      "ai",
+      "ya",
+      "fa",
+      "la"
+    ],
     "skills": [
       {
         "level": 1,
@@ -2821,12 +2865,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "安洁莉娜",
+    "pinyin": [
+      "an",
+      "jie",
+      "li",
+      "na"
+    ],
     "skills": [
       {
         "level": 1,
@@ -3135,12 +3185,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "白面鸮",
+    "pinyin": [
+      "bai",
+      "mian",
+      "xiao"
+    ],
     "skills": [
       {
         "level": 1,
@@ -3384,12 +3439,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "德克萨斯",
+    "pinyin": [
+      "de",
+      "ke",
+      "sa",
+      "si"
+    ],
     "skills": [
       {
         "level": 1,
@@ -3633,12 +3694,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "芙兰卡",
+    "pinyin": [
+      "fu",
+      "lan",
+      "ka"
+    ],
     "skills": [
       {
         "level": 1,
@@ -3882,12 +3948,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "幽灵鲨",
+    "pinyin": [
+      "you",
+      "ling",
+      "sha"
+    ],
     "skills": [
       {
         "level": 1,
@@ -4131,12 +4202,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "凛冬",
+    "pinyin": [
+      "lin",
+      "dong"
+    ],
     "skills": [
       {
         "level": 1,
@@ -4380,12 +4455,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "阿米娅",
+    "pinyin": [
+      "a",
+      "mi",
+      "ya"
+    ],
     "skills": [
       {
         "level": 1,
@@ -4686,12 +4766,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 2
+      "max_elite_tier": 2,
+      "max_master_skills": 3
     }
   },
   {
     "name": "普罗旺斯",
+    "pinyin": [
+      "pu",
+      "luo",
+      "wang",
+      "si"
+    ],
     "skills": [
       {
         "level": 1,
@@ -4935,12 +5021,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "蓝毒",
+    "pinyin": [
+      "lan",
+      "du"
+    ],
     "skills": [
       {
         "level": 1,
@@ -5184,12 +5274,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "赫默",
+    "pinyin": [
+      "he",
+      "mo"
+    ],
     "skills": [
       {
         "level": 1,
@@ -5433,12 +5527,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "临光",
+    "pinyin": [
+      "lin",
+      "guang"
+    ],
     "skills": [
       {
         "level": 1,
@@ -5733,12 +5831,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "雷蛇",
+    "pinyin": [
+      "lei",
+      "she"
+    ],
     "skills": [
       {
         "level": 1,
@@ -5982,12 +6084,15 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "红",
+    "pinyin": [
+      "hong"
+    ],
     "skills": [
       {
         "level": 1,
@@ -6231,12 +6336,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "天火",
+    "pinyin": [
+      "tian",
+      "huo"
+    ],
     "skills": [
       {
         "level": 1,
@@ -6480,12 +6589,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "初雪",
+    "pinyin": [
+      "chu",
+      "xue"
+    ],
     "skills": [
       {
         "level": 1,
@@ -6729,12 +6842,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "因陀罗",
+    "pinyin": [
+      "yin",
+      "tuo",
+      "luo"
+    ],
     "skills": [
       {
         "level": 1,
@@ -6978,12 +7096,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "拉普兰德",
+    "pinyin": [
+      "la",
+      "pu",
+      "lan",
+      "de"
+    ],
     "skills": [
       {
         "level": 1,
@@ -7227,12 +7351,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "华法琳",
+    "pinyin": [
+      "hua",
+      "fa",
+      "lin"
+    ],
     "skills": [
       {
         "level": 1,
@@ -7476,12 +7605,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "守林人",
+    "pinyin": [
+      "shou",
+      "lin",
+      "ren"
+    ],
     "skills": [
       {
         "level": 1,
@@ -7725,12 +7859,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "狮蝎",
+    "pinyin": [
+      "shi",
+      "xie"
+    ],
     "skills": [
       {
         "level": 1,
@@ -7974,12 +8112,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "火神",
+    "pinyin": [
+      "huo",
+      "shen"
+    ],
     "skills": [
       {
         "level": 1,
@@ -8223,12 +8365,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "真理",
+    "pinyin": [
+      "zhen",
+      "li"
+    ],
     "skills": [
       {
         "level": 1,
@@ -8472,12 +8618,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "白金",
+    "pinyin": [
+      "bai",
+      "jin"
+    ],
     "skills": [
       {
         "level": 1,
@@ -8721,12 +8871,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "陨星",
+    "pinyin": [
+      "yun",
+      "xing"
+    ],
     "skills": [
       {
         "level": 1,
@@ -8970,12 +9124,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "梅尔",
+    "pinyin": [
+      "mei",
+      "er"
+    ],
     "skills": [
       {
         "level": 1,
@@ -9219,12 +9377,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "可颂",
+    "pinyin": [
+      "ke",
+      "song"
+    ],
     "skills": [
       {
         "level": 1,
@@ -9468,12 +9630,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "崖心",
+    "pinyin": [
+      "ya",
+      "xin"
+    ],
     "skills": [
       {
         "level": 1,
@@ -9717,12 +9883,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "食铁兽",
+    "pinyin": [
+      "shi",
+      "tie",
+      "shou"
+    ],
     "skills": [
       {
         "level": 1,
@@ -9966,12 +10137,15 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "空",
+    "pinyin": [
+      "kong"
+    ],
     "skills": [
       {
         "level": 1,
@@ -10215,12 +10389,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "暴行",
+    "pinyin": [
+      "bao",
+      "hang"
+    ],
     "skills": [
       {
         "level": 1,
@@ -10464,12 +10642,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "深海色",
+    "pinyin": [
+      "shen",
+      "hai",
+      "se"
+    ],
     "skills": [
       {
         "level": 1,
@@ -10709,12 +10892,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "杜宾",
+    "pinyin": [
+      "du",
+      "bin"
+    ],
     "skills": [
       {
         "level": 1,
@@ -10954,12 +11141,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "夜烟",
+    "pinyin": [
+      "ye",
+      "yan"
+    ],
     "skills": [
       {
         "level": 1,
@@ -11199,12 +11390,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "白雪",
+    "pinyin": [
+      "bai",
+      "xue"
+    ],
     "skills": [
       {
         "level": 1,
@@ -11444,12 +11639,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "远山",
+    "pinyin": [
+      "yuan",
+      "shan"
+    ],
     "skills": [
       {
         "level": 1,
@@ -11689,12 +11888,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "流星",
+    "pinyin": [
+      "liu",
+      "xing"
+    ],
     "skills": [
       {
         "level": 1,
@@ -11985,12 +12188,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "末药",
+    "pinyin": [
+      "mo",
+      "yao"
+    ],
     "skills": [
       {
         "level": 1,
@@ -12230,12 +12437,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "蛇屠箱",
+    "pinyin": [
+      "she",
+      "tu",
+      "xiang"
+    ],
     "skills": [
       {
         "level": 1,
@@ -12475,12 +12687,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "艾丝黛尔",
+    "pinyin": [
+      "ai",
+      "si",
+      "dai",
+      "er"
+    ],
     "skills": [
       {
         "level": 1,
@@ -12720,12 +12938,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "嘉维尔",
+    "pinyin": [
+      "jia",
+      "wei",
+      "er"
+    ],
     "skills": [
       {
         "level": 1,
@@ -13016,12 +13239,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "慕斯",
+    "pinyin": [
+      "mu",
+      "si"
+    ],
     "skills": [
       {
         "level": 1,
@@ -13261,12 +13488,15 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "砾",
+    "pinyin": [
+      "li"
+    ],
     "skills": [
       {
         "level": 1,
@@ -13506,12 +13736,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "暗索",
+    "pinyin": [
+      "an",
+      "suo"
+    ],
     "skills": [
       {
         "level": 1,
@@ -13751,12 +13985,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "地灵",
+    "pinyin": [
+      "di",
+      "ling"
+    ],
     "skills": [
       {
         "level": 1,
@@ -13996,12 +14234,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "调香师",
+    "pinyin": [
+      "tiao",
+      "xiang",
+      "shi"
+    ],
     "skills": [
       {
         "level": 1,
@@ -14241,12 +14484,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "霜叶",
+    "pinyin": [
+      "shuang",
+      "ye"
+    ],
     "skills": [
       {
         "level": 1,
@@ -14486,12 +14733,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "清道夫",
+    "pinyin": [
+      "qing",
+      "dao",
+      "fu"
+    ],
     "skills": [
       {
         "level": 1,
@@ -14731,12 +14983,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "古米",
+    "pinyin": [
+      "gu",
+      "mi"
+    ],
     "skills": [
       {
         "level": 1,
@@ -14976,12 +15232,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "角峰",
+    "pinyin": [
+      "jiao",
+      "feng"
+    ],
     "skills": [
       {
         "level": 1,
@@ -15221,12 +15481,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "缠丸",
+    "pinyin": [
+      "chan",
+      "wan"
+    ],
     "skills": [
       {
         "level": 1,
@@ -15466,12 +15730,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "阿消",
+    "pinyin": [
+      "a",
+      "xiao"
+    ],
     "skills": [
       {
         "level": 1,
@@ -15711,12 +15979,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "红豆",
+    "pinyin": [
+      "hong",
+      "dou"
+    ],
     "skills": [
       {
         "level": 1,
@@ -15956,12 +16228,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "杰西卡",
+    "pinyin": [
+      "jie",
+      "xi",
+      "ka"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16201,12 +16478,15 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 1,
-      "max_master_skills": 1
+      "max_elite_tier": 2,
+      "max_master_skills": 2
     }
   },
   {
     "name": "芬",
+    "pinyin": [
+      "fen"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16317,12 +16597,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "克洛丝",
+    "pinyin": [
+      "ke",
+      "luo",
+      "si"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16433,12 +16718,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "炎熔",
+    "pinyin": [
+      "yan",
+      "rong"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16549,12 +16838,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "芙蓉",
+    "pinyin": [
+      "fu",
+      "rong"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16665,12 +16958,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "米格鲁",
+    "pinyin": [
+      "mi",
+      "ge",
+      "lu"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16781,12 +17079,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "卡缇",
+    "pinyin": [
+      "ka",
+      "ti"
+    ],
     "skills": [
       {
         "level": 1,
@@ -16897,12 +17199,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "史都华德",
+    "pinyin": [
+      "shi",
+      "du",
+      "hua",
+      "de"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17013,12 +17321,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "香草",
+    "pinyin": [
+      "xiang",
+      "cao"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17129,12 +17441,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "玫兰莎",
+    "pinyin": [
+      "mei",
+      "lan",
+      "suo"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17245,12 +17562,17 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "安赛尔",
+    "pinyin": [
+      "an",
+      "sai",
+      "er"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17361,12 +17683,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "梓兰",
+    "pinyin": [
+      "zi",
+      "lan"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17477,12 +17803,16 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "翎羽",
+    "pinyin": [
+      "ling",
+      "yu"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17593,12 +17923,18 @@
       }
     ],
     "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
+      "max_elite_tier": 1,
+      "max_master_skills": 1
     }
   },
   {
     "name": "安德切尔",
+    "pinyin": [
+      "an",
+      "de",
+      "qie",
+      "er"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17709,60 +18045,69 @@
       }
     ],
     "meta": {
+      "max_elite_tier": 1,
+      "max_master_skills": 1
+    }
+  },
+  {
+    "name": "夜刀",
+    "pinyin": [
+      "ye",
+      "dao"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      },
+      {
+        "level": 3,
+        "materials": []
+      },
+      {
+        "level": 4,
+        "materials": []
+      },
+      {
+        "level": 5,
+        "materials": []
+      },
+      {
+        "level": 6,
+        "materials": []
+      },
+      {
+        "level": 7,
+        "materials": []
+      },
+      {
+        "level": 8,
+        "materials": []
+      },
+      {
+        "level": 9,
+        "materials": []
+      }
+    ],
+    "skill_names": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
       "max_elite_tier": 0,
       "max_master_skills": 0
     }
   },
   {
-    "name": "夜刀",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
-    }
-  },
-  {
     "name": "巡林者",
+    "pinyin": [
+      "xun",
+      "lin",
+      "zhe"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17805,12 +18150,16 @@
     "master_skills": [],
     "elites": [],
     "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
+      "max_elite_tier": 0,
+      "max_master_skills": 0
     }
   },
   {
     "name": "杜林",
+    "pinyin": [
+      "du",
+      "lin"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17853,12 +18202,16 @@
     "master_skills": [],
     "elites": [],
     "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
+      "max_elite_tier": 0,
+      "max_master_skills": 0
     }
   },
   {
     "name": "黑角",
+    "pinyin": [
+      "hei",
+      "jiao"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17901,12 +18254,15 @@
     "master_skills": [],
     "elites": [],
     "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
+      "max_elite_tier": 0,
+      "max_master_skills": 0
     }
   },
   {
     "name": "12F",
+    "pinyin": [
+      "12F"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17949,12 +18305,15 @@
     "master_skills": [],
     "elites": [],
     "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
+      "max_elite_tier": 0,
+      "max_master_skills": 0
     }
   },
   {
     "name": "Lancet-2",
+    "pinyin": [
+      "Lancet-2"
+    ],
     "skills": [
       {
         "level": 1,
@@ -17997,12 +18356,15 @@
     "master_skills": [],
     "elites": [],
     "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
+      "max_elite_tier": 0,
+      "max_master_skills": 0
     }
   },
   {
     "name": "Castle-3",
+    "pinyin": [
+      "Castle-3"
+    ],
     "skills": [
       {
         "level": 1,
@@ -18045,8 +18407,8 @@
     "master_skills": [],
     "elites": [],
     "meta": {
-      "max_elite_tier": -1,
-      "max_master_skills": -1
+      "max_elite_tier": 0,
+      "max_master_skills": 0
     }
   }
 ]

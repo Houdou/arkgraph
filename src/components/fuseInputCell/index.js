@@ -13,7 +13,7 @@ const options = {
 	maxPatternLength: 32,
 	minMatchCharLength: 1,
 	keys: [
-		'name',
+		'name', 'pinyin',
 	],
 };
 const fuse = new Fuse(OPERATORS, options);
@@ -40,8 +40,7 @@ const ArkFuseInputCell = (props) => (
 					if (props.onChange) {
 						props.onChange(name);
 					}
-				}
-				else {
+				} else {
 					console.log(results);
 					props.onChange(null);
 				}

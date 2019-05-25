@@ -1,3 +1,4 @@
+const pinyin = require('pinyin');
 const { RESOURCES } = require('./resources');
 const operators = require('./materials.json');
 
@@ -9,6 +10,9 @@ const mapMaterial = (material) => ({
 const parseJson = (record) => {
 	const operator = {
 		name: record.name,
+		pinyin: [].concat(...pinyin(record.name, {
+			style: pinyin.STYLE_NORMAL,
+		})),
 	};
 
 	operator.skills = Object.keys(record.materials.skill)
