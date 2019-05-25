@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import React from 'preact';
 
 import ArkRow from '../../../components/row';
 
@@ -10,6 +10,7 @@ const ArkTableHeader = ({
 	<ArkRow
 		cells={
 			[
+				{ content: '☰', halfwidth: true },
 				{ content: '名称' },
 				{ content: '升级项目' },
 				{ content: '现等级' },

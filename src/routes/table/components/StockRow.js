@@ -1,29 +1,49 @@
-import { h } from 'preact';
+import React from 'preact';
 
+import ArkInputCell from '../../../components/inputCell';
 import ArkRow from '../../../components/row';
 
 const ArkStockRow = ({
 	record,
+	stock,
+	setStockItem,
 	header_list,
 	header_skip,
 	resources_filter,
-}) => (
-	<ArkRow
-		cells={
-			[
-				{ content: '' },
-				{ content: '' },
-				{ content: '' },
-				{ content: '库存' },
-				...Array.from(header_list)
-					.splice(header_skip, header_list.length - header_skip)
-					.map(e => ({
-						input: true,
-					})),
-			]
-		}
-		resources_filter={resources_filter}
-	/>
-);
+}) => {
+
+	const StockInput = ({ resource, tabIndex }) => (
+		<ArkInputCell
+			name={resource}
+			value={Number(stock[resource.id]) || 0}
+			onChange={quantity => {
+				setStockItem(resource.id, quantity);
+			}}
+			tabIndex={tabIndex}
+		/>
+	);
+
+	const stock_inputs = Array.from(header_list)
+		.splice(header_skip, header_list.length - header_skip)
+		.map((e, i) => (
+			(props) => (<StockInput resource={e} tabIndex={i + 1} {...props} />)
+		));
+
+	return (
+		<ArkRow
+			cells={
+				[
+					{ content: '', halfwidth: true },
+					{ content: '' },
+					{ content: '' },
+					{ content: '' },
+					{ content: '库存' },
+					...stock_inputs,
+				]
+			}
+			resources_filter={resources_filter}
+		/>
+	);
+};
 
 export default ArkStockRow;

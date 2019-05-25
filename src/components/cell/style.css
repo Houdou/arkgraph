@@ -36,7 +36,14 @@
 .cell.header.T5 {
 	background-color: #FCC90E;
 }
-
+.cell.fullwidth {
+	width: auto;
+	min-width: inherit;
+}
+.cell.halfwidth {
+	width: 60px;
+	min-width: 60px;
+}
 .cell span {
 	text-align: center
 }

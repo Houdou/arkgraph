@@ -8,6 +8,10 @@
 	background: linear-gradient(295deg, #0CC3E7 0%, #0D2A36 90%);
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 	z-index: 999;
+
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
 }
 
 .header h1 {
@@ -19,6 +23,10 @@
 	font-weight: 400;
 	color: #FFF;
 	text-shadow: 0px 1px 10px rgba(220, 180, 255, 0.4);
+
+	min-width: 40%;
+	flex-grow: 2;
+	flex-shrink: 0;
 }
 
 .header nav {
@@ -46,4 +54,36 @@
 
 .header nav a.active {
 	background: rgba(0,0,0,0.4);
+}
+
+.toggles {
+	flex-grow: 1;
+
+	display: flex;
+	flex-flow: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+}
+
+.toggle {
+	height: 100%;
+	width: auto;
+	background: #77777777;
+	color: #DDD;
+	font-size: 14px;
+	text-shadow: 0px 1px 10px rgba(220, 180, 255, 0.4);
+	display: flex;
+	flex-flow: row-reverse;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 5px 16px;
+	user-select: none;
+
+	transition: background 0.6s ease, color 0.6s ease;
+}
+.toggle.enable {
+	background: #333333EE;
+	color: #EEE;
 }

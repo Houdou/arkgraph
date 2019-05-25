@@ -1,6 +1,7 @@
 import React from 'preact';
-import { useState } from 'preact/hooks';
 
+import ArkCell from '../../../components/cell';
+import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
 
 import ArkFuseInputCell from '../../../components/fuseInputCell';
@@ -8,103 +9,94 @@ import ArkDropdownCell from '../../../components/dropdown';
 import ArkInputCell from '../../../components/inputCell';
 
 import { ATTRIBUTES } from '../../../models/Attributes';
-
-// temp
 import { OPERATORS } from '../../../models/Operators';
-import { RESOURCES } from '../../../models/Resources';
 
-const useRecordKey = () => {
-	const [record_key, setRecordKey_raw] = useState({ operator: null, attribute: null, value: 1 });
-	const [requirements, setRequirements] = useState([]);
-
-	const setRecordKey = (to_update) => {
-		const {
-			operator,
-			attribute,
-			value: attribute_level,
-		} = to_update;
-		const matching = OPERATORS.find(o => o.name === operator);
-		if (attribute === ATTRIBUTES.SKILL_LEVEL) {
-			setRequirements(matching.skills[attribute_level - 1].materials);
-		}
-		setRecordKey_raw(to_update);
-	};
-
-	const setOperator = (operator) => {
-		setRecordKey({
-			...record_key,
-			operator,
-		});
-	};
-	const setAttribute = (attribute) => {
-		setRecordKey({
-			...record_key,
-			attribute,
-		});
-	};
-	const setValue = (value) => {
-		setRecordKey({
-			...record_key,
-			value,
-		});
-	};
-
-	return {
-		record_key,
-		setOperator,
-		setAttribute,
-		setValue,
-		requirements,
-	};
-};
+import useRecord from '../../../models/useRecord';
 
 const ArkUpgradeInputRow = ({
-	record,
+	record: init_record,
+	record_index,
+	update,
+	remove,
 	header_list,
 	header_skip,
 	resources_filter,
 }) => {
 	const {
-		record_key: {
+		record: {
 			operator,
 			attribute,
-			value: attribute_level,
+			current,
+			target,
+			requirements,
 		},
 		setOperator,
 		setAttribute,
-		setValue,
-		requirements,
-	} = useRecordKey();
+		setCurrent,
+		setTarget,
+	} = useRecord(init_record);
 
 	const OperatorInput = (props) => (
 		<ArkFuseInputCell {...props}
-			value={operator} onChange={value => setOperator(value)}
+			value={operator} onChange={value => {
+				update(setOperator(value));
+			}}
 		/>
 	);
+
+	const options = Object.entries(ATTRIBUTES).map(([k, v]) => ({ key: k, value: v }));
+	const operator_data = OPERATORS.find(o => o.name === operator);
+	const unavailable_attributes = [];
+	if (operator_data) {
+		if (operator_data.meta.max_master_skills < 2) {
+			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_3);
+		}
+		if (operator_data.meta.max_master_skills < 1) {
+			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_2);
+		}
+	}
+
 	const AttributeInput = (props) => (
 		<ArkDropdownCell {...props}
-			options={Object.entries(ATTRIBUTES).map(([k, v]) => ({ key: k, value: v }))}
-			value={attribute} onChange={value => setAttribute(value)}
+			options={options.filter(option => !unavailable_attributes.includes(option.value))}
+			value={attribute} onChange={value => {
+				update(setAttribute(value));
+			}}
 		/>
 	);
-	const ValueInput = (props) => (
+	const CurrentInput = (props) => (
 		<ArkInputCell {...props}
-			value={attribute_level} onChange={value => setValue(value)}
+			value={current} onChange={value => {
+				update(setCurrent(value));
+			}}
 		/>
 	);
+
+	const RemoveButton = (props) => (
+		<ArkCell halfwidth>
+			<ArkButton value="-" onClick={() => remove()} />
+		</ArkCell>
+	);
+
+	const summary = requirements.reduce((prev, next) => {
+		prev[next.resource] = prev[next.resource] || 0;
+		prev[next.resource] += next.quantity;
+		return prev;
+	}, {});
 
 	return (
 		<ArkRow
 			cells={
 				[
+					RemoveButton,
 					OperatorInput,
 					AttributeInput,
-					ValueInput,
-					{ content: attribute_level + 1 },
+					CurrentInput,
+					{ content: current + 1 },
 					...Array.from(header_list)
 						.splice(header_skip, header_list.length - header_skip)
 						.map(e => ({
-							content: '',
+							content: summary[e.id] || '',
 						})),
 				]
 			}

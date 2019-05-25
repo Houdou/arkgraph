@@ -8,20 +8,24 @@
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
     "build": "preact build",
-    "serve": "preact build && preact serve --port 3000",
+    "serve": "preact build --no-prerender && preact serve --port 3000",
     "dev": "preact watch --port 3000",
-    "lint": "eslint src",
-    "test": "jest"
+    "lint": "eslint src"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor",
     "rules": {
+      "brace-style": [
+        "error",
+        "1tbs"
+      ],
       "camelcase": "off",
       "comma-dangle": [
         "error",
         "always-multiline"
       ],
-      "react/jsx-no-bind": "disable"
+      "react/jsx-no-bind": "disable",
+      "react/display-name": "disable"
     }
   },
   "eslintIgnore": [
@@ -35,43 +39,13 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
     "per-env": "^1.0.2",
-    "preact-cli": "^2.1.0",
+    "preact-cli": "^3.0.0-next.19",
     "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
     "classnames": "^2.2.6",
     "fuse.js": "^3.4.4",
     "preact": "^10.0.0-beta.1",
-    "preact-compat": "^3.18.5",
     "preact-router": "^3.0.0"
-  },
-  "jest": {
-    "verbose": true,
-    "setupFiles": [
-      "<rootDir>/tests/__mocks__/browserMocks.js"
-    ],
-    "testRegex": "(/(__tests__|tests)/.*|(\\.|/)(test|spec))\\.jsx?$",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "<rootDir>/tests/__mocks__/*"
-    ],
-    "testURL": "http://localhost:3000",
-    "moduleFileExtensions": [
-      "js",
-      "jsx"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/tests/__mocks__/fileMock.js",
-      "\\.(css|less|scss)$": "identity-obj-proxy",
-      "^./style$": "identity-obj-proxy",
-      "^preact$": "<rootDir>/node_modules/preact/dist/preact.min.js",
-      "^react$": "preact-compat",
-      "^react-dom$": "preact-compat",
-      "^create-react-class$": "preact-compat/lib/create-react-class",
-      "^react-addons-css-transition-group$": "preact-css-transition-group"
-    }
   }
 }

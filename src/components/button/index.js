@@ -3,24 +3,24 @@ import style from './style';
 import cn from 'classnames';
 
 const ArkCell = (props) => (
-	<div
+	<button
 		class={
 			cn(
-				style.cell,
+				style.button,
 				style[props.header_level],
 				{
 					[style.header]: props.header,
-					[style.fullwidth]: props.fullwidth,
-					[style.halfwidth]: props.halfwidth,
+					[style.empty]: !props.content,
 				}
 			)
 		}
 		style={props.style}
+		onClick={e => props.onClick && props.onClick(e)}
 	>
 		{
-			props.content || props.children
+			props.value || props.children
 		}
-	</div>
+	</button>
 );
 
 export default ArkCell;

@@ -1,28 +1,32 @@
-import { h, Component } from 'preact';
+import React from 'preact';
 import { Router } from 'preact-router';
+import { useState, useEffect } from 'preact/hooks';
+
+import useConfig from '../config/useConfig';
 
 import Header from './header';
 
 import ArkTable from '../routes/table';
 
-export default class App extends Component {
+const App = (props) => {
+	const [currentUrl, setCurrentUrl] = useState('/');
+	const { config, load, toggleShowAllResources } = useConfig();
 
-	/** Gets fired when the route changes.
-	 *	@param {Object} event		"change" event from [preact-router](http://git.io/preact-router)
-	 *	@param {string} event.url	The newly routed URL
-	 */
-	handleRoute = e => {
-	  this.currentUrl = e.url;
-	};
+	useEffect(() => {
+		load();
+	}, []);
 
-	render() {
-	  return (
-	    <div id="app">
-	      <Header />
-	      <Router onChange={this.handleRoute}>
-	        <ArkTable path="/" />
-	      </Router>
-	    </div>
-	  );
-	}
-}
+	return (
+		<div id="app">
+			<Header
+				config={config}
+				toggleShowAllResources={toggleShowAllResources}
+			/>
+			<Router onChange={e => setCurrentUrl(e.url)}>
+				<ArkTable path="/" config={config} />
+			</Router>
+		</div>
+	);
+};
+
+export default App;

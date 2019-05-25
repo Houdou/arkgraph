@@ -1,94 +1,90 @@
-import { h } from 'preact';
-import { useEffect } from 'preact/hooks';
+import React from 'preact';
+import { useEffect, useMemo } from 'preact/hooks';
 import style from './style';
 
 import ArkTableHeader from './components/TableHeader';
-import ArkUpgradeRow from './components/UpgradeRow';
+import ArkNewUpgradeRow from './components/NewUpgradeRow';
 import ArkUpgradeInputRow from './components/UpgradeInputRow';
 import ArkStockRow from './components/StockRow';
 import ArkSummaryRow from './components/SummaryRow';
 
 import useData from '../../models/useData';
-import Upgrade from '../../models/Upgrade';
+import sumRequirements from '../../models/sumRequirements';
 import { ATTRIBUTES } from '../../models/Attributes';
-import { RESOURCES, MONEY, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+import { MONEY, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
+	{ name: '☰' },
 	{ name: '名称' },
 	{ name: '升级项目' },
 	{ name: '现等级' },
 	{ name: '下一等级' },
 	MONEY,
-	...SKILL_BOOKS,
 	...MATERIALS,
+	...SKILL_BOOKS,
 	...CHIPS,
 ];
 
-const ArkTable = (props) => {
+const ArkTable = ({ config }) => {
 	const {
-		state: { data },
+		state: { data, stock },
+		load,
 		addRow,
+		addEmptyRow,
+		updateRow,
+		removeRow,
+		setStockItem,
+		setStockBulk,
 	} = useData();
 
 	useEffect(() => {
-		addRow(
-			new Upgrade(
-				'陨星',
-				ATTRIBUTES.SKILL_LEVEL,
-				6,
-				7,
-				[
-					{
-						resource: RESOURCES['S-3-1'],
-						quantity: 6,
-					},
-					{
-						resource: RESOURCES['M-3-2'],
-						quantity: 2,
-					},
-					{
-						resource: RESOURCES['M-3-7'],
-						quantity: 4,
-					},
-				]
-			)
-		);
+		// load save
+		// addRow('银灰', ATTRIBUTES.ELITE_LEVEL, 0, 1);
+		load();
 	}, []);
 
-	const summary = data.map(record => record.requirements).reduce((prev, next) => {
-		next.forEach(requirement => {
-			prev[requirement.resource.id] = prev[requirement.resource.id] || 0;
-			prev[requirement.resource.id] += requirement.quantity;
-		});
-		return prev;
-	}, {});
+	const summary = useMemo(() => sumRequirements(data), [data]);
+	const presented = Object.keys(summary);
 
-	const resources_filter = (index) =>
-		index < header_list.length && (
-			!header_list[index].tier || header_list[index].tier === 'T4'
-		);
+	const resources_filter = (index) => {
+		const is_prefix = index < 5;
+		const is_in_range = index < header_list.length;
+
+		const is_item_presented = config.showAllResources || presented.includes(header_list[index].id) || presented.length === 0;
+
+		return is_in_range && (is_prefix || is_item_presented);
+	};
 
 	const global_props = {
+		data,
 		header_list,
-		header_skip: 4,
+		header_skip: 5,
 		resources_filter,
 	};
 
 	return (
 		<div class={style.table}>
 			<ArkTableHeader {...global_props} />
-			<ArkStockRow {...global_props} />
+			<ArkStockRow
+				stock={stock}
+				setStockItem={setStockItem}
+				{...global_props}
+			/>
 			<ArkSummaryRow summary={summary} {...global_props} />
 			{
-				data && data.map(record => (
-					<ArkUpgradeRow
+				data && data.map((record, index) => (
+					<ArkUpgradeInputRow
 						record={record}
+						record_index={index}
+						update={(row) => updateRow(index, row)}
+						remove={() => removeRow(index)}
 						{...global_props}
 					/>
 				))
 			}
 			{
-				<ArkUpgradeInputRow
+				<ArkNewUpgradeRow
+					addEmptyRow={addEmptyRow}
 					{...global_props}
 				/>
 			}
