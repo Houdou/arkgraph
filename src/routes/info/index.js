@@ -29,6 +29,8 @@ const Info = (props) => (
 			<blockquote><p>虽然干员没有显示备选项，但大概输对了就能找到（</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.0.1</h3>
+			<ul><li>实现了干员名称拼音输入查找.β</li></ul>
 			<h3>V1.0.0</h3>
 			<ul><li>实现了基本功能</li></ul>
 	    <hr />
