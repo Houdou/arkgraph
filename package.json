@@ -7,7 +7,7 @@
     "start": "per-env",
     "start:production": "npm run -s serve",
     "start:development": "npm run -s dev",
-    "build": "preact build",
+    "build": "preact build --no-prerender",
     "serve": "preact build --no-prerender && preact serve --port 3000",
     "dev": "preact watch --port 3000",
     "lint": "eslint src"
