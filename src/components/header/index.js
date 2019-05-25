@@ -9,7 +9,7 @@ const Header = ({
 	toggleShowAllResources,
 }) => (
 	<header class={style.header}>
-		<h1><span style="font-family: 'san-serif'; font-weight: 100;">:.:</span>  Ark Table</h1>
+		<h1><span style="font-family: 'san-serif'; font-weight: 100;">:.:</span>  明日方舟 | 材料计算器</h1>
 		<div class={style.toggles}>
 			<Toggle
 				value={config.showAllResources}

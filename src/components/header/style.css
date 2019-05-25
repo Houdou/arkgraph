@@ -7,7 +7,7 @@
 	padding: 0;
 	background: linear-gradient(295deg, #0CC3E7 0%, #0D2A36 90%);
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-	z-index: 999;
+	z-index: 99;
 
 	display: flex;
 	flex-flow: row;

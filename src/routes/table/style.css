@@ -1,9 +1,5 @@
 .table {
 	padding: 56px 0 320px;
-	margin: 0;
 	height: 100%;
 	min-height: 100%;
-
-	overflow: scroll;
-	-ms-overflow-style: none;
 }
