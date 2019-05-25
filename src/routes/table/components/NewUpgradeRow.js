@@ -9,10 +9,8 @@ const ArkNewUpgradeRow = ({
 	resources_filter,
 	addEmptyRow,
 }) => {
-	const new_upgrade_button = (props) => (
-		<ArkCell
-			halfwidth
-		>
+	const new_upgrade_input = (props) => (
+		<ArkCell>
 			<ArkButton value="+" onClick={e => {
 				addEmptyRow();
 			}}
@@ -24,8 +22,8 @@ const ArkNewUpgradeRow = ({
 		<ArkRow
 			cells={
 				[
-					new_upgrade_button,
-					{ content: '' },
+					{ content: '', halfwidth: true },
+					new_upgrade_input,
 					{ content: '' },
 					{ content: '' },
 					{ content: '' },
