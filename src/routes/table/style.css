@@ -1,6 +1,8 @@
 .table {
-	padding: 56px 0;
-	margin-bottom: 320px;
-	height: 100%;
+	padding: 56px 0 0;
+	margin-bottom: 120px;
+}
 
+.materials {
+	margin-top: 56px;
 }

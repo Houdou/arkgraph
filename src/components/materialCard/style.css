@@ -1,0 +1,81 @@
+.wrapper {
+  padding: 10px;
+}
+.card {
+  width: auto;
+  min-width: 220px;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 0 12px 8px;
+  color: #333;
+  border: 1px #AAA solid;
+  box-shadow: 0px 3px 5px rgba(24, 24, 24, 0.8);
+  background: linear-gradient(180deg, rgba(221, 221, 221, 0.93) 0%, rgba(254, 254, 254, 0.93) 70%, rgba(254, 254, 254, 0.93) 100%);
+}
+.card hr {
+  border-top: 0.5px #666 solid;
+  border-bottom: 0.5px transparent solid;
+}
+.item {
+  height: 60px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgba(254, 254, 254, 0.85) 0%, rgba(254, 254, 254, 0.93) 7%, rgba(221, 221, 221, 0.93) 100%);
+}
+.source_level {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3px;
+  padding-left: 40px;
+}
+.source_level span {
+  margin-left: 8px;
+}
+.formula {
+  height: auto;
+  padding: 24px 0 18px;
+}
+.formula.line {
+  justify-content: flex-start;
+}
+.ingredient {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.description {
+  margin: 5px 0;
+}
+.line {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.section {
+  text-shadow: 0px 0px 2px rgba(240, 240, 240, 0.2);
+  border-radius: 1px;
+  overflow: hidden;
+}
+.black, .grey {
+  display: inline-block;
+  padding: 2px 8px;
+}
+.black {
+	color: #CCCCCC;
+	background-color: #111;
+  text-shadow: 0px 0px 2px rgba(240, 240, 240, 0.2);
+}
+.grey {
+	color: #111;
+  background-color: #888;
+  text-shadow: 0px 0px 2px rgba(24, 24, 24, 0.2);
+}
+.stock .black {
+  padding: 2px;
+}
+.stock .grey {
+  padding: 2px 5px;
+}

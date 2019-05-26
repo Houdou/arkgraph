@@ -21,10 +21,14 @@ const ArkItem = (props) => {
 					}
 				)
 			}
-			style={props.style}
 		>
 			<div class={style.wrapper}>
-				<div class={style.composer} >
+				<div
+					class={style.composer}
+					style={{
+						transform: `scale(${props.scale || 0.3})`,
+					}}
+				>
 					<img src={`../../assets/materials/${material_id}.png`} class={style.item} alt="material_id" />
 					<img src={`../../assets/cards/${card_tier}.png`} class={style.card} alt="card_tier" />
 				</div>

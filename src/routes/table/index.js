@@ -7,6 +7,7 @@ import ArkNewUpgradeRow from './components/NewUpgradeRow';
 import ArkUpgradeInputRow from './components/UpgradeInputRow';
 import ArkStockRow from './components/StockRow';
 import ArkSummaryRow from './components/SummaryRow';
+import ArkFocusMaterials from './sections/FocusMaterials';
 
 import sumRequirements from '../../models/sumRequirements';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
@@ -62,32 +63,35 @@ const ArkTable = ({
 	};
 
 	return (
-		<div class={style.table}>
-			<ArkTableHeader {...global_props} />
-			<ArkStockRow
-				stock={stock}
-				setStockItem={setStockItem}
-				{...global_props}
-			/>
-			<ArkSummaryRow summary={summary} {...global_props} />
-			{
-				records && records.map((record, index) => (
-					<ArkUpgradeInputRow
-						key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${index}`}
-						record={record}
-						record_index={index}
-						update={updateRow}
-						remove={removeRow}
-						{...global_props}
-					/>
-				))
-			}
-			{
+		<div>
+			<div class={style.table}>
+				<ArkTableHeader {...global_props} />
+				<ArkStockRow
+					stock={stock}
+					setStockItem={setStockItem}
+					{...global_props}
+				/>
+				<ArkSummaryRow summary={summary} {...global_props} />
+				{
+					records && records.map((record, index) => (
+						<ArkUpgradeInputRow
+							key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${index}`}
+							record={record}
+							record_index={index}
+							update={updateRow}
+							remove={removeRow}
+							{...global_props}
+						/>
+					))
+				}
 				<ArkNewUpgradeRow
 					addEmptyRow={addEmptyRow}
 					{...global_props}
 				/>
-			}
+			</div>
+			<div class={style.materials}>
+				<ArkFocusMaterials stock={stock} />
+			</div>
 		</div>
 	);
 };
