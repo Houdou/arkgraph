@@ -10,6 +10,7 @@ const ArkCell = (props) => (
 				style[props.header_level],
 				{
 					[style.header]: props.header,
+					[style.icons_header]: props.icons_header,
 					[style.fullwidth]: props.fullwidth,
 					[style.halfwidth]: props.halfwidth,
 				}
@@ -17,9 +18,9 @@ const ArkCell = (props) => (
 		}
 		style={props.style}
 	>
-		{
-			props.content || props.children
-		}
+		{ props.children || (
+			<p>{props.content}</p>
+		)}
 	</div>
 );
 

@@ -15,7 +15,7 @@ function process_attribute(raw) {
 	if (resource === '等级需求') {
 		return null;
 	}
-	quantity = quantity.replace('w', '0000');
+	quantity = quantity.includes('w') ?  Number(quantity.replace('w', '')) * 10000 : Number(quantity);
 
 	return {
 		resource,

@@ -9,6 +9,7 @@ const Header = ({
 	currentUrl,
 	config,
 	toggleShowAllResources,
+	toggleShowMaterialIcons,
 }) => (
 	<header class={style.header}>
 		<div class={style.title}>
@@ -30,6 +31,11 @@ const Header = ({
 						value={config.showAllResources}
 						toggle={toggleShowAllResources}
 						content="显示全部资源"
+					/>
+					<Toggle
+						value={config.showMaterialIcons}
+						toggle={toggleShowMaterialIcons}
+						content="显示图标"
 					/>
 				</div>
 			)

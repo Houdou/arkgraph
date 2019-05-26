@@ -12,4 +12,5 @@
 	position: sticky;
 	top: 56px;
 	z-index: 999;
+	box-shadow: 1px 2px 3px 0px #33333333;
 }

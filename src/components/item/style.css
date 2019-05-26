@@ -1,0 +1,25 @@
+.wrapper {
+  width: 56px;
+  height: 40px;
+}
+
+.composer {
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: scale(0.3);
+  position: relative;
+}
+
+.item {
+  z-index: 9901;
+}
+.card {
+  z-index: 9900;
+}
+
+.item, .card {
+  position: absolute;
+}

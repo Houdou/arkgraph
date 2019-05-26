@@ -9,9 +9,18 @@ import Header from './header';
 import ArkTable from '../routes/table';
 import ArkInfo from '../routes/info';
 
+import useData from '../models/useData';
+
 const App = (props) => {
 	const [currentUrl, setCurrentUrl] = useState('/');
-	const { config, load, toggleShowAllResources } = useConfig();
+	const {
+		config,
+		load,
+		toggleShowAllResources,
+		toggleShowMaterialIcons,
+	} = useConfig();
+
+	const data = useData();
 
 	useEffect(() => {
 		load();
@@ -23,9 +32,10 @@ const App = (props) => {
 				currentUrl={currentUrl}
 				config={config}
 				toggleShowAllResources={toggleShowAllResources}
+				toggleShowMaterialIcons={toggleShowMaterialIcons}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
-				<ArkTable path="/" config={config} />
+				<ArkTable path="/" config={config} data={data} />
 				<ArkInfo path="/info" />
 			</Router>
 		</div>

@@ -3,7 +3,9 @@ import { useReducer } from 'preact/hooks';
 import Upgrade from './Upgrade';
 
 const STORAGE_KEY =  'Towa_ArkTable_Save';
-const STORAGE_VERSION =  '1.0.0';
+const STORAGE_VERSION =  '1.0.1';
+
+const default_state = { records: [], stock: {} };
 
 const reducer = (state, action) => {
 	let newState = state;
@@ -12,25 +14,25 @@ const reducer = (state, action) => {
 			const newRow = new Upgrade(...action.payload);
 			newState = {
 				...state,
-				data: [...state.data, newRow],
+				records: [...state.records, newRow],
 			};
 			break;
 		}
 		case 'data.updateRow': {
-			const newData = Array.from(state.data);
+			const newData = Array.from(state.records);
 			newData.splice(action.payload.index, 1, action.payload.row);
 			newState = {
 				...state,
-				data: newData,
+				records: newData,
 			};
 			break;
 		}
 		case 'data.removeRow': {
-			const newData = Array.from(state.data);
+			const newData = Array.from(state.records);
 			newData.splice(action.payload, 1);
 			newState = {
 				...state,
-				data: newData,
+				records: newData,
 			};
 			break;
 		}
@@ -54,14 +56,22 @@ const reducer = (state, action) => {
 			try {
 				if (json) {
 					const loaded = JSON.parse(json);
-					if (!loaded.data || !loaded.stock)
+					if (!loaded.records || !loaded.stock) {
+						// 1.0.0 -> 1.0.1 Patch
+						if (loaded.version === '1.0.0') {
+							loaded.records = loaded.data;
+							delete loaded.data;
+							loaded.version = '1.0.1';
+							return loaded;
+						}
 						throw new Error('Failed to load save');
+					}
 
 					return loaded;
 				}
 			} catch (err) {
 				window.localStorage.removeItem(STORAGE_KEY);
-				return { data: [], stock: {} };
+				return default_state;
 			}
 			break;
 		}
@@ -80,7 +90,7 @@ const reducer = (state, action) => {
 };
 
 const useData = () => {
-	const [state, dispatch] = useReducer(reducer, { data: [], stock: {} });
+	const [state, dispatch] = useReducer(reducer, default_state);
 
 	const load = () => {
 		dispatch({
