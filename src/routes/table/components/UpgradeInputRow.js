@@ -102,7 +102,7 @@ const ArkUpgradeInputRow = ({
 					OperatorInput,
 					AttributeInput,
 					CurrentInput,
-					{ content: current + 1 },
+					{ content: Number(current + 1) || '' },
 					...Array.from(header_list)
 						.splice(header_skip, header_list.length - header_skip)
 						.map(e => ({
