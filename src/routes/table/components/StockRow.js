@@ -23,11 +23,16 @@ const ArkStockRow = ({
 		/>
 	);
 
+	let tab_index_count = 1;
 	const stock_inputs = Array.from(header_list)
 		.splice(header_skip, header_list.length - header_skip)
-		.map((e, i) => (
-			(props) => (<StockInput resource={e} tabIndex={i + 1} {...props} />)
-		));
+		.map((e, i) => {
+			let tab_index = -1;
+			if (resources_filter(i + header_skip)) {
+				tab_index = tab_index_count++;
+			}
+			return (props) => (<StockInput resource={e} tabIndex={tab_index} {...props} />);
+		});
 
 	return (
 		<ArkRow
