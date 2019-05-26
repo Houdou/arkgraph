@@ -27,7 +27,15 @@
 .info a {
   color: #EEE;
 }
-
+.info code {
+  display: inline-block;
+  border: 1px #888 solid;
+  border-radius: 3px;
+  color: #EEE;
+  background-color: #222;
+  padding: 1px 5px;
+  margin: 0 3px;
+}
 .info ul {
   list-style-type: none;
   padding: 0 20px;

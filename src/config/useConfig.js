@@ -5,7 +5,7 @@ export const STORAGE_VERSION =  '1.0.3';
 
 const default_config = {
 	showAllResources: false,
-	showMaterialIcons: false,
+	showMaterialIcons: true,
 };
 
 const reducer = (state, action) => {
