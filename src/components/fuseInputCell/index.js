@@ -12,9 +12,13 @@ const options = {
 	distance: 100,
 	maxPatternLength: 32,
 	minMatchCharLength: 1,
-	keys: [
-		'name', 'pinyin',
-	],
+	keys: [{
+		name: 'name',
+		weight: 0.3,
+	}, {
+		name: 'pinyin',
+		weight: 0.7,
+	}],
 };
 const fuse = new Fuse(OPERATORS, options);
 

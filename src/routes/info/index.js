@@ -28,9 +28,14 @@ const Info = (props) => (
 				<li>……</li>
 			</ul>
 			<h3>Tips</h3>
-			<blockquote><p>虽然干员没有显示备选项，但大概输对了就能找到（</p></blockquote>
+			<blockquote><p>虽然干员没有显示备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.0.4</h3>
+			<ul>
+				<li>进一步提高了干员名称拼音输入查找的准确性</li>
+				<li>修复了一些操作Bug</li>
+			</ul>
 			<h3>V1.0.3</h3>
 			<ul>
 				<li>添加了材料图标</li>
