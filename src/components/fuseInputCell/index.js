@@ -31,6 +31,7 @@ const ArkFuseInputCell = (props) => (
 		}
 	>
 		<input
+			ref={props.inputRef}
 			type="text"
 			value={props.content || props.value}
 			onChange={e => {

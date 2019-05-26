@@ -1,4 +1,5 @@
 import React from 'preact';
+import { useEffect, useRef } from 'preact/hooks';
 
 import ArkCell from '../../../components/cell';
 import ArkButton from '../../../components/button';
@@ -36,8 +37,17 @@ const ArkUpgradeInputRow = ({
 		setTarget,
 	} = useRecord(init_record);
 
+	const operatorInputRef = useRef(null);
+
+	useEffect(() => {
+		if (!operator) {
+			operatorInputRef.current && operatorInputRef.current.focus();
+		}
+	}, []);
+
 	const OperatorInput = (props) => (
 		<ArkFuseInputCell {...props}
+			inputRef={operatorInputRef}
 			value={operator} onChange={value => {
 				update(setOperator(value));
 			}}
