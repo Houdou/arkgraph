@@ -12,7 +12,7 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 				// No date yet
 				break;
 			case ATTRIBUTES.ELITE_LEVEL:
-				current = clampRange(current, 0, operator.meta.max_elite_tier);
+				current = clampRange(current, 0, operator.meta.max_elite_tier - 1);
 				requirements = operator.elites[current].materials;
 				break;
 			case ATTRIBUTES.SKILL_LEVEL:
@@ -31,7 +31,6 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 					attribute = ATTRIBUTES[`MASTER_SKILL_${operator.meta.max_master_skills}`];
 				}
 				break;
-
 			case ATTRIBUTES.MASTER_SKILL_3:
 				if (operator.meta.max_master_skills >= 2) {
 					current = clampRange(current, 0, 2);
@@ -40,10 +39,8 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 					attribute = ATTRIBUTES[`MASTER_SKILL_${operator.meta.max_master_skills + 1}`];
 				}
 				break;
-
 		}
 	}
-
 	return {
 		operator: operator_name,
 		attribute,
