@@ -12,7 +12,7 @@ import sumRequirements from '../../models/sumRequirements';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
-	{ name: '☰' },
+	{ name: '' },
 	{ name: '干员' },
 	{ name: '升级项目' },
 	{ name: '现等级' },
@@ -73,10 +73,11 @@ const ArkTable = ({
 			{
 				records && records.map((record, index) => (
 					<ArkUpgradeInputRow
+						key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${index}`}
 						record={record}
 						record_index={index}
-						update={(row) => updateRow(index, row)}
-						remove={() => removeRow(index)}
+						update={updateRow}
+						remove={removeRow}
 						{...global_props}
 					/>
 				))

@@ -21,7 +21,7 @@ const ArkTableHeader = ({
 		<ArkRow
 			cells={
 				[
-					{ content: '☰', halfwidth: true, header_level: 'T1' },
+					{ content: '', halfwidth: true, header_level: 'T1' },
 					{ content: '干员', header_level: 'T1' },
 					{ content: '升级项目', header_level: 'T1' },
 					{ content: '现等级', header_level: 'T1' },

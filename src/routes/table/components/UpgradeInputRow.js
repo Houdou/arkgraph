@@ -49,7 +49,7 @@ const ArkUpgradeInputRow = ({
 		<ArkFuseInputCell {...props}
 			inputRef={operatorInputRef}
 			value={operator} onChange={value => {
-				update(setOperator(value));
+				update(record_index, setOperator(value));
 			}}
 		/>
 	);
@@ -70,21 +70,21 @@ const ArkUpgradeInputRow = ({
 		<ArkDropdownCell {...props}
 			options={options.filter(option => !unavailable_attributes.includes(option.value))}
 			value={attribute} onChange={value => {
-				update(setAttribute(value));
+				update(record_index, setAttribute(value));
 			}}
 		/>
 	);
 	const CurrentInput = (props) => (
 		<ArkInputCell {...props}
 			value={current} onChange={value => {
-				update(setCurrent(value));
+				update(record_index, setCurrent(value));
 			}}
 		/>
 	);
 
 	const RemoveButton = (props) => (
 		<ArkCell halfwidth>
-			<ArkButton value="-" onClick={() => remove()} />
+			<ArkButton value="-" onClick={() => remove(record_index)} />
 		</ArkCell>
 	);
 
