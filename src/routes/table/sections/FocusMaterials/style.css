@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.card {
+
+}
