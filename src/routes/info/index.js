@@ -29,6 +29,7 @@ const Info = (props) => (
 			</ul>
 			<h3>Tips</h3>
 			<blockquote><p>虽然干员没有显示备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
+			<blockquote><p>你好，博士。你或许希望能在这找到Lancet-2，但Lancet-2什么升级都没有，毕竟她只是一台医疗机器人……</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
 			<h3>V1.0.4</h3>

@@ -14300,6 +14300,252 @@
     }
   },
   {
+    "name": "讯使",
+    "pinyin": "xun shi",
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "skill_names": [
+      "冲锋号令·β型",
+      "冲锋号令·防御"
+    ],
+    "master_skills": [
+      {
+        "name": "冲锋号令·β型",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 1
+              },
+              {
+                "resource": "M-3-9",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-3",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "冲锋号令·防御",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 1
+              },
+              {
+                "resource": "M-3-10",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 15000
+          },
+          {
+            "resource": "C-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 1
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
+          },
+          {
+            "resource": "C-4-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 11
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 10
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_tier": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
     "name": "霜叶",
     "pinyin": "shuang ye",
     "skills": [
@@ -17786,349 +18032,6 @@
     "meta": {
       "max_elite_tier": 1,
       "max_master_skills": 1
-    }
-  },
-  {
-    "name": "夜刀",
-    "pinyin": "ye dao",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
-    }
-  },
-  {
-    "name": "巡林者",
-    "pinyin": "xun lin zhe",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
-    }
-  },
-  {
-    "name": "杜林",
-    "pinyin": "du lin",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
-    }
-  },
-  {
-    "name": "黑角",
-    "pinyin": "hei jiao",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
-    }
-  },
-  {
-    "name": "12F",
-    "pinyin": "12F",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
-    }
-  },
-  {
-    "name": "Lancet-2",
-    "pinyin": "Lancet-2",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
-    }
-  },
-  {
-    "name": "Castle-3",
-    "pinyin": "Castle-3",
-    "skills": [
-      {
-        "level": 1,
-        "materials": []
-      },
-      {
-        "level": 2,
-        "materials": []
-      },
-      {
-        "level": 3,
-        "materials": []
-      },
-      {
-        "level": 4,
-        "materials": []
-      },
-      {
-        "level": 5,
-        "materials": []
-      },
-      {
-        "level": 6,
-        "materials": []
-      },
-      {
-        "level": 7,
-        "materials": []
-      },
-      {
-        "level": 8,
-        "materials": []
-      },
-      {
-        "level": 9,
-        "materials": []
-      }
-    ],
-    "skill_names": [],
-    "master_skills": [],
-    "elites": [],
-    "meta": {
-      "max_elite_tier": 0,
-      "max_master_skills": 0
     }
   }
 ]
