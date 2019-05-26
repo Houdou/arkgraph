@@ -72,7 +72,6 @@
 	transition: background-color 0.4s ease;
 }
 
-.toggle:hover,
 .header nav a:hover,
 .header nav a:active {
 	background: rgba(0,0,0,0.2);
@@ -84,33 +83,35 @@
 
 .toggles {
 	flex-grow: 0;
-
+	padding: 0 5px;
 	display: flex;
 	flex-flow: row-reverse;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 0 20px;
 	width: auto;
 }
 
 .toggle {
-	height: 100%;
-	width: auto;
-	background: rgba(0, 0, 0, 0.18);
-	color: #DDD;
-	font-size: 12px;
-	text-shadow: 0px 1px 6px #DDDDDD66;
+	padding: 8px 16px;
+	margin-right: 10px;
+	color: #BBB;
+	border-radius: 1px;
+
+	font-size: 11px;
+	font-weight: bold;
+	text-shadow: 0px 1px 3px rgba(200, 200, 200, 0.3);
 	display: flex;
 	flex-flow: row-reverse;
 	justify-content: flex-start;
 	white-space: nowrap;
 	align-items: center;
-	padding: 5px 16px;
 	user-select: none;
-
+	background: #666;
+	box-shadow: 0px 3px 3px 0 #33333333;
 	transition: background 0.6s ease, color 0.6s ease;
 }
 .toggle.enable {
-	background-color: rgba(0, 0, 0, 0.6);
+	background: #111;
+	box-shadow: 0px 3px 4px 0 #33333366;
 	color: #EEE;
 }
