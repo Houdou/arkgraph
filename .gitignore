@@ -1,6 +1,7 @@
 node_modules
-/build
+build
 /*.log
 *.lock
+src/assets/wip
 
 package-lock.json
