@@ -30,12 +30,15 @@ const ArkTable = ({
 	data,
 }) => {
 	const {
-		state: { records, stock },
+		state: { records, stock, focus_materials },
 		load,
 		addEmptyRow,
 		updateRow,
 		removeRow,
 		setStockItem,
+		toggleFocusMaterial,
+		addFocusMaterials,
+		clearFocusMaterials,
 	} = data;
 
 	useEffect(() => {
@@ -56,6 +59,9 @@ const ArkTable = ({
 
 	const global_props = {
 		config,
+		toggleFocusMaterial,
+		addFocusMaterials,
+		clearFocusMaterials,
 		records,
 		header_list,
 		header_skip: 5,
@@ -63,7 +69,7 @@ const ArkTable = ({
 	};
 
 	return (
-		<div>
+		<div class={style.wrapper}>
 			<div class={style.table}>
 				<ArkTableHeader {...global_props} />
 				<ArkStockRow
@@ -89,9 +95,11 @@ const ArkTable = ({
 					{...global_props}
 				/>
 			</div>
-			<div class={style.materials}>
-				<ArkFocusMaterials stock={stock} />
-			</div>
+			<ArkFocusMaterials
+				stock={stock}
+				focus_materials={focus_materials}
+				{...global_props}
+			/>
 		</div>
 	);
 };

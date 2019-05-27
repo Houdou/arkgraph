@@ -21,6 +21,7 @@ const ArkItem = (props) => {
 					}
 				)
 			}
+			onClick={e => props.onClick && props.onClick(e)}
 		>
 			<div class={style.wrapper}>
 				<div

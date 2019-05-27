@@ -17,6 +17,7 @@ const ArkCell = (props) => (
 			)
 		}
 		style={props.style}
+		onClick={e => props.onClick && props.onClick(e)}
 	>
 		{ props.children || (
 			<p>{props.content}</p>

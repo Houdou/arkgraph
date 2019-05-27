@@ -3,9 +3,13 @@ import { useReducer } from 'preact/hooks';
 import Upgrade from './Upgrade';
 
 const STORAGE_KEY =  'Towa_ArkTable_Save';
-const STORAGE_VERSION =  '1.0.1';
+const STORAGE_VERSION =  '1.0.2';
 
-const default_state = { records: [], stock: {} };
+const default_state = {
+	records: [],
+	stock: {},
+	focus_materials: [],
+};
 
 const reducer = (state, action) => {
 	let newState = state;
@@ -51,17 +55,58 @@ const reducer = (state, action) => {
 				stock: action.payload,
 			};
 			break;
+		case 'data.toggleFocusMaterial': {
+			if (!newState.focus_materials.find(material => material.id === action.payload)) {
+				newState = {
+					...state,
+					focus_materials: [...state.focus_materials, {
+						id: action.payload,
+						options: {},
+					}],
+				};
+			} else {
+				newState = {
+					...state,
+					focus_materials: state.focus_materials
+						.filter(material => material.id !== action.payload),
+				};
+			}
+			break;
+		}
+		case 'data.addFocusMaterials': {
+			const new_focus_materials = state.focus_materials.filter(material =>
+				!action.payload.materials.includes(material.id)
+			);
+			if (action.payload.index === -1) {
+				newState = {
+					...state,
+					focus_materials: [...new_focus_materials, ...action.payload.materials.map(id => ({ id, options: {} }))],
+				};
+			} else {
+				new_focus_materials.splice(action.payload.index + 1, 0, ...action.payload.materials.map(id => ({ id, options: {} })));
+				newState = {
+					...state,
+					focus_materials: new_focus_materials,
+				};
+			}
+			break;
+		}
+		case 'data.clearFocusMaterials':
+			newState = {
+				...state,
+				focus_materials: [],
+			};
+			break;
 		case 'data.load': {
 			const json = window.localStorage.getItem(STORAGE_KEY);
 			try {
 				if (json) {
 					const loaded = JSON.parse(json);
-					if (!loaded.records || !loaded.stock) {
-						// 1.0.0 -> 1.0.1 Patch
-						if (loaded.version === '1.0.0') {
-							loaded.records = loaded.data;
-							delete loaded.data;
-							loaded.version = '1.0.1';
+					if (!loaded.focus_materials) {
+						// 1.0.1 -> 1.0.2 Patch
+						if (loaded.version === '1.0.1') {
+							loaded.focus_materials = [];
+							loaded.version = '1.0.2';
 							return loaded;
 						}
 						throw new Error('Failed to load save');
@@ -142,6 +187,29 @@ const useData = () => {
 		});
 	};
 
+	const toggleFocusMaterial = (material_id) => {
+		dispatch({
+			type: 'data.toggleFocusMaterial',
+			payload: material_id,
+		});
+	};
+
+	const addFocusMaterials = (materials = [], index = -1) => {
+		dispatch({
+			type: 'data.addFocusMaterials',
+			payload: {
+				materials,
+				index,
+			},
+		});
+	};
+
+	const clearFocusMaterials = () => {
+		dispatch({
+			type: 'data.clearFocusMaterials',
+		});
+	};
+
 	return {
 		state,
 		dispatch,
@@ -152,6 +220,9 @@ const useData = () => {
 		removeRow,
 		setStockItem,
 		setStockBulk,
+		toggleFocusMaterial,
+		addFocusMaterials,
+		clearFocusMaterials,
 	};
 };
 
