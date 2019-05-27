@@ -8,11 +8,15 @@ const mapMaterial = (material) => ({
 });
 
 const parseJson = (record) => {
+	const operator_pinyin = [].concat(...pinyin(record.name, {
+		style: pinyin.STYLE_NORMAL,
+	}));
 	const operator = {
 		name: record.name,
-		pinyin: [].concat(...pinyin(record.name, {
-			style: pinyin.STYLE_NORMAL,
-		})).join(' '),
+		pinyin: [
+			operator_pinyin.join(' '),
+			operator_pinyin.join(''),
+		],
 	};
 
 	operator.skills = Object.keys(record.materials.skill)
