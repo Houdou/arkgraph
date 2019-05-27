@@ -1,6 +1,7 @@
 .wrapper {
   width: 56px;
   height: 40px;
+  user-select: none;
 }
 
 .composer {

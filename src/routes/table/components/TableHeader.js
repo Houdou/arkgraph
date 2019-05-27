@@ -9,9 +9,16 @@ const ArkTableHeader = ({
 	header_list,
 	header_skip,
 	resources_filter,
+	toggleFocusMaterial,
 }) => {
 	const ArkIconCell = (e) => (props) => (
-		<ArkCell key={e.id} header {...props} header_level={e.tier}>
+		<ArkCell
+			key={e.id}
+			header_level={e.tier}
+			onClick={() => toggleFocusMaterial(e.id)}
+			header
+			{...props}
+		>
 			<ArkItem id={e.id} tier={e.tier} />
 			<span>{e.name}</span>
 		</ArkCell>
@@ -31,6 +38,7 @@ const ArkTableHeader = ({
 						.map(e => config.showMaterialIcons ? ArkIconCell(e) : ({
 							content: e.name,
 							header_level: e.tier,
+							onClick: () => toggleFocusMaterial(e.id),
 						})),
 				]
 			}

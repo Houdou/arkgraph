@@ -1,0 +1,57 @@
+.black, .dark_grey, .grey, .white, .red {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 1px;
+}
+.black {
+	color: #DDDDDD;
+	background-color: #111;
+}
+.dark_grey {
+	color: #DDDDDD;
+	background-color: #333;
+}
+.grey {
+	color: #DDDDDD;
+	background-color: #666;
+}
+.white {
+	color: #333;
+	background-color: #CCC;
+}
+.red {
+  background-color: #A40001;
+  color: #DDDDDD;
+}
+
+.source_level {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 40px;
+  margin-top: 3px;
+}
+.source_level span {
+  margin-left: 8px;
+  border-radius: 1px;
+}
+
+.level {
+  min-width: 30px;
+  text-align: right;
+}
+.energy {
+  overflow: hidden;
+  position: relative;
+}
+.energy span {
+  margin-left: 28px;
+}
+.energy img {
+  position: absolute;
+  left: 4px;
+  bottom: -4px;
+  height: 28px;
+  vertical-align: baseline;
+}
