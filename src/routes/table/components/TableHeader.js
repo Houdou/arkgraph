@@ -6,6 +6,7 @@ import ArkItem from '../../../components/item';
 
 const ArkTableHeader = ({
 	config,
+	focus_materials,
 	header_list,
 	header_skip,
 	resources_filter,
@@ -15,6 +16,7 @@ const ArkTableHeader = ({
 		<ArkCell
 			key={e.id}
 			header_level={e.tier}
+			is_focus_material={focus_materials.some(({ id }) => id === e.id)}
 			onClick={() => toggleFocusMaterial(e.id)}
 			header
 			{...props}
@@ -38,6 +40,7 @@ const ArkTableHeader = ({
 						.map(e => config.showMaterialIcons ? ArkIconCell(e) : ({
 							content: e.name,
 							header_level: e.tier,
+							is_focus_material: focus_materials.some(({ id }) => id === e.id),
 							onClick: () => toggleFocusMaterial(e.id),
 						})),
 				]

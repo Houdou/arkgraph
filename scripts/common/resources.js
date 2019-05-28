@@ -3,7 +3,13 @@ exports.RESOURCES = [
 		id: 'G-4-1',
 		name: '龙门币',
 		tier: 'T4',
-		source: {},
+		source: {
+			'CE-1': '固定[1700]',
+			'CE-2': '固定[2800]',
+			'CE-3': '固定[4100]',
+			'CE-4': '固定[5700]',
+			'CE-5': '固定[7500]',
+		},
 		formula: {},
 	},
 	{
@@ -439,7 +445,10 @@ exports.RESOURCES = [
 		id: 'S-4-1',
 		name: '技巧概要·卷3',
 		tier: 'T4',
-		source: {},
+		source: {
+			'CA-4': '固定',
+			'CA-5': '固定',
+		},
 		formula: {
 			'S-3-1': 3,
 		},
@@ -448,7 +457,11 @@ exports.RESOURCES = [
 		id: 'S-3-1',
 		name: '技巧概要·卷2',
 		tier: 'T3',
-		source: {},
+		source: {
+			'CA-3': '固定',
+			'CA-4': '固定',
+			'CA-5': '固定',
+		},
 		formula: {
 			'S-2-1': 3,
 		},
@@ -457,14 +470,23 @@ exports.RESOURCES = [
 		id: 'S-2-1',
 		name: '技巧概要·卷1',
 		tier: 'T2',
-		source: {},
+		source: {
+			'CA-1': '固定',
+			'CA-2': '固定',
+			'CA-3': '固定',
+			'CA-4': '固定',
+			'CA-5': '固定',
+		},
 		formula: {},
 	},
 	{
 		id: 'E-5-1',
 		name: '高级作战记录',
 		tier: 'T5',
-		source: {},
+		source: {
+			'LS-4': '固定',
+			'LS-5': '固定',
+		},
 		formula: {
 			'E-4-1': 2,
 		},
@@ -473,7 +495,11 @@ exports.RESOURCES = [
 		id: 'E-4-1',
 		name: '中级作战记录',
 		tier: 'T4',
-		source: {},
+		source: {
+			'LS-3': '固定',
+			'LS-4': '固定',
+			'LS-5': '固定',
+		},
 		formula: {
 			'E-3-1': 2,
 			'E-2-1': 1,
@@ -483,7 +509,13 @@ exports.RESOURCES = [
 		id: 'E-3-1',
 		name: '初级作战记录',
 		tier: 'T3',
-		source: {},
+		source: {
+			'LS-1': '固定',
+			'LS-2': '固定',
+			'LS-3': '固定',
+			'LS-4': '固定',
+			'LS-5': '固定',
+		},
 		formula: {
 			'E-2-1': 2,
 		},
@@ -492,7 +524,12 @@ exports.RESOURCES = [
 		id: 'E-2-1',
 		name: '基础作战记录',
 		tier: 'T2',
-		source: {},
+		source: {
+			'LS-1': '固定',
+			'LS-2': '固定',
+			'LS-3': '固定',
+			'LS-4': '固定',
+		},
 		formula: {},
 	},
 	{
@@ -509,14 +546,18 @@ exports.RESOURCES = [
 		id: 'C-4-1',
 		name: '先锋芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-C-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-1',
 		name: '先锋芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-C-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -533,14 +574,18 @@ exports.RESOURCES = [
 		id: 'C-4-2',
 		name: '近卫芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-D-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-2',
 		name: '近卫芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-D-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -557,14 +602,18 @@ exports.RESOURCES = [
 		id: 'C-4-3',
 		name: '重装芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-A-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-3',
 		name: '重装芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-A-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -581,14 +630,18 @@ exports.RESOURCES = [
 		id: 'C-4-4',
 		name: '狙击芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-B-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-4',
 		name: '狙击芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-B-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -605,14 +658,18 @@ exports.RESOURCES = [
 		id: 'C-4-5',
 		name: '术师芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-B-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-5',
 		name: '术师芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-B-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -629,14 +686,18 @@ exports.RESOURCES = [
 		id: 'C-4-6',
 		name: '医疗芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-A-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-6',
 		name: '医疗芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-A-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -653,7 +714,9 @@ exports.RESOURCES = [
 		id: 'C-4-7',
 		name: '辅助芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-C-2': '中概率',
+		},
 		formula: {},
 	},
 
@@ -661,7 +724,9 @@ exports.RESOURCES = [
 		id: 'C-3-7',
 		name: '辅助芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-C-1': '中概率',
+		},
 		formula: {},
 	},
 	{
@@ -678,14 +743,18 @@ exports.RESOURCES = [
 		id: 'C-4-8',
 		name: '特种芯片组',
 		tier: 'T4',
-		source: {},
+		source: {
+			'PR-D-2': '中概率',
+		},
 		formula: {},
 	},
 	{
 		id: 'C-3-8',
 		name: '特种芯片',
 		tier: 'T3',
-		source: {},
+		source: {
+			'PR-D-1': '中概率',
+		},
 		formula: {},
 	},
 	{

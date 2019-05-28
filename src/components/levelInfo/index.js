@@ -2,29 +2,46 @@ import React from 'preact';
 import style from './style';
 import cn from 'classnames';
 
+import { LEVELS } from '../../models/Levels';
+
+const parseProbability = (probability) => {
+	const matching = /^(.+)\[([\d~]+)\]$/.exec(probability);
+	if (matching) {
+		const [, prob, quantity] = matching;
+		return {
+			probability: prob,
+			quantity,
+		};
+	}
+	return { probability };
+};
+
 const ArkLevelInfo = ({
 	level,
-	drop_rarity,
-	energy,
-}) => (
-	<div class={style.source_level}>
-		<span class={style.level}>{level}</span>
-		<span class={cn(
-			style.drop_rarity,
-			{
-				[style.black]: drop_rarity === '固定',
-				[style.dark_grey]: drop_rarity === '大概率',
-				[style.grey]: drop_rarity === '中概率',
-				[style.white]: drop_rarity === '小概率',
-				[style.red]: drop_rarity === '罕见',
-			}
-		)}
-		>{drop_rarity}</span>
-		<span class={cn(style.energy, style.black)}>
-		  <img src="../../assets/materials/AP.png" alt="AP" />
-			<span>{` -${energy}`}</span>
-		</span>
-	</div>
-);
+	drop_probability,
+}) => {
+	const { energy } = LEVELS.find(l => l.level === level) || { energy: '---' };
+	const { probability, quantity } = parseProbability(drop_probability);
+	return (
+		<div class={style.source_level}>
+			<span class={style.level}>{level}</span>
+			<span class={cn(
+				style.drop_probability,
+				{
+					[style.black]: probability === '固定',
+					[style.dark_grey]: probability === '大概率',
+					[style.grey]: probability === '中概率',
+					[style.white]: probability === '小概率',
+					[style.red]: probability === '罕见',
+				}
+			)}
+			>{quantity || probability}</span>
+			<span class={cn(style.energy, style.black)}>
+			  <img src="../../assets/materials/AP.png" alt="AP" />
+				<span>{energy}</span>
+			</span>
+		</div>
+	);
+};
 
 export default ArkLevelInfo;

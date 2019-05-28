@@ -1,5 +1,5 @@
 const pinyin = require('pinyin');
-const { RESOURCES } = require('./resources');
+const { RESOURCES } = require('../common/resources');
 const operators = require('./materials.json');
 
 const mapMaterial = (material) => ({

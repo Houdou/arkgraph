@@ -7,9 +7,11 @@ import ArkNewUpgradeRow from './components/NewUpgradeRow';
 import ArkUpgradeInputRow from './components/UpgradeInputRow';
 import ArkStockRow from './components/StockRow';
 import ArkSummaryRow from './components/SummaryRow';
+import ArkShortageRow from './components/ShortageRow';
 import ArkFocusMaterials from './sections/FocusMaterials';
 
 import sumRequirements from '../../models/sumRequirements';
+import sumShortage from '../../models/sumShortage';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
@@ -30,7 +32,7 @@ const ArkTable = ({
 	data,
 }) => {
 	const {
-		state: { records, stock, focus_materials },
+		state: { records, stock, focus_materials, compound_materials },
 		load,
 		addEmptyRow,
 		updateRow,
@@ -39,29 +41,36 @@ const ArkTable = ({
 		toggleFocusMaterial,
 		addFocusMaterials,
 		clearFocusMaterials,
+		toggleCompoundMaterial,
+		compoundMaterial,
 	} = data;
 
 	useEffect(() => {
 		load();
 	}, []);
 
-	const summary = useMemo(() => sumRequirements(records), [records]);
-	const presented = Object.keys(summary);
+	const summary = useMemo(() => sumRequirements(records, compound_materials), [records, compound_materials]);
+	const shortage = useMemo(() => sumShortage(stock, summary), [stock, summary]);
+
+	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
 
 	const resources_filter = (index) => {
 		const is_prefix = index < 5;
 		const is_in_range = index < header_list.length;
-
-		const is_item_presented = config.showAllResources || presented.includes(header_list[index].id) || presented.length === 0;
+		const is_item_presented = config.showAllResources
+			|| presented_materials.includes(header_list[index].id)
+			|| presented_materials.length === 0;
 
 		return is_in_range && (is_prefix || is_item_presented);
 	};
 
 	const global_props = {
 		config,
-		toggleFocusMaterial,
-		addFocusMaterials,
-		clearFocusMaterials,
+		stock,
+		summary,
+		shortage,
+		focus_materials,
+		compound_materials,
 		records,
 		header_list,
 		header_skip: 5,
@@ -71,13 +80,17 @@ const ArkTable = ({
 	return (
 		<div class={style.wrapper}>
 			<div class={style.table}>
-				<ArkTableHeader {...global_props} />
+				<ArkTableHeader
+					toggleFocusMaterial={toggleFocusMaterial}
+					{...global_props}
+				/>
 				<ArkStockRow
 					stock={stock}
 					setStockItem={setStockItem}
 					{...global_props}
 				/>
 				<ArkSummaryRow summary={summary} {...global_props} />
+				<ArkShortageRow shortage={shortage} {...global_props} />
 				{
 					records && records.map((record, index) => (
 						<ArkUpgradeInputRow
@@ -97,7 +110,11 @@ const ArkTable = ({
 			</div>
 			<ArkFocusMaterials
 				stock={stock}
-				focus_materials={focus_materials}
+				toggleFocusMaterial={toggleFocusMaterial}
+				addFocusMaterials={addFocusMaterials}
+				clearFocusMaterials={clearFocusMaterials}
+				toggleCompoundMaterial={toggleCompoundMaterial}
+				compoundMaterial={compoundMaterial}
 				{...global_props}
 			/>
 		</div>

@@ -1,14 +1,16 @@
 import { useReducer } from 'preact/hooks';
 
 import Upgrade from './Upgrade';
+import { RESOURCES } from './Resources';
 
 const STORAGE_KEY =  'Towa_ArkTable_Save';
-const STORAGE_VERSION =  '1.0.2';
+const STORAGE_VERSION =  '1.0.3';
 
 const default_state = {
 	records: [],
 	stock: {},
 	focus_materials: [],
+	compound_materials: [],
 };
 
 const reducer = (state, action) => {
@@ -97,6 +99,40 @@ const reducer = (state, action) => {
 				focus_materials: [],
 			};
 			break;
+		case 'data.toggleCompoundMaterial': {
+			if (!newState.compound_materials.find(material => material.id === action.payload)) {
+				newState = {
+					...state,
+					compound_materials: [...state.compound_materials, {
+						id: action.payload,
+						options: {},
+					}],
+				};
+			} else {
+				newState = {
+					...state,
+					compound_materials: state.compound_materials
+						.filter(material => material.id !== action.payload),
+				};
+			}
+			break;
+		}
+		case 'data.compoundMaterial': {
+			const material = RESOURCES[action.payload];
+			const { stock } = state;
+			if (Object.entries(material.formula).every(([id, quantity]) => stock[id] && stock[id] > quantity)) {
+				Object.entries(material.formula).forEach(([id, quantity]) => {
+					stock[id] = (stock[id] || 0) - quantity;
+					stock[action.payload] = (stock[action.payload] || 0) + 1;
+				});
+			}
+
+			newState = {
+				...state,
+				stock,
+			};
+			break;
+		}
 		case 'data.load': {
 			const json = window.localStorage.getItem(STORAGE_KEY);
 			try {
@@ -107,6 +143,13 @@ const reducer = (state, action) => {
 						if (loaded.version === '1.0.1') {
 							loaded.focus_materials = [];
 							loaded.version = '1.0.2';
+						}
+					}
+					if (!loaded.compound_materials) {
+						// 1.0.2 -> 1.0.3 Patch
+						if (loaded.version === '1.0.2') {
+							loaded.compound_materials = [];
+							loaded.version = '1.0.3';
 							return loaded;
 						}
 						throw new Error('Failed to load save');
@@ -210,6 +253,20 @@ const useData = () => {
 		});
 	};
 
+	const toggleCompoundMaterial = (material_id) => {
+		dispatch({
+			type: 'data.toggleCompoundMaterial',
+			payload: material_id,
+		});
+	};
+
+	const compoundMaterial = (material_id) => {
+		dispatch({
+			type: 'data.compoundMaterial',
+			payload: material_id,
+		});
+	};
+
 	return {
 		state,
 		dispatch,
@@ -223,6 +280,8 @@ const useData = () => {
 		toggleFocusMaterial,
 		addFocusMaterials,
 		clearFocusMaterials,
+		toggleCompoundMaterial,
+		compoundMaterial,
 	};
 };
 

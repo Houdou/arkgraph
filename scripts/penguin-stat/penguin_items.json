@@ -1,0 +1,302 @@
+{
+  "items": [
+    {
+      "itemType": "material",
+      "name": "源岩",
+      "timePoint": 0,
+      "id": 0,
+      "materialCategory": "rock",
+      "rarity": 0
+    },
+    {
+      "itemType": "material",
+      "name": "固源岩",
+      "timePoint": 0,
+      "id": 1,
+      "materialCategory": "rock",
+      "rarity": 1
+    },
+    {
+      "itemType": "material",
+      "name": "固源岩组",
+      "timePoint": 0,
+      "id": 2,
+      "materialCategory": "rock",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "提纯源岩",
+      "timePoint": 0,
+      "id": 3,
+      "materialCategory": "rock",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "破损装置",
+      "timePoint": 0,
+      "id": 4,
+      "materialCategory": "device",
+      "rarity": 0
+    },
+    {
+      "itemType": "material",
+      "name": "装置",
+      "timePoint": 0,
+      "id": 5,
+      "materialCategory": "device",
+      "rarity": 1
+    },
+    {
+      "itemType": "material",
+      "name": "全新装置",
+      "timePoint": 0,
+      "id": 6,
+      "materialCategory": "device",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "改量装置",
+      "timePoint": 0,
+      "id": 7,
+      "materialCategory": "device",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "酯原料",
+      "timePoint": 0,
+      "id": 8,
+      "materialCategory": "ester",
+      "rarity": 0
+    },
+    {
+      "itemType": "material",
+      "name": "聚酸酯",
+      "timePoint": 0,
+      "id": 9,
+      "materialCategory": "ester",
+      "rarity": 1
+    },
+    {
+      "itemType": "material",
+      "name": "聚酸酯组",
+      "timePoint": 0,
+      "id": 10,
+      "materialCategory": "ester",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "聚酸酯块",
+      "timePoint": 0,
+      "id": 11,
+      "materialCategory": "ester",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "代糖",
+      "timePoint": 0,
+      "id": 12,
+      "materialCategory": "sugar",
+      "rarity": 0
+    },
+    {
+      "itemType": "material",
+      "name": "糖",
+      "timePoint": 0,
+      "id": 13,
+      "materialCategory": "sugar",
+      "rarity": 1
+    },
+    {
+      "itemType": "material",
+      "name": "糖组",
+      "timePoint": 0,
+      "id": 14,
+      "materialCategory": "sugar",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "糖聚块",
+      "timePoint": 0,
+      "id": 15,
+      "materialCategory": "sugar",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "异铁碎片",
+      "timePoint": 0,
+      "id": 16,
+      "materialCategory": "iron",
+      "rarity": 0
+    },
+    {
+      "itemType": "material",
+      "name": "异铁",
+      "timePoint": 0,
+      "id": 17,
+      "materialCategory": "iron",
+      "rarity": 1
+    },
+    {
+      "itemType": "material",
+      "name": "异铁组",
+      "timePoint": 0,
+      "id": 18,
+      "materialCategory": "iron",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "异铁块",
+      "timePoint": 0,
+      "id": 19,
+      "materialCategory": "iron",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "双酮",
+      "timePoint": 0,
+      "id": 20,
+      "materialCategory": "ketone",
+      "rarity": 0
+    },
+    {
+      "itemType": "material",
+      "name": "酮凝集",
+      "timePoint": 0,
+      "id": 21,
+      "materialCategory": "ketone",
+      "rarity": 1
+    },
+    {
+      "itemType": "material",
+      "name": "酮凝集组",
+      "timePoint": 0,
+      "id": 22,
+      "materialCategory": "ketone",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "酮阵列",
+      "timePoint": 0,
+      "id": 23,
+      "materialCategory": "ketone",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "扭转醇",
+      "timePoint": 0,
+      "id": 24,
+      "materialCategory": "alcohol",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "白马醇",
+      "timePoint": 0,
+      "id": 25,
+      "materialCategory": "alcohol",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "轻锰矿",
+      "timePoint": 0,
+      "id": 26,
+      "materialCategory": "manganese",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "三水锰矿",
+      "timePoint": 0,
+      "id": 27,
+      "materialCategory": "manganese",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "研磨石",
+      "timePoint": 0,
+      "id": 28,
+      "materialCategory": "grindstone",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "五水研磨石",
+      "timePoint": 0,
+      "id": 29,
+      "materialCategory": "grindstone",
+      "rarity": 3
+    },
+    {
+      "itemType": "material",
+      "name": "RMA70-12",
+      "timePoint": 0,
+      "id": 30,
+      "materialCategory": "RMA",
+      "rarity": 2
+    },
+    {
+      "itemType": "material",
+      "name": "RMA70-24",
+      "timePoint": 0,
+      "id": 31,
+      "materialCategory": "RMA",
+      "rarity": 3
+    },
+    {
+      "itemType": "gold",
+      "name": "赤金",
+      "timePoint": 1,
+      "id": 32,
+      "rarity": 3
+    },
+    {
+      "itemType": "exp",
+      "name": "基础作战记录",
+      "timePoint": 1,
+      "id": 33,
+      "rarity": 1
+    },
+    {
+      "itemType": "exp",
+      "name": "初级作战记录",
+      "timePoint": 1,
+      "id": 34,
+      "rarity": 2
+    },
+    {
+      "itemType": "exp",
+      "name": "中级作战记录",
+      "timePoint": 1,
+      "id": 35,
+      "rarity": 3
+    },
+    {
+      "itemType": "exp",
+      "name": "高级作战记录",
+      "timePoint": 1,
+      "id": 36,
+      "rarity": 4
+    },
+    {
+      "itemType": "furniture",
+      "name": "家具",
+      "timePoint": 0,
+      "id": -1,
+      "rarity": -1
+    }
+  ]
+}

@@ -32,6 +32,13 @@ const ArkItem = (props) => {
 				>
 					<img src={`../../assets/materials/${material_id}.png`} class={style.item} alt="material_id" />
 					<img src={`../../assets/cards/${card_tier}.png`} class={style.card} alt="card_tier" />
+					{
+						props.quantity && props.quantity !== 0 && (
+							<div class={style.quantity}>
+								{props.quantity}
+							</div>
+						)
+					}
 				</div>
 			</div>
 		</div>

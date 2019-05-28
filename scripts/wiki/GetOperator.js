@@ -1,7 +1,7 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
 
-const { OPERATORS } = require('./operators');
+const { OPERATORS } = require('../common/operators');
 const wiki_base_url = 'http://wiki.joyme.com/arknights/';
 
 function process_attribute(raw) {

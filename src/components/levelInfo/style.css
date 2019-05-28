@@ -20,7 +20,7 @@
 	background-color: #CCC;
 }
 .red {
-  background-color: #A40001;
+  background-color: #990001;
   color: #DDDDDD;
 }
 
@@ -29,7 +29,6 @@
   flex-flow: row;
   justify-content: flex-end;
   align-items: center;
-  padding-left: 40px;
   margin-top: 3px;
 }
 .source_level span {
@@ -44,6 +43,8 @@
 .energy {
   overflow: hidden;
   position: relative;
+  min-width: 68px;
+  text-align: right;
 }
 .energy span {
   margin-left: 28px;
