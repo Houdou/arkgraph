@@ -36,17 +36,6 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0) 100%);
   user-select: none;
 }
-.wrapper::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 10%;
-  z-index: 9918;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%, rgba(0, 0, 0, 0.4) 100%);
-  user-select: none;
-}
 
 .scroll {
   max-height: 450px;
@@ -122,5 +111,5 @@
   transition: max-height 0.4s ease;
 }
 .wrapper:hover, .wrapper:hover .scroll {
-  max-height: 850px;
+  max-height: 650px;
 }

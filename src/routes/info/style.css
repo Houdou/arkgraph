@@ -1,8 +1,7 @@
 .wrapper {
-  height: 100%;
   width: 100%;
 
-  background: linear-gradient(to right, #333 90%, #666 100%);
+  background: linear-gradient(to right, #333 93%, #444 98%, #666 100%);
 }
 
 .info {
@@ -10,6 +9,7 @@
   margin: 56px auto 0;
   width: 100%;
   max-width: 1000px;
+  height: auto;
 
   text-shadow: 0px 0px 10px #111;
 

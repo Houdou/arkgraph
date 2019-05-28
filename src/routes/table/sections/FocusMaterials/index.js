@@ -10,7 +10,12 @@ const ArkFocusMaterials = ({
 	toggleFocusMaterial,
 	addFocusMaterials,
 	clearFocusMaterials,
+	compound_materials,
+	toggleCompoundMaterial,
+	compoundMaterial,
 	stock,
+	summary,
+	shortage,
 }) => {
 	const material_groups = focus_materials
 		.filter(({ id: material_id, options }) => RESOURCES[material_id] && options && !options.hidden);
@@ -34,8 +39,14 @@ const ArkFocusMaterials = ({
 								card_index={index}
 								class={style.card}
 								stock={stock}
+								summary={summary}
+								shortage={shortage}
 								toggleFocusMaterial={toggleFocusMaterial}
 								addFocusMaterials={addFocusMaterials}
+								compound_materials={compound_materials}
+								compounded={compound_materials.some(({ id }) => id === material_id)}
+								toggleCompoundMaterial={toggleCompoundMaterial}
+								compoundMaterial={compoundMaterial}
 								{...options}
 							/>
 						))
