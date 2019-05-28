@@ -16,7 +16,13 @@ const Info = (props) => (
 			</ul>
 			<h3>材料追踪</h3>
 			<ul>
-				<li>点击表头图标添加追踪材料</li>
+				<li>点击<code>表头材料图标</code>或材料卡片中<code>合成原料图标</code>可添加/移除追踪材料</li>
+				<li>点击<code>追踪所有原料</code>添加合成所需成分</li>
+				<li>点击<code>折算合成原料</code>，需求数量自动将需求转化为合成原料需求</li>
+				<ul>
+					<li>由于可能产生循环计算问题，暂不添加芯片类同级转化的合成计算</li>
+				</ul>
+				<li>点击<code>合成一份</code>将自动扣除原料数量，并增加1个到库存</li>
 			</ul>
 			<h2>功能列表</h2>
 			<h3>已实现功能</h3>
@@ -29,22 +35,38 @@ const Info = (props) => (
 				<li>材料出处展示</li>
 				<li>材料合成公式展示</li>
 				<li>追踪材料</li>
+				<li>输入完库存，会自动计算差值</li>
+				<li>基于合成公式展开的单个需求计算</li>
+				<li>合成消耗对应材料</li>
 			</ul>
 			<h3>待实现功能</h3>
 			<ul>
-				<li>输入完库存，会自动计算差值</li>
-				<li>基于合成公式展开的单个需求计算</li>
 				<li>通过追踪材料卡片直接增减库存</li>
-				<li>合成消耗对应材料</li>
 				<li>升级经验计算</li>
 				<li>完成干员数据行消耗对应材料</li>
+				<li>数据导入与导出</li>
+				<li>……</li>
+			</ul>
+			<h3>计划中功能</h3>
+			<ul>
+				<li>与<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a>合作，关联掉落概率数据</li>
+				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
+				<li>作战记录关卡的掉落</li>
 				<li>……</li>
 			</ul>
 			<h3>Tips</h3>
-			<blockquote><p>虽然干员没有显示备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
+			<blockquote><p>虽然输入干员名称时没有备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
 			<blockquote><p>你好，博士。你或许希望能在这找到Lancet-2，但Lancet-2什么升级都没有，毕竟她只是一台医疗机器人……</p></blockquote>
+			<blockquote><p>建议使用最新版本Chrome打开本网站，开发精力有限，没有计划支持Chrome和Edge之外的浏览器</p></blockquote>
+			<blockquote><p>材料表格太宽时，按住<code>Shift</code>再滚动鼠标滚轮<del>应该</del>可以横向滚动</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.2.0</h3>
+			<ul>
+				<li>增加了材料合成计算相关功能</li>
+				<li>增加了追踪材料功能</li>
+				<li>完善了材料卡片布局</li>
+			</ul>
 			<h3>V1.1.0</h3>
 			<ul>
 				<li>增加了材料卡片</li>
