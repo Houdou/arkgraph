@@ -1,11 +1,10 @@
 import { useReducer } from 'preact/hooks';
 
-const STORAGE_KEY =  'Towa_ArkTable_Config';
-export const STORAGE_VERSION =  '1.2.0';
+export const STORAGE_KEY =  'Towa_ArkTable_Config';
+export const STORAGE_VERSION =  '1.2.1';
 
 const default_config = {
 	showAllResources: false,
-	showMaterialIcons: true,
 };
 
 const reducer = (state, action) => {
@@ -15,13 +14,6 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				showAllResources: action.payload,
-			};
-			break;
-		}
-		case 'config.toggleShowMaterialIcons': {
-			newState = {
-				...state,
-				showMaterialIcons: action.payload,
 			};
 			break;
 		}
@@ -71,19 +63,11 @@ const useData = () => {
 		});
 	};
 
-	const toggleShowMaterialIcons = (toggle) => {
-		dispatch({
-			type: 'config.toggleShowMaterialIcons',
-			payload: toggle,
-		});
-	};
-
 	return {
 		config: state,
 		dispatch,
 		load,
 		toggleShowAllResources,
-		toggleShowMaterialIcons,
 	};
 };
 

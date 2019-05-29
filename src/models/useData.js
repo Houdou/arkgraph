@@ -3,7 +3,7 @@ import { useReducer } from 'preact/hooks';
 import Upgrade from './Upgrade';
 import { RESOURCES } from './Resources';
 
-const STORAGE_KEY =  'Towa_ArkTable_Save';
+export const STORAGE_KEY =  'Towa_ArkTable_Save';
 const STORAGE_VERSION =  '1.0.3';
 
 const default_state = {
