@@ -186,8 +186,12 @@ const reducer = (state, action) => {
 
 					if (action.payload) {
 						newState = loaded;
+						window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
+							...newState,
+							version: STORAGE_VERSION,
+						}));
 					}
-
+					
 					return loaded;
 				}
 			} catch (err) {
@@ -204,7 +208,7 @@ const reducer = (state, action) => {
 			throw new Error(`Undefined action type: ${action.type}`);
 	}
 
-	if (!(action.type === 'data.load' && !action.payload)) {
+	if (action.type !== 'data.load') {
 		// TODO: Trim storage
 		window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
 			...newState,
