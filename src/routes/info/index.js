@@ -53,10 +53,10 @@ const Info = (props) => (
 				<li>输入完库存，会自动计算差值</li>
 				<li>基于合成公式展开的单个需求计算</li>
 				<li>合成消耗对应材料</li>
+				<li>数据导入与导出</li>
 			</ul>
 			<h3>待实现功能</h3>
 			<ul>
-				<li>数据导入与导出</li>
 				<li>其他资源筛选功能</li>
 				<li>增加其他图标</li>
 				<li>升级经验计算</li>
@@ -79,6 +79,11 @@ const Info = (props) => (
 			<blockquote><p>由于使用了Service worker离线缓存，如果遇到各种Bug，请尝试<code>Ctrl+F5</code>刷新最新版本，或下拉到页面底端重置所有数据</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.2.2</h3>
+			<ul>
+				<li>增加了数据备份功能</li>
+				<li>优化了界面布局</li>
+			</ul>
 			<h3>V1.2.1</h3>
 			<ul>
 				<li>增加了快捷库存操作</li>
