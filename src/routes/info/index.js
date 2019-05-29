@@ -1,13 +1,22 @@
 import React from 'preact';
 import style from './style';
 
-import { STORAGE_KEY as CONFIG_STORAGE_KEY } from '../../config/useConfig';
-import { STORAGE_KEY as SAVE_STORAGE_KEY } from '../../models/useData';
-
 const Info = (props) => (
 	<div class={style.wrapper}>
 		<div class={style.info}>
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
+			<hr />
+			<h2>关于项目</h2>
+			<p>沉迷培养干员，然而没有理智。<del>只好写点相关项目等理智恢复</del></p>
+			<p>感谢以下网站及大佬</p>
+			<ul>
+				<li><a target="_blank" rel="noreferrer noopener" href="http://wiki.joyme.com/arknights/">明日方舟wiki</a></li>
+				<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
+			</ul>
+			<p>如果有各种建议或者意见，欢迎提Issue或微博找我</p>
+			<p>如果你喜欢这个项目，并且希望作者能多<del>抽到几个6星</del>做些新feature，欢迎打赏催更（</p>
+	    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 			<hr />
 			<h2>使用说明</h2>
 			<h3>干员晋升清单</h3>
@@ -29,6 +38,7 @@ const Info = (props) => (
 				<li>点击<code>材料大图标</code>可直接增加1个库存，右键减少1个</li>
 				<li>点击<code>合成一份</code>将自动扣除原料数量，并增加1个到库存</li>
 			</ul>
+			<hr />
 			<h2>功能列表</h2>
 			<h3>已实现功能</h3>
 			<ul>
@@ -106,33 +116,6 @@ const Info = (props) => (
 			<h3>V1.0.0</h3>
 			<ul><li>实现了基本功能</li></ul>
 	    <hr />
-			<h2>关于项目</h2>
-			<p>沉迷培养干员，然而没有理智。<del>只好写点相关项目等理智恢复</del></p>
-			<p>感谢以下网站及大佬</p>
-			<ul>
-				<li><a target="_blank" rel="noreferrer noopener" href="http://wiki.joyme.com/arknights/">明日方舟wiki</a></li>
-				<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
-			</ul>
-			<p>如果有各种建议或者意见，欢迎提Issue或微博找我</p>
-			<p>如果你喜欢这个项目，并且希望作者能多<del>抽到几个6星</del>做些新feature，欢迎打赏催更（</p>
-	    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
-	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
-			<hr />
-			<div
-				style={{
-					'background-color': '#222',
-					padding: '8px',
-					'margin-top': '12px',
-					'text-align': 'center',
-					'user-select': 'none',
-				}}
-				onDblClick={e => {
-					e.preventDefault();
-					window.localStorage.removeItem(CONFIG_STORAGE_KEY);
-					window.localStorage.removeItem(SAVE_STORAGE_KEY);
-					window.location.reload();
-				}}
-			>双击清除所有数据</div>
 		</div>
 	</div>
 );

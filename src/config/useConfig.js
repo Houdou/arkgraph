@@ -5,6 +5,7 @@ export const STORAGE_VERSION =  '1.2.1';
 
 const default_config = {
 	showAllResources: false,
+	showFocusMaterials: true,
 };
 
 const reducer = (state, action) => {
@@ -14,6 +15,13 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				showAllResources: action.payload,
+			};
+			break;
+		}
+		case 'config.toggleShowFocusMaterials': {
+			newState = {
+				...state,
+				showFocusMaterials: action.payload,
 			};
 			break;
 		}
@@ -63,11 +71,19 @@ const useData = () => {
 		});
 	};
 
+	const toggleShowFocusMaterials = (toggle) => {
+		dispatch({
+			type: 'config.toggleShowFocusMaterials',
+			payload: toggle,
+		});
+	};
+
 	return {
 		config: state,
 		dispatch,
 		load,
 		toggleShowAllResources,
+		toggleShowFocusMaterials,
 	};
 };
 

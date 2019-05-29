@@ -1,5 +1,5 @@
 html, body {
-	height: 100%;
+	height: calc(100% - 28px);
 	width: 100%;
 	padding: 0;
 	margin: 0;

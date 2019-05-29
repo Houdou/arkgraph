@@ -9,6 +9,7 @@ const Header = ({
 	currentUrl,
 	config,
 	toggleShowAllResources,
+	toggleShowFocusMaterials,
 }) => (
 	<header class={style.header}>
 		<div class={style.title}>
@@ -21,6 +22,7 @@ const Header = ({
 			<nav>
 				<Link activeClassName={style.active} href="/">首页</Link>
 				<Link activeClassName={style.active} href="/info">说明</Link>
+				<Link activeClassName={style.active} href="/backup">数据备份</Link>
 			</nav>
 		</div>
 		{
@@ -30,6 +32,11 @@ const Header = ({
 						value={config.showAllResources}
 						toggle={toggleShowAllResources}
 						content="显示全部资源"
+					/>
+					<Toggle
+						value={config.showFocusMaterials}
+						toggle={toggleShowFocusMaterials}
+						content="显示追踪材料"
 					/>
 				</div>
 			)

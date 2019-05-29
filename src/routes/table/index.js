@@ -1,6 +1,7 @@
 import React from 'preact';
 import { useEffect, useMemo } from 'preact/hooks';
 import style from './style';
+import cn from 'classnames';
 
 import ArkTableHeader from './components/TableHeader';
 import ArkNewUpgradeRow from './components/NewUpgradeRow';
@@ -89,7 +90,13 @@ const ArkTable = ({
 
 	return (
 		<div class={style.wrapper}>
-			<div class={style.table}>
+			<div class={cn(
+				style.table,
+				{
+					[style.hide_focus_materials]: !config.showFocusMaterials,
+				}
+			)}
+			>
 				<ArkTableHeader
 					toggleFocusMaterial={toggleFocusMaterial}
 					{...global_props}

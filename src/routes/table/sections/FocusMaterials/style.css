@@ -9,10 +9,11 @@
 .wrapper > h2 {
   position: absolute;
   left: 64px;
-  top: -54px;
-  padding: 10px 40px;
+  top: -40px;
+  padding: 8px 32px;
   box-shadow: 0px 2px 3px rgba(24, 24, 24, 0.8);
   z-index: 9920;
+  font-size: 20px;
 
 	color: #DDDDDD;
 	background-color: #111;
@@ -23,6 +24,10 @@
 .wrapper .hint {
   color: #DDD;
   line-height: 80px;
+}
+.wrapper.hide_focus_materials, .wrapper.hide_focus_materials .scroll,
+.wrapper.hide_focus_materials:hover, .wrapper.hide_focus_materials:hover .scroll {
+  max-height: 20px;
 }
 
 .wrapper::before {
@@ -104,7 +109,7 @@
   justify-content: center;
 }
 
-.wrapper:hover h2 {
+.wrapper:not(.hide_focus_materials):hover h2 {
   transform: translate(0, 54px);
 }
 .wrapper, .scroll {

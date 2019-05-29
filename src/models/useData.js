@@ -163,7 +163,7 @@ const reducer = (state, action) => {
 			break;
 		}
 		case 'data.load': {
-			const json = window.localStorage.getItem(STORAGE_KEY);
+			const json = action.payload || window.localStorage.getItem(STORAGE_KEY);
 			try {
 				if (json) {
 					const loaded = JSON.parse(json);
@@ -184,9 +184,17 @@ const reducer = (state, action) => {
 						throw new Error('Failed to load save');
 					}
 
+					if (action.payload) {
+						newState = loaded;
+					}
+
 					return loaded;
 				}
 			} catch (err) {
+				if (action.payload) {
+					err.details = '数据格式不正确，请检查';
+					throw err;
+				}
 				window.localStorage.removeItem(STORAGE_KEY);
 				return default_state;
 			}
@@ -196,7 +204,7 @@ const reducer = (state, action) => {
 			throw new Error(`Undefined action type: ${action.type}`);
 	}
 
-	if (action.type !== 'data.load') {
+	if (!(action.type === 'data.load' && !action.payload)) {
 		// TODO: Trim storage
 		window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
 			...newState,
@@ -209,11 +217,10 @@ const reducer = (state, action) => {
 const useData = () => {
 	const [state, dispatch] = useReducer(reducer, default_state);
 
-	const load = () => {
-		dispatch({
-			type: 'data.load',
-		});
-	};
+	const load = (json) => dispatch({
+		type: 'data.load',
+		payload: json,
+	});
 
 	const setStockItem = (id, quantity) => {
 		dispatch({

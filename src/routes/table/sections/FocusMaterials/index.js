@@ -6,6 +6,7 @@ import { RESOURCES } from '../../../../models/Resources';
 import ArkMaterialCard from '../../../../components/materialCard';
 
 const ArkFocusMaterials = ({
+	config,
 	focus_materials,
 	toggleFocusMaterial,
 	addFocusMaterials,
@@ -22,7 +23,12 @@ const ArkFocusMaterials = ({
 		.filter(({ id: material_id, options }) => RESOURCES[material_id] && options && !options.hidden);
 
 	return (
-		<div class={style.wrapper}>
+		<div class={cn(
+			style.wrapper,
+			{
+				[style.hide_focus_materials]: !config.showFocusMaterials }
+		)}
+		>
 			<h2>追踪材料</h2>
 			<div
 				class={cn(style.clear, {
