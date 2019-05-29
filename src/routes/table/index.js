@@ -58,8 +58,9 @@ const ArkTable = ({
 
 	const fulfilled_records = records.map(record =>
 		Boolean(record.requirements) &&
-			record.requirements
-				.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)
+		record.requirements.length > 0 &&
+		record.requirements
+			.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)
 	);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));

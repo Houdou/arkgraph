@@ -2,6 +2,7 @@ import { useReducer } from 'preact/hooks';
 
 import Upgrade from './Upgrade';
 import { RESOURCES } from './Resources';
+import processRecord from './processRecord';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Save';
 const STORAGE_VERSION =  '1.0.3';
@@ -13,47 +14,58 @@ const default_state = {
 	compound_materials: [],
 };
 
+const save = (key, state) => {
+	const data = {
+		...state,
+		records: (state.records || []).map(record => new Upgrade(record)),
+	};
+	window.localStorage.setItem(key, JSON.stringify({
+		...data,
+		version: STORAGE_VERSION,
+	}));
+};
+
 const reducer = (state, action) => {
 	let newState = state;
 	switch (action.type) {
 		case 'data.addRow': {
-			const newRow = new Upgrade(...action.payload);
+			const newRow = new Upgrade(action.payload);
 			newState = {
 				...state,
-				records: [...state.records, newRow],
+				records: [...state.records, processRecord(newRow)],
 			};
 			break;
 		}
 		case 'data.updateRow': {
-			const newRecords = Array.from(state.records);
-			newRecords.splice(action.payload.index, 1, action.payload.row);
+			const records = [...state.records];
+			records.splice(action.payload.index, 1, action.payload.row);
 			newState = {
 				...state,
-				records: newRecords,
+				records,
 			};
 			break;
 		}
 		case 'data.completeRow': {
 			const rowData = state.records[action.payload] || { requirements: [] };
 			const requirements = rowData.requirements || [];
-			const { records, stock } = state;
-			const newRecords = Array.from(records);
+			const records = [...state.records];
+			const stock = { ...state.stock };
 
 			if (requirements.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)) {
 				requirements.forEach(({ resource, quantity }) => {
 					stock[resource] = (stock[resource] || 0) - quantity;
 				});
-				newRecords.splice(action.payload, 1);
+				records.splice(action.payload, 1);
 			}
 			newState = {
 				...state,
-				records: newRecords,
+				records,
 				stock,
 			};
 			break;
 		}
 		case 'data.removeRow': {
-			const { records } = state;
+			const records = [...state.records];
 			records.splice(action.payload, 1);
 			newState = {
 				...state,
@@ -72,7 +84,7 @@ const reducer = (state, action) => {
 			break;
 		case 'data.adjustStockItem': {
 			const { id, delta } = action.payload;
-			const { stock } = state;
+			const stock = { ...state.stock };
 			stock[id] = Math.max((stock[id] || 0) + delta, 0);
 			newState = {
 				...state,
@@ -148,12 +160,12 @@ const reducer = (state, action) => {
 		}
 		case 'data.compoundMaterial': {
 			const material = RESOURCES[action.payload];
-			const { stock } = state;
+			const stock = { ...state.stock };
 			if (Object.entries(material.formula).every(([id, quantity]) => stock[id] && stock[id] >= quantity)) {
 				Object.entries(material.formula).forEach(([id, quantity]) => {
 					stock[id] = (stock[id] || 0) - quantity;
-					stock[action.payload] = (stock[action.payload] || 0) + 1;
 				});
+				stock[action.payload] = (stock[action.payload] || 0) + 1;
 			}
 
 			newState = {
@@ -185,14 +197,13 @@ const reducer = (state, action) => {
 					}
 
 					if (action.payload) {
-						newState = loaded;
-						window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
-							...newState,
-							version: STORAGE_VERSION,
-						}));
+						save(STORAGE_KEY, loaded);
 					}
-					
-					return loaded;
+
+					return {
+						...loaded,
+						records: (loaded.records || []).map(processRecord),
+					};
 				}
 			} catch (err) {
 				if (action.payload) {
@@ -209,11 +220,7 @@ const reducer = (state, action) => {
 	}
 
 	if (action.type !== 'data.load') {
-		// TODO: Trim storage
-		window.localStorage.setItem(STORAGE_KEY, JSON.stringify({
-			...newState,
-			version: STORAGE_VERSION,
-		}));
+		save(STORAGE_KEY, newState);
 	}
 	return newState;
 };
@@ -245,10 +252,10 @@ const useData = () => {
 		});
 	};
 
-	const setStockBulk = (newStock) => {
+	const setStockBulk = (stock) => {
 		dispatch({
 			type: 'dat.setStockBuld',
-			payload: newStock,
+			payload: stock,
 		});
 	};
 

@@ -2,6 +2,7 @@ import React from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
 import style from './style';
 
+import Upgrade from '../../models/Upgrade';
 import { STORAGE_KEY as SAVE_STORAGE_KEY } from '../../models/useData';
 import { STORAGE_KEY as CONFIG_STORAGE_KEY } from '../../config/useConfig';
 
@@ -58,7 +59,10 @@ const ArkDataBackup = ({
 						name="save"
 						id=""
 						cols="auto" rows="auto"
-						value={JSON.stringify(state)}
+						value={JSON.stringify({
+							...state,
+							records: state.records.map(record => new Upgrade(record)),
+						})}
 					/>
 					<div class={style.buttons}>
 						<span onClick={e => copyData(e)}>{copy_state}</span>
