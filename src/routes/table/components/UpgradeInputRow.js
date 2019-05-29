@@ -1,6 +1,9 @@
 import React from 'preact';
 import { useEffect, useRef } from 'preact/hooks';
 
+import tick from '../../../assets/icons/tick.svg';
+import close from '../../../assets/icons/close.svg';
+
 import ArkCell from '../../../components/cell';
 import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
@@ -19,6 +22,8 @@ const ArkUpgradeInputRow = ({
 	record_index,
 	update,
 	remove,
+	complete,
+	fulfilled,
 	header_list,
 	header_skip,
 	resources_filter,
@@ -84,7 +89,26 @@ const ArkUpgradeInputRow = ({
 
 	const RemoveButton = (props) => (
 		<ArkCell halfwidth>
-			<ArkButton value="-" onClick={() => remove(record_index)} />
+			<ArkButton onClick={() => remove(record_index)}>
+				<img src={close} alt="close" style={{
+					'max-width': '60%',
+					'max-height': '60%',
+				}}
+				/>
+			</ArkButton>
+		</ArkCell>
+	);
+
+	const CompleteButton = (props) => (
+		<ArkCell halfwidth>
+			<ArkButton onClick={() => fulfilled && complete(record_index)}>
+				<img src={tick} alt="tick" style={{
+					'max-width': '60%',
+					'max-height': '60%',
+					opacity: fulfilled ? 1 : 0.2,
+				}}
+				/>
+			</ArkButton>
 		</ArkCell>
 	);
 
@@ -99,6 +123,7 @@ const ArkUpgradeInputRow = ({
 			cells={
 				[
 					RemoveButton,
+					CompleteButton,
 					OperatorInput,
 					AttributeInput,
 					CurrentInput,

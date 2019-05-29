@@ -1,6 +1,5 @@
 import React from 'preact';
 import cn from 'classnames';
-import style from './style';
 import ArkCell from '../cell';
 import ArkInputCell from '../inputCell';
 
@@ -13,10 +12,11 @@ const ArkRow = (props) => {
 	return (
 		<div
 			class={cn(
-				style.row,
+				'row',
 				{
-					[style.header]: props.header,
-					[style.icons_header]: props.icons_header,
+					header: props.header,
+					icons_header: props.icons_header,
+					disable_hover: props.disable_hover,
 				}
 			)}
 		>

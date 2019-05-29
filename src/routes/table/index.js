@@ -15,7 +15,8 @@ import sumShortage from '../../models/sumShortage';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
-	{ name: '' },
+	{ name: '移除' },
+	{ name: '完成' },
 	{ name: '干员' },
 	{ name: '升级项目' },
 	{ name: '现等级' },
@@ -37,7 +38,9 @@ const ArkTable = ({
 		addEmptyRow,
 		updateRow,
 		removeRow,
+		completeRow,
 		setStockItem,
+		adjustStockItem,
 		toggleFocusMaterial,
 		addFocusMaterials,
 		clearFocusMaterials,
@@ -50,12 +53,19 @@ const ArkTable = ({
 	}, []);
 
 	const summary = useMemo(() => sumRequirements(records, compound_materials), [records, compound_materials]);
-	const shortage = useMemo(() => sumShortage(stock, summary), [stock, summary]);
+	const shortage = sumShortage(stock, summary);
+
+	const fulfilled_records = records.map(record =>
+		Boolean(record.requirements) &&
+			record.requirements
+				.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)
+	);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
+	const header_skip = 6;
 
 	const resources_filter = (index) => {
-		const is_prefix = index < 5;
+		const is_prefix = index < header_skip;
 		const is_in_range = index < header_list.length;
 		const is_item_presented = config.showAllResources
 			|| presented_materials.includes(header_list[index].id)
@@ -73,7 +83,7 @@ const ArkTable = ({
 		compound_materials,
 		records,
 		header_list,
-		header_skip: 5,
+		header_skip,
 		resources_filter,
 	};
 
@@ -99,6 +109,8 @@ const ArkTable = ({
 							record_index={index}
 							update={updateRow}
 							remove={removeRow}
+							complete={completeRow}
+							fulfilled={fulfilled_records[index]}
 							{...global_props}
 						/>
 					))
@@ -110,6 +122,7 @@ const ArkTable = ({
 			</div>
 			<ArkFocusMaterials
 				stock={stock}
+				adjustStockItem={adjustStockItem}
 				toggleFocusMaterial={toggleFocusMaterial}
 				addFocusMaterials={addFocusMaterials}
 				clearFocusMaterials={clearFocusMaterials}

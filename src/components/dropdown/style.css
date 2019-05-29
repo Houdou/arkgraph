@@ -18,11 +18,14 @@
 	height: 32px;
 	min-width: 100px;
 	width: 100px;
-	background: #444;
+	background: #EEEEEE11;
 	border-right: 0.5px #666 solid;
 	border-bottom: 0.5px #666 solid;
 	color: #EEE;
   position: relative;
+}
+.cell option {
+  background-color: #444;
 }
 
 .cell.select:after {

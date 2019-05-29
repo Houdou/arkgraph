@@ -39,6 +39,7 @@ const ArkStockRow = ({
 			cells={
 				[
 					{ content: '', halfwidth: true },
+					{ content: '', halfwidth: true },
 					{ content: '' },
 					{ content: '' },
 					{ content: '' },

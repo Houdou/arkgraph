@@ -7,7 +7,6 @@ const ArkCell = (props) => (
 		class={
 			cn(
 				style.button,
-				style[props.header_level],
 				{
 					[style.header]: props.header,
 					[style.empty]: !props.content,

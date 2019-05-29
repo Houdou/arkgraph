@@ -1,5 +1,5 @@
 export const ATTRIBUTES = {
-	LEVEL: '干员等级',
+	// LEVEL: '干员等级',
 	ELITE_LEVEL: '精英化',
 	SKILL_LEVEL: '技能等级',
 	MASTER_SKILL_1: '技能1专精',

@@ -28,3 +28,20 @@ input[type="number"]::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
 }
+
+.row {
+	width: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+}
+
+.row.header {
+	position: sticky;
+	top: 56px;
+	z-index: 999;
+	box-shadow: 1px 2px 3px 0px #33333333;
+}

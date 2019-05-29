@@ -14,6 +14,7 @@ const ArkFocusMaterials = ({
 	toggleCompoundMaterial,
 	compoundMaterial,
 	stock,
+	adjustStockItem,
 	summary,
 	shortage,
 }) => {
@@ -39,6 +40,7 @@ const ArkFocusMaterials = ({
 								card_index={index}
 								class={style.card}
 								stock={stock}
+								adjustStockItem={adjustStockItem}
 								summary={summary}
 								shortage={shortage}
 								toggleFocusMaterial={toggleFocusMaterial}

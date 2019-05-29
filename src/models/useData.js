@@ -25,20 +25,39 @@ const reducer = (state, action) => {
 			break;
 		}
 		case 'data.updateRow': {
-			const newData = Array.from(state.records);
-			newData.splice(action.payload.index, 1, action.payload.row);
+			const newRecords = Array.from(state.records);
+			newRecords.splice(action.payload.index, 1, action.payload.row);
 			newState = {
 				...state,
-				records: newData,
+				records: newRecords,
+			};
+			break;
+		}
+		case 'data.completeRow': {
+			const rowData = state.records[action.payload] || { requirements: [] };
+			const requirements = rowData.requirements || [];
+			const { records, stock } = state;
+			const newRecords = Array.from(records);
+
+			if (requirements.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)) {
+				requirements.forEach(({ resource, quantity }) => {
+					stock[resource] = (stock[resource] || 0) - quantity;
+				});
+				newRecords.splice(action.payload, 1);
+			}
+			newState = {
+				...state,
+				records: newRecords,
+				stock,
 			};
 			break;
 		}
 		case 'data.removeRow': {
-			const newData = Array.from(state.records);
-			newData.splice(action.payload, 1);
+			const { records } = state;
+			records.splice(action.payload, 1);
 			newState = {
 				...state,
-				records: newData,
+				records,
 			};
 			break;
 		}
@@ -51,6 +70,16 @@ const reducer = (state, action) => {
 				},
 			};
 			break;
+		case 'data.adjustStockItem': {
+			const { id, delta } = action.payload;
+			const { stock } = state;
+			stock[id] = Math.max((stock[id] || 0) + delta, 0);
+			newState = {
+				...state,
+				stock,
+			};
+			break;
+		}
 		case 'data.setStockBulk':
 			newState = {
 				...state,
@@ -120,7 +149,7 @@ const reducer = (state, action) => {
 		case 'data.compoundMaterial': {
 			const material = RESOURCES[action.payload];
 			const { stock } = state;
-			if (Object.entries(material.formula).every(([id, quantity]) => stock[id] && stock[id] > quantity)) {
+			if (Object.entries(material.formula).every(([id, quantity]) => stock[id] && stock[id] >= quantity)) {
 				Object.entries(material.formula).forEach(([id, quantity]) => {
 					stock[id] = (stock[id] || 0) - quantity;
 					stock[action.payload] = (stock[action.payload] || 0) + 1;
@@ -195,6 +224,16 @@ const useData = () => {
 		});
 	};
 
+	const adjustStockItem = (id, delta) => {
+		dispatch({
+			type: 'data.adjustStockItem',
+			payload: {
+				id,
+				delta,
+			},
+		});
+	};
+
 	const setStockBulk = (newStock) => {
 		dispatch({
 			type: 'dat.setStockBuld',
@@ -220,6 +259,13 @@ const useData = () => {
 		dispatch({
 			type: 'data.updateRow',
 			payload: { index, row },
+		});
+	};
+
+	const completeRow = (index) => {
+		dispatch({
+			type: 'data.completeRow',
+			payload: index,
 		});
 	};
 
@@ -274,8 +320,10 @@ const useData = () => {
 		addRow,
 		addEmptyRow,
 		updateRow,
+		completeRow,
 		removeRow,
 		setStockItem,
+		adjustStockItem,
 		setStockBulk,
 		toggleFocusMaterial,
 		addFocusMaterials,

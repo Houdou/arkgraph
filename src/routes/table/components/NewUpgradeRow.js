@@ -23,12 +23,14 @@ const ArkNewUpgradeRow = ({
 			cells={
 				[
 					{ content: '', halfwidth: true },
+					{ content: '', halfwidth: true },
 					new_upgrade_input,
 					{ content: '' },
 					{ content: '' },
 					{ content: '' },
 				]
 			}
+			disable_hover
 			resources_filter={resources_filter}
 		/>
 	);

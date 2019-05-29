@@ -19,6 +19,7 @@ const ArkMaterialCard = ({
 	id,
 	card_index,
 	stock,
+	adjustStockItem,
 	summary,
 	shortage,
 	toggleFocusMaterial,
@@ -43,7 +44,19 @@ const ArkMaterialCard = ({
 						class={cn(style.black, style.close)}
 						onClick={e => toggleFocusMaterial(id)}
 					/>
-					<div class={style.item}>
+					<div
+						class={style.item}
+						onClick={e => {
+							e.preventDefault();
+							e.stopPropagation();
+							adjustStockItem(id, 1);
+						}}
+						onContextMenu={e => {
+							e.preventDefault();
+							e.stopPropagation();
+							adjustStockItem(id, -1);
+						}}
+					>
 						<ArkItem
 							id={id}
 							tier={material.tier}

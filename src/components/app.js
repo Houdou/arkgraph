@@ -17,7 +17,6 @@ const App = (props) => {
 		config,
 		load,
 		toggleShowAllResources,
-		toggleShowMaterialIcons,
 	} = useConfig();
 
 	const data = useData();
@@ -32,7 +31,6 @@ const App = (props) => {
 				currentUrl={currentUrl}
 				config={config}
 				toggleShowAllResources={toggleShowAllResources}
-				toggleShowMaterialIcons={toggleShowMaterialIcons}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
 				<ArkTable path="/" config={config} data={data} />

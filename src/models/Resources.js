@@ -529,6 +529,13 @@ const EXP_TAPES = [
 
 const CHIPS = [
 	{
+		id: 'O-4-1',
+		name: '芯片助剂',
+		tier: 'T4',
+		source: {},
+		formula: {},
+	},
+	{
 		id: 'C-5-1',
 		name: '先锋双芯片',
 		tier: 'T5',
@@ -751,13 +758,6 @@ const CHIPS = [
 		source: {
 			'PR-D-1': '中概率',
 		},
-		formula: {},
-	},
-	{
-		id: 'O-4-1',
-		name: '芯片助剂',
-		tier: 'T4',
-		source: {},
 		formula: {},
 	},
 ];
