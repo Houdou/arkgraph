@@ -53,7 +53,7 @@ const ArkTable = ({
 		load();
 	}, []);
 
-	const summary = useMemo(() => sumRequirements(records, compound_materials), [records, compound_materials]);
+	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
 	const shortage = sumShortage(stock, summary);
 
 	const fulfilled_records = records.map(record =>
