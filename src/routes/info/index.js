@@ -80,6 +80,11 @@ const Info = (props) => (
 			<blockquote><p>由于使用了Service worker离线缓存，如果遇到各种Bug，请尝试<code>Ctrl+F5</code>刷新最新版本，或下拉到页面底端重置所有数据</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.2.3</h3>
+			<ul>
+				<li>增加了部分干员数据</li>
+				<li>修复了需合成材料的库存量没有被计算在内的问题</li>
+			</ul>
 			<h3>V1.2.2</h3>
 			<ul>
 				<li>增加了数据备份功能</li>
