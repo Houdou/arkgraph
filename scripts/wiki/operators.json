@@ -18261,5 +18261,125 @@
       "max_elite_tier": 1,
       "max_master_skills": 1
     }
+  },
+  {
+    "name": "空爆",
+    "pinyin": [
+      "kong bao",
+      "kongbao"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 1
+          }
+        ]
+      }
+    ],
+    "skill_names": [
+      "爆破范围提升·α型"
+    ],
+    "master_skills": [
+      {
+        "name": "爆破范围提升·α型",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": []
+          },
+          {
+            "level": 1,
+            "materials": []
+          },
+          {
+            "level": 2,
+            "materials": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 10000
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_tier": 1,
+      "max_master_skills": 1
+    }
   }
 ]

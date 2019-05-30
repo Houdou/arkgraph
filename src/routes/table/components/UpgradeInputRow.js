@@ -63,11 +63,16 @@ const ArkUpgradeInputRow = ({
 	const operator_data = OPERATORS.find(o => o.name === operator);
 	const unavailable_attributes = [];
 	if (operator_data) {
-		if (operator_data.meta.max_master_skills < 2) {
+		if (operator_data.meta.max_master_skills < 3) {
 			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_3);
 		}
-		if (operator_data.meta.max_master_skills < 1) {
+		if (operator_data.meta.max_master_skills < 2) {
 			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_2);
+		}
+		if (operator_data.meta.max_master_skills === 1) {
+			if (operator_data.master_skills[0].upgrades.every(({ materials }) => materials.length === 0)){
+				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
+			}
 		}
 	}
 

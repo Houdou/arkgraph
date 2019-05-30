@@ -1,0 +1,76 @@
+[
+  {
+    "name": "空爆",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 10000
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 1
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          },
+          {
+            "resource": "聚酸酯",
+            "quantity": 1
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 1
+          },
+          {
+            "resource": "异铁",
+            "quantity": 1
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 1
+          },
+          {
+            "resource": "酮凝集",
+            "quantity": 2
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 1
+          },
+          {
+            "resource": "轻锰矿",
+            "quantity": 1
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 2
+          },
+          {
+            "resource": "研磨石",
+            "quantity": 1
+          }
+        ],
+        "爆破范围提升·α型 7→8": [],
+        "爆破范围提升·α型 8→9": [],
+        "爆破范围提升·α型 9→10": []
+      }
+    }
+  }
+]

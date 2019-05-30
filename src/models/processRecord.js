@@ -12,6 +12,20 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 
 	let requirements = [];
 	if (operator) {
+		const unavailable_attributes = [];
+
+		if (operator.meta.max_master_skills < 3) {
+			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_3);
+		}
+		if (operator.meta.max_master_skills < 2) {
+			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_2);
+		}
+		if (operator.meta.max_master_skills === 1) {
+			if (operator.master_skills[0].upgrades.every(({ materials }) => materials.length === 0)){
+				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
+			}
+		}
+
 		switch (attribute) {
 			case ATTRIBUTES.LEVEL:
 				// No date yet
@@ -21,27 +35,34 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 				requirements = operator.elites[current].materials;
 				break;
 			case ATTRIBUTES.SKILL_LEVEL:
-				current = clampRange(current, 1, 7);
+				current = clampRange(current, 1, 6);
 				requirements = operator.skills[current - 1].materials;
 				break;
 			case ATTRIBUTES.MASTER_SKILL_1:
-				current = clampRange(current, 0, 2);
-				requirements = operator.master_skills[0].upgrades[current].materials;
+				if (unavailable_attributes.includes(attribute)) {
+					attribute = ATTRIBUTES.SKILL_LEVEL;
+					current = 0;
+				} else {
+					current = clampRange(current, 0, 2);
+					requirements = operator.master_skills[0].upgrades[current].materials;
+				}
 				break;
 			case ATTRIBUTES.MASTER_SKILL_2:
-				if (operator.meta.max_master_skills >= 1) {
+				if (unavailable_attributes.includes(attribute)) {
+					attribute = ATTRIBUTES.SKILL_LEVEL;
+					current = 0;
+				} else {
 					current = clampRange(current, 0, 2);
 					requirements = operator.master_skills[1].upgrades[current].materials;
-				} else {
-					attribute = ATTRIBUTES[`MASTER_SKILL_${operator.meta.max_master_skills}`];
 				}
 				break;
 			case ATTRIBUTES.MASTER_SKILL_3:
-				if (operator.meta.max_master_skills >= 2) {
+				if (unavailable_attributes.includes(attribute)) {
+					attribute = ATTRIBUTES.SKILL_LEVEL;
+					current = 0;
+				} else {
 					current = clampRange(current, 0, 2);
 					requirements = operator.master_skills[2].upgrades[current].materials;
-				} else {
-					attribute = ATTRIBUTES[`MASTER_SKILL_${operator.meta.max_master_skills + 1}`];
 				}
 				break;
 			default:

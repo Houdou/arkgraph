@@ -3,5 +3,6 @@ build
 /*.log
 *.lock
 src/assets/wip
+scripts/commands/*
 
 package-lock.json
