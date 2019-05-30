@@ -62,6 +62,8 @@ const ArkUpgradeInputRow = ({
 	const options = Object.entries(ATTRIBUTES).map(([k, v]) => ({ key: k, value: v }));
 	const operator_data = OPERATORS.find(o => o.name === operator);
 	const unavailable_attributes = [];
+	const render_map = {};
+
 	if (operator_data) {
 		if (operator_data.meta.max_master_skills < 3) {
 			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_3);
@@ -74,11 +76,24 @@ const ArkUpgradeInputRow = ({
 				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
 			}
 		}
+
+		[
+			ATTRIBUTES.MASTER_SKILL_1,
+			ATTRIBUTES.MASTER_SKILL_2,
+			ATTRIBUTES.MASTER_SKILL_3,
+		].filter(attr => !unavailable_attributes.includes(attr))
+			.forEach((attr, index) => {
+				if (operator_data.skill_names[index]) {
+					render_map[attr] = operator_data.skill_names[index];
+				}
+			});
 	}
+
 
 	const AttributeInput = (props) => (
 		<ArkDropdownCell {...props}
 			options={options.filter(option => !unavailable_attributes.includes(option.value))}
+			render_map={render_map}
 			value={attribute} onChange={value => {
 				update(record_index, setAttribute(value));
 			}}
