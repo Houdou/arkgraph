@@ -80,6 +80,11 @@ const Info = (props) => (
 			<blockquote><p>由于使用了Service worker离线缓存，如果遇到各种Bug，请尝试<code>Ctrl+F5</code>刷新最新版本，或下拉到页面底端重置所有数据</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.2.4</h3>
+			<ul>
+				<li>下拉选单中显示技能名称</li>
+				<li>修复了Edge（或许包括其他浏览器）无法变更升级项目的Bug</li>
+			</ul>
 			<h3>V1.2.3</h3>
 			<ul>
 				<li>增加了部分干员数据</li>
