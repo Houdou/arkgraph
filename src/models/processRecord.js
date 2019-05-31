@@ -41,7 +41,7 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 			case ATTRIBUTES.MASTER_SKILL_1:
 				if (unavailable_attributes.includes(attribute)) {
 					attribute = ATTRIBUTES.SKILL_LEVEL;
-					current = 0;
+					current = 1;
 				} else {
 					current = clampRange(current, 0, 2);
 					requirements = operator.master_skills[0].upgrades[current].materials;
@@ -50,7 +50,7 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 			case ATTRIBUTES.MASTER_SKILL_2:
 				if (unavailable_attributes.includes(attribute)) {
 					attribute = ATTRIBUTES.SKILL_LEVEL;
-					current = 0;
+					current = 1;
 				} else {
 					current = clampRange(current, 0, 2);
 					requirements = operator.master_skills[1].upgrades[current].materials;
@@ -59,7 +59,7 @@ const processRecord = ({ operator: operator_name, attribute, current, target }) 
 			case ATTRIBUTES.MASTER_SKILL_3:
 				if (unavailable_attributes.includes(attribute)) {
 					attribute = ATTRIBUTES.SKILL_LEVEL;
-					current = 0;
+					current = 1;
 				} else {
 					current = clampRange(current, 0, 2);
 					requirements = operator.master_skills[2].upgrades[current].materials;

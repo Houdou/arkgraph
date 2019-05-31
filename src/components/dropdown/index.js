@@ -16,7 +16,7 @@ const ArkDropdownCell = (props) => (
 			)
 		}
 	>
-		<select name={props.name} onInput={e => {
+		<select name={props.name} onChange={e => {
 			props.onChange && props.onChange(e.target.value);
 		}}
 		>
