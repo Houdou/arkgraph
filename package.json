@@ -41,6 +41,7 @@
     "per-env": "^1.0.2",
     "pinyin": "^2.9.0",
     "preact-cli": "^3.0.0-next.19",
+    "preact-cli-workbox-plugin": "^1.1.1",
     "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
