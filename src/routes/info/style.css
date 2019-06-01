@@ -52,3 +52,20 @@
 .info blockquote p {
   margin: 0
 }
+
+.tip_link {
+  position: relative;
+  text-decoration: underline;
+}
+.tip {
+  width: 360px;
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+  margin-left: -140px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.tip_link:hover .tip:not(:hover) {
+  opacity: 1;
+}
