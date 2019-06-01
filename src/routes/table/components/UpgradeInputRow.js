@@ -1,9 +1,6 @@
 import React from 'preact';
 import { useEffect, useRef } from 'preact/hooks';
 
-import tick from '../../../assets/icons/tick.svg';
-import close from '../../../assets/icons/close.svg';
-
 import ArkCell from '../../../components/cell';
 import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
@@ -110,9 +107,8 @@ const ArkUpgradeInputRow = ({
 	const RemoveButton = (props) => (
 		<ArkCell halfwidth>
 			<ArkButton onClick={() => remove(record_index)}>
-				<img src={close} alt="close" style={{
-					'max-width': '60%',
-					'max-height': '60%',
+				<img src="../../../assets/icons/close.png" alt="close" style={{
+					height: '20px',
 				}}
 				/>
 			</ArkButton>
@@ -122,9 +118,8 @@ const ArkUpgradeInputRow = ({
 	const CompleteButton = (props) => (
 		<ArkCell halfwidth>
 			<ArkButton onClick={() => fulfilled && complete(record_index)}>
-				<img src={tick} alt="tick" style={{
-					'max-width': '60%',
-					'max-height': '60%',
+				<img src="../../../assets/icons/tick.png" alt="tick" style={{
+					height: '20px',
 					opacity: fulfilled ? 1 : 0.2,
 				}}
 				/>
