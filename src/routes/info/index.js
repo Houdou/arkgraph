@@ -1,13 +1,10 @@
 import React from 'preact';
 import style from './style';
 
-import { STORAGE_VERSION } from '../../config/useConfig';
-
 const Info = (props) => (
 	<div class={style.wrapper}>
 		<div class={style.info}>
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
-			<h3>最新版本为<code>V{STORAGE_VERSION}</code>，请对比顶部版本号，可按<code>Ctrl+F5</code>获取更新</h3>
 			<hr />
 			<h2>更新预告<del>（画饼公告</del></h2>
 			<span>2019-06-01</span>
@@ -81,7 +78,6 @@ const Info = (props) => (
 				<li>干员数据查询</li>
 				<li>自动本地保存</li>
 				<li>自动折叠数据列</li>
-				<li>离线可用</li>
 				<li>材料图标</li>
 				<li>材料出处展示</li>
 				<li>材料合成公式展示</li>
@@ -109,6 +105,10 @@ const Info = (props) => (
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.2.6</h3>
+			<ul>
+				<li>更换了缓存方式，现在只缓存图片，网站会一直保持最新</li>
+			</ul>
 			<h3>V1.2.5</h3>
 			<ul>
 				<li>增加了斯卡蒂，格拉尼，夜魔，月见夜的数据，（暂缺猎蜂</li>
