@@ -1,10 +1,13 @@
 import React from 'preact';
 import style from './style';
 
+import { STORAGE_VERSION } from '../../config/useConfig';
+
 const Info = (props) => (
 	<div class={style.wrapper}>
 		<div class={style.info}>
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
+			<h3>最新版本为<code>V{STORAGE_VERSION}</code>，请对比顶部版本号，可按<code>Ctrl+F5</code>获取更新</h3>
 			<hr />
 			<h2>关于项目</h2>
 			<p>沉迷培养干员，然而没有理智。<del>只好写点相关项目等理智恢复</del></p>
@@ -14,7 +17,12 @@ const Info = (props) => (
 				<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
 			</ul>
 			<p>如果有各种建议或者意见，欢迎提Issue或微博找我</p>
-			<p>如果你喜欢这个项目，并且希望作者能多<del>抽到几个6星</del>做些新feature，欢迎打赏催更（</p>
+			<p>
+				如果你喜欢这个项目，并且希望作者能多<del>抽到几个6星</del>做些新feature，欢迎打赏催更（
+				<span class={style.tip_link} href="">打赏二维码
+					<img class={style.tip} src="../../assets/tip.png" alt="reward_author" />
+				</span>
+			</p>
 	    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
 	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 			<hr />
@@ -39,6 +47,12 @@ const Info = (props) => (
 				<li>点击<code>材料大图标</code>可直接增加1个库存，右键减少1个</li>
 				<li>点击<code>合成一份</code>将自动扣除原料数量，并增加1个到库存</li>
 			</ul>
+			<h3>Tips</h3>
+			<blockquote><p>虽然输入干员名称时没有备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
+			<blockquote><p>你好，博士。你或许希望能在这找到Lancet-2，但Lancet-2什么升级都没有，毕竟她只是一台医疗机器人……</p></blockquote>
+			<blockquote><p>建议使用最新版本Chrome打开本网站，开发精力有限，没有计划支持Chrome和Edge之外的浏览器</p></blockquote>
+			<blockquote><p>材料表格太宽时，按住<code>Shift</code>再滚动鼠标滚轮<del>应该</del>可以横向滚动</p></blockquote>
+			<blockquote><p>由于使用了Service worker离线缓存，如果遇到各种Bug，请尝试<code>Ctrl+F5</code>刷新最新版本，或下拉到页面底端重置所有数据</p></blockquote>
 			<hr />
 			<h2>功能列表</h2>
 			<h3>已实现功能</h3>
@@ -72,14 +86,13 @@ const Info = (props) => (
 				<li>……</li>
 				<li>欢迎提供建议: <a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph/issues">Issue board</a></li>
 			</ul>
-			<h3>Tips</h3>
-			<blockquote><p>虽然输入干员名称时没有备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
-			<blockquote><p>你好，博士。你或许希望能在这找到Lancet-2，但Lancet-2什么升级都没有，毕竟她只是一台医疗机器人……</p></blockquote>
-			<blockquote><p>建议使用最新版本Chrome打开本网站，开发精力有限，没有计划支持Chrome和Edge之外的浏览器</p></blockquote>
-			<blockquote><p>材料表格太宽时，按住<code>Shift</code>再滚动鼠标滚轮<del>应该</del>可以横向滚动</p></blockquote>
-			<blockquote><p>由于使用了Service worker离线缓存，如果遇到各种Bug，请尝试<code>Ctrl+F5</code>刷新最新版本，或下拉到页面底端重置所有数据</p></blockquote>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.2.5</h3>
+			<ul>
+				<li>增加了斯卡蒂，格拉尼，夜魔，月见夜的数据，（暂缺猎蜂</li>
+				<li>增加了打赏（</li>
+			</ul>
 			<h3>V1.2.4</h3>
 			<ul>
 				<li>下拉选单中显示技能名称</li>
