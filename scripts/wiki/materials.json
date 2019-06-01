@@ -2390,43 +2390,43 @@
     }
   },
   {
-    "name": "白面鸮",
+    "name": "斯卡蒂",
     "materials": {
       "elite": {
         "精英化1阶": [
           {
             "resource": "龙门币",
-            "quantity": 20000
+            "quantity": 30000
           },
           {
-            "resource": "医疗芯片",
-            "quantity": 4
+            "resource": "近卫芯片",
+            "quantity": 5
           },
           {
-            "resource": "固源岩",
-            "quantity": 8
+            "resource": "装置",
+            "quantity": 5
           },
           {
-            "resource": "糖",
-            "quantity": 2
+            "resource": "聚酸酯",
+            "quantity": 5
           }
         ],
         "精英化2阶": [
           {
             "resource": "龙门币",
-            "quantity": 120000
+            "quantity": 180000
           },
           {
-            "resource": "医疗双芯片",
-            "quantity": 3
+            "resource": "近卫双芯片",
+            "quantity": 4
+          },
+          {
+            "resource": "D32钢",
+            "quantity": 4
           },
           {
             "resource": "提纯源岩",
             "quantity": 9
-          },
-          {
-            "resource": "研磨石",
-            "quantity": 10
           }
         ]
       },
@@ -2434,145 +2434,195 @@
         "1→2": [
           {
             "resource": "技巧概要·卷1",
-            "quantity": 4
+            "quantity": 5
           }
         ],
         "2→3": [
           {
-            "resource": "技巧概要·卷3",
+            "resource": "技巧概要·卷1",
             "quantity": 4
           },
           {
-            "resource": "源岩",
-            "quantity": 10
+            "resource": "破损装置",
+            "quantity": 4
+          },
+          {
+            "resource": "酯原料",
+            "quantity": 4
           }
         ],
         "3→4": [
           {
             "resource": "技巧概要·卷2",
-            "quantity": 6
+            "quantity": 8
           },
           {
-            "resource": "糖",
-            "quantity": 3
+            "resource": "固源岩",
+            "quantity": 7
           }
         ],
         "4→5": [
           {
             "resource": "技巧概要·卷2",
-            "quantity": 5
+            "quantity": 8
           },
           {
-            "resource": "聚酸酯",
-            "quantity": 6
+            "resource": "糖",
+            "quantity": 4
+          },
+          {
+            "resource": "酮凝集",
+            "quantity": 4
           }
         ],
         "5→6": [
           {
             "resource": "技巧概要·卷2",
-            "quantity": 6
+            "quantity": 8
           },
           {
-            "resource": "异铁组",
-            "quantity": 4
+            "resource": "酮凝集组",
+            "quantity": 6
           }
         ],
         "6→7": [
           {
             "resource": "技巧概要·卷3",
+            "quantity": 8
+          },
+          {
+            "resource": "全新装置",
+            "quantity": 3
+          },
+          {
+            "resource": "糖组",
+            "quantity": 5
+          }
+        ],
+        "迅捷打击·γ型 7→8": [
+          {
+            "resource": "技巧概要·卷3",
             "quantity": 6
           },
           {
-            "resource": "酮凝集组",
-            "quantity": 2
-          },
-          {
-            "resource": "扭转醇",
-            "quantity": 4
-          }
-        ],
-        "治疗强化·γ型 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 5
-          },
-          {
-            "resource": "改量装置",
-            "quantity": 2
-          },
-          {
-            "resource": "异铁组",
-            "quantity": 3
-          }
-        ],
-        "脑啡肽 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 5
-          },
-          {
             "resource": "白马醇",
-            "quantity": 3
+            "quantity": 4
           },
           {
             "resource": "酮凝集组",
-            "quantity": 5
+            "quantity": 8
           }
         ],
-        "治疗强化·γ型 8→9": [
+        "跃浪击 7→8": [
           {
             "resource": "技巧概要·卷3",
             "quantity": 6
           },
           {
             "resource": "三水锰矿",
-            "quantity": 3
+            "quantity": 4
           },
           {
             "resource": "改量装置",
             "quantity": 4
           }
         ],
-        "脑啡肽 8→9": [
+        "涌潮悲歌 7→8": [
           {
             "resource": "技巧概要·卷3",
             "quantity": 6
           },
           {
             "resource": "五水研磨石",
-            "quantity": 3
+            "quantity": 4
           },
           {
-            "resource": "白马醇",
-            "quantity": 6
+            "resource": "扭转醇",
+            "quantity": 7
           }
         ],
-        "治疗强化·γ型 9→10": [
+        "迅捷打击·γ型 8→9": [
           {
             "resource": "技巧概要·卷3",
-            "quantity": 10
+            "quantity": 12
           },
           {
-            "resource": "聚合剂",
+            "resource": "RMA70-24",
             "quantity": 4
           },
           {
-            "resource": "糖聚块",
-            "quantity": 4
+            "resource": "三水锰矿",
+            "quantity": 7
           }
         ],
-        "脑啡肽 9→10": [
+        "跃浪击 8→9": [
           {
             "resource": "技巧概要·卷3",
-            "quantity": 10
-          },
-          {
-            "resource": "双极纳米片",
-            "quantity": 4
+            "quantity": 12
           },
           {
             "resource": "提纯源岩",
             "quantity": 4
+          },
+          {
+            "resource": "五水研磨石",
+            "quantity": 9
+          }
+        ],
+        "涌潮悲歌 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 12
+          },
+          {
+            "resource": "糖聚块",
+            "quantity": 4
+          },
+          {
+            "resource": "RMA70-24",
+            "quantity": 8
+          }
+        ],
+        "迅捷打击·γ型 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 15
+          },
+          {
+            "resource": "D32钢",
+            "quantity": 6
+          },
+          {
+            "resource": "提纯源岩",
+            "quantity": 7
+          }
+        ],
+        "跃浪击 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 15
+          },
+          {
+            "resource": "双极纳米片",
+            "quantity": 6
+          },
+          {
+            "resource": "提纯源岩",
+            "quantity": 6
+          }
+        ],
+        "涌潮悲歌 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 15
+          },
+          {
+            "resource": "双极纳米片",
+            "quantity": 6
+          },
+          {
+            "resource": "聚酸酯块",
+            "quantity": 5
           }
         ]
       }
@@ -3328,6 +3378,195 @@
           },
           {
             "resource": "聚酸酯块",
+            "quantity": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "白面鸮",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 20000
+          },
+          {
+            "resource": "医疗芯片",
+            "quantity": 4
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 8
+          },
+          {
+            "resource": "糖",
+            "quantity": 2
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 120000
+          },
+          {
+            "resource": "医疗双芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "提纯源岩",
+            "quantity": 9
+          },
+          {
+            "resource": "研磨石",
+            "quantity": 10
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "源岩",
+            "quantity": 10
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "糖",
+            "quantity": 3
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 5
+          },
+          {
+            "resource": "聚酸酯",
+            "quantity": 6
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "异铁组",
+            "quantity": 4
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "酮凝集组",
+            "quantity": 2
+          },
+          {
+            "resource": "扭转醇",
+            "quantity": 4
+          }
+        ],
+        "治疗强化·γ型 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "改量装置",
+            "quantity": 2
+          },
+          {
+            "resource": "异铁组",
+            "quantity": 3
+          }
+        ],
+        "脑啡肽 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 3
+          },
+          {
+            "resource": "酮凝集组",
+            "quantity": 5
+          }
+        ],
+        "治疗强化·γ型 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "三水锰矿",
+            "quantity": 3
+          },
+          {
+            "resource": "改量装置",
+            "quantity": 4
+          }
+        ],
+        "脑啡肽 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "五水研磨石",
+            "quantity": 3
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 6
+          }
+        ],
+        "治疗强化·γ型 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "聚合剂",
+            "quantity": 4
+          },
+          {
+            "resource": "糖聚块",
+            "quantity": 4
+          }
+        ],
+        "脑啡肽 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "双极纳米片",
+            "quantity": 4
+          },
+          {
+            "resource": "提纯源岩",
             "quantity": 4
           }
         ]
@@ -4700,6 +4939,195 @@
     }
   },
   {
+    "name": "夜魔",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 20000
+          },
+          {
+            "resource": "术师芯片",
+            "quantity": 4
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 7
+          },
+          {
+            "resource": "异铁",
+            "quantity": 3
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 120000
+          },
+          {
+            "resource": "术师双芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "糖聚块",
+            "quantity": 7
+          },
+          {
+            "resource": "轻锰矿",
+            "quantity": 14
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          },
+          {
+            "resource": "源岩",
+            "quantity": 10
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "糖",
+            "quantity": 3
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "聚酸酯",
+            "quantity": null
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "全新装置",
+            "quantity": 3
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "扭转醇",
+            "quantity": 3
+          },
+          {
+            "resource": "酮凝集组",
+            "quantity": 3
+          }
+        ],
+        "灵魂汲取 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "三水锰矿",
+            "quantity": 3
+          },
+          {
+            "resource": "全新装置",
+            "quantity": 2
+          }
+        ],
+        "夜魇魔影 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "五水研磨石",
+            "quantity": 3
+          },
+          {
+            "resource": "扭转醇",
+            "quantity": 4
+          }
+        ],
+        "灵魂汲取 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "RMA70-24",
+            "quantity": 3
+          },
+          {
+            "resource": "三水锰矿",
+            "quantity": 5
+          }
+        ],
+        "夜魇魔影 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "提纯源岩",
+            "quantity": 3
+          },
+          {
+            "resource": "五水研磨石",
+            "quantity": 6
+          }
+        ],
+        "灵魂汲取 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "聚合剂",
+            "quantity": 4
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 5
+          }
+        ],
+        "夜魇魔影 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "双极纳米片",
+            "quantity": 4
+          },
+          {
+            "resource": "聚酸酯块",
+            "quantity": 4
+          }
+        ]
+      }
+    }
+  },
+  {
     "name": "天火",
     "materials": {
       "elite": {
@@ -5834,195 +6262,6 @@
     }
   },
   {
-    "name": "狮蝎",
-    "materials": {
-      "elite": {
-        "精英化1阶": [
-          {
-            "resource": "龙门币",
-            "quantity": 20000
-          },
-          {
-            "resource": "特种芯片",
-            "quantity": 4
-          },
-          {
-            "resource": "酮凝集",
-            "quantity": 4
-          },
-          {
-            "resource": "固源岩",
-            "quantity": 4
-          }
-        ],
-        "精英化2阶": [
-          {
-            "resource": "龙门币",
-            "quantity": 120000
-          },
-          {
-            "resource": "特种双芯片",
-            "quantity": 3
-          },
-          {
-            "resource": "三水锰矿",
-            "quantity": 8
-          },
-          {
-            "resource": "糖组",
-            "quantity": 12
-          }
-        ]
-      },
-      "skill": {
-        "1→2": [
-          {
-            "resource": "技巧概要·卷1",
-            "quantity": 4
-          }
-        ],
-        "2→3": [
-          {
-            "resource": "技巧概要·卷1",
-            "quantity": 4
-          },
-          {
-            "resource": "双酮",
-            "quantity": 5
-          }
-        ],
-        "3→4": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 6
-          },
-          {
-            "resource": "装置",
-            "quantity": 2
-          }
-        ],
-        "4→5": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 6
-          },
-          {
-            "resource": "固源岩",
-            "quantity": 8
-          }
-        ],
-        "5→6": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 6
-          },
-          {
-            "resource": "糖组",
-            "quantity": 5
-          }
-        ],
-        "6→7": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "聚酸酯组",
-            "quantity": 3
-          },
-          {
-            "resource": "轻锰矿",
-            "quantity": 3
-          }
-        ],
-        "蝎毒 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 5
-          },
-          {
-            "resource": "异铁块",
-            "quantity": 3
-          },
-          {
-            "resource": "糖组",
-            "quantity": 1
-          }
-        ],
-        "蓄力毒尾击 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 5
-          },
-          {
-            "resource": "酮阵列",
-            "quantity": 3
-          },
-          {
-            "resource": "聚酸酯组",
-            "quantity": 3
-          }
-        ],
-        "蝎毒 8→9": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "改量装置",
-            "quantity": 2
-          },
-          {
-            "resource": "异铁块",
-            "quantity": 5
-          }
-        ],
-        "蓄力毒尾击 8→9": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "白马醇",
-            "quantity": 3
-          },
-          {
-            "resource": "酮阵列",
-            "quantity": 5
-          }
-        ],
-        "蝎毒 9→10": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 10
-          },
-          {
-            "resource": "聚合剂",
-            "quantity": 4
-          },
-          {
-            "resource": "五水研磨石",
-            "quantity": 4
-          }
-        ],
-        "蓄力毒尾击 9→10": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 10
-          },
-          {
-            "resource": "双极纳米片",
-            "quantity": 4
-          },
-          {
-            "resource": "三水锰矿",
-            "quantity": 3
-          }
-        ]
-      }
-    }
-  },
-  {
     "name": "火神",
     "materials": {
       "elite": {
@@ -6395,6 +6634,195 @@
           {
             "resource": "酮阵列",
             "quantity": 4
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "狮蝎",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 20000
+          },
+          {
+            "resource": "特种芯片",
+            "quantity": 4
+          },
+          {
+            "resource": "酮凝集",
+            "quantity": 4
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 4
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 120000
+          },
+          {
+            "resource": "特种双芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "三水锰矿",
+            "quantity": 8
+          },
+          {
+            "resource": "糖组",
+            "quantity": 12
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          },
+          {
+            "resource": "双酮",
+            "quantity": 5
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "装置",
+            "quantity": 2
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 8
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "糖组",
+            "quantity": 5
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "聚酸酯组",
+            "quantity": 3
+          },
+          {
+            "resource": "轻锰矿",
+            "quantity": 3
+          }
+        ],
+        "蝎毒 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "异铁块",
+            "quantity": 3
+          },
+          {
+            "resource": "糖组",
+            "quantity": 1
+          }
+        ],
+        "蓄力毒尾击 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "酮阵列",
+            "quantity": 3
+          },
+          {
+            "resource": "聚酸酯组",
+            "quantity": 3
+          }
+        ],
+        "蝎毒 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "改量装置",
+            "quantity": 2
+          },
+          {
+            "resource": "异铁块",
+            "quantity": 5
+          }
+        ],
+        "蓄力毒尾击 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 3
+          },
+          {
+            "resource": "酮阵列",
+            "quantity": 5
+          }
+        ],
+        "蝎毒 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "聚合剂",
+            "quantity": 4
+          },
+          {
+            "resource": "五水研磨石",
+            "quantity": 4
+          }
+        ],
+        "蓄力毒尾击 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "双极纳米片",
+            "quantity": 4
+          },
+          {
+            "resource": "三水锰矿",
+            "quantity": 3
           }
         ]
       }
@@ -7913,6 +8341,195 @@
     }
   },
   {
+    "name": "格拉尼",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 20000
+          },
+          {
+            "resource": "先锋芯片",
+            "quantity": 4
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 8
+          },
+          {
+            "resource": "糖",
+            "quantity": 8
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 120000
+          },
+          {
+            "resource": "先锋双芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "RMA70-24",
+            "quantity": 7
+          },
+          {
+            "resource": "异铁组",
+            "quantity": 13
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 4
+          },
+          {
+            "resource": "源岩",
+            "quantity": 10
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "糖",
+            "quantity": 3
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "聚酸酯",
+            "quantity": 5
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 6
+          },
+          {
+            "resource": "异铁组",
+            "quantity": 4
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "酮凝集组",
+            "quantity": 2
+          },
+          {
+            "resource": "扭转醇",
+            "quantity": 4
+          }
+        ],
+        "防御力强化·γ型 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "改量装置",
+            "quantity": 2
+          },
+          {
+            "resource": "异铁组",
+            "quantity": 3
+          }
+        ],
+        "永不后退！ 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 5
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 3
+          },
+          {
+            "resource": "酮凝集组",
+            "quantity": 5
+          }
+        ],
+        "防御力强化·γ型 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "三水锰矿",
+            "quantity": 3
+          },
+          {
+            "resource": "改量装置",
+            "quantity": 4
+          }
+        ],
+        "永不后退！ 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "五水研磨石",
+            "quantity": 3
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 6
+          }
+        ],
+        "防御力强化·γ型 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "D32钢",
+            "quantity": 4
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 5
+          }
+        ],
+        "永不后退！ 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 10
+          },
+          {
+            "resource": "聚合剂",
+            "quantity": 4
+          },
+          {
+            "resource": "RMA70-24",
+            "quantity": 4
+          }
+        ]
+      }
+    }
+  },
+  {
     "name": "深海色",
     "materials": {
       "elite": {
@@ -9023,191 +9640,6 @@
     }
   },
   {
-    "name": "末药",
-    "materials": {
-      "elite": {
-        "精英化1阶": [
-          {
-            "resource": "龙门币",
-            "quantity": 15000
-          },
-          {
-            "resource": "医疗芯片",
-            "quantity": 3
-          },
-          {
-            "resource": "聚酸酯",
-            "quantity": 1
-          },
-          {
-            "resource": "固源岩",
-            "quantity": 1
-          }
-        ],
-        "精英化2阶": [
-          {
-            "resource": "龙门币",
-            "quantity": 60000
-          },
-          {
-            "resource": "医疗芯片组",
-            "quantity": 5
-          },
-          {
-            "resource": "酮凝集组",
-            "quantity": 14
-          },
-          {
-            "resource": "聚酸酯组",
-            "quantity": 12
-          }
-        ]
-      },
-      "skill": {
-        "1→2": [
-          {
-            "resource": "技巧概要·卷1",
-            "quantity": 2
-          }
-        ],
-        "2→3": [
-          {
-            "resource": "技巧概要·卷1",
-            "quantity": 2
-          },
-          {
-            "resource": "酯原料",
-            "quantity": 4
-          }
-        ],
-        "3→4": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 3
-          },
-          {
-            "resource": "异铁",
-            "quantity": 2
-          }
-        ],
-        "4→5": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 3
-          },
-          {
-            "resource": "酮凝集",
-            "quantity": 2
-          }
-        ],
-        "5→6": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 3
-          },
-          {
-            "resource": "轻锰矿",
-            "quantity": 2
-          }
-        ],
-        "6→7": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 4
-          },
-          {
-            "resource": "研磨石",
-            "quantity": 2
-          }
-        ],
-        "二重治疗 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 2
-          },
-          {
-            "resource": "RMA70-24",
-            "quantity": 1
-          },
-          {
-            "resource": "轻锰矿",
-            "quantity": 3
-          }
-        ],
-        "医疗力场 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 2
-          },
-          {
-            "resource": "提纯源岩",
-            "quantity": 1
-          },
-          {
-            "resource": "研磨石",
-            "quantity": 4
-          }
-        ],
-        "二重治疗 8→9": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 4
-          },
-          {
-            "resource": "糖聚块",
-            "quantity": 2
-          },
-          {
-            "resource": "RMA70-24",
-            "quantity": 2
-          }
-        ],
-        "医疗力场 8→9": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 4
-          },
-          {
-            "resource": "聚酸酯块",
-            "quantity": 2
-          },
-          {
-            "resource": "提纯源岩",
-            "quantity": 3
-          }
-        ],
-        "二重治疗 9→10": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "D32钢",
-            "quantity": 2
-          },
-          {
-            "resource": "异铁块",
-            "quantity": 2
-          }
-        ],
-        "医疗力场 9→10": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "聚合剂",
-            "quantity": 2
-          },
-          {
-            "resource": "三水锰矿",
-            "quantity": 2
-          }
-        ]
-      }
-    }
-  },
-  {
     "name": "蛇屠箱",
     "materials": {
       "elite": {
@@ -9386,6 +9818,191 @@
           },
           {
             "resource": "酮阵列",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "末药",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 15000
+          },
+          {
+            "resource": "医疗芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "聚酸酯",
+            "quantity": 1
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 1
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 60000
+          },
+          {
+            "resource": "医疗芯片组",
+            "quantity": 5
+          },
+          {
+            "resource": "酮凝集组",
+            "quantity": 14
+          },
+          {
+            "resource": "聚酸酯组",
+            "quantity": 12
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          },
+          {
+            "resource": "酯原料",
+            "quantity": 4
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 3
+          },
+          {
+            "resource": "异铁",
+            "quantity": 2
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 3
+          },
+          {
+            "resource": "酮凝集",
+            "quantity": 2
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 3
+          },
+          {
+            "resource": "轻锰矿",
+            "quantity": 2
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "研磨石",
+            "quantity": 2
+          }
+        ],
+        "二重治疗 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 2
+          },
+          {
+            "resource": "RMA70-24",
+            "quantity": 1
+          },
+          {
+            "resource": "轻锰矿",
+            "quantity": 3
+          }
+        ],
+        "医疗力场 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 2
+          },
+          {
+            "resource": "提纯源岩",
+            "quantity": 1
+          },
+          {
+            "resource": "研磨石",
+            "quantity": 4
+          }
+        ],
+        "二重治疗 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "糖聚块",
+            "quantity": 2
+          },
+          {
+            "resource": "RMA70-24",
+            "quantity": 2
+          }
+        ],
+        "医疗力场 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "聚酸酯块",
+            "quantity": 2
+          },
+          {
+            "resource": "提纯源岩",
+            "quantity": 3
+          }
+        ],
+        "二重治疗 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "D32钢",
+            "quantity": 2
+          },
+          {
+            "resource": "异铁块",
+            "quantity": 2
+          }
+        ],
+        "医疗力场 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "聚合剂",
+            "quantity": 2
+          },
+          {
+            "resource": "三水锰矿",
             "quantity": 2
           }
         ]
@@ -9574,6 +10191,56 @@
             "quantity": 2
           }
         ]
+      }
+    }
+  },
+  {
+    "name": "猎蜂",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 15000
+          },
+          {
+            "resource": "近卫芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "装置",
+            "quantity": 1
+          },
+          {
+            "resource": "固源岩",
+            "quantity": 1
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 60000
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          }
+        ],
+        "2→3": [],
+        "3→4": [],
+        "4→5": [],
+        "5→6": [],
+        "6→7": [],
+        "高机动 7→8": [],
+        "急速拳 7→8": [],
+        "高机动 8→9": [],
+        "急速拳 8→9": [],
+        "高机动 9→10": [],
+        "急速拳 9→10": []
       }
     }
   },
@@ -10873,191 +11540,6 @@
     }
   },
   {
-    "name": "霜叶",
-    "materials": {
-      "elite": {
-        "精英化1阶": [
-          {
-            "resource": "龙门币",
-            "quantity": 15000
-          },
-          {
-            "resource": "近卫芯片",
-            "quantity": 3
-          },
-          {
-            "resource": "聚酸酯",
-            "quantity": 1
-          },
-          {
-            "resource": "异铁",
-            "quantity": 1
-          }
-        ],
-        "精英化2阶": [
-          {
-            "resource": "龙门币",
-            "quantity": 60000
-          },
-          {
-            "resource": "近卫芯片组",
-            "quantity": 5
-          },
-          {
-            "resource": "研磨石",
-            "quantity": 15
-          },
-          {
-            "resource": "轻锰矿",
-            "quantity": 7
-          }
-        ]
-      },
-      "skill": {
-        "1→2": [
-          {
-            "resource": "技巧概要·卷1",
-            "quantity": 2
-          }
-        ],
-        "2→3": [
-          {
-            "resource": "技巧概要·卷1",
-            "quantity": 2
-          },
-          {
-            "resource": "酯原料",
-            "quantity": 4
-          }
-        ],
-        "3→4": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 3
-          },
-          {
-            "resource": "异铁",
-            "quantity": 2
-          }
-        ],
-        "4→5": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 3
-          },
-          {
-            "resource": "酮凝集",
-            "quantity": 2
-          }
-        ],
-        "5→6": [
-          {
-            "resource": "技巧概要·卷2",
-            "quantity": 3
-          },
-          {
-            "resource": "糖组",
-            "quantity": 3
-          }
-        ],
-        "6→7": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 4
-          },
-          {
-            "resource": "聚酸酯组",
-            "quantity": 3
-          }
-        ],
-        "寒霜枪刃 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 2
-          },
-          {
-            "resource": "异铁块",
-            "quantity": 1
-          },
-          {
-            "resource": "糖组",
-            "quantity": 4
-          }
-        ],
-        "凝冰枪刃 7→8": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 2
-          },
-          {
-            "resource": "酮阵列",
-            "quantity": 1
-          },
-          {
-            "resource": "聚酸酯组",
-            "quantity": 4
-          }
-        ],
-        "寒霜枪刃 8→9": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 4
-          },
-          {
-            "resource": "改量装置",
-            "quantity": 1
-          },
-          {
-            "resource": "异铁块",
-            "quantity": 2
-          }
-        ],
-        "凝冰枪刃 8→9": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 4
-          },
-          {
-            "resource": "白马醇",
-            "quantity": 2
-          },
-          {
-            "resource": "酮阵列",
-            "quantity": 2
-          }
-        ],
-        "寒霜枪刃 9→10": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "D32钢",
-            "quantity": 2
-          },
-          {
-            "resource": "白马醇",
-            "quantity": 2
-          }
-        ],
-        "凝冰枪刃 9→10": [
-          {
-            "resource": "技巧概要·卷3",
-            "quantity": 6
-          },
-          {
-            "resource": "聚合剂",
-            "quantity": 2
-          },
-          {
-            "resource": "RMA70-24",
-            "quantity": 2
-          }
-        ]
-      }
-    }
-  },
-  {
     "name": "清道夫",
     "materials": {
       "elite": {
@@ -11236,6 +11718,191 @@
           },
           {
             "resource": "三水锰矿",
+            "quantity": 2
+          }
+        ]
+      }
+    }
+  },
+  {
+    "name": "霜叶",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 15000
+          },
+          {
+            "resource": "近卫芯片",
+            "quantity": 3
+          },
+          {
+            "resource": "聚酸酯",
+            "quantity": 1
+          },
+          {
+            "resource": "异铁",
+            "quantity": 1
+          }
+        ],
+        "精英化2阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 60000
+          },
+          {
+            "resource": "近卫芯片组",
+            "quantity": 5
+          },
+          {
+            "resource": "研磨石",
+            "quantity": 15
+          },
+          {
+            "resource": "轻锰矿",
+            "quantity": 7
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          },
+          {
+            "resource": "酯原料",
+            "quantity": 4
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 3
+          },
+          {
+            "resource": "异铁",
+            "quantity": 2
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 3
+          },
+          {
+            "resource": "酮凝集",
+            "quantity": 2
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 3
+          },
+          {
+            "resource": "糖组",
+            "quantity": 3
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "聚酸酯组",
+            "quantity": 3
+          }
+        ],
+        "寒霜枪刃 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 2
+          },
+          {
+            "resource": "异铁块",
+            "quantity": 1
+          },
+          {
+            "resource": "糖组",
+            "quantity": 4
+          }
+        ],
+        "凝冰枪刃 7→8": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 2
+          },
+          {
+            "resource": "酮阵列",
+            "quantity": 1
+          },
+          {
+            "resource": "聚酸酯组",
+            "quantity": 4
+          }
+        ],
+        "寒霜枪刃 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "改量装置",
+            "quantity": 1
+          },
+          {
+            "resource": "异铁块",
+            "quantity": 2
+          }
+        ],
+        "凝冰枪刃 8→9": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 4
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 2
+          },
+          {
+            "resource": "酮阵列",
+            "quantity": 2
+          }
+        ],
+        "寒霜枪刃 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "D32钢",
+            "quantity": 2
+          },
+          {
+            "resource": "白马醇",
+            "quantity": 2
+          }
+        ],
+        "凝冰枪刃 9→10": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 6
+          },
+          {
+            "resource": "聚合剂",
+            "quantity": 2
+          },
+          {
+            "resource": "RMA70-24",
             "quantity": 2
           }
         ]
@@ -13385,6 +14052,80 @@
         "爆破范围提升·α型 7→8": [],
         "爆破范围提升·α型 8→9": [],
         "爆破范围提升·α型 9→10": []
+      }
+    }
+  },
+  {
+    "name": "月见夜",
+    "materials": {
+      "elite": {
+        "精英化1阶": [
+          {
+            "resource": "龙门币",
+            "quantity": 10000
+          }
+        ]
+      },
+      "skill": {
+        "1→2": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 1
+          }
+        ],
+        "2→3": [
+          {
+            "resource": "技巧概要·卷1",
+            "quantity": 2
+          },
+          {
+            "resource": "异铁碎片",
+            "quantity": 1
+          }
+        ],
+        "3→4": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 1
+          },
+          {
+            "resource": "酮凝集",
+            "quantity": 1
+          }
+        ],
+        "4→5": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 1
+          },
+          {
+            "resource": "装置",
+            "quantity": 1
+          }
+        ],
+        "5→6": [
+          {
+            "resource": "技巧概要·卷2",
+            "quantity": 1
+          },
+          {
+            "resource": "研磨石",
+            "quantity": 1
+          }
+        ],
+        "6→7": [
+          {
+            "resource": "技巧概要·卷3",
+            "quantity": 2
+          },
+          {
+            "resource": "RMA70-12",
+            "quantity": 1
+          }
+        ],
+        "武器附魔·α型 7→8": [],
+        "武器附魔·α型 8→9": [],
+        "武器附魔·α型 9→10": []
       }
     }
   }
