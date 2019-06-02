@@ -1,14 +1,22 @@
 [[redirects]]
+  from = "/table"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
   from = "/operator"
-  to = "/operator"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
   from = "/info"
-  to = "/info"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
   from = "/backup"
-  to = "/backup"
+  to = "/index.html"
+  status = 200
 
 [[redirects]]
 	from = "https://serene-mestorf-73c07a.netlify.com/*"
