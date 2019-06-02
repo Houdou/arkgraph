@@ -7,6 +7,7 @@ const ArkRow = (props) => {
 	const cell_props = {
 		header: props.header,
 		icons_header: props.icons_header,
+		fullheight: props.fullheight,
 	};
 
 	return (
@@ -19,6 +20,7 @@ const ArkRow = (props) => {
 					disable_hover: props.disable_hover,
 				}
 			)}
+			style={props.style}
 		>
 			{
 				props.cells

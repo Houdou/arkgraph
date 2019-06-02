@@ -476,6 +476,7 @@ const EXP_TAPES = [
 		id: 'E-5-1',
 		name: '高级作战记录',
 		tier: 'T5',
+		value: 2000,
 		source: {
 			'LS-4': '固定',
 			'LS-5': '固定',
@@ -488,6 +489,7 @@ const EXP_TAPES = [
 		id: 'E-4-1',
 		name: '中级作战记录',
 		tier: 'T4',
+		value: 1000,
 		source: {
 			'LS-3': '固定',
 			'LS-4': '固定',
@@ -502,6 +504,7 @@ const EXP_TAPES = [
 		id: 'E-3-1',
 		name: '初级作战记录',
 		tier: 'T3',
+		value: 400,
 		source: {
 			'LS-1': '固定',
 			'LS-2': '固定',
@@ -517,6 +520,7 @@ const EXP_TAPES = [
 		id: 'E-2-1',
 		name: '基础作战记录',
 		tier: 'T2',
+		value: 200,
 		source: {
 			'LS-1': '固定',
 			'LS-2': '固定',
@@ -789,8 +793,17 @@ const MONEY = {
 	formula: {},
 };
 
+const EXP = {
+	id: 'EO-4-1',
+	name: '经验值',
+	tier: 'T4',
+	source: {},
+	formula: {},
+};
+
 [
 	MONEY,
+	EXP,
 	...MATERIALS,
 	...SKILL_BOOKS,
 	...EXP_TAPES,
@@ -801,6 +814,7 @@ const MONEY = {
 
 export {
 	MONEY,
+	EXP,
 	RESOURCES,
 	MATERIALS,
 	SKILL_BOOKS,

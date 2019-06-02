@@ -47,25 +47,20 @@ const ArkUpgradeInputRow = ({
 		}
 	}, []);
 
-	const OperatorInput = (props) => (
-		<ArkFuseInputCell {...props}
-			inputRef={operatorInputRef}
-			value={operator} onChange={value => {
-				update(record_index, setOperator(value));
-			}}
-		/>
-	);
-
 	const options = Object.entries(ATTRIBUTES).map(([k, v]) => ({ key: k, value: v }));
 	const operator_data = OPERATORS.find(o => o.name === operator);
 	const unavailable_attributes = [];
 	const render_map = {};
 
 	if (operator_data) {
-		if (operator_data.meta.max_master_skills < 3) {
+		if (operator_data.meta.max_elite_rank < 2) {
+			unavailable_attributes.push(ATTRIBUTES.LEVEL_ELITE_2);
+		}
+
+		if (operator_data.meta.max_elite_rank < 3) {
 			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_3);
 		}
-		if (operator_data.meta.max_master_skills < 2) {
+		if (operator_data.meta.max_elite_rank < 2) {
 			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_2);
 		}
 		if (operator_data.meta.max_master_skills === 1) {
@@ -86,6 +81,14 @@ const ArkUpgradeInputRow = ({
 			});
 	}
 
+	const OperatorInput = (props) => (
+		<ArkFuseInputCell {...props}
+			inputRef={operatorInputRef}
+			value={operator} onChange={value => {
+				update(record_index, setOperator(value));
+			}}
+		/>
+	);
 
 	const AttributeInput = (props) => (
 		<ArkDropdownCell {...props}
@@ -96,10 +99,19 @@ const ArkUpgradeInputRow = ({
 			}}
 		/>
 	);
+
 	const CurrentInput = (props) => (
 		<ArkInputCell {...props}
 			value={current} onChange={value => {
 				update(record_index, setCurrent(value));
+			}}
+		/>
+	);
+
+	const TargetInput = (props) => (
+		<ArkInputCell {...props}
+			value={target} onChange={value => {
+				update(record_index, setTarget(value));
 			}}
 		/>
 	);
@@ -142,7 +154,11 @@ const ArkUpgradeInputRow = ({
 					OperatorInput,
 					AttributeInput,
 					CurrentInput,
-					{ content: Number(current + 1) || '' },
+					[
+						ATTRIBUTES.LEVEL_ELITE_0,
+						ATTRIBUTES.LEVEL_ELITE_1,
+						ATTRIBUTES.LEVEL_ELITE_2,
+					].includes(attribute) ? TargetInput : { content: Number(current + 1) || '' },
 					...Array.from(header_list)
 						.splice(header_skip, header_list.length - header_skip)
 						.map(e => ({

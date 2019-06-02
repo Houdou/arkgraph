@@ -4,5 +4,6 @@ build
 *.lock
 src/assets/wip
 scripts/commands/*
+scripts/an/*
 
 package-lock.json

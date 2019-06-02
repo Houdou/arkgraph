@@ -28,12 +28,17 @@ const useRecord = (init_values) => {
 		...record,
 		current,
 	});
+	const setTarget = (target) => setRecord({
+		...record,
+		target,
+	});
 
 	return {
 		record,
 		setOperator,
 		setAttribute,
 		setCurrent,
+		setTarget,
 	};
 };
 

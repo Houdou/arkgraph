@@ -1,11 +1,12 @@
 import { useReducer } from 'preact/hooks';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Config';
-export const STORAGE_VERSION =  '1.2.6-γ';
+export const STORAGE_VERSION =  '1.2.7';
 
 const default_config = {
 	showAllResources: false,
 	showFocusMaterials: true,
+	showExp: false,
 };
 
 const reducer = (state, action) => {
@@ -22,6 +23,13 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				showFocusMaterials: action.payload,
+			};
+			break;
+		}
+		case 'config.toggleShowExp': {
+			newState = {
+				...state,
+				showExp: action.payload,
 			};
 			break;
 		}
@@ -78,12 +86,20 @@ const useData = () => {
 		});
 	};
 
+	const toggleShowExp = (toggle) => {
+		dispatch({
+			type: 'config.toggleShowExp',
+			payload: toggle,
+		});
+	};
+
 	return {
 		config: state,
 		dispatch,
 		load,
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
+		toggleShowExp,
 	};
 };
 

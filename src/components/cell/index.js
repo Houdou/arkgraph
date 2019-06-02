@@ -7,13 +7,15 @@ const ArkCell = (props) => (
 		class={
 			cn(
 				style.cell,
-				style[props.header_level],
 				{
+					[style[props.header_level]]: props.header_level,
 					[style.header]: props.header,
 					[style.icons_header]: props.icons_header,
+					[style.fullheight]: props.fullheight,
 					[style.fullwidth]: props.fullwidth,
 					[style.halfwidth]: props.halfwidth,
 					[style.is_focus_material]: props.is_focus_material,
+					[style.long_text]: props.long_text,
 				}
 			)
 		}

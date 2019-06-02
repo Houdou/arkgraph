@@ -179,22 +179,10 @@ const reducer = (state, action) => {
 			try {
 				if (json) {
 					const loaded = JSON.parse(json);
-					if (!loaded.focus_materials) {
-						// 1.0.1 -> 1.0.2 Patch
-						if (loaded.version === '1.0.1') {
-							loaded.focus_materials = [];
-							loaded.version = '1.0.2';
-						}
-					}
-					if (!loaded.compound_materials) {
-						// 1.0.2 -> 1.0.3 Patch
-						if (loaded.version === '1.0.2') {
-							loaded.compound_materials = [];
-							loaded.version = '1.0.3';
-							return loaded;
-						}
-						throw new Error('Failed to load save');
-					}
+					loaded.records = loaded.records.map(record => ({
+						...record,
+						attribute: record.attribute === '精英化' ? '精英阶段' : record.attribute,
+					}));
 
 					if (action.payload) {
 						save(STORAGE_KEY, loaded);
@@ -269,7 +257,7 @@ const useData = () => {
 	const addEmptyRow = () => {
 		dispatch({
 			type: 'data.addRow',
-			payload: [],
+			payload: {},
 		});
 	};
 

@@ -30,6 +30,9 @@ const ArkFuseInputCell = (props) => (
 				style[props.header_level],
 				{
 					[style.header]: props.header,
+				},
+				{
+					[props.custom_class]: props.custom_class,
 				}
 			)
 		}
@@ -42,13 +45,14 @@ const ArkFuseInputCell = (props) => (
 				const results = fuse.search(e.target.value);
 				if (results.length) {
 					const [{ name }] = results;
-					if (props.onChange) {
-						props.onChange(name);
-					}
+					props.onChange && props.onChange(name);
 				} else {
 					console.log(results);
-					props.onChange(null);
+					props.onChange && props.onChange(null);
 				}
+			}}
+			onClick={e => {
+				props.onClick && props.onClick(e);
 			}}
 		/>
 	</div>

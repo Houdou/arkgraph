@@ -10,6 +10,7 @@ const Header = ({
 	config,
 	toggleShowAllResources,
 	toggleShowFocusMaterials,
+	toggleShowExp,
 }) => (
 	<header class={style.header}>
 		<div class={style.title}>
@@ -21,6 +22,9 @@ const Header = ({
 			</h1>
 			<nav>
 				<Link activeClassName={style.active} href="/">首页</Link>
+				{false && (
+					<Link activeClassName={style.active} href="/operator">干员培养</Link>
+				)}
 				<Link activeClassName={style.active} href="/info">说明</Link>
 				<Link activeClassName={style.active} href="/backup">数据备份</Link>
 			</nav>

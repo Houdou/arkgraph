@@ -7,6 +7,7 @@ import useConfig from '../config/useConfig';
 import Header from './header';
 
 import ArkTable from '../routes/table';
+import ArkOperator from '../routes/operator';
 import ArkInfo from '../routes/info';
 import ArkBackup from '../routes/backup';
 
@@ -19,6 +20,7 @@ const App = (props) => {
 		load,
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
+		toggleShowExp,
 	} = useConfig();
 
 	const data = useData();
@@ -34,9 +36,11 @@ const App = (props) => {
 				config={config}
 				toggleShowAllResources={toggleShowAllResources}
 				toggleShowFocusMaterials={toggleShowFocusMaterials}
+				toggleShowExp={toggleShowExp}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
 				<ArkTable path="/" config={config} data={data} />
+				<ArkOperator path="/operator" config={config} data={data} />
 				<ArkInfo path="/info" />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />
 			</Router>

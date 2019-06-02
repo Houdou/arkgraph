@@ -43,7 +43,7 @@ const parseJson = (record) => {
 		materials: v.map(mapMaterial),
 	}));
 	operator.meta = {
-		max_elite_tier: operator.elites.length,
+		max_elite_rank: operator.elites.length,
 		max_master_skills: operator.master_skills.length,
 	};
 
