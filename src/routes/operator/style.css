@@ -1,0 +1,95 @@
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+.page {
+	padding: 88px 0px 80px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  text-shadow: 0px 0px 10px #111;
+
+  color: #EEE;
+  background-color: #444;
+}
+
+.section {
+	padding: 52px 40px 8px;
+	position: relative;
+}
+.section_no_header {
+	padding-top: 32px;
+}
+.section_header {
+	width: auto;
+	position: absolute;
+	top: 0px;
+	left: -20px;
+	box-shadow: 1px 2px 3px rgba(24, 24, 24, 0.8);
+	display: flex;
+	justify-content: flex-start;
+	padding: 8px 32px;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #111;
+	color: #DDD;
+	text-shadow: 0px 0px 2px rgba(180, 180, 180, 0.6);
+}
+
+.operator_input {
+	width: 360px;
+}
+
+.operator_input .operator_input_cell {
+	width: 100%;
+	height: 80px;
+	background: rgba(238, 238, 238, 0.13);
+	border: none;
+}
+
+.operator_input .operator_input_cell input {
+	text-align: left;
+	padding: 0 24px;
+	width: 100%;
+	height: 100%;
+	font-size: 48px;
+	font-weight: bold;
+	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
+	border: none;
+	text-shadow:
+		0px 0px 6px rgba(24, 24, 24, 0.8),
+		0px 0px 2px rgba(180, 180, 180, 0.8),
+		-2px -1px 0px rgba(170, 34, 34, 0.4),
+    2px -1px 0px rgba(34, 34, 170, 0.4),
+    -2px 1px 0px rgba(170, 34, 34, 0.4),
+    2px 1px 0px rgba(34, 34, 170, 0.4);
+}
+
+.table, .upgrades {
+	width: 860px;
+	min-width: 860px;
+	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
+	padding: 20px 24px;
+}
+.upgrades {
+	width: auto;
+	padding-right: 100px;
+}
+.requirement_cell {
+	width: 84px;
+	height: 33%;
+	display: flex;
+	flex-flow: row;
+}
+
+.save {
+  background-color: #111;
+  padding: 8px;
+  margin-top: 12px;
+  text-align: center;
+  user-select: none;
+	box-shadow: 1px 2px 3px rgba(24, 24, 24, 0.8);
+	font-size: 20px;
+	font-weight: bold;
+}
