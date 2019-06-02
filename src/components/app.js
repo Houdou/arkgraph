@@ -39,9 +39,9 @@ const App = (props) => {
 				toggleShowExp={toggleShowExp}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
-				<ArkTable path="/" config={config} data={data} />
+				<ArkInfo path="/" />
+				<ArkTable path="/table" config={config} data={data} />
 				<ArkOperator path="/operator" config={config} data={data} />
-				<ArkInfo path="/info" />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />
 			</Router>
 		</div>

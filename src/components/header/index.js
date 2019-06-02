@@ -15,22 +15,22 @@ const Header = ({
 	<header class={style.header}>
 		<div class={style.title}>
 			<h1>
-				<a href="./">
+				<a href="./table">
 					<span class={style.deco}>:.:</span>  明日方舟 | 材料计算器
 					<span class={style.version}>V{STORAGE_VERSION}</span>
 				</a>
 			</h1>
 			<nav>
 				<Link activeClassName={style.active} href="/">首页</Link>
+				<Link activeClassName={style.active} href="/table">计算器</Link>
 				{false && (
 					<Link activeClassName={style.active} href="/operator">干员培养</Link>
 				)}
-				<Link activeClassName={style.active} href="/info">说明</Link>
 				<Link activeClassName={style.active} href="/backup">数据备份</Link>
 			</nav>
 		</div>
 		{
-			currentUrl === '/' && (
+			currentUrl === '/table' && (
 				<div class={style.toggles}>
 					<Toggle
 						value={config.showAllResources}
