@@ -115,6 +115,8 @@
 .wrapper, .scroll {
   transition: max-height 0.4s ease;
 }
-.wrapper:hover, .wrapper:hover .scroll {
-  max-height: 650px;
+@media screen and (min-width: 601px) {
+  .wrapper:hover, .wrapper:hover .scroll {
+    max-height: 650px;
+  }
 }
