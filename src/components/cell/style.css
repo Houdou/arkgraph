@@ -110,3 +110,18 @@
 :global(.row:not(.disable_hover):hover) .cell {
 	background-color: #4C4C4C;
 }
+
+@media screen and (max-width: 600px) {
+	.cell.icons_header {
+		height: 56px;
+	}
+
+	.cell.icons_header > p {
+		font-size: 14px;
+	}
+
+	.cell.icons_header :global(.item_name) {
+		font-size: 10px;
+		margin-top: -12px;
+	}
+}

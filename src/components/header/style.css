@@ -115,3 +115,24 @@
 	box-shadow: 0px 3px 4px 0 #33333366;
 	color: #EEE;
 }
+
+@media screen and (max-width: 600px) {
+  .header h1 {
+		display: none;
+	}
+	.header nav {
+		font-size: 12px;
+	}
+	.header nav a {
+		padding: 0 5px;
+		width: auto;
+		border-right: rgba(204, 204, 204, 0.3) 1px solid;
+	}
+
+	.toggle {
+		padding: 3px;
+		font-size: 10px;
+		white-space: normal;
+		text-align: center;
+	}
+}
