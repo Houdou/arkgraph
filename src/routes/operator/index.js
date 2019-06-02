@@ -5,10 +5,10 @@ import cn from 'classnames';
 
 import ArkRow from '../../components/row';
 
-import ArkOperatorInput from './components/OperatorInput';
-import ArkOperatorTableHeader from './components/TableHeader';
 import ArkUpgradeInputRow from './components/UpgradeInputRow';
 import ArkUpgradeRow from './components/UpgradeRow';
+import ArkOperatorTableHeader from './components/TableHeader';
+import ArkOperatorInput from './components/OperatorInput';
 
 import useOperatorUpgrade from './hooks/useOperatorUpgrade';
 

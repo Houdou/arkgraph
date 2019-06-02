@@ -1,13 +1,13 @@
 import React from 'preact';
 
-import ArkRow from '../../../components/row';
 import ArkInputCell from '../../../components/inputCell';
+import ArkRow from '../../../components/row';
 
 const ArkUpgradeInputRow = ({
 	prefix,
 	attributes,
 }) => {
-	const AttributeInput = ({attribute, setAttribute}) => (props) => (
+	const AttributeInput = ({ attribute, setAttribute }) => (props) => (
 		<ArkInputCell {...props}
 			value={attribute} onChange={value => setAttribute(value)}
 		/>

@@ -1,10 +1,10 @@
 import React from 'preact';
 import style from '../style';
 
+import ArkItem from '../../../components/item';
 import ArkCell from '../../../components/cell';
 import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
-import ArkItem from '../../../components/item';
 
 import useRecord from '../../../models/useRecord';
 
