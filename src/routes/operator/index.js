@@ -4,6 +4,7 @@ import style from './style';
 import cn from 'classnames';
 
 import ArkRow from '../../components/row';
+import ArkItem from '../../components/item';
 
 import ArkUpgradeInputRow from './components/UpgradeInputRow';
 import ArkUpgradeRow from './components/UpgradeRow';
@@ -12,8 +13,17 @@ import ArkOperatorInput from './components/OperatorInput';
 
 import { ATTRIBUTES } from '../../models/Attributes';
 import { OPERATORS } from '../../models/Operators';
+import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 import exp from '../../models/exp';
 import useOperatorUpgrade from './hooks/useOperatorUpgrade';
+
+const material_order = [
+	...MATERIALS,
+	...SKILL_BOOKS,
+	...CHIPS,
+	...EXP_TAPES,
+	MONEY,
+];
 
 const ArkOperatorTable = ({
 	config,
@@ -121,6 +131,20 @@ const ArkOperatorTable = ({
 			.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)
 	);
 
+	const sum = {};
+	upgrades.forEach((upgrade) => {
+		upgrade.requirements.forEach(({ resource, quantity }) => {
+			sum[resource] = (sum[resource] || 0) + quantity;
+		});
+	});
+	const summary = Object.entries(sum)
+		.map(([resource, quantity]) => ({
+			resource,
+			quantity,
+			material_index: material_order.findIndex(m => m.id === resource),
+		}))
+		.sort((a, b) => a.material_index > b.material_index ? 1 : -1);
+
 	const global_props = {
 		config,
 		stock,
@@ -193,7 +217,7 @@ const ArkOperatorTable = ({
 								class={style.max_attribute}
 								onClick={e => setMaxAttribuite(1)}
 							>精英1满级满技能</div>
-							{operator && operator.rarity > 3 && (
+							{operator && operator.rarity >= 3 && (
 								<div
 									class={style.max_attribute}
 									onClick={e => setMaxAttribuite(2)}
@@ -235,6 +259,35 @@ const ArkOperatorTable = ({
 						}
 					</div>
 				</div>
+				{summary && summary.length > 0 && (
+					<div class={style.section}>
+						<div class={style.section_header}>
+							<span>合计</span>
+						</div>
+						<div class={style.summary}>
+							{
+								summary.map(({ resource, quantity }) => (
+									<div class={style.requirement_cell}>
+										<ArkItem
+											id={resource}
+											tier={`T${resource.substr(2, 1)}`}
+											scale={0.25}
+										/>
+										<span>x</span>
+										<span
+											class={cn(
+												style.requirement_quantity,
+												{
+													[style.long_quantity]: resource !== 'G-4-1' && quantity.toString().length > 2,
+												}
+											)}
+										>{quantity}</span>
+									</div>
+								))
+							}
+						</div>
+					</div>
+				)}
 				<div
 					class={cn(
 						style.section,
