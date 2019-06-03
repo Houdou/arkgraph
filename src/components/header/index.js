@@ -23,9 +23,7 @@ const Header = ({
 			<nav>
 				<Link activeClassName={style.active} href="/">首页</Link>
 				<Link activeClassName={style.active} href="/table">计算器</Link>
-				{false && (
-					<Link activeClassName={style.active} href="/operator">干员培养</Link>
-				)}
+				<Link activeClassName={style.active} href="/operator">干员培养</Link>
 				<Link activeClassName={style.active} href="/backup">数据备份</Link>
 			</nav>
 		</div>

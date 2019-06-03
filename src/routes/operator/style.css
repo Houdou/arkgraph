@@ -66,6 +66,31 @@
     2px 1px 0px rgba(34, 34, 170, 0.4);
 }
 
+.actions {
+	padding: 20px 0 0;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.actions span {
+	width: 100px;
+	text-align: center;
+}
+.actions .max_attribute {
+  background-color: #333;
+	margin-right: 20px;
+  padding: 8px 32px;
+  text-align: center;
+  user-select: none;
+	box-shadow: 1px 2px 3px rgba(24, 24, 24, 0.8);
+	font-size: 16px;
+	font-weight: 400;
+	transition: background-color 0.3s ease;
+}
+.actions .max_attribute:active {
+  background-color: #111;
+}
+
 .table, .upgrades {
 	width: 860px;
 	min-width: 860px;
@@ -77,10 +102,18 @@
 	padding-right: 100px;
 }
 .requirement_cell {
-	width: 84px;
+	min-width: 80px;
 	height: 33%;
 	display: flex;
 	flex-flow: row;
+}
+.requirement_cell span,
+.requirement_cell .requirement_quantity {
+	align-self: flex-end;
+}
+.requirement_cell .long_quantity {
+	/* font-size: 14px; */
+	/* padding: 1px; */
 }
 
 .save {

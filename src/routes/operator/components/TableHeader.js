@@ -3,7 +3,7 @@ import ArkRow from '../../../components/row';
 
 const ArkTableHeader = ({
 	config,
-	skill_names,
+	skill_names = [],
 }) => (
 	<ArkRow
 		cells={
@@ -12,11 +12,11 @@ const ArkTableHeader = ({
 				{ content: '等级', header_level: 'T1' },
 				{ content: '精英阶段', header_level: 'T1' },
 				{ content: '技能等级', header_level: 'T1' },
-				...(skill_names || [null, null, null]).splice(0, 3).map((skill_name, index) => ({
-					content: skill_name === null ? `技能${index + 1}专精` : `${skill_name}专精`,
+				...Array(3).fill(null).map((_, index) => ({
+					content: skill_names[index] ? `${skill_names[index]}` : `技能${index + 1}专精` ,
 					header_level: 'T1',
-					long_text: skill_name && skill_name.length > 4,
-				})),
+					long_text: skill_names[index] && skill_names[index].length > 4,
+				})).filter((e, i) => skill_names.legth === 0 || i < skill_names.length),
 			]
 		}
 		disable_hover

@@ -1,33 +1,24 @@
 import React from 'preact';
 import style from '../style';
+import cn from 'classnames';
 
 import ArkItem from '../../../components/item';
 import ArkCell from '../../../components/cell';
 import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
 
-import useRecord from '../../../models/useRecord';
-
 const ArkUpgradeRow = ({
-	upgrade: init_record,
+	upgrade,
 	upgrade_index,
-	update,
-	remove,
-	complete,
+	skill_render_map,
 	fulfilled,
-	header_list,
-	header_skip,
-	resources_filter,
 }) => {
 	const {
-		record: {
-			operator,
-			attribute,
-			current,
-			target,
-			requirements,
-		},
-	} = useRecord(init_record);
+		attribute,
+		current,
+		target,
+		requirements,
+	} = upgrade;
 
 	const StockIndicator = (props) => (
 		<ArkCell fullheight>
@@ -52,11 +43,7 @@ const ArkUpgradeRow = ({
 		>
 			{
 				requirements
-					.sort((prev, next) => {
-						if (prev.resource === 'G-4-1')
-							return 1;
-						return -1;
-					})
+					.sort((prev, next) => next.resource === 'G-4-1' ? - 1: 0)
 					.map(({ resource, quantity }) => (
 						<div class={style.requirement_cell}>
 							<ArkItem
@@ -64,7 +51,15 @@ const ArkUpgradeRow = ({
 								tier={`T${resource.substr(2, 1)}`}
 								scale={0.25}
 							/>
-						x{quantity}
+							<span>x</span>
+							<span
+								class={cn(
+									style.requirement_quantity,
+									{
+										[style.long_quantity]: resource !== 'G-4-1' && quantity.toString().length > 2,
+									}
+								)}
+							>{quantity}</span>
 						</div>
 					))
 			}
@@ -76,7 +71,7 @@ const ArkUpgradeRow = ({
 			cells={
 				[
 					StockIndicator,
-					{ content: attribute },
+					{ content: skill_render_map[attribute] ? `${skill_render_map[attribute]}专精` : attribute },
 					{ content: current },
 					{ content: target },
 					RequirementItems,

@@ -10,16 +10,10 @@ import ArkUpgradeRow from './components/UpgradeRow';
 import ArkOperatorTableHeader from './components/TableHeader';
 import ArkOperatorInput from './components/OperatorInput';
 
+import { ATTRIBUTES } from '../../models/Attributes';
+import { OPERATORS } from '../../models/Operators';
+import exp from '../../models/exp';
 import useOperatorUpgrade from './hooks/useOperatorUpgrade';
-
-const header_list = [
-	{ name: '移除' },
-	{ name: '完成' },
-	{ name: '干员' },
-	{ name: '升级项目' },
-	{ name: '现等级' },
-	{ name: '下一等级' },
-];
 
 const ArkOperatorTable = ({
 	config,
@@ -28,16 +22,12 @@ const ArkOperatorTable = ({
 	const {
 		state: { stock },
 		load,
-		addEmptyRow,
+		addRow,
 	} = data;
-
-	useEffect(() => {
-		load();
-	}, []);
 
 	const {
 		operatorUpgrade: {
-			operator,
+			operator: operator_name,
 			current_elite,
 			target_elite,
 			current_level,
@@ -52,6 +42,7 @@ const ArkOperatorTable = ({
 			target_master_skill_3,
 			upgrades,
 		},
+		setOperatorUpgrade,
 		setOperator,
 		setCurrentElite,
 		setTargetElite,
@@ -67,6 +58,53 @@ const ArkOperatorTable = ({
 		setTargetMasterSkill_3,
 	} = useOperatorUpgrade();
 
+	useEffect(() => {
+		load();
+	}, []);
+
+	const operator = OPERATORS.find(o => o.name === operator_name);
+	const skill_render_map = {};
+	if (operator) {
+		operator.skill_names.forEach((skill_name, index) => {
+			skill_render_map[ATTRIBUTES[`MASTER_SKILL_${index+1}`]] = skill_name || null;
+		});
+	}
+
+	const unavailable_attributes = [];
+	if (operator) {
+		if (operator.meta.max_master_skills < 3) {
+			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_3);
+		}
+		if (operator.meta.max_master_skills < 2) {
+			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_2);
+		}
+		if (operator.meta.max_master_skills === 1) {
+			if (operator.master_skills[0].upgrades.every(({ materials }) => materials.length === 0)){
+				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
+			}
+		}
+	}
+
+	const setMaxAttribuite = (elite_rank) => {
+		if (operator) {
+			setOperatorUpgrade({
+				operator: operator_name,
+				target_elite: elite_rank,
+				target_level: exp.maxLevel[operator.rarity][elite_rank],
+				target_all_skill: elite_rank === 0 ? 4 : 7,
+				target_master_skill_1:
+					elite_rank === 2 && !unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1)
+						? 3 : 0,
+				target_master_skill_2:
+					elite_rank === 2 && !unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
+						? 3 : 0,
+				target_master_skill_3:
+					elite_rank === 2 && !unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
+						? 3 : 0,
+			});
+		}
+	};
+
 	const fulfilled_upgrades = (upgrades || []).map(upgrade =>
 		Boolean(upgrade.requirements) &&
 		upgrade.requirements.length > 0 &&
@@ -77,7 +115,6 @@ const ArkOperatorTable = ({
 	const global_props = {
 		config,
 		stock,
-		header_list,
 	};
 
 	return (
@@ -88,7 +125,7 @@ const ArkOperatorTable = ({
 						<span>干员</span>
 					</div>
 					<ArkOperatorInput
-						operator={operator}
+						operator={operator_name}
 						setOperator={setOperator}
 					/>
 				</div>
@@ -98,6 +135,7 @@ const ArkOperatorTable = ({
 					</div>
 					<div class={style.table}>
 						<ArkOperatorTableHeader
+							skill_names={(operator && operator.skill_names) || []}
 							{...global_props}
 						/>
 						<ArkUpgradeInputRow
@@ -106,10 +144,14 @@ const ArkOperatorTable = ({
 								{ attribute: current_level, setAttribute: setCurrentLevel },
 								{ attribute: current_elite, setAttribute: setCurrentElite },
 								{ attribute: current_all_skill, setAttribute: setCurrentAllSkill },
-								{ attribute: current_master_skill_1, setAttribute: setCurrentMasterSkill_1 },
-								{ attribute: current_master_skill_2, setAttribute: setCurrentMasterSkill_2 },
-								{ attribute: current_master_skill_3, setAttribute: setCurrentMasterSkill_3 },
-							]}
+								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1)
+									&& { attribute: current_master_skill_1, setAttribute: setCurrentMasterSkill_1 },
+								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
+									&& { attribute: current_master_skill_2, setAttribute: setCurrentMasterSkill_2 },
+								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
+									&& { attribute: current_master_skill_3, setAttribute: setCurrentMasterSkill_3 },
+							].filter(Boolean)
+							}
 						/>
 						<ArkUpgradeInputRow
 							prefix="培养目标"
@@ -117,11 +159,30 @@ const ArkOperatorTable = ({
 								{ attribute: target_level, setAttribute: setTargetLevel },
 								{ attribute: target_elite, setAttribute: setTargetElite },
 								{ attribute: target_all_skill, setAttribute: setTargetAllSkill },
-								{ attribute: target_master_skill_1, setAttribute: setTargetMasterSkill_1 },
-								{ attribute: target_master_skill_2, setAttribute: setTargetMasterSkill_2 },
-								{ attribute: target_master_skill_3, setAttribute: setTargetMasterSkill_3 },
-							]}
+								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1)
+									&& { attribute: target_master_skill_1, setAttribute: setTargetMasterSkill_1 },
+								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
+									&& { attribute: target_master_skill_2, setAttribute: setTargetMasterSkill_2 },
+								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
+									&& { attribute: target_master_skill_3, setAttribute: setTargetMasterSkill_3 },
+							].filter(Boolean)
+							}
 						/>
+						<div class={style.actions}>
+							<span>快捷选项</span>
+							<div
+								class={style.max_attribute}
+								onClick={e => setMaxAttribuite(0)}
+							>无精英满级满技能</div>
+							<div
+								class={style.max_attribute}
+								onClick={e => setMaxAttribuite(1)}
+							>精英1满级满技能</div>
+							<div
+								class={style.max_attribute}
+								onClick={e => setMaxAttribuite(2)}
+							>精英2满级满技能</div>
+						</div>
 					</div>
 				</div>
 				<div class={style.section}>
@@ -143,13 +204,16 @@ const ArkOperatorTable = ({
 						/>
 						{
 							upgrades && upgrades.map((upgrade, index) => (
-								<ArkUpgradeRow
-									key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}
-									upgrade={upgrade}
-									upgrade_index={index}
-									fulfilled={fulfilled_upgrades[index]}
-									{...global_props}
-								/>
+								upgrade.requirements.length > 0 && (
+									<ArkUpgradeRow
+										key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}
+										upgrade={upgrade}
+										skill_render_map={skill_render_map}
+										upgrade_index={index}
+										fulfilled={fulfilled_upgrades[index]}
+										{...global_props}
+									/>
+								)
 							))
 						}
 					</div>
@@ -160,7 +224,15 @@ const ArkOperatorTable = ({
 						style.section_no_header
 					)}
 				>
-					<div class={style.save}>添加全部到首页</div>
+					<div
+						class={style.save}
+						onClick={e => {
+							upgrades.forEach(row => {
+								console.log(row);
+								addRow(row);
+							});
+						}}
+					>添加全部到首页</div>
 				</div>
 			</div>
 		</div>
