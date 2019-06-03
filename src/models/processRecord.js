@@ -105,14 +105,16 @@ const processRecord = ({ operator: operator_name, attribute, current, target },
 				break;
 		}
 	}
-	const result = {
+	if (operator_name) {
+		global.last_operator = operator_name;
+	}
+	return {
 		operator: operator_name,
 		attribute,
 		current,
 		target,
 		requirements,
 	};
-	return result;
 };
 
 

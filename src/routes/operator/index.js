@@ -36,22 +36,7 @@ const ArkOperatorTable = ({
 	} = data;
 
 	const {
-		operatorUpgrade: {
-			operator: operator_name,
-			current_elite,
-			target_elite,
-			current_level,
-			target_level,
-			current_all_skill,
-			target_all_skill,
-			current_master_skill_1,
-			target_master_skill_1,
-			current_master_skill_2,
-			target_master_skill_2,
-			current_master_skill_3,
-			target_master_skill_3,
-			upgrades,
-		},
+		operatorUpgrade,
 		setOperatorUpgrade,
 		setOperator,
 		setCurrentElite,
@@ -67,6 +52,23 @@ const ArkOperatorTable = ({
 		setCurrentMasterSkill_3,
 		setTargetMasterSkill_3,
 	} = useOperatorUpgrade(global.operator_upgrade);
+
+	const {
+		operator: operator_name,
+		current_elite,
+		target_elite,
+		current_level,
+		target_level,
+		current_all_skill,
+		target_all_skill,
+		current_master_skill_1,
+		target_master_skill_1,
+		current_master_skill_2,
+		target_master_skill_2,
+		current_master_skill_3,
+		target_master_skill_3,
+		upgrades,
+	} = operatorUpgrade;
 
 	const init_add_all_text = '添加全部到计算器';
 	const [add_all_text, setAddAllText_raw] = useState(init_add_all_text);
@@ -107,7 +109,9 @@ const ArkOperatorTable = ({
 	const setMaxAttribuite = (elite_rank) => {
 		if (operator) {
 			setOperatorUpgrade({
+				...operatorUpgrade,
 				operator: operator_name,
+				current_elite: elite_rank < current_elite ? elite_rank : current_elite,
 				target_elite: elite_rank,
 				target_level: exp.maxLevel[operator.rarity][elite_rank],
 				target_all_skill: elite_rank === 0 ? 4 : 7,
@@ -259,6 +263,20 @@ const ArkOperatorTable = ({
 						}
 					</div>
 				</div>
+				<div
+					class={cn(
+						style.section,
+						style.section_no_header
+					)}
+				>
+					<div
+						class={style.save}
+						onClick={e => {
+							upgrades.forEach(addRow);
+							setAddAllText('已添加');
+						}}
+					>{add_all_text}</div>
+				</div>
 				{summary && summary.length > 0 && (
 					<div class={style.section}>
 						<div class={style.section_header}>
@@ -288,20 +306,6 @@ const ArkOperatorTable = ({
 						</div>
 					</div>
 				)}
-				<div
-					class={cn(
-						style.section,
-						style.section_no_header
-					)}
-				>
-					<div
-						class={style.save}
-						onClick={e => {
-							upgrades.forEach(addRow);
-							setAddAllText('已添加');
-						}}
-					>{add_all_text}</div>
-				</div>
 			</div>
 		</div>
 	);
