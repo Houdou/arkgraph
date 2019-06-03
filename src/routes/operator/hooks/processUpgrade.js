@@ -85,12 +85,14 @@ const processUpgrade = ({
 		if (elite_rank_change) {
 			for (let elite_rank = current_elite; elite_rank <= target_elite; elite_rank++) {
 				if (elite_rank === current_elite) {
-					upgrades.push(processRecord({
-						operator: operator_name,
-						attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
-						current: current_level,
-						target: exp.maxLevel[operator.rarity][elite_rank],
-					}, true));
+					if (current_level !== exp.maxLevel[operator.rarity][elite_rank]) {
+						upgrades.push(processRecord({
+							operator: operator_name,
+							attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
+							current: current_level,
+							target: exp.maxLevel[operator.rarity][elite_rank],
+						}, true));
+					}
 					continue;
 				} else {
 					upgrades.push(processRecord({
@@ -101,12 +103,14 @@ const processUpgrade = ({
 					}));
 				}
 				if (elite_rank === target_elite) {
-					upgrades.push(processRecord({
-						operator: operator_name,
-						attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
-						current: 1,
-						target: target_level,
-					}, true));
+					if (target_level !== 1) {
+						upgrades.push(processRecord({
+							operator: operator_name,
+							attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
+							current: 1,
+							target: target_level,
+						}, true));
+					}
 				} else {
 					upgrades.push(processRecord({
 						operator: operator_name,
