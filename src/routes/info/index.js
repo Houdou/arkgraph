@@ -8,26 +8,21 @@ const Info = (props) => (
 			<hr />
 			<h2>公告</h2>
 			<span>2019-06-03</span>
+			干员培养写好啦~<br />
+			最快5秒！就能添加一个干员的所有需求（<b>不要被合计材料数量吓到……</b><br />
+			具体使用说明请看下方使用说明→干员培养<br />
 			<p>
-			表格入口挪到上面<code>计算器</code>标签去了~<br />
-			干员等级提升和经验卡的需求计算做好了~<br />
-			大家关心的升级项目的现等级和目标等级的功能会开一个新页面【干员培养】<br />
-			具体流程：
-				<ul>
-					<li>输入干员名称<b>（只用输一次啦！）</b></li>
-					<li>输入现在和目标的等级、精英化等级、技能等级和目标等级</li>
-					<li>自动生成对应的材料需求数据条预览</li>
-					<li>一键添加全部到主界面</li>
-					<li>接下来就和原来的使用逻辑一样了</li>
-				</ul>
-			可以到这里看一下预览：<a target="_blank" rel="noreferrer noopener" href="https://bbs.nga.cn/read.php?tid=17417159">NGA帖子链接</a>
-			</p>
-			<p>
-			在<code>V1.2.7</code>也改进了一点移动端适配<br />
-			</p>
-			<p>
-				其实这工具用的人还挺多的。。。服务器一个月的流量不知道能不能撑住大家的访问……<br />
-				<small>（小声）</small>在下面有打赏链接0w0，如果大佬们愿意支持的话（
+				<h2>关于访问量</h2>
+				感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
+				服务器一个月<code>100G</code>流量，并且已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
+				（首次加载约<code>3M</code>，之后的访问都是<code>~20K</code>）<br />
+				但公开的这几天就用掉<code>35G</code>了<small>QAQ</small><br />
+				如果流量真的用完了，只能等到下个月恢复流量才能访问了<br />
+				<br />
+				<small>（小声）</small>在右边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
+				<span class={style.tip_link} href="">打赏/捐助二维码
+					<img class={style.tip} src="../../assets/tip.png" alt="reward_author" />
+				</span>
 			</p>
 			<hr />
 			<h2>关于项目</h2>
@@ -38,21 +33,24 @@ const Info = (props) => (
 				<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
 			</ul>
 			<p>如果有各种建议或者意见，欢迎提Issue或微博找我</p>
-			<p>
-				如果你喜欢这个项目，并且希望作者能多<del>抽到几个6星</del>做些新feature，欢迎打赏催更（
-				<span class={style.tip_link} href="">打赏二维码
-					<img class={style.tip} src="../../assets/tip.png" alt="reward_author" />
-				</span>
-			</p>
 	    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
 	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 			<hr />
 			<h2>使用说明</h2>
-			<h3>干员晋升清单</h3>
+			<h3>干员培养</h3>
+			<ul>
+				<li>点击【干员培养】切换页面</li>
+				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例lapu，推推</li>
+				<li>选择干员目前等级以及培养目标，超出范围会自动修正</li>
+				<li>如果有前置要求（如技能专精：需要精2＋基础技能7级），也会自动修正</li>
+				<li>提供了三个快捷选项</li>
+				<li>下方表格会自动查询所需材料并列出所有升级项目并汇总所有需求</li>
+				<li>如果库存数量满足升级需求，会在【可完成】列打一个小勾勾表示可以直接升级该项</li>
+			</ul>
+			<h3>需求计算器</h3>
 			<ul>
 				<li>点击表格左下角的<code>+</code>添加一行干员数据</li>
-				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例lapu，推推</li>
-				<li>由于数据依赖于明日方舟Wiki站，所以新干员的数据可能会不全甚至找不到，请见谅</li>
+				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>自动补全</li>
 				<li>选择升级项目（等级、精英阶段、技能、技能专精）</li>
 				<li>输入目前等级，右边表格会自动查询所需材料并折叠不需要的材料列</li>
 				<li>如果库存数量满足升级需求（按钮会自动点亮），可以点击左边第二列的确认按钮消耗对应材料并删除此行</li>
@@ -89,24 +87,27 @@ const Info = (props) => (
 				<li>合成消耗对应材料</li>
 				<li>数据导入与导出</li>
 				<li>升级经验计算</li>
+				<li>单个干员培养需求的批量添加</li>
 			</ul>
 			<h3>待实现功能</h3>
 			<ul>
 				<li>其他资源筛选功能</li>
-				<li>增加其他图标</li>
 				<li>……</li>
 			</ul>
 			<h3>计划中功能</h3>
 			<ul>
 				<li>与<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a>合作，关联掉落概率数据</li>
-				<li>活动道具或奖励计算表格</li>
 				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
-				<li>作战记录关卡的掉落</li>
 				<li>……</li>
 				<li>欢迎提供建议: <a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph/issues">Issue board</a></li>
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.3.0</h3>
+			<ul>
+				<li>增加了干员培养界面</li>
+				<li>干员培养界面显示干员升级消耗材料统计</li>
+			</ul>
 			<h3>V1.2.7</h3>
 			<ul>
 				<li>增加了干员升级的计算</li>
