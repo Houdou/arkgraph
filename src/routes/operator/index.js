@@ -1,5 +1,5 @@
 import React from 'preact';
-import { useEffect } from 'preact/hooks';
+import { useState, useEffect } from 'preact/hooks';
 import style from './style';
 import cn from 'classnames';
 
@@ -56,7 +56,16 @@ const ArkOperatorTable = ({
 		setTargetMasterSkill_2,
 		setCurrentMasterSkill_3,
 		setTargetMasterSkill_3,
-	} = useOperatorUpgrade();
+	} = useOperatorUpgrade(global.operator_upgrade);
+
+	const init_add_all_text = '添加全部到计算器';
+	const [add_all_text, setAddAllText_raw] = useState(init_add_all_text);
+	const setAddAllText = (text) => {
+		setAddAllText_raw(text);
+		setTimeout(() => {
+			setAddAllText_raw(init_add_all_text);
+		}, 1500);
+	};
 
 	useEffect(() => {
 		load();
@@ -135,7 +144,7 @@ const ArkOperatorTable = ({
 					</div>
 					<div class={style.table}>
 						<ArkOperatorTableHeader
-							skill_names={(operator && operator.skill_names) || []}
+							operator={operator}
 							{...global_props}
 						/>
 						<ArkUpgradeInputRow
@@ -144,8 +153,11 @@ const ArkOperatorTable = ({
 								{ attribute: current_level, setAttribute: setCurrentLevel },
 								{ attribute: current_elite, setAttribute: setCurrentElite },
 								{ attribute: current_all_skill, setAttribute: setCurrentAllSkill },
-								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1)
-									&& { attribute: current_master_skill_1, setAttribute: setCurrentMasterSkill_1 },
+								{
+									attribute: current_master_skill_1,
+									setAttribute: setCurrentMasterSkill_1,
+									override: unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1) ? '' : null,
+								},
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
 									&& { attribute: current_master_skill_2, setAttribute: setCurrentMasterSkill_2 },
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
@@ -159,8 +171,11 @@ const ArkOperatorTable = ({
 								{ attribute: target_level, setAttribute: setTargetLevel },
 								{ attribute: target_elite, setAttribute: setTargetElite },
 								{ attribute: target_all_skill, setAttribute: setTargetAllSkill },
-								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1)
-									&& { attribute: target_master_skill_1, setAttribute: setTargetMasterSkill_1 },
+								{
+									attribute: target_master_skill_1,
+									setAttribute: setTargetMasterSkill_1,
+									override: unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1) ? '无法升级' : null,
+								},
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
 									&& { attribute: target_master_skill_2, setAttribute: setTargetMasterSkill_2 },
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
@@ -178,10 +193,12 @@ const ArkOperatorTable = ({
 								class={style.max_attribute}
 								onClick={e => setMaxAttribuite(1)}
 							>精英1满级满技能</div>
-							<div
-								class={style.max_attribute}
-								onClick={e => setMaxAttribuite(2)}
-							>精英2满级满技能</div>
+							{operator && operator.rarity > 3 && (
+								<div
+									class={style.max_attribute}
+									onClick={e => setMaxAttribuite(2)}
+								>精英2满级满技能</div>
+							)}
 						</div>
 					</div>
 				</div>
@@ -193,7 +210,7 @@ const ArkOperatorTable = ({
 						<ArkRow
 							cells={
 								[
-									{ content: '库存' },
+									{ content: '可完成' },
 									{ content: '升级项目' },
 									{ content: '现等级' },
 									{ content: '目标等级' },
@@ -227,12 +244,10 @@ const ArkOperatorTable = ({
 					<div
 						class={style.save}
 						onClick={e => {
-							upgrades.forEach(row => {
-								console.log(row);
-								addRow(row);
-							});
+							upgrades.forEach(addRow);
+							setAddAllText('已添加');
 						}}
-					>添加全部到首页</div>
+					>{add_all_text}</div>
 				</div>
 			</div>
 		</div>

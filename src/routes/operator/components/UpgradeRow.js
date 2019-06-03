@@ -4,7 +4,6 @@ import cn from 'classnames';
 
 import ArkItem from '../../../components/item';
 import ArkCell from '../../../components/cell';
-import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
 
 const ArkUpgradeRow = ({
@@ -22,13 +21,14 @@ const ArkUpgradeRow = ({
 
 	const StockIndicator = (props) => (
 		<ArkCell fullheight>
-			<ArkButton>
-				<img src="../../../assets/icons/tick.png" alt="tick" style={{
-					height: '20px',
-					opacity: fulfilled ? 1 : 0.2,
-				}}
+			{fulfilled && (
+				<img
+					src="../../../assets/icons/tick_invert.png" alt="tick"
+					style={{
+						height: '20px',
+					}}
 				/>
-			</ArkButton>
+			)}
 		</ArkCell>
 	);
 
@@ -66,12 +66,15 @@ const ArkUpgradeRow = ({
 		</ArkCell>
 	);
 
+	const attribute_render = skill_render_map[attribute] ? `${skill_render_map[attribute]}` : attribute;
+	const attribute_long_text = attribute_render.length > 5;
+
 	return (
 		<ArkRow
 			cells={
 				[
 					StockIndicator,
-					{ content: skill_render_map[attribute] ? `${skill_render_map[attribute]}专精` : attribute },
+					{ content: attribute_render, long_text: attribute_long_text },
 					{ content: current },
 					{ content: target },
 					RequirementItems,
