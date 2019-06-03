@@ -111,10 +111,6 @@
 .requirement_cell .requirement_quantity {
 	align-self: flex-end;
 }
-.requirement_cell .long_quantity {
-	/* font-size: 14px; */
-	/* padding: 1px; */
-}
 
 .save {
   background-color: #111;

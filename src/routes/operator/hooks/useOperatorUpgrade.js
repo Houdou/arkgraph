@@ -27,6 +27,7 @@ const useOperatorUpgrade = (init_values) => {
 	const setOperatorUpgrade = (to_update) => {
 		const processed_upgrade = processUpgrade(to_update);
 		setOperatorUpgrade_raw(processed_upgrade);
+		global.operator_upgrade = processed_upgrade;
 		return processed_upgrade;
 	};
 

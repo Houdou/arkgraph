@@ -56,11 +56,15 @@
   padding: 12px;
 }
 .clear_data {
-  background-color: #222;
+  color: #CCC;
+  background-color: #311;
   padding: 8px;
   margin-top: 12px;
   text-align: center;
   user-select: none;
+	box-shadow: 1px 2px 3px rgba(24, 24, 24, 0.8);
+	font-size: 20px;
+	font-weight: bold;
 }
 .load_error {
   padding: 8px;

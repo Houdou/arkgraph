@@ -18,7 +18,12 @@ const ArkUpgradeInputRow = ({
 			cells={
 				[
 					{ content: prefix },
-					...attributes.map(AttributeInput),
+					...attributes.map(field => {
+						if (typeof field.override === 'string') {
+							return ({ content: field.override });
+						}
+						return AttributeInput(field);
+					}),
 				]
 			}
 			disable_hover
