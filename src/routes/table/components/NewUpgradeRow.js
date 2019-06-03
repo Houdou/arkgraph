@@ -8,12 +8,25 @@ const ArkNewUpgradeRow = ({
 	record,
 	resources_filter,
 	addEmptyRow,
+	addLastRow,
 }) => {
 	const new_upgrade_input = (props) => (
 		<ArkCell>
-			<ArkButton value="+" onClick={e => {
-				addEmptyRow();
-			}}
+			<ArkButton
+				value="+"
+				onClick={e => {
+					addEmptyRow();
+				}}
+			/>
+		</ArkCell>
+	);
+	const new_copy_input = (props) => (
+		<ArkCell>
+			<ArkButton
+				value=""
+				onDblClick={e => {
+					addLastRow();
+				}}
 			/>
 		</ArkCell>
 	);
@@ -25,7 +38,7 @@ const ArkNewUpgradeRow = ({
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
 					new_upgrade_input,
-					{ content: '' },
+					new_copy_input,
 					{ content: '' },
 					{ content: '' },
 				]

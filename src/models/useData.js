@@ -261,6 +261,15 @@ const useData = () => {
 		});
 	};
 
+	const addLastRow = () => {
+		dispatch({
+			type: 'data.addRow',
+			payload: {
+				operator: global.last_operator,
+			},
+		});
+	};
+
 	const updateRow = (index, row) => {
 		dispatch({
 			type: 'data.updateRow',
@@ -325,6 +334,7 @@ const useData = () => {
 		load,
 		addRow,
 		addEmptyRow,
+		addLastRow,
 		updateRow,
 		completeRow,
 		removeRow,

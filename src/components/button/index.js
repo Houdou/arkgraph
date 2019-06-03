@@ -14,6 +14,12 @@ const ArkCell = (props) => (
 			)
 		}
 		style={props.style}
+		onDblClick={e => {
+			if (props.onDblClick) {
+				e.preventDefault();
+				props.onDblClick(e);
+			}
+		}}
 		onClick={e => props.onClick && props.onClick(e)}
 	>
 		{

@@ -37,6 +37,7 @@ const ArkTable = ({
 		state: { records, stock, focus_materials, compound_materials },
 		load,
 		addEmptyRow,
+		addLastRow,
 		updateRow,
 		removeRow,
 		completeRow,
@@ -125,6 +126,7 @@ const ArkTable = ({
 				}
 				<ArkNewUpgradeRow
 					addEmptyRow={addEmptyRow}
+					addLastRow={addLastRow}
 					{...global_props}
 				/>
 			</div>
