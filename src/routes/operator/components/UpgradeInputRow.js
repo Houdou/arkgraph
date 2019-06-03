@@ -6,10 +6,13 @@ import ArkRow from '../../../components/row';
 const ArkUpgradeInputRow = ({
 	prefix,
 	attributes,
+	tab_index_offset,
 }) => {
-	const AttributeInput = ({ attribute, setAttribute }) => (props) => (
+	const AttributeInput = ({ attribute, setAttribute }, index) => (props) => (
 		<ArkInputCell {...props}
-			value={attribute} onChange={value => setAttribute(value)}
+			tabIndex={index + 1 + tab_index_offset}
+			value={attribute}
+			onChange={value => setAttribute(value)}
 		/>
 	);
 
@@ -18,11 +21,11 @@ const ArkUpgradeInputRow = ({
 			cells={
 				[
 					{ content: prefix },
-					...attributes.map(field => {
+					...attributes.map((field, index) => {
 						if (typeof field.override === 'string') {
 							return ({ content: field.override });
 						}
-						return AttributeInput(field);
+						return AttributeInput(field, index);
 					}),
 				]
 			}

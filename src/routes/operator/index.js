@@ -192,6 +192,7 @@ const ArkOperatorTable = ({
 									&& { attribute: current_master_skill_3, setAttribute: setCurrentMasterSkill_3 },
 							].filter(Boolean)
 							}
+							tab_index_offset={0}
 						/>
 						<ArkUpgradeInputRow
 							prefix="培养目标"
@@ -210,6 +211,7 @@ const ArkOperatorTable = ({
 									&& { attribute: target_master_skill_3, setAttribute: setTargetMasterSkill_3 },
 							].filter(Boolean)
 							}
+							tab_index_offset={6}
 						/>
 						<div class={style.actions}>
 							<span>快捷选项</span>

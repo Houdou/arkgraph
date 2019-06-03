@@ -35,8 +35,6 @@ const ArkInputCell = (props) => {
 					e => {
 						const value = Math.max(Number(e.target.value), 0);
 						props.onChange && props.onChange(value);
-
-						handleNext(e);
 					}
 				}
 				onKeyDown={
