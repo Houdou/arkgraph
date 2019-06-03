@@ -11,8 +11,8 @@ const ArkTableHeader = ({
 			cells={
 				[
 					{ content: '', header_level: 'T0' },
-					{ content: '等级', header_level: 'T1' },
 					{ content: '精英阶段', header_level: 'T1' },
+					{ content: '等级', header_level: 'T1' },
 					{ content: '技能等级', header_level: 'T1' },
 					...Array(3).fill(null).map((_, index) => ({
 						content: skill_names[index] ? `${skill_names[index]}` : `技能${index + 1}专精` ,

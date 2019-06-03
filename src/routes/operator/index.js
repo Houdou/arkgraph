@@ -178,8 +178,8 @@ const ArkOperatorTable = ({
 						<ArkUpgradeInputRow
 							prefix="目前等级"
 							attributes={[
-								{ attribute: current_level, setAttribute: setCurrentLevel },
 								{ attribute: current_elite, setAttribute: setCurrentElite },
+								{ attribute: current_level, setAttribute: setCurrentLevel },
 								{ attribute: current_all_skill, setAttribute: setCurrentAllSkill },
 								{
 									attribute: current_master_skill_1,
@@ -196,8 +196,8 @@ const ArkOperatorTable = ({
 						<ArkUpgradeInputRow
 							prefix="培养目标"
 							attributes={[
-								{ attribute: target_level, setAttribute: setTargetLevel },
 								{ attribute: target_elite, setAttribute: setTargetElite },
+								{ attribute: target_level, setAttribute: setTargetLevel },
 								{ attribute: target_all_skill, setAttribute: setTargetAllSkill },
 								{
 									attribute: target_master_skill_1,
