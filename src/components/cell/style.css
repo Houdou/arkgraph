@@ -54,6 +54,8 @@
 }
 .cell.long_text {
   font-size: 14px;
+	white-space: normal;
+	padding: 0 5px;
 }
 .cell.icons_header {
 	height: 76px;

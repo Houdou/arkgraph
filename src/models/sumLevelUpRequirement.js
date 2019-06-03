@@ -10,7 +10,7 @@ const sumTapeRequirements = (required_exp) => {
 	const rounded_exp = Math.ceil(required_exp/200)*200;
 	let remain_exp = rounded_exp;
 	EXP_TAPES.forEach(tape => {
-		let requirement = {
+		const requirement = {
 			resource: tape.id,
 			quantity: 0,
 		};
@@ -18,7 +18,9 @@ const sumTapeRequirements = (required_exp) => {
 			requirement.quantity += 1;
 			remain_exp -= tape.value;
 		}
-		summary.push(requirement);
+		if (requirement.quantity > 0) {
+			summary.push(requirement);
+		}
 	});
 
 	return summary;
@@ -26,6 +28,10 @@ const sumTapeRequirements = (required_exp) => {
 
 const sumLevelUpRequirements = (rarity, elite_rank, current, target) => {
 	const summary = [];
+	if (current === target) {
+		return summary;
+	}
+
 	try {
 		// Lungmen coin
 		let sum_coin = 0;

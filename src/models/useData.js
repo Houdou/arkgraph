@@ -247,7 +247,7 @@ const useData = () => {
 		});
 	};
 
-	const addRow = (...row) => {
+	const addRow = (row) => {
 		dispatch({
 			type: 'data.addRow',
 			payload: row,

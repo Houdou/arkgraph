@@ -26,18 +26,10 @@ const useOperatorUpgrade = (init_values) => {
 
 	const setOperatorUpgrade = (to_update) => {
 		const processed_upgrade = processUpgrade(to_update);
-		console.log('to_update');
-		console.log(to_update);
 		setOperatorUpgrade_raw(processed_upgrade);
-		console.log('processed_upgrade');
-		console.log(processed_upgrade);
 		return processed_upgrade;
 	};
 
-	const setOperator = (operator) => setOperatorUpgrade({
-		...operatorUpgrade,
-		operator,
-	});
 	const setAttribute = (attribute, value) => setOperatorUpgrade({
 		...operatorUpgrade,
 		[attribute]: value,
@@ -45,7 +37,8 @@ const useOperatorUpgrade = (init_values) => {
 
 	return {
 		operatorUpgrade,
-		setOperator,
+		setOperatorUpgrade,
+		setOperator: value => setAttribute('operator', value),
 		setCurrentElite: value => setAttribute('current_elite', value),
 		setTargetElite: value => setAttribute('target_elite', value),
 		setCurrentLevel: value => setAttribute('current_level', value),
