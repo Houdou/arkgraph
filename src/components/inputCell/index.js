@@ -30,7 +30,7 @@ const ArkInputCell = (props) => {
 				type="number"
 				value={props.content || props.value}
 				id={`input_${props.tabIndex}`}
-				autocomplete="off"
+				autocomplete="user-password"
 				onChange={
 					e => {
 						const value = Math.max(Number(e.target.value), 0);
