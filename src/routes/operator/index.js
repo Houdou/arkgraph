@@ -128,6 +128,27 @@ const ArkOperatorTable = ({
 		}
 	};
 
+	const resetAttributes = () => {
+		setOperatorUpgrade({
+			...operatorUpgrade,
+			operator: null,
+			current_elite: 0,
+			target_elite: 0,
+			current_level: 1,
+			target_level: 1,
+			current_all_skill: 1,
+			target_all_skill: 1,
+			current_master_skill_1: 0,
+			target_master_skill_1: 0,
+			current_master_skill_2: 0,
+			target_master_skill_2: 0,
+			current_master_skill_3: 0,
+			target_master_skill_3: 0,
+			upgrades: [],
+		});
+	};
+
+
 	const fulfilled_upgrades = (upgrades || []).map(upgrade =>
 		Boolean(upgrade.requirements) &&
 		upgrade.requirements.length > 0 &&
@@ -275,6 +296,9 @@ const ArkOperatorTable = ({
 						class={style.save}
 						onClick={e => {
 							upgrades.forEach(addRow);
+							setTimeout(() => {
+								resetAttributes();
+							}, 300);
 							setAddAllText('已添加');
 						}}
 					>{add_all_text}</div>
