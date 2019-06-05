@@ -17,7 +17,7 @@ const sumRequirements = (records, stock, compound_materials) => {
 			Object.entries(formula).forEach(([ingredient_material_id, ingredient_quantity]) => {
 				summary[ingredient_material_id] = (summary[ingredient_material_id] || 0) + (Math.max((summary[material_id] || 0) - (stock[material_id] || 0), 0)) * ingredient_quantity;
 			});
-			summary[material_id] = summary[material_id] ? `合成${summary[material_id]}个` : 0;
+			// summary[material_id] = summary[material_id] ? `合成${summary[material_id]}个` : 0;
 		});
 
 	return summary;

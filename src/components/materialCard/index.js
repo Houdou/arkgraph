@@ -70,10 +70,17 @@ const ArkMaterialCard = ({
 						</div>
 						{
 							summary_amount !== 0 && (
-								<div class={cn(style.stock)}>
-									<span class={style.grey}>需要</span>
-									<span class={style.black}>{summary_amount}</span>
-								</div>
+								compounded ? (
+									<div class={cn(style.stock)}>
+										<span class={style.grey}>需要合成</span>
+										<span class={style.black}>{shortage_amount.replace(/合成(.*)个/, '$1')}</span>
+									</div>
+								) : (
+									<div class={cn(style.stock)}>
+										<span class={style.grey}>需要</span>
+										<span class={style.black}>{summary_amount}</span>
+									</div>
+								)
 							)
 						}
 					</div>

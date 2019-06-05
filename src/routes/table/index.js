@@ -55,7 +55,7 @@ const ArkTable = ({
 	}, []);
 
 	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
-	const shortage = sumShortage(stock, summary);
+	const shortage = sumShortage(stock, summary, compound_materials);
 
 	const fulfilled_records = records.map(record =>
 		Boolean(record.requirements) &&
@@ -108,8 +108,8 @@ const ArkTable = ({
 					setStockItem={setStockItem}
 					{...global_props}
 				/>
-				<ArkSummaryRow summary={summary} {...global_props} />
 				<ArkShortageRow shortage={shortage} {...global_props} />
+				<ArkSummaryRow summary={summary} {...global_props} />
 				{
 					records && records.map((record, index) => (
 						<ArkUpgradeInputRow
