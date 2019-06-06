@@ -103,7 +103,7 @@ const ArkMaterials = ({
 									scale={0.8}
 								/>
 								<span class={style.summary_quantity}>{operator_sum}{
-									compound_sum && compound_sum.length && ` + 合成消耗${compound_sum.reduce((a, b) => (a + b), 0)}`
+									compound_sum && compound_sum.length !== 0 && ` + 合成消耗${compound_sum.reduce((a, b) => (a + b), 0)}`
 								}</span>
 							</div>
 						</div>
