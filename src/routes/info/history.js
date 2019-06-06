@@ -2,6 +2,14 @@ import React from 'preact';
 const { Fragment } = React;
 
 export const announcement = {
+	'2019-06-04': (
+		<Fragment>
+			<span>2019-06-03</span>
+			干员培养写好啦~<br />
+			最快5秒！就能添加一个干员的所有需求（<b>不要被合计材料数量吓到……</b><br />
+			具体使用说明请看下方使用说明→干员培养<br />
+		</Fragment>
+	),
 	'2019-06-03': (
 		<Fragment>
 			<p>
@@ -53,6 +61,26 @@ export const announcement = {
 
 const ArkHistory = () => (
 	<div>
+		<h3>V1.2.6</h3>
+		<ul>
+			<li>更换了缓存方式，现在只缓存图片，网站会一直保持最新</li>
+			<li>但同时也移除了离线支持（</li>
+		</ul>
+		<h3>V1.2.5</h3>
+		<ul>
+			<li>增加了斯卡蒂，格拉尼，夜魔，月见夜的数据，（暂缺猎蜂</li>
+			<li>增加了打赏（</li>
+		</ul>
+		<h3>V1.2.4</h3>
+		<ul>
+			<li>下拉选单中显示技能名称</li>
+			<li>修复了Edge（或许包括其他浏览器）无法变更升级项目的Bug</li>
+		</ul>
+		<h3>V1.2.3</h3>
+		<ul>
+			<li>增加了部分干员数据</li>
+			<li>修复了需合成材料的库存量没有被计算在内的问题</li>
+		</ul>
 		<h3>V1.2.2</h3>
 		<ul>
 			<li>增加了数据备份功能</li>
