@@ -1,6 +1,7 @@
 import React from 'preact';
 import style from './style';
 import cn from 'classnames';
+import { Link } from 'preact-router/match';
 
 const ArkCell = (props) => (
 	<div
@@ -23,7 +24,13 @@ const ArkCell = (props) => (
 		onClick={e => props.onClick && props.onClick(e)}
 	>
 		{ props.children || (
-			<p>{props.content}</p>
+			props.href ? (
+				<Link href={props.href}>
+					<p>{props.content}</p>
+				</Link>
+			) : (
+				<p>{props.content}</p>
+			)
 		)}
 	</div>
 );

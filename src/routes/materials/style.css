@@ -178,3 +178,58 @@
 	font-size: 20px;
 	font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+	.page {
+		max-width: unset;
+	}
+
+	.section {
+		padding: 52px 0px 8px;
+		font-size: 12px;
+	}
+
+	.section_header {
+		left: 8px;
+	}
+
+	.query, .filters, .table, .upgrades, .summary {
+		padding: 8px;
+		width: 100%;
+		min-width: unset;
+		background: rgba(238, 238, 238, 0.07);
+	}
+
+	.upgrades {
+		padding-right: unset;
+		flex-wrap: wrap;
+		overflow-x: scroll;
+		overflow-y: auto;
+	}
+
+	.material_query_input {
+		width: 100%;
+	}
+	.material_query_input input {
+		font-size: 36px;
+		width: 100%;
+		background: rgba(238, 238, 238, 0.07);
+	}
+
+	.summary_cell span,
+	.summary_cell .summary_quantity {
+		font-size: 24px;
+	}
+
+	.compound_cell {
+		min-width: unset;
+	}
+
+	.summary_cell {
+		min-width: 88px;
+	}
+	.summary_cell > div {
+		transform: scale(0.6);
+		min-width: 88px;
+	}
+}

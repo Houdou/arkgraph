@@ -1,6 +1,7 @@
 import React from 'preact';
 import style from '../style';
 import cn from 'classnames';
+import { Link } from 'preact-router/match';
 
 import ArkItem from '../../../components/item';
 import ArkCell from '../../../components/cell';
@@ -25,11 +26,13 @@ const ArkCompoundRow= ({
 			}}
 		>
 			<div class={style.compound_cell}>
-				<ArkItem
-					id={result}
-					tier={`T${result.substr(2, 1)}`}
-					scale={0.25}
-				/>
+				<Link href={`/materials/${result}`}>
+					<ArkItem
+						id={result}
+						tier={`T${result.substr(2, 1)}`}
+						scale={0.25}
+					/>
+				</Link>
 			</div>
 		</ArkCell>
 	);
@@ -46,11 +49,13 @@ const ArkCompoundRow= ({
 			{
 				Object.entries(formula).map(([resource, quantity]) => (
 					<div class={style.requirement_cell}>
-						<ArkItem
-							id={resource}
-							tier={`T${resource.substr(2, 1)}`}
-							scale={0.25}
-						/>
+						<Link href={`/materials/${resource === 'G-4-1' ? '' : resource}`}>
+							<ArkItem
+								id={resource}
+								tier={`T${resource.substr(2, 1)}`}
+								scale={0.25}
+							/>
+						</Link>
 						<span>x</span>
 						<span
 							class={cn(
@@ -71,8 +76,8 @@ const ArkCompoundRow= ({
 			cells={
 				[
 					CompoundItem,
-					CompoundFormula,
 					{ content: sum || 0 },
+					CompoundFormula,
 				]
 			}
 			style={{ height: '56px' }}

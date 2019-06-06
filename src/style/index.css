@@ -28,6 +28,9 @@ input[type="number"]::-webkit-inner-spin-button {
 	-webkit-appearance: none;
 	margin: 0;
 }
+a {
+	color: #EEE;
+}
 
 .row {
 	width: auto;
@@ -39,9 +42,19 @@ input[type="number"]::-webkit-inner-spin-button {
 	position: relative;
 }
 
+.row.sticky {
+	position: sticky;
+}
+
 .row.header {
 	position: sticky;
 	top: 56px;
 	z-index: 999;
 	box-shadow: 1px 2px 3px 0px #33333333;
+}
+
+@media screen and (max-width: 600px) {
+	.row.header {
+		top: 0;
+	}
 }

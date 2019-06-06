@@ -36,6 +36,7 @@ const professions = [
 const ArkMaterials = ({
 	config,
 	data,
+	material_name: material_query_param,
 }) => {
 	const {
 		state: { stock },
@@ -43,11 +44,19 @@ const ArkMaterials = ({
 		addRow,
 	} = data;
 
+	const [ material_query, setMaterialQuery ] = useState(null);
+
 	useEffect(() => {
 		load();
+
 	}, []);
 
-	const [ material_query, setMaterialQuery ] = useState(null);
+	useEffect(() => {
+		const found_material = materials.find(({ id, name }) => name === material_query_param || id === material_query_param);
+		if (found_material) {
+			setMaterialQuery(found_material.id);
+		}
+	}, [material_query_param]);
 
 	const init_button_text = '添加全部到计算器';
 	const [button_text, setAddAllText_raw] = useState(init_button_text);
@@ -118,10 +127,11 @@ const ArkMaterials = ({
 							cells={
 								[
 									{ content: '合成项目' },
-									{ content: '公式', fullwidth: true },
 									{ content: '需求数量' },
+									{ content: '公式', fullwidth: true },
 								]
 							}
+							sticky
 							disable_hover
 						/>
 						{
@@ -131,7 +141,7 @@ const ArkMaterials = ({
 										material_query={material_query}
 										compound={compound}
 										formula={materials.find(({ id }) => id === compound.result).formula}
-										sum={compound_sum[index]}
+										sum={compound_sum[index] / compound_requirements[index].required}
 										{...global_props}
 									/>
 								)
@@ -212,6 +222,7 @@ const ArkMaterials = ({
 									{ content: '所需材料', fullwidth: true },
 								]
 							}
+							sticky
 							disable_hover
 						/>
 						{

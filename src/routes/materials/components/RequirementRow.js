@@ -82,7 +82,7 @@ const ArkRequirementRow = ({
 			cells={
 				[
 					StockIndicator,
-					{ content: operator },
+					{ content: operator, href: `/operator/${operator}` },
 					{ content: attribute },
 					{ content: current },
 					{ content: target },

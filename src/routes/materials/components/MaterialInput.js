@@ -47,6 +47,7 @@ const ArkMaterialInput = ({
 			<input
 				value={material}
 				type="text"
+				ref={material_input_ref}
 				onChange={e => {
 					const results = fuse.search(e.target.value);
 					if (results.length > 0) {

@@ -42,8 +42,8 @@ const App = (props) => {
 			<Router onChange={e => setCurrentUrl(e.url)}>
 				<ArkInfo path="/" />
 				<ArkTable path="/table" config={config} data={data} />
-				<ArkOperator path="/operator" config={config} data={data} />
-				<ArkMaterials path="/materials" config={config} data={data} />
+				<ArkOperator path="/operator/:operator_name?" config={config} data={data} />
+				<ArkMaterials path="/materials/:material_name?" config={config} data={data} />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />
 			</Router>
 		</div>

@@ -13,3 +13,9 @@
 .table.hide_focus_materials {
 	padding-bottom: 160px;
 }
+
+@media screen and (max-width: 600px) {
+	.table {
+		overflow: scroll visible;
+	}
+}

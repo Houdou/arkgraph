@@ -32,7 +32,7 @@ const ArkFocusMaterials = ({
 			<h2>追踪材料</h2>
 			<div
 				class={cn(style.clear, {
-					[style.show_clear]: material_groups.length !== 0,
+					[style.show_clear]: material_groups.length !== 0 && config.showFocusMaterials,
 				})}
 				onClick={e => clearFocusMaterials(e)}
 			/>

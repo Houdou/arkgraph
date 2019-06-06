@@ -28,6 +28,7 @@ const material_order = [
 const ArkOperatorTable = ({
 	config,
 	data,
+	operator_name: operator_name_query,
 }) => {
 	const {
 		state: { stock },
@@ -82,6 +83,13 @@ const ArkOperatorTable = ({
 	useEffect(() => {
 		load();
 	}, []);
+
+	useEffect(() => {
+		const operator = OPERATORS.find(o => o.name === operator_name_query);
+		if (operator) {
+			setOperator(operator.name);
+		}
+	}, [operator_name_query]);
 
 	const operator = OPERATORS.find(o => o.name === operator_name);
 	const skill_render_map = {};
@@ -268,6 +276,7 @@ const ArkOperatorTable = ({
 									{ content: '所需材料', fullwidth: true },
 								]
 							}
+							sticky
 							disable_hover
 						/>
 						{

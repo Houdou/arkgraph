@@ -128,3 +128,62 @@
 	font-size: 20px;
 	font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+	.page, .wrapper {
+		max-width: unset;
+		width: 100%;
+	}
+
+	.section {
+		padding: 52px 0px 8px;
+		font-size: 12px;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.section_header {
+		left: 8px;
+	}
+
+	.table, .upgrades, .summary {
+		padding: 8px;
+		width: 100%;
+		min-width: unset;
+		background: rgba(238, 238, 238, 0.07);
+	}
+
+	.table, .upgrades {
+		padding-right: unset;
+		flex-wrap: wrap;
+		overflow-x: scroll;
+		overflow-y: auto;
+		width: 100%;
+	}
+
+	.operator_input {
+		width: 100%;
+	}
+	.operator_input .operator_input_cell input {
+		font-size: 36px;
+		background: rgba(238, 238, 238, 0.07);
+	}
+
+	.actions span {
+		width: 60px;
+		text-align: center;
+	}
+
+	.actions .max_attribute {
+		max-width: 80px;
+	  background-color: #333;
+		margin-right: 8px;
+	  padding: 10px;
+	  text-align: center;
+	  user-select: none;
+		box-shadow: 1px 2px 3px rgba(24, 24, 24, 0.8);
+		font-size: 12px;
+		font-weight: 400;
+		transition: background-color 0.3s ease;
+	}
+}
