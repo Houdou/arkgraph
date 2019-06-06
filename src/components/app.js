@@ -8,6 +8,7 @@ import Header from './header';
 
 import ArkTable from '../routes/table';
 import ArkOperator from '../routes/operator';
+import ArkMaterials from '../routes/materials';
 import ArkInfo from '../routes/info';
 import ArkBackup from '../routes/backup';
 
@@ -42,6 +43,7 @@ const App = (props) => {
 				<ArkInfo path="/" />
 				<ArkTable path="/table" config={config} data={data} />
 				<ArkOperator path="/operator" config={config} data={data} />
+				<ArkMaterials path="/materials" config={config} data={data} />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />
 			</Router>
 		</div>
