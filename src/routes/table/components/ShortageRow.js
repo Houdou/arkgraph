@@ -21,8 +21,8 @@ const ArkShortageRow = ({
 				[
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
-					{ content: '' },
-					{ content: '' },
+					{ content: '', force_no_shrink: true },
+					{ content: '', force_no_shrink: true },
 					{ content: '' },
 					{ content: '缺少' },
 					...shortage_row,

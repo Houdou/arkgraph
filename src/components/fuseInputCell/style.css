@@ -34,10 +34,3 @@
   bottom: 4px;
   background-color: #EEE;
 }
-
-@media screen and (max-width: 600px) {
-	.cell, .cell > input {
-		width: 60px;
-		min-width: 60px;
-	}
-}

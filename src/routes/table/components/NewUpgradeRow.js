@@ -11,7 +11,7 @@ const ArkNewUpgradeRow = ({
 	addLastRow,
 }) => {
 	const new_upgrade_input = (props) => (
-		<ArkCell>
+		<ArkCell force_no_shrink>
 			<ArkButton
 				value="+"
 				onClick={e => {
@@ -21,7 +21,7 @@ const ArkNewUpgradeRow = ({
 		</ArkCell>
 	);
 	const new_copy_input = (props) => (
-		<ArkCell>
+		<ArkCell force_no_shrink>
 			<ArkButton
 				value=""
 				onDblClick={e => {

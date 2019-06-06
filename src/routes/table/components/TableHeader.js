@@ -22,7 +22,7 @@ const ArkTableHeader = ({
 			{...props}
 		>
 			<ArkItem id={e.id} tier={e.tier} />
-			<span class="item_name">{e.name}</span>
+			<span>{e.name}</span>
 		</ArkCell>
 	);
 
@@ -32,8 +32,8 @@ const ArkTableHeader = ({
 				[
 					{ content: '移除', halfwidth: true, header_level: 'T1' },
 					{ content: '完成', halfwidth: true, header_level: 'T1' },
-					{ content: '干员', header_level: 'T1' },
-					{ content: '升级项目', header_level: 'T1' },
+					{ content: '干员', header_level: 'T1', force_no_shrink: true },
+					{ content: '升级项目', header_level: 'T1', force_no_shrink: true },
 					{ content: '现等级', header_level: 'T1' },
 					{ content: '目标等级', header_level: 'T1' },
 					...Array.from(header_list)

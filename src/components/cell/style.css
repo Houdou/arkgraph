@@ -121,12 +121,12 @@
 		font-size: 14px;
 	}
 
-	.cell.icons_header :global(.item_name) {
-		font-size: 10px;
+	.cell.icons_header span {
+		font-size: 8px;
 		margin-top: -12px;
 	}
 
-	.cell {
+	.cell:not(.force_no_shrink) {
 		width: 60px;
 		min-width: 60px;
 	}

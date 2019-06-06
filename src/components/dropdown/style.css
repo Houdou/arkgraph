@@ -38,10 +38,3 @@
   position: absolute;
   right: 6px;
 }
-
-@media screen and (max-width: 600px) {
-	.cell, .cell > select {
-		width: 60px;
-		min-width: 60px;
-	}
-}

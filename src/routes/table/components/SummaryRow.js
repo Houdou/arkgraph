@@ -21,8 +21,8 @@ const ArkSummaryRow = ({
 				[
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
-					{ content: '' },
-					{ content: '' },
+					{ content: '', force_no_shrink: true },
+					{ content: '', force_no_shrink: true },
 					{ content: '' },
 					{ content: '合计' },
 					...summary_row,
