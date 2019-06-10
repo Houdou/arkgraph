@@ -10,6 +10,7 @@ import ArkStockRow from './components/StockRow';
 import ArkSummaryRow from './components/SummaryRow';
 import ArkShortageRow from './components/ShortageRow';
 import ArkFocusMaterials from './sections/FocusMaterials';
+import ArkFilterSettings from './sections/FilterSettings';
 
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
@@ -140,6 +141,7 @@ const ArkTable = ({
 				compoundMaterial={compoundMaterial}
 				{...global_props}
 			/>
+			<ArkFilterSettings />
 		</div>
 	);
 };

@@ -1,0 +1,159 @@
+.black {
+  background-color: #333;
+  color: #EEE;
+}
+.grey {
+  background-color: #666;
+  color: #EEE;
+}
+
+.fullscreen_cover {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(51, 51, 51, 0.6);
+  z-index: 999999;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  max-width: 440px;
+  width: auto;
+  min-height: 300px;
+  position: relative;
+  background: linear-gradient(180deg, #DDD 0%, #FEFEFE 93%, #FEFEFE 100%);
+  border-radius: 1px;
+  padding: 24px;
+}
+
+.wrapper hr {
+  margin-bottom: 16px;
+  border-top: 0.5px solid #333;
+}
+
+.settings {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.setting {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.setting_header {
+  width: 60px;
+  min-width: 60px;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  background: linear-gradient(to right, #666 75%, #999 88%, #CCC 100%);
+}
+
+.setting_options, .setting_buttons {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.setting_buttons {
+  justify-content: flex-end;
+}
+
+.setting_option, .setting_button {
+  font-size: 12px;
+  min-width: 76px;
+  height: 28px;
+  max-height: 24px;
+  margin-bottom: 8px;
+  padding: 2px 8px;
+  display: flex;
+  flex-flow: row;
+  text-align: right;
+  justify-content: flex-end;
+  align-items: flex-end;
+  box-shadow: 0px 5px 10px rgba(51, 51, 51, 0.7);
+  position: relative;
+  overflow: hidden;
+}
+.setting_option:nth-of-type(4n) {
+  margin-right: 0;
+}
+
+.setting_option_tier:after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 4px;
+  left: 0;
+  top: 0;
+}
+
+.setting_option_tier_T1.setting_option_tier:after {
+	background-color: #9F9FA2;
+}
+.setting_option_tier_T2.setting_option_tier:after {
+	background-color: #DADC39;
+}
+.setting_option_tier_T3.setting_option_tier:after {
+	background-color: #16AFF0;
+}
+.setting_option_tier_T4.setting_option_tier:after {
+	background-color: #D3C3D4;
+}
+.setting_option_tier_T5.setting_option_tier:after {
+	background-color: #FCC90E;
+}
+.setting_option_tier_T6.setting_option_tier:after {
+	background-color: #FFF2BE;
+}
+
+.setting_option_active {
+  background-color: #0076A8;
+  max-height: 26px;
+  padding-bottom: 4px;
+  margin-bottom: 6px;
+}
+
+.setting_button {
+  padding: 4px 8px;
+  height: 28px;
+  text-align: center;
+  justify-content: center;
+}
+.setting_button_close {
+  background-color: #333;
+  margin-right: 8px;
+}
+.setting_button_confirm {
+  background-color: #0076A8;
+}
+.setting_button:last-child {
+  margin-right: 0;
+}
+
+.button_icon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .setting_option, .setting_button {
+    height: 36px;
+    max-height: 36px;
+  }
+
+  .setting_button {
+    padding: 8px;
+  }
+
+  .setting_button_close {
+    margin-right: 16px;
+  }
+}
