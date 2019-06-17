@@ -39,12 +39,17 @@ const useFilterSetting = ({ options, field }, initial_value = {}) => {
 		setSetting([...setting].map(e => false));
 	};
 
+	const enableAll = () => {
+		setSetting([...setting].map(e => true));
+	};
+
 	return {
 		setting,
 		toggle,
 		getOption,
 		getFilter,
 		resetAll,
+		enableAll,
 	};
 };
 

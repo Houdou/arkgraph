@@ -75,6 +75,9 @@ const ArkFilterSettings = ({
 											style.setting_header,
 											style.grey
 										)}
+										onClick={e => {
+											resource_types_filters[group_index].enableAll();
+										}}
 									>
 										{option.group}
 									</div>
