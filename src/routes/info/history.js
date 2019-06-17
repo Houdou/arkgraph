@@ -2,6 +2,13 @@ import React from 'preact';
 const { Fragment } = React;
 
 export const announcement = {
+	'2019-06-06': (
+		<Fragment>
+			<span>2019-06-06</span>
+			做了个材料反查功能，还在开发中，放出来测试一下~<br />
+			顺便再增加了点移动端适配，但实在是不是为手机设计的UX，只能将就用……<br />
+		</Fragment>
+	),
 	'2019-06-04': (
 		<Fragment>
 			<span>2019-06-03</span>
@@ -61,6 +68,16 @@ export const announcement = {
 
 const ArkHistory = () => (
 	<div>
+		<h3>V1.2.7</h3>
+		<ul>
+			<li>增加了干员升级的计算</li>
+			<li>对一部分UI改善了响应式布局</li>
+			<li>变更了落地页</li>
+		</ul>
+		<h3>V1.2.6-γ</h3>
+		<ul>
+			<li>补全了现版本干员数据</li>
+		</ul>
 		<h3>V1.2.6</h3>
 		<ul>
 			<li>更换了缓存方式，现在只缓存图片，网站会一直保持最新</li>

@@ -7,16 +7,22 @@ const Info = (props) => (
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
 			<hr />
 			<h2>公告</h2>
-			<span>2019-06-06</span>
-			做了个材料反查功能，还在开发中，放出来测试一下~<br />
-			顺便再增加了点移动端适配，但实在是不是为手机设计的UX，只能将就用……<br />
+			<p>2019-06-18</p>
+			<p>
+				各位久等啦，最近有些忙，没有太多时间更新，所以筛选功能拖了一周<br />
+				基本上能够解决一些反馈中提到的列表太宽不方便查数据的问题<br />
+				右上角新增了【筛选材料】功能，可以用来…………筛选。。。<br />
+				可以点击【显示全部资源】来清除筛选条件<br />
+				移动端现在基本上是个可用水平，仍然建议使用电脑打开~<br />
+				下一步计划是和企鹅数据api的接入以及一些其他UX的优化~<del>继续画饼（</del><br />
+			</p>
+			<hr />
 			<p>
 				<h2>关于访问量</h2>
 				感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
-				服务器一个月<code>100G</code>流量，并且已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
+				服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
 				（首次加载约<code>3M</code>，之后的访问都是<code>~20K</code>）<br />
-				但公开的这几天就用掉<code>45G</code>了<small>QAQ</small><br />
-				如果流量真的用完了，只能等到下个月恢复流量才能访问了<br />
+				现在的使用量：<code>64G</code>（2019-06-17）<br />
 				<br />
 				<small>（小声）</small>在右边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
 				<span class={style.tip_link} href="">打赏/捐助二维码
@@ -88,21 +94,29 @@ const Info = (props) => (
 				<li>数据导入与导出</li>
 				<li>升级经验计算</li>
 				<li>单个干员培养需求的批量添加</li>
+				<li>材料筛选显示</li>
 			</ul>
 			<h3>待实现功能</h3>
 			<ul>
-				<li>其他资源筛选功能</li>
+				<li>材料反查页面的筛选功能</li>
+				<li>与<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a>合作，关联掉落概率数据</li>
+				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
+				<li>增加键盘快捷键</li>
 				<li>……</li>
 			</ul>
 			<h3>计划中功能</h3>
 			<ul>
-				<li>与<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a>合作，关联掉落概率数据</li>
-				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
-				<li>……</li>
 				<li>欢迎提供建议: <a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph/issues">Issue board</a></li>
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.4.0</h3>
+			<ul>
+				<li>增加了材料筛选功能</li>
+				<li>增加了经验值数值显示</li>
+				<li>优化移动端显示</li>
+				<li>默认设置合成4、5级材料</li>
+			</ul>
 			<h3>V1.3.3</h3>
 			<ul>
 				<li>修复了材料反查的需求数量显示Bug</li>
@@ -121,16 +135,6 @@ const Info = (props) => (
 			<ul>
 				<li>增加了干员培养界面</li>
 				<li>干员培养界面显示干员升级消耗材料统计</li>
-			</ul>
-			<h3>V1.2.7</h3>
-			<ul>
-				<li>增加了干员升级的计算</li>
-				<li>对一部分UI改善了响应式布局</li>
-				<li>变更了落地页</li>
-			</ul>
-			<h3>V1.2.6-γ</h3>
-			<ul>
-				<li>补全了现版本干员数据</li>
 			</ul>
 		</div>
 	</div>
