@@ -130,4 +130,9 @@
 		width: 60px;
 		min-width: 60px;
 	}
+	
+	.cell.mobile_long_text {
+	  font-size: 13px;
+		white-space: normal;
+	}
 }

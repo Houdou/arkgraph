@@ -140,6 +140,7 @@
 	.toggle {
 		padding: 3px;
 		font-size: 10px;
+		margin-right: 4px;
 		white-space: normal;
 		text-align: center;
 	}

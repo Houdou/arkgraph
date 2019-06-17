@@ -163,6 +163,7 @@ const ArkUpgradeInputRow = ({
 						.splice(header_skip, header_list.length - header_skip)
 						.map(e => ({
 							content: summary[e.id] || '',
+							mobile_long_text: summary[e.id] > 99999,
 						})),
 				]
 			}

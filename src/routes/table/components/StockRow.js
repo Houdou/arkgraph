@@ -39,7 +39,7 @@ const ArkStockRow = ({
 						.map(tape => (stock[tape.id] || 0) * tape.value)
 						.reduce((a, b) => a + b, 0);
 					return (
-						<ArkCell content={exp_sum} />
+						<ArkCell content={exp_sum} mobile_long_text={exp_sum > 99999} />
 					);
 				}
 				return (<StockInput resource={e} tabIndex={tab_index} {...props} />);
