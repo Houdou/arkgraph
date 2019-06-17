@@ -13,7 +13,7 @@ const ArkShortageRow = ({
 		.splice(header_skip, header_list.length - header_skip)
 		.map(e => ({
 			content: shortage[e.id] || '',
-			mobile_long_text: shortage[e.id] > 99999,
+			mobile_long_text: shortage[e.id] > 99999 || `${shortage[e.id]}`.startsWith('合成'),
 		}));
 
 	return (
