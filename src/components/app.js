@@ -21,7 +21,9 @@ const App = (props) => {
 		load,
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
+		toggleShowFilter,
 		toggleShowExp,
+		setFilters,
 	} = useConfig();
 
 	const data = useData();
@@ -37,11 +39,17 @@ const App = (props) => {
 				config={config}
 				toggleShowAllResources={toggleShowAllResources}
 				toggleShowFocusMaterials={toggleShowFocusMaterials}
+				toggleShowFilter={toggleShowFilter}
 				toggleShowExp={toggleShowExp}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
 				<ArkInfo path="/" />
-				<ArkTable path="/table" config={config} data={data} />
+				<ArkTable path="/table"
+					config={config}
+					data={data}
+					toggleShowFilter={toggleShowFilter}
+					setFilters={setFilters}
+				/>
 				<ArkOperator path="/operator/:operator_name?" config={config} data={data} />
 				<ArkMaterials path="/materials/:material_name?" config={config} data={data} />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />

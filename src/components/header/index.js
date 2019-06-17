@@ -10,6 +10,7 @@ const Header = ({
 	config,
 	toggleShowAllResources,
 	toggleShowFocusMaterials,
+	toggleShowFilter,
 	toggleShowExp,
 }) => (
 	<header class={style.header}>
@@ -31,6 +32,13 @@ const Header = ({
 		{
 			currentUrl === '/table' && (
 				<div class={style.toggles}>
+					<Toggle
+						value={config.showFilter || config.filters.length > 0}
+						toggle={value => {
+							toggleShowFilter(!config.showFilter || value);
+						}}
+						content="筛选材料"
+					/>
 					<Toggle
 						value={config.showAllResources}
 						toggle={toggleShowAllResources}

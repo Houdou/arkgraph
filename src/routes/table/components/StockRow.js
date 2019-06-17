@@ -2,6 +2,9 @@ import React from 'preact';
 
 import ArkInputCell from '../../../components/inputCell';
 import ArkRow from '../../../components/row';
+import ArkCell from '../../../components/cell';
+
+import { EXP, EXP_TAPES } from '../../../models/Resources';
 
 const ArkStockRow = ({
 	record,
@@ -11,7 +14,6 @@ const ArkStockRow = ({
 	header_skip,
 	resources_filter,
 }) => {
-
 	const StockInput = ({ resource, tabIndex }) => (
 		<ArkInputCell
 			name={resource}
@@ -31,7 +33,17 @@ const ArkStockRow = ({
 			if (resources_filter(i + header_skip)) {
 				tab_index = tab_index_count++;
 			}
-			return (props) => (<StockInput resource={e} tabIndex={tab_index} {...props} />);
+			return (props) => {
+				if (e.id === EXP.id) {
+					const exp_sum = EXP_TAPES
+						.map(tape => (stock[tape.id] || 0) * tape.value)
+						.reduce((a, b) => a + b, 0);
+					return (
+						<ArkCell content={exp_sum} />
+					);
+				}
+				return (<StockInput resource={e} tabIndex={tab_index} {...props} />);
+			};
 		});
 
 	return (

@@ -4,6 +4,7 @@ const MATERIALS = [
 		name: 'D32钢',
 		pinyin: 'D32 gang',
 		tier: 'T5',
+		type: 'rare',
 		source: {},
 		formula: {
 			'M-4-8': 1,
@@ -17,6 +18,7 @@ const MATERIALS = [
 		name: '双极纳米片',
 		pinyin: 'shuang ji na mi pian',
 		tier: 'T5',
+		type: 'rare',
 		source: {},
 		formula: {
 			'M-4-2': 1,
@@ -29,6 +31,7 @@ const MATERIALS = [
 		name: '聚合剂',
 		pinyin: 'juheji',
 		tier: 'T5',
+		type: 'rare',
 		source: {},
 		formula: {
 			'M-4-1': 1,
@@ -42,6 +45,7 @@ const MATERIALS = [
 		name: '白马醇',
 		pinyin: 'bai ma chun',
 		tier: 'T4',
+		type: 'alcohol',
 		source: {
 			'4-4': '罕见',
 		},
@@ -57,6 +61,7 @@ const MATERIALS = [
 		name: '扭转醇',
 		pinyin: 'niu zhuan chun',
 		tier: 'T3',
+		type: 'alcohol',
 		source: {
 			'2-9': '小概率',
 			'4-4': '小概率',
@@ -68,6 +73,7 @@ const MATERIALS = [
 		name: '三水锰矿',
 		pinyin: 'san shui meng kuang',
 		tier: 'T4',
+		type: 'manganese',
 		source: {
 			'4-7': '罕见',
 		},
@@ -83,6 +89,7 @@ const MATERIALS = [
 		name: '轻锰矿',
 		pinyin: 'qing meng kuang',
 		tier: 'T3',
+		type: 'manganese',
 		source: {
 			'3-2': '小概率',
 			'4-7': '小概率',
@@ -94,6 +101,7 @@ const MATERIALS = [
 		name: '五水研磨石',
 		pinyin: 'wu shui yan mo shi',
 		tier: 'T4',
+		type: 'grind',
 		source: {
 			'4-8': '罕见',
 		},
@@ -109,6 +117,7 @@ const MATERIALS = [
 		name: '研磨石',
 		pinyin: 'yan mo shi',
 		tier: 'T3',
+		type: 'grind',
 		source: {
 			'3-3': '小概率',
 			'4-8': '小概率',
@@ -120,6 +129,7 @@ const MATERIALS = [
 		name: 'RMA70-24',
 		pinyin: 'RMA70-24',
 		tier: 'T4',
+		type: 'rma',
 		source: {
 			'4-9': '罕见',
 		},
@@ -135,6 +145,7 @@ const MATERIALS = [
 		name: 'RMA70-12',
 		pinyin: 'RMA70-12',
 		tier: 'T3',
+		type: 'rma',
 		source: {
 			'2-10': '小概率',
 			'4-9': '小概率',
@@ -146,6 +157,7 @@ const MATERIALS = [
 		name: '提纯源岩',
 		pinyin: 'ti chun yuan yan',
 		tier: 'T4',
+		type: 'stone',
 		source: {
 			'4-6': '罕见',
 		},
@@ -159,6 +171,7 @@ const MATERIALS = [
 		name: '固源岩组',
 		pinyin: 'gu yuan yan zu',
 		tier: 'T3',
+		type: 'stone',
 		source: {
 			'2-4': '小概率',
 			'4-6': '小概率',
@@ -173,6 +186,7 @@ const MATERIALS = [
 		name: '固源岩',
 		pinyin: 'gu yuan yan',
 		tier: 'T2',
+		type: 'stone',
 		source: {
 			'1-7': '固定',
 			'S2-12': '固定',
@@ -187,6 +201,7 @@ const MATERIALS = [
 		name: '源岩',
 		pinyin: 'yuan yan',
 		tier: 'T1',
+		type: 'stone',
 		source: {
 			'0-9': '固定',
 			'S2-5': '固定',
@@ -198,6 +213,7 @@ const MATERIALS = [
 		name: '改量装置',
 		pinyin: 'gai liang zhuang zhi',
 		tier: 'T4',
+		type: 'device',
 		source: {
 			'4-10': '罕见',
 		},
@@ -213,6 +229,7 @@ const MATERIALS = [
 		name: '全新装置',
 		pinyin: 'quan xin zhuang zhi',
 		tier: 'T3',
+		type: 'device',
 		source: {
 			'3-4': '小概率',
 			'4-10': '小概率',
@@ -227,6 +244,7 @@ const MATERIALS = [
 		name: '装置',
 		pinyin: 'zhuang zhi',
 		tier: 'T2',
+		type: 'device',
 		source: {
 			'1-12': '中概率',
 			'S3-4': '大概率',
@@ -241,6 +259,7 @@ const MATERIALS = [
 		name: '破损装置',
 		pinyin: 'po sun zhuang zhi',
 		tier: 'T1',
+		type: 'device',
 		source: {
 			'1-5': '中概率',
 			'2-3': '固定',
@@ -252,6 +271,7 @@ const MATERIALS = [
 		name: '聚酸酯块',
 		pinyin: 'ju suan zhi kuai',
 		tier: 'T4',
+		type: 'ester',
 		source: {
 			'3-8': '罕见',
 		},
@@ -267,6 +287,7 @@ const MATERIALS = [
 		name: '聚酸酯组',
 		pinyin: 'ju suan zhi zu',
 		tier: 'T3',
+		type: 'ester',
 		source: {
 			'2-6': '小概率',
 			'3-8': '小概率',
@@ -281,6 +302,7 @@ const MATERIALS = [
 		name: '聚酸酯',
 		pinyin: 'ju suan zhi',
 		tier: 'T2',
+		type: 'ester',
 		source: {
 			'1-8': '大概率',
 			'S3-2': '固定',
@@ -295,6 +317,7 @@ const MATERIALS = [
 		name: '酯原料',
 		pinyin: 'zhi yuan liao',
 		tier: 'T1',
+		type: 'ester',
 		source: {
 			'0-11': '固定',
 			'S2-7': '固定',
@@ -306,6 +329,7 @@ const MATERIALS = [
 		name: '糖聚块',
 		pinyin: 'tang ju kuai',
 		tier: 'T4',
+		type: 'sugar',
 		source: {
 			'4-2': '罕见',
 		},
@@ -321,6 +345,7 @@ const MATERIALS = [
 		name: '糖组',
 		pinyin: 'tang zu',
 		tier: 'T3',
+		type: 'sugar',
 		source: {
 			'2-5': '小概率',
 			'4-2': '小概率',
@@ -335,6 +360,7 @@ const MATERIALS = [
 		name: '糖',
 		pinyin: 'tang',
 		tier: 'T2',
+		type: 'sugar',
 		source: {
 			'2-2': '大概率',
 			'S3-1': '固定',
@@ -349,6 +375,7 @@ const MATERIALS = [
 		name: '代糖',
 		pinyin: 'dai tang',
 		tier: 'T1',
+		type: 'sugar',
 		source: {
 			'0-7': '固定',
 			'S2-6': '固定',
@@ -360,6 +387,7 @@ const MATERIALS = [
 		name: '异铁块',
 		pinyin: 'yi tie kuai',
 		tier: 'T4',
+		type: 'iron',
 		source: {
 			'S4-1': '罕见',
 		},
@@ -375,6 +403,7 @@ const MATERIALS = [
 		name: '异铁组',
 		pinyin: 'yi tie zu',
 		tier: 'T3',
+		type: 'iron',
 		source: {
 			'2-8': '小概率',
 			'S4-1': '小概率',
@@ -389,6 +418,7 @@ const MATERIALS = [
 		name: '异铁',
 		pinyin: 'yi tie',
 		tier: 'T2',
+		type: 'iron',
 		source: {
 			'2-1': '中概率',
 			'S3-3': '固定',
@@ -403,6 +433,7 @@ const MATERIALS = [
 		name: '异铁碎片',
 		pinyin: 'yi tie sui pian',
 		tier: 'T1',
+		type: 'iron',
 		source: {
 			'1-3': '大概率',
 			'S2-8': '固定',
@@ -414,6 +445,7 @@ const MATERIALS = [
 		name: '酮阵列',
 		pinyin: 'tong lie zhen',
 		tier: 'T4',
+		type: 'ketone',
 		source: {
 			'4-5': '罕见',
 		},
@@ -429,6 +461,7 @@ const MATERIALS = [
 		name: '酮凝集组',
 		pinyin: 'tong ning ji zu',
 		tier: 'T3',
+		type: 'ketone',
 		source: {
 			'3-1': '小概率',
 			'4-5': '小概率',
@@ -443,6 +476,7 @@ const MATERIALS = [
 		name: '酮凝集',
 		pinyin: 'tong ning ji',
 		tier: 'T2',
+		type: 'ketone',
 		source: {
 			'S2-1': '中概率',
 			'3-7': '固定',
@@ -457,6 +491,7 @@ const MATERIALS = [
 		name: '双酮',
 		pinyin: 'shuang tong',
 		tier: 'T1',
+		type: 'ketone',
 		source: {
 			'1-6': '大概率',
 			'S2-9': '固定',
@@ -471,6 +506,7 @@ const SKILL_BOOKS = [
 		name: '技巧概要·卷3',
 		pinyin: 'ji qiao juan yao juan 3',
 		tier: 'T4',
+		type: 'skill',
 		source: {
 			'CA-4': '固定',
 			'CA-5': '固定',
@@ -484,6 +520,7 @@ const SKILL_BOOKS = [
 		name: '技巧概要·卷2',
 		pinyin: 'ji qiao juan yao juan 2',
 		tier: 'T3',
+		type: 'skill',
 		source: {
 			'CA-3': '固定',
 			'CA-4': '固定',
@@ -498,6 +535,7 @@ const SKILL_BOOKS = [
 		name: '技巧概要·卷1',
 		pinyin: 'ji qiao juan yao juan 1',
 		tier: 'T2',
+		type: 'skill',
 		source: {
 			'CA-1': '固定',
 			'CA-2': '固定',
@@ -516,6 +554,7 @@ const EXP_TAPES = [
 		pinyin: 'gao ji zuo zhan ji lu',
 		tier: 'T5',
 		value: 2000,
+		type: 'tape',
 		source: {
 			'LS-4': '固定',
 			'LS-5': '固定',
@@ -530,6 +569,7 @@ const EXP_TAPES = [
 		pinyin: 'zhong ji zuo zhan ji lu',
 		tier: 'T4',
 		value: 1000,
+		type: 'tape',
 		source: {
 			'LS-3': '固定',
 			'LS-4': '固定',
@@ -546,6 +586,7 @@ const EXP_TAPES = [
 		pinyin: 'chu ji zuo zhan ji lu',
 		tier: 'T3',
 		value: 400,
+		type: 'tape',
 		source: {
 			'LS-1': '固定',
 			'LS-2': '固定',
@@ -563,6 +604,7 @@ const EXP_TAPES = [
 		pinyin: 'ji chu zuo zhan ji lu',
 		tier: 'T2',
 		value: 200,
+		type: 'tape',
 		source: {
 			'LS-1': '固定',
 			'LS-2': '固定',
@@ -579,6 +621,7 @@ const CHIPS = [
 		name: '芯片助剂',
 		pinyin: 'xin pian zhu ji',
 		tier: 'T4',
+		type: 'chip',
 		source: {},
 		formula: {},
 	},
@@ -587,6 +630,7 @@ const CHIPS = [
 		name: '先锋双芯片',
 		pinyin: 'xian feng shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-1': 2,
@@ -598,6 +642,7 @@ const CHIPS = [
 		name: '先锋芯片组',
 		pinyin: 'xian feng xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-C-2': '中概率',
 		},
@@ -608,6 +653,7 @@ const CHIPS = [
 		name: '先锋芯片',
 		pinyin: 'xian feng xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-C-1': '中概率',
 		},
@@ -618,6 +664,7 @@ const CHIPS = [
 		name: '近卫双芯片',
 		pinyin: 'jin wei shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-2': 2,
@@ -629,6 +676,7 @@ const CHIPS = [
 		name: '近卫芯片组',
 		pinyin: 'jin wei xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-D-2': '中概率',
 		},
@@ -639,6 +687,7 @@ const CHIPS = [
 		name: '近卫芯片',
 		pinyin: 'jin wei xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-D-1': '中概率',
 		},
@@ -649,6 +698,7 @@ const CHIPS = [
 		name: '重装双芯片',
 		pinyin: 'zhong zhuang shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-3': 2,
@@ -660,6 +710,7 @@ const CHIPS = [
 		name: '重装芯片组',
 		pinyin: 'zhong zhuang xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-A-2': '中概率',
 		},
@@ -670,6 +721,7 @@ const CHIPS = [
 		name: '重装芯片',
 		pinyin: 'zhong zhuang xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-A-1': '中概率',
 		},
@@ -680,6 +732,7 @@ const CHIPS = [
 		name: '狙击双芯片',
 		pinyin: 'ju ji shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-4': 2,
@@ -691,6 +744,7 @@ const CHIPS = [
 		name: '狙击芯片组',
 		pinyin: 'ju ji xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-B-2': '中概率',
 		},
@@ -701,6 +755,7 @@ const CHIPS = [
 		name: '狙击芯片',
 		pinyin: 'ju ji xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-B-1': '中概率',
 		},
@@ -711,6 +766,7 @@ const CHIPS = [
 		name: '术师双芯片',
 		pinyin: 'shu shi shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-5': 2,
@@ -722,6 +778,7 @@ const CHIPS = [
 		name: '术师芯片组',
 		pinyin: 'shu shi xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-B-2': '中概率',
 		},
@@ -732,6 +789,7 @@ const CHIPS = [
 		name: '术师芯片',
 		pinyin: 'shu shi xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-B-1': '中概率',
 		},
@@ -742,6 +800,7 @@ const CHIPS = [
 		name: '医疗双芯片',
 		pinyin: 'yi liao shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-6': 2,
@@ -753,6 +812,7 @@ const CHIPS = [
 		name: '医疗芯片组',
 		pinyin: 'yi liao xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-A-2': '中概率',
 		},
@@ -763,6 +823,7 @@ const CHIPS = [
 		name: '医疗芯片',
 		pinyin: 'yi liao xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-A-1': '中概率',
 		},
@@ -773,6 +834,7 @@ const CHIPS = [
 		name: '辅助双芯片',
 		pinyin: 'fu zhu shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-7': 2,
@@ -784,6 +846,7 @@ const CHIPS = [
 		name: '辅助芯片组',
 		pinyin: 'fu zhu xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-C-2': '中概率',
 		},
@@ -795,6 +858,7 @@ const CHIPS = [
 		name: '辅助芯片',
 		pinyin: 'fu zhu xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-C-1': '中概率',
 		},
@@ -805,6 +869,7 @@ const CHIPS = [
 		name: '特种双芯片',
 		pinyin: 'te zhong shuang xin pian',
 		tier: 'T5',
+		type: 'chip',
 		source: {},
 		formula: {
 			'C-4-8': 2,
@@ -816,6 +881,7 @@ const CHIPS = [
 		name: '特种芯片组',
 		pinyin: 'te zhong xin pian zu',
 		tier: 'T4',
+		type: 'chip',
 		source: {
 			'PR-D-2': '中概率',
 		},
@@ -826,6 +892,7 @@ const CHIPS = [
 		name: '特种芯片',
 		pinyin: 'te zhong xin pian',
 		tier: 'T3',
+		type: 'chip',
 		source: {
 			'PR-D-1': '中概率',
 		},
@@ -850,6 +917,7 @@ const MONEY = {
 	id: 'G-4-1',
 	name: '龙门币',
 	tier: 'T4',
+	type: 'money',
 	source: {
 		'CE-1': '固定[1700]',
 		'CE-2': '固定[2800]',
@@ -864,6 +932,7 @@ const EXP = {
 	id: 'EO-4-1',
 	name: '经验值',
 	tier: 'T4',
+	type: 'exp',
 	source: {},
 	formula: {},
 };

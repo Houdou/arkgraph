@@ -144,3 +144,15 @@
 		text-align: center;
 	}
 }
+
+@media screen and (max-width: 1200px) {
+	.header h1 {
+		font-size: 16px;
+	}
+	.header nav {
+		font-size: 12px;
+	}
+	.header nav a {
+		padding: 0 5px;
+	}
+}

@@ -1,5 +1,5 @@
 import exp from './exp.json';
-import { MONEY, EXP_TAPES } from './Resources';
+import { MONEY, EXP, EXP_TAPES } from './Resources';
 
 const sumTapeRequirements = (required_exp) => {
 	const summary = [];
@@ -49,6 +49,10 @@ const sumLevelUpRequirements = (rarity, elite_rank, current, target) => {
 			sum_exp += exp.upgradeExpRequirement[elite_rank][i];
 		}
 		summary.push(...sumTapeRequirements(sum_exp));
+		summary.push({
+			resource: EXP.id,
+			quantity: sum_exp,
+		});
 
 		return summary;
 	} catch (err) {

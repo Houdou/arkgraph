@@ -6,6 +6,8 @@ export const STORAGE_VERSION =  '1.3.3';
 const default_config = {
 	showAllResources: false,
 	showFocusMaterials: true,
+	showFilter: false,
+	filters: [],
 	showExp: false,
 };
 
@@ -17,6 +19,10 @@ const reducer = (state, action) => {
 				...state,
 				showAllResources: action.payload,
 			};
+
+			if (action.payload) {
+				newState.filters = [];
+			}
 			break;
 		}
 		case 'config.toggleShowFocusMaterials': {
@@ -24,6 +30,24 @@ const reducer = (state, action) => {
 				...state,
 				showFocusMaterials: action.payload,
 			};
+			break;
+		}
+		case 'config.toggleShowFilter': {
+			newState = {
+				...state,
+				showFilter: action.payload,
+			};
+			break;
+		}
+		case 'config.setFilters': {
+			newState = {
+				...state,
+				filters: [...action.payload],
+			};
+
+			if ((action.payload || []).length > 0) {
+				newState.showAllResources = false;
+			}
 			break;
 		}
 		case 'config.toggleShowExp': {
@@ -38,8 +62,14 @@ const reducer = (state, action) => {
 			try {
 				if (json) {
 					const loaded = JSON.parse(json);
-					if (typeof loaded !== 'object')
+					if (typeof loaded !== 'object') {
 						throw new Error('Failed to load save');
+					}
+
+					// Patch any => v1.4.0
+					if (!loaded.filters) {
+						loaded.filters = [];
+					}
 
 					return loaded;
 				}
@@ -86,6 +116,20 @@ const useData = () => {
 		});
 	};
 
+	const toggleShowFilter = (toggle) => {
+		dispatch({
+			type: 'config.toggleShowFilter',
+			payload: toggle,
+		});
+	};
+
+	const setFilters = (filters) => {
+		dispatch({
+			type: 'config.setFilters',
+			payload: filters,
+		});
+	};
+
 	const toggleShowExp = (toggle) => {
 		dispatch({
 			type: 'config.toggleShowExp',
@@ -99,6 +143,8 @@ const useData = () => {
 		load,
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
+		toggleShowFilter,
+		setFilters,
 		toggleShowExp,
 	};
 };
