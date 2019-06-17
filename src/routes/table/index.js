@@ -14,7 +14,7 @@ import ArkFilterSettings from './sections/FilterSettings';
 
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
-import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+import { MONEY, EXP, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
 	{ name: '移除' },
@@ -24,6 +24,7 @@ const header_list = [
 	{ name: '现等级' },
 	{ name: '下一等级' },
 	MONEY,
+	EXP,
 	...EXP_TAPES,
 	...MATERIALS,
 	...SKILL_BOOKS,
@@ -33,6 +34,9 @@ const header_list = [
 const ArkTable = ({
 	config,
 	data,
+	toggleShowFilter,
+	setFilters,
+	clearFilters,
 }) => {
 	const {
 		state: { records, stock, focus_materials, compound_materials },
@@ -62,21 +66,35 @@ const ArkTable = ({
 		Boolean(record.requirements) &&
 		record.requirements.length > 0 &&
 		record.requirements
-			.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)
+			.every(({ resource, quantity }) => resource === EXP.id || stock[resource] && stock[resource] >= quantity)
 	);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
 	const header_skip = 6;
 
+	const {
+		showFilter,
+		filters,
+	} = config;
+
+	const material_filter = material => filters.every(
+		filter => Boolean(material[filter.field] && filter.flags[material[filter.field]])
+	);
+
 	const resources_filter = (index) => {
 		const is_prefix = index < header_skip;
 		const is_in_range = index < header_list.length;
 		const is_item_presented = config.showAllResources
-			|| presented_materials.includes(header_list[index].id)
-			|| presented_materials.length === 0;
+			|| presented_materials.length === 0
+			|| presented_materials.includes(header_list[index].id);
 
-		return is_in_range && (is_prefix || is_item_presented);
+		const is_filtered = is_prefix || material_filter(header_list[index]);
+
+		return is_in_range
+			&& (is_prefix || is_item_presented || filters.length > 0)
+			&& (config.showAllResources || filters.length === 0 || is_filtered);
 	};
+
 
 	const global_props = {
 		config,
@@ -141,7 +159,15 @@ const ArkTable = ({
 				compoundMaterial={compoundMaterial}
 				{...global_props}
 			/>
-			<ArkFilterSettings />
+			{
+				showFilter && (
+					<ArkFilterSettings
+						toggleShowFilter={toggleShowFilter}
+						setFilters={setFilters}
+						filters={filters}
+					/>
+				)
+			}
 		</div>
 	);
 };

@@ -1,7 +1,7 @@
 import { useReducer } from 'preact/hooks';
 
 import Upgrade from './Upgrade';
-import { RESOURCES } from './Resources';
+import { RESOURCES, MATERIALS, EXP } from './Resources';
 import processRecord from './processRecord';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Save';
@@ -11,7 +11,9 @@ const default_state = {
 	records: [],
 	stock: {},
 	focus_materials: [],
-	compound_materials: [],
+	compound_materials: MATERIALS
+		.filter(m => ['T5', 'T4'].includes(m.tier))
+		.map(m => ({ id: m.id, options: {} })),
 };
 
 const save = (key, state) => {
@@ -51,8 +53,9 @@ const reducer = (state, action) => {
 			const records = [...state.records];
 			const stock = { ...state.stock };
 
-			if (requirements.every(({ resource, quantity }) => stock[resource] && stock[resource] >= quantity)) {
+			if (requirements.every(({ resource, quantity }) => resource === EXP.id || stock[resource] && stock[resource] >= quantity)) {
 				requirements.forEach(({ resource, quantity }) => {
+					if (resource === EXP.id) return true;
 					stock[resource] = (stock[resource] || 0) - quantity;
 				});
 				records.splice(action.payload, 1);

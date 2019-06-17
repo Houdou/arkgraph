@@ -17,6 +17,7 @@
   flex-flow: row;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 .wrapper {
@@ -82,6 +83,13 @@
   position: relative;
   overflow: hidden;
 }
+.setting_option span {
+  z-index: 999;
+}
+.setting_option_hidden {
+  opacity: 0;
+}
+
 .setting_option:nth-of-type(4n) {
   margin-right: 0;
 }
@@ -114,12 +122,80 @@
 	background-color: #FFF2BE;
 }
 
+.setting_option_type:after {
+  content: '';
+  position: absolute;
+  height: 120%;
+  width: 44px;
+  left: -8px;
+  top: -4px;
+  background-size: cover;
+  opacity: 0.3;
+  transition: opacity 0.4s ease;
+}
+
+.setting_option_type_stone.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-1.png');
+}
+.setting_option_type_device.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-2.png');
+}
+.setting_option_type_ester.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-3.png');
+}
+.setting_option_type_sugar.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-4.png');
+}
+.setting_option_type_iron.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-5.png');
+}
+.setting_option_type_ketone.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-6.png');
+}
+.setting_option_type_alcohol.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-7.png');
+}
+.setting_option_type_manganese.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-8.png');
+}
+.setting_option_type_grind.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-9.png');
+}
+.setting_option_type_rma.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-10.png');
+}
+.setting_option_type_rare.setting_option_type:after {
+  background-image: url('/assets/materials/M-5-1.png');
+}
+.setting_option_type_chip.setting_option_type:after {
+  background-image: url('/assets/materials/C-5-1.png');
+}
+.setting_option_type_money.setting_option_type:after {
+  background-image: url('/assets/materials/G-4-1.png');
+}
+.setting_option_type_exp.setting_option_type:after {
+  background-image: url('/assets/materials/EO-4-1.png');
+}
+.setting_option_type_tape.setting_option_type:after {
+  background-image: url('/assets/materials/E-5-1.png');
+}
+.setting_option_type_skill.setting_option_type:after {
+  background-image: url('/assets/materials/S-4-1.png');
+}
+.setting_option_type_others.setting_option_type:after {
+  background-image: url('/assets/materials/G-4-1.png');
+}
+
 .setting_option_active {
   background-color: #0076A8;
   max-height: 26px;
   padding-bottom: 4px;
   margin-bottom: 6px;
 }
+.setting_option_active.setting_option_type:after {
+  opacity: 0.6;
+}
+
 
 .setting_button {
   padding: 4px 8px;
@@ -155,5 +231,9 @@
 
   .setting_button_close {
     margin-right: 16px;
+  }
+
+  .setting_option_type:after {
+    width: 52px;
   }
 }
