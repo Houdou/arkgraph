@@ -114,24 +114,42 @@ const ArkOperatorTable = ({
 		}
 	}
 
-	const setMaxAttribuite = (elite_rank) => {
+	const setMaxAttribute = (elite_rank, is_target = true) => {
+		const attr = is_target ? 'target' : 'current';
 		if (operator) {
 			setOperatorUpgrade({
 				...operatorUpgrade,
 				operator: operator_name,
-				current_elite: elite_rank < current_elite ? elite_rank : current_elite,
-				target_elite: elite_rank,
-				target_level: exp.maxLevel[operator.rarity][elite_rank],
-				target_all_skill: elite_rank === 0 ? 4 : 7,
-				target_master_skill_1:
+				current_elite: is_target ? Math.min(elite_rank, current_elite) : elite_rank,
+				target_elite: is_target ? elite_rank : Math.max(elite_rank, target_elite),
+				[`${attr}_level`]: exp.maxLevel[operator.rarity][elite_rank],
+				[`${attr}_all_skill`]: elite_rank === 0 ? 4 : 7,
+				[`${attr}_master_skill_1`]:
 					elite_rank === 2 && !unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1)
 						? 3 : 0,
-				target_master_skill_2:
+				[`${attr}_master_skill_2`]:
 					elite_rank === 2 && !unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
 						? 3 : 0,
-				target_master_skill_3:
+				[`${attr}_master_skill_3`]:
 					elite_rank === 2 && !unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
 						? 3 : 0,
+			});
+		}
+	};
+
+	const setMinAttribute = (elite_rank, is_target = true) => {
+		const attr = is_target ? 'target' : 'current';
+		if (operator) {
+			setOperatorUpgrade({
+				...operatorUpgrade,
+				operator: operator_name,
+				current_elite: is_target ? Math.min(elite_rank, current_elite) : current_elite,
+				target_elite: is_target ? elite_rank : Math.max(elite_rank, target_elite),
+				[`${attr}_level`]: 1,
+				[`${attr}_all_skill`]: 1,
+				[`${attr}_master_skill_1`]: 0,
+				[`${attr}_master_skill_2`]: 0,
+				[`${attr}_master_skill_3`]: 0,
 			});
 		}
 	};
@@ -246,17 +264,50 @@ const ArkOperatorTable = ({
 							<span>快捷选项</span>
 							<div
 								class={style.max_attribute}
-								onClick={e => setMaxAttribuite(0)}
+								onClick={e => setMaxAttribute(0, true)}
+								onContextMenu={e => {
+									e.preventDefault();
+									setMaxAttribute(0, false);
+								}}
 							>无精英满级满技能</div>
 							<div
 								class={style.max_attribute}
-								onClick={e => setMaxAttribuite(1)}
+								onClick={e => setMaxAttribute(1, true)}
+								onContextMenu={e => {
+									e.preventDefault();
+									setMaxAttribute(1, false);
+								}}
 							>精英1满级满技能</div>
 							{operator && operator.rarity >= 3 && (
 								<div
 									class={style.max_attribute}
-									onClick={e => setMaxAttribuite(2)}
+									onClick={e => setMaxAttribute(2, true)}
+									onContextMenu={e => {
+										e.preventDefault();
+										setMaxAttribute(2, false);
+									}}
 								>精英2满级满技能</div>
+							)}
+						</div>
+						<div class={style.actions}>
+							<span  />
+							<div
+								class={style.max_attribute}
+								onClick={e => setMinAttribute(1, true)}
+								onContextMenu={e => {
+									e.preventDefault();
+									setMinAttribute(1, false);
+								}}
+							>精英1</div>
+							{operator && operator.rarity >= 3 && (
+								<div
+									class={style.max_attribute}
+									onClick={e => setMinAttribute(2, true)}
+									onContextMenu={e => {
+										e.preventDefault();
+										setMinAttribute(2, false);
+									}}
+								>精英2</div>
 							)}
 						</div>
 					</div>
