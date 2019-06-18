@@ -3,6 +3,7 @@ import style from './style';
 import cn from 'classnames';
 
 import { RESOURCES } from '../../../../models/Resources';
+import getShortageFocusMaterials from '../../../../models/getShortageFocusMaterials';
 import ArkMaterialCard from '../../../../components/materialCard';
 
 const ArkFocusMaterials = ({
@@ -10,6 +11,7 @@ const ArkFocusMaterials = ({
 	focus_materials,
 	toggleFocusMaterial,
 	addFocusMaterials,
+	setFocusMaterials,
 	clearFocusMaterials,
 	compound_materials,
 	toggleCompoundMaterial,
@@ -30,12 +32,24 @@ const ArkFocusMaterials = ({
 		)}
 		>
 			<h2>追踪材料</h2>
-			<div
-				class={cn(style.clear, {
-					[style.show_clear]: material_groups.length !== 0 && config.showFocusMaterials,
-				})}
-				onClick={e => clearFocusMaterials(e)}
-			/>
+			{
+				config.showFocusMaterials && material_groups.length !== 0 && (
+					<div
+						class={style.clear}
+						onClick={e => clearFocusMaterials(e)}
+					/>
+				)
+			}
+			{
+				config.showFocusMaterials && material_groups.length === 0 && (
+					<div
+						class={style.auto}
+						onClick={e => setFocusMaterials(getShortageFocusMaterials(shortage))}
+					>
+						<span>智能添加</span>
+					</div>
+				)
+			}
 			<div class={style.scroll}>
 				<div class={style.materials}>
 					{
@@ -61,7 +75,7 @@ const ArkFocusMaterials = ({
 					}
 					{
 						material_groups.length === 0 && (
-							<div class={style.hint}><h3>点击表头材料图标添加追踪</h3></div>
+							<div class={style.hint}><h3>点击表头材料图标或【＋】添加追踪</h3></div>
 						)
 					}
 				</div>

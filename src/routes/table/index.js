@@ -50,6 +50,7 @@ const ArkTable = ({
 		adjustStockItem,
 		toggleFocusMaterial,
 		addFocusMaterials,
+		setFocusMaterials,
 		clearFocusMaterials,
 		toggleCompoundMaterial,
 		compoundMaterial,
@@ -154,6 +155,7 @@ const ArkTable = ({
 				adjustStockItem={adjustStockItem}
 				toggleFocusMaterial={toggleFocusMaterial}
 				addFocusMaterials={addFocusMaterials}
+				setFocusMaterials={setFocusMaterials}
 				clearFocusMaterials={clearFocusMaterials}
 				toggleCompoundMaterial={toggleCompoundMaterial}
 				compoundMaterial={compoundMaterial}

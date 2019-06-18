@@ -52,26 +52,33 @@
   background: transparent;
 }
 
-.clear {
+.clear, .auto {
   position: absolute;
-  right: 30px;
-  bottom: 40px;
-  height: 36px;
-  width: 72px;
   background-color: #111;
   box-shadow: 0px 2px 3px rgba(24, 24, 24, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
-  transition: transform 0.4s ease, opacity 0.4s ease;
+  transition: transform 0.4s ease;
   transform: translate(0px, 2px);
   z-index: 9999;
 }
-.clear:hover {
+.clear {
+  right: 30px;
+  bottom: 40px;
+  height: 36px;
+  width: 72px;
+}
+.auto {
+  right: 20px;
+  top: 20px;
+  height: 36px;
+  width: 72px;
+}
+.clear:hover, .auto:hover {
   transform: translate(0px, 0px);
 }
-.clear:before, .clear:after {
+.clear:before, .clear:after, .auto:before, .auto:after {
   position: absolute;
   content: '';
   width: 3px;
@@ -79,14 +86,17 @@
   background-color: #CCC;
   transition: transform 0.3s ease 0.1s, background-color 0.3s ease 0.1s;
 }
+.auto span {
+  color: #CCC;
+  font-size: 12px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
 .clear:before {
   transform: rotate(45deg);
 }
 .clear:after {
   transform: rotate(-45deg);
-}
-.clear:hover:before, .clear:hover:after {
-  background-color: #CCC;
 }
 .clear:hover:before {
   transform: rotate(270deg);
@@ -94,8 +104,24 @@
 .clear:hover:after {
   transform: rotate(-90deg);
 }
-.show_clear {
+.auto:before {
+  transform: rotate(0deg);
+}
+.auto:after {
+  transform: rotate(-90deg);
+}
+.auto:hover:before {
+  transform: translate(28px, 0px) rotate(180deg);
+}
+.auto:hover:after {
+  transform: translate(-28px, 0px) rotate(180deg);
+}
+.auto:hover span {
   opacity: 1;
+}
+.clear:hover:before, .clear:hover:after,
+.auto:hover:before, .auto:hover:after {
+  background-color: #CCC;
 }
 
 .materials {
@@ -129,7 +155,7 @@
     left: 8px;
     top: -28px;
   }
-  .clear {
+  .clear, .auto {
     transform: scale(0.8);
     right: 8px;
   }

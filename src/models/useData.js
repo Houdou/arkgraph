@@ -137,6 +137,13 @@ const reducer = (state, action) => {
 			}
 			break;
 		}
+		case 'data.setFocusMaterials': {
+			newState = {
+				...state,
+				focus_materials: [...action.payload],
+			};
+			break;
+		}
 		case 'data.clearFocusMaterials':
 			newState = {
 				...state,
@@ -311,6 +318,13 @@ const useData = () => {
 		});
 	};
 
+	const setFocusMaterials = (materials = []) => {
+		dispatch({
+			type: 'data.setFocusMaterials',
+			payload: materials,
+		});
+	};
+
 	const clearFocusMaterials = () => {
 		dispatch({
 			type: 'data.clearFocusMaterials',
@@ -346,6 +360,7 @@ const useData = () => {
 		setStockBulk,
 		toggleFocusMaterial,
 		addFocusMaterials,
+		setFocusMaterials,
 		clearFocusMaterials,
 		toggleCompoundMaterial,
 		compoundMaterial,
