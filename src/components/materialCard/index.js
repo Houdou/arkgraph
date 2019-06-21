@@ -5,6 +5,7 @@ import { RESOURCES } from '../../models/Resources';
 
 import ArkItem from '../item';
 import ArkLevelInfo from '../levelInfo';
+import PenguinLink from '../penguinLink';
 
 const parseQuantity = (quantity) => {
 	if (quantity > 10000) {
@@ -20,6 +21,7 @@ const ArkMaterialCard = ({
 	card_index,
 	stock,
 	adjustStockItem,
+	drops,
 	summary,
 	shortage,
 	toggleFocusMaterial,
@@ -35,6 +37,8 @@ const ArkMaterialCard = ({
 	const summary_amount = parseQuantity(summary[id] || 0);
 	const shortage_amount = parseQuantity(shortage[id] || 0);
 	const can_compound = Object.keys(material.formula).length > 0;
+
+	const item_drops = drops.filter(({ itemId }) => itemId === String(material.unique_id));
 
 	return (
 		<div class={style.wrapper}>
@@ -66,7 +70,9 @@ const ArkMaterialCard = ({
 					</div>
 					<div class={cn(style.description, style.line)}>
 						<div class={style.section}>
-							<span class={style.black}>{material.name}</span>
+							<span class={style.black}>
+								<a href={`/materials/${material.id}`}>{material.name}</a>
+							</span>
 						</div>
 						{
 							summary_amount !== 0 && (
@@ -97,13 +103,21 @@ const ArkMaterialCard = ({
 					<div class={style.tag_hr}>
 						<span class={cn(style.grey, style.tag)}>关卡掉落</span>
 						<span class={style.hr} />
+						{
+							false && (
+								<span class={cn(style.grey, style.tag_right)}>
+									<PenguinLink category="item" id={material.unique_id} render="掉率查询" />
+								</span>
+							)
+						}
 					</div>
-					<div class={style.source}>
+					<div class={cn(style.source, 'drop_source')}>
 						{
 							Object.entries(material.source).map(([k,v]) => (
 								<ArkLevelInfo
 									level={k}
 									drop_probability={v}
+									drops={item_drops}
 								/>
 							))
 						}

@@ -20,6 +20,7 @@ const ArkFocusMaterials = ({
 	adjustStockItem,
 	summary,
 	shortage,
+	drops,
 }) => {
 	const material_groups = focus_materials
 		.filter(({ id: material_id, options }) => RESOURCES[material_id] && options && !options.hidden);
@@ -69,6 +70,7 @@ const ArkFocusMaterials = ({
 								compounded={compound_materials.some(({ id }) => id === material_id)}
 								toggleCompoundMaterial={toggleCompoundMaterial}
 								compoundMaterial={compoundMaterial}
+								drops={drops}
 								{...options}
 							/>
 						))

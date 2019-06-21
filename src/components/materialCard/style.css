@@ -77,12 +77,16 @@
   justify-content: space-between;
   align-items: center;
 }
-.tag_hr .tag {
+.tag_hr .tag, .tag_hr .tag_right {
   position: absolute;
+  height: 18px;
   color: #DDD;
   font-size: 11px;
   border-radius: 3px;
   transition: color 0.4s ease, background-color 0.4s ease;
+}
+.tag_right {
+  right: 12px;
 }
 .tag_hr .hr {
   width: 100%;

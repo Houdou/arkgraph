@@ -1,0 +1,23 @@
+.penguin_span {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img.icon {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.penguin_link {
+  margin-left: 3px;
+}
+.grey.penguin_link {
+  color: #EEE;
+}
+.white.penguin_link {
+  color: #333;
+}
