@@ -26,6 +26,8 @@ const aggregateMaterialRequirement = () => {
 				material_requirements[resource].operator = material_requirements[resource].operator || [];
 				material_requirements[resource].operator.push({
 					operator: operator.name,
+					profession: operator.profession,
+					rarity: operator.rarity,
 					attribute: ATTRIBUTES.SKILL_LEVEL,
 					current: index + 1,
 					target: index + 2,
@@ -39,6 +41,8 @@ const aggregateMaterialRequirement = () => {
 				material_requirements[resource].operator = material_requirements[resource].operator || [];
 				material_requirements[resource].operator.push({
 					operator: operator.name,
+					profession: operator.profession,
+					rarity: operator.rarity,
 					attribute: ATTRIBUTES.ELITE_RANK,
 					current: index,
 					target: index + 1,
@@ -53,7 +57,10 @@ const aggregateMaterialRequirement = () => {
 					material_requirements[resource].operator = material_requirements[resource].operator || [];
 					material_requirements[resource].operator.push({
 						operator: operator.name,
+						profession: operator.profession,
+						rarity: operator.rarity,
 						attribute: ATTRIBUTES[`MASTER_SKILL_${skill_index + 1}`],
+						render: operator.skill_names[skill_index],
 						current: level,
 						target: level + 1,
 						quantity,

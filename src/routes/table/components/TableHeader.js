@@ -41,6 +41,7 @@ const ArkTableHeader = ({
 						.map(e => ArkIconCell(e)),
 				]
 			}
+			disable_hover
 			resources_filter={resources_filter}
 			icons_header
 			header

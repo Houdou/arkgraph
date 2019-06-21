@@ -35,6 +35,7 @@ const header_list = [
 const ArkTable = ({
 	config,
 	data,
+	drops,
 	toggleShowFilter,
 	setFilters,
 	clearFilters,
@@ -97,15 +98,7 @@ const ArkTable = ({
 			&& (config.showAllResources || filters.length === 0 || is_filtered);
 	};
 
-
-	const global_props = {
-		config,
-		stock,
-		summary,
-		shortage,
-		focus_materials,
-		compound_materials,
-		records,
+	const filter_props = {
 		header_list,
 		header_skip,
 		resources_filter,
@@ -121,16 +114,24 @@ const ArkTable = ({
 			)}
 			>
 				<ArkTableHeader
+					config={config}
+					focus_materials={focus_materials}
 					toggleFocusMaterial={toggleFocusMaterial}
-					{...global_props}
+					{...filter_props}
 				/>
 				<ArkStockRow
 					stock={stock}
 					setStockItem={setStockItem}
-					{...global_props}
+					{...filter_props}
 				/>
-				<ArkShortageRow shortage={shortage} {...global_props} />
-				<ArkSummaryRow summary={summary} {...global_props} />
+				<ArkShortageRow
+					shortage={shortage}
+					{...filter_props}
+				/>
+				<ArkSummaryRow
+					summary={summary}
+					{...filter_props}
+				/>
 				{
 					records && records.map((record, index) => (
 						<ArkUpgradeInputRow
@@ -141,33 +142,40 @@ const ArkTable = ({
 							remove={removeRow}
 							complete={completeRow}
 							fulfilled={fulfilled_records[index]}
-							{...global_props}
+							{...filter_props}
 						/>
 					))
 				}
 				<ArkNewUpgradeRow
 					addEmptyRow={addEmptyRow}
 					addLastRow={addLastRow}
-					{...global_props}
+					{...filter_props}
 				/>
 			</div>
 			<ArkFocusMaterials
-				stock={stock}
-				adjustStockItem={adjustStockItem}
+				config={config}
+				focus_materials={focus_materials}
 				toggleFocusMaterial={toggleFocusMaterial}
 				addFocusMaterials={addFocusMaterials}
 				setFocusMaterials={setFocusMaterials}
 				clearFocusMaterials={clearFocusMaterials}
+				compound_materials={compound_materials}
 				toggleCompoundMaterial={toggleCompoundMaterial}
 				compoundMaterial={compoundMaterial}
-				{...global_props}
+				stock={stock}
+				adjustStockItem={adjustStockItem}
+				summary={summary}
+				shortage={shortage}
+				drops={drops}
 			/>
 			{
 				showFilter && (
 					<ArkFilterSettings
+						addEmptyRow={addEmptyRow}
+						addLastRow={addLastRow}
+						filters={filters}
 						toggleShowFilter={toggleShowFilter}
 						setFilters={setFilters}
-						filters={filters}
 					/>
 				)
 			}

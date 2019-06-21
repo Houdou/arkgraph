@@ -7,7 +7,6 @@ import ArkCell from '../../../components/cell';
 import { EXP, EXP_TAPES } from '../../../models/Resources';
 
 const ArkStockRow = ({
-	record,
 	stock,
 	setStockItem,
 	header_list,

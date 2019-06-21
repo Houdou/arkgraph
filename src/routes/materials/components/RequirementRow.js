@@ -17,24 +17,12 @@ const ArkRequirementRow = ({
 	const {
 		operator,
 		attribute,
+		render,
 		current,
 		target,
 	} = init_record;
 
 	const { requirements } = processRecord(init_record);
-
-	const StockIndicator = (props) => (
-		<ArkCell fullheight>
-			{false && (
-				<img
-					src="../../../assets/icons/tick_invert.png" alt="tick"
-					style={{
-						height: '20px',
-					}}
-				/>
-			)}
-		</ArkCell>
-	);
 
 	const RequirementItems = (props) => (
 		<ArkCell
@@ -74,16 +62,12 @@ const ArkRequirementRow = ({
 		</ArkCell>
 	);
 
-	// const attribute_render = skill_render_map[attribute] ? `${skill_render_map[attribute]}` : attribute;
-	// const attribute_long_text = attribute_render.length > 5;
-
 	return (
 		<ArkRow
 			cells={
 				[
-					StockIndicator,
 					{ content: operator, href: `/operator/${operator}` },
-					{ content: attribute },
+					{ content: render || attribute, long_text: (render || attribute).length > 4 },
 					{ content: current },
 					{ content: target },
 					RequirementItems,

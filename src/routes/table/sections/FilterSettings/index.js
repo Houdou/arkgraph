@@ -2,7 +2,7 @@ import React from 'preact';
 import style from './style';
 import cn from 'classnames';
 
-import useFilterSetting from './hooks/useFilterSetting';
+import useFilterSetting from '../../../../models/useFilterSetting';
 
 const resource_filter_options = [
 	{
@@ -41,11 +41,9 @@ const resource_filter_options = [
 ];
 
 const ArkFilterSettings = ({
-	record,
-	filters,
-	resources_filter,
 	addEmptyRow,
 	addLastRow,
+	filters,
 	toggleShowFilter,
 	setFilters,
 }) => {

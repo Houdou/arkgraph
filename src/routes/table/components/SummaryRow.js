@@ -3,7 +3,6 @@ import React from 'preact';
 import ArkRow from '../../../components/row';
 
 const ArkSummaryRow = ({
-	data,
 	summary,
 	header_list,
 	header_skip,
