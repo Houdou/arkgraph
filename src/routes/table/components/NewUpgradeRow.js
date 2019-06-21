@@ -5,10 +5,9 @@ import ArkButton from '../../../components/button';
 import ArkRow from '../../../components/row';
 
 const ArkNewUpgradeRow = ({
-	record,
-	resources_filter,
 	addEmptyRow,
 	addLastRow,
+	resources_filter,
 }) => {
 	const new_upgrade_input = (props) => (
 		<ArkCell force_no_shrink>

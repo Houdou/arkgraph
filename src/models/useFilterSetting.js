@@ -18,7 +18,7 @@ const useFilterSetting = ({ options, field }, initial_value = {}) => {
 	);
 
 	const getOption = () => {
-		if (setting.some(Boolean)) {
+		if (setting.length > 1 && setting.some(Boolean)) {
 			return setting;
 		}
 		return [...setting].map(e => true);
