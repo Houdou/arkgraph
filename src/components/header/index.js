@@ -17,15 +17,15 @@ const Header = ({
 		<div class={style.title}>
 			<h1>
 				<a href="./table">
-					<span class={style.deco}>:.:</span>  明日方舟 | 材料计算器
+					<span class={style.deco}>:.:</span>  明日方舟 | 干员培养表
 					<span class={style.version}>V{STORAGE_VERSION}</span>
 				</a>
 			</h1>
 			<nav>
 				<Link activeClassName={style.active} href="/">首页</Link>
-				<Link activeClassName={style.active} href="/table">计算器</Link>
-				<Link activeClassName={style.active} href="/operator">干员培养</Link>
-				<Link activeClassName={style.active} href="/materials">材料反查.β</Link>
+				<Link activeClassName={style.active} href="/table">培养表</Link>
+				<Link activeClassName={style.active} href="/operator">干员查询</Link>
+				<Link activeClassName={style.active} href="/materials">材料查询</Link>
 				<Link activeClassName={style.active} href="/backup">数据备份</Link>
 			</nav>
 		</div>
