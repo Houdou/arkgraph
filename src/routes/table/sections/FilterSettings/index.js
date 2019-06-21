@@ -20,7 +20,7 @@ const resource_filter_options = [
 		group: '材料种类',
 		field: 'type',
 		options: [
-			{ value: 'money', render: '龙门币' },
+			{ value: 'money', render: '货币' },
 			{ value: 'exp', render: '经验值' },
 			{ value: 'tape', render: '作战记录' },
 			{ value: 'rare', render: '高级' },
