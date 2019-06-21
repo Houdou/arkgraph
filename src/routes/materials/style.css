@@ -87,12 +87,13 @@
 	font-size: 16px;
 	font-weight: 400;
 	transition: background-color 0.3s ease;
+	border-radius: 1px;
 }
 .actions .max_attribute:active {
   background-color: #111;
 }
 
-.query, .filters, .table, .upgrades, .summary {
+.query, .formula, .filters, .table, .upgrades, .summary {
 	width: 860px;
 	min-width: 860px;
 	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
@@ -100,14 +101,19 @@
 }
 .filters {
 	margin-bottom: 20px;
-	display: none;
 }
 .filter_title {
 	min-width: 100px;
 }
 .filter_toggle {
+	color: #AAA;
 	min-width: 144px;
 }
+.filter_toggle.filter_toggle_active {
+	color: #EEE;
+	background-color: #111;
+}
+
 .filter_toggles {
 	display: flex;
 	justify-content: flex-start;
@@ -128,6 +134,11 @@
 	flex-wrap: wrap;
 }
 
+.formula {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
 .upgrades {
 	width: auto;
 	padding-right: 100px;
@@ -148,7 +159,7 @@
 .summary_cell > div {
 	min-width: 108px;
 }
-.requirement_cell, .compound_cell {
+.requirement_cell, .compound_cell, .formula_cell {
 	min-width: 80px;
 	height: 56px;
 	padding: 18px 0;
@@ -193,11 +204,15 @@
 		left: 8px;
 	}
 
-	.query, .filters, .table, .upgrades, .summary {
+	.query, .formula, .filters, .table, .upgrades, .summary {
 		padding: 8px;
 		width: 100%;
 		min-width: unset;
 		background: rgba(238, 238, 238, 0.07);
+	}
+
+	.filter_profession, .filter_rarity, .filter_attribute {
+		margin-bottom: 8px;
 	}
 
 	.upgrades {
