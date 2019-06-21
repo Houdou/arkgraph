@@ -14,7 +14,7 @@ import ArkFilterSettings from './sections/FilterSettings';
 
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
-import { MONEY, EXP, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+import { MONEY, PURCHASE_CREDIT, EXP, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
 	{ name: '移除' },
@@ -24,6 +24,7 @@ const header_list = [
 	{ name: '现等级' },
 	{ name: '下一等级' },
 	MONEY,
+	PURCHASE_CREDIT,
 	EXP,
 	...EXP_TAPES,
 	...MATERIALS,
