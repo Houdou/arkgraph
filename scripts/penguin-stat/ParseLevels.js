@@ -1,5 +1,5 @@
 const { RESOURCES } = require('../common/resources');
-const { stages } = require('./penguin_levels.json');
+const stages = require('./penguin_levels.json');
 
 const level_energy = {
 	'0-1': 6,
@@ -14,6 +14,7 @@ const level_energy = {
 	'0-10': 6,
 	'0-11': 6,
 	'1-1': 6,
+	'1-2': 0,
 	'1-3': 6,
 	'1-4': 6,
 	'1-5': 6,
@@ -22,6 +23,7 @@ const level_energy = {
 	'1-8': 9,
 	'1-9': 9,
 	'1-10': 9,
+	'1-11': 0,
 	'1-12': 9,
 	'2-1': 9,
 	'S2-1': 9,
@@ -97,6 +99,11 @@ const level_energy = {
 	'CE-3': 20,
 	'CE-4': 25,
 	'CE-5': 30,
+	'SK-1': 10,
+	'SK-2': 15,
+	'SK-3': 20,
+	'SK-4': 25,
+	'SK-5': 30,
 	'PR-A-1': 18,
 	'PR-B-1': 18,
 	'PR-C-1': 18,
@@ -130,9 +137,16 @@ const parseJson = (record) => {
 	const {
 		extraDrop,
 		code,
+		stageId,
 	} = record;
 
-	levels.find(l => l.level === code).extra_drop = extraDrop.map(item => mapExtraDrop(item)).filter(Boolean);
+	const level = levels.find(l => l.level === code);
+	if (!level) {
+		console.log(code);
+		if (code.startsWith('GT')) return;
+	}
+	level.extra_drop = extraDrop.map(item => mapExtraDrop(item)).filter(Boolean);
+	level.unique_id = stageId;
 };
 
 stages.forEach(parseJson);
@@ -170,7 +184,7 @@ Object.entries(RESOURCES).forEach(([k, v]) => {
 
 
 require('fs').writeFileSync(
-	require('path').resolve(__dirname, 'levels.json'),
+	require('path').resolve(__dirname, '../../src/models/levels.json'),
 	JSON.stringify(
 		levels,
 		null,

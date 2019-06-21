@@ -14,6 +14,8 @@ import ArkBackup from '../routes/backup';
 
 import useData from '../models/useData';
 
+import fetchStatMatrix from '../services/penguinstats';
+
 const App = (props) => {
 	const [currentUrl, setCurrentUrl] = useState('/');
 	const {
@@ -26,10 +28,15 @@ const App = (props) => {
 		setFilters,
 	} = useConfig();
 
+	const [drops, setDrops] = useState([]);
+
 	const data = useData();
 
 	useEffect(() => {
 		load();
+		fetchStatMatrix().then(matrix => {
+			setDrops(matrix);
+		});
 	}, []);
 
 	return (
@@ -49,6 +56,7 @@ const App = (props) => {
 					data={data}
 					toggleShowFilter={toggleShowFilter}
 					setFilters={setFilters}
+					drops={drops}
 				/>
 				<ArkOperator path="/operator/:operator_name?" config={config} data={data} />
 				<ArkMaterials path="/materials/:material_name?" config={config} data={data} />
