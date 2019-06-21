@@ -26,9 +26,9 @@ const Info = (props) => (
 				现在的使用量：<code>64G</code>（2019-06-17）<br />
 				<br />
 				<small>（小声）</small>在右边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
-				<span class={style.tip_link} href="">打赏/捐助二维码
+				<a class={style.tip_link} href="../../assets/tip.png">打赏/捐助二维码
 					<img class={style.tip} src="../../assets/tip.png" alt="reward_author" />
-				</span>
+				</a>
 			</p>
 			<hr />
 			<h2>关于项目</h2>
