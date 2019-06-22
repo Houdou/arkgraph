@@ -1,22 +1,88 @@
 import React from 'preact';
 import style from './style';
 
+import AutoPrint from './autoPrint';
+import ArkMaterialCard from '../../components/materialCard';
+
 const Info = (props) => (
 	<div class={style.wrapper}>
 		<div class={style.info}>
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
 			<hr />
 			<h2>公告</h2>
-			<p>2019-06-18</p>
+			<p>2019-06-22</p>
 			<p>
-				各位久等啦，最近有些忙，没有太多时间更新，所以筛选功能拖了一周<br />
-				基本上能够解决一些反馈中提到的列表太宽不方便查数据的问题<br />
-				右上角新增了【筛选材料】功能，可以用来…………筛选。。。<br />
-				筛选页面中，可以点击左侧标题勾选全部分类，再取消某个单独希望隐藏的类别<br />
-				可以点击【显示全部资源】来清除筛选条件<br />
-				移动端现在基本上是个可用水平，仍然建议使用电脑打开~<br />
-				下一步计划是和企鹅数据api的接入以及一些其他UX的优化~<del>继续画饼（</del><br />
+				<AutoPrint
+					data={[
+						['控制中枢更新中','','.','','.','','.','','.','','.','','.',''],
+						['1 更新可用：'],
+						['-',' ','与【企鹅物流数据统计】的神经连接已可用！'],
+						[''],
+						['正在尝试与Penguin-Stats.io建立神经连接'],
+						['========================================'],
+						['[0/3]校验递质浓度','.','','.','','.','','','正常'],
+						['[1/3]检查神经连接','.','.','.','','正常'],
+						['[2/3]接收反馈信息','.','.','.','0%','.','.','.','70%','.','.','.','完成'],
+						['','','[3/3]', '已建立神经连接.'],
+						['========================================'],
+						['','','','','',''],
+						['更新完成，请开启材料卡片查看掉落数据'],
+					]}
+					speed={200}
+					show={!props.showAnnouncementCodeOnce}
+					setShow={props.toggleShowAnnouncementCodeOnce}
+				/>
 			</p>
+			{
+				props.showAnnouncementCodeOnce && (
+					<p>
+						<a href="#" onClick={e => props.toggleShowAnnouncementCodeOnce(false)}>再一次再一次（</a><br /><br />
+						现在具体关卡掉率会显示在材料卡片底下了<br />
+						材料卡片中点击关卡名可以跳转到企鹅统计详细掉率页面<br />
+						数据来自于<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a><br />
+						<div style={{ marginTop: '20px', padding: '32px', textShadow: 'none', position: 'relative', userSelect: 'none' }}>
+							举个🌰:<br />
+							<ArkMaterialCard
+								key={'M-3-10'}
+								id={'M-3-10'}
+								card_index={0}
+								class={style.card}
+								stock={{ 'M-3-10': 2 }}
+								adjustStockItem={e => e}
+								summary={{ 'M-3-10': 5 }}
+								shortage={{ 'M-3-10': 3 }}
+								toggleFocusMaterial={e => e}
+								addFocusMaterials={e => e}
+								compound_materials={{}}
+								compounded={false}
+								toggleCompoundMaterial={e => e}
+								compoundMaterial={e => e}
+								drops={[
+									{ itemId: '30103', times: 2296, quantity: 650, stageId: 'main_02-10' },
+									{ itemId: '30103', times: 2554, quantity: 734, stageId: 'main_04-09' },
+								]}
+							/>
+							<div style={{
+								position: 'absolute',
+								left: '84px',
+								top: '200px',
+								backgroundColor: 'rgba(130, 60, 60, 0.2)',
+								width: '200px',
+								height: '56px',
+								zIndex: 9999,
+							}}
+							/>
+						</div>
+						<h2>项目现已改名【干员培养表】</h2><br />
+						现在的功能已经不止是材料计算器了，感觉更偏向于规划干员培养，管理材料库存<br />
+						改个名字，<del>增加品牌辨识度（</del><br />
+						<br />
+						另外，添加了芯片助剂→采购凭证的折算<br />
+						材料查询界面添加了干员和升级项目筛选功能<br />
+						下一步应该是优化一下库存管理的流程<br />
+					</p>
+				)
+			}
 			<hr />
 			<p>
 				<h2>关于访问量</h2>
@@ -37,6 +103,7 @@ const Info = (props) => (
 			<ul>
 				<li><a target="_blank" rel="noreferrer noopener" href="http://wiki.joyme.com/arknights/">明日方舟wiki</a></li>
 				<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
+				<li><a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a></li>
 			</ul>
 			<p>如果有各种建议或者意见，欢迎到帖子留言，提Issue或微博找我</p>
 			<p>NGA发布帖：<a target="_blank" rel="noreferrer noopener" href="https://bbs.nga.cn/read.php?tid=17417159">链接</a></p>
@@ -44,17 +111,24 @@ const Info = (props) => (
 	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 			<hr />
 			<h2>使用说明</h2>
-			<h3>干员培养</h3>
+			<h3>干员查询</h3>
 			<ul>
-				<li>点击【干员培养】切换页面</li>
+				<li>点击【干员查询】切换页面</li>
 				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例lapu，推推</li>
 				<li>选择干员目前等级以及培养目标，超出范围会自动修正</li>
 				<li>如果有前置要求（如技能专精：需要精2＋基础技能7级），也会自动修正</li>
-				<li>提供了三个快捷选项</li>
+				<li>提供了几个快捷选项方便选择</li>
 				<li>下方表格会自动查询所需材料并列出所有升级项目并汇总所有需求</li>
 				<li>如果库存数量满足升级需求，会在【可完成】列打一个小勾勾表示可以直接升级该项</li>
 			</ul>
-			<h3>需求计算器</h3>
+			<h3>材料查询</h3>
+			<ul>
+				<li>点击【材料查询】切换页面</li>
+				<li>输入材料名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例meng，纳米</li>
+				<li>可以通过干员职业，稀有度，升级项目来筛选</li>
+				<li>下方表格会自动显示所有需要这个材料的升级项目</li>
+			</ul>
+			<h3>干员培养表</h3>
 			<ul>
 				<li>点击表格左下角的<code>+</code>添加一行干员数据</li>
 				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>自动补全</li>
@@ -96,13 +170,14 @@ const Info = (props) => (
 				<li>升级经验计算</li>
 				<li>单个干员培养需求的批量添加</li>
 				<li>材料筛选显示</li>
+				<li>关联【企鹅物流数据统计】掉落概率</li>
+				<li>材料查询页面的筛选功能</li>
 			</ul>
 			<h3>待实现功能</h3>
 			<ul>
-				<li>材料反查页面的筛选功能</li>
-				<li>与<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a>合作，关联掉落概率数据</li>
-				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
+				<li>其他筛选选项</li>
 				<li>增加键盘快捷键</li>
+				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
 				<li>……</li>
 			</ul>
 			<h3>计划中功能</h3>
@@ -111,6 +186,13 @@ const Info = (props) => (
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.5.0</h3>
+			<ul>
+				<li>链接【企鹅物流数据统计】的掉落数据</li>
+				<li>增加了材料查询页面的筛选功能</li>
+				<li>增加了采购凭证</li>
+				<li>增加了一键追踪材料功能</li>
+			</ul>
 			<h3>V1.4.0</h3>
 			<ul>
 				<li>增加了材料筛选功能</li>

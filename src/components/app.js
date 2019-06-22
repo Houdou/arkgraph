@@ -25,6 +25,7 @@ const App = (props) => {
 		toggleShowFocusMaterials,
 		toggleShowFilter,
 		toggleShowExp,
+		toggleShowAnnouncementCodeOnce,
 		setFilters,
 	} = useConfig();
 
@@ -50,7 +51,11 @@ const App = (props) => {
 				toggleShowExp={toggleShowExp}
 			/>
 			<Router onChange={e => setCurrentUrl(e.url)}>
-				<ArkInfo path="/" />
+				<ArkInfo
+					path="/"
+					toggleShowAnnouncementCodeOnce={toggleShowAnnouncementCodeOnce}
+					showAnnouncementCodeOnce={config.showAnnouncementCodeOnce}
+				/>
 				<ArkTable path="/table"
 					config={config}
 					data={data}

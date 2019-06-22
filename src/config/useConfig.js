@@ -1,7 +1,7 @@
 import { useReducer } from 'preact/hooks';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Config';
-export const STORAGE_VERSION =  '1.4.0';
+export const STORAGE_VERSION =  '1.5.0';
 
 const default_config = {
 	showAllResources: false,
@@ -9,6 +9,7 @@ const default_config = {
 	showFilter: false,
 	filters: [],
 	showExp: false,
+	showAnnouncementCodeOnce: false,
 };
 
 const reducer = (state, action) => {
@@ -54,6 +55,13 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				showExp: action.payload,
+			};
+			break;
+		}
+		case 'config.toggleShowAnnouncementCodeOnce': {
+			newState = {
+				...state,
+				showAnnouncementCodeOnce: action.payload,
 			};
 			break;
 		}
@@ -137,6 +145,13 @@ const useData = () => {
 		});
 	};
 
+	const toggleShowAnnouncementCodeOnce = (toggle) => {
+		dispatch({
+			type: 'config.toggleShowAnnouncementCodeOnce',
+			payload: toggle,
+		});
+	};
+
 	return {
 		config: state,
 		dispatch,
@@ -146,6 +161,7 @@ const useData = () => {
 		toggleShowFilter,
 		setFilters,
 		toggleShowExp,
+		toggleShowAnnouncementCodeOnce,
 	};
 };
 
