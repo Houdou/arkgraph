@@ -90,7 +90,11 @@ const ArkMaterials = ({
 	}, []);
 
 	useEffect(() => {
-		const found_material = materials.find(({ id, name }) => name === material_query_param || id === material_query_param);
+		const found_material = materials.find(({ id, unique_id, name }) =>
+			name === material_query_param
+				|| id === material_query_param
+				|| String(unique_id) === material_query_param
+		);
 		if (found_material) {
 			setMaterialQuery(found_material.id);
 		}
