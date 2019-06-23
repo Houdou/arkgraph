@@ -9,7 +9,7 @@
     "start:development": "npm run -s dev",
     "build": "preact build --no-prerender --template src/template.html",
     "serve": "preact build --no-prerender && preact serve --port 3000",
-    "dev": "preact watch --port 3000",
+    "dev": "preact watch --port 3000 --template src/template.html",
     "lint": "eslint src"
   },
   "eslintConfig": {

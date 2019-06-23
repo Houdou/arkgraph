@@ -39,7 +39,7 @@ const ArkOperatorTable = ({
 	const {
 		operatorUpgrade,
 		setOperatorUpgrade,
-		setOperator,
+		setOperator: setOperator_raw,
 		setCurrentElite,
 		setTargetElite,
 		setCurrentLevel,
@@ -53,6 +53,20 @@ const ArkOperatorTable = ({
 		setCurrentMasterSkill_3,
 		setTargetMasterSkill_3,
 	} = useOperatorUpgrade(global.operator_upgrade);
+
+	const setOperator = (name) => {
+		if (name && typeof name === 'string') {
+			try {
+				global.ga('send', {
+					hitType: 'event',
+					eventCategory: 'operator',
+					eventAction: 'query',
+					eventLabel: name,
+				});
+			} catch (err) {}
+		}
+		setOperator_raw(name);
+	};
 
 	const {
 		operator: operator_name,

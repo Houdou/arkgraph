@@ -82,7 +82,21 @@ const ArkMaterials = ({
 		addRow,
 	} = data;
 
-	const [ material_query, setMaterialQuery ] = useState(null);
+	const [ material_query, setMaterialQuery_raw ] = useState(null);
+
+	const setMaterialQuery = (name) => {
+		if (name && typeof name === 'string') {
+			try {
+				global.ga('send', {
+					hitType: 'event',
+					eventCategory: 'material',
+					eventAction: 'query',
+					eventLabel: name,
+				});
+			} catch (err) {}
+		}
+		setMaterialQuery_raw(name);
+	};
 
 	useEffect(() => {
 		load();

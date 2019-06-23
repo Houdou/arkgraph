@@ -46,6 +46,8 @@ const ArkDataBackup = ({
 		}
 	};
 
+	const [last_tap_time, setLastTapTime] = useState(0);
+
 	return (
 		<div class={style.wrapper}>
 			<div class={style.info}>
@@ -65,8 +67,28 @@ const ArkDataBackup = ({
 						})}
 					/>
 					<div class={style.buttons}>
-						<span onClick={e => copyData(e)}>{copy_state}</span>
-						<span onClick={e => loadData(e)}>{load_state}</span>
+						<span onClick={e => {
+							try {
+								global.ga('send', {
+									hitType: 'event',
+									eventCategory: 'backup',
+									eventAction: 'export',
+								});
+							} catch (err) {}
+							copyData(e);
+						}}
+						>{copy_state}</span>
+						<span onClick={e => {
+							try {
+								global.ga('send', {
+									hitType: 'event',
+									eventCategory: 'backup',
+									eventAction: 'import',
+								});
+							} catch (err) {}
+							loadData(e);
+						}}
+						>{load_state}</span>
 					</div>
 				</div>
 				{
@@ -81,6 +103,15 @@ const ArkDataBackup = ({
 						window.localStorage.removeItem(CONFIG_STORAGE_KEY);
 						window.localStorage.removeItem(SAVE_STORAGE_KEY);
 						window.location.reload();
+					}}
+					onTouchStart={e => {
+						const tap_time = Date.now();
+						if (tap_time - last_tap_time < 500) {
+							window.localStorage.removeItem(CONFIG_STORAGE_KEY);
+							window.localStorage.removeItem(SAVE_STORAGE_KEY);
+							window.location.reload();
+						}
+						setLastTapTime(tap_time);
 					}}
 				>双击清除所有数据</div>
 			</div>

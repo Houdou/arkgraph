@@ -50,7 +50,12 @@ const App = (props) => {
 				toggleShowFilter={toggleShowFilter}
 				toggleShowExp={toggleShowExp}
 			/>
-			<Router onChange={e => setCurrentUrl(e.url)}>
+			<Router onChange={e => {
+				global.ga('set', 'page', e.url);
+				global.ga('send', 'pageview');
+				setCurrentUrl(e.url);
+			}}
+			>
 				<ArkInfo
 					path="/"
 					toggleShowAnnouncementCodeOnce={toggleShowAnnouncementCodeOnce}

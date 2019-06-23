@@ -36,7 +36,17 @@ const Info = (props) => (
 			{
 				props.showAnnouncementCodeOnce && (
 					<p>
-						<a href="#" onClick={e => props.toggleShowAnnouncementCodeOnce(false)}>再一次再一次（</a><br /><br />
+						<a href="#" onClick={e => {
+							try {
+								global.ga('send', {
+									hitType: 'event',
+									eventCategory: 'autoprint',
+									eventAction: 'replay',
+								});
+							} catch (err) {}
+							props.toggleShowAnnouncementCodeOnce(false);
+						}}
+						>再一次再一次（</a><br /><br />
 						现在具体关卡掉率会显示在材料卡片底下了<br />
 						材料卡片中点击关卡名可以跳转到企鹅统计详细掉率页面<br />
 						数据来自于<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a><br />
