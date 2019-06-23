@@ -74,3 +74,9 @@
   background: linear-gradient(to bottom, #890000 0%, #A90000 30%);
   color: #EEE;
 }
+
+@media screen and (max-width: 601px) {
+  h1, h3 {
+    margin: 0;
+  }
+}

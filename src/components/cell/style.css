@@ -126,11 +126,16 @@
 		margin-top: -12px;
 	}
 
-	.cell:not(.force_no_shrink) {
+	.cell:not(.force_no_shrink):not(.fullwidth) {
 		width: 60px;
 		min-width: 60px;
 	}
-	
+
+	.cell.long_text {
+		font-size: 10px;
+		white-space: normal;
+	}
+
 	.cell.mobile_long_text {
 	  font-size: 13px;
 		white-space: normal;

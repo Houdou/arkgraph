@@ -196,12 +196,16 @@
 	}
 
 	.section {
-		padding: 52px 0px 8px;
+		padding: 12px 0px 8px;
 		font-size: 12px;
 	}
 
 	.section_header {
-		left: 8px;
+		padding: 8px 20px;
+		position: relative;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
 	}
 
 	.query, .formula, .filters, .table, .upgrades, .summary {
@@ -213,6 +217,15 @@
 
 	.filter_profession, .filter_rarity, .filter_attribute {
 		margin-bottom: 8px;
+	}
+
+	.actions .filter_toggle {
+		font-size: 12px;
+		padding: 8px;
+	}
+	.filter_toggle {
+		color: #AAA;
+		min-width: 88px;
 	}
 
 	.upgrades {

@@ -136,14 +136,16 @@
 	}
 
 	.section {
-		padding: 52px 0px 8px;
+		padding: 12px 0px 8px;
 		font-size: 12px;
-		width: 100%;
-		max-width: 100%;
 	}
 
 	.section_header {
-		left: 8px;
+		padding: 8px 20px;
+		position: relative;
+		left: 0;
+		width: 100%;
+		font-size: 16px;
 	}
 
 	.table, .upgrades, .summary {

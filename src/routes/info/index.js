@@ -4,10 +4,13 @@ import style from './style';
 import AutoPrint from './autoPrint';
 import ArkMaterialCard from '../../components/materialCard';
 
+import { STORAGE_VERSION } from '../../config/useConfig';
+
 const Info = (props) => (
 	<div class={style.wrapper}>
 		<div class={style.info}>
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
+			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
 			<p>2019-06-22</p>
