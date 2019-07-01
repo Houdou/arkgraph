@@ -14,7 +14,7 @@
   status = 200
 
 [[redirects]]
-  from = "/stock"
+  from = "/stock/*"
   to = "/index.html"
   status = 200
 
