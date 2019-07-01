@@ -13,6 +13,14 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-07-01</p>
+			做了库存管理页~<br />
+			在材料图标上按左键增加1个，按右键减少1个，按住<code>Shift</code>可以一次增减10个<br />
+			库存管理页面支持按关卡筛选，只显示需要关卡可能掉的材料，刷材料的时候不用再找副产物更新库存了~<br />
+			材料卡片上的关卡链接现在也会跳转到关卡掉落详情页面<br />
+			企鹅数据统计的详细掉率链接也已经移动到关卡筛选中，按钮更大更方便点<br />
+			之后会优化移动端显示和操作，现在先放个初版<br />
+			<del>YJ你们啥时候更新5章和陈啊。。。长草（</del><br />
 			<p>2019-06-22</p>
 			<p>
 				<AutoPrint
@@ -51,7 +59,6 @@ const Info = (props) => (
 						}}
 						>再一次再一次（</a><br /><br />
 						现在具体关卡掉率会显示在材料卡片底下了<br />
-						材料卡片中点击关卡名可以跳转到企鹅统计详细掉率页面<br />
 						数据来自于<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a><br />
 						<div style={{ marginTop: '20px', padding: '32px', textShadow: 'none', position: 'relative', userSelect: 'none' }}>
 							举个🌰:<br />
@@ -77,10 +84,10 @@ const Info = (props) => (
 							/>
 							<div style={{
 								position: 'absolute',
-								left: '84px',
+								left: '100px',
 								top: '200px',
 								backgroundColor: 'rgba(130, 60, 60, 0.2)',
-								width: '200px',
+								width: '184px',
 								height: '56px',
 								zIndex: 9999,
 							}}
@@ -89,10 +96,6 @@ const Info = (props) => (
 						<h2>项目现已改名【干员培养表】</h2><br />
 						现在的功能已经不止是材料计算器了，感觉更偏向于规划干员培养，管理材料库存<br />
 						改个名字，<del>增加品牌辨识度（</del><br />
-						<br />
-						另外，添加了芯片助剂→采购凭证的折算<br />
-						材料查询界面添加了干员和升级项目筛选功能<br />
-						下一步应该是优化一下库存管理的流程<br />
 					</p>
 				)
 			}
@@ -124,23 +127,6 @@ const Info = (props) => (
 	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 			<hr />
 			<h2>使用说明</h2>
-			<h3>干员查询</h3>
-			<ul>
-				<li>点击【干员查询】切换页面</li>
-				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例lapu，推推</li>
-				<li>选择干员目前等级以及培养目标，超出范围会自动修正</li>
-				<li>如果有前置要求（如技能专精：需要精2＋基础技能7级），也会自动修正</li>
-				<li>提供了几个快捷选项方便选择</li>
-				<li>下方表格会自动查询所需材料并列出所有升级项目并汇总所有需求</li>
-				<li>如果库存数量满足升级需求，会在【可完成】列打一个小勾勾表示可以直接升级该项</li>
-			</ul>
-			<h3>材料查询</h3>
-			<ul>
-				<li>点击【材料查询】切换页面</li>
-				<li>输入材料名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例meng，纳米</li>
-				<li>可以通过干员职业，稀有度，升级项目来筛选</li>
-				<li>下方表格会自动显示所有需要这个材料的升级项目</li>
-			</ul>
 			<h3>干员培养表</h3>
 			<ul>
 				<li>点击表格左下角的<code>+</code>添加一行干员数据</li>
@@ -159,6 +145,31 @@ const Info = (props) => (
 				</ul>
 				<li>点击<code>材料大图标</code>可直接增加1个库存，右键减少1个</li>
 				<li>点击<code>合成一份</code>将自动扣除原料数量，并增加1个到库存</li>
+			</ul>
+			<h3>干员查询</h3>
+			<ul>
+				<li>点击【干员查询】切换页面</li>
+				<li>输入干员名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例lapu，推推</li>
+				<li>选择干员目前等级以及培养目标，超出范围会自动修正</li>
+				<li>如果有前置要求（如技能专精：需要精2＋基础技能7级），也会自动修正</li>
+				<li>提供了几个快捷选项方便选择</li>
+				<li>下方表格会自动查询所需材料并列出所有升级项目并汇总所有需求</li>
+				<li>如果库存数量满足升级需求，会在【可完成】列打一个小勾勾表示可以直接升级该项</li>
+			</ul>
+			<h3>材料查询</h3>
+			<ul>
+				<li>点击【材料查询】切换页面</li>
+				<li>输入材料名称，按<code>Tab</code>或<code>Enter</code>有自动补全功能。支持拼音和汉字模糊输入：例meng，纳米</li>
+				<li>可以通过干员职业，稀有度，升级项目来筛选</li>
+				<li>下方表格会自动显示所有需要这个材料的升级项目</li>
+			</ul>
+			<h3>库存管理</h3>
+			<ul>
+				<li>点击【库存管理】切换页面</li>
+				<li>下方会显示所有材料</li>
+				<li>可点击显示选项更改不同分类方式</li>
+				<li>左键增加库存量，右键减少，可以按<code>Shift</code>一次增减10个</li>
+				<li>可输入关卡编号，按<code>Tab</code>或<code>Enter</code>有自动补全功能</li>
 			</ul>
 			<h3>Tips</h3>
 			<blockquote><p>虽然输入干员名称时没有备选项，但支持模糊输入，大概输对了就能找到（</p></blockquote>
@@ -199,6 +210,11 @@ const Info = (props) => (
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.5.1</h3>
+			<ul>
+				<li>增加了库存管理</li>
+				<li>增加了库存管理页的关卡筛选功能</li>
+			</ul>
 			<h3>V1.5.0</h3>
 			<ul>
 				<li>链接【企鹅物流数据统计】的掉落数据</li>

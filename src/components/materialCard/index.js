@@ -106,7 +106,7 @@ const ArkMaterialCard = ({
 						{
 							false && (
 								<span class={cn(style.grey, style.tag_right)}>
-									<PenguinLink category="item" id={material.unique_id} render="掉率查询" />
+									<PenguinLink category="item" id={material.unique_id} />
 								</span>
 							)
 						}
