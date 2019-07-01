@@ -29,7 +29,7 @@ const ArkStockRow = ({
 		.splice(header_skip, header_list.length - header_skip)
 		.map((e, i) => {
 			let tab_index = -1;
-			if (resources_filter(i + header_skip)) {
+			if (resources_filter(i + header_skip) && e.id !== EXP.id) {
 				tab_index = tab_index_count++;
 			}
 			return (props) => {
