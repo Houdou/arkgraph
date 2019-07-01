@@ -25,14 +25,17 @@
 
 }
 .header .title {
-	width: 100%;
 	user-select: none;
 
 	vertical-align: baseline;
 	display: flex;
 	flex-flow: row;
 	flex-wrap: nowrap;
+	white-space: nowrap;
 	justify-content: flex-start;
+}
+.header .nav_group {
+	width: 100%;
 }
 .header h1 a {
 	color: inherit;
@@ -41,11 +44,8 @@
 
 .header h1 {
 	vertical-align: baseline;
-	text-overflow: clip;
-	overflow: hidden;
 
 	margin: 0;
-	margin-right: 20px;
 	padding: 0 15px;
 	font-size: 24px;
 	line-height: 56px;
@@ -64,14 +64,15 @@
 
 .header nav a {
 	display: inline-block;
-	text-overflow: clip;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	height: 56px;
 	padding: 0 15px;
-	min-width: 50px;
+	width: auto;
+	min-width: 56px;
+	flex-shrink: 0;
 	text-align: center;
 	background: rgba(255,255,255,0);
 	text-decoration: none;
@@ -92,7 +93,7 @@
 
 .toggles {
 	flex-grow: 0;
-	padding: 0 5px;
+	padding: 0 8px;
 	display: flex;
 	flex-flow: row-reverse;
 	justify-content: flex-start;
@@ -119,6 +120,9 @@
 	box-shadow: 0px 3px 3px 0 #33333333;
 	transition: background 0.6s ease, color 0.6s ease;
 }
+.toggle:first-of-type {
+	margin-right: 0;
+}
 .toggle.enable {
 	background: #111;
 	box-shadow: 0px 3px 4px 0 #33333366;
@@ -126,7 +130,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .header h1 {
+  .header .title {
 		display: none;
 	}
 	.header nav {
@@ -135,6 +139,17 @@
 	.header nav a {
 		padding: 0 5px;
 		border-right: rgba(204, 204, 204, 0.3) 1px solid;
+		white-space: nowrap;
+	}
+
+	.header .nav_group {
+		width: 100%;
+		overflow-x: scroll;
+		overflow-y: visible;
+	}
+	.header .toggles {
+		background-color: #333333;
+		min-width: 120px;
 	}
 
 	.toggle {
@@ -143,6 +158,9 @@
 		margin-right: 4px;
 		white-space: normal;
 		text-align: center;
+	}
+	.toggle:first-of-type {
+		margin-right: 0;
 	}
 }
 
