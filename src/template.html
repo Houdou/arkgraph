@@ -4,7 +4,9 @@
 		<meta charset="utf-8">
 		<script>
 		window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-		ga('create', 'UA-142599461-1', 'auto');
+		if(window.location.hostname !== 'localhost') {
+			ga('create', 'UA-142599461-1', 'auto');
+		}
 		ga('send', 'pageview');
 		</script>
 		<script async src='https://www.google-analytics.com/analytics.js'></script>

@@ -1,6 +1,8 @@
 const { RESOURCES } = require('../common/resources');
 const stages = require('./penguin_levels.json');
 
+const MapItem = require('../common/mapping.json');
+
 const level_energy = {
 	'0-1': 6,
 	'0-2': 6,
@@ -124,7 +126,7 @@ const levels = Object.entries(level_energy)
 	}));
 
 const mapExtraDrop = (material) => {
-	const resource = Object.entries(RESOURCES).find(([k, v]) => v.name === material.name);
+	const resource = Object.entries(RESOURCES).find(([k, v]) => v.id === material);
 	if (resource) {
 		return ({
 			resource: resource[1].id,
@@ -145,8 +147,10 @@ const parseJson = (record) => {
 		console.log(code);
 		if (code.startsWith('GT')) return;
 	}
-	level.extra_drop = extraDrop.map(item => mapExtraDrop(item)).filter(Boolean);
+	console.log(extraDrop);
+	level.extra_drop = extraDrop.map(item => mapExtraDrop(MapItem[item])).filter(Boolean);
 	level.unique_id = stageId;
+	console.log(level);
 };
 
 stages.forEach(parseJson);

@@ -4,17 +4,17 @@
   status = 200
 
 [[redirects]]
-  from = "/operator"
+  from = "/operator/*"
   to = "/index.html"
   status = 200
 
 [[redirects]]
-  from = "/materials"
+  from = "/materials/*"
   to = "/index.html"
   status = 200
 
 [[redirects]]
-  from = "/info"
+  from = "/stock"
   to = "/index.html"
   status = 200
 
