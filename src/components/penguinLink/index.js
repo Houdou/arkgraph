@@ -4,7 +4,7 @@ import cn from 'classnames';
 const PenguinLink = ({
 	id,
 	category,
-	render = '掉落概率',
+	render = '查看掉落概率',
 	color = 'grey',
 }) => (
 	<span class={style.penguin_span}>

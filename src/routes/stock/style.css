@@ -96,6 +96,21 @@
 	justify-content: flex-start;
 }
 
+.drop {
+	position: relative;
+}
+
+.penguin_link {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	height: 36px;
+	padding: 8px 16px 8px 12px;
+	font-size: 16px;
+	background-color: #222;
+	margin-bottom: 12px;
+}
+
 .stock_options {
 	padding: 12px 24px;
 	flex-flow: column;
@@ -188,6 +203,11 @@
 		overflow-x: scroll;
 		overflow-y: auto;
 		width: 100%;
+	}
+
+	.penguin_link {
+		top: 0;
+		right: 0;
 	}
 
 	.stock_options {

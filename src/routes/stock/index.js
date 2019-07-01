@@ -5,6 +5,33 @@ import cn from 'classnames';
 
 import ArkLevelInput from './components/LevelInput';
 import ArkMaterialGroup from './components/MaterialGroup';
+import PenguinLink from '../../components/penguinLink';
+
+const excluding_list = [
+	'LS-1',
+	'LS-2',
+	'LS-3',
+	'LS-4',
+	'LS-5',
+	'AP-1',
+	'AP-2',
+	'AP-3',
+	'AP-4',
+	'AP-5',
+	'CE-1',
+	'CE-2',
+	'CE-3',
+	'CE-4',
+	'CE-5',
+	'PR-A-1',
+	'PR-B-1',
+	'PR-C-1',
+	'PR-D-1',
+	'PR-A-2',
+	'PR-B-2',
+	'PR-C-2',
+	'PR-D-2',
+];
 
 import { LEVELS } from '../../models/Levels';
 import { RESOURCES, MONEY, PURCHASE_CREDIT, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
@@ -197,6 +224,7 @@ const ArkStockView = ({
 		}
 	}, [level_query]);
 
+
 	const level = LEVELS.find(o => o.level === level_id);
 	const level_drop_resources = getLevelMaterials(level);
 
@@ -219,6 +247,13 @@ const ArkStockView = ({
 								<span>掉落</span>
 							</div>
 							<div class={style.drop}>
+								<div class={style.penguin_link}>
+									{
+										!excluding_list.includes(level.id) && (
+											<PenguinLink category="stage" id={level.unique_id} render={level.id} />
+										)
+									}
+								</div>
 								<ArkMaterialGroup
 									stock={stock}
 									resources={level_drop_resources.resources}

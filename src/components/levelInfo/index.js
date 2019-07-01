@@ -3,33 +3,6 @@ import style from './style';
 import cn from 'classnames';
 
 import { LEVELS } from '../../models/Levels';
-import PenguinLink from '../penguinLink';
-
-const excluding_list = [
-	'LS-1',
-	'LS-2',
-	'LS-3',
-	'LS-4',
-	'LS-5',
-	'AP-1',
-	'AP-2',
-	'AP-3',
-	'AP-4',
-	'AP-5',
-	'CE-1',
-	'CE-2',
-	'CE-3',
-	'CE-4',
-	'CE-5',
-	'PR-A-1',
-	'PR-B-1',
-	'PR-C-1',
-	'PR-D-1',
-	'PR-A-2',
-	'PR-B-2',
-	'PR-C-2',
-	'PR-D-2',
-];
 
 const parseProbability = (probability) => {
 	const matching = /^(.+)\[([\d~]+)\]$/.exec(probability);
@@ -58,10 +31,7 @@ const ArkLevelInfo = ({
 	return (
 		<div class={style.source_level}>
 			<span class={style.level}>
-				{excluding_list.includes(level)
-					? (<span>{level}</span>)
-					: (<PenguinLink category="stage" id={unique_id} render={level} color="white" />)
-				}
+				<a class={style.penguin_link} href={`/stock/${level}`}>{level}</a>
 			</span>
 			<span class={cn(
 				style.drop_probability,
