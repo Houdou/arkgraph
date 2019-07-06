@@ -13,6 +13,8 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-07-06</p>
+			加了个暂时隐藏需求的按钮，方便大家专注于目前培养的需求行~<br />
 			<p>2019-07-01</p>
 			做了库存管理页~<br />
 			在材料图标上按左键增加1个，按右键减少1个，按住<code>Shift</code>可以一次增减10个<br />
