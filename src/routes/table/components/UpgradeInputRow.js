@@ -31,12 +31,14 @@ const ArkUpgradeInputRow = ({
 			attribute,
 			current,
 			target,
+			hidden,
 			requirements,
 		},
 		setOperator,
 		setAttribute,
 		setCurrent,
 		setTarget,
+		setHidden,
 	} = useRecord(init_record);
 
 	const operatorInputRef = useRef(null);
@@ -139,6 +141,22 @@ const ArkUpgradeInputRow = ({
 		</ArkCell>
 	);
 
+	const VisibilityButton = (props) => (
+		<ArkCell halfwidth>
+			<ArkButton
+				onClick={() => {
+					update(record_index, setHidden(!hidden));
+				}}
+			>
+				<img src="../../../assets/icons/hidden.png" alt="tick" style={{
+					height: '20px',
+					opacity: hidden ? 1 : 0.2,
+				}}
+				/>
+			</ArkButton>
+		</ArkCell>
+	);
+
 	const summary = requirements.reduce((prev, next) => {
 		prev[next.resource] = prev[next.resource] || 0;
 		prev[next.resource] += next.quantity;
@@ -151,6 +169,7 @@ const ArkUpgradeInputRow = ({
 				[
 					RemoveButton,
 					CompleteButton,
+					VisibilityButton,
 					OperatorInput,
 					AttributeInput,
 					CurrentInput,
@@ -163,6 +182,7 @@ const ArkUpgradeInputRow = ({
 						.splice(header_skip, header_list.length - header_skip)
 						.map(e => ({
 							content: summary[e.id] || '',
+							dim: hidden,
 							mobile_long_text: summary[e.id] > 99999,
 						})),
 				]

@@ -52,6 +52,9 @@
 	width: 48px;
 	min-width: 48px;
 }
+.cell.dim {
+	color: #666;
+}
 .cell.long_text {
   font-size: 13px;
 	white-space: normal;

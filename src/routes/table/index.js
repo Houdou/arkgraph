@@ -19,6 +19,7 @@ import { MONEY, PURCHASE_CREDIT, EXP, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS }
 const header_list = [
 	{ name: '移除' },
 	{ name: '完成' },
+	{ name: '隐藏' },
 	{ name: '干员' },
 	{ name: '升级项目' },
 	{ name: '现等级' },
@@ -46,8 +47,10 @@ const ArkTable = ({
 		addEmptyRow,
 		addLastRow,
 		updateRow,
-		removeRow,
+		toggleHiddenAll,
 		completeRow,
+		removeRow,
+		sortRecords,
 		setStockItem,
 		adjustStockItem,
 		toggleFocusMaterial,
@@ -73,7 +76,7 @@ const ArkTable = ({
 	);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
-	const header_skip = 6;
+	const header_skip = 7;
 
 	const {
 		showFilter,
@@ -130,12 +133,14 @@ const ArkTable = ({
 				/>
 				<ArkSummaryRow
 					summary={summary}
+					toggleHiddenAll={toggleHiddenAll}
+					sortRecords={sortRecords}
 					{...filter_props}
 				/>
 				{
 					records && records.map((record, index) => (
 						<ArkUpgradeInputRow
-							key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${index}`}
+							key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
 							record={record}
 							record_index={index}
 							update={updateRow}

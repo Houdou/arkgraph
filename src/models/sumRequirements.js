@@ -2,7 +2,12 @@ import processRecord from './processRecord';
 import { RESOURCES } from './Resources';
 
 const sumRequirements = (records, stock, compound_materials) => {
-	const summary = [].concat(...records.map(record => processRecord(record).requirements))
+	const summary = []
+		.concat(
+			...records
+				.filter(({ hidden }) => !hidden)
+				.map(record => processRecord(record).requirements)
+		)
 		.reduce((prev, next) => {
 			prev[next.resource] = prev[next.resource] || 0;
 			prev[next.resource] += next.quantity;

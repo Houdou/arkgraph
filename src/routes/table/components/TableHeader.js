@@ -32,6 +32,7 @@ const ArkTableHeader = ({
 				[
 					{ content: '移除', halfwidth: true, header_level: 'T1' },
 					{ content: '完成', halfwidth: true, header_level: 'T1' },
+					{ content: '隐藏', halfwidth: true, header_level: 'T1' },
 					{ content: '干员', header_level: 'T1', force_no_shrink: true },
 					{ content: '升级项目', header_level: 'T1', force_no_shrink: true },
 					{ content: '现等级', header_level: 'T1' },

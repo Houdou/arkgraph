@@ -36,6 +36,7 @@ const ArkNewUpgradeRow = ({
 				[
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
+					{ content: '', halfwidth: true },
 					new_upgrade_input,
 					new_copy_input,
 					{ content: '' },

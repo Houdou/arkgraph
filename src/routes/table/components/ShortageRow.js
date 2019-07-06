@@ -21,6 +21,7 @@ const ArkShortageRow = ({
 				[
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
+					{ content: '', halfwidth: true },
 					{ content: '', force_no_shrink: true },
 					{ content: '', force_no_shrink: true },
 					{ content: '' },

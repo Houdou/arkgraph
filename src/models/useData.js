@@ -47,6 +47,17 @@ const reducer = (state, action) => {
 			};
 			break;
 		}
+		case 'data.toggleHiddenAll': {
+			const records = [...state.records.map(r => ({
+				...r,
+				hidden: action.payload,
+			}))];
+			newState = {
+				...state,
+				records,
+			};
+			break;
+		}
 		case 'data.completeRow': {
 			const rowData = state.records[action.payload] || { requirements: [] };
 			const requirements = rowData.requirements || [];
@@ -73,6 +84,15 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				records,
+			};
+			break;
+		}
+		case 'data.sortRecords': {
+			const records = [...state.records];
+			const sorted_records = records.sort(action.payload.sorting_func);
+			newState = {
+				...state,
+				records: sorted_records,
 			};
 			break;
 		}
@@ -287,6 +307,13 @@ const useData = () => {
 		});
 	};
 
+	const toggleHiddenAll = (hidden) => {
+		dispatch({
+			type: 'data.toggleHiddenAll',
+			payload: hidden,
+		});
+	};
+
 	const completeRow = (index) => {
 		dispatch({
 			type: 'data.completeRow',
@@ -298,6 +325,15 @@ const useData = () => {
 		dispatch({
 			type: 'data.removeRow',
 			payload: index,
+		});
+	};
+
+	const sortRecords = (sorting_func) => {
+		dispatch({
+			type: 'data.sortRecords',
+			payload: {
+				sorting_func,
+			},
 		});
 	};
 
@@ -353,8 +389,10 @@ const useData = () => {
 		addEmptyRow,
 		addLastRow,
 		updateRow,
+		toggleHiddenAll,
 		completeRow,
 		removeRow,
+		sortRecords,
 		setStockItem,
 		adjustStockItem,
 		setStockBulk,
