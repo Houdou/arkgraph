@@ -1,142 +1,6 @@
 [
   {
     "specialDrop": [],
-    "extraDrop": [],
-    "code": "SK-1",
-    "stageType": "DAILY",
-    "normalDrop": [
-      "3112"
-    ],
-    "zoneId": "weekly_8",
-    "apCost": 10,
-    "stageId": "wk_armor_1"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "SK-2",
-    "stageType": "DAILY",
-    "normalDrop": [
-      "3112"
-    ],
-    "zoneId": "weekly_8",
-    "apCost": 15,
-    "stageId": "wk_armor_2"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "SK-5",
-    "stageType": "DAILY",
-    "normalDrop": [
-      "3114",
-      "3113"
-    ],
-    "zoneId": "weekly_8",
-    "apCost": 30,
-    "stageId": "wk_armor_5"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "SK-3",
-    "stageType": "DAILY",
-    "normalDrop": [
-      "3113",
-      "3112"
-    ],
-    "zoneId": "weekly_8",
-    "apCost": 20,
-    "stageId": "wk_armor_3"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "SK-4",
-    "stageType": "DAILY",
-    "normalDrop": [
-      "3114",
-      "3113"
-    ],
-    "zoneId": "weekly_8",
-    "apCost": 25,
-    "stageId": "wk_armor_4"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30021",
-      "30041",
-      "30051",
-      "2001",
-      "30022",
-      "30042",
-      "30052",
-      "2002"
-    ],
-    "code": "2-10",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30103"
-    ],
-    "zoneId": "main_2",
-    "apCost": 15,
-    "stageId": "main_02-10"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "GT-2",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30061",
-      "30021"
-    ],
-    "zoneId": "A001_zone1",
-    "apCost": 9,
-    "stageId": "a001_02"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "GT-1",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30011",
-      "30031"
-    ],
-    "zoneId": "A001_zone1",
-    "apCost": 9,
-    "stageId": "a001_01"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "GT-4",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30032",
-      "30052"
-    ],
-    "zoneId": "A001_zone1",
-    "apCost": 12,
-    "stageId": "a001_04"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "GT-3",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30022",
-      "30042"
-    ],
-    "zoneId": "A001_zone1",
-    "apCost": 12,
-    "stageId": "a001_03"
-  },
-  {
-    "specialDrop": [],
     "extraDrop": [
       "30011",
       "30021",
@@ -153,30 +17,6 @@
     "zoneId": "main_1",
     "apCost": 6,
     "stageId": "main_01-01"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "GT-6",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30093"
-    ],
-    "zoneId": "A001_zone1",
-    "apCost": 15,
-    "stageId": "a001_06"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [],
-    "code": "GT-5",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30073"
-    ],
-    "zoneId": "A001_zone1",
-    "apCost": 15,
-    "stageId": "a001_05"
   },
   {
     "specialDrop": [],
@@ -263,7 +103,9 @@
     ],
     "code": "1-9",
     "stageType": "MAIN",
-    "normalDrop": [],
+    "normalDrop": [
+      "3112"
+    ],
     "zoneId": "main_1",
     "apCost": 9,
     "stageId": "main_01-09"
@@ -375,48 +217,6 @@
   {
     "specialDrop": [],
     "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-9",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30011"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-09"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30031",
-      "30061",
-      "3003",
-      "30012",
-      "30032",
-      "30062",
-      "2001"
-    ],
-    "code": "S2-10",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2002"
-    ],
-    "zoneId": "main_2",
-    "apCost": 12,
-    "stageId": "sub_02-10"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
       "30021",
       "30041",
       "2001",
@@ -440,25 +240,6 @@
     "extraDrop": [
       "30021",
       "30041",
-      "30051",
-      "2001",
-      "30022",
-      "30042",
-      "30052",
-      "2002"
-    ],
-    "code": "S2-11",
-    "stageType": "MAIN",
-    "normalDrop": [],
-    "zoneId": "main_2",
-    "apCost": 12,
-    "stageId": "sub_02-11"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30021",
-      "30041",
       "2001",
       "30022",
       "30042",
@@ -474,26 +255,6 @@
     "zoneId": "main_4",
     "apCost": 18,
     "stageId": "sub_04-2-1"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30031",
-      "30061",
-      "3003",
-      "30012",
-      "30032",
-      "30062"
-    ],
-    "code": "S2-12",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30012"
-    ],
-    "zoneId": "main_2",
-    "apCost": 15,
-    "stageId": "sub_02-12"
   },
   {
     "specialDrop": [],
@@ -647,52 +408,12 @@
     ],
     "code": "1-10",
     "stageType": "MAIN",
-    "normalDrop": [],
+    "normalDrop": [
+      "3301"
+    ],
     "zoneId": "main_1",
     "apCost": 9,
     "stageId": "main_01-10"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-4",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-04"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-3",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-03"
   },
   {
     "specialDrop": [
@@ -718,69 +439,6 @@
     "stageId": "main_04-09"
   },
   {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-2",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-02"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-1",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-01"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-8",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-08"
-  },
-  {
     "specialDrop": [
       "30014"
     ],
@@ -802,27 +460,6 @@
     "zoneId": "main_4",
     "apCost": 18,
     "stageId": "main_04-06"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-7",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30021"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-07"
   },
   {
     "specialDrop": [
@@ -848,27 +485,6 @@
     "stageId": "main_04-05"
   },
   {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-6",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-06"
-  },
-  {
     "specialDrop": [
       "30094"
     ],
@@ -890,27 +506,6 @@
     "zoneId": "main_4",
     "apCost": 21,
     "stageId": "main_04-08"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30021",
-      "30031",
-      "30041",
-      "30051",
-      "30061",
-      "3003",
-      "2001"
-    ],
-    "code": "0-5",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "2001"
-    ],
-    "zoneId": "main_0",
-    "apCost": 6,
-    "stageId": "main_00-05"
   },
   {
     "specialDrop": [
@@ -1225,29 +820,6 @@
   },
   {
     "specialDrop": [
-      "30064"
-    ],
-    "extraDrop": [
-      "30011",
-      "30061",
-      "30012",
-      "30062",
-      "30013",
-      "30063",
-      "30073",
-      "3003"
-    ],
-    "code": "4-10",
-    "stageType": "MAIN",
-    "normalDrop": [
-      "30063"
-    ],
-    "zoneId": "main_4",
-    "apCost": 21,
-    "stageId": "main_04-10"
-  },
-  {
-    "specialDrop": [
       "30034"
     ],
     "extraDrop": [
@@ -1268,45 +840,6 @@
     "zoneId": "main_3",
     "apCost": 18,
     "stageId": "main_03-08"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30011",
-      "30031",
-      "30061",
-      "3003",
-      "30012",
-      "30032",
-      "30062"
-    ],
-    "code": "S3-4",
-    "stageType": "SUB",
-    "normalDrop": [
-      "30062"
-    ],
-    "zoneId": "main_3",
-    "apCost": 15,
-    "stageId": "sub_03-2-2"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30021",
-      "30041",
-      "30051",
-      "2001",
-      "30022",
-      "30042",
-      "30052",
-      "2002"
-    ],
-    "code": "S3-5",
-    "stageType": "SUB",
-    "normalDrop": [],
-    "zoneId": "main_3",
-    "apCost": 15,
-    "stageId": "sub_03-2-3"
   },
   {
     "specialDrop": [],
@@ -1391,6 +924,793 @@
   {
     "specialDrop": [],
     "extraDrop": [
+      "30031",
+      "30051",
+      "30032",
+      "30052",
+      "30033",
+      "30053",
+      "30093",
+      "30103"
+    ],
+    "code": "S4-8",
+    "stageType": "SUB",
+    "normalDrop": [],
+    "zoneId": "main_4",
+    "apCost": 18,
+    "stageId": "sub_04-3-2"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "2001",
+      "30022",
+      "30042",
+      "2002",
+      "30023",
+      "30043",
+      "30083",
+      "2003"
+    ],
+    "code": "S4-9",
+    "stageType": "SUB",
+    "normalDrop": [
+      "2003"
+    ],
+    "zoneId": "main_4",
+    "apCost": 21,
+    "stageId": "sub_04-3-3"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "2001",
+      "30022",
+      "30042",
+      "2002",
+      "30023",
+      "30043",
+      "30083",
+      "2003"
+    ],
+    "code": "S4-7",
+    "stageType": "SUB",
+    "normalDrop": [],
+    "zoneId": "main_4",
+    "apCost": 18,
+    "stageId": "sub_04-3-1"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "S5-1",
+    "stageType": "SUB",
+    "normalDrop": [
+      "30012",
+      "2003"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "sub_05-1-1"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "2001",
+      "30022",
+      "30042",
+      "2002",
+      "30023",
+      "30043",
+      "30083",
+      "2003"
+    ],
+    "code": "S5-2",
+    "stageType": "SUB",
+    "normalDrop": [],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "sub_05-1-2"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "SK-1",
+    "stageType": "DAILY",
+    "normalDrop": [
+      "3112"
+    ],
+    "zoneId": "weekly_8",
+    "apCost": 10,
+    "stageId": "wk_armor_1"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "SK-2",
+    "stageType": "DAILY",
+    "normalDrop": [
+      "3112"
+    ],
+    "zoneId": "weekly_8",
+    "apCost": 15,
+    "stageId": "wk_armor_2"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "SK-5",
+    "stageType": "DAILY",
+    "normalDrop": [
+      "3114",
+      "3113"
+    ],
+    "zoneId": "weekly_8",
+    "apCost": 30,
+    "stageId": "wk_armor_5"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "SK-3",
+    "stageType": "DAILY",
+    "normalDrop": [
+      "3113",
+      "3112"
+    ],
+    "zoneId": "weekly_8",
+    "apCost": 20,
+    "stageId": "wk_armor_3"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "SK-4",
+    "stageType": "DAILY",
+    "normalDrop": [
+      "3114",
+      "3113"
+    ],
+    "zoneId": "weekly_8",
+    "apCost": 25,
+    "stageId": "wk_armor_4"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "30051",
+      "2001",
+      "30022",
+      "30042",
+      "30052",
+      "2002"
+    ],
+    "code": "2-10",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30103"
+    ],
+    "zoneId": "main_2",
+    "apCost": 15,
+    "stageId": "main_02-10"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "GT-2",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30061",
+      "30021"
+    ],
+    "zoneId": "A001_zone1",
+    "apCost": 9,
+    "stageId": "a001_02"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "5-3",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30033",
+      "30022"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-03"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "GT-1",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30011",
+      "30031"
+    ],
+    "zoneId": "A001_zone1",
+    "apCost": 9,
+    "stageId": "a001_01"
+  },
+  {
+    "specialDrop": [
+      "30024"
+    ],
+    "extraDrop": [
+      "30011",
+      "30061",
+      "30012",
+      "30062",
+      "30013",
+      "30063",
+      "30073",
+      "3003"
+    ],
+    "code": "5-2",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30023"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-02"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "GT-4",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30032",
+      "30052"
+    ],
+    "zoneId": "A001_zone1",
+    "apCost": 12,
+    "stageId": "a001_04"
+  },
+  {
+    "specialDrop": [
+      "30044"
+    ],
+    "extraDrop": [
+      "30011",
+      "30061",
+      "30012",
+      "30062",
+      "30013",
+      "30063",
+      "30073",
+      "3003"
+    ],
+    "code": "5-5",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30043"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-05"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "GT-3",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30022",
+      "30042"
+    ],
+    "zoneId": "A001_zone1",
+    "apCost": 12,
+    "stageId": "a001_03"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30031",
+      "30051",
+      "30032",
+      "30052",
+      "30033",
+      "30053",
+      "30093",
+      "30103"
+    ],
+    "code": "5-4",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30073"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-04"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "GT-6",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30093"
+    ],
+    "zoneId": "A001_zone1",
+    "apCost": 15,
+    "stageId": "a001_06"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "GT-5",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30073"
+    ],
+    "zoneId": "A001_zone1",
+    "apCost": 15,
+    "stageId": "a001_05"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30061",
+      "30012",
+      "30062",
+      "30013",
+      "30063",
+      "30073",
+      "3003"
+    ],
+    "code": "5-1",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30013"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-01"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "5-7",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30093",
+      "30042"
+    ],
+    "zoneId": "main_5",
+    "apCost": 21,
+    "stageId": "main_05-07"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "2001",
+      "30022",
+      "30042",
+      "2002",
+      "30023",
+      "30043",
+      "30083",
+      "2003"
+    ],
+    "code": "5-6",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30083"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-06"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30061",
+      "30012",
+      "30062",
+      "30013",
+      "30063",
+      "30073",
+      "3003"
+    ],
+    "code": "5-9",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30103"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-09"
+  },
+  {
+    "specialDrop": [
+      "30054"
+    ],
+    "extraDrop": [
+      "30031",
+      "30051",
+      "30032",
+      "30052",
+      "30033",
+      "30053",
+      "30093",
+      "30103"
+    ],
+    "code": "5-8",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30053"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "main_05-08"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-9",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30011"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-09"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30031",
+      "30061",
+      "3003",
+      "30012",
+      "30032",
+      "30062",
+      "2001"
+    ],
+    "code": "S2-10",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2002"
+    ],
+    "zoneId": "main_2",
+    "apCost": 12,
+    "stageId": "sub_02-10"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "30051",
+      "2001",
+      "30022",
+      "30042",
+      "30052",
+      "2002"
+    ],
+    "code": "S2-11",
+    "stageType": "MAIN",
+    "normalDrop": [],
+    "zoneId": "main_2",
+    "apCost": 12,
+    "stageId": "sub_02-11"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30031",
+      "30061",
+      "3003",
+      "30012",
+      "30032",
+      "30062"
+    ],
+    "code": "S2-12",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30012"
+    ],
+    "zoneId": "main_2",
+    "apCost": 15,
+    "stageId": "sub_02-12"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "5-10",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30063",
+      "30012"
+    ],
+    "zoneId": "main_5",
+    "apCost": 21,
+    "stageId": "main_05-10"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-4",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-04"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-3",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-03"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-2",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-02"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-1",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-01"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-8",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-08"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-7",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30021"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-07"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "S5-3",
+    "stageType": "SUB",
+    "normalDrop": [
+      "30032"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "sub_05-2-1"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-6",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-06"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [],
+    "code": "S5-4",
+    "stageType": "SUB",
+    "normalDrop": [
+      "30022",
+      "2003"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "sub_05-2-2"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30021",
+      "30031",
+      "30041",
+      "30051",
+      "30061",
+      "3003",
+      "2001"
+    ],
+    "code": "0-5",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "2001"
+    ],
+    "zoneId": "main_0",
+    "apCost": 6,
+    "stageId": "main_00-05"
+  },
+  {
+    "specialDrop": [
+      "30064"
+    ],
+    "extraDrop": [
+      "30011",
+      "30061",
+      "30012",
+      "30062",
+      "30013",
+      "30063",
+      "30073",
+      "3003"
+    ],
+    "code": "4-10",
+    "stageType": "MAIN",
+    "normalDrop": [
+      "30063"
+    ],
+    "zoneId": "main_4",
+    "apCost": 21,
+    "stageId": "main_04-10"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30011",
+      "30031",
+      "30061",
+      "3003",
+      "30012",
+      "30032",
+      "30062"
+    ],
+    "code": "S3-4",
+    "stageType": "SUB",
+    "normalDrop": [
+      "30062"
+    ],
+    "zoneId": "main_3",
+    "apCost": 15,
+    "stageId": "sub_03-2-2"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "30051",
+      "2001",
+      "30022",
+      "30042",
+      "30052",
+      "2002"
+    ],
+    "code": "S3-5",
+    "stageType": "SUB",
+    "normalDrop": [],
+    "zoneId": "main_3",
+    "apCost": 15,
+    "stageId": "sub_03-2-3"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
       "30021",
       "30041",
       "30051",
@@ -1460,48 +1780,6 @@
   },
   {
     "specialDrop": [],
-    "extraDrop": [
-      "30031",
-      "30051",
-      "30032",
-      "30052",
-      "30033",
-      "30053",
-      "30093",
-      "30103"
-    ],
-    "code": "S4-8",
-    "stageType": "SUB",
-    "normalDrop": [],
-    "zoneId": "main_4",
-    "apCost": 18,
-    "stageId": "sub_04-3-2"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30021",
-      "30041",
-      "2001",
-      "30022",
-      "30042",
-      "2002",
-      "30023",
-      "30043",
-      "30083",
-      "2003"
-    ],
-    "code": "S4-9",
-    "stageType": "SUB",
-    "normalDrop": [
-      "2003"
-    ],
-    "zoneId": "main_4",
-    "apCost": 21,
-    "stageId": "sub_04-3-3"
-  },
-  {
-    "specialDrop": [],
     "extraDrop": [],
     "code": "CA-5",
     "stageType": "DAILY",
@@ -1567,27 +1845,6 @@
     "zoneId": "main_4",
     "apCost": 18,
     "stageId": "sub_04-1-3"
-  },
-  {
-    "specialDrop": [],
-    "extraDrop": [
-      "30021",
-      "30041",
-      "2001",
-      "30022",
-      "30042",
-      "2002",
-      "30023",
-      "30043",
-      "30083",
-      "2003"
-    ],
-    "code": "S4-7",
-    "stageType": "SUB",
-    "normalDrop": [],
-    "zoneId": "main_4",
-    "apCost": 18,
-    "stageId": "sub_04-3-1"
   },
   {
     "specialDrop": [],
@@ -1770,6 +2027,18 @@
   },
   {
     "specialDrop": [],
+    "extraDrop": [],
+    "code": "S5-5",
+    "stageType": "SUB",
+    "normalDrop": [
+      "30062"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "sub_05-3-1"
+  },
+  {
+    "specialDrop": [],
     "extraDrop": [
       "30011",
       "30031",
@@ -1788,5 +2057,28 @@
     "zoneId": "main_2",
     "apCost": 12,
     "stageId": "main_02-06"
+  },
+  {
+    "specialDrop": [],
+    "extraDrop": [
+      "30021",
+      "30041",
+      "2001",
+      "30022",
+      "30042",
+      "2002",
+      "30023",
+      "30043",
+      "30083",
+      "2003"
+    ],
+    "code": "S5-6",
+    "stageType": "SUB",
+    "normalDrop": [
+      "2003"
+    ],
+    "zoneId": "main_5",
+    "apCost": 18,
+    "stageId": "sub_05-3-2"
   }
 ]

@@ -70,6 +70,7 @@ const MATERIALS = [
 		source: {
 			'2-9': '小概率',
 			'4-4': '小概率',
+			'5-4': '小概率',
 		},
 		formula: {},
 	},
@@ -100,6 +101,7 @@ const MATERIALS = [
 		source: {
 			'3-2': '小概率',
 			'4-7': '小概率',
+			'5-6': '小概率',
 		},
 		formula: {},
 	},
@@ -130,6 +132,7 @@ const MATERIALS = [
 		source: {
 			'3-3': '小概率',
 			'4-8': '小概率',
+			'5-7': '小概率',
 		},
 		formula: {},
 	},
@@ -160,6 +163,7 @@ const MATERIALS = [
 		source: {
 			'2-10': '小概率',
 			'4-9': '小概率',
+			'5-9': '小概率',
 		},
 		formula: {},
 	},
@@ -188,6 +192,7 @@ const MATERIALS = [
 		source: {
 			'2-4': '小概率',
 			'4-6': '小概率',
+			'5-1': '小概率',
 		},
 		formula: {
 			'M-2-1': 5,
@@ -204,6 +209,8 @@ const MATERIALS = [
 		source: {
 			'1-7': '固定',
 			'S2-12': '固定',
+			'5-10': '中概率',
+			'S5-1': '固定',
 		},
 		formula: {
 			'M-1-1': 3,
@@ -250,6 +257,7 @@ const MATERIALS = [
 		source: {
 			'3-4': '小概率',
 			'4-10': '小概率',
+			'5-10': '小概率',
 		},
 		formula: {
 			'M-2-2': 4,
@@ -266,6 +274,7 @@ const MATERIALS = [
 		source: {
 			'1-12': '中概率',
 			'S3-4': '大概率',
+			'S5-5': '大概率',
 		},
 		formula: {
 			'M-1-2': 3,
@@ -312,6 +321,7 @@ const MATERIALS = [
 		source: {
 			'2-6': '小概率',
 			'3-8': '小概率',
+			'5-3': '中概率',
 		},
 		formula: {
 			'M-2-3': 4,
@@ -328,6 +338,7 @@ const MATERIALS = [
 		source: {
 			'1-8': '大概率',
 			'S3-2': '固定',
+			'S5-3': '固定',
 		},
 		formula: {
 			'M-1-3': 3,
@@ -356,6 +367,7 @@ const MATERIALS = [
 		type: 'sugar',
 		source: {
 			'4-2': '罕见',
+			'5-2': '罕见',
 		},
 		formula: {
 			'M-3-4': 2,
@@ -374,6 +386,7 @@ const MATERIALS = [
 		source: {
 			'2-5': '小概率',
 			'4-2': '小概率',
+			'5-2': '小概率',
 		},
 		formula: {
 			'M-2-4': 4,
@@ -389,7 +402,9 @@ const MATERIALS = [
 		type: 'sugar',
 		source: {
 			'2-2': '大概率',
+			'5-3': '中概率',
 			'S3-1': '固定',
+			'S5-4': '固定',
 		},
 		formula: {
 			'M-1-4': 3,
@@ -417,6 +432,7 @@ const MATERIALS = [
 		tier: 'T4',
 		type: 'iron',
 		source: {
+			'5-5': '罕见',
 			'S4-1': '罕见',
 		},
 		formula: {
@@ -435,6 +451,7 @@ const MATERIALS = [
 		type: 'iron',
 		source: {
 			'2-8': '小概率',
+			'5-5': '小概率',
 			'S4-1': '小概率',
 		},
 		formula: {
@@ -451,6 +468,7 @@ const MATERIALS = [
 		type: 'iron',
 		source: {
 			'2-1': '中概率',
+			'5-7': '中概率',
 			'S3-3': '固定',
 		},
 		formula: {
@@ -480,6 +498,7 @@ const MATERIALS = [
 		type: 'ketone',
 		source: {
 			'4-5': '罕见',
+			'5-8': '罕见',
 		},
 		formula: {
 			'M-3-6': 2,
@@ -498,6 +517,7 @@ const MATERIALS = [
 		source: {
 			'3-1': '小概率',
 			'4-5': '小概率',
+			'5-8': '小概率',
 		},
 		formula: {
 			'M-2-6': 4,
