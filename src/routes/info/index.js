@@ -91,7 +91,7 @@ const Info = (props) => (
 								top: '200px',
 								backgroundColor: 'rgba(130, 60, 60, 0.2)',
 								width: '184px',
-								height: '56px',
+								height: '80px',
 								zIndex: 9999,
 							}}
 							/>
@@ -107,9 +107,6 @@ const Info = (props) => (
 				<h2>关于访问量</h2>
 				感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
 				服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
-				（首次加载约<code>3M</code>，之后的访问都是<code>~20K</code>）<br />
-				现在的使用量：<code>64G</code>（2019-06-17）<br />
-				<br />
 				<small>（小声）</small>在右边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
 				<a class={style.tip_link} href="../../assets/tip.png">打赏/捐助二维码
 					<img class={style.tip} src="../../assets/tip.png" alt="reward_author" />
