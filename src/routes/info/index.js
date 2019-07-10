@@ -13,7 +13,13 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
-			<p>2019-07-06</p>
+			<p>2019-07-09</p>
+			<h3>
+				<a style={{
+					color: '#0CC3E7',
+				}} target="_blank" rel="noreferrer noopener" href="https://www.weibo.com/1146775001/HCRa62aoa"
+				>微博抽奖中~，欢迎来转~</a>
+			</h3>
 			更新了新干员数据~，陈sir来了~<br />
 			更新了第五章的掉落数据~<br />
 			<p>2019-07-06</p>
