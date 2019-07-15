@@ -20,7 +20,7 @@ const options = {
 		weight: 0.7,
 	}],
 };
-const fuse = new Fuse(OPERATORS, options);
+export const fuse = new Fuse(OPERATORS, options);
 
 const ArkFuseInputCell = (props) => (
 	<div
