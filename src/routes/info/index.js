@@ -13,6 +13,11 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-07-18</p>
+			<p>
+				在<a href="/backup">【数据导出】</a>中添加了<a target="_blank" rel="noopener noreferrer" href="https://planner.penguin-stats.io/">ArkPlanner</a>的数据格式导出功能<br />
+				之后会整合进来，先放出来手动导出的版本
+			</p>
 			<p>2019-07-09</p>
 			<h3>
 				<a style={{
@@ -210,6 +215,10 @@ const Info = (props) => (
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.5.4</h3>
+			<ul>
+				<li>增加了ArkPlanner的数据格式导出</li>
+			</ul>
 			<h3>V1.5.3</h3>
 			<ul>
 				<li>增加了新干员数据</li>
