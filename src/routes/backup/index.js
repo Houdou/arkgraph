@@ -2,9 +2,20 @@ import React from 'preact';
 import { useState, useEffect, useRef } from 'preact/hooks';
 import style from './style';
 
-import Upgrade from '../../models/Upgrade';
 import { STORAGE_KEY as SAVE_STORAGE_KEY } from '../../models/useData';
 import { STORAGE_KEY as CONFIG_STORAGE_KEY } from '../../config/useConfig';
+
+import Upgrade from '../../models/Upgrade';
+import { MATERIALS } from '../../models/Resources';
+import sumRequirements from '../../models/sumRequirements';
+
+const generateArkPlannerDate = (summary, stock) => MATERIALS.map(
+	({ id, name }) => ({
+		name,
+		need: summary[id] || 0,
+		have: stock[id] || 0,
+	})
+);
 
 const ArkDataBackup = ({
 	state,
@@ -14,6 +25,9 @@ const ArkDataBackup = ({
 	const [copy_state, setCopyState] = useState('复制');
 	const [load_state, setLoadState] = useState('读取');
 	const [load_error, setLoadError] = useState(null);
+
+	const ark_planner_data_ref = useRef(null);
+	const [copy_ark_planner_data_state, setCopyArkPlannerDataState] = useState('复制');
 
 	useEffect(() => {
 		load();
@@ -27,6 +41,25 @@ const ArkDataBackup = ({
 		} catch (err) {
 			console.error(err);
 			setCopyState('失败');
+		}
+	};
+
+	const copyArkPlannerData = (e) => {
+		ark_planner_data_ref.current && ark_planner_data_ref.current.select();
+		try {
+			try {
+				global.ga('send', {
+					hitType: 'event',
+					eventCategory: 'planner',
+					eventAction: 'export',
+				});
+			} catch (err) {}
+
+			document.execCommand('copy');
+			setCopyArkPlannerDataState('已复制');
+		} catch (err) {
+			console.error(err);
+			setCopyArkPlannerDataState('失败');
 		}
 	};
 
@@ -46,7 +79,8 @@ const ArkDataBackup = ({
 		}
 	};
 
-	const [last_tap_time, setLastTapTime] = useState(0);
+	const summary = sumRequirements(state.records, state.stock, []);
+	const ark_planner_data = generateArkPlannerDate(summary, state.stock);
 
 	return (
 		<div class={style.wrapper}>
@@ -67,28 +101,8 @@ const ArkDataBackup = ({
 						})}
 					/>
 					<div class={style.buttons}>
-						<span onClick={e => {
-							try {
-								global.ga('send', {
-									hitType: 'event',
-									eventCategory: 'backup',
-									eventAction: 'export',
-								});
-							} catch (err) {}
-							copyData(e);
-						}}
-						>{copy_state}</span>
-						<span onClick={e => {
-							try {
-								global.ga('send', {
-									hitType: 'event',
-									eventCategory: 'backup',
-									eventAction: 'import',
-								});
-							} catch (err) {}
-							loadData(e);
-						}}
-						>{load_state}</span>
+						<span onClick={e => copyData(e)}>{copy_state}</span>
+						<span onClick={e => loadData(e)}>{load_state}</span>
 					</div>
 				</div>
 				{
@@ -104,16 +118,22 @@ const ArkDataBackup = ({
 						window.localStorage.removeItem(SAVE_STORAGE_KEY);
 						window.location.reload();
 					}}
-					onTouchStart={e => {
-						const tap_time = Date.now();
-						if (tap_time - last_tap_time < 500) {
-							window.localStorage.removeItem(CONFIG_STORAGE_KEY);
-							window.localStorage.removeItem(SAVE_STORAGE_KEY);
-							window.location.reload();
-						}
-						setLastTapTime(tap_time);
-					}}
 				>双击清除所有数据</div>
+				<hr style={{ 'margin-top': '24px' }} />
+				<h2>导出<a target="_blank" rel="noreferrer noopener" href="https://planner.penguin-stats.io/">ArkPlanner</a>用数据</h2>
+				<div class={style.data_area}>
+					<textarea
+						ref={ark_planner_data_ref}
+						class={style.save_data}
+						name="ark_planner_data"
+						id=""
+						cols="auto" rows="3"
+						value={JSON.stringify(ark_planner_data)}
+					/>
+					<div class={style.buttons}>
+						<span onClick={e => copyArkPlannerData(e)}>{copy_ark_planner_data_state}</span>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
