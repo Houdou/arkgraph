@@ -70,7 +70,7 @@ const App = (props) => {
 					drops={drops}
 				/>
 				<ArkOperator path="/operator/:operator_name?" config={config} data={data} />
-				<ArkMaterials path="/materials/:material_name?" config={config} data={data} />
+				<ArkMaterials path="/materials/:material_name?" config={config} data={data} drops={drops} />
 				<ArkStock path="/stock/:level_id?" config={config} data={data} />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />
 			</Router>

@@ -1,5 +1,5 @@
 import React from 'preact';
-import { useState, useEffect } from 'preact/hooks';
+import { useState, useEffect, useMemo } from 'preact/hooks';
 import style from './style';
 import cn from 'classnames';
 
@@ -32,6 +32,8 @@ const excluding_list = [
 	'PR-C-2',
 	'PR-D-2',
 ];
+
+import sumRequirements from '../../models/sumRequirements';
 
 import { LEVELS } from '../../models/Levels';
 import { RESOURCES, MONEY, PURCHASE_CREDIT, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
@@ -173,10 +175,12 @@ const ArkStockView = ({
 	level_id: level_query,
 }) => {
 	const {
-		state: { stock },
+		state: { stock, records, compound_materials },
 		load,
 		adjustStockItem,
 	} = data;
+
+	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
 
 	const [level_id, setLevelId_raw] = useState(global.level_query);
 	const [grouping_type, setGroupingType_raw] = useState(global.grouping_type || 'type');
@@ -192,6 +196,11 @@ const ArkStockView = ({
 				});
 			} catch (err) {}
 		}
+		try {
+			if (window.location.pathname !== `/stock/${id}`) {
+				window.history.pushState(null, window.document.title, `/stock/${id}`);
+			}
+		} catch (err) {}
 		setLevelId_raw(id);
 		global.level_query = id;
 	};
@@ -246,16 +255,17 @@ const ArkStockView = ({
 							<div class={style.section_header}>
 								<span>掉落</span>
 							</div>
-							<div class={style.drop}>
+							<div class={style.drops}>
 								<div class={style.penguin_link}>
 									{
 										!excluding_list.includes(level.id) && (
-											<PenguinLink category="stage" id={level.unique_id} render={level.id} />
+											<PenguinLink category="stage" id={level.unique_id} render={'查看完整掉率'} />
 										)
 									}
 								</div>
 								<ArkMaterialGroup
 									stock={stock}
+									summary={summary}
 									resources={level_drop_resources.resources}
 									item_scale={item_scale}
 									adjustStockItem={adjustStockItem}

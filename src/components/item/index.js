@@ -8,6 +8,7 @@ const resources_available = Object.keys(RESOURCES);
 const ArkItem = (props) => {
 	const material_id = resources_available.includes(props.id) ? props.id : '404';
 	const card_tier = /^T[123456]$/.test(props.tier) ? props.tier : 'T1';
+	const shortage = (props.requirement) ? Math.max(props.requirement - (props.quantity || 0), 0) : null;
 	return (
 		<div
 			class={
@@ -33,13 +34,22 @@ const ArkItem = (props) => {
 				>
 					<img src={`../../assets/materials/${material_id}.png`} class={style.item} alt="material_id" />
 					<img src={`../../assets/cards/${card_tier}.png`} class={style.card} alt="card_tier" />
-					{
-						props.quantity && props.quantity !== 0 && (
-							<div class={style.quantity}>
-								{props.quantity}
-							</div>
-						)
-					}
+					<div class={style.numbers}>
+						{
+							props.quantity && props.quantity !== 0 && (
+								<div class={style.quantity}>
+									{props.quantity}
+								</div>
+							) || null
+						}
+						{
+							shortage && shortage !== 0 && (
+								<div class={style.requirement}>
+									{shortage}
+								</div>
+							) || null
+						}
+					</div>
 				</div>
 			</div>
 		</div>

@@ -5,6 +5,7 @@ import ArkItem from '../../../components/item';
 
 const ArkMaterialGroup = ({
 	stock,
+	summary = {},
 	groups,
 	resources,
 	adjustStockItem,
@@ -44,6 +45,7 @@ const ArkMaterialGroup = ({
 											tier={resources[index].tier}
 											scale={item_scale}
 											quantity={stock[resources[index].id] || 0}
+											requirement={summary[resources[index].id] || 0}
 										/>
 									</div>
 								))

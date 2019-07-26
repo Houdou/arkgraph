@@ -2,14 +2,18 @@ import React from 'preact';
 import { useState, useEffect, useMemo } from 'preact/hooks';
 import style from './style';
 import cn from 'classnames';
+import { Link } from 'preact-router/match';
 
 import ArkRow from '../../components/row';
 import ArkItem from '../../components/item';
+import PenguinLink from '../../components/penguinLink';
 
+import ArkDropRow from './components/DropRow';
 import ArkCompoundRow from './components/CompoundRow';
 import ArkRequirementRow from './components/RequirementRow';
 import ArkMaterialInput from './components/MaterialInput';
 
+import { LEVELS } from '../../models/Levels';
 import { ATTRIBUTES } from '../../models/Attributes';
 import { OPERATORS } from '../../models/Operators';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
@@ -74,6 +78,7 @@ const attributeMapping = {
 const ArkMaterials = ({
 	config,
 	data,
+	drops,
 	material_name: material_query_param,
 }) => {
 	const {
@@ -95,6 +100,11 @@ const ArkMaterials = ({
 				});
 			} catch (err) {}
 		}
+		try {
+			if (window.location.pathname !== `/materials/${name}`) {
+				window.history.pushState(null, window.document.title, `/materials/${name}`);
+			}
+		} catch (err) {}
 		setMaterialQuery_raw(name);
 	};
 
@@ -146,6 +156,23 @@ const ArkMaterials = ({
 			* (Number(compound.required) || 1)
 	);
 
+	const item_drops = material && drops.filter(({ itemId }) => itemId === String(material.unique_id));
+	const source_levels = material && Object.entries(material.source).map(([k, v]) => LEVELS.find(({ level }) => k === level));
+	const level_drops = item_drops && source_levels
+		&& item_drops
+			.map(drop => {
+				const level = source_levels.find(({ unique_id }) => drop.stageId === unique_id);
+				if (level) {
+					return {
+						...drop,
+						energy: level.energy,
+						level: level.level,
+					};
+				}
+				return null;
+			})
+			.filter(Boolean);
+
 	const global_props = {
 		config,
 		stock,
@@ -184,6 +211,37 @@ const ArkMaterials = ({
 					</div>
 				)}
 				{
+					material_query && material && level_drops && level_drops.length > 0 && (
+						<div class={style.section}>
+							<div class={style.section_header}>
+								<span>掉落</span>
+							</div>
+							<div class={style.drops}>
+								<div class={style.penguin_link}>
+									<PenguinLink category="item" id={material.unique_id} render={'查看完整掉率'} />
+								</div>
+								<ArkRow
+									cells={
+										[
+											{ content: '关卡' },
+											{ content: '理智消耗' },
+											{ content: '掉落率' },
+											{ content: '单个掉落期望', fullwidth: true },
+										]
+									}
+									sticky
+									disable_hover
+								/>
+								{
+									material_query && level_drops.map((drop, index) => (
+										<ArkDropRow {...drop} />
+									))
+								}
+							</div>
+						</div>
+					)
+				}
+				{
 					material_query && material && Object.entries(material.formula).length > 0 && (
 						<div class={style.section}>
 							<div class={style.section_header}>
@@ -193,11 +251,13 @@ const ArkMaterials = ({
 								{
 									Object.entries(material.formula).map(([resource, quantity], index) => (
 										<div class={style.formula_cell}>
-											<ArkItem
-												id={resource}
-												tier={`T${resource.substr(2, 1)}`}
-												scale={0.3}
-											/>
+											<Link href={`/materials/${resource}`}>
+												<ArkItem
+													id={resource}
+													tier={`T${resource.substr(2, 1)}`}
+													scale={0.3}
+												/>
+											</Link>
 											<span>x</span>
 											<span
 												class={cn(

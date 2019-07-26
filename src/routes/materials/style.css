@@ -93,7 +93,21 @@
   background-color: #111;
 }
 
-.query, .formula, .filters, .table, .upgrades, .summary {
+.drops {
+	position: relative;
+}
+.penguin_link {
+	position: absolute;
+	top: -48px;
+	right: 16px;
+	height: 36px;
+	padding: 8px 16px 8px 12px;
+	font-size: 16px;
+	background-color: #222;
+	margin-bottom: 12px;
+}
+
+.query, .formula, .drops, .filters, .table, .upgrades, .summary {
 	width: 860px;
 	min-width: 860px;
 	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
@@ -208,7 +222,14 @@
 		font-size: 16px;
 	}
 
-	.query, .formula, .filters, .table, .upgrades, .summary {
+	.penguin_link {
+		top: -37px;
+		right: 0;
+		background: none;
+		margin: 0;
+	}
+
+	.query, .formula, .drops, .filters, .table, .upgrades, .summary {
 		padding: 8px;
 		width: 100%;
 		min-width: unset;

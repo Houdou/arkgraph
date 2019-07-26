@@ -86,7 +86,7 @@
 	transform: translate(0, 1px);
 }
 
-.drop, .stock, .stock_options {
+.drops, .stock, .stock_options {
 	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
 	padding: 20px 24px;
 
@@ -96,13 +96,13 @@
 	justify-content: flex-start;
 }
 
-.drop {
+.drops {
 	position: relative;
 }
 
 .penguin_link {
 	position: absolute;
-	top: 12px;
+	top: -48px;
 	right: 12px;
 	height: 36px;
 	padding: 8px 16px 8px 12px;
@@ -193,21 +193,21 @@
 		left: -8px;
 	}
 
-	.drop, .stock, .stock_options {
+	.drops, .stock, .stock_options {
 		padding: 8px;
 		width: 100%;
 		min-width: unset;
 		background: rgba(238, 238, 238, 0.07);
 		padding-right: unset;
 		flex-wrap: wrap;
-		overflow-x: scroll;
-		overflow-y: auto;
 		width: 100%;
 	}
 
 	.penguin_link {
-		top: 0;
+		top: -37px;
 		right: 0;
+		background: none;
+		margin: 0;
 	}
 
 	.stock_options {

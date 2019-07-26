@@ -2,6 +2,7 @@ import React from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import style from './style';
 import cn from 'classnames';
+import { Link } from 'preact-router/match';
 
 import ArkRow from '../../components/row';
 import ArkItem from '../../components/item';
@@ -65,6 +66,11 @@ const ArkOperatorTable = ({
 				});
 			} catch (err) {}
 		}
+		try {
+			if (window.location.pathname !== `/operator/${name}`) {
+				window.history.pushState(null, window.document.title, `/operator/${name}`);
+			}
+		} catch (err) {}
 		setOperator_raw(name);
 	};
 
@@ -386,11 +392,13 @@ const ArkOperatorTable = ({
 							{
 								summary.map(({ resource, quantity }) => (
 									<div class={style.requirement_cell}>
-										<ArkItem
-											id={resource}
-											tier={`T${resource.substr(2, 1)}`}
-											scale={0.25}
-										/>
+										<Link href={`/materials/${resource}`}>
+											<ArkItem
+												id={resource}
+												tier={`T${resource.substr(2, 1)}`}
+												scale={0.25}
+											/>
+										</Link>
 										<span>x</span>
 										<span
 											class={cn(
