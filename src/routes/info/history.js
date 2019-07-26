@@ -1,7 +1,58 @@
 import React from 'preact';
 const { Fragment } = React;
 
+import AutoPrint from './autoPrint';
+const printer = props => (
+	<AutoPrint
+		data={[
+			['控制中枢更新中','','.','','.','','.','','.','','.','','.',''],
+			['1 更新可用：'],
+			['-',' ','与【企鹅物流数据统计】的神经连接已可用！'],
+			[''],
+			['正在尝试与Penguin-Stats.io建立神经连接'],
+			['========================================'],
+			['[0/3]校验递质浓度','.','','.','','.','','','正常'],
+			['[1/3]检查神经连接','.','.','.','','正常'],
+			['[2/3]接收反馈信息','.','.','.','0%','.','.','.','70%','.','.','.','完成'],
+			['','','[3/3]', '已建立神经连接.'],
+			['========================================'],
+			['','','','','',''],
+			['更新完成，请开启材料卡片查看掉落数据'],
+		]}
+		speed={200}
+		show={!props.showAnnouncementCodeOnce}
+		setShow={props.toggleShowAnnouncementCodeOnce}
+	/>
+);
+
 export const announcement = {
+	'2019-07-27': (
+		<Fragment>
+			<p>
+			在<a href="/backup">【数据导出】</a>中添加了<a target="_blank" rel="noopener noreferrer" href="https://planner.penguin-stats.io/">ArkPlanner</a>的数据格式导出功能<br />
+			之后会整合进来，先放出来手动导出的版本
+			</p>
+			<p>2019-07-09</p>
+			<h3>
+				<a style={{
+					color: '#0CC3E7',
+				}} target="_blank" rel="noreferrer noopener" href="https://www.weibo.com/1146775001/HCRa62aoa"
+				>微博抽奖中~，欢迎来转~</a>
+			</h3>
+		更新了新干员数据~，陈sir来了~<br />
+		更新了第五章的掉落数据~<br />
+			<p>2019-07-06</p>
+		加了个暂时隐藏需求的按钮，方便大家专注于目前培养的需求行~<br />
+			<p>2019-06-22</p>
+			<p>
+				现在具体关卡掉率会显示在材料卡片底下了<br />
+				数据来自于<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a><br />
+				<h2>项目现已改名【干员培养表】</h2><br />
+				现在的功能已经不止是材料计算器了，感觉更偏向于规划干员培养，管理材料库存<br />
+				改个名字，<del>增加品牌辨识度（</del><br />
+			</p>
+		</Fragment>
+	),
 	'2019-06-22': (
 		<Fragment>
 			<p>2019-06-18</p>
@@ -83,6 +134,32 @@ export const announcement = {
 
 const ArkHistory = () => (
 	<div>
+		<h3>V1.4.0</h3>
+		<ul>
+			<li>增加了材料筛选功能</li>
+			<li>增加了经验值数值显示</li>
+			<li>优化移动端显示</li>
+			<li>默认设置合成4、5级材料</li>
+		</ul>
+		<h3>V1.3.3</h3>
+		<ul>
+			<li>修复了材料反查的需求数量显示Bug</li>
+			<li>为计算器，干员培养，材料反查改善了移动端布局适配</li>
+		</ul>
+		<h3>V1.3.2</h3>
+		<ul>
+			<li>增加了材料反查.β</li>
+		</ul>
+		<h3>V1.3.1</h3>
+		<ul>
+			<li>改进了合成需求的数量显示文字</li>
+			<li>改善了部分UI交互</li>
+		</ul>
+		<h3>V1.3.0</h3>
+		<ul>
+			<li>增加了干员培养界面</li>
+			<li>干员培养界面显示干员升级消耗材料统计</li>
+		</ul>
 		<h3>V1.2.7</h3>
 		<ul>
 			<li>增加了干员升级的计算</li>

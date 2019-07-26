@@ -1,7 +1,10 @@
 import React from 'preact';
 
 const ArkPlanner = () => (
-	<span>神经递质分泌中……</span>
+	<div>
+		<div>神经递质合成中……</div>
+		<small>Powered by ArkPlanner & ARK-NIGHTS.com</small>
+	</div>
 );
 
 export default ArkPlanner;

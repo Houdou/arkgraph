@@ -1,10 +1,8 @@
 import React from 'preact';
 import style from './style';
 
-import AutoPrint from './autoPrint';
-import ArkMaterialCard from '../../components/materialCard';
-
 import { STORAGE_VERSION } from '../../config/useConfig';
+import ArkItem from '../../components/item';
 
 const Info = (props) => (
 	<div class={style.wrapper}>
@@ -13,100 +11,29 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
-			<p>2019-07-18</p>
+			<p>2019-07-27</p>
 			<p>
-				在<a href="/backup">【数据导出】</a>中添加了<a target="_blank" rel="noopener noreferrer" href="https://planner.penguin-stats.io/">ArkPlanner</a>的数据格式导出功能<br />
-				之后会整合进来，先放出来手动导出的版本
+				增加了一些材料和关卡的链接，现在查询页面大部分名称图标都可以直接跳到对应材料/干员的详情页<br /><br />
+				【库存整理.β】页面已经拆分到<a href="/farming">【刷图】</a>与<a href="/stock">【库存】</a><br />
+				后台数据显示大部分人选择使用仓库顺序显示，已经更改了材料列表的默认显示选项~<br />
+				（这样列表确实会短很多<br /><br />
+				此外，给【刷图】和【库存】页面里的材料添加了红色的数字标<br />
+				和材料卡片里的红色背景数字的语义一样，表示现在缺少多少个<br /><br />
+				举个🌰：
+				<div style={{ height: '56px', padding: '44px 24px', position: 'relative' }}>
+					<ArkItem
+						id="M-3-8"
+						tier="T4"
+						scale={0.46}
+						quantity={2}
+						requirement={14}
+					/>
+					<span style={{ position: 'absolute', left: '100px', bottom: '16px' }}>←这个（<small>要吃14个锰的陨星……</small></span>
+				</div>
+				<br /><br />
+				也有不少用户在用ArkPlanner，这边会开始进行进一步的整合<br />
+				做好之后，<a href="/farming">直接在培养表内</a>就可以用了<br />
 			</p>
-			<p>2019-07-09</p>
-			<h3>
-				<a style={{
-					color: '#0CC3E7',
-				}} target="_blank" rel="noreferrer noopener" href="https://www.weibo.com/1146775001/HCRa62aoa"
-				>微博抽奖中~，欢迎来转~</a>
-			</h3>
-			更新了新干员数据~，陈sir来了~<br />
-			更新了第五章的掉落数据~<br />
-			<p>2019-07-06</p>
-			加了个暂时隐藏需求的按钮，方便大家专注于目前培养的需求行~<br />
-			<p>2019-06-22</p>
-			<p>
-				<AutoPrint
-					data={[
-						['控制中枢更新中','','.','','.','','.','','.','','.','','.',''],
-						['1 更新可用：'],
-						['-',' ','与【企鹅物流数据统计】的神经连接已可用！'],
-						[''],
-						['正在尝试与Penguin-Stats.io建立神经连接'],
-						['========================================'],
-						['[0/3]校验递质浓度','.','','.','','.','','','正常'],
-						['[1/3]检查神经连接','.','.','.','','正常'],
-						['[2/3]接收反馈信息','.','.','.','0%','.','.','.','70%','.','.','.','完成'],
-						['','','[3/3]', '已建立神经连接.'],
-						['========================================'],
-						['','','','','',''],
-						['更新完成，请开启材料卡片查看掉落数据'],
-					]}
-					speed={200}
-					show={!props.showAnnouncementCodeOnce}
-					setShow={props.toggleShowAnnouncementCodeOnce}
-				/>
-			</p>
-			{
-				props.showAnnouncementCodeOnce && (
-					<p>
-						<a href="#" onClick={e => {
-							try {
-								global.ga('send', {
-									hitType: 'event',
-									eventCategory: 'autoprint',
-									eventAction: 'replay',
-								});
-							} catch (err) {}
-							props.toggleShowAnnouncementCodeOnce(false);
-						}}
-						>再一次再一次（</a><br /><br />
-						现在具体关卡掉率会显示在材料卡片底下了<br />
-						数据来自于<a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a><br />
-						<div style={{ marginTop: '20px', padding: '32px', textShadow: 'none', position: 'relative', userSelect: 'none' }}>
-							举个🌰:<br />
-							<ArkMaterialCard
-								key={'M-3-10'}
-								id={'M-3-10'}
-								card_index={0}
-								class={style.card}
-								stock={{ 'M-3-10': 2 }}
-								adjustStockItem={e => e}
-								summary={{ 'M-3-10': 5 }}
-								shortage={{ 'M-3-10': 3 }}
-								toggleFocusMaterial={e => e}
-								addFocusMaterials={e => e}
-								compound_materials={{}}
-								compounded={false}
-								toggleCompoundMaterial={e => e}
-								compoundMaterial={e => e}
-								drops={[
-									{ itemId: '30103', times: 2296, quantity: 650, stageId: 'main_02-10' },
-									{ itemId: '30103', times: 2554, quantity: 734, stageId: 'main_04-09' },
-								]}
-							/>
-							<div style={{
-								position: 'absolute',
-								left: '100px',
-								top: '200px',
-								backgroundColor: 'rgba(130, 60, 60, 0.2)',
-								width: '184px',
-								height: '80px',
-								zIndex: 9999,
-							}}
-							/>
-						</div>
-						<h2>项目现已改名【干员培养表】</h2><br />
-						现在的功能已经不止是材料计算器了，感觉更偏向于规划干员培养，管理材料库存<br />
-						改个名字，<del>增加品牌辨识度（</del><br />
-					</p>
-				)
-			}
 			<hr />
 			<p>
 				<h2>关于访问量</h2>
@@ -201,10 +128,10 @@ const Info = (props) => (
 				<li>材料筛选显示</li>
 				<li>关联【企鹅物流数据统计】掉落概率</li>
 				<li>材料查询页面的筛选功能</li>
+				<li>其他筛选选项</li>
 			</ul>
 			<h3>待实现功能</h3>
 			<ul>
-				<li>其他筛选选项</li>
 				<li>增加键盘快捷键</li>
 				<li>添加关卡详细物品掉落数量，示例可以参考龙门币材料卡片</li>
 				<li>……</li>
@@ -215,6 +142,14 @@ const Info = (props) => (
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.6.0</h3>
+			<ul>
+				<li>增加了站内的关卡、材料、干员链接，可以直接点击跳转查询（库存页材料除外）</li>
+				<li>增加了【刷图】页面</li>
+				<li>重新规划了刷图与库存页面功能</li>
+				<li>增加了材料的需求数量显示</li>
+				<li>为与ArkPlanner整合做准备</li>
+			</ul>
 			<h3>V1.5.4</h3>
 			<ul>
 				<li>增加了ArkPlanner的数据格式导出</li>
@@ -239,32 +174,10 @@ const Info = (props) => (
 				<li>增加了采购凭证</li>
 				<li>增加了一键追踪材料功能</li>
 			</ul>
-			<h3>V1.4.0</h3>
-			<ul>
-				<li>增加了材料筛选功能</li>
-				<li>增加了经验值数值显示</li>
-				<li>优化移动端显示</li>
-				<li>默认设置合成4、5级材料</li>
-			</ul>
-			<h3>V1.3.3</h3>
-			<ul>
-				<li>修复了材料反查的需求数量显示Bug</li>
-				<li>为计算器，干员培养，材料反查改善了移动端布局适配</li>
-			</ul>
-			<h3>V1.3.2</h3>
-			<ul>
-				<li>增加了材料反查.β</li>
-			</ul>
-			<h3>V1.3.1</h3>
-			<ul>
-				<li>改进了合成需求的数量显示文字</li>
-				<li>改善了部分UI交互</li>
-			</ul>
-			<h3>V1.3.0</h3>
-			<ul>
-				<li>增加了干员培养界面</li>
-				<li>干员培养界面显示干员升级消耗材料统计</li>
-			</ul>
+			<hr />
+			<div style={{ width: '96%', textAlign: 'right' }}>
+				<small>ARK-NIGHTS.com by Houdou</small>
+			</div>
 		</div>
 	</div>
 );
