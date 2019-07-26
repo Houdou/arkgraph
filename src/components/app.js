@@ -11,6 +11,7 @@ import ArkTable from '../routes/table';
 import ArkOperator from '../routes/operator';
 import ArkMaterials from '../routes/materials';
 import ArkStock from '../routes/stock';
+import ArkFarming from '../routes/farming';
 import ArkBackup from '../routes/backup';
 
 import useData from '../models/useData';
@@ -71,7 +72,8 @@ const App = (props) => {
 				/>
 				<ArkOperator path="/operator/:operator_name?" config={config} data={data} />
 				<ArkMaterials path="/materials/:material_name?" config={config} data={data} drops={drops} />
-				<ArkStock path="/stock/:level_id?" config={config} data={data} />
+				<ArkFarming path="/farming/:level_id?" config={config} data={data} />
+				<ArkStock path="/stock" config={config} data={data} />
 				<ArkBackup path="/backup" state={data.state} load={data.load} />
 			</Router>
 		</div>

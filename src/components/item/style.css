@@ -44,6 +44,7 @@
 }
 .quantity, .requirement {
   text-align: center;
+  white-space: nowrap;
 }
 
 .item, .card {

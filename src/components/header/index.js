@@ -26,9 +26,10 @@ const Header = ({
 			<nav>
 				<Link activeClassName={style.active} href="/">首页</Link>
 				<Link activeClassName={style.active} href="/table">培养表</Link>
-				<Link activeClassName={style.active} href="/operator">干员查询</Link>
-				<Link activeClassName={style.active} href="/materials">材料查询</Link>
-				<Link activeClassName={style.active} href="/stock">库存整理.β</Link>
+				<Link activeClassName={style.active} href="/operator">干员</Link>
+				<Link activeClassName={style.active} href="/materials">材料</Link>
+				<Link activeClassName={style.active} href="/farming">刷图</Link>
+				<Link activeClassName={style.active} href="/stock">库存</Link>
 				<Link activeClassName={style.active} href="/backup">数据导出</Link>
 			</nav>
 		</div>

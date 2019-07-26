@@ -11,7 +11,7 @@ const DropRow= ({
 	energy,
 }) => {
 	const LevelCell = () => (
-		<Link href={`/stock/${level}`}>
+		<Link href={`/farming/${level}`}>
 			<ArkCell>
 				<span>{level}</span>
 			</ArkCell>

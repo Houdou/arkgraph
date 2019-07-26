@@ -31,7 +31,7 @@ const ArkLevelInfo = ({
 	return (
 		<div class={style.source_level}>
 			<span class={style.level}>
-				<a class={style.level_link} href={`/stock/${level}`}>{level}</a>
+				<a class={style.level_link} href={`/farming/${level}`}>{level}</a>
 			</span>
 			<span class={cn(
 				style.drop_probability,

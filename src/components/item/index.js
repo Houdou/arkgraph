@@ -5,6 +5,13 @@ import cn from 'classnames';
 import { RESOURCES } from '../../models/Resources';
 const resources_available = Object.keys(RESOURCES);
 
+const parseQuantity = (quantity) => {
+	if (quantity > 10000) {
+		return `${Math.round(quantity/10000)}万`;
+	}
+	return quantity;
+};
+
 const ArkItem = (props) => {
 	const material_id = resources_available.includes(props.id) ? props.id : '404';
 	const card_tier = /^T[123456]$/.test(props.tier) ? props.tier : 'T1';
@@ -38,14 +45,14 @@ const ArkItem = (props) => {
 						{
 							props.quantity && props.quantity !== 0 && (
 								<div class={style.quantity}>
-									{props.quantity}
+									{parseQuantity(props.quantity)}
 								</div>
 							) || null
 						}
 						{
 							shortage && shortage !== 0 && (
 								<div class={style.requirement}>
-									{shortage}
+									{parseQuantity(shortage)}
 								</div>
 							) || null
 						}

@@ -1,0 +1,42 @@
+.material_group_name {
+	width: 100px;
+	max-width: 100px;
+	white-space: nowrap;
+	padding: 8px 24px 8px 28px;
+	font-size: 16px;
+	background-color: #222;
+	margin-bottom: 12px;
+	position: relative;
+	left: -36px;
+}
+
+.material_group_name:after {
+	content: '';
+	position: absolute;
+	width: 64px;
+	height: 100%;
+	background: linear-gradient(to right, rgba(34, 34, 34, 1) 0%, rgba(34, 34, 34, 0.6) 40%, rgba(34, 34, 34, 0) 100%);
+	top: 0;
+	right: -64px;
+}
+
+.material_group_materials {
+	margin-top: 18px;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+
+.material_group_item {
+	width: 84px;
+	height: 96px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .material_group_name {
+    left: -8px;
+  }
+}
