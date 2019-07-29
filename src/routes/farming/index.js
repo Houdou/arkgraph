@@ -74,7 +74,7 @@ const ArkFarming = ({
 			try {
 				global.ga('send', {
 					hitType: 'event',
-					eventCategory: 'stock_level_filter',
+					eventCategory: 'farming_level_filter',
 					eventAction: 'query',
 					eventLabel: id,
 				});
