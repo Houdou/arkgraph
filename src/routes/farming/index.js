@@ -169,7 +169,7 @@ const ArkFarming = ({
 									item_scale={item_scale}
 									adjustStockItem={adjustStockItem}
 									groups={{
-										normal_drop: { render: '普通掉落', list: level_drop_resources.normal_drop },
+										normal_drop: { render: '常规掉落', list: level_drop_resources.normal_drop },
 										special_drop: { render: '特殊掉落', list: level_drop_resources.special_drop },
 										extra_drop: { render: '额外掉落', list: level_drop_resources.extra_drop },
 									}}
