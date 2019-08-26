@@ -11,6 +11,12 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-08-26</p>
+			这段时间在忙着开发【PRTS.Map】，一直没有更新培养表。现在地图查看工具正式发布啦~<br />
+			欢迎大家来试用~：<br />
+			<b><a target="_blank" rel="noreferrer noopener" href="https://map.ark-nights.com/">Map.Ark-Nights.com</a></b><br />
+			这边等夏活开始之后会更新新干员数据的~
+			<br />
 			<p>2019-07-27</p>
 			<p>
 				增加了一些材料和关卡的链接，现在查询页面大部分名称图标都可以直接跳到对应材料/干员的详情页<br /><br />
