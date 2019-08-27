@@ -11,6 +11,9 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-08-27</p>
+			新干员已添加
+			<br />
 			<p>2019-08-26</p>
 			这段时间在忙着开发【PRTS.Map】，一直没有更新培养表。现在地图查看工具正式发布啦~<br />
 			欢迎大家来试用~：<br />
