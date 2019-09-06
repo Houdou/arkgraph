@@ -2,7 +2,7 @@
   "private": true,
   "name": "arkgraph",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "scripts": {
     "start": "per-env",
     "start:production": "npm run -s serve",
