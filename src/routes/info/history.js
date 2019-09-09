@@ -2,6 +2,8 @@ import React from 'preact';
 const { Fragment } = React;
 
 import AutoPrint from './autoPrint';
+import ArkItem from '../../components/item';
+
 const printer = props => (
 	<AutoPrint
 		data={[
@@ -26,6 +28,39 @@ const printer = props => (
 );
 
 export const announcement = {
+	'2019-08-27': (
+		<Fragment>
+			<p>2019-08-26</p>
+		这段时间在忙着开发【PRTS.Map】，一直没有更新培养表。现在地图查看工具正式发布啦~<br />
+		欢迎大家来试用~：<br />
+			<b><a target="_blank" rel="noreferrer noopener" href="https://map.ark-nights.com/">Map.Ark-Nights.com</a></b><br />
+		这边等夏活开始之后会更新新干员数据的~
+			<br />
+			<p>2019-07-27</p>
+			<p>
+			增加了一些材料和关卡的链接，现在查询页面大部分名称图标都可以直接跳到对应材料/干员的详情页<br /><br />
+			【库存整理.β】页面已经拆分到<a href="/farming">【刷图】</a>与<a href="/stock">【库存】</a><br />
+			后台数据显示大部分人选择使用仓库顺序显示，已经更改了材料列表的默认显示选项~<br />
+			（这样列表确实会短很多<br /><br />
+			此外，给【刷图】和【库存】页面里的材料添加了红色的数字标<br />
+			和材料卡片里的红色背景数字的语义一样，表示现在缺少多少个<br /><br />
+			举个🌰：
+				<div style={{ height: '56px', padding: '44px 24px', position: 'relative' }}>
+					<ArkItem
+						id="M-3-8"
+						tier="T4"
+						scale={0.46}
+						quantity={2}
+						requirement={14}
+					/>
+					<span style={{ position: 'absolute', left: '100px', bottom: '16px' }}>←这个（<small>要吃14个锰的陨星……</small></span>
+				</div>
+				<br /><br />
+			也有不少用户在用ArkPlanner，这边会开始进行进一步的整合<br />
+			做好之后，<a href="/farming">直接在培养表内</a>就可以用了<br />
+			</p>
+		</Fragment>
+	),
 	'2019-07-27': (
 		<Fragment>
 			<p>
