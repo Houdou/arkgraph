@@ -10,21 +10,24 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-09-10</p>
+			流量还是超了…………为了不中止服务，已经老老实实交了流量费用了（<br />
+			<del>抽老爷子还沉了，QAQ</del><br />
+			<br />
 			<p>2019-09-09</p>
 			火蓝之心Part.2 新干员已添加<br />
-			<b>由于服务器流量即将耗尽，【PRTS.Map】将暂时关闭，请谅解</b><br />
-			开放后会在此页面通知<br />
-			地址不会变更，可以保留收藏夹里的链接的~<br />
+			<del><b>由于服务器流量即将耗尽，【PRTS.Map】将暂时关闭，请谅解</b></del><br />
 			<br />
 			<hr />
 			<p>
 				<h2>关于访问量</h2>
 				感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
 				服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
-				<small>（小声）</small>在右边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
-				<a class={style.tip_link} href="../../assets/tip.png">打赏/捐助二维码
-					<img class={style.tip} src="../../assets/tip.png" alt="reward_author" />
-				</a>
+				<small>（小声）</small>在下边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
+				<div class={style.tips}>
+					<img class={style.tip} src="../../assets/tip_ali.png" alt="reward_author" />
+					<img class={style.tip} src="../../assets/tip_wechat.png" alt="reward_author" />
+				</div>
 			</p>
 			<hr />
 			<h2>关于项目</h2>

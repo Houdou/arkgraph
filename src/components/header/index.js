@@ -30,7 +30,7 @@ const Header = ({
 				<Link activeClassName={style.active} href="/materials">材料</Link>
 				<Link activeClassName={style.active} href="/farming">刷图</Link>
 				<Link activeClassName={style.active} href="/stock">库存</Link>
-				<a href="#" style={{ opacity: 0.2 }}>地图查看
+				<a href="https://map.ark-nights.com">地图查看
 					<img src="../../assets/icons/external.png" alt="external" style={{ margin: '0 0 0 4px', width: '12px', height: '12px' }} />
 				</a>
 				<Link activeClassName={style.active} href="/backup">数据导出</Link>

@@ -53,21 +53,15 @@
   margin: 0
 }
 
-.tip_link {
-  position: relative;
-  text-decoration: underline;
+.tips {
+  margin: 16px auto;
+  display: flex;
+  justify-content: center;
 }
 .tip {
-  width: 360px;
-  position: absolute;
-  bottom: 32px;
-  left: 0;
-  margin-left: -140px;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.tip_link:hover .tip:not(:hover) {
-  opacity: 1;
+  margin: 0 10px;
+  width: 160px;
+  height: 200px;
 }
 
 @media screen and (max-width: 601px) {
