@@ -10,6 +10,15 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-09-11</p>
+			在<a href="/farming">【刷图】</a>页面整合了ArkPlanner<br />
+			目前会合计所有标记为<b>显示</b>状态的需求行计算需求<br />
+			可以通过在【培养表】页面开关单个需求来调整<br />
+			<br />
+			此外，【PRTS.Map】部署了一个镜像站：<a target="_blank" href="https://mapcn.ark-nights.com">MapCN.Ark-Nights.com</a><br />
+			国内访问镜像站的话应该会更快一点<br />
+
+			<br />
 			<p>2019-09-10</p>
 			流量还是超了…………为了不中止服务，已经老老实实交了流量费用了（<br />
 			<del>抽老爷子还沉了，QAQ</del><br />
@@ -127,6 +136,11 @@ const Info = (props) => (
 			</ul>
 			<hr />
 			<h2>更新日志</h2>
+			<h3>V1.7.0</h3>
+			<ul>
+				<li>整合了ArkPlanner</li>
+				<li>修复了企鹅数据的部分链接</li>
+			</ul>
 			<h3>V1.6.0</h3>
 			<ul>
 				<li>增加了站内的关卡、材料、干员链接，可以直接点击跳转查询（库存页材料除外）</li>
