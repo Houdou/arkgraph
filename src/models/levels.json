@@ -34,7 +34,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-01"
+    "unique_id": "main_00-01",
+    "zone_id": "main_0"
   },
   {
     "level": "0-2",
@@ -71,7 +72,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-02"
+    "unique_id": "main_00-02",
+    "zone_id": "main_0"
   },
   {
     "level": "0-3",
@@ -108,7 +110,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-03"
+    "unique_id": "main_00-03",
+    "zone_id": "main_0"
   },
   {
     "level": "0-4",
@@ -145,7 +148,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-04"
+    "unique_id": "main_00-04",
+    "zone_id": "main_0"
   },
   {
     "level": "0-5",
@@ -182,7 +186,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-05"
+    "unique_id": "main_00-05",
+    "zone_id": "main_0"
   },
   {
     "level": "0-6",
@@ -219,7 +224,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-06"
+    "unique_id": "main_00-06",
+    "zone_id": "main_0"
   },
   {
     "level": "0-7",
@@ -261,7 +267,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-07"
+    "unique_id": "main_00-07",
+    "zone_id": "main_0"
   },
   {
     "level": "0-8",
@@ -298,7 +305,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-08"
+    "unique_id": "main_00-08",
+    "zone_id": "main_0"
   },
   {
     "level": "0-9",
@@ -340,7 +348,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-09"
+    "unique_id": "main_00-09",
+    "zone_id": "main_0"
   },
   {
     "level": "0-10",
@@ -377,7 +386,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-10"
+    "unique_id": "main_00-10",
+    "zone_id": "main_0"
   },
   {
     "level": "0-11",
@@ -419,7 +429,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_00-11"
+    "unique_id": "main_00-11",
+    "zone_id": "main_0"
   },
   {
     "level": "1-1",
@@ -456,7 +467,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-01"
+    "unique_id": "main_01-01",
+    "zone_id": "main_1"
   },
   {
     "level": "1-2",
@@ -464,7 +476,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "main_01-02"
+    "unique_id": "main_01-02",
+    "zone_id": "main_1"
   },
   {
     "level": "1-3",
@@ -506,7 +519,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-03"
+    "unique_id": "main_01-03",
+    "zone_id": "main_1"
   },
   {
     "level": "1-4",
@@ -543,7 +557,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-04"
+    "unique_id": "main_01-04",
+    "zone_id": "main_1"
   },
   {
     "level": "1-5",
@@ -585,7 +600,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-05"
+    "unique_id": "main_01-05",
+    "zone_id": "main_1"
   },
   {
     "level": "1-6",
@@ -627,7 +643,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-06"
+    "unique_id": "main_01-06",
+    "zone_id": "main_1"
   },
   {
     "level": "1-7",
@@ -669,7 +686,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-07"
+    "unique_id": "main_01-07",
+    "zone_id": "main_1"
   },
   {
     "level": "1-8",
@@ -711,7 +729,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-08"
+    "unique_id": "main_01-08",
+    "zone_id": "main_1"
   },
   {
     "level": "1-9",
@@ -748,7 +767,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-09"
+    "unique_id": "main_01-09",
+    "zone_id": "main_1"
   },
   {
     "level": "1-10",
@@ -785,7 +805,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-10"
+    "unique_id": "main_01-10",
+    "zone_id": "main_1"
   },
   {
     "level": "1-11",
@@ -793,7 +814,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "main_01-11"
+    "unique_id": "main_01-11",
+    "zone_id": "main_1"
   },
   {
     "level": "1-12",
@@ -835,7 +857,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_01-12"
+    "unique_id": "main_01-12",
+    "zone_id": "main_1"
   },
   {
     "level": "2-1",
@@ -877,7 +900,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-01"
+    "unique_id": "main_02-01",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-1",
@@ -919,7 +943,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-01"
+    "unique_id": "sub_02-01",
+    "zone_id": "main_2"
   },
   {
     "level": "2-2",
@@ -961,7 +986,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-02"
+    "unique_id": "main_02-02",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-2",
@@ -998,7 +1024,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-02"
+    "unique_id": "sub_02-02",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-3",
@@ -1035,7 +1062,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-03"
+    "unique_id": "sub_02-03",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-4",
@@ -1072,7 +1100,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-04"
+    "unique_id": "sub_02-04",
+    "zone_id": "main_2"
   },
   {
     "level": "2-3",
@@ -1114,7 +1143,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-03"
+    "unique_id": "main_02-03",
+    "zone_id": "main_2"
   },
   {
     "level": "2-4",
@@ -1156,7 +1186,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-04"
+    "unique_id": "main_02-04",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-5",
@@ -1198,7 +1229,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-05"
+    "unique_id": "sub_02-05",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-6",
@@ -1244,7 +1276,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-06"
+    "unique_id": "sub_02-06",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-7",
@@ -1286,7 +1319,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-07"
+    "unique_id": "sub_02-07",
+    "zone_id": "main_2"
   },
   {
     "level": "2-5",
@@ -1332,7 +1366,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-05"
+    "unique_id": "main_02-05",
+    "zone_id": "main_2"
   },
   {
     "level": "2-6",
@@ -1374,7 +1409,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-06"
+    "unique_id": "main_02-06",
+    "zone_id": "main_2"
   },
   {
     "level": "2-7",
@@ -1415,7 +1451,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-07"
+    "unique_id": "main_02-07",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-8",
@@ -1461,7 +1498,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-08"
+    "unique_id": "sub_02-08",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-9",
@@ -1507,7 +1545,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-09"
+    "unique_id": "sub_02-09",
+    "zone_id": "main_2"
   },
   {
     "level": "2-8",
@@ -1553,7 +1592,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-08"
+    "unique_id": "main_02-08",
+    "zone_id": "main_2"
   },
   {
     "level": "2-9",
@@ -1595,7 +1635,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-09"
+    "unique_id": "main_02-09",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-10",
@@ -1632,7 +1673,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-10"
+    "unique_id": "sub_02-10",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-11",
@@ -1673,7 +1715,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-11"
+    "unique_id": "sub_02-11",
+    "zone_id": "main_2"
   },
   {
     "level": "S2-12",
@@ -1711,7 +1754,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_02-12"
+    "unique_id": "sub_02-12",
+    "zone_id": "main_2"
   },
   {
     "level": "2-10",
@@ -1757,7 +1801,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_02-10"
+    "unique_id": "main_02-10",
+    "zone_id": "main_2"
   },
   {
     "level": "3-1",
@@ -1803,7 +1848,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-01"
+    "unique_id": "main_03-01",
+    "zone_id": "main_3"
   },
   {
     "level": "3-2",
@@ -1841,7 +1887,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-02"
+    "unique_id": "main_03-02",
+    "zone_id": "main_3"
   },
   {
     "level": "3-3",
@@ -1879,7 +1926,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-03"
+    "unique_id": "main_03-03",
+    "zone_id": "main_3"
   },
   {
     "level": "S3-1",
@@ -1925,7 +1973,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_03-1-1"
+    "unique_id": "sub_03-1-1",
+    "zone_id": "main_3"
   },
   {
     "level": "S3-2",
@@ -1963,7 +2012,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_03-1-2"
+    "unique_id": "sub_03-1-2",
+    "zone_id": "main_3"
   },
   {
     "level": "3-4",
@@ -2001,7 +2051,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-04"
+    "unique_id": "main_03-04",
+    "zone_id": "main_3"
   },
   {
     "level": "3-5",
@@ -2034,7 +2085,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-05"
+    "unique_id": "main_03-05",
+    "zone_id": "main_3"
   },
   {
     "level": "3-6",
@@ -2075,7 +2127,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-06"
+    "unique_id": "main_03-06",
+    "zone_id": "main_3"
   },
   {
     "level": "3-7",
@@ -2121,7 +2174,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-07"
+    "unique_id": "main_03-07",
+    "zone_id": "main_3"
   },
   {
     "level": "S3-3",
@@ -2167,7 +2221,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_03-2-1"
+    "unique_id": "sub_03-2-1",
+    "zone_id": "main_3"
   },
   {
     "level": "S3-4",
@@ -2205,7 +2260,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_03-2-2"
+    "unique_id": "sub_03-2-2",
+    "zone_id": "main_3"
   },
   {
     "level": "S3-5",
@@ -2246,7 +2302,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_03-2-3"
+    "unique_id": "sub_03-2-3",
+    "zone_id": "main_3"
   },
   {
     "level": "3-8",
@@ -2297,7 +2354,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_03-08"
+    "unique_id": "main_03-08",
+    "zone_id": "main_3"
   },
   {
     "level": "4-1",
@@ -2334,7 +2392,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-01"
+    "unique_id": "main_04-01",
+    "zone_id": "main_4"
   },
   {
     "level": "4-2",
@@ -2393,7 +2452,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-02"
+    "unique_id": "main_04-02",
+    "zone_id": "main_4"
   },
   {
     "level": "4-3",
@@ -2430,7 +2490,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-03"
+    "unique_id": "main_04-03",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-1",
@@ -2489,7 +2550,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-1-1"
+    "unique_id": "sub_04-1-1",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-2",
@@ -2530,7 +2592,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-1-2"
+    "unique_id": "sub_04-1-2",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-3",
@@ -2579,7 +2642,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-1-3"
+    "unique_id": "sub_04-1-3",
+    "zone_id": "main_4"
   },
   {
     "level": "4-4",
@@ -2626,7 +2690,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-04"
+    "unique_id": "main_04-04",
+    "zone_id": "main_4"
   },
   {
     "level": "4-5",
@@ -2677,7 +2742,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-05"
+    "unique_id": "main_04-05",
+    "zone_id": "main_4"
   },
   {
     "level": "4-6",
@@ -2724,7 +2790,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-06"
+    "unique_id": "main_04-06",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-4",
@@ -2773,7 +2840,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-2-1"
+    "unique_id": "sub_04-2-1",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-5",
@@ -2814,7 +2882,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-2-2"
+    "unique_id": "sub_04-2-2",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-6",
@@ -2863,7 +2932,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-2-3"
+    "unique_id": "sub_04-2-3",
+    "zone_id": "main_4"
   },
   {
     "level": "4-7",
@@ -2910,7 +2980,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-07"
+    "unique_id": "main_04-07",
+    "zone_id": "main_4"
   },
   {
     "level": "4-8",
@@ -2961,7 +3032,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-08"
+    "unique_id": "main_04-08",
+    "zone_id": "main_4"
   },
   {
     "level": "4-9",
@@ -3012,7 +3084,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-09"
+    "unique_id": "main_04-09",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-7",
@@ -3061,7 +3134,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-3-1"
+    "unique_id": "sub_04-3-1",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-8",
@@ -3102,7 +3176,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-3-2"
+    "unique_id": "sub_04-3-2",
+    "zone_id": "main_4"
   },
   {
     "level": "S4-9",
@@ -3151,7 +3226,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_04-3-3"
+    "unique_id": "sub_04-3-3",
+    "zone_id": "main_4"
   },
   {
     "level": "4-10",
@@ -3198,7 +3274,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_04-10"
+    "unique_id": "main_04-10",
+    "zone_id": "main_4"
   },
   {
     "level": "5-1",
@@ -3240,7 +3317,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-01"
+    "unique_id": "main_05-01",
+    "zone_id": "main_5"
   },
   {
     "level": "5-2",
@@ -3287,7 +3365,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-02"
+    "unique_id": "main_05-02",
+    "zone_id": "main_5"
   },
   {
     "level": "5-3",
@@ -3304,7 +3383,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "main_05-03"
+    "unique_id": "main_05-03",
+    "zone_id": "main_5"
   },
   {
     "level": "5-4",
@@ -3350,7 +3430,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-04"
+    "unique_id": "main_05-04",
+    "zone_id": "main_5"
   },
   {
     "level": "5-5",
@@ -3397,7 +3478,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-05"
+    "unique_id": "main_05-05",
+    "zone_id": "main_5"
   },
   {
     "level": "5-6",
@@ -3451,7 +3533,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-06"
+    "unique_id": "main_05-06",
+    "zone_id": "main_5"
   },
   {
     "level": "5-7",
@@ -3468,7 +3551,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "main_05-07"
+    "unique_id": "main_05-07",
+    "zone_id": "main_5"
   },
   {
     "level": "5-8",
@@ -3519,7 +3603,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-08"
+    "unique_id": "main_05-08",
+    "zone_id": "main_5"
   },
   {
     "level": "5-9",
@@ -3561,7 +3646,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "main_05-09"
+    "unique_id": "main_05-09",
+    "zone_id": "main_5"
   },
   {
     "level": "5-10",
@@ -3578,7 +3664,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "main_05-10"
+    "unique_id": "main_05-10",
+    "zone_id": "main_5"
   },
   {
     "level": "5-11",
@@ -3598,7 +3685,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "sub_05-1-1"
+    "unique_id": "sub_05-1-1",
+    "zone_id": "main_5"
   },
   {
     "level": "S5-2",
@@ -3647,7 +3735,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_05-1-2"
+    "unique_id": "sub_05-1-2",
+    "zone_id": "main_5"
   },
   {
     "level": "S5-3",
@@ -3660,7 +3749,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "sub_05-2-1"
+    "unique_id": "sub_05-2-1",
+    "zone_id": "main_5"
   },
   {
     "level": "S5-4",
@@ -3673,7 +3763,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "sub_05-2-2"
+    "unique_id": "sub_05-2-2",
+    "zone_id": "main_5"
   },
   {
     "level": "S5-5",
@@ -3686,7 +3777,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "sub_05-3-1"
+    "unique_id": "sub_05-3-1",
+    "zone_id": "main_5"
   },
   {
     "level": "S5-6",
@@ -3735,7 +3827,8 @@
         "probability": "小概率"
       }
     ],
-    "unique_id": "sub_05-3-2"
+    "unique_id": "sub_05-3-2",
+    "zone_id": "main_5"
   },
   {
     "level": "LS-1",
@@ -3909,7 +4002,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_fly_1"
+    "unique_id": "wk_fly_1",
+    "zone_id": "weekly_6"
   },
   {
     "level": "CA-2",
@@ -3922,7 +4016,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_fly_2"
+    "unique_id": "wk_fly_2",
+    "zone_id": "weekly_6"
   },
   {
     "level": "CA-3",
@@ -3939,7 +4034,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_fly_3"
+    "unique_id": "wk_fly_3",
+    "zone_id": "weekly_6"
   },
   {
     "level": "CA-4",
@@ -3960,7 +4056,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_fly_4"
+    "unique_id": "wk_fly_4",
+    "zone_id": "weekly_6"
   },
   {
     "level": "CA-5",
@@ -3981,7 +4078,8 @@
     ],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_fly_5"
+    "unique_id": "wk_fly_5",
+    "zone_id": "weekly_6"
   },
   {
     "level": "CE-1",
@@ -4054,7 +4152,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_armor_1"
+    "unique_id": "wk_armor_1",
+    "zone_id": "weekly_8"
   },
   {
     "level": "SK-2",
@@ -4062,7 +4161,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_armor_2"
+    "unique_id": "wk_armor_2",
+    "zone_id": "weekly_8"
   },
   {
     "level": "SK-3",
@@ -4070,7 +4170,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_armor_3"
+    "unique_id": "wk_armor_3",
+    "zone_id": "weekly_8"
   },
   {
     "level": "SK-4",
@@ -4078,7 +4179,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_armor_4"
+    "unique_id": "wk_armor_4",
+    "zone_id": "weekly_8"
   },
   {
     "level": "SK-5",
@@ -4086,7 +4188,8 @@
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [],
-    "unique_id": "wk_armor_5"
+    "unique_id": "wk_armor_5",
+    "zone_id": "weekly_8"
   },
   {
     "level": "PR-A-1",

@@ -6,16 +6,8 @@ import { STORAGE_KEY as SAVE_STORAGE_KEY } from '../../models/useData';
 import { STORAGE_KEY as CONFIG_STORAGE_KEY } from '../../config/useConfig';
 
 import Upgrade from '../../models/Upgrade';
-import { MATERIALS } from '../../models/Resources';
 import sumRequirements from '../../models/sumRequirements';
-
-const generateArkPlannerDate = (summary, stock) => MATERIALS.map(
-	({ id, name }) => ({
-		name,
-		need: summary[id] || 0,
-		have: stock[id] || 0,
-	})
-);
+import generateArkPlannerData from '../../services/arkplanner/generatePayload';
 
 const ArkDataBackup = ({
 	state,
@@ -80,7 +72,7 @@ const ArkDataBackup = ({
 	};
 
 	const summary = sumRequirements(state.records, state.stock, []);
-	const ark_planner_data = generateArkPlannerDate(summary, state.stock);
+	const ark_planner_data = generateArkPlannerData(summary, state.stock);
 
 	return (
 		<div class={style.wrapper}>

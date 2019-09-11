@@ -13,6 +13,7 @@ const ArkCell = (props) => (
 					[style.header]: props.header,
 					[style.icons_header]: props.icons_header,
 					[style.fullheight]: props.fullheight,
+					[style.stretch]: props.stretch,
 					[style.fullwidth]: props.fullwidth,
 					[style.halfwidth]: props.halfwidth,
 					[style.is_focus_material]: props.is_focus_material,
