@@ -157,6 +157,7 @@ const parseJson = (record) => {
 		extraDrop,
 		code,
 		stageId,
+		zoneId,
 	} = record;
 
 	const level = levels.find(l => l.level === code);
@@ -167,6 +168,7 @@ const parseJson = (record) => {
 	console.log(extraDrop);
 	level.extra_drop = extraDrop.map(item => mapExtraDrop(MapItem[item])).filter(Boolean);
 	level.unique_id = stageId;
+	level.zone_id = zoneId;
 	console.log(level);
 };
 

@@ -43,6 +43,10 @@
 .cell.fullheight {
 	height: 100%;
 }
+.cell.stretch {
+	align-self: stretch;
+	height: auto;
+}
 .cell.fullwidth {
 	width: 100%;
 	min-width: inherit;

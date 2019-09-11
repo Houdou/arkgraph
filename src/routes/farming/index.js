@@ -158,7 +158,7 @@ const ArkFarming = ({
 								<div class={style.penguin_link}>
 									{
 										!excluding_list.includes(level.id) && (
-											<PenguinLink category="stage" id={level.unique_id} render={'查看完整掉率'} />
+											<PenguinLink category="stage" id={`${level.zone_id}/${level.unique_id}`} render={'查看完整掉率'} />
 										)
 									}
 								</div>
@@ -246,9 +246,11 @@ const ArkFarming = ({
 					</div>
 					<div class={style.planner}>
 						<ArkPlanner
+							records={records}
 							stock={stock}
 							summary={summary}
 							planner_service={planner_service}
+							setLevelId={setLevelId}
 						/>
 					</div>
 				</div>

@@ -8,6 +8,7 @@ const ArkRow = (props) => {
 		header: props.header,
 		icons_header: props.icons_header,
 		fullheight: props.fullheight,
+		stretch: props.stretch,
 	};
 
 	return (
