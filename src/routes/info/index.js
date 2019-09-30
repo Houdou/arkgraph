@@ -10,6 +10,9 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-09-30</p>
+			添加了信用交易所聘用干员【坚雷】<br />
+			<br />
 			<p>2019-09-11</p>
 			在<a href="/farming">【刷图】</a>页面整合了ArkPlanner<br />
 			目前会合计所有标记为<b>显示</b>状态的需求行计算需求<br />
