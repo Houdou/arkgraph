@@ -12,6 +12,8 @@ const Info = (props) => (
 			<h2>公告</h2>
 			<p>2019-09-30</p>
 			添加了信用交易所聘用干员【坚雷】<br />
+			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
+			国内用户请使用CN站<br />
 			<br />
 			<p>2019-09-11</p>
 			在<a href="/farming">【刷图】</a>页面整合了ArkPlanner<br />
