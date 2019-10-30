@@ -5055,6 +5055,261 @@
     }
   },
   {
+    "name": "微风",
+    "pinyin": [
+      "wei feng",
+      "weifeng"
+    ],
+    "profession": "MEDIC",
+    "rarity": 4,
+    "skill_names": [
+      "集束疗法",
+      "扩散疗法"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-3",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "集束疗法",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "扩散疗法",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-9",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-3",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-3",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-6",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-6",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 18
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
     "name": "凛冬",
     "pinyin": [
       "lin dong",
@@ -21310,6 +21565,257 @@
           {
             "resource": "M-3-9",
             "quantity": 7
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
+    "name": "伊桑",
+    "pinyin": [
+      "yi sang",
+      "yisang"
+    ],
+    "profession": "SPECIAL",
+    "rarity": 3,
+    "skill_names": [
+      "花式回旋",
+      "十字悬挂"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "花式回旋",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 1
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "十字悬挂",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 1
+              },
+              {
+                "resource": "M-3-2",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 15000
+          },
+          {
+            "resource": "C-3-8",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 1
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
+          },
+          {
+            "resource": "C-4-8",
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 17
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 14
           }
         ]
       }
