@@ -10,6 +10,11 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-10-30</p>
+			添加了新干员
+			【<a href="/operator/微风">微风</a>】
+			【<a href="/operator/伊桑">伊桑</a>】
+			<br />
 			<p>2019-10-15</p>
 			添加了新干员
 			【<a href="/operator/麦哲伦">麦哲伦</a>】
