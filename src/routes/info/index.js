@@ -10,20 +10,19 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-11-19</p>
+			添加了新干员
+			【<a href="/operator/莫斯提马">莫斯提马</a>】
+			【<a href="/operator/槐琥">槐琥</a>】
+			【<a href="/operator/拜松">拜松</a>】
+			【<a href="/operator/梅">梅</a>】
+			<br />
 			<p>2019-10-30</p>
 			添加了新干员
 			【<a href="/operator/微风">微风</a>】
 			【<a href="/operator/伊桑">伊桑</a>】
 			<br />
-			<p>2019-10-15</p>
-			添加了新干员
-			【<a href="/operator/麦哲伦">麦哲伦</a>】
-			【<a href="/operator/炎客">炎客</a>】
-			【<a href="/operator/送葬人">送葬人</a>】
-			【<a href="/operator/红云">红云</a>】
-			<br />
 			<p>2019-09-30</p>
-			添加了信用交易所聘用干员【坚雷】<br />
 			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
 			国内用户请使用CN站<br />
 			<br />
