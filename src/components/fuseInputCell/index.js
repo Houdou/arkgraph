@@ -42,8 +42,15 @@ const ArkFuseInputCell = (props) => (
 			type="text"
 			value={props.content || props.value}
 			onChange={e => {
-				const results = fuse.search(e.target.value);
+				const query = e.target.value;
+				const results = fuse.search(query);
 				if (results.length) {
+					const exact_match = results.find(({ name, pinyin }) => name === query || pinyin.includes(query));
+					if (exact_match) {
+						props.onChange && props.onChange(exact_match.name);
+						return;
+					}
+
 					const [{ name }] = results;
 					props.onChange && props.onChange(name);
 				} else {
