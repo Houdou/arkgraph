@@ -16,6 +16,7 @@ const ArkItem = (props) => {
 	const material_id = resources_available.includes(props.id) ? props.id : '404';
 	const card_tier = /^T[123456]$/.test(props.tier) ? props.tier : 'T1';
 	const shortage = (props.requirement) ? Math.max(props.requirement - (props.quantity || 0), 0) : null;
+	const exceeded = props.show_exceeded ? Math.max((props.quantity || 0) - (props.requirement || 0), 0) : null;
 	return (
 		<div
 			class={
@@ -53,6 +54,13 @@ const ArkItem = (props) => {
 							shortage && shortage !== 0 && (
 								<div class={style.requirement}>
 									{parseQuantity(shortage)}
+								</div>
+							) || null
+						}
+						{
+							exceeded && exceeded !== 0 && (
+								<div class={style.exceeded}>
+									{parseQuantity(exceeded)}
 								</div>
 							) || null
 						}

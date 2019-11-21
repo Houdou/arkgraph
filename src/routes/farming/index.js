@@ -60,14 +60,13 @@ const ArkFarming = ({
 	const [grouping_type, setGroupingType_raw] = useState(global.grouping_type || 'default');
 	const [filter_type, setFilterType_raw] = useState(global.filter_type || 'shortage');
 
-	const itemFilter =
-		filter_type === 'shortage'
-			? item => summary[item.id] && Math.max(summary[item.id] - (stock[item.id] || 0), 0) > 0
-			: (
-				filter_type === 'required'
-				 ? item => summary[item.id]
-				 : null
-			);
+	const filters = {
+		shortage: item => summary[item.id] && Math.max(summary[item.id] - (stock[item.id] || 0), 0) > 0,
+		required: item => summary[item.id],
+		exceeded: item => Math.max((stock[item.id] || 0) - summary[item.id], 0) > 0,
+	};
+
+	const itemFilter = filters[filter_type] || null;
 
 	const setLevelId = (id) => {
 		if (id && typeof id === 'string') {
@@ -237,6 +236,7 @@ const ArkFarming = ({
 							adjustStockItem={adjustStockItem}
 							groups={material_grouping_options[grouping_type].groups}
 							filter={itemFilter}
+							filter_type={filter_type}
 						/>
 					</div>
 				</div>

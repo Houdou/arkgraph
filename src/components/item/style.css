@@ -42,6 +42,12 @@
   padding: 5px 15px;
   z-index: 9902;
 }
+.exceeded {
+  background: rgba(0, 180, 180, 0.90);
+  color: #DDD;
+  padding: 5px 15px;
+  z-index: 9902;
+}
 .quantity, .requirement {
   text-align: center;
   white-space: nowrap;

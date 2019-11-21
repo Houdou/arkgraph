@@ -53,6 +53,9 @@ const material_filter_options = {
 	shortage: {
 		render: '缺少',
 	},
+	exceeded: {
+		render: '溢出',
+	},
 };
 
 const material_list = [

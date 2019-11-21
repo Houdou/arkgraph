@@ -11,6 +11,7 @@ const ArkMaterialGroup = ({
 	adjustStockItem,
 	item_scale,
 	filter,
+	filter_type,
 }) => {
 	if (Object.keys(groups).length === 0) {
 		groups.default = {
@@ -48,6 +49,7 @@ const ArkMaterialGroup = ({
 												scale={item_scale}
 												quantity={stock[resources[index].id] || 0}
 												requirement={summary[resources[index].id] || 0}
+												show_exceeded={filter_type === 'exceeded'}
 											/>
 										</div>
 									)))
