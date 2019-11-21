@@ -14,6 +14,7 @@ import ArkFilterSettings from './sections/FilterSettings';
 
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
+import checkFulFillment from '../../models/checkFulFillment';
 import { MONEY, PURCHASE_CREDIT, EXP, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
@@ -68,12 +69,11 @@ const ArkTable = ({
 	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
 	const shortage = sumShortage(stock, summary, compound_materials);
 
-	const fulfilled_records = records.map(record =>
-		Boolean(record.requirements) &&
-		record.requirements.length > 0 &&
-		record.requirements
-			.every(({ resource, quantity }) => resource === EXP.id || stock[resource] && stock[resource] >= quantity)
-	);
+	const fulfillment_statuses = useMemo(() => checkFulFillment({
+		records,
+		stock,
+		compound_materials,
+	}), [records, stock, compound_materials]);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
 	const header_skip = 7;
@@ -146,7 +146,7 @@ const ArkTable = ({
 							update={updateRow}
 							remove={removeRow}
 							complete={completeRow}
-							fulfilled={fulfilled_records[index]}
+							fulfillment_status={fulfillment_statuses[index]}
 							{...filter_props}
 						/>
 					))

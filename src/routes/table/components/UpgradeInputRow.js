@@ -11,8 +11,25 @@ import ArkInputCell from '../../../components/inputCell';
 
 import { ATTRIBUTES } from '../../../models/Attributes';
 import { OPERATORS } from '../../../models/Operators';
+import { FULFILLMENT_STATUS } from '../../../models/checkFulFillment';
 
 import useRecord from '../../../models/useRecord';
+
+const BUTTON_STYLE_MAPPING = {
+	[FULFILLMENT_STATUS.FULFILLED]: {
+		opacity: 1,
+		background: 'unset',
+	},
+	[FULFILLMENT_STATUS.COMPOUND]: {
+		opacity: 0.6,
+		borderRadius: '50%',
+		background: '#00b0d1',
+	},
+	[FULFILLMENT_STATUS.UNSATISFIED]: {
+		opacity: 0.2,
+		background: 'usnet',
+	},
+};
 
 const ArkUpgradeInputRow = ({
 	record: init_record,
@@ -20,7 +37,7 @@ const ArkUpgradeInputRow = ({
 	update,
 	remove,
 	complete,
-	fulfilled,
+	fulfillment_status,
 	header_list,
 	header_skip,
 	resources_filter,
@@ -131,10 +148,10 @@ const ArkUpgradeInputRow = ({
 
 	const CompleteButton = (props) => (
 		<ArkCell halfwidth>
-			<ArkButton onClick={() => fulfilled && complete(record_index)}>
+			<ArkButton onClick={() => fulfillment_status === FULFILLMENT_STATUS.FULFILLED && complete(record_index)}>
 				<img src="../../../assets/icons/tick.png" alt="tick" style={{
 					height: '20px',
-					opacity: fulfilled ? 1 : 0.2,
+					...BUTTON_STYLE_MAPPING[fulfillment_status],
 				}}
 				/>
 			</ArkButton>
