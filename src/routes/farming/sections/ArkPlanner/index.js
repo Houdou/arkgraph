@@ -176,12 +176,12 @@ const ArkPlanner = ({
 										/>
 										<ArkRow disable_hover cells={[
 											{ content: '预计获得龙门币', fullwidth: true },
-											{ content: plan.gcost, fullwidth: true },
+											{ content: plan.gold, fullwidth: true },
 										]}
 										/>
 										<ArkRow disable_hover cells={[
 											{ content: '合成消耗龙门币', fullwidth: true },
-											{ content: plan.gold, fullwidth: true },
+											{ content: plan.gcost, fullwidth: true },
 										]}
 										/>
 									</div>

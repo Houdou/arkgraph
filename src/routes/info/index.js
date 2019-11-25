@@ -10,6 +10,10 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-11-26</p>
+			刷图规划里【合成消耗龙门币】和【预计获得龙门币】写反了（扶额<br />
+			感谢指出<br />
+			<br />
 			<p>2019-11-21</p>
 			响应用户需求，添加了需求可通过合成完成的提示: <br />
 			<div style={{ display: 'flex', flexFlow: 'column', padding: '8px 24px' }}>
