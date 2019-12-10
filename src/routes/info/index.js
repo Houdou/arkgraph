@@ -10,6 +10,11 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2019-12-10</p>
+			添加了新干员
+			【<a href="/operator/苇草">苇草</a>】
+			【<a href="/operator/布洛卡">布洛卡</a>】
+			<br />
 			<p>2019-11-26</p>
 			刷图规划里【合成消耗龙门币】和【预计获得龙门币】写反了（扶额<br />
 			感谢指出<br />
@@ -51,18 +56,6 @@ const Info = (props) => (
 			另外，既然日服快开了（<del>怕不是得等明年</del>），打算和【PRTS.Map】一起加一下日文界面<br />
 			不知道有没有大佬愿意帮个忙，我自己的水平去翻译的话实在有点捉急（<br />
 			下面有联系方式，欢迎来戳<br />
-			<p>2019-11-19</p>
-			添加了新干员
-			【<a href="/operator/莫斯提马">莫斯提马</a>】
-			【<a href="/operator/槐琥">槐琥</a>】
-			【<a href="/operator/拜松">拜松</a>】
-			【<a href="/operator/梅">梅</a>】
-			<br />
-			<p>2019-10-30</p>
-			添加了新干员
-			【<a href="/operator/微风">微风</a>】
-			【<a href="/operator/伊桑">伊桑</a>】
-			<br />
 			<p>2019-09-30</p>
 			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
 			国内用户请使用CN站<br />
