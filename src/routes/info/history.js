@@ -28,6 +28,51 @@ const printer = props => (
 );
 
 export const announcement = {
+	'2019-12-24': (
+		<Fragment>
+			<p>2019-11-26</p>
+			刷图规划里【合成消耗龙门币】和【预计获得龙门币】写反了（扶额<br />
+			感谢指出<br />
+			<br />
+			<p>2019-11-21</p>
+			响应用户需求，添加了需求可通过合成完成的提示: <br />
+			<div style={{ display: 'flex', flexFlow: 'column', padding: '8px 24px' }}>
+				<div style={{ display: 'flex', height: '28px', alignItems: 'center' }}>可完成：{' '}
+					<img src="../../../assets/icons/tick.png" alt="tick" style={{
+						height: '20px',
+						opacity: 1,
+					}}
+					/>
+				</div>
+				<div style={{ display: 'flex', height: '28px', alignItems: 'center' }}>可通过合成完成：{' '}
+					<img src="../../../assets/icons/tick.png" alt="tick" style={{
+						height: '20px',
+						opacity: 0.6,
+						borderRadius: '50%',
+						background: '#00b0d1',
+					}}
+					/>
+					<small>（但不能直接点击以完成……）</small>
+				</div>
+				<div style={{ display: 'flex', height: '28px', alignItems: 'center' }}>材料不足：{' '}
+					<img src="../../../assets/icons/tick.png" alt="tick" style={{
+						height: '20px',
+						opacity: 0.2,
+					}}
+					/>
+				</div>
+			</div>
+			如果<b>勾选了【折算合成材料】</b>的话，就会检查合成原料是否足够<br />
+			<br />
+			在刷图页面添加了【溢出】筛选功能<br />
+			之后有空会继续添加一些小功能，比如刷图时自动增加对应关卡的龙门币掉落数量<br />
+			或者拆分等级提升需求等等<br />
+			<br />
+			另外，既然日服快开了（<del>怕不是得等明年</del>），打算和【PRTS.Map】一起加一下日文界面<br />
+			不知道有没有大佬愿意帮个忙，我自己的水平去翻译的话实在有点捉急（<br />
+			下面有联系方式，欢迎来戳<br />
+		</Fragment>
+	),
 	'2019-08-27': (
 		<Fragment>
 			<p>2019-08-26</p>
