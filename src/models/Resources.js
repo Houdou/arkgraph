@@ -553,6 +553,63 @@ const MATERIALS = [
 		},
 		formula: {},
 	},
+	{
+		id: 'M-4-11',
+		unique_id: 31014,
+		name: '聚合凝胶',
+		pinyin: 'ju he ning jiao',
+		tier: 'T4',
+		type: 'gel',
+		source: {},
+		formula: {
+			'M-3-5': 1,
+			'M-3-11': 1,
+			'M-3-12': 1,
+			'G-4-1': 300,
+		},
+	},
+	{
+		id: 'M-3-11',
+		unique_id: 31013,
+		name: '凝胶',
+		pinyin: 'ning jiao',
+		tier: 'T3',
+		type: 'gel',
+		source: {
+			'S4-10': '小概率',
+			'S5-7': '小概率',
+		},
+		formula: {},
+	},
+	{
+		id: 'M-4-12',
+		unique_id: 31024,
+		name: '炽合金块',
+		pinyin: 'zhi he jin kuai',
+		tier: 'T4',
+		type: 'alloy',
+		source: {},
+		formula: {
+			'M-3-2': 1,
+			'M-3-9': 1,
+			'M-3-12': 1,
+			'G-4-1': 300,
+		},
+	},
+	{
+		id: 'M-3-12',
+		unique_id: 31023,
+		name: '炽合金',
+		pinyin: 'zhi he jin',
+		tier: 'T3',
+		type: 'alloy',
+		source: {
+			'6-12': '小概率',
+			'S3-6': '小概率',
+			'S5-8': '小概率',
+		},
+		formula: {},
+	},
 ];
 
 const SKILL_BOOKS = [

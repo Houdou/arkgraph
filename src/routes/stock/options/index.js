@@ -38,6 +38,8 @@ const material_grouping_options = {
 			{ value: 'sugar', render: '糖' },
 			{ value: 'iron', render: '异铁' },
 			{ value: 'ketone', render: '酮' },
+			{ value: 'gel', render: '凝胶' },
+			{ value: 'alloy', render: '合金' },
 			{ value: 'skill', render: '技巧概要' },
 			{ value: 'chip', render: '芯片' },
 		],
