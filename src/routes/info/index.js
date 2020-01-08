@@ -12,17 +12,13 @@ const Info = (props) => (
 			<h2>公告</h2>
 			<p>2020-01-08</p>
 			添加了新干员
-			【<a href="/operator/雪雉">雪雉</a>】
+			【<a href="/operator/雪雉">雪雉</a>】<br />
+			添加了活动图掉落数据<br />
 			<p>2019-12-24</p>
 			添加了新干员
 			【<a href="/operator/煌">煌</a>】
 			【<a href="/operator/灰喉">灰喉</a>】
 			【<a href="/operator/安比尔">安比尔</a>】
-			<br />
-			<p>2019-12-10</p>
-			添加了新干员
-			【<a href="/operator/苇草">苇草</a>】
-			【<a href="/operator/布洛卡">布洛卡</a>】
 			<br />
 			<p>2019-09-30</p>
 			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
