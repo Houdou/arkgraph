@@ -22,6 +22,22 @@ const options = {
 };
 export const fuse = new Fuse(OPERATORS, options);
 
+export const search = (query) => {
+	const results = fuse.search(query);
+	if (results.length) {
+		const exact_match = results.find(({ name, pinyin }) => name === query || pinyin.includes(query));
+		if (exact_match) {
+			return exact_match.name;
+		}
+
+		const [{ name }] = results;
+		return name;
+	}
+
+	console.log(results);
+	return null;
+};
+
 const ArkFuseInputCell = (props) => (
 	<div
 		class={
@@ -43,20 +59,8 @@ const ArkFuseInputCell = (props) => (
 			value={props.content || props.value}
 			onChange={e => {
 				const query = e.target.value;
-				const results = fuse.search(query);
-				if (results.length) {
-					const exact_match = results.find(({ name, pinyin }) => name === query || pinyin.includes(query));
-					if (exact_match) {
-						props.onChange && props.onChange(exact_match.name);
-						return;
-					}
-
-					const [{ name }] = results;
-					props.onChange && props.onChange(name);
-				} else {
-					console.log(results);
-					props.onChange && props.onChange(null);
-				}
+				const name = search(query);
+				props.onChange && props.onChange(name);
 			}}
 			onClick={e => {
 				props.onClick && props.onClick(e);
