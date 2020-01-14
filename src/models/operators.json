@@ -1920,6 +1920,326 @@
     }
   },
   {
+    "name": "年",
+    "pinyin": [
+      "nian",
+      "nian"
+    ],
+    "profession": "TANK",
+    "rarity": 5,
+    "skill_names": [
+      "锡灼",
+      "铜印",
+      "铁御"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "锡灼",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-7",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 10
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "铜印",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "铁御",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-10",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 9
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-3",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 12
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 7
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3
+    }
+  },
+  {
     "name": "塞雷娅",
     "pinyin": [
       "sai lei ya",
@@ -2870,6 +3190,326 @@
           {
             "resource": "M-4-5",
             "quantity": 5
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3
+    }
+  },
+  {
+    "name": "阿",
+    "pinyin": [
+      "a",
+      "a"
+    ],
+    "profession": "SPECIAL",
+    "rarity": 5,
+    "skill_names": [
+      "快速射击",
+      "爆发剂·γ型",
+      "爆发剂·榴莲味"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 6
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "快速射击",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-1",
+                "quantity": 11
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 9
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "爆发剂·γ型",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-12",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "爆发剂·榴莲味",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-8",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-8",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-4-11",
+            "quantity": 7
           }
         ]
       }
@@ -5440,271 +6080,16 @@
     }
   },
   {
-    "name": "暴行",
+    "name": "白金",
     "pinyin": [
-      "bao hang",
-      "baohang"
-    ],
-    "profession": "WARRIOR",
-    "rarity": 4,
-    "skill_names": [
-      "强力击·β型",
-      "微差爆破"
-    ],
-    "skills": [
-      {
-        "level": 1,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          },
-          {
-            "resource": "M-1-4",
-            "quantity": 7
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-3",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "level": 4,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-5",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 5,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-6",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 6,
-        "materials": [
-          {
-            "resource": "S-4-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-6",
-            "quantity": 2
-          },
-          {
-            "resource": "M-3-7",
-            "quantity": 4
-          }
-        ]
-      }
-    ],
-    "master_skills": [
-      {
-        "name": "强力击·β型",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 3
-              },
-              {
-                "resource": "M-3-6",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-9",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 6
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-3",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-10",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "微差爆破",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-8",
-                "quantity": 3
-              },
-              {
-                "resource": "M-3-2",
-                "quantity": 2
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-10",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-8",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-2",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-4",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "elites": [
-      {
-        "rank": 1,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 20000
-          },
-          {
-            "resource": "C-3-2",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-4",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-3",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 120000
-          },
-          {
-            "resource": "C-5-2",
-            "quantity": 3
-          },
-          {
-            "resource": "M-4-1",
-            "quantity": 9
-          },
-          {
-            "resource": "M-3-4",
-            "quantity": 18
-          }
-        ]
-      }
-    ],
-    "meta": {
-      "max_elite_rank": 2,
-      "max_master_skills": 2
-    }
-  },
-  {
-    "name": "蓝毒",
-    "pinyin": [
-      "lan du",
-      "landu"
+      "bai jin",
+      "baijin"
     ],
     "profession": "SNIPER",
     "rarity": 4,
     "skill_names": [
-      "二重射击·自动",
-      "毒液散射"
+      "攻击力强化·γ型",
+      "天马视域"
     ],
     "skills": [
       {
@@ -5724,26 +6109,13 @@
             "quantity": 4
           },
           {
-            "resource": "M-1-3",
-            "quantity": 7
+            "resource": "M-1-5",
+            "quantity": 5
           }
         ]
       },
       {
         "level": 3,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-5",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "level": 4,
         "materials": [
           {
             "resource": "S-3-1",
@@ -5751,7 +6123,20 @@
           },
           {
             "resource": "M-2-6",
-            "quantity": 4
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
           }
         ]
       },
@@ -5763,7 +6148,7 @@
             "quantity": 6
           },
           {
-            "resource": "M-3-4",
+            "resource": "M-3-3",
             "quantity": 5
           }
         ]
@@ -5776,11 +6161,11 @@
             "quantity": 6
           },
           {
-            "resource": "M-3-3",
-            "quantity": 3
+            "resource": "M-3-5",
+            "quantity": 2
           },
           {
-            "resource": "M-3-8",
+            "resource": "M-3-9",
             "quantity": 3
           }
         ]
@@ -5788,63 +6173,7 @@
     ],
     "master_skills": [
       {
-        "name": "二重射击·自动",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-5",
-                "quantity": 3
-              },
-              {
-                "resource": "M-3-4",
-                "quantity": 1
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 2
-              },
-              {
-                "resource": "M-4-5",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-1",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 5
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "毒液散射",
+        "name": "攻击力强化·γ型",
         "upgrades": [
           {
             "level": 0,
@@ -5898,6 +6227,62 @@
             ]
           }
         ]
+      },
+      {
+        "name": "天马视域",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 2
+              },
+              {
+                "resource": "M-3-5",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
       }
     ],
     "elites": [
@@ -5913,12 +6298,12 @@
             "quantity": 4
           },
           {
-            "resource": "M-2-3",
-            "quantity": 5
+            "resource": "M-2-5",
+            "quantity": 4
           },
           {
-            "resource": "M-2-1",
-            "quantity": 4
+            "resource": "M-2-4",
+            "quantity": 3
           }
         ]
       },
@@ -5934,12 +6319,12 @@
             "quantity": 3
           },
           {
-            "resource": "M-4-8",
+            "resource": "M-4-9",
             "quantity": 8
           },
           {
-            "resource": "M-3-2",
-            "quantity": 8
+            "resource": "M-3-7",
+            "quantity": 15
           }
         ]
       }
@@ -6450,6 +6835,261 @@
           {
             "resource": "M-3-8",
             "quantity": 14
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
+    "name": "暴行",
+    "pinyin": [
+      "bao hang",
+      "baohang"
+    ],
+    "profession": "WARRIOR",
+    "rarity": 4,
+    "skill_names": [
+      "强力击·β型",
+      "微差爆破"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 4
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "强力击·β型",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "微差爆破",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-2",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 9
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 18
           }
         ]
       }
@@ -10540,6 +11180,261 @@
     }
   },
   {
+    "name": "吽",
+    "pinyin": [
+      "hou",
+      "hou"
+    ],
+    "profession": "TANK",
+    "rarity": 4,
+    "skill_names": [
+      "反制治疗",
+      "反制医疗模式"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "反制治疗",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "反制医疗模式",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-10",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-3",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 7
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 15
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
     "name": "临光",
     "pinyin": [
       "lin guang",
@@ -12627,771 +13522,6 @@
           {
             "resource": "M-3-9",
             "quantity": 9
-          }
-        ]
-      }
-    ],
-    "meta": {
-      "max_elite_rank": 2,
-      "max_master_skills": 2
-    }
-  },
-  {
-    "name": "陨星",
-    "pinyin": [
-      "yun xing",
-      "yunxing"
-    ],
-    "profession": "SNIPER",
-    "rarity": 4,
-    "skill_names": [
-      "霰射弹头",
-      "高爆弹头"
-    ],
-    "skills": [
-      {
-        "level": 1,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          },
-          {
-            "resource": "M-1-6",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-2",
-            "quantity": 2
-          }
-        ]
-      },
-      {
-        "level": 4,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-1",
-            "quantity": 8
-          }
-        ]
-      },
-      {
-        "level": 5,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-5",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 6,
-        "materials": [
-          {
-            "resource": "S-4-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-6",
-            "quantity": 2
-          },
-          {
-            "resource": "M-3-7",
-            "quantity": 4
-          }
-        ]
-      }
-    ],
-    "master_skills": [
-      {
-        "name": "霰射弹头",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 2
-              },
-              {
-                "resource": "M-3-5",
-                "quantity": 3
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-8",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 4
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-2",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-4",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "高爆弹头",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 3
-              },
-              {
-                "resource": "M-3-6",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-9",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 6
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-1",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-1",
-                "quantity": 5
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "elites": [
-      {
-        "rank": 1,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 20000
-          },
-          {
-            "resource": "C-3-4",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-6",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-3",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 120000
-          },
-          {
-            "resource": "C-5-4",
-            "quantity": 3
-          },
-          {
-            "resource": "M-4-10",
-            "quantity": 7
-          },
-          {
-            "resource": "M-3-8",
-            "quantity": 14
-          }
-        ]
-      }
-    ],
-    "meta": {
-      "max_elite_rank": 2,
-      "max_master_skills": 2
-    }
-  },
-  {
-    "name": "灰喉",
-    "pinyin": [
-      "hui hou",
-      "huihou"
-    ],
-    "profession": "SNIPER",
-    "rarity": 4,
-    "skill_names": [
-      "飞羽",
-      "回流"
-    ],
-    "skills": [
-      {
-        "level": 1,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          },
-          {
-            "resource": "M-1-1",
-            "quantity": 10
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-4",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "level": 4,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-3",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "level": 5,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-2",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "level": 6,
-        "materials": [
-          {
-            "resource": "S-4-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-8",
-            "quantity": 2
-          },
-          {
-            "resource": "M-3-10",
-            "quantity": 3
-          }
-        ]
-      }
-    ],
-    "master_skills": [
-      {
-        "name": "飞羽",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 2
-              },
-              {
-                "resource": "M-3-5",
-                "quantity": 3
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-8",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 4
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-2",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-1",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "回流",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 3
-              },
-              {
-                "resource": "M-3-6",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-9",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 6
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-3",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 3
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "elites": [
-      {
-        "rank": 1,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 20000
-          },
-          {
-            "resource": "C-3-4",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-1",
-            "quantity": 7
-          },
-          {
-            "resource": "M-2-5",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 120000
-          },
-          {
-            "resource": "C-5-4",
-            "quantity": 3
-          },
-          {
-            "resource": "M-4-5",
-            "quantity": 7
-          },
-          {
-            "resource": "M-3-2",
-            "quantity": 9
-          }
-        ]
-      }
-    ],
-    "meta": {
-      "max_elite_rank": 2,
-      "max_master_skills": 2
-    }
-  },
-  {
-    "name": "白金",
-    "pinyin": [
-      "bai jin",
-      "baijin"
-    ],
-    "profession": "SNIPER",
-    "rarity": 4,
-    "skill_names": [
-      "攻击力强化·γ型",
-      "天马视域"
-    ],
-    "skills": [
-      {
-        "level": 1,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          },
-          {
-            "resource": "M-1-5",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-6",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "level": 4,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-2",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "level": 5,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-3",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "level": 6,
-        "materials": [
-          {
-            "resource": "S-4-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-5",
-            "quantity": 2
-          },
-          {
-            "resource": "M-3-9",
-            "quantity": 3
-          }
-        ]
-      }
-    ],
-    "master_skills": [
-      {
-        "name": "攻击力强化·γ型",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-6",
-                "quantity": 3
-              },
-              {
-                "resource": "M-3-3",
-                "quantity": 3
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-6",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-3",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-10",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "天马视域",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 2
-              },
-              {
-                "resource": "M-3-5",
-                "quantity": 3
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-8",
-                "quantity": 3
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 4
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-2",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-4",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "elites": [
-      {
-        "rank": 1,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 20000
-          },
-          {
-            "resource": "C-3-4",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-5",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-4",
-            "quantity": 3
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 120000
-          },
-          {
-            "resource": "C-5-4",
-            "quantity": 3
-          },
-          {
-            "resource": "M-4-9",
-            "quantity": 8
-          },
-          {
-            "resource": "M-3-7",
-            "quantity": 15
           }
         ]
       }
@@ -16707,6 +16837,771 @@
           {
             "resource": "M-3-5",
             "quantity": 14
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
+    "name": "蓝毒",
+    "pinyin": [
+      "lan du",
+      "landu"
+    ],
+    "profession": "SNIPER",
+    "rarity": 4,
+    "skill_names": [
+      "二重射击·自动",
+      "毒液散射"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-3",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "二重射击·自动",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-4",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "毒液散射",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-3",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 8
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
+    "name": "陨星",
+    "pinyin": [
+      "yun xing",
+      "yunxing"
+    ],
+    "profession": "SNIPER",
+    "rarity": 4,
+    "skill_names": [
+      "霰射弹头",
+      "高爆弹头"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-6",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 4
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "霰射弹头",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 2
+              },
+              {
+                "resource": "M-3-5",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-4",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "高爆弹头",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 7
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 14
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
+    "name": "灰喉",
+    "pinyin": [
+      "hui hou",
+      "huihou"
+    ],
+    "profession": "SNIPER",
+    "rarity": 4,
+    "skill_names": [
+      "飞羽",
+      "回流"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-1",
+            "quantity": 10
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "飞羽",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 2
+              },
+              {
+                "resource": "M-3-5",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "回流",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 7
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 7
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 9
           }
         ]
       }
