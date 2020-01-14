@@ -10,6 +10,12 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2020-01-14</p>
+			添加了新干员
+			【<a href="/operator/年">年</a>】
+			【<a href="/operator/阿">阿</a>】
+			【<a href="/operator/吽">吽</a>】
+			<br />
 			<p>2020-01-08</p>
 			添加了新干员
 			【<a href="/operator/雪雉">雪雉</a>】<br />
@@ -23,23 +29,6 @@ const Info = (props) => (
 			<p>2019-09-30</p>
 			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
 			国内用户请使用CN站<br />
-			<br />
-			<p>2019-09-11</p>
-			在<a href="/farming">【刷图】</a>页面整合了ArkPlanner<br />
-			目前会合计所有标记为<b>显示</b>状态的需求行计算需求<br />
-			可以通过在【培养表】页面开关单个需求来调整<br />
-			<br />
-			此外，【PRTS.Map】部署了一个镜像站：<a target="_blank" href="https://mapcn.ark-nights.com">MapCN.Ark-Nights.com</a><br />
-			国内访问镜像站的话应该会更快一点<br />
-
-			<br />
-			<p>2019-09-10</p>
-			流量还是超了…………为了不中止服务，已经老老实实交了流量费用了（<br />
-			<del>抽老爷子还沉了，QAQ</del><br />
-			<br />
-			<p>2019-09-09</p>
-			火蓝之心Part.2 新干员已添加<br />
-			<del><b>由于服务器流量即将耗尽，【PRTS.Map】将暂时关闭，请谅解</b></del><br />
 			<br />
 			<hr />
 			<p>
