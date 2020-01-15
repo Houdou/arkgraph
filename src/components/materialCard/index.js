@@ -1,15 +1,21 @@
 import React from 'preact';
 import cn from 'classnames';
 import style from './style';
-import { RESOURCES } from '../../models/Resources';
+import { RESOURCES, getResourceName } from '../../models/Resources';
 
 import ArkItem from '../item';
 import ArkLevelInfo from '../levelInfo';
 import PenguinLink from '../penguinLink';
 
-const parseQuantity = (quantity) => {
-	if (quantity > 10000) {
+const parseQuantity = (quantity, locale) => {
+	if (quantity > 10000 && ['zh_US', 'ja_JP'].includes(locale)) {
 		return `${Math.round(quantity/10000)}万`;
+	}
+	if (quantity > 1000000) {
+		return `${Math.round(quantity/100000) / 10}M`;
+	}
+	if (quantity > 1000) {
+		return `${Math.round(quantity/1000)}K`;
 	}
 	return quantity;
 };
@@ -17,6 +23,7 @@ const parseQuantity = (quantity) => {
 const getIngradients = (material) => Object.keys(material.formula).filter(i => i !== 'G-4-1');
 
 const ArkMaterialCard = ({
+	ir,
 	id,
 	card_index,
 	stock,
@@ -33,9 +40,9 @@ const ArkMaterialCard = ({
 }) => {
 	const material = RESOURCES[id];
 	const ingredients = getIngradients(material);
-	const stock_amount = parseQuantity(stock[id] || 0);
-	const summary_amount = parseQuantity(summary[id] || 0);
-	const shortage_amount = parseQuantity(shortage[id] || 0);
+	const stock_amount = parseQuantity(stock[id] || 0, ir.locale);
+	const summary_amount = parseQuantity(summary[id] || 0, ir.locale);
+	const shortage_amount = parseQuantity(shortage[id] || 0, ir.locale);
 	const can_compound = Object.keys(material.formula).length > 0;
 
 	const item_drops = drops.filter(({ itemId }) => itemId === String(material.unique_id));
@@ -71,19 +78,23 @@ const ArkMaterialCard = ({
 					<div class={cn(style.description, style.line)}>
 						<div class={style.section}>
 							<span class={style.black}>
-								<a href={`/materials/${material.id}`}>{material.name}</a>
+								<a href={`/materials/${material.id}`}>{getResourceName({ id: material.id, locale: ir.locale })}</a>
 							</span>
 						</div>
 						{
 							summary_amount !== 0 && (
 								compounded ? (
 									<div class={cn(style.stock)}>
-										<span class={style.grey}>需要合成</span>
-										<span class={style.black}>{`${shortage_amount}`.replace(/合成(.*)个/, '$1')}</span>
+										<span class={style.grey}>{ir('material_card-summary-need_compound', 'To compound')}</span>
+										<span class={style.black}>{
+											`${shortage_amount}`
+												.replace(ir('table-shortage-compound-prefix'), '')
+												.replace(ir('table-shortage-compound-suffix'), '')
+										}</span>
 									</div>
 								) : (
 									<div class={cn(style.stock)}>
-										<span class={style.grey}>需要</span>
+										<span class={style.grey}>{ir('material_card-summary', 'Need')}</span>
 										<span class={style.black}>{summary_amount}</span>
 									</div>
 								)
@@ -93,7 +104,7 @@ const ArkMaterialCard = ({
 					{
 						shortage_amount !== 0 && !compounded && (
 							<div class={cn(style.right_line, style.shortage)}>
-								<span class={style.grey}>缺少</span>
+								<span class={style.grey}>{ir('material_card-shortage', 'Lack')}</span>
 								<span class={style.red}>{shortage_amount}</span>
 							</div>
 						)
@@ -101,7 +112,7 @@ const ArkMaterialCard = ({
 				</div>
 				<div class={style.body}>
 					<div class={style.tag_hr}>
-						<span class={cn(style.grey, style.tag)}>关卡掉落</span>
+						<span class={cn(style.grey, style.tag)}>{ir('material_card-drop-level', 'Level drop')}</span>
 						<span class={style.hr} />
 						{
 							false && (
@@ -126,7 +137,7 @@ const ArkMaterialCard = ({
 						class={style.tag_hr}
 						onClick={e => can_compound && toggleCompoundMaterial(id)}
 					>
-						<span class={cn(compounded ? style.black : style.grey, style.tag)}>加工合成</span>
+						<span class={cn(compounded ? style.black : style.grey, style.tag)}>{ir('material_card-compound-compound', 'Compound')}</span>
 						<span class={style.hr} />
 					</div>
 					{
@@ -143,7 +154,7 @@ const ArkMaterialCard = ({
 														tier={ingredient.tier}
 														onClick={() => toggleFocusMaterial(k)}
 													/>
-													<span style={{ 'white-space': 'nowrap' }}>{parseQuantity(stock[k] || 0)}/{v}</span>
+													<span style={{ 'white-space': 'nowrap' }}>{parseQuantity(stock[k] || 0, ir.locale)}/{v}</span>
 												</div>
 											);
 										})
@@ -153,7 +164,7 @@ const ArkMaterialCard = ({
 									class={style.center_line}
 									onClick={e => compoundMaterial(id)}
 								>
-									<span class={style.compound_button}>合成一份</span>
+									<span class={style.compound_button}>{ir('material_card-compound-button', 'Compound')}</span>
 								</div>
 							</div>
 						)
@@ -167,7 +178,7 @@ const ArkMaterialCard = ({
 									<span
 										class={cn(style.inline_button, style.add_all)}
 										onClick={e => addFocusMaterials(ingredients, card_index)}
-									>追踪所有原料</span>
+									>{ir('material_card-compound-track_formula', 'Expand formula')}</span>
 									<span
 										class={cn(
 											{
@@ -182,7 +193,7 @@ const ArkMaterialCard = ({
 												addFocusMaterials(ingredients, card_index);
 											}
 										}}
-									>折算合成原料</span>
+									>{ir('material_card-compound-use_formula', 'Use compound')}</span>
 								</div>
 							</div>
 						)

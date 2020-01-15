@@ -5,7 +5,20 @@ import { RESOURCES, MATERIALS, EXP } from './Resources';
 import processRecord from './processRecord';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Save';
-const STORAGE_VERSION =  '1.0.3';
+const STORAGE_VERSION =  '2.0.0';
+
+// V1 => V2 migration
+import { findOperatorByName } from './Operators';
+const ATTRIBUTE_MAPPING = {
+	精0等级: 'LEVEL_ELITE_0',
+	精1等级: 'LEVEL_ELITE_1',
+	精2等级: 'LEVEL_ELITE_2',
+	精英阶段: 'ELITE_RANK',
+	技能等级: 'SKILL_LEVEL',
+	技能1专精: 'MASTER_SKILL_1',
+	技能2专精: 'MASTER_SKILL_2',
+	技能3专精: 'MASTER_SKILL_3',
+};
 
 const default_state = {
 	records: [],
@@ -14,6 +27,7 @@ const default_state = {
 	compound_materials: MATERIALS
 		.filter(m => ['T5', 'T4'].includes(m.tier))
 		.map(m => ({ id: m.id, options: {} })),
+	language: 'zh_CN',
 };
 
 const save = (key, state) => {
@@ -213,6 +227,27 @@ const reducer = (state, action) => {
 						...record,
 						attribute: record.attribute === '精英化' ? '精英阶段' : record.attribute,
 					}));
+
+					// V1 => V2
+					if (loaded.version.startsWith('1')) {
+						loaded.records = loaded.records.map(record => {
+							const {
+								operator: operator_name,
+								attribute,
+								...rest
+							} = record;
+							const {
+								unique_id,
+							} = findOperatorByName(operator_name);
+
+							return {
+								...rest,
+								operator_id: unique_id,
+								attribute: ATTRIBUTE_MAPPING[attribute],
+							};
+						});
+						loaded.version = STORAGE_VERSION;
+					}
 
 					if (action.payload) {
 						save(STORAGE_KEY, loaded);

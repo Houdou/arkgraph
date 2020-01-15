@@ -1,8 +1,12 @@
 import { ATTRIBUTES } from './Attributes';
-import { OPERATORS } from './Operators';
+import { OPERATORS, getSkillNames } from './Operators';
+
+import operator_i18n from '../i18n/operators.json';
 import { RESOURCES } from './Resources';
 
-const aggregateMaterialRequirement = () => {
+const aggregateMaterialRequirement = ({
+	locale,
+}) => {
 	const material_requirements = {};
 
 	Object.entries(RESOURCES).forEach(([id, material]) => {
@@ -20,55 +24,61 @@ const aggregateMaterialRequirement = () => {
 		});
 	});
 
-	OPERATORS.forEach((operator, index) => {
-		operator.skills.forEach((skill, index) => {
-			skill.materials.forEach(({ resource, quantity }) => {
-				material_requirements[resource].operator = material_requirements[resource].operator || [];
-				material_requirements[resource].operator.push({
-					operator: operator.name,
-					profession: operator.profession,
-					rarity: operator.rarity,
-					attribute: ATTRIBUTES.SKILL_LEVEL,
-					current: index + 1,
-					target: index + 2,
-					quantity,
-				});
-			});
-		});
-
-		operator.elites.forEach((elite, index) => {
-			elite.materials.forEach(({ resource, quantity }) => {
-				material_requirements[resource].operator = material_requirements[resource].operator || [];
-				material_requirements[resource].operator.push({
-					operator: operator.name,
-					profession: operator.profession,
-					rarity: operator.rarity,
-					attribute: ATTRIBUTES.ELITE_RANK,
-					current: index,
-					target: index + 1,
-					quantity,
-				});
-			});
-		});
-
-		operator.master_skills.forEach((master_skill, skill_index) => {
-			master_skill.upgrades.forEach((upgrade, level) => {
-				upgrade.materials.forEach(({ resource, quantity }) => {
+	OPERATORS
+		.filter(operator => {
+			const operator_lang = operator_i18n[operator.unique_id][locale];
+			return operator_lang && operator_lang.enabled;
+		})
+		.forEach((operator, index) => {
+			operator.skills.forEach((skill, index) => {
+				skill.materials.forEach(({ resource, quantity }) => {
 					material_requirements[resource].operator = material_requirements[resource].operator || [];
 					material_requirements[resource].operator.push({
-						operator: operator.name,
+						operator_id: operator.unique_id,
 						profession: operator.profession,
 						rarity: operator.rarity,
-						attribute: ATTRIBUTES[`MASTER_SKILL_${skill_index + 1}`],
-						render: operator.skill_names[skill_index],
-						current: level,
-						target: level + 1,
+						attribute: ATTRIBUTES.SKILL_LEVEL,
+						current: index + 1,
+						target: index + 2,
 						quantity,
 					});
 				});
 			});
+
+			operator.elites.forEach((elite, index) => {
+				elite.materials.forEach(({ resource, quantity }) => {
+					material_requirements[resource].operator = material_requirements[resource].operator || [];
+					material_requirements[resource].operator.push({
+						operator_id: operator.unique_id,
+						profession: operator.profession,
+						rarity: operator.rarity,
+						attribute: ATTRIBUTES.ELITE_RANK,
+						current: index,
+						target: index + 1,
+						quantity,
+					});
+				});
+			});
+
+			const skill_names = getSkillNames({ id: operator.unique_id, locale });
+			operator.master_skills.forEach((master_skill, skill_index) => {
+				master_skill.upgrades.forEach((upgrade, level) => {
+					upgrade.materials.forEach(({ resource, quantity }) => {
+						material_requirements[resource].operator = material_requirements[resource].operator || [];
+						material_requirements[resource].operator.push({
+							operator_id: operator.unique_id,
+							profession: operator.profession,
+							rarity: operator.rarity,
+							attribute: ATTRIBUTES[`MASTER_SKILL_${skill_index + 1}`],
+							render: skill_names[skill_index],
+							current: level,
+							target: level + 1,
+							quantity,
+						});
+					});
+				});
+			});
 		});
-	});
 
 	material_requirements['G-4-1'] = {
 		operator: [],

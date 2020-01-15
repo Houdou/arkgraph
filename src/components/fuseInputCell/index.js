@@ -4,6 +4,29 @@ import cn from 'classnames';
 import Fuse from 'fuse.js';
 
 import { OPERATORS } from '../../models/Operators';
+import operator_i18n from '../../i18n/operators.json';
+const OPERATORS_LANG = {};
+
+[
+	'zh_CN',
+	'en_US',
+	'ja_JP',
+	'ko_KR',
+].forEach(lang => {
+	OPERATORS_LANG[lang] = [];
+	OPERATORS.forEach((operator) => {
+		if (operator_i18n[operator.unique_id]) {
+			const operator_lang = operator_i18n[operator.unique_id][lang];
+			if (operator_lang && operator_lang.enabled) {
+				OPERATORS_LANG[lang].push({
+					unique_id: operator.unique_id,
+					code: operator_i18n[operator.unique_id].code,
+					...operator_lang,
+				});
+			}
+		}
+	});
+});
 
 const options = {
 	shouldSort: true,
@@ -14,27 +37,43 @@ const options = {
 	minMatchCharLength: 1,
 	keys: [{
 		name: 'name',
-		weight: 0.3,
-	}, {
-		name: 'pinyin',
 		weight: 0.7,
+	}, {
+		name: 'code',
+		weight: 0.3,
 	}],
 };
-export const fuse = new Fuse(OPERATORS, options);
 
-export const search = (query) => {
-	const results = fuse.search(query);
+const fuse_i18n = {
+	zh_CN: new Fuse(OPERATORS_LANG.zh_CN, {
+		...options,
+		keys: [{
+			name: 'name',
+			weight: 0.7,
+		}, {
+			name: 'alias',
+			weight: 0.3,
+		}],
+	}),
+	en_US: new Fuse(OPERATORS_LANG.en_US, options),
+	ja_JP: new Fuse(OPERATORS_LANG.ja_JP, options),
+	ko_KR: new Fuse(OPERATORS_LANG.ko_KR, options),
+};
+
+export const search = (query, lang) => {
+	const results = fuse_i18n[lang].search(query);
 	if (results.length) {
-		const exact_match = results.find(({ name, pinyin }) => name === query || pinyin.includes(query));
+		const exact_match = results.find(({ name, code, alias }) => name === query || code === query || alias.includes(query));
 		if (exact_match) {
-			return exact_match.name;
+			return {
+				unique_id: exact_match.unique_id,
+				name: exact_match.name,
+			};
 		}
 
-		const [{ name }] = results;
-		return name;
+		const [{ unique_id, name }] = results;
+		return { unique_id, name };
 	}
-
-	console.log(results);
 	return null;
 };
 
@@ -59,8 +98,10 @@ const ArkFuseInputCell = (props) => (
 			value={props.content || props.value}
 			onChange={e => {
 				const query = e.target.value;
-				const name = search(query);
-				props.onChange && props.onChange(name);
+				const match = search(query, props.locale || 'zh_CN');
+				if (match) {
+					props.onChange && props.onChange(match);
+				}
 			}}
 			onClick={e => {
 				props.onClick && props.onClick(e);

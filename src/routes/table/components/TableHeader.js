@@ -4,7 +4,22 @@ import ArkRow from '../../../components/row';
 import ArkCell from '../../../components/cell';
 import ArkItem from '../../../components/item';
 
+import item_i18n from '../../../i18n/items.json';
+
+const getItemName = ({ id, locale, fallback }) => {
+	const item = item_i18n[id];
+	if (item) {
+		const locale_item = item[locale];
+		if (locale_item && locale_item.enabled) {
+			const name = locale_item.name;
+			return name;
+		}
+	}
+	return fallback;
+};
+
 const ArkTableHeader = ({
+	ir,
 	config,
 	focus_materials,
 	header_list,
@@ -22,7 +37,7 @@ const ArkTableHeader = ({
 			{...props}
 		>
 			<ArkItem id={e.id} tier={e.tier} />
-			<span>{e.name}</span>
+			<span>{getItemName({ id: e.id, locale: config.locale, fallback: e.name })}</span>
 		</ArkCell>
 	);
 
@@ -30,13 +45,13 @@ const ArkTableHeader = ({
 		<ArkRow
 			cells={
 				[
-					{ content: '移除', halfwidth: true, header_level: 'T1' },
-					{ content: '完成', halfwidth: true, header_level: 'T1' },
-					{ content: '隐藏', halfwidth: true, header_level: 'T1' },
-					{ content: '干员', header_level: 'T1', force_no_shrink: true },
-					{ content: '升级项目', header_level: 'T1', force_no_shrink: true },
-					{ content: '现等级', header_level: 'T1' },
-					{ content: '目标等级', header_level: 'T1' },
+					{ content: ir('table-header-remove', ''), halfwidth: true, header_level: 'T1' },
+					{ content: ir('table-header-finish', ''), halfwidth: true, header_level: 'T1' },
+					{ content: ir('table-header-hide', ''), halfwidth: true, header_level: 'T1' },
+					{ content: ir('table-header-operator', 'Operator'), header_level: 'T1', force_no_shrink: true },
+					{ content: ir('table-header-attribute', 'Attribute'), header_level: 'T1', force_no_shrink: true },
+					{ content: ir('table-header-current', 'Current'), header_level: 'T1' },
+					{ content: ir('table-header-target', 'Target'), header_level: 'T1' },
 					...Array.from(header_list)
 						.splice(header_skip, header_list.length - header_skip)
 						.map(e => ArkIconCell(e)),

@@ -10,6 +10,7 @@ import { material_grouping_options, material_list } from './options';
 const item_scale = 0.42;
 
 const ArkStockView = ({
+	ir,
 	config,
 	data,
 	level_id: level_query,
@@ -46,14 +47,14 @@ const ArkStockView = ({
 			<div class={style.page}>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>库存</span>
+						<span>{ir('stock-stock-stock', 'Stock')}</span>
 					</div>
 					<div class={style.stock_options}>
 						<span class={cn(
 							style.material_group_name,
 							style.stock_options_header
 						)}
-						>显示</span>
+						>{ir('stock-stock-display', 'Display')}</span>
 						<div class={style.material_grouping_options}>
 							{
 								Object.entries(material_grouping_options)
@@ -69,7 +70,7 @@ const ArkStockView = ({
 												setGroupingType(grouping_option_type);
 											}}
 										>
-											<span>{grouping_option.render}</span>
+											<span>{ir(grouping_option.render)}</span>
 										</div>
 									))
 							}
@@ -77,6 +78,7 @@ const ArkStockView = ({
 					</div>
 					<div class={style.stock}>
 						<ArkMaterialsGroup
+							ir={ir}
 							stock={stock}
 							resources={material_list}
 							item_scale={item_scale}

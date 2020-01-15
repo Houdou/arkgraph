@@ -73,7 +73,7 @@
 .material_filter_option {
 	width: 100px;
 	margin-right: 20px;
-	padding: 8px 32px;
+	padding: 8px 12px;
 	text-align: center;
 	user-select: none;
 	background-color: #333;
@@ -81,6 +81,8 @@
 	font-size: 16px;
 	font-weight: 400;
 	transition: background-color 0.3s ease;
+	display: flex;
+	justify-content: center;
 }
 
 .material_grouping_option_active,

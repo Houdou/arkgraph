@@ -16,7 +16,7 @@ import ArkMaterialInput from './components/MaterialInput';
 import { LEVELS } from '../../models/Levels';
 import { ATTRIBUTES } from '../../models/Attributes';
 import { OPERATORS } from '../../models/Operators';
-import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS, findResourceByName, getResourceName } from '../../models/Resources';
 import aggregateMaterialRequirement from '../../models/aggregateMaterialRequirement';
 import useFilterSetting from '../../models/useFilterSetting';
 
@@ -29,22 +29,22 @@ const materials = [
 ];
 
 const operator_profession_material_filter_option = {
-	group: '干员职业',
+	group: 'materials-filter-profession',
 	field: 'profession',
 	options: [
-		{ value: 'PIONEER', render: '先锋' },
-		{ value: 'WARRIOR', render: '近卫' },
-		{ value: 'TANK', render: '重装' },
-		{ value: 'SNIPER', render: '狙击' },
-		{ value: 'CASTER', render: '术师' },
-		{ value: 'MEDIC', render: '医疗' },
-		{ value: 'SUPPORT', render: '辅助' },
-		{ value: 'SPECIAL', render: '特种' },
+		{ value: 'PIONEER', render: 'profession-pioneer' },
+		{ value: 'WARRIOR', render: 'profession-warrior' },
+		{ value: 'TANK', render: 'profession-tank' },
+		{ value: 'SNIPER', render: 'profession-sniper' },
+		{ value: 'CASTER', render: 'profession-caster' },
+		{ value: 'MEDIC', render: 'profession-medic' },
+		{ value: 'SUPPORT', render: 'profession-support' },
+		{ value: 'SPECIAL', render: 'profession-special' },
 	],
 };
 
 const operator_rarity_material_filter_option = {
-	group: '干员稀有度',
+	group: 'materials-filter-rarity',
 	field: 'rarity',
 	options: [
 		{ value: 2 },
@@ -58,12 +58,12 @@ const operator_rarity_material_filter_option = {
 };
 
 const upgrade_attribute_material_filter_option = {
-	group: '需求种类',
+	group: 'materials-filter-type',
 	field: 'attribute',
 	options: [
-		{ value: 'ELITE_RANK', render: '精英化' },
-		{ value: 'SKILL_LEVEL', render: '技能升级' },
-		{ value: 'MASTER_SKILL', render: '技能专精' },
+		{ value: 'ELITE_RANK', render: 'materials-filter-type-elite' },
+		{ value: 'SKILL_LEVEL', render: 'materials-filter-type-skill' },
+		{ value: 'MASTER_SKILL', render: 'materials-filter-type-master_skill' },
 	],
 };
 
@@ -76,6 +76,7 @@ const attributeMapping = {
 };
 
 const ArkMaterials = ({
+	ir,
 	config,
 	data,
 	drops,
@@ -140,7 +141,7 @@ const ArkMaterials = ({
 		&& operator_profession_material_filter.flags[profession]
 		&& upgrade_attribute_material_filter.flags[attributeMapping[attribute]];
 
-	const material_requirements = useMemo(() => aggregateMaterialRequirement(), [OPERATORS]);
+	const material_requirements = useMemo(() => aggregateMaterialRequirement({ locale: config.locale }), [OPERATORS, config.locale]);
 
 	const material = materials.find(({ id }) => id === material_query);
 
@@ -183,17 +184,18 @@ const ArkMaterials = ({
 			<div class={style.page}>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>材料</span>
+						<span>{ir('materials-material-material', 'Material')}</span>
 					</div>
 					<ArkMaterialInput
-						material={material && material.name}
+						locale={config.locale}
+						material={material && getResourceName({ id: material.id, locale: config.locale })}
 						setMaterialQuery={setMaterialQuery}
 					/>
 				</div>
 				{material && operator_sum !== 0 && (
 					<div class={style.section}>
 						<div class={style.section_header}>
-							<span>合计</span>
+							<span>{ir('materials-material-summary', 'Summary')}</span>
 						</div>
 						<div class={style.summary}>
 							<div class={style.summary_cell}>
@@ -204,7 +206,7 @@ const ArkMaterials = ({
 									quantity={stock[material.id] || 0}
 								/>
 								<span class={style.summary_quantity}>{operator_sum}{
-									compound_sum && compound_sum.length !== 0 && ` + 合成消耗${compound_sum.reduce((a, b) => (a + b), 0)}`
+									compound_sum && compound_sum.length !== 0 && ` + ${ir('materials-material-compound_requirements', 'Consumption ')}${compound_sum.reduce((a, b) => (a + b), 0)}`
 								}</span>
 							</div>
 						</div>
@@ -214,19 +216,19 @@ const ArkMaterials = ({
 					material_query && material && level_drops && level_drops.length > 0 && (
 						<div class={style.section}>
 							<div class={style.section_header}>
-								<span>掉落</span>
+								<span>{ir('materials-drop-drop', 'Drop')}</span>
 							</div>
 							<div class={style.drops}>
 								<div class={style.penguin_link}>
-									<PenguinLink category="item" id={material.unique_id} render={'查看完整掉率'} />
+									<PenguinLink category="item" id={material.unique_id} render={ir('penguin-check_full_drop_rate', 'Check full drop rate')} />
 								</div>
 								<ArkRow
 									cells={
 										[
-											{ content: '关卡' },
-											{ content: '理智消耗' },
-											{ content: '掉落率' },
-											{ content: '单个掉落期望', fullwidth: true },
+											{ content: ir('materials-drop-stage', 'Stage') },
+											{ content: ir('materials-drop-ap', 'AP') },
+											{ content: ir('materials-drop-probability', 'Probability') },
+											{ content: ir('materials-drop-expectation', 'AP estimation'), fullwidth: true },
 										]
 									}
 									sticky
@@ -245,7 +247,7 @@ const ArkMaterials = ({
 					material_query && material && Object.entries(material.formula).length > 0 && (
 						<div class={style.section}>
 							<div class={style.section_header}>
-								<span>合成公式</span>
+								<span>{ir('materials-formula-formula', 'Formula')}</span>
 							</div>
 							<div class={style.formula}>
 								{
@@ -276,15 +278,15 @@ const ArkMaterials = ({
 				}
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>合成需求</span>
+						<span>{ir('materials-compound-required', 'Compound')}</span>
 					</div>
 					<div class={style.upgrades}>
 						<ArkRow
 							cells={
 								[
-									{ content: '合成项目' },
-									{ content: '需求数量' },
-									{ content: '公式', fullwidth: true },
+									{ content: ir('materials-compound-outcome', 'Outcome') },
+									{ content: ir('materials-compound-required_quantity', 'Need') },
+									{ content: ir('materials-compound-formula', 'Formula'), fullwidth: true },
 								]
 							}
 							sticky
@@ -307,11 +309,11 @@ const ArkMaterials = ({
 				</div>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>需求一览</span>
+						<span>{ir('materials-requirements-requirements', 'Requirements')}</span>
 					</div>
 					<div class={style.filters}>
 						<div class={style.actions}>
-							<span class={style.filter_title}>{operator_profession_material_filter_option.group}</span>
+							<span class={style.filter_title}>{ir(operator_profession_material_filter_option.group, 'Profession')}</span>
 							<div class={cn(
 								style.filter_toggles,
 								style.filter_multi_lines
@@ -331,13 +333,13 @@ const ArkMaterials = ({
 												e.stopImmediatePropagation();
 												operator_profession_material_filter_setting.toggle(option_index);
 											}}
-										>{profession.render}</div>
+										>{ir(profession.render)}</div>
 									))
 								}
 							</div>
 						</div>
 						<div class={style.actions}>
-							<span class={style.filter_title}>{operator_rarity_material_filter_option.group}</span>
+							<span class={style.filter_title}>{ir(operator_rarity_material_filter_option.group, 'Rarity')}</span>
 							<div class={cn(
 								style.filter_toggles,
 								style.filter_multi_lines
@@ -369,7 +371,7 @@ const ArkMaterials = ({
 							</div>
 						</div>
 						<div class={style.actions}>
-							<span class={style.filter_title}>{upgrade_attribute_material_filter_option.group}</span>
+							<span class={style.filter_title}>{ir(upgrade_attribute_material_filter_option.group, 'Type')}</span>
 							<div class={cn(
 								style.filter_toggles,
 								style.filter_multi_lines
@@ -389,7 +391,7 @@ const ArkMaterials = ({
 												e.stopImmediatePropagation();
 												upgrade_attribute_material_filter_setting.toggle(option_index);
 											}}
-										>{attribute.render}</div>
+										>{ir(attribute.render)}</div>
 									))
 								}
 							</div>
@@ -399,11 +401,11 @@ const ArkMaterials = ({
 						<ArkRow
 							cells={
 								[
-									{ content: '干员' },
-									{ content: '升级项目' },
-									{ content: '现等级' },
-									{ content: '目标等级' },
-									{ content: '所需材料', fullwidth: true },
+									{ content: ir('materials-requirements-operator', 'Operator') },
+									{ content: ir('materials-requirements-attribute', 'Attribute') },
+									{ content: ir('materials-requirements-from_level', 'From') },
+									{ content: ir('materials-requirements-to_level', 'To') },
+									{ content: ir('materials-requirements-required_materials', 'Required materials'), fullwidth: true },
 								]
 							}
 							sticky
@@ -414,6 +416,7 @@ const ArkMaterials = ({
 								upgrade && (
 									<ArkRequirementRow
 										key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}
+										ir={ir}
 										material_query={material_query}
 										upgrade={upgrade}
 										upgrade_index={index}

@@ -1,4 +1,4 @@
-import { h } from 'preact';
+import React from 'preact';
 import { Link } from 'preact-router/match';
 import style from './style';
 import { STORAGE_VERSION } from '../../config/useConfig';
@@ -6,6 +6,7 @@ import { STORAGE_VERSION } from '../../config/useConfig';
 import Toggle from './toggle';
 
 const Header = ({
+	ir,
 	currentUrl,
 	config,
 	toggleShowAllResources,
@@ -17,23 +18,26 @@ const Header = ({
 		<div class={style.title}>
 			<h1>
 				<a href="./table">
-					<span class={style.deco}>:.:</span>  明日方舟 | 干员培养表
+					<span class={style.deco}>:.:</span>{' '}{ir('app-title', 'Arknights | Planner')}
 					<span class={style.version}>V{STORAGE_VERSION}</span>
 				</a>
 			</h1>
 		</div>
 		<div class={style.nav_group}>
 			<nav>
-				<Link activeClassName={style.active} href="/">首页</Link>
-				<Link activeClassName={style.active} href="/table">培养表</Link>
-				<Link activeClassName={style.active} href="/operator">干员</Link>
-				<Link activeClassName={style.active} href="/materials">材料</Link>
-				<Link activeClassName={style.active} href="/farming">刷图</Link>
-				<Link activeClassName={style.active} href="/stock">库存</Link>
-				<a href="https://map.ark-nights.com">地图查看
+				<Link activeClassName={style.active} href="/">{ir('header-nav-homepage', 'Homepage')}</Link>
+				<Link activeClassName={style.active} href="/table">{ir('header-nav-table', 'Table')}</Link>
+				<Link activeClassName={style.active} href="/operator">{ir('header-nav-operator', 'Operator')}</Link>
+				<Link activeClassName={style.active} href="/materials">{ir('header-nav-material', 'Material')}</Link>
+				<Link activeClassName={style.active} href="/farming">{ir('header-nav-farming', 'Farming')}</Link>
+				<Link activeClassName={style.active} href="/stock">{ir('header-nav-stock', 'Stock')}</Link>
+				<a href="https://map.ark-nights.com">{ir('header-nav-map', 'Map')}
 					<img src="../../assets/icons/external.png" alt="external" style={{ margin: '0 0 0 4px', width: '12px', height: '12px' }} />
 				</a>
-				<Link activeClassName={style.active} href="/backup">数据导出</Link>
+				<Link activeClassName={style.active} href="/settings">{ir('header-nav-settings', 'Settings')}</Link>
+				{currentUrl === '/' &&(
+					<Link activeClassName={style.active} href="/settings">{ir('header-nav-language', 'Language')}</Link>
+				)}
 			</nav>
 		</div>
 		{
@@ -44,17 +48,17 @@ const Header = ({
 						toggle={value => {
 							toggleShowFilter(!config.showFilter || value);
 						}}
-						content="筛选材料"
+						content={ir('table-options-filters', 'Filters')}
 					/>
 					<Toggle
 						value={config.showAllResources}
 						toggle={toggleShowAllResources}
-						content="显示全部资源"
+						content={ir('table-options-show_all_resources', 'Show all resources')}
 					/>
 					<Toggle
 						value={config.showFocusMaterials}
 						toggle={toggleShowFocusMaterials}
-						content="显示追踪材料"
+						content={ir('table-options-show_focusing_materials', 'Show focusing')}
 					/>
 				</div>
 			)

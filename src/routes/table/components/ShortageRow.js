@@ -3,6 +3,7 @@ import React from 'preact';
 import ArkRow from '../../../components/row';
 
 const ArkShortageRow = ({
+	ir,
 	shortage,
 	header_list,
 	header_skip,
@@ -12,7 +13,8 @@ const ArkShortageRow = ({
 		.splice(header_skip, header_list.length - header_skip)
 		.map(e => ({
 			content: shortage[e.id] || '',
-			mobile_long_text: shortage[e.id] > 99999 || `${shortage[e.id]}`.startsWith('合成'),
+			long_text: ir('table-shortage-compound-prefix', 'Compound').length > 6,
+			mobile_long_text: shortage[e.id] > 99999 || `${shortage[e.id]}`.startsWith(ir('table-shortage-compound-prefix', 'Compound')),
 		}));
 
 	return (
@@ -25,7 +27,7 @@ const ArkShortageRow = ({
 					{ content: '', force_no_shrink: true },
 					{ content: '', force_no_shrink: true },
 					{ content: '' },
-					{ content: '缺少' },
+					{ content: ir('table-row-shortage', 'Shortage') },
 					...shortage_row,
 				]
 			}

@@ -10,11 +10,20 @@ const default_config = {
 	filters: [],
 	showExp: false,
 	showAnnouncementCodeOnce: false,
+	locale: 'zh-hans',
 };
 
 const reducer = (state, action) => {
 	let newState = state;
 	switch (action.type) {
+		case 'config.setLanguage': {
+			newState = {
+				...state,
+			};
+
+			newState.locale = action.payload;
+			break;
+		}
 		case 'config.toggleShowAllResources': {
 			newState = {
 				...state,
@@ -110,6 +119,13 @@ const useData = () => {
 		});
 	};
 
+	const setLanguage = (language) => {
+		dispatch({
+			type: 'config.setLanguage',
+			payload: language,
+		});
+	};
+
 	const toggleShowAllResources = (toggle) => {
 		dispatch({
 			type: 'config.toggleShowAllResources',
@@ -156,6 +172,7 @@ const useData = () => {
 		config: state,
 		dispatch,
 		load,
+		setLanguage,
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
 		toggleShowFilter,

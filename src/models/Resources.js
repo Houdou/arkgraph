@@ -1,3 +1,36 @@
+import item_i18n from '../i18n/items.json';
+import { locale as available_locale } from '../i18n/locale';
+
+const LANG = Object.keys(available_locale);
+
+const findResourceByName = (name, scope = null) => {
+	const scope_ids = scope !== null && scope.map(({ unique_id }) => unique_id);
+	for (const item of Object.entries(item_i18n)) {
+		const candidate = Object.entries(item[1])
+			.filter(([lang]) => LANG.includes(lang))
+			.filter(([lang, item_lang]) => scope === null || scope_ids.includes(item[0]))
+			.find(([lang, item_lang]) => item_lang && item_lang.enabled && item_lang.name === name);
+		if (candidate) {
+			return {
+				locale: candidate[0],
+				unique_id: item[0],
+			};
+		}
+	}
+};
+
+const getResourceName = ({ id, locale, fallback }) => {
+	const item = item_i18n[id];
+	if (item) {
+		const locale_item = item[locale];
+		if (locale_item && locale_item.enabled) {
+			const name = locale_item.name;
+			return name;
+		}
+	}
+	return fallback;
+};
+
 const MATERIALS = [
 	{
 		id: 'M-5-1',
@@ -1115,7 +1148,7 @@ const PURCHASE_CREDIT = {
 
 const EXP = {
 	id: 'EO-4-1',
-	unique_id: 99999, // Doesn't exist
+	unique_id: 5001,
 	name: '经验值',
 	tier: 'T4',
 	type: 'exp',
@@ -1144,6 +1177,8 @@ export {
 	SKILL_BOOKS,
 	EXP_TAPES,
 	CHIPS,
+	findResourceByName,
+	getResourceName,
 };
 
 export default Resource;

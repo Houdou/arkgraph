@@ -5,12 +5,12 @@ import sumLevelUpRequirement from './sumLevelUpRequirement';
 
 const clampRange = (value, min, max) => Math.max(Math.min(value || 0, max), min);
 
-const processRecord = ({ operator: operator_name, attribute, current, target, hidden },
+const processRecord = ({ operator_id, attribute, current, target, hidden },
 	allow_same_level = false
 ) => {
-	const operator = OPERATORS.find(o => o.name === operator_name);
+	const operator = OPERATORS.find(o => o.unique_id === operator_id);
 	// Default
-	if (operator_name && !attribute) {
+	if (operator_id && !attribute) {
 		attribute = ATTRIBUTES.LEVEL_ELITE_0;
 	}
 
@@ -106,11 +106,11 @@ const processRecord = ({ operator: operator_name, attribute, current, target, hi
 				break;
 		}
 	}
-	if (operator_name) {
-		global.last_operator = operator_name;
+	if (operator_id) {
+		global.last_operator = operator_id;
 	}
 	return {
-		operator: operator_name,
+		operator_id,
 		attribute,
 		current,
 		target,

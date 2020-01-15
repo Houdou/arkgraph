@@ -5,7 +5,7 @@ import processUpgrade from './processUpgrade';
 const useOperatorUpgrade = (init_values) => {
 	const init_record = Object.assign(
 		{
-			operator: null,
+			operator_id: null,
 			current_elite: 0,
 			target_elite: 0,
 			current_level: 1,
@@ -39,7 +39,7 @@ const useOperatorUpgrade = (init_values) => {
 	return {
 		operatorUpgrade,
 		setOperatorUpgrade,
-		setOperator: value => setAttribute('operator', value),
+		setOperatorId: value => setAttribute('operator_id', value),
 		setCurrentElite: value => setAttribute('current_elite', value),
 		setTargetElite: value => setAttribute('target_elite', value),
 		setCurrentLevel: value => setAttribute('current_level', value),

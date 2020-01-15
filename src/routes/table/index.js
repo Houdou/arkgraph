@@ -35,6 +35,7 @@ const header_list = [
 ];
 
 const ArkTable = ({
+	ir,
 	config,
 	data,
 	drops,
@@ -67,7 +68,7 @@ const ArkTable = ({
 	}, []);
 
 	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
-	const shortage = sumShortage(stock, summary, compound_materials);
+	const shortage = sumShortage(stock, summary, compound_materials, ir);
 
 	const fulfillment_statuses = useMemo(() => checkFulFillment({
 		records,
@@ -117,21 +118,25 @@ const ArkTable = ({
 			)}
 			>
 				<ArkTableHeader
+					ir={ir}
 					config={config}
 					focus_materials={focus_materials}
 					toggleFocusMaterial={toggleFocusMaterial}
 					{...filter_props}
 				/>
 				<ArkStockRow
+					ir={ir}
 					stock={stock}
 					setStockItem={setStockItem}
 					{...filter_props}
 				/>
 				<ArkShortageRow
+					ir={ir}
 					shortage={shortage}
 					{...filter_props}
 				/>
 				<ArkSummaryRow
+					ir={ir}
 					summary={summary}
 					toggleHiddenAll={toggleHiddenAll}
 					sortRecords={sortRecords}
@@ -140,6 +145,7 @@ const ArkTable = ({
 				{
 					records && records.map((record, index) => (
 						<ArkUpgradeInputRow
+							ir={ir}
 							key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
 							record={record}
 							record_index={index}
@@ -158,6 +164,7 @@ const ArkTable = ({
 				/>
 			</div>
 			<ArkFocusMaterials
+				ir={ir}
 				config={config}
 				focus_materials={focus_materials}
 				toggleFocusMaterial={toggleFocusMaterial}
@@ -176,6 +183,7 @@ const ArkTable = ({
 			{
 				showFilter && (
 					<ArkFilterSettings
+						ir={ir}
 						addEmptyRow={addEmptyRow}
 						addLastRow={addLastRow}
 						filters={filters}
