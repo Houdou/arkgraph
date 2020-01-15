@@ -20,6 +20,7 @@ const ArkRow = (props) => {
 					icons_header: props.icons_header,
 					disable_hover: props.disable_hover,
 					sticky: props.sticky,
+					long_text: props.long_text,
 				}
 			)}
 			style={props.style}
