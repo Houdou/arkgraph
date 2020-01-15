@@ -5,6 +5,7 @@ import style from './style';
 
 import { STORAGE_KEY as SAVE_STORAGE_KEY } from '../../models/useData';
 import { STORAGE_KEY as CONFIG_STORAGE_KEY } from '../../config/useConfig';
+const LANG_PREF = 'Towa_ArkTable_Lang';
 
 import Upgrade from '../../models/Upgrade';
 import sumRequirements from '../../models/sumRequirements';
@@ -138,6 +139,7 @@ const ArkDataBackup = ({
 					class={style.clear_data}
 					onDblClick={e => {
 						e.preventDefault();
+						window.localStorage.setItem(LANG_PREF, config.locale);
 						window.localStorage.removeItem(CONFIG_STORAGE_KEY);
 						window.localStorage.removeItem(SAVE_STORAGE_KEY);
 						window.location.reload();

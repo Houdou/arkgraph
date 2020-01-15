@@ -10,7 +10,7 @@ const default_config = {
 	filters: [],
 	showExp: false,
 	showAnnouncementCodeOnce: false,
-	locale: 'zh_CN',
+	locale: window.localStorage.getItem('Towa_ArkTable_Lang') || 'zh_CN',
 };
 
 const reducer = (state, action) => {
