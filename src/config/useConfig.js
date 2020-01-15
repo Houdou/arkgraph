@@ -1,7 +1,7 @@
 import { useReducer } from 'preact/hooks';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Config';
-export const STORAGE_VERSION =  '1.8.2';
+export const STORAGE_VERSION =  '2.0.0';
 
 const default_config = {
 	showAllResources: false,
@@ -10,7 +10,7 @@ const default_config = {
 	filters: [],
 	showExp: false,
 	showAnnouncementCodeOnce: false,
-	locale: 'zh-hans',
+	locale: 'zh_CN',
 };
 
 const reducer = (state, action) => {
