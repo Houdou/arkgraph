@@ -27,7 +27,6 @@ const default_state = {
 	compound_materials: MATERIALS
 		.filter(m => ['T5', 'T4'].includes(m.tier))
 		.map(m => ({ id: m.id, options: {} })),
-	language: 'zh_CN',
 };
 
 const save = (key, state) => {
