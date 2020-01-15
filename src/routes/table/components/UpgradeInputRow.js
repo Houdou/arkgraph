@@ -52,7 +52,7 @@ const ArkUpgradeInputRow = ({
 			hidden,
 			requirements,
 		},
-		setOperator,
+		setOperatorId,
 		setAttribute,
 		setCurrent,
 		setTarget,
@@ -113,10 +113,11 @@ const ArkUpgradeInputRow = ({
 
 	const OperatorInput = (props) => (
 		<ArkFuseInputCell {...props}
+			locale={ir.locale}
 			inputRef={operatorInputRef}
 			value={getOperatorName({ id: operator_id, locale: ir.locale })}
-			onChange={value => {
-				update(record_index, setOperator(value));
+			onChange={({ unique_id }) => {
+				update(record_index, setOperatorId(unique_id));
 			}}
 		/>
 	);
