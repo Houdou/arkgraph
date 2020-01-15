@@ -7,16 +7,18 @@ import ArkItem from '../../../components/item';
 import ArkCell from '../../../components/cell';
 import ArkRow from '../../../components/row';
 
-import processRecord from './../../../models/processRecord';
+import { getOperatorName } from '../../../models/Operators';
+import processRecord from '../../../models/processRecord';
 
 const ArkRequirementRow = ({
+	ir,
 	upgrade: init_record,
 	upgrade_index,
 	material_query,
 	skill_render_map,
 }) => {
 	const {
-		operator,
+		operator_id,
 		attribute,
 		render,
 		current,
@@ -65,12 +67,15 @@ const ArkRequirementRow = ({
 		</ArkCell>
 	);
 
+	const attribute_text = render || ir(`attribute-${attribute.toLowerCase()}`);
+	const operator_name = getOperatorName({ id: operator_id, locale: ir.locale });
+
 	return (
 		<ArkRow
 			cells={
 				[
-					{ content: operator, href: `/operator/${operator}` },
-					{ content: render || attribute, long_text: (render || attribute).length > 4 },
+					{ content: operator_name, href: `/operator/${operator_name}` },
+					{ content: attribute_text, long_text: attribute_text.length > 4 },
 					{ content: current },
 					{ content: target },
 					RequirementItems,

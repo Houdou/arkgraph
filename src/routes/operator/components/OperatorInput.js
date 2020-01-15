@@ -5,8 +5,9 @@ import style from '../style';
 import ArkFuseInputCell from '../../../components/fuseInputCell';
 
 const ArkOperatorInput = ({
+	locale,
 	operator,
-	setOperator,
+	setOperatorId,
 }) => {
 	const operatorInputRef = useRef(null);
 
@@ -19,9 +20,11 @@ const ArkOperatorInput = ({
 	return (
 		<div class={style.operator_input} >
 			<ArkFuseInputCell
+				locale={locale}
 				custom_class={style.operator_input_cell}
 				inputRef={operatorInputRef}
-				value={operator} onChange={value => setOperator(value)}
+				value={operator}
+				onChange={({ unique_id, name }) => setOperatorId(unique_id)}
 				onClick={() => operatorInputRef.current && operatorInputRef.current.select()}
 			/>
 		</div>

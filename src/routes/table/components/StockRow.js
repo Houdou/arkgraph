@@ -7,6 +7,7 @@ import ArkCell from '../../../components/cell';
 import { EXP, EXP_TAPES } from '../../../models/Resources';
 
 const ArkStockRow = ({
+	ir,
 	stock,
 	setStockItem,
 	header_list,
@@ -55,7 +56,7 @@ const ArkStockRow = ({
 					{ content: '', force_no_shrink: true },
 					{ content: '', force_no_shrink: true },
 					{ content: '' },
-					{ content: '库存' },
+					{ content: ir('table-row-stock', 'In stock') },
 					...stock_inputs,
 				]
 			}

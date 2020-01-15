@@ -55,6 +55,7 @@
 .cell.halfwidth {
 	width: 48px;
 	min-width: 48px;
+	word-break: break-all;
 }
 .cell.dim {
 	color: #666;

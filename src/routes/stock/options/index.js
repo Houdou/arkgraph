@@ -16,44 +16,44 @@ const indexed_material_list = material_list.map((m, index) => ({
 
 const material_grouping_options = {
 	default: {
-		render: '全部',
+		render: 'material_grouping_options-all',
 		field: null,
 		options: [],
 		groups: {},
 	},
 	type: {
-		render: '种类',
+		render: 'material_grouping_options-type',
 		field: 'type',
 		options: [
-			{ value: 'money', render: '货币' },
-			{ value: 'tape', render: '作战记录' },
-			{ value: 'rare', render: '高级材料' },
-			{ value: 'alcohol', render: '醇' },
-			{ value: 'manganese', render: '锰' },
-			{ value: 'grind', render: '研磨石' },
-			{ value: 'rma', render: 'RMA' },
-			{ value: 'stone', render: '源岩' },
-			{ value: 'device', render: '装置' },
-			{ value: 'ester', render: '酯' },
-			{ value: 'sugar', render: '糖' },
-			{ value: 'iron', render: '异铁' },
-			{ value: 'ketone', render: '酮' },
-			{ value: 'gel', render: '凝胶' },
-			{ value: 'alloy', render: '合金' },
-			{ value: 'skill', render: '技巧概要' },
-			{ value: 'chip', render: '芯片' },
+			{ value: 'money', render: 'material_grouping_options-type-money' },
+			{ value: 'tape', render: 'material_grouping_options-type-tape' },
+			{ value: 'rare', render: 'material_grouping_options-type-rare' },
+			{ value: 'alcohol', render: 'material_grouping_options-type-alcohol' },
+			{ value: 'manganese', render: 'material_grouping_options-type-manganese' },
+			{ value: 'grind', render: 'material_grouping_options-type-grind' },
+			{ value: 'rma', render: 'material_grouping_options-type-rma' },
+			{ value: 'stone', render: 'material_grouping_options-type-stone' },
+			{ value: 'device', render: 'material_grouping_options-type-device' },
+			{ value: 'ester', render: 'material_grouping_options-type-ester' },
+			{ value: 'sugar', render: 'material_grouping_options-type-sugar' },
+			{ value: 'iron', render: 'material_grouping_options-type-iron' },
+			{ value: 'ketone', render: 'material_grouping_options-type-ketone' },
+			{ value: 'gel', render: 'material_grouping_options-type-gel' },
+			{ value: 'alloy', render: 'material_grouping_options-type-alloy' },
+			{ value: 'skill', render: 'material_grouping_options-type-skill' },
+			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],
 		groups: {},
 	},
 	tier: {
-		render: '等级',
+		render: 'material_grouping_options-tier',
 		field: 'tier',
 		options: [
-			{ value: 'T5', render: '5级材料' },
-			{ value: 'T4', render: '4级材料' },
-			{ value: 'T3', render: '3级材料' },
-			{ value: 'T2', render: '2级材料' },
-			{ value: 'T1', render: '1级材料' },
+			{ value: 'T5', render: 'material_grouping_options-tier-T5' },
+			{ value: 'T4', render: 'material_grouping_options-tier-T4' },
+			{ value: 'T3', render: 'material_grouping_options-tier-T3' },
+			{ value: 'T2', render: 'material_grouping_options-tier-T2' },
+			{ value: 'T1', render: 'material_grouping_options-tier-T1' },
 		],
 		groups: {},
 	},
@@ -75,22 +75,23 @@ Object.entries(material_grouping_options)
 		});
 	});
 
+
 // Special handling for chip
-material_grouping_options.type.groups.chip.render = '助剂';
+material_grouping_options.type.groups.chip.render = 'material_grouping_options-type-catalyst';
 const profession_chip_index = material_grouping_options.type.groups.chip.list.splice(1, 3 * 8);
 const professions = [
-	{ value: 'pioneer', render: '先锋' },
-	{ value: 'warrior', render: '近卫' },
-	{ value: 'tank', render: '重装' },
-	{ value: 'sniper', render: '狙击' },
-	{ value: 'caster', render: '术师' },
-	{ value: 'medic', render: '医疗' },
-	{ value: 'support', render: '辅助' },
-	{ value: 'special', render: '特种' },
+	{ value: 'pioneer', render: 'material_grouping_options-type-pioneer' },
+	{ value: 'warrior', render: 'material_grouping_options-type-warrior' },
+	{ value: 'tank', render: 'material_grouping_options-type-tank' },
+	{ value: 'sniper', render: 'material_grouping_options-type-sniper' },
+	{ value: 'caster', render: 'material_grouping_options-type-caster' },
+	{ value: 'medic', render: 'material_grouping_options-type-medic' },
+	{ value: 'support', render: 'material_grouping_options-type-support' },
+	{ value: 'special', render: 'material_grouping_options-type-special' },
 ];
 professions.forEach(({ value, render }, index) => {
 	material_grouping_options.type.groups[`chip_${value}`] = {
-		render: `${render}芯片`,
+		render: `${render}_chip`,
 		list: profession_chip_index.splice(0, 3),
 	};
 });

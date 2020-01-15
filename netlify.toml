@@ -29,6 +29,11 @@
   status = 200
 
 [[redirects]]
+  from = "/settings"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
 	from = "https://serene-mestorf-73c07a.netlify.com/*"
 	to = "https://ark-nights.com/:splat"
 	status = 301

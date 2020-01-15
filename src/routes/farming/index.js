@@ -43,6 +43,7 @@ const excluding_list = [
 const item_scale = 0.42;
 
 const ArkFarming = ({
+	ir,
 	config,
 	data,
 	planner_service,
@@ -140,7 +141,7 @@ const ArkFarming = ({
 			<div class={style.page}>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>关卡筛选</span>
+						<span>{ir('farming-stage-stage', 'Stage')}</span>
 					</div>
 					<ArkLevelInput
 						level_id={level_id}
@@ -151,26 +152,27 @@ const ArkFarming = ({
 					level_id && (
 						<div class={style.section}>
 							<div class={style.section_header}>
-								<span>掉落</span>
+								<span>{ir('farming-drop-drop', 'Drop')}</span>
 							</div>
 							<div class={style.drops}>
 								<div class={style.penguin_link}>
 									{
 										!excluding_list.includes(level.id) && (
-											<PenguinLink category="stage" id={`${level.zone_id}/${level.unique_id}`} render={'查看完整掉率'} />
+											<PenguinLink category="stage" id={`${level.zone_id}/${level.unique_id}`} render={ir('penguin-check_full_drop_rate', 'Check full drop rate')} />
 										)
 									}
 								</div>
 								<ArkMaterialsGroup
+									ir={ir}
 									stock={stock}
 									summary={summary}
 									resources={level_drop_resources.resources}
 									item_scale={item_scale}
 									adjustStockItem={adjustStockItem}
 									groups={{
-										normal_drop: { render: '常规掉落', list: level_drop_resources.normal_drop },
-										special_drop: { render: '特殊掉落', list: level_drop_resources.special_drop },
-										extra_drop: { render: '额外掉落', list: level_drop_resources.extra_drop },
+										normal_drop: { render: ir('farming-drop-normal_drop', 'Normal drop'), list: level_drop_resources.normal_drop },
+										special_drop: { render: ir('farming-drop-special_drop', 'Special drop'), list: level_drop_resources.special_drop },
+										extra_drop: { render: ir('farming-drop-extra_drop', 'Extra drop'), list: level_drop_resources.extra_drop },
 									}}
 								/>
 							</div>
@@ -179,10 +181,10 @@ const ArkFarming = ({
 				}
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>需求</span>
+						<span>{ir('farming-requirements-requirements', 'Requirements')}</span>
 					</div>
 					<div class={style.stock_options}>
-						<span class={style.stock_options_header}>显示</span>
+						<span class={style.stock_options_header}>{ir('farming-requirements-display', 'Display')}</span>
 						<div class={style.material_grouping_options}>
 							{
 								Object.entries(material_grouping_options)
@@ -198,14 +200,14 @@ const ArkFarming = ({
 												setGroupingType(grouping_option_type);
 											}}
 										>
-											<span>{grouping_option.render}</span>
+											<span>{ir(grouping_option.render)}</span>
 										</div>
 									))
 							}
 						</div>
 					</div>
 					<div class={style.stock_options}>
-						<span class={style.stock_options_header}>筛选</span>
+						<span class={style.stock_options_header}>{ir('farming-requirements-filter', 'Filter')}</span>
 						<div class={style.material_grouping_options}>
 							{
 								Object.entries(material_filter_options)
@@ -221,7 +223,7 @@ const ArkFarming = ({
 												setFilterType(filter_option_type);
 											}}
 										>
-											<span>{filter_option.render}</span>
+											<span>{ir(filter_option.render)}</span>
 										</div>
 									))
 							}
@@ -229,6 +231,7 @@ const ArkFarming = ({
 					</div>
 					<div class={style.stock}>
 						<ArkMaterialsGroup
+							ir={ir}
 							stock={stock}
 							summary={summary}
 							resources={material_list}
@@ -242,10 +245,11 @@ const ArkFarming = ({
 				</div>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>规划</span>
+						<span>{ir('farming-planner-planner', 'Planner')}</span>
 					</div>
 					<div class={style.planner}>
 						<ArkPlanner
+							ir={ir}
 							records={records}
 							stock={stock}
 							summary={summary}

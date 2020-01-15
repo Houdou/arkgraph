@@ -9,6 +9,7 @@ const sort_by_name = (order) => (a, b) => a.operator > b.operator ? (order ? 0 :
 const sort_by_attribute = (order) => (a, b) => a.attibute > b.attibute ? (order ? 0 : -1) : (order ? -1 : 0);
 
 const ArkSummaryRow = ({
+	ir,
 	summary,
 	toggleHiddenAll,
 	sortRecords,
@@ -90,7 +91,7 @@ const ArkSummaryRow = ({
 					{ content: '', force_no_shrink: true },
 					{ content: '', force_no_shrink: true },
 					{ content: '' },
-					{ content: '合计' },
+					{ content: ir('table-row-summary', 'Summary') },
 					...summary_row,
 				]
 			}

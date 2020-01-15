@@ -8,6 +8,7 @@ import ArkCell from '../../../components/cell';
 import ArkRow from '../../../components/row';
 
 const ArkUpgradeRow = ({
+	ir,
 	upgrade,
 	upgrade_index,
 	skill_render_map,
@@ -69,7 +70,7 @@ const ArkUpgradeRow = ({
 		</ArkCell>
 	);
 
-	const attribute_render = skill_render_map[attribute] ? `${skill_render_map[attribute]}` : attribute;
+	const attribute_render = skill_render_map[attribute] ? `${skill_render_map[attribute]}` : ir(`attribute-${attribute.toLowerCase()}`);
 	const attribute_long_text = attribute_render.length > 5;
 
 	return (

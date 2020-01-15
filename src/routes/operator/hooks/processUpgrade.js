@@ -6,7 +6,7 @@ import processRecord from '../../../models/processRecord';
 const clampRange = (value, min, max) => Math.max(Math.min(value || 0, max), min);
 
 const processUpgrade = ({
-	operator: operator_name,
+	operator_id,
 	current_elite,
 	target_elite,
 	current_level,
@@ -20,7 +20,7 @@ const processUpgrade = ({
 	current_master_skill_3,
 	target_master_skill_3,
 }) => {
-	const operator = OPERATORS.find(o => o.name === operator_name);
+	const operator = OPERATORS.find(o => o.unique_id === operator_id);
 
 	const upgrades = [];
 	if (operator) {
@@ -87,7 +87,7 @@ const processUpgrade = ({
 				if (elite_rank === current_elite) {
 					if (current_level !== exp.maxLevel[operator.rarity][elite_rank]) {
 						upgrades.push(processRecord({
-							operator: operator_name,
+							operator_id,
 							attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
 							current: current_level,
 							target: exp.maxLevel[operator.rarity][elite_rank],
@@ -96,7 +96,7 @@ const processUpgrade = ({
 					continue;
 				} else {
 					upgrades.push(processRecord({
-						operator: operator_name,
+						operator_id,
 						attribute: ATTRIBUTES.ELITE_RANK,
 						current: elite_rank - 1,
 						target: elite_rank,
@@ -105,7 +105,7 @@ const processUpgrade = ({
 				if (elite_rank === target_elite) {
 					if (target_level !== 1) {
 						upgrades.push(processRecord({
-							operator: operator_name,
+							operator_id,
 							attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
 							current: 1,
 							target: target_level,
@@ -113,7 +113,7 @@ const processUpgrade = ({
 					}
 				} else {
 					upgrades.push(processRecord({
-						operator: operator_name,
+						operator_id,
 						attribute: ATTRIBUTES[`LEVEL_ELITE_${elite_rank}`],
 						current: 1,
 						target: exp.maxLevel[operator.rarity][elite_rank],
@@ -122,7 +122,7 @@ const processUpgrade = ({
 			}
 		} else if (current_level !== target_level) {
 			upgrades.push(processRecord({
-				operator: operator_name,
+				operator_id,
 				attribute: ATTRIBUTES[`LEVEL_ELITE_${target_elite}`],
 				current: current_level,
 				target: target_level,
@@ -132,7 +132,7 @@ const processUpgrade = ({
 		// skill level
 		for (let all_skill = current_all_skill; all_skill < target_all_skill; all_skill++) {
 			upgrades.push(processRecord({
-				operator: operator_name,
+				operator_id,
 				attribute: ATTRIBUTES.SKILL_LEVEL,
 				current: all_skill,
 				target: all_skill + 1,
@@ -141,7 +141,7 @@ const processUpgrade = ({
 
 		for (let master_skill_1 = current_master_skill_1; master_skill_1 < target_master_skill_1; master_skill_1++) {
 			upgrades.push(processRecord({
-				operator: operator_name,
+				operator_id,
 				attribute: ATTRIBUTES.MASTER_SKILL_1,
 				current: master_skill_1,
 				target: master_skill_1 + 1,
@@ -150,7 +150,7 @@ const processUpgrade = ({
 
 		for (let master_skill_2 = current_master_skill_2; master_skill_2 < target_master_skill_2; master_skill_2++) {
 			upgrades.push(processRecord({
-				operator: operator_name,
+				operator_id,
 				attribute: ATTRIBUTES.MASTER_SKILL_2,
 				current: master_skill_2,
 				target: master_skill_2 + 1,
@@ -159,7 +159,7 @@ const processUpgrade = ({
 
 		for (let master_skill_3 = current_master_skill_3; master_skill_3 < target_master_skill_3; master_skill_3++) {
 			upgrades.push(processRecord({
-				operator: operator_name,
+				operator_id,
 				attribute: ATTRIBUTES.MASTER_SKILL_3,
 				current: master_skill_3,
 				target: master_skill_3 + 1,
@@ -167,7 +167,7 @@ const processUpgrade = ({
 		}
 	}
 	return {
-		operator: operator_name,
+		operator_id,
 		current_elite,
 		target_elite,
 		current_level,

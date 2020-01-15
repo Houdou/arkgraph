@@ -4,6 +4,7 @@ import style from './style';
 import ArkItem from '../item';
 
 const ArkMaterialGroup = ({
+	ir,
 	stock = {},
 	summary = {},
 	groups,
@@ -15,7 +16,7 @@ const ArkMaterialGroup = ({
 }) => {
 	if (Object.keys(groups).length === 0) {
 		groups.default = {
-			render: '仓库顺序',
+			render: 'material_group-stock_order',
 			list: Array(resources.length).fill().map((_, index) => index),
 		};
 	}
@@ -24,7 +25,7 @@ const ArkMaterialGroup = ({
 			{
 				resources && Object.entries(groups).map(([group_key, { render, list }]) => (
 					<div class={style.material_group}>
-						<span class={style.material_group_name}>{render}</span>
+						<span class={style.material_group_name}>{ir(render)}</span>
 						<div class={style.material_group_materials}>
 							{
 								list.map((index) => (

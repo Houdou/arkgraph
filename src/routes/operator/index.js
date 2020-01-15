@@ -13,7 +13,7 @@ import ArkOperatorTableHeader from './components/TableHeader';
 import ArkOperatorInput from './components/OperatorInput';
 
 import { ATTRIBUTES } from '../../models/Attributes';
-import { OPERATORS } from '../../models/Operators';
+import { OPERATORS, findOperatorByName, getOperatorName, getSkillNames } from '../../models/Operators';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 import exp from '../../models/exp';
 import useOperatorUpgrade from './hooks/useOperatorUpgrade';
@@ -27,6 +27,7 @@ const material_order = [
 ];
 
 const ArkOperatorTable = ({
+	ir,
 	config,
 	data,
 	operator_name: operator_name_query,
@@ -40,7 +41,7 @@ const ArkOperatorTable = ({
 	const {
 		operatorUpgrade,
 		setOperatorUpgrade,
-		setOperator: setOperator_raw,
+		setOperatorId: setOperatorId_raw,
 		setCurrentElite,
 		setTargetElite,
 		setCurrentLevel,
@@ -55,27 +56,28 @@ const ArkOperatorTable = ({
 		setTargetMasterSkill_3,
 	} = useOperatorUpgrade(global.operator_upgrade);
 
-	const setOperator = (name) => {
-		if (name && typeof name === 'string') {
+	const setOperatorId = (unique_id) => {
+		if (unique_id && typeof unique_id === 'string') {
 			try {
 				global.ga('send', {
 					hitType: 'event',
 					eventCategory: 'operator',
 					eventAction: 'query',
-					eventLabel: name,
+					eventLabel: unique_id,
 				});
 			} catch (err) {}
 		}
+		const name = getOperatorName({ id: unique_id, locale: config.locale });
 		try {
 			if (window.location.pathname !== `/operator/${name}`) {
 				window.history.pushState(null, window.document.title, `/operator/${name}`);
 			}
 		} catch (err) {}
-		setOperator_raw(name);
+		setOperatorId_raw(unique_id);
 	};
 
 	const {
-		operator: operator_name,
+		operator_id,
 		current_elite,
 		target_elite,
 		current_level,
@@ -91,7 +93,7 @@ const ArkOperatorTable = ({
 		upgrades,
 	} = operatorUpgrade;
 
-	const init_add_all_text = '添加全部到计算器';
+	const init_add_all_text = ir('operator-add_all', 'Add all to table');
 	const [add_all_text, setAddAllText_raw] = useState(init_add_all_text);
 	const setAddAllText = (text) => {
 		setAddAllText_raw(text);
@@ -105,16 +107,18 @@ const ArkOperatorTable = ({
 	}, []);
 
 	useEffect(() => {
-		const operator = OPERATORS.find(o => o.name === operator_name_query);
+		// Use findOperatorByName
+		const operator = findOperatorByName(operator_name_query);
 		if (operator) {
-			setOperator(operator.name);
+			setOperatorId(operator.unique_id);
 		}
 	}, [operator_name_query]);
 
-	const operator = OPERATORS.find(o => o.name === operator_name);
+	const operator = OPERATORS.find(o => o.unique_id === operator_id);
 	const skill_render_map = {};
 	if (operator) {
-		operator.skill_names.forEach((skill_name, index) => {
+		const skill_names = getSkillNames({ id: operator_id, locale: config.locale });
+		skill_names.forEach((skill_name, index) => {
 			skill_render_map[ATTRIBUTES[`MASTER_SKILL_${index+1}`]] = skill_name || null;
 		});
 	}
@@ -139,7 +143,7 @@ const ArkOperatorTable = ({
 		if (operator) {
 			setOperatorUpgrade({
 				...operatorUpgrade,
-				operator: operator_name,
+				operator_id,
 				current_elite: is_target ? Math.min(elite_rank, current_elite) : elite_rank,
 				target_elite: is_target ? elite_rank : Math.max(elite_rank, target_elite),
 				[`${attr}_level`]: exp.maxLevel[operator.rarity][elite_rank],
@@ -162,7 +166,7 @@ const ArkOperatorTable = ({
 		if (operator) {
 			setOperatorUpgrade({
 				...operatorUpgrade,
-				operator: operator_name,
+				operator_id,
 				current_elite: is_target ? Math.min(elite_rank, current_elite) : current_elite,
 				target_elite: is_target ? elite_rank : Math.max(elite_rank, target_elite),
 				[`${attr}_level`]: 1,
@@ -226,24 +230,27 @@ const ArkOperatorTable = ({
 			<div class={style.page}>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>干员</span>
+						<span>{ir('operator-operator-operator', 'Operator')}</span>
 					</div>
 					<ArkOperatorInput
-						operator={operator_name}
-						setOperator={setOperator}
+						locale={config.locale}
+						operator={getOperatorName({ id: operator_id, locale: config.locale, fallback: operator_id })}
+						setOperatorId={setOperatorId}
 					/>
 				</div>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>培养计划</span>
+						<span>{ir('operator-plan-plan', 'Plan')}</span>
 					</div>
 					<div class={style.table}>
 						<ArkOperatorTableHeader
+							ir={ir}
 							operator={operator}
+							skill_names={getSkillNames({ id: operator_id, locale: config.locale })}
 							{...global_props}
 						/>
 						<ArkUpgradeInputRow
-							prefix="目前等级"
+							prefix={ir('operator-plan-current_level', 'Current')}
 							attributes={[
 								{ attribute: current_elite, setAttribute: setCurrentElite },
 								{ attribute: current_level, setAttribute: setCurrentLevel },
@@ -262,7 +269,7 @@ const ArkOperatorTable = ({
 							tab_index_offset={0}
 						/>
 						<ArkUpgradeInputRow
-							prefix="培养目标"
+							prefix={ir('operator-plan-target_level', 'Target')}
 							attributes={[
 								{ attribute: target_elite, setAttribute: setTargetElite },
 								{ attribute: target_level, setAttribute: setTargetLevel },
@@ -270,7 +277,7 @@ const ArkOperatorTable = ({
 								{
 									attribute: target_master_skill_1,
 									setAttribute: setTargetMasterSkill_1,
-									override: unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1) ? '无法升级' : null,
+									override: unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1) ? ir('operator-skill-unable_to_upgrade', 'N/A') : null,
 								},
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
 									&& { attribute: target_master_skill_2, setAttribute: setTargetMasterSkill_2 },
@@ -281,7 +288,7 @@ const ArkOperatorTable = ({
 							tab_index_offset={6}
 						/>
 						<div class={style.actions}>
-							<span>快捷选项</span>
+							<span>{ir('operator-plan-quick_options', 'Quick options')}</span>
 							<div
 								class={style.max_attribute}
 								onClick={e => setMaxAttribute(0, true)}
@@ -289,7 +296,7 @@ const ArkOperatorTable = ({
 									e.preventDefault();
 									setMaxAttribute(0, false);
 								}}
-							>无精英满级满技能</div>
+							>{ir('operator-plan-elite_0_max', 'Elite 0 Max')}</div>
 							<div
 								class={style.max_attribute}
 								onClick={e => setMaxAttribute(1, true)}
@@ -297,7 +304,7 @@ const ArkOperatorTable = ({
 									e.preventDefault();
 									setMaxAttribute(1, false);
 								}}
-							>精英1满级满技能</div>
+							>{ir('operator-plan-elite_1_max', 'Elite 1 Max')}</div>
 							{operator && operator.rarity >= 3 && (
 								<div
 									class={style.max_attribute}
@@ -306,7 +313,7 @@ const ArkOperatorTable = ({
 										e.preventDefault();
 										setMaxAttribute(2, false);
 									}}
-								>精英2满级满技能</div>
+								>{ir('operator-plan-elite_2_max', 'Elite 2 Max')}</div>
 							)}
 						</div>
 						<div class={style.actions}>
@@ -318,7 +325,7 @@ const ArkOperatorTable = ({
 									e.preventDefault();
 									setMinAttribute(1, false);
 								}}
-							>精英1</div>
+							>{ir('operator-plan-elite_1', 'Elite 1')}</div>
 							{operator && operator.rarity >= 3 && (
 								<div
 									class={style.max_attribute}
@@ -327,24 +334,24 @@ const ArkOperatorTable = ({
 										e.preventDefault();
 										setMinAttribute(2, false);
 									}}
-								>精英2</div>
+								>{ir('operator-plan-elite_2', 'Elite 2')}</div>
 							)}
 						</div>
 					</div>
 				</div>
 				<div class={style.section}>
 					<div class={style.section_header}>
-						<span>需求材料</span>
+						<span>{ir('operator-requirements-requirements', 'Requirements')}</span>
 					</div>
 					<div class={style.upgrades}>
 						<ArkRow
 							cells={
 								[
-									{ content: '可完成' },
-									{ content: '升级项目' },
-									{ content: '现等级' },
-									{ content: '目标等级' },
-									{ content: '所需材料', fullwidth: true },
+									{ content: ir('operator-requirements-fulfillable', 'Fulfillable') },
+									{ content: ir('operator-requirements-attribute', 'Attribute') },
+									{ content: ir('operator-requirements-current_level', 'Current') },
+									{ content: ir('operator-requirements-target_level', 'Target') },
+									{ content: ir('operator-requirements-materials', 'Materials'), fullwidth: true },
 								]
 							}
 							sticky
@@ -354,6 +361,7 @@ const ArkOperatorTable = ({
 							upgrades && upgrades.map((upgrade, index) => (
 								upgrade.requirements.length > 0 && (
 									<ArkUpgradeRow
+										ir={ir}
 										key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}
 										upgrade={upgrade}
 										skill_render_map={skill_render_map}
@@ -379,14 +387,14 @@ const ArkOperatorTable = ({
 							setTimeout(() => {
 								resetAttributes();
 							}, 300);
-							setAddAllText('已添加');
+							setAddAllText(ir('operator-add_button-added', 'Added'));
 						}}
 					>{add_all_text}</div>
 				</div>
 				{summary && summary.length > 0 && (
 					<div class={style.section}>
 						<div class={style.section_header}>
-							<span>合计</span>
+							<span>{ir('operator-summary-summary', 'Summary')}</span>
 						</div>
 						<div class={style.summary}>
 							{

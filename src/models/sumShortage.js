@@ -1,6 +1,6 @@
 import { EXP, EXP_TAPES } from './Resources';
 
-const sumShortage = (stock, summary, compound_materials) => {
+const sumShortage = (stock, summary, compound_materials, ir) => {
 	const shortage = {};
 
 	Object.entries(summary).forEach(([material_id, requirement]) => {
@@ -13,7 +13,11 @@ const sumShortage = (stock, summary, compound_materials) => {
 	shortage[EXP.id] = Math.max(summary[EXP.id] - exp_stock, 0);
 
 	compound_materials.forEach(({ id }) => {
-		shortage[id] = shortage[id] ? `合成${shortage[id]}个` : 0;
+		shortage[id] = shortage[id] ? `${
+			ir('table-shortage-compound-prefix', '')
+		}${shortage[id]}${
+			ir('table-shortage-compound-suffix', '')
+		}` : 0;
 	});
 
 	return shortage;

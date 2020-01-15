@@ -7,6 +7,7 @@ import getShortageFocusMaterials from '../../../../models/getShortageFocusMateri
 import ArkMaterialCard from '../../../../components/materialCard';
 
 const ArkFocusMaterials = ({
+	ir,
 	config,
 	focus_materials,
 	toggleFocusMaterial,
@@ -32,7 +33,7 @@ const ArkFocusMaterials = ({
 				[style.hide_focus_materials]: !config.showFocusMaterials }
 		)}
 		>
-			<h2>追踪材料</h2>
+			<h2>{ir('focus_materials-track_materials', 'Focusing materials')}</h2>
 			{
 				config.showFocusMaterials && material_groups.length !== 0 && (
 					<div
@@ -47,7 +48,7 @@ const ArkFocusMaterials = ({
 						class={style.auto}
 						onClick={e => setFocusMaterials(getShortageFocusMaterials(shortage))}
 					>
-						<span>智能添加</span>
+						<span>{ir('focus_materials-smart_track', 'Auto')}</span>
 					</div>
 				)
 			}
@@ -57,6 +58,7 @@ const ArkFocusMaterials = ({
 						material_groups.map(({ id: material_id, options }, index) => (
 							<ArkMaterialCard
 								key={material_id}
+								ir={ir}
 								id={material_id}
 								card_index={index}
 								class={style.card}
@@ -77,7 +79,7 @@ const ArkFocusMaterials = ({
 					}
 					{
 						material_groups.length === 0 && (
-							<div class={style.hint}><h3>点击表头材料图标或【＋】添加追踪</h3></div>
+							<div class={style.hint}><h3>{ir('focus_materials-placeholder_hint', 'Click table header or [+] button to focus on certain materials')}</h3></div>
 						)
 					}
 				</div>

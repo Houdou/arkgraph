@@ -10,7 +10,7 @@ import ArkDropdownCell from '../../../components/dropdown';
 import ArkInputCell from '../../../components/inputCell';
 
 import { ATTRIBUTES } from '../../../models/Attributes';
-import { OPERATORS } from '../../../models/Operators';
+import { OPERATORS, getOperatorName, getSkillNames } from '../../../models/Operators';
 import { FULFILLMENT_STATUS } from '../../../models/checkFulFillment';
 
 import useRecord from '../../../models/useRecord';
@@ -32,6 +32,7 @@ const BUTTON_STYLE_MAPPING = {
 };
 
 const ArkUpgradeInputRow = ({
+	ir,
 	record: init_record,
 	record_index,
 	update,
@@ -44,7 +45,7 @@ const ArkUpgradeInputRow = ({
 }) => {
 	const {
 		record: {
-			operator,
+			operator_id,
 			attribute,
 			current,
 			target,
@@ -61,15 +62,24 @@ const ArkUpgradeInputRow = ({
 	const operatorInputRef = useRef(null);
 
 	useEffect(() => {
-		if (!operator) {
+		if (!operator_id) {
 			operatorInputRef.current && operatorInputRef.current.focus();
 		}
 	}, []);
 
 	const options = Object.entries(ATTRIBUTES).map(([k, v]) => ({ key: k, value: v }));
-	const operator_data = OPERATORS.find(o => o.name === operator);
+	const operator_data = OPERATORS.find(o => o.unique_id === operator_id);
 	const unavailable_attributes = [];
-	const render_map = {};
+	const render_map = {
+		LEVEL_ELITE_0: ir('attribute-level_elite_0', 'Lv - Elite 0'),
+		LEVEL_ELITE_1: ir('attribute-level_elite_1', 'Lv - Elite 1'),
+		LEVEL_ELITE_2: ir('attribute-level_elite_2', 'Lv - Elite 2'),
+		ELITE_RANK: ir('attribute-elite_rank', 'Elite Rank'),
+		SKILL_LEVEL: ir('attribute-skill_level', 'Skill Level'),
+		MASTER_SKILL_1: ir('attribute-master_skill_1', 'Master Skill 1'),
+		MASTER_SKILL_2: ir('attribute-master_skill_2', 'Master Skill 2'),
+		MASTER_SKILL_3: ir('attribute-master_skill_3', 'Master Skill 3'),
+	};
 
 	if (operator_data) {
 		if (operator_data.meta.max_elite_rank < 2) {
@@ -94,8 +104,9 @@ const ArkUpgradeInputRow = ({
 			ATTRIBUTES.MASTER_SKILL_3,
 		].filter(attr => !unavailable_attributes.includes(attr))
 			.forEach((attr, index) => {
-				if (operator_data.skill_names[index]) {
-					render_map[attr] = operator_data.skill_names[index];
+				const skill_names = getSkillNames({ id: operator_id, locale: ir.locale });
+				if (skill_names[index]) {
+					render_map[attr] = skill_names[index];
 				}
 			});
 	}
@@ -103,7 +114,8 @@ const ArkUpgradeInputRow = ({
 	const OperatorInput = (props) => (
 		<ArkFuseInputCell {...props}
 			inputRef={operatorInputRef}
-			value={operator} onChange={value => {
+			value={getOperatorName({ id: operator_id, locale: ir.locale })}
+			onChange={value => {
 				update(record_index, setOperator(value));
 			}}
 		/>
@@ -113,7 +125,8 @@ const ArkUpgradeInputRow = ({
 		<ArkDropdownCell {...props}
 			options={options.filter(option => !unavailable_attributes.includes(option.value))}
 			render_map={render_map}
-			value={attribute} onChange={value => {
+			value={attribute}
+			onChange={value => {
 				update(record_index, setAttribute(value));
 			}}
 		/>

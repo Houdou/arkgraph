@@ -4,7 +4,7 @@ import processRecord from './processRecord';
 
 const useRecord = (init_values) => {
 	const init_record = Object.assign(
-		{ operator: null, attribute: null, current: 0, target: 1, requirements: [], hidden: false },
+		{ operator_id: null, attribute: null, current: 0, target: 1, requirements: [], hidden: false },
 		init_values,
 		{ requirements: processRecord(init_values).requirements }
 	);
@@ -16,9 +16,9 @@ const useRecord = (init_values) => {
 		return processed_record;
 	};
 
-	const setOperator = (operator) => setRecord({
+	const setOperatorId = (operator_id) => setRecord({
 		...record,
-		operator,
+		operator_id,
 	});
 	const setAttribute = (attribute) => setRecord({
 		...record,
@@ -39,7 +39,7 @@ const useRecord = (init_values) => {
 
 	return {
 		record,
-		setOperator,
+		setOperatorId,
 		setAttribute,
 		setCurrent,
 		setTarget,
