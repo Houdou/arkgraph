@@ -145,7 +145,7 @@ const ArkDataBackup = ({
 				>{ir('settings-backup-clear_data', 'Double click to RESET ALL DATA')}</div>
 				<hr style={{ 'margin-top': '24px' }} />
 				<h2>{
-					ir('settings-arkplanner-export-prefix', 'Export data for ')
+					ir('settings-arkplanner-export-prefix', '')
 				}<a target="_blank" rel="noreferrer noopener" href="https://planner.penguin-stats.io/">ArkPlanner</a>{
 					ir('settings-arkplanner-export-suffix', '')
 				}</h2>

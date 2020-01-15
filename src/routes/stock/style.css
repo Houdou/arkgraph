@@ -45,7 +45,7 @@
 .material_grouping_option {
 	width: 100px;
 	margin-right: 20px;
-	padding: 8px 32px;
+	padding: 8px 12px;
 	text-align: center;
 	user-select: none;
 	background-color: #333;
@@ -53,6 +53,7 @@
 	font-size: 16px;
 	font-weight: 400;
 	transition: background-color 0.3s ease;
+	justify-content: center;
 }
 .material_grouping_option_active {
 	background-color: #111;

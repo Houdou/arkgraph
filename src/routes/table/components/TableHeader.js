@@ -48,7 +48,12 @@ const ArkTableHeader = ({
 					{ content: ir('table-header-remove', ''), halfwidth: true, header_level: 'T1' },
 					{ content: ir('table-header-finish', ''), halfwidth: true, header_level: 'T1' },
 					{ content: ir('table-header-hide', ''), halfwidth: true, header_level: 'T1' },
-					{ content: ir('table-header-operator', 'Operator'), header_level: 'T1', force_no_shrink: true },
+					{
+						content: ir('table-header-operator', 'Operator'),
+						header_level: 'T1',
+						long_text: ir('table-header-operator', 'Operator').length > 5,
+						force_no_shrink: true,
+					},
 					{ content: ir('table-header-attribute', 'Attribute'), header_level: 'T1', force_no_shrink: true },
 					{ content: ir('table-header-current', 'Current'), header_level: 'T1' },
 					{ content: ir('table-header-target', 'Target'), header_level: 'T1' },
