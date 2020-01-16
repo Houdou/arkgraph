@@ -10,6 +10,18 @@ const Info = (props) => (
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>公告</h2>
+			<p>2020-01-16</p>
+			添加了多语言支持🎉<br />
+			日本語を追加しました🎉<br />
+			Added English translation🎉<br />
+			한국어가 잘못되어 죄송합니다. 인터페이스를 한국어로 번역 할 수 없습니다. 그러나 재료 이름과 운영자 이름은 한국어로 제공됩니다. <br />
+			<br />
+			如果对应语言没有添加对应的干员或材料支持，会出现显示不正确的情况<br />
+			オペレーターまたは素材が未だにリリースされていませんなら、正しく表示出来ませんの場合があります。<br />
+			It may have incorrect display if the operator or material is not yet released.<br />
+			<br />
+			考虑到ArkPlanner目前没有支持多服务器，暂时不支持多语言<br />
+
 			<p>2020-01-14</p>
 			添加了新干员
 			【<a href="/operator/年">年</a>】
