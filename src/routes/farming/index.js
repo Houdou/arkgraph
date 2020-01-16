@@ -170,9 +170,9 @@ const ArkFarming = ({
 									item_scale={item_scale}
 									adjustStockItem={adjustStockItem}
 									groups={{
-										normal_drop: { render: ir('farming-drop-normal_drop', 'Normal drop'), list: level_drop_resources.normal_drop },
-										special_drop: { render: ir('farming-drop-special_drop', 'Special drop'), list: level_drop_resources.special_drop },
-										extra_drop: { render: ir('farming-drop-extra_drop', 'Extra drop'), list: level_drop_resources.extra_drop },
+										normal_drop: { render: 'farming-drop-normal_drop', list: level_drop_resources.normal_drop },
+										special_drop: { render: 'farming-drop-special_drop', list: level_drop_resources.special_drop },
+										extra_drop: { render: 'farming-drop-extra_drop', list: level_drop_resources.extra_drop },
 									}}
 								/>
 							</div>
