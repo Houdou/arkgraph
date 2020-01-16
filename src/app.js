@@ -18,6 +18,7 @@ import useData from './models/useData';
 
 import LocaleRender from './i18n/render';
 import { locale } from './i18n/locale';
+const LANG = Object.keys(locale);
 
 import fetchStatMatrix from './services/penguinstats';
 
@@ -34,6 +35,18 @@ const App = (props) => {
 		toggleShowAnnouncementCodeOnce,
 		setFilters,
 	} = useConfig();
+	const query = (window.location.search || '').substr(1);
+	const qs = query.split('=');
+	if (qs && qs.length === 2 && qs[0] === 'locale' && LANG.includes(qs[1])) {
+		if (!global.locale) {
+			global.locale = qs[1];
+			setLanguage(global.locale);
+		} else if (global.locale !== qs[1]) {
+			global.locale = qs[1];
+			setLanguage(qs[1]);
+		}
+	}
+
 	const ir = LocaleRender(config.locale);
 
 	const [drops, setDrops] = useState([]);
