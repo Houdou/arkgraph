@@ -88,6 +88,10 @@ const reducer = (state, action) => {
 						loaded.filters = [];
 					}
 
+					if (!loaded.locale) {
+						loaded.locale = 'zh_CN';
+					}
+
 					return loaded;
 				}
 			} catch (err) {
