@@ -16,9 +16,10 @@ import ArkMaterialInput from './components/MaterialInput';
 import { LEVELS } from '../../models/Levels';
 import { ATTRIBUTES } from '../../models/Attributes';
 import { OPERATORS } from '../../models/Operators';
-import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS, findResourceByName, getResourceName } from '../../models/Resources';
+import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS, getResourceName } from '../../models/Resources';
 import aggregateMaterialRequirement from '../../models/aggregateMaterialRequirement';
 import useFilterSetting from '../../models/useFilterSetting';
+import processRecord from '../../models/processRecord';
 
 const materials = [
 	...MATERIALS,
@@ -141,7 +142,7 @@ const ArkMaterials = ({
 		&& operator_profession_material_filter.flags[profession]
 		&& upgrade_attribute_material_filter.flags[attributeMapping[attribute]];
 
-	const material_requirements = useMemo(() => aggregateMaterialRequirement({ locale: config.locale }), [OPERATORS, config.locale]);
+	const material_requirements = useMemo(() => aggregateMaterialRequirement({ locale: config.locale, showExtendedData: config.showExtendedData }), [OPERATORS, config.locale]);
 
 	const material = materials.find(({ id }) => id === material_query);
 
@@ -174,6 +175,23 @@ const ArkMaterials = ({
 			})
 			.filter(Boolean);
 
+
+	const sum = {};
+	filtered_operator_requirements && filtered_operator_requirements
+		.map(processRecord)
+		.forEach((upgrade) => {
+			upgrade.requirements.forEach(({ resource, quantity }) => {
+				sum[resource] = (sum[resource] || 0) + quantity;
+			});
+		});
+	const summary = Object.entries(sum)
+		.map(([resource, quantity]) => ({
+			resource,
+			quantity,
+			material_index: materials.findIndex(m => m.id === resource),
+		}))
+		.sort((a, b) => a.material_index > b.material_index ? 1 : -1);
+
 	const global_props = {
 		config,
 		stock,
@@ -188,7 +206,7 @@ const ArkMaterials = ({
 					</div>
 					<ArkMaterialInput
 						locale={config.locale}
-						material={material && getResourceName({ id: material.id, locale: config.locale })}
+						material={material && getResourceName({ id: material.id, locale: config.locale, showExtendedData: config.showExtendedData })}
 						setMaterialQuery={setMaterialQuery}
 					/>
 				</div>
@@ -417,6 +435,7 @@ const ArkMaterials = ({
 									<ArkRequirementRow
 										key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}
 										ir={ir}
+										showExtendedData={config.showExtendedData}
 										material_query={material_query}
 										upgrade={upgrade}
 										upgrade_index={index}
@@ -428,6 +447,37 @@ const ArkMaterials = ({
 						}
 					</div>
 				</div>
+				{summary && summary.length > 0 && (
+					<div class={style.section}>
+						<div class={style.section_header}>
+							<span>{ir('materials-requirements-summary', 'Summary')}</span>
+						</div>
+						<div class={style.requirements_summary}>
+							{
+								summary.map(({ resource, quantity }) => (
+									<div class={style.requirement_cell}>
+										<Link href={`/materials/${resource}`}>
+											<ArkItem
+												id={resource}
+												tier={`T${resource.substr(2, 1)}`}
+												scale={0.25}
+											/>
+										</Link>
+										<span>x</span>
+										<span
+											class={cn(
+												style.requirement_quantity,
+												{
+													[style.long_quantity]: resource !== 'G-4-1' && quantity.toString().length > 2,
+												}
+											)}
+										>{quantity}</span>
+									</div>
+								))
+							}
+						</div>
+					</div>
+				)}
 			</div>
 		</div>
 	);

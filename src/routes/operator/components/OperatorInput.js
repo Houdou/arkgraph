@@ -6,6 +6,7 @@ import ArkFuseInputCell from '../../../components/fuseInputCell';
 
 const ArkOperatorInput = ({
 	locale,
+	showExtendedData,
 	operator,
 	setOperatorId,
 }) => {
@@ -20,7 +21,7 @@ const ArkOperatorInput = ({
 	return (
 		<div class={style.operator_input} >
 			<ArkFuseInputCell
-				locale={locale}
+				locale={showExtendedData ? `${locale}_extended` : locale}
 				custom_class={style.operator_input_cell}
 				inputRef={operatorInputRef}
 				value={operator}

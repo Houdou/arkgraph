@@ -28,6 +28,34 @@ const OPERATORS_LANG = {};
 	});
 });
 
+[
+	'en_US',
+	'ja_JP',
+	'ko_KR',
+].forEach(lang => {
+	const lang_extended = `${lang}_extended`;
+	OPERATORS_LANG[lang_extended] = [];
+	OPERATORS.forEach((operator) => {
+		if (operator_i18n[operator.unique_id]) {
+			const operator_lang = operator_i18n[operator.unique_id][lang];
+			if (operator_lang && operator_lang.enabled) {
+				OPERATORS_LANG[lang_extended].push({
+					unique_id: operator.unique_id,
+					code: operator_i18n[operator.unique_id].code,
+					...operator_lang,
+				});
+			} else {
+				const operator_lang_extended = operator_i18n[operator.unique_id].zh_CN;
+				OPERATORS_LANG[lang_extended].push({
+					unique_id: operator.unique_id,
+					code_name: operator_i18n[operator.unique_id].code_name,
+					...operator_lang_extended,
+				});
+			}
+		}
+	});
+});
+
 const options = {
 	shouldSort: true,
 	threshold: 0.6,
@@ -40,6 +68,17 @@ const options = {
 		weight: 0.7,
 	}, {
 		name: 'code',
+		weight: 0.3,
+	}],
+};
+
+const extended_options = {
+	...options,
+	keys: [{
+		name: 'name',
+		weight: 0.7,
+	}, {
+		name: 'code_name',
 		weight: 0.3,
 	}],
 };
@@ -58,6 +97,9 @@ const fuse_i18n = {
 	en_US: new Fuse(OPERATORS_LANG.en_US, options),
 	ja_JP: new Fuse(OPERATORS_LANG.ja_JP, options),
 	ko_KR: new Fuse(OPERATORS_LANG.ko_KR, options),
+	en_US_extended: new Fuse(OPERATORS_LANG.en_US_extended, extended_options),
+	ja_JP_extended: new Fuse(OPERATORS_LANG.ja_JP_extended, extended_options),
+	ko_KR_extended: new Fuse(OPERATORS_LANG.ko_KR_extended, extended_options),
 };
 
 export const search = (query, lang) => {

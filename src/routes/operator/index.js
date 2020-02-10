@@ -67,7 +67,7 @@ const ArkOperatorTable = ({
 				});
 			} catch (err) {}
 		}
-		const name = getOperatorName({ id: unique_id, locale: config.locale });
+		const name = getOperatorName({ id: unique_id, locale: config.locale, showExtendedData: config.showExtendedData });
 		try {
 			if (window.location.pathname !== `/operator/${name}`) {
 				window.history.pushState(null, window.document.title, `/operator/${name}`);
@@ -117,7 +117,11 @@ const ArkOperatorTable = ({
 	const operator = OPERATORS.find(o => o.unique_id === operator_id);
 	const skill_render_map = {};
 	if (operator) {
-		const skill_names = getSkillNames({ id: operator_id, locale: config.locale });
+		const skill_names = getSkillNames({
+			id: operator_id,
+			locale: config.locale,
+			showExtendedData: config.showExtendedData,
+		});
 		skill_names.forEach((skill_name, index) => {
 			skill_render_map[ATTRIBUTES[`MASTER_SKILL_${index+1}`]] = skill_name || null;
 		});
@@ -234,7 +238,15 @@ const ArkOperatorTable = ({
 					</div>
 					<ArkOperatorInput
 						locale={config.locale}
-						operator={getOperatorName({ id: operator_id, locale: config.locale, fallback: operator_id })}
+						showExtendedData={config.showExtendedData}
+						operator={
+							getOperatorName({
+								id: operator_id,
+								locale: config.locale,
+								fallback: operator_id,
+								showExtendedData: config.showExtendedData,
+							})
+						}
 						setOperatorId={setOperatorId}
 					/>
 				</div>
@@ -246,7 +258,13 @@ const ArkOperatorTable = ({
 						<ArkOperatorTableHeader
 							ir={ir}
 							operator={operator}
-							skill_names={getSkillNames({ id: operator_id, locale: config.locale })}
+							skill_names={
+								getSkillNames({
+									id: operator_id,
+									locale: config.locale,
+									showExtendedData: config.showExtendedData,
+								})
+							}
 							{...global_props}
 						/>
 						<ArkUpgradeInputRow

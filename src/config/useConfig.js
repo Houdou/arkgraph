@@ -7,6 +7,7 @@ const default_config = {
 	showAllResources: false,
 	showFocusMaterials: true,
 	showFilter: false,
+	showExtendedData: false,
 	filters: [],
 	showExp: false,
 	showAnnouncementCodeOnce: false,
@@ -46,6 +47,13 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				showFilter: action.payload,
+			};
+			break;
+		}
+		case 'config.toggleShowExtendedData': {
+			newState = {
+				...state,
+				showExtendedData: action.payload,
 			};
 			break;
 		}
@@ -151,6 +159,13 @@ const useData = () => {
 		});
 	};
 
+	const toggleShowExtendedData = (toggle) => {
+		dispatch({
+			type: 'config.toggleShowExtendedData',
+			payload: toggle,
+		});
+	};
+
 	const setFilters = (filters) => {
 		dispatch({
 			type: 'config.setFilters',
@@ -180,6 +195,7 @@ const useData = () => {
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
 		toggleShowFilter,
+		toggleShowExtendedData,
 		setFilters,
 		toggleShowExp,
 		toggleShowAnnouncementCodeOnce,

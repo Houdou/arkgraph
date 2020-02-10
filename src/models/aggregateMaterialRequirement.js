@@ -6,6 +6,7 @@ import { RESOURCES } from './Resources';
 
 const aggregateMaterialRequirement = ({
 	locale,
+	showExtendedData = false,
 }) => {
 	const material_requirements = {};
 
@@ -27,7 +28,7 @@ const aggregateMaterialRequirement = ({
 	OPERATORS
 		.filter(operator => {
 			const operator_lang = operator_i18n[operator.unique_id][locale];
-			return operator_lang && operator_lang.enabled;
+			return showExtendedData || operator_lang && operator_lang.enabled;
 		})
 		.forEach((operator, index) => {
 			operator.skills.forEach((skill, index) => {
@@ -60,7 +61,7 @@ const aggregateMaterialRequirement = ({
 				});
 			});
 
-			const skill_names = getSkillNames({ id: operator.unique_id, locale });
+			const skill_names = getSkillNames({ id: operator.unique_id, locale, showExtendedData });
 			operator.master_skills.forEach((master_skill, skill_index) => {
 				master_skill.upgrades.forEach((upgrade, level) => {
 					upgrade.materials.forEach(({ resource, quantity }) => {

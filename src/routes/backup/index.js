@@ -1,4 +1,4 @@
-import React from 'preact';
+import React, { Fragment } from 'preact';
 import cn from 'classnames';
 import { useState, useEffect, useRef } from 'preact/hooks';
 import style from './style';
@@ -11,11 +11,12 @@ import Upgrade from '../../models/Upgrade';
 import sumRequirements from '../../models/sumRequirements';
 import generateArkPlannerData from '../../services/arkplanner/generatePayload';
 
-const ArkDataBackup = ({
+const ArkSettings = ({
 	ir,
 	state,
 	load,
 	config,
+	toggleShowExtendedData,
 	available_locale,
 	setLanguage,
 }) => {
@@ -146,6 +147,41 @@ const ArkDataBackup = ({
 					}}
 				>{ir('settings-backup-clear_data', 'Double click to RESET ALL DATA')}</div>
 				<hr style={{ 'margin-top': '24px' }} />
+				{
+					config.locale !== 'zh_CN' && (
+						<Fragment>
+							<h2>{ir('settings-extended_data-extended_data', 'Extended Data (Unstable)')}</h2>
+							{['en_US', 'ko_KR'].includes(config.locale) && (
+								<p>
+									Enable if you need to view ALL operators currently available in CN server. <br />
+									Use operator's codename to search.
+								</p>
+							)}
+							{config.locale === 'ja_JP' && (
+								<p>
+									リリースされていないオペレーターのデータを開放したいなら、このスイッチをオンにください<br />
+									オペレーターのコードネームで検索可能が、公式名前がありませんので、コードネームで表示します
+								</p>
+							)}
+							<div class={style.lang_options}>
+								<div
+									class={cn(
+										style.lang_option,
+										{
+											[style.lang_option_active]: config.showExtendedData,
+										}
+									)}
+									onClick={() => {
+										toggleShowExtendedData(!config.showExtendedData);
+									}}
+								>
+									{ ir('settings-extended_data-show', 'Show Extended Data') }
+								</div>
+							</div>
+							<hr />
+						</Fragment>
+					)
+				}
 				<h2>{
 					ir('settings-arkplanner-export-prefix', '')
 				}<a target="_blank" rel="noreferrer noopener" href="https://planner.penguin-stats.io/">ArkPlanner</a>{
@@ -169,4 +205,4 @@ const ArkDataBackup = ({
 	);
 };
 
-export default ArkDataBackup;
+export default ArkSettings;

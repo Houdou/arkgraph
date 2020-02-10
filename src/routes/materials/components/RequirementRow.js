@@ -12,6 +12,7 @@ import processRecord from '../../../models/processRecord';
 
 const ArkRequirementRow = ({
 	ir,
+	showExtendedData,
 	upgrade: init_record,
 	upgrade_index,
 	material_query,
@@ -69,19 +70,25 @@ const ArkRequirementRow = ({
 
 	const attribute_text = render || ir(`attribute-${attribute.toLowerCase()}`);
 	const operator_name = getOperatorName({ id: operator_id, locale: ir.locale });
+	const operator_name_extended = operator_name || getOperatorName({ id: operator_id, locale: ir.locale, showExtendedData });
+	const is_extended_data = !operator_name;
 
 	return (
 		<ArkRow
 			cells={
 				[
-					{ content: operator_name, href: `/operator/${operator_name}` },
+					{ content: operator_name_extended, href: `/operator/${operator_name_extended}` },
 					{ content: attribute_text, long_text: attribute_text.length > 4 },
 					{ content: current },
 					{ content: target },
 					RequirementItems,
 				]
 			}
-			style={{ height: '56px' }}
+			style={{
+				height: '56px',
+				backgroundColor: showExtendedData && is_extended_data ? 'rgba(235, 71, 71, 0.2)' : 'none',
+				opacity: showExtendedData && is_extended_data ? 0.7 : 1,
+			}}
 			fullheight
 		/>
 	);

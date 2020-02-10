@@ -329,7 +329,7 @@ const useData = () => {
 		dispatch({
 			type: 'data.addRow',
 			payload: {
-				operator: global.last_operator,
+				operator_id: global.last_operator,
 			},
 		});
 	};

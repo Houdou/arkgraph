@@ -146,6 +146,7 @@ const ArkTable = ({
 					records && records.map((record, index) => (
 						<ArkUpgradeInputRow
 							ir={ir}
+							showExtendedData={config.showExtendedData}
 							key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
 							record={record}
 							record_index={index}

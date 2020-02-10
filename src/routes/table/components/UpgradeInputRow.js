@@ -33,6 +33,7 @@ const BUTTON_STYLE_MAPPING = {
 
 const ArkUpgradeInputRow = ({
 	ir,
+	showExtendedData,
 	record: init_record,
 	record_index,
 	update,
@@ -104,7 +105,11 @@ const ArkUpgradeInputRow = ({
 			ATTRIBUTES.MASTER_SKILL_3,
 		].filter(attr => !unavailable_attributes.includes(attr))
 			.forEach((attr, index) => {
-				const skill_names = getSkillNames({ id: operator_id, locale: ir.locale });
+				const skill_names = getSkillNames({
+					id: operator_id,
+					locale: ir.locale,
+					showExtendedData,
+				});
 				if (skill_names[index]) {
 					render_map[attr] = skill_names[index];
 				}
@@ -115,7 +120,11 @@ const ArkUpgradeInputRow = ({
 		<ArkFuseInputCell {...props}
 			locale={ir.locale}
 			inputRef={operatorInputRef}
-			value={getOperatorName({ id: operator_id, locale: ir.locale })}
+			value={getOperatorName({
+				id: operator_id,
+				locale: ir.locale,
+				showExtendedData,
+			})}
 			onChange={({ unique_id }) => {
 				update(record_index, setOperatorId(unique_id));
 			}}

@@ -27,7 +27,7 @@ const findOperatorByName = (name) => {
 	}
 };
 
-const getOperatorName = ({ id, locale, fallback }) => {
+const getOperatorName = ({ id, locale, fallback, showExtendedData = false }) => {
 	const operator = operator_i18n[id];
 	if (operator) {
 		const locale_operator = operator[locale];
@@ -35,17 +35,28 @@ const getOperatorName = ({ id, locale, fallback }) => {
 			const name = locale_operator.name;
 			return name;
 		}
+		if (showExtendedData) {
+			const extended_name = operator.code_name;
+			return extended_name;
+		}
 	}
 	return fallback;
 };
 
-const getSkillNames = ({ id, locale }) => {
+const getSkillNames = ({ id, locale, showExtendedData = false }) => {
 	const operator = operator_i18n[id];
 	if (operator) {
 		const locale_operator = operator[locale];
 		if (locale_operator && locale_operator.enabled) {
 			const skills = locale_operator.skills;
 			return skills;
+		}
+		if (showExtendedData) {
+			const extended_data = operator.zh_CN;
+			if (extended_data) {
+				const extended_skills = extended_data.skills;
+				return extended_skills;
+			}
 		}
 	}
 	return [];

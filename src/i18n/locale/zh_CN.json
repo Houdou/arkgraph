@@ -53,7 +53,6 @@
 	"attribute-operator_level": "等级",
 	"attribute-skill_mastering_prefix": "技能",
 	"attribute-skill_mastering_suffix": "专精",
-	"attribute-skill_level": "技能等级",
 	"operator-add_all": "添加全部到计算器",
 	"operator-operator-operator": "干员",
 	"operator-plan-plan": "培养计划",
@@ -94,6 +93,7 @@
 	"materials-requirements-from_level": "现等级",
 	"materials-requirements-to_level": "目标等级",
 	"materials-requirements-required_materials": "所需材料",
+	"materials-requirements-summary": "合计",
 	"materials-filter-profession": "干员职业",
 	"materials-filter-rarity": "干员稀有度",
 	"materials-filter-type": "需求种类",
@@ -160,6 +160,8 @@
 	"settings-language-language": "语言",
 	"settings-backup-backup": "数据备份",
 	"settings-backup-clear_data": "双击清除所有数据",
+	"settings-extended_data-extended_data": "-",
+	"settings-extended_data-show": "-",
 	"settings-arkplanner-export-prefix": "导出",
 	"settings-arkplanner-export-suffix": "用数据"
 }

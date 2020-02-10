@@ -53,7 +53,6 @@
 	"attribute-operator_level": "レベル",
 	"attribute-skill_mastering_prefix": "スキル",
 	"attribute-skill_mastering_suffix": " 特化",
-	"attribute-skill_level": "スキルRank",
 	"operator-add_all": "すべてを計画表に追加",
 	"operator-operator-operator": "オペレーター",
 	"operator-plan-plan": "計画",
@@ -94,6 +93,7 @@
 	"materials-requirements-from_level": "現在レベル",
 	"materials-requirements-to_level": "目標レベル",
 	"materials-requirements-required_materials": "必要素材",
+	"materials-requirements-summary": "合計",
 	"materials-filter-profession": "職業",
 	"materials-filter-rarity": "レアリティ",
 	"materials-filter-type": "タイプ",
@@ -160,6 +160,8 @@
 	"settings-language-language": "言語",
 	"settings-backup-backup": "バックアップ",
 	"settings-backup-clear_data": "ダブルクリックですべてのデータを消去",
+	"settings-extended_data-extended_data": "拡張データ 「実験中」",
+	"settings-extended_data-show": "拡張データ表示",
 	"settings-arkplanner-export-prefix": "",
 	"settings-arkplanner-export-suffix": "用データをエクスポート"
 }

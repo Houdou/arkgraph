@@ -32,6 +32,7 @@ const App = (props) => {
 		toggleShowFocusMaterials,
 		toggleShowFilter,
 		toggleShowExp,
+		toggleShowExtendedData,
 		toggleShowAnnouncementCodeOnce,
 		setFilters,
 	} = useConfig();
@@ -98,6 +99,7 @@ const App = (props) => {
 					path="/settings"
 					ir={ir}
 					config={config}
+					toggleShowExtendedData={toggleShowExtendedData}
 					available_locale={locale}
 					setLanguage={setLanguage}
 					state={data.state}

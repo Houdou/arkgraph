@@ -27,9 +27,11 @@
       "alias": [
         "Lancet-2",
         "Lancet-2"
-      ]
+      ],
+      "appellation": "Lancet-2"
     },
-    "code": "lancet-2"
+    "code": "lancet-2",
+    "code_name": "Lancet-2"
   },
   "char_286_cast3": {
     "en_US": {
@@ -59,9 +61,11 @@
       "alias": [
         "Castle-3",
         "Castle-3"
-      ]
+      ],
+      "appellation": "Castle-3"
     },
-    "code": "castle-3"
+    "code": "castle-3",
+    "code_name": "Castle-3"
   },
   "char_502_nblade": {
     "en_US": {
@@ -91,9 +95,11 @@
       "alias": [
         "ye dao",
         "yedao"
-      ]
+      ],
+      "appellation": "Yato"
     },
-    "code": "yato"
+    "code": "yato",
+    "code_name": "Yato"
   },
   "char_500_noirc": {
     "en_US": {
@@ -123,9 +129,11 @@
       "alias": [
         "hei jiao",
         "heijiao"
-      ]
+      ],
+      "appellation": "Noir Corne"
     },
-    "code": "noir corne"
+    "code": "noir corne",
+    "code_name": "Noir Corne"
   },
   "char_503_rang": {
     "en_US": {
@@ -155,9 +163,11 @@
       "alias": [
         "xun lin zhe",
         "xunlinzhe"
-      ]
+      ],
+      "appellation": "Rangers"
     },
-    "code": "rangers"
+    "code": "rangers",
+    "code_name": "Rangers"
   },
   "char_501_durin": {
     "en_US": {
@@ -187,9 +197,11 @@
       "alias": [
         "du lin",
         "dulin"
-      ]
+      ],
+      "appellation": "Durin"
     },
-    "code": "durin"
+    "code": "durin",
+    "code_name": "Durin"
   },
   "char_009_12fce": {
     "en_US": {
@@ -219,9 +231,11 @@
       "alias": [
         "12F",
         "12F"
-      ]
+      ],
+      "appellation": "12F"
     },
-    "code": "12f"
+    "code": "12f",
+    "code_name": "12F"
   },
   "char_123_fang": {
     "en_US": {
@@ -259,9 +273,11 @@
       "alias": [
         "fen",
         "fen"
-      ]
+      ],
+      "appellation": "Fang"
     },
-    "code": "fang"
+    "code": "fang",
+    "code_name": "Fang"
   },
   "char_240_wyvern": {
     "en_US": {
@@ -299,9 +315,11 @@
       "alias": [
         "xiang cao",
         "xiangcao"
-      ]
+      ],
+      "appellation": "Vanilla"
     },
-    "code": "vanilla"
+    "code": "vanilla",
+    "code_name": "Vanilla"
   },
   "char_192_falco": {
     "en_US": {
@@ -339,9 +357,11 @@
       "alias": [
         "ling yu",
         "lingyu"
-      ]
+      ],
+      "appellation": "Plume"
     },
-    "code": "plume"
+    "code": "plume",
+    "code_name": "Plume"
   },
   "char_208_melan": {
     "en_US": {
@@ -379,9 +399,11 @@
       "alias": [
         "mei lan suo",
         "meilansuo"
-      ]
+      ],
+      "appellation": "Melantha"
     },
-    "code": "melantha"
+    "code": "melantha",
+    "code_name": "Melantha"
   },
   "char_209_ardign": {
     "en_US": {
@@ -419,9 +441,11 @@
       "alias": [
         "ka ti",
         "kati"
-      ]
+      ],
+      "appellation": "Cardigan"
     },
-    "code": "cardigan"
+    "code": "cardigan",
+    "code_name": "Cardigan"
   },
   "char_122_beagle": {
     "en_US": {
@@ -459,9 +483,11 @@
       "alias": [
         "mi ge lu",
         "migelu"
-      ]
+      ],
+      "appellation": "Beagle"
     },
-    "code": "beagle"
+    "code": "beagle",
+    "code_name": "Beagle"
   },
   "char_124_kroos": {
     "en_US": {
@@ -499,9 +525,11 @@
       "alias": [
         "ke luo si",
         "keluosi"
-      ]
+      ],
+      "appellation": "Kroos"
     },
-    "code": "kroos"
+    "code": "kroos",
+    "code_name": "Kroos"
   },
   "char_211_adnach": {
     "en_US": {
@@ -539,9 +567,11 @@
       "alias": [
         "an de qie er",
         "andeqieer"
-      ]
+      ],
+      "appellation": "Adnachiel"
     },
-    "code": "adnachiel"
+    "code": "adnachiel",
+    "code_name": "Adnachiel"
   },
   "char_121_lava": {
     "en_US": {
@@ -579,9 +609,11 @@
       "alias": [
         "yan rong",
         "yanrong"
-      ]
+      ],
+      "appellation": "Lava"
     },
-    "code": "lava"
+    "code": "lava",
+    "code_name": "Lava"
   },
   "char_120_hibisc": {
     "en_US": {
@@ -619,9 +651,11 @@
       "alias": [
         "fu rong",
         "furong"
-      ]
+      ],
+      "appellation": "Hibiscus"
     },
-    "code": "hibiscus"
+    "code": "hibiscus",
+    "code_name": "Hibiscus"
   },
   "char_212_ansel": {
     "en_US": {
@@ -659,9 +693,11 @@
       "alias": [
         "an sai er",
         "ansaier"
-      ]
+      ],
+      "appellation": "Ansel"
     },
-    "code": "ansel"
+    "code": "ansel",
+    "code_name": "Ansel"
   },
   "char_210_stward": {
     "en_US": {
@@ -699,9 +735,11 @@
       "alias": [
         "shi du hua de",
         "shiduhuade"
-      ]
+      ],
+      "appellation": "Steward"
     },
-    "code": "steward"
+    "code": "steward",
+    "code_name": "Steward"
   },
   "char_278_orchid": {
     "en_US": {
@@ -739,9 +777,11 @@
       "alias": [
         "zi lan",
         "zilan"
-      ]
+      ],
+      "appellation": "Orchid"
     },
-    "code": "orchid"
+    "code": "orchid",
+    "code_name": "Orchid"
   },
   "char_141_nights": {
     "en_US": {
@@ -783,9 +823,11 @@
       "alias": [
         "ye yan",
         "yeyan"
-      ]
+      ],
+      "appellation": "Haze"
     },
-    "code": "haze"
+    "code": "haze",
+    "code_name": "Haze"
   },
   "char_109_fmout": {
     "en_US": {
@@ -827,9 +869,11 @@
       "alias": [
         "yuan shan",
         "yuanshan"
-      ]
+      ],
+      "appellation": "Gitano"
     },
-    "code": "gitano"
+    "code": "gitano",
+    "code_name": "Gitano"
   },
   "char_235_jesica": {
     "en_US": {
@@ -871,9 +915,11 @@
       "alias": [
         "jie xi ka",
         "jiexika"
-      ]
+      ],
+      "appellation": "Jessica"
     },
-    "code": "jessica"
+    "code": "jessica",
+    "code_name": "Jessica"
   },
   "char_126_shotst": {
     "en_US": {
@@ -915,9 +961,11 @@
       "alias": [
         "liu xing",
         "liuxing"
-      ]
+      ],
+      "appellation": "Meteor"
     },
-    "code": "meteor"
+    "code": "meteor",
+    "code_name": "Meteor"
   },
   "char_118_yuki": {
     "en_US": {
@@ -959,9 +1007,11 @@
       "alias": [
         "bai xue",
         "baixue"
-      ]
+      ],
+      "appellation": "ShiraYuki"
     },
-    "code": "shirayuki"
+    "code": "shirayuki",
+    "code_name": "ShiraYuki"
   },
   "char_198_blackd": {
     "en_US": {
@@ -1003,9 +1053,11 @@
       "alias": [
         "xun shi",
         "xunshi"
-      ]
+      ],
+      "appellation": "Courier"
     },
-    "code": "courier"
+    "code": "courier",
+    "code_name": "Courier"
   },
   "char_149_scave": {
     "en_US": {
@@ -1047,9 +1099,11 @@
       "alias": [
         "qing dao fu",
         "qingdaofu"
-      ]
+      ],
+      "appellation": "Scavenger"
     },
-    "code": "scavenger"
+    "code": "scavenger",
+    "code_name": "Scavenger"
   },
   "char_290_vigna": {
     "en_US": {
@@ -1091,9 +1145,11 @@
       "alias": [
         "hong dou",
         "hongdou"
-      ]
+      ],
+      "appellation": "Vigna"
     },
-    "code": "vigna"
+    "code": "vigna",
+    "code_name": "Vigna"
   },
   "char_130_doberm": {
     "en_US": {
@@ -1135,9 +1191,11 @@
       "alias": [
         "du bin",
         "dubin"
-      ]
+      ],
+      "appellation": "Dobermann"
     },
-    "code": "dobermann"
+    "code": "dobermann",
+    "code_name": "Dobermann"
   },
   "char_289_gyuki": {
     "en_US": {
@@ -1179,9 +1237,11 @@
       "alias": [
         "chan wan",
         "chanwan"
-      ]
+      ],
+      "appellation": "Matoimaru"
     },
-    "code": "matoimaru"
+    "code": "matoimaru",
+    "code_name": "Matoimaru"
   },
   "char_193_frostl": {
     "en_US": {
@@ -1223,9 +1283,11 @@
       "alias": [
         "shuang ye",
         "shuangye"
-      ]
+      ],
+      "appellation": "Frostleaf"
     },
-    "code": "frostleaf"
+    "code": "frostleaf",
+    "code_name": "Frostleaf"
   },
   "char_127_estell": {
     "en_US": {
@@ -1267,9 +1329,11 @@
       "alias": [
         "ai si dai er",
         "aisidaier"
-      ]
+      ],
+      "appellation": "Estelle"
     },
-    "code": "estelle"
+    "code": "estelle",
+    "code_name": "Estelle"
   },
   "char_185_frncat": {
     "en_US": {
@@ -1311,9 +1375,11 @@
       "alias": [
         "mu si",
         "musi"
-      ]
+      ],
+      "appellation": "Mousse"
     },
-    "code": "mousse"
+    "code": "mousse",
+    "code_name": "Mousse"
   },
   "char_237_gravel": {
     "en_US": {
@@ -1355,9 +1421,11 @@
       "alias": [
         "li",
         "li"
-      ]
+      ],
+      "appellation": "Gravel"
     },
-    "code": "gravel"
+    "code": "gravel",
+    "code_name": "Gravel"
   },
   "char_236_rope": {
     "en_US": {
@@ -1399,9 +1467,11 @@
       "alias": [
         "an suo",
         "ansuo"
-      ]
+      ],
+      "appellation": "Rope"
     },
-    "code": "rope"
+    "code": "rope",
+    "code_name": "Rope"
   },
   "char_117_myrrh": {
     "en_US": {
@@ -1443,9 +1513,11 @@
       "alias": [
         "mo yao",
         "moyao"
-      ]
+      ],
+      "appellation": "Myrrh"
     },
-    "code": "myrrh"
+    "code": "myrrh",
+    "code_name": "Myrrh"
   },
   "char_187_ccheal": {
     "en_US": {
@@ -1487,9 +1559,11 @@
       "alias": [
         "jia wei er",
         "jiaweier"
-      ]
+      ],
+      "appellation": "Gavial"
     },
-    "code": "gavial"
+    "code": "gavial",
+    "code_name": "Gavial"
   },
   "char_181_flower": {
     "en_US": {
@@ -1531,9 +1605,11 @@
       "alias": [
         "tiao xiang shi",
         "tiaoxiangshi"
-      ]
+      ],
+      "appellation": "Perfumer"
     },
-    "code": "perfumer"
+    "code": "perfumer",
+    "code_name": "Perfumer"
   },
   "char_199_yak": {
     "en_US": {
@@ -1575,9 +1651,11 @@
       "alias": [
         "jiao feng",
         "jiaofeng"
-      ]
+      ],
+      "appellation": "Matterhorn"
     },
-    "code": "matterhorn"
+    "code": "matterhorn",
+    "code_name": "Matterhorn"
   },
   "char_150_snakek": {
     "en_US": {
@@ -1619,9 +1697,11 @@
       "alias": [
         "she tu xiang",
         "shetuxiang"
-      ]
+      ],
+      "appellation": "Cuora"
     },
-    "code": "cuora"
+    "code": "cuora",
+    "code_name": "Cuora"
   },
   "char_196_sunbr": {
     "en_US": {
@@ -1663,9 +1743,11 @@
       "alias": [
         "gu mi",
         "gumi"
-      ]
+      ],
+      "appellation": "Гум"
     },
-    "code": "gummy"
+    "code": "gummy",
+    "code_name": "Гум"
   },
   "char_110_deepcl": {
     "en_US": {
@@ -1707,9 +1789,11 @@
       "alias": [
         "shen hai se",
         "shenhaise"
-      ]
+      ],
+      "appellation": "Deepcolor"
     },
-    "code": "deepcolor"
+    "code": "deepcolor",
+    "code_name": "Deepcolor"
   },
   "char_183_skgoat": {
     "en_US": {
@@ -1751,9 +1835,11 @@
       "alias": [
         "di ling",
         "diling"
-      ]
+      ],
+      "appellation": "Earthspirit"
     },
-    "code": "earthspirit"
+    "code": "earthspirit",
+    "code_name": "Earthspirit"
   },
   "char_277_sqrrel": {
     "en_US": {
@@ -1795,9 +1881,11 @@
       "alias": [
         "a xiao",
         "axiao"
-      ]
+      ],
+      "appellation": "Shaw"
     },
-    "code": "shaw"
+    "code": "shaw",
+    "code_name": "Shaw"
   },
   "char_128_plosis": {
     "en_US": {
@@ -1839,9 +1927,11 @@
       "alias": [
         "bai mian xiao",
         "baimianxiao"
-      ]
+      ],
+      "appellation": "Ptilopsis"
     },
-    "code": "ptilopsis"
+    "code": "ptilopsis",
+    "code_name": "Ptilopsis"
   },
   "char_115_headbr": {
     "en_US": {
@@ -1883,9 +1973,11 @@
       "alias": [
         "lin dong",
         "lindong"
-      ]
+      ],
+      "appellation": "Зима"
     },
-    "code": "zima"
+    "code": "zima",
+    "code_name": "Зима"
   },
   "char_102_texas": {
     "en_US": {
@@ -1927,9 +2019,11 @@
       "alias": [
         "de ke sa si",
         "dekesasi"
-      ]
+      ],
+      "appellation": "Texas"
     },
-    "code": "texas"
+    "code": "texas",
+    "code_name": "Texas"
   },
   "char_106_franka": {
     "en_US": {
@@ -1971,9 +2065,11 @@
       "alias": [
         "fu lan ka",
         "fulanka"
-      ]
+      ],
+      "appellation": "Franka"
     },
-    "code": "franka"
+    "code": "franka",
+    "code_name": "Franka"
   },
   "char_155_tiger": {
     "en_US": {
@@ -2015,9 +2111,11 @@
       "alias": [
         "yin tuo luo",
         "yintuoluo"
-      ]
+      ],
+      "appellation": "Indra"
     },
-    "code": "indra"
+    "code": "indra",
+    "code_name": "Indra"
   },
   "char_140_whitew": {
     "en_US": {
@@ -2059,9 +2157,11 @@
       "alias": [
         "la pu lan de",
         "lapulande"
-      ]
+      ],
+      "appellation": "Lappland"
     },
-    "code": "lappland"
+    "code": "lappland",
+    "code_name": "Lappland"
   },
   "char_143_ghost": {
     "en_US": {
@@ -2103,9 +2203,11 @@
       "alias": [
         "you ling sha",
         "youlingsha"
-      ]
+      ],
+      "appellation": "Specter"
     },
-    "code": "specter"
+    "code": "specter",
+    "code_name": "Specter"
   },
   "char_129_bluep": {
     "en_US": {
@@ -2147,9 +2249,11 @@
       "alias": [
         "lan du",
         "landu"
-      ]
+      ],
+      "appellation": "Blue Poison"
     },
-    "code": "blue poison"
+    "code": "blue poison",
+    "code_name": "Blue Poison"
   },
   "char_204_platnm": {
     "en_US": {
@@ -2191,9 +2295,11 @@
       "alias": [
         "bai jin",
         "baijin"
-      ]
+      ],
+      "appellation": "Platinum"
     },
-    "code": "platinum"
+    "code": "platinum",
+    "code_name": "Platinum"
   },
   "char_219_meteo": {
     "en_US": {
@@ -2235,9 +2341,11 @@
       "alias": [
         "yun xing",
         "yunxing"
-      ]
+      ],
+      "appellation": "Meteorite"
     },
-    "code": "meteorite"
+    "code": "meteorite",
+    "code_name": "Meteorite"
   },
   "char_002_amiya": {
     "en_US": {
@@ -2283,9 +2391,11 @@
       "alias": [
         "a mi ya",
         "amiya"
-      ]
+      ],
+      "appellation": "Amiya"
     },
-    "code": "amiya"
+    "code": "amiya",
+    "code_name": "Amiya"
   },
   "char_166_skfire": {
     "en_US": {
@@ -2327,9 +2437,11 @@
       "alias": [
         "tian huo",
         "tianhuo"
-      ]
+      ],
+      "appellation": "Skyfire"
     },
-    "code": "skyfire"
+    "code": "skyfire",
+    "code_name": "Skyfire"
   },
   "char_242_otter": {
     "en_US": {
@@ -2371,9 +2483,11 @@
       "alias": [
         "mei er",
         "meier"
-      ]
+      ],
+      "appellation": "Mayer"
     },
-    "code": "mayer"
+    "code": "mayer",
+    "code_name": "Mayer"
   },
   "char_108_silent": {
     "en_US": {
@@ -2415,9 +2529,11 @@
       "alias": [
         "he mo",
         "hemo"
-      ]
+      ],
+      "appellation": "Silence"
     },
-    "code": "silence"
+    "code": "silence",
+    "code_name": "Silence"
   },
   "char_171_bldsk": {
     "en_US": {
@@ -2459,9 +2575,11 @@
       "alias": [
         "hua fa lin",
         "huafalin"
-      ]
+      ],
+      "appellation": "Warfarin"
     },
-    "code": "warfarin"
+    "code": "warfarin",
+    "code_name": "Warfarin"
   },
   "char_148_nearl": {
     "en_US": {
@@ -2503,9 +2621,11 @@
       "alias": [
         "lin guang",
         "linguang"
-      ]
+      ],
+      "appellation": "Nearl"
     },
-    "code": "nearl"
+    "code": "nearl",
+    "code_name": "Nearl"
   },
   "char_144_red": {
     "en_US": {
@@ -2547,9 +2667,11 @@
       "alias": [
         "hong",
         "hong"
-      ]
+      ],
+      "appellation": "Projekt Red"
     },
-    "code": "projekt red"
+    "code": "projekt red",
+    "code_name": "Projekt Red"
   },
   "char_107_liskam": {
     "en_US": {
@@ -2591,9 +2713,11 @@
       "alias": [
         "lei she",
         "leishe"
-      ]
+      ],
+      "appellation": "Liskarm"
     },
-    "code": "liskarm"
+    "code": "liskarm",
+    "code_name": "Liskarm"
   },
   "char_201_moeshd": {
     "en_US": {
@@ -2635,9 +2759,11 @@
       "alias": [
         "ke song",
         "kesong"
-      ]
+      ],
+      "appellation": "Croissant"
     },
-    "code": "croissant"
+    "code": "croissant",
+    "code_name": "Croissant"
   },
   "char_163_hpsts": {
     "en_US": {
@@ -2679,9 +2805,11 @@
       "alias": [
         "huo shen",
         "huoshen"
-      ]
+      ],
+      "appellation": "Vulcan"
     },
-    "code": "vulcan"
+    "code": "vulcan",
+    "code_name": "Vulcan"
   },
   "char_145_prove": {
     "en_US": {
@@ -2723,9 +2851,11 @@
       "alias": [
         "pu luo wang si",
         "puluowangsi"
-      ]
+      ],
+      "appellation": "Provence"
     },
-    "code": "provence"
+    "code": "provence",
+    "code_name": "Provence"
   },
   "char_158_milu": {
     "en_US": {
@@ -2767,9 +2897,11 @@
       "alias": [
         "shou lin ren",
         "shoulinren"
-      ]
+      ],
+      "appellation": "Firewatch"
     },
-    "code": "firewatch"
+    "code": "firewatch",
+    "code_name": "Firewatch"
   },
   "char_173_slchan": {
     "en_US": {
@@ -2811,9 +2943,11 @@
       "alias": [
         "ya xin",
         "yaxin"
-      ]
+      ],
+      "appellation": "Cliffheart"
     },
-    "code": "cliffheart"
+    "code": "cliffheart",
+    "code_name": "Cliffheart"
   },
   "char_174_slbell": {
     "en_US": {
@@ -2855,9 +2989,11 @@
       "alias": [
         "chu xue",
         "chuxue"
-      ]
+      ],
+      "appellation": "Pramanix"
     },
-    "code": "pramanix"
+    "code": "pramanix",
+    "code_name": "Pramanix"
   },
   "char_195_glassb": {
     "en_US": {
@@ -2899,9 +3035,11 @@
       "alias": [
         "zhen li",
         "zhenli"
-      ]
+      ],
+      "appellation": "Истина"
     },
-    "code": "istina"
+    "code": "istina",
+    "code_name": "Истина"
   },
   "char_101_sora": {
     "en_US": {
@@ -2943,9 +3081,11 @@
       "alias": [
         "kong",
         "kong"
-      ]
+      ],
+      "appellation": "Sora"
     },
-    "code": "sora"
+    "code": "sora",
+    "code_name": "Sora"
   },
   "char_215_mantic": {
     "en_US": {
@@ -2987,9 +3127,11 @@
       "alias": [
         "shi xie",
         "shixie"
-      ]
+      ],
+      "appellation": "Manticore"
     },
-    "code": "manticore"
+    "code": "manticore",
+    "code_name": "Manticore"
   },
   "char_241_panda": {
     "en_US": {
@@ -3031,9 +3173,11 @@
       "alias": [
         "shi tie shou",
         "shitieshou"
-      ]
+      ],
+      "appellation": "FEater"
     },
-    "code": "feater"
+    "code": "feater",
+    "code_name": "FEater"
   },
   "char_103_angel": {
     "en_US": {
@@ -3079,9 +3223,11 @@
       "alias": [
         "neng tian shi",
         "nengtianshi"
-      ]
+      ],
+      "appellation": "Exusiai"
     },
-    "code": "exusiai"
+    "code": "exusiai",
+    "code_name": "Exusiai"
   },
   "char_112_siege": {
     "en_US": {
@@ -3127,9 +3273,11 @@
       "alias": [
         "tui jin zhi wang",
         "tuijinzhiwang"
-      ]
+      ],
+      "appellation": "Siege"
     },
-    "code": "siege"
+    "code": "siege",
+    "code_name": "Siege"
   },
   "char_134_ifrit": {
     "en_US": {
@@ -3175,9 +3323,11 @@
       "alias": [
         "yi fu li te",
         "yifulite"
-      ]
+      ],
+      "appellation": "Ifrit"
     },
-    "code": "ifrit"
+    "code": "ifrit",
+    "code_name": "Ifrit"
   },
   "char_180_amgoat": {
     "en_US": {
@@ -3223,9 +3373,11 @@
       "alias": [
         "ai ya fa la",
         "aiyafala"
-      ]
+      ],
+      "appellation": "Eyjafjalla"
     },
-    "code": "eyjafjalla"
+    "code": "eyjafjalla",
+    "code_name": "Eyjafjalla"
   },
   "char_291_aglina": {
     "en_US": {
@@ -3271,9 +3423,11 @@
       "alias": [
         "an jie li na",
         "anjielina"
-      ]
+      ],
+      "appellation": "Angelina"
     },
-    "code": "angelina"
+    "code": "angelina",
+    "code_name": "Angelina"
   },
   "char_147_shining": {
     "en_US": {
@@ -3319,9 +3473,11 @@
       "alias": [
         "shan ling",
         "shanling"
-      ]
+      ],
+      "appellation": "Shining"
     },
-    "code": "shining"
+    "code": "shining",
+    "code_name": "Shining"
   },
   "char_179_cgbird": {
     "en_US": {
@@ -3367,9 +3523,11 @@
       "alias": [
         "ye ying",
         "yeying"
-      ]
+      ],
+      "appellation": "Nightingale"
     },
-    "code": "nightingale"
+    "code": "nightingale",
+    "code_name": "Nightingale"
   },
   "char_136_hsguma": {
     "en_US": {
@@ -3415,9 +3573,11 @@
       "alias": [
         "xing xiong",
         "xingxiong"
-      ]
+      ],
+      "appellation": "Hoshiguma"
     },
-    "code": "hoshiguma"
+    "code": "hoshiguma",
+    "code_name": "Hoshiguma"
   },
   "char_202_demkni": {
     "en_US": {
@@ -3463,9 +3623,11 @@
       "alias": [
         "sai lei ya",
         "saileiya"
-      ]
+      ],
+      "appellation": "Saria"
     },
-    "code": "saria"
+    "code": "saria",
+    "code_name": "Saria"
   },
   "char_172_svrash": {
     "en_US": {
@@ -3511,9 +3673,11 @@
       "alias": [
         "yin hui",
         "yinhui"
-      ]
+      ],
+      "appellation": "SilverAsh"
     },
-    "code": "silverash"
+    "code": "silverash",
+    "code_name": "SilverAsh"
   },
   "token_10000_silent_healrb": {
     "en_US": {
@@ -3555,9 +3719,11 @@
       "alias": [
         "yi liao tan ji",
         "yiliaotanji"
-      ]
+      ],
+      "appellation": "Medical Drone"
     },
-    "code": "medic drone"
+    "code": "medic drone",
+    "code_name": "Medical Drone"
   },
   "token_10001_deepcl_tentac": {
     "en_US": {
@@ -3599,9 +3765,11 @@
       "alias": [
         "chu shou",
         "chushou"
-      ]
+      ],
+      "appellation": "Tentacle"
     },
-    "code": "tentacle"
+    "code": "tentacle",
+    "code_name": "Tentacle"
   },
   "token_10003_cgbird_bird": {
     "en_US": {
@@ -3647,9 +3815,11 @@
       "alias": [
         "huan ying",
         "huanying"
-      ]
+      ],
+      "appellation": "Cage"
     },
-    "code": "mirage"
+    "code": "mirage",
+    "code_name": "Cage"
   },
   "token_10004_otter_motter": {
     "en_US": {
@@ -3691,9 +3861,11 @@
       "alias": [
         "ji xie shui ta",
         "jixieshuita"
-      ]
+      ],
+      "appellation": "Mibo"
     },
-    "code": "robotter"
+    "code": "robotter",
+    "code_name": "Mibo"
   },
   "token_10005_mgllan_drone1": {
     "en_US": {
@@ -3739,9 +3911,11 @@
       "alias": [
         "long teng .F",
         "longteng.F"
-      ]
+      ],
+      "appellation": "DDF Type-F"
     },
-    "code": "soaring dragon f"
+    "code": "soaring dragon f",
+    "code_name": "DDF Type-F"
   },
   "token_10005_mgllan_drone2": {
     "en_US": {
@@ -3787,9 +3961,11 @@
       "alias": [
         "long teng .L",
         "longteng.L"
-      ]
+      ],
+      "appellation": "DDF Type-L"
     },
-    "code": "soaring dragon l"
+    "code": "soaring dragon l",
+    "code_name": "DDF Type-L"
   },
   "token_10005_mgllan_drone3": {
     "en_US": {
@@ -3835,9 +4011,11 @@
       "alias": [
         "long teng .A",
         "longteng.A"
-      ]
+      ],
+      "appellation": "DDF Type-A"
     },
-    "code": "soaring dragon a"
+    "code": "soaring dragon a",
+    "code_name": "DDF Type-A"
   },
   "trap_001_crate": {
     "en_US": {
@@ -3875,9 +4053,11 @@
       "alias": [
         "zhang ai wu",
         "zhangaiwu"
-      ]
+      ],
+      "appellation": "Crate"
     },
-    "code": "roadblock"
+    "code": "roadblock",
+    "code_name": "Crate"
   },
   "trap_002_emp": {
     "en_US": {
@@ -3915,9 +4095,11 @@
       "alias": [
         "zhen han zhuang zhi",
         "zhenhanzhuangzhi"
-      ]
+      ],
+      "appellation": "EMP"
     },
-    "code": "stun generator"
+    "code": "stun generator",
+    "code_name": "EMP"
   },
   "trap_003_gate": {
     "en_US": {
@@ -3955,9 +4137,11 @@
       "alias": [
         "zha men",
         "zhamen"
-      ]
+      ],
+      "appellation": "闸门"
     },
-    "code": "gate"
+    "code": "gate",
+    "code_name": "闸门"
   },
   "trap_005_sensor": {
     "en_US": {
@@ -3995,9 +4179,11 @@
       "alias": [
         "zhen ce qi",
         "zhenceqi"
-      ]
+      ],
+      "appellation": "Detector"
     },
-    "code": "detector"
+    "code": "detector",
+    "code_name": "Detector"
   },
   "char_230_savage": {
     "en_US": {
@@ -4039,9 +4225,11 @@
       "alias": [
         "bao hang",
         "baohang"
-      ]
+      ],
+      "appellation": "Savage"
     },
-    "code": "savage"
+    "code": "savage",
+    "code_name": "Savage"
   },
   "char_282_catap": {
     "en_US": {
@@ -4079,9 +4267,11 @@
       "alias": [
         "kong bao",
         "kongbao"
-      ]
+      ],
+      "appellation": "Catapult"
     },
-    "code": "catapult"
+    "code": "catapult",
+    "code_name": "Catapult"
   },
   "char_283_midn": {
     "en_US": {
@@ -4119,9 +4309,11 @@
       "alias": [
         "yue jian ye",
         "yuejianye"
-      ]
+      ],
+      "appellation": "Midnight"
     },
-    "code": "midnight"
+    "code": "midnight",
+    "code_name": "Midnight"
   },
   "char_137_brownb": {
     "en_US": {
@@ -4163,9 +4355,11 @@
       "alias": [
         "lie feng",
         "liefeng"
-      ]
+      ],
+      "appellation": "Beehunter"
     },
-    "code": "beehunter"
+    "code": "beehunter",
+    "code_name": "Beehunter"
   },
   "char_164_nightm": {
     "en_US": {
@@ -4207,9 +4401,11 @@
       "alias": [
         "ye mo",
         "yemo"
-      ]
+      ],
+      "appellation": "Nightmare"
     },
-    "code": "nightmare"
+    "code": "nightmare",
+    "code_name": "Nightmare"
   },
   "char_220_grani": {
     "en_US": {
@@ -4251,9 +4447,11 @@
       "alias": [
         "ge la ni",
         "gelani"
-      ]
+      ],
+      "appellation": "Grani"
     },
-    "code": "grani"
+    "code": "grani",
+    "code_name": "Grani"
   },
   "char_263_skadi": {
     "en_US": {
@@ -4299,9 +4497,11 @@
       "alias": [
         "si ka di",
         "sikadi"
-      ]
+      ],
+      "appellation": "Skadi"
     },
-    "code": "skadi"
+    "code": "skadi",
+    "code_name": "Skadi"
   },
   "char_281_popka": {
     "zh_CN": {
@@ -4313,9 +4513,11 @@
       "alias": [
         "pao pu ka",
         "paopuka"
-      ]
+      ],
+      "appellation": "Popukar"
     },
-    "code": null
+    "code": null,
+    "code_name": "Popukar"
   },
   "char_284_spot": {
     "zh_CN": {
@@ -4327,9 +4529,11 @@
       "alias": [
         "ban dian",
         "bandian"
-      ]
+      ],
+      "appellation": "Spot"
     },
-    "code": null
+    "code": null,
+    "code_name": "Spot"
   },
   "char_253_greyy": {
     "zh_CN": {
@@ -4342,9 +4546,11 @@
       "alias": [
         "ge lei yi",
         "geleiyi"
-      ]
+      ],
+      "appellation": "Greyy"
     },
-    "code": null
+    "code": null,
+    "code_name": "Greyy"
   },
   "char_190_clour": {
     "zh_CN": {
@@ -4357,9 +4563,11 @@
       "alias": [
         "hong yun",
         "hongyun"
-      ]
+      ],
+      "appellation": "Vermeil"
     },
-    "code": null
+    "code": null,
+    "code_name": "Vermeil"
   },
   "char_133_mm": {
     "zh_CN": {
@@ -4372,9 +4580,11 @@
       "alias": [
         "mei",
         "mei"
-      ]
+      ],
+      "appellation": "May"
     },
-    "code": null
+    "code": null,
+    "code_name": "May"
   },
   "char_302_glaze": {
     "zh_CN": {
@@ -4387,9 +4597,11 @@
       "alias": [
         "an bi er",
         "anbier"
-      ]
+      ],
+      "appellation": "Ambriel"
     },
-    "code": null
+    "code": null,
+    "code_name": "Ambriel"
   },
   "char_151_myrtle": {
     "zh_CN": {
@@ -4402,9 +4614,11 @@
       "alias": [
         "tao jin niang",
         "taojinniang"
-      ]
+      ],
+      "appellation": "Myrtle"
     },
-    "code": null
+    "code": null,
+    "code_name": "Myrtle"
   },
   "char_298_susuro": {
     "zh_CN": {
@@ -4417,9 +4631,11 @@
       "alias": [
         "su su luo",
         "susuluo"
-      ]
+      ],
+      "appellation": "Sussurro"
     },
-    "code": null
+    "code": null,
+    "code_name": "Sussurro"
   },
   "char_260_durnar": {
     "zh_CN": {
@@ -4432,9 +4648,11 @@
       "alias": [
         "jian lei",
         "jianlei"
-      ]
+      ],
+      "appellation": "Dur-nar"
     },
-    "code": null
+    "code": null,
+    "code_name": "Dur-nar"
   },
   "char_355_ethan": {
     "zh_CN": {
@@ -4447,9 +4665,11 @@
       "alias": [
         "yi sang",
         "yisang"
-      ]
+      ],
+      "appellation": "Ethan"
     },
-    "code": null
+    "code": null,
+    "code_name": "Ethan"
   },
   "char_275_breeze": {
     "zh_CN": {
@@ -4462,9 +4682,11 @@
       "alias": [
         "wei feng",
         "weifeng"
-      ]
+      ],
+      "appellation": "Breeze"
     },
-    "code": null
+    "code": null,
+    "code_name": "Breeze"
   },
   "char_261_sddrag": {
     "zh_CN": {
@@ -4477,9 +4699,11 @@
       "alias": [
         "wei cao",
         "weicao"
-      ]
+      ],
+      "appellation": "Reed"
     },
-    "code": null
+    "code": null,
+    "code_name": "Reed"
   },
   "char_308_swire": {
     "zh_CN": {
@@ -4492,9 +4716,11 @@
       "alias": [
         "shi huai ya",
         "shihuaiya"
-      ]
+      ],
+      "appellation": "Swire"
     },
-    "code": null
+    "code": null,
+    "code_name": "Swire"
   },
   "char_131_flameb": {
     "zh_CN": {
@@ -4507,9 +4733,11 @@
       "alias": [
         "yan ke",
         "yanke"
-      ]
+      ],
+      "appellation": "Flamebringer"
     },
-    "code": null
+    "code": null,
+    "code_name": "Flamebringer"
   },
   "char_356_broca": {
     "zh_CN": {
@@ -4522,9 +4750,11 @@
       "alias": [
         "bu luo ka",
         "buluoka"
-      ]
+      ],
+      "appellation": "Broca"
     },
-    "code": null
+    "code": null,
+    "code_name": "Broca"
   },
   "char_274_astesi": {
     "zh_CN": {
@@ -4537,9 +4767,11 @@
       "alias": [
         "xing ji",
         "xingji"
-      ]
+      ],
+      "appellation": "Astesia"
     },
-    "code": null
+    "code": null,
+    "code_name": "Astesia"
   },
   "char_367_swllow": {
     "zh_CN": {
@@ -4552,9 +4784,11 @@
       "alias": [
         "hui hou",
         "huihou"
-      ]
+      ],
+      "appellation": "GreyThroat"
     },
-    "code": null
+    "code": null,
+    "code_name": "GreyThroat"
   },
   "char_279_excu": {
     "zh_CN": {
@@ -4567,9 +4801,11 @@
       "alias": [
         "song zang ren",
         "songzangren"
-      ]
+      ],
+      "appellation": "Executor"
     },
-    "code": null
+    "code": null,
+    "code_name": "Executor"
   },
   "char_348_ceylon": {
     "zh_CN": {
@@ -4582,9 +4818,11 @@
       "alias": [
         "xi lan",
         "xilan"
-      ]
+      ],
+      "appellation": "Ceylon"
     },
-    "code": null
+    "code": null,
+    "code_name": "Ceylon"
   },
   "char_226_hmau": {
     "zh_CN": {
@@ -4597,9 +4835,11 @@
       "alias": [
         "hou",
         "hou"
-      ]
+      ],
+      "appellation": "Hung"
     },
-    "code": null
+    "code": null,
+    "code_name": "Hung"
   },
   "char_243_waaifu": {
     "zh_CN": {
@@ -4612,9 +4852,11 @@
       "alias": [
         "huai hu",
         "huaihu"
-      ]
+      ],
+      "appellation": "Waai Fu"
     },
-    "code": null
+    "code": null,
+    "code_name": "Waai Fu"
   },
   "char_325_bison": {
     "zh_CN": {
@@ -4627,9 +4869,11 @@
       "alias": [
         "bai song",
         "baisong"
-      ]
+      ],
+      "appellation": "Bison"
     },
-    "code": null
+    "code": null,
+    "code_name": "Bison"
   },
   "char_383_snsant": {
     "zh_CN": {
@@ -4642,9 +4886,11 @@
       "alias": [
         "xue zhi",
         "xuezhi"
-      ]
+      ],
+      "appellation": "Snowsant"
     },
-    "code": null
+    "code": null,
+    "code_name": "Snowsant"
   },
   "char_326_glacus": {
     "zh_CN": {
@@ -4657,9 +4903,11 @@
       "alias": [
         "ge lao ke si",
         "gelaokesi"
-      ]
+      ],
+      "appellation": "Glaucus"
     },
-    "code": null
+    "code": null,
+    "code_name": "Glaucus"
   },
   "char_340_shwaz": {
     "zh_CN": {
@@ -4673,9 +4921,11 @@
       "alias": [
         "hei",
         "hei"
-      ]
+      ],
+      "appellation": "Schwarz"
     },
-    "code": null
+    "code": null,
+    "code_name": "Schwarz"
   },
   "char_213_mostma": {
     "zh_CN": {
@@ -4689,9 +4939,11 @@
       "alias": [
         "mo si ti ma",
         "mositima"
-      ]
+      ],
+      "appellation": "Mostima"
     },
-    "code": null
+    "code": null,
+    "code_name": "Mostima"
   },
   "char_248_mgllan": {
     "zh_CN": {
@@ -4705,9 +4957,11 @@
       "alias": [
         "mai zhe lun",
         "maizhelun"
-      ]
+      ],
+      "appellation": "Magallan"
     },
-    "code": null
+    "code": null,
+    "code_name": "Magallan"
   },
   "char_225_haak": {
     "zh_CN": {
@@ -4721,9 +4975,11 @@
       "alias": [
         "a",
         "a"
-      ]
+      ],
+      "appellation": "Aak"
     },
-    "code": null
+    "code": null,
+    "code_name": "Aak"
   },
   "char_2014_nian": {
     "zh_CN": {
@@ -4737,9 +4993,11 @@
       "alias": [
         "nian",
         "nian"
-      ]
+      ],
+      "appellation": "Nian"
     },
-    "code": null
+    "code": null,
+    "code_name": "Nian"
   },
   "char_010_chen": {
     "zh_CN": {
@@ -4753,9 +5011,11 @@
       "alias": [
         "chen",
         "chen"
-      ]
+      ],
+      "appellation": "Ch'en"
     },
-    "code": null
+    "code": null,
+    "code_name": "Ch'en"
   },
   "char_017_huang": {
     "zh_CN": {
@@ -4769,9 +5029,11 @@
       "alias": [
         "huang",
         "huang"
-      ]
+      ],
+      "appellation": "Blaze"
     },
-    "code": null
+    "code": null,
+    "code_name": "Blaze"
   },
   "char_188_helage": {
     "zh_CN": {
@@ -4785,9 +5047,11 @@
       "alias": [
         "he la ge",
         "helage"
-      ]
+      ],
+      "appellation": "Hellagur"
     },
-    "code": null
+    "code": null,
+    "code_name": "Hellagur"
   },
   "trap_006_antidr": {
     "zh_CN": {
@@ -4799,9 +5063,11 @@
       "alias": [
         "gan rao zhuang zhi",
         "ganraozhuangzhi"
-      ]
+      ],
+      "appellation": "Anti-Drone"
     },
-    "code": null
+    "code": null,
+    "code_name": "Anti-Drone"
   },
   "trap_007_ballis": {
     "zh_CN": {
@@ -4813,9 +5079,11 @@
       "alias": [
         "nu pao",
         "nupao"
-      ]
+      ],
+      "appellation": "Ballista"
     },
-    "code": null
+    "code": null,
+    "code_name": "Ballista"
   },
   "trap_008_farm": {
     "zh_CN": {
@@ -4827,9 +5095,11 @@
       "alias": [
         "zhi hui zhong duan",
         "zhihuizhongduan"
-      ]
+      ],
+      "appellation": "CT-01"
     },
-    "code": null
+    "code": null,
+    "code_name": "CT-01"
   },
   "trap_009_battery": {
     "zh_CN": {
@@ -4839,9 +5109,11 @@
       "alias": [
         "bian xie shi bu gei zhan",
         "bianxieshibugeizhan"
-      ]
+      ],
+      "appellation": "Portable Supply"
     },
-    "code": null
+    "code": null,
+    "code_name": "Portable Supply"
   },
   "trap_010_frosts": {
     "zh_CN": {
@@ -4853,8 +5125,10 @@
       "alias": [
         "yuan shi bing jing",
         "yuanshibingjing"
-      ]
+      ],
+      "appellation": "Originium ICrystal"
     },
-    "code": null
+    "code": null,
+    "code_name": "Originium ICrystal"
   }
 }

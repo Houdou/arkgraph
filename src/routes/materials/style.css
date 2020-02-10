@@ -107,7 +107,7 @@
 	margin-bottom: 12px;
 }
 
-.query, .formula, .drops, .filters, .table, .upgrades, .summary {
+.query, .formula, .drops, .filters, .table, .upgrades, .summary, .requirements_summary {
 	width: 860px;
 	min-width: 860px;
 	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
@@ -193,6 +193,11 @@
 	justify-content: center;
 }
 
+.requirements_summary {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .save {
   background-color: #111;
   padding: 8px;
@@ -229,7 +234,7 @@
 		margin: 0;
 	}
 
-	.query, .formula, .drops, .filters, .table, .upgrades, .summary {
+	.query, .formula, .drops, .filters, .table, .upgrades, .summary, .requirements_summary {
 		padding: 8px;
 		width: 100%;
 		min-width: unset;

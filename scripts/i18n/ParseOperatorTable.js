@@ -29,6 +29,7 @@ const readTable = (lang) => {
 				}));
 				operator_data[unique_id][lang].alias.push(operator_pinyin.join(' '));
 				operator_data[unique_id][lang].alias.push(operator_pinyin.join(''));
+				operator_data[unique_id][lang].appellation = value.appellation;
 			}
 			if (lang === 'ja_JP') {
 				const operator_hiragana = toHiragana(value.name);
@@ -43,6 +44,7 @@ LANG.forEach(lang => {
 
 Object.entries(operator_data).forEach(([key, value]) => {
 	operator_data[key].code = value.en_US && value.en_US.name && value.en_US.name.toLowerCase() || null;
+	operator_data[key].code_name = value.zh_CN && value.zh_CN.appellation || null;
 });
 
 require('fs').writeFileSync(require('path').resolve(__dirname, '../../src/i18n', 'operators.json'), JSON.stringify(operator_data, null, 2));
