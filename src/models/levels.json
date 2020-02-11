@@ -1076,7 +1076,12 @@
     "energy": 9,
     "unique_id": "main_01-10",
     "zone_id": "main_1",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "S-2-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": [
       {
@@ -5917,7 +5922,12 @@
     "energy": 10,
     "unique_id": "wk_toxic_1",
     "zone_id": "weekly_5",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "PC-3-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5926,7 +5936,12 @@
     "energy": 15,
     "unique_id": "wk_toxic_2",
     "zone_id": "weekly_5",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "PC-3-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5935,7 +5950,12 @@
     "energy": 20,
     "unique_id": "wk_toxic_3",
     "zone_id": "weekly_5",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "PC-3-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5944,7 +5964,12 @@
     "energy": 25,
     "unique_id": "wk_toxic_4",
     "zone_id": "weekly_5",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "PC-3-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5953,7 +5978,12 @@
     "energy": 30,
     "unique_id": "wk_toxic_5",
     "zone_id": "weekly_5",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "PC-3-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5962,7 +5992,12 @@
     "energy": 10,
     "unique_id": "wk_fly_1",
     "zone_id": "weekly_6",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "S-2-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5971,7 +6006,12 @@
     "energy": 15,
     "unique_id": "wk_fly_2",
     "zone_id": "weekly_6",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "S-2-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5980,7 +6020,16 @@
     "energy": 20,
     "unique_id": "wk_fly_3",
     "zone_id": "weekly_6",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "S-3-1",
+        "probability": "固定"
+      },
+      {
+        "resource": "S-2-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5989,7 +6038,20 @@
     "energy": 25,
     "unique_id": "wk_fly_4",
     "zone_id": "weekly_6",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "S-4-1",
+        "probability": "固定"
+      },
+      {
+        "resource": "S-3-1",
+        "probability": "固定"
+      },
+      {
+        "resource": "S-2-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -5998,7 +6060,20 @@
     "energy": 30,
     "unique_id": "wk_fly_5",
     "zone_id": "weekly_6",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "S-4-1",
+        "probability": "固定"
+      },
+      {
+        "resource": "S-3-1",
+        "probability": "固定"
+      },
+      {
+        "resource": "S-2-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6007,7 +6082,16 @@
     "energy": 18,
     "unique_id": "pro_a_1",
     "zone_id": "weekly_1",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-3-3",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-3-6",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6016,7 +6100,16 @@
     "energy": 36,
     "unique_id": "pro_a_2",
     "zone_id": "weekly_1",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-4-3",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-4-6",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6025,7 +6118,16 @@
     "energy": 18,
     "unique_id": "pro_b_1",
     "zone_id": "weekly_2",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-3-4",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-3-5",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6034,7 +6136,16 @@
     "energy": 36,
     "unique_id": "pro_b_2",
     "zone_id": "weekly_2",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-4-4",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-4-5",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6043,7 +6154,16 @@
     "energy": 18,
     "unique_id": "pro_c_1",
     "zone_id": "weekly_3",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-3-1",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-3-7",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6052,7 +6172,16 @@
     "energy": 36,
     "unique_id": "pro_c_2",
     "zone_id": "weekly_3",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-4-1",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-4-7",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6061,7 +6190,16 @@
     "energy": 18,
     "unique_id": "pro_d_1",
     "zone_id": "weekly_4",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-3-2",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-3-8",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
@@ -6070,7 +6208,16 @@
     "energy": 36,
     "unique_id": "pro_d_2",
     "zone_id": "weekly_4",
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "C-4-2",
+        "probability": "中概率"
+      },
+      {
+        "resource": "C-4-8",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
     "extra_drop": []
   },
