@@ -156,6 +156,12 @@
 .compound_side_products {
 	padding-top: 0;
 }
+.formula {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
 .compound_side_product_items {
 	padding: 18px;
 	display: flex;
@@ -164,11 +170,6 @@
 	padding-bottom: 0;
 }
 
-.formula {
-	display: flex;
-	flex-flow: row;
-	justify-content: center;
-}
 .upgrades {
 	width: auto;
 	padding-right: 100px;
