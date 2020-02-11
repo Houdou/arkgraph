@@ -80,6 +80,8 @@ const App = (props) => {
 			>
 				<ArkInfo
 					path="/"
+					ir={ir}
+					config={config}
 					toggleShowAnnouncementCodeOnce={toggleShowAnnouncementCodeOnce}
 					showAnnouncementCodeOnce={config.showAnnouncementCodeOnce}
 				/>

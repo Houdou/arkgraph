@@ -1,15 +1,23 @@
-import React from 'preact';
+import React, { Fragment } from 'preact';
 import style from './style';
 
 import { STORAGE_VERSION } from '../../config/useConfig';
 
-const Info = (props) => (
+const Info = ({
+	config,
+	ir,
+}) => (
 	<div class={style.wrapper}>
 		<div class={style.info}>
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
-			<h2>公告</h2>
+			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-02-11</p>
+			材料页添加了合成功能及副产物列表，合成的时候更方便调整库存了<br />
+			Add compound button & side product list to material page, <br />
+			it's more convient now to align stock quantity.<br />
+			素材画面に加工機能を追加しました。副産物も一覧できますので、もっと便利な在庫数管理ができます<br />
 			<p>2020-01-16</p>
 			添加了多语言支持🎉<br />
 			日本語を追加しました🎉<br />
@@ -32,22 +40,33 @@ const Info = (props) => (
 			添加了新干员
 			【<a href="/operator/雪雉">雪雉</a>】<br />
 			添加了活动图掉落数据<br />
-			<p>2019-12-24</p>
-			添加了新干员
-			【<a href="/operator/煌">煌</a>】
-			【<a href="/operator/灰喉">灰喉</a>】
-			【<a href="/operator/安比尔">安比尔</a>】
-			<br />
 			<p>2019-09-30</p>
 			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
 			国内用户请使用CN站<br />
 			<br />
 			<hr />
 			<p>
-				<h2>关于访问量</h2>
-				感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
-				服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
-				<small>（小声）</small>在下边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
+				<h2>{ir('homepage-donation', '捐助')}</h2>
+				{config.locale === 'zh_CN' && (
+					<p>
+					感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
+					服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
+						<small>（小声）</small>在下边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
+					</p>
+				)}
+				{['en_US', 'ko_KR'].includes(config.locale) && (
+					<p>
+						To serve all Arknights players around the world, there are some costs to run the server.<br />
+						I would appreciate very much for your donation if you can buy me a coke. (I don't drink coffee, lol) <br />
+						If you like this tools, please also consider share it to your friends~ <br />
+					</p>
+				)}
+				{['ja_JP'].includes(config.locale) && (
+					<p>
+						全世界のアークナイツプレイヤーが快適に利用できますように、サーバーの費用が多少かかります。<br />
+						もしこのツールが役に立ってば、寄付頂けると非常に感謝します。
+					</p>
+				)}
 				<div class={style.tips}>
 					<img class={style.tip} src="../../assets/tip_ali.png" alt="reward_author" />
 					<img class={style.tip} src="../../assets/tip_wechat.png" alt="reward_author" />
@@ -62,18 +81,38 @@ const Info = (props) => (
 				</div>
 			</p>
 			<hr />
-			<h2>关于项目</h2>
-			<p>沉迷培养干员，然而没有理智。<del>只好写点相关项目等理智恢复</del></p>
-			<p>感谢以下网站及大佬</p>
-			<ul>
-				<li><a target="_blank" rel="noreferrer noopener" href="http://wiki.joyme.com/arknights/">明日方舟wiki</a></li>
-				<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
-				<li><a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a></li>
-			</ul>
-			<p>如果有各种建议或者意见，欢迎到帖子留言，提Issue或微博找我</p>
-			<p>NGA发布帖：<a target="_blank" rel="noreferrer noopener" href="https://bbs.nga.cn/read.php?tid=17417159">链接</a></p>
-	    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
-	    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+			<h2>{ir('homepage-about', '关于项目')}</h2>
+			{config.locale === 'zh_CN' && (
+				<Fragment>
+					<p>沉迷培养干员，然而没有理智。<del>只好写点相关项目等理智恢复</del></p>
+					<p>感谢以下网站及大佬</p>
+					<ul>
+						<li><a target="_blank" rel="noreferrer noopener" href="http://wiki.joyme.com/arknights/">明日方舟wiki</a></li>
+						<li><a target="_blank" rel="noreferrer noopener" href="https://graueneko.github.io/">明日方舟工具箱</a></li>
+						<li><a target="_blank" rel="noreferrer noopener" href="https://penguin-stats.io/">企鹅物流数据统计</a></li>
+					</ul>
+					<p>如果有各种建议或者意见，欢迎到帖子留言，提Issue或微博找我</p>
+					<p>NGA发布帖：<a target="_blank" rel="noreferrer noopener" href="https://bbs.nga.cn/read.php?tid=17417159">链接</a></p>
+		    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+		    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+				</Fragment>
+			)}
+			{['en_US', 'ko_KR'].includes(config.locale) && (
+				<Fragment>
+					<p>If you have any problem, suggestion, or issue, please fine me at:</p>
+					<p>Reddit: <a target="_blank" rel="noreferrer noopener" href="https://www.reddit.com/r/arknights/comments/f04gg1/planner_material_calculator_tool/">Link</a></p>
+			    <p>Project repository：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+			    <p>Sina weibo: <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+				</Fragment>
+			)}
+			{config.locale === 'ja_JP' && (
+				<Fragment>
+					<p>質問、提案があたら、こちらの連絡方法で</p>
+					<small>日本語が大体わかりますけど。。。あんまり上手くないです</small>
+			    <p>リポジトリ：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+			    <p>作者（Weibo）： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+				</Fragment>
+			)}
 			<hr />
 			<h2>使用说明</h2>
 			<h3>干员培养表</h3>
@@ -156,45 +195,6 @@ const Info = (props) => (
 			<h3>计划中功能</h3>
 			<ul>
 				<li>欢迎提供建议: <a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph/issues">Issue board</a></li>
-			</ul>
-			<hr />
-			<h2>更新日志</h2>
-			<h3>V1.7.0</h3>
-			<ul>
-				<li>整合了ArkPlanner</li>
-				<li>修复了企鹅数据的部分链接</li>
-			</ul>
-			<h3>V1.6.0</h3>
-			<ul>
-				<li>增加了站内的关卡、材料、干员链接，可以直接点击跳转查询（库存页材料除外）</li>
-				<li>增加了【刷图】页面</li>
-				<li>重新规划了刷图与库存页面功能</li>
-				<li>增加了材料的需求数量显示</li>
-				<li>为与ArkPlanner整合做准备</li>
-			</ul>
-			<h3>V1.5.4</h3>
-			<ul>
-				<li>增加了ArkPlanner的数据格式导出</li>
-			</ul>
-			<h3>V1.5.3</h3>
-			<ul>
-				<li>增加了新干员数据</li>
-			</ul>
-			<h3>V1.5.2</h3>
-			<ul>
-				<li>增加了隐藏需求行的功能</li>
-			</ul>
-			<h3>V1.5.1</h3>
-			<ul>
-				<li>增加了库存管理</li>
-				<li>增加了库存管理页的关卡筛选功能</li>
-			</ul>
-			<h3>V1.5.0</h3>
-			<ul>
-				<li>链接【企鹅物流数据统计】的掉落数据</li>
-				<li>增加了材料查询页面的筛选功能</li>
-				<li>增加了采购凭证</li>
-				<li>增加了一键追踪材料功能</li>
 			</ul>
 			<hr />
 			<div style={{ width: '96%', textAlign: 'right' }}>
