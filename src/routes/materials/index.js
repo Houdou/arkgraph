@@ -10,13 +10,17 @@ import PenguinLink from '../../components/penguinLink';
 
 import ArkDropRow from './components/DropRow';
 import ArkCompoundRow from './components/CompoundRow';
+import ArkCompoundSideProductsRow from './components/CompoundSideProductsRow';
+import ArkCompoundRequirementsRow from './components/CompoundRequirementsRow';
 import ArkRequirementRow from './components/RequirementRow';
 import ArkMaterialInput from './components/MaterialInput';
 
 import { LEVELS } from '../../models/Levels';
 import { ATTRIBUTES } from '../../models/Attributes';
 import { OPERATORS } from '../../models/Operators';
+import { COMPOUNDS } from '../../models/Compounds';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS, getResourceName } from '../../models/Resources';
+import sumRequirements from '../../models/sumRequirements';
 import aggregateMaterialRequirement from '../../models/aggregateMaterialRequirement';
 import useFilterSetting from '../../models/useFilterSetting';
 import processRecord from '../../models/processRecord';
@@ -84,9 +88,11 @@ const ArkMaterials = ({
 	material_name: material_query_param,
 }) => {
 	const {
-		state: { stock },
+		state: { stock, records, compound_materials },
 		load,
 		addRow,
+		adjustStockItem,
+		compoundMaterial,
 	} = data;
 
 	const [ material_query, setMaterialQuery_raw ] = useState(null);
@@ -126,6 +132,8 @@ const ArkMaterials = ({
 		}
 	}, [material_query_param]);
 
+	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
+
 	const operator_profession_material_filter_setting = useFilterSetting(operator_profession_material_filter_option);
 	const operator_rarity_material_filter_setting = useFilterSetting(operator_rarity_material_filter_option);
 	const upgrade_attribute_material_filter_setting = useFilterSetting(upgrade_attribute_material_filter_option);
@@ -158,6 +166,8 @@ const ArkMaterials = ({
 			* (Number(compound.required) || 1)
 	);
 
+	const compound_data = material && COMPOUNDS.find(({ material_id }) => material_id === material.id);
+
 	const item_drops = material && drops.filter(({ itemId }) => itemId === String(material.unique_id));
 	const source_levels = material && Object.entries(material.source).map(([k, v]) => LEVELS.find(({ level }) => k === level));
 	const level_drops = item_drops && source_levels
@@ -184,7 +194,7 @@ const ArkMaterials = ({
 				sum[resource] = (sum[resource] || 0) + quantity;
 			});
 		});
-	const summary = Object.entries(sum)
+	const material_summary = Object.entries(sum)
 		.map(([resource, quantity]) => ({
 			resource,
 			quantity,
@@ -195,6 +205,7 @@ const ArkMaterials = ({
 	const global_props = {
 		config,
 		stock,
+		summary,
 	};
 
 	return (
@@ -265,32 +276,52 @@ const ArkMaterials = ({
 					material_query && material && Object.entries(material.formula).length > 0 && (
 						<div class={style.section}>
 							<div class={style.section_header}>
-								<span>{ir('materials-formula-formula', 'Formula')}</span>
+								<span>{ir('materials-compound-compound', 'Compound')}</span>
 							</div>
-							<div class={style.formula}>
-								{
-									Object.entries(material.formula).map(([resource, quantity], index) => (
-										<div class={style.formula_cell}>
-											<Link href={`/materials/${resource}`}>
-												<ArkItem
-													id={resource}
-													tier={`T${resource.substr(2, 1)}`}
-													scale={0.3}
-												/>
-											</Link>
-											<span>x</span>
-											<span
-												class={cn(
-													style.formula_quantity,
-													{
-														[style.long_quantity]: resource !== 'G-4-1' && quantity.toString().length > 2,
-													}
-												)}
-											>{quantity}</span>
-										</div>
-									))
-								}
+							<div class={style.compound_area}>
+								<ArkRow
+									cells={
+										[
+											{ content: ir('materials-compound-stock', 'Stock') },
+											{ content: ir('materials-compound-formula', 'Formula'), fullwidth: true },
+										]
+									}
+									sticky
+									disable_hover
+								/>
+								<ArkCompoundRow
+									material_query={material_query}
+									material_id={material.id}
+									formula={material.formula}
+									adjustStockItem={adjustStockItem}
+									{...global_props}
+								/>
+								<div
+									class={style.compound_button}
+									onClick={e => {
+										e.stopImmediatePropagation();
+										compoundMaterial(material.id);
+									}}
+								>{ir('materials-compound-compound_one', 'Compound one')}</div>
 							</div>
+							{compound_data && (
+								<div class={style.compound_side_products}>
+									<ArkRow
+										cells={
+											[
+												{ content: ir('materials-compound-side_products', 'Side Products'), fullwidth: true },
+											]
+										}
+										sticky
+										disable_hover
+									/>
+									<ArkCompoundSideProductsRow
+										compound_data={compound_data}
+										adjustStockItem={adjustStockItem}
+										{...global_props}
+									/>
+								</div>
+							)}
 						</div>
 					)
 				}
@@ -313,7 +344,7 @@ const ArkMaterials = ({
 						{
 							material_query && compound_requirements.map((compound, index) => (
 								compound && (
-									<ArkCompoundRow
+									<ArkCompoundRequirementsRow
 										material_query={material_query}
 										compound={compound}
 										formula={materials.find(({ id }) => id === compound.result).formula}
@@ -447,14 +478,14 @@ const ArkMaterials = ({
 						}
 					</div>
 				</div>
-				{summary && summary.length > 0 && (
+				{material_summary && material_summary.length > 0 && (
 					<div class={style.section}>
 						<div class={style.section_header}>
 							<span>{ir('materials-requirements-summary', 'Summary')}</span>
 						</div>
 						<div class={style.requirements_summary}>
 							{
-								summary.map(({ resource, quantity }) => (
+								material_summary.map(({ resource, quantity }) => (
 									<div class={style.requirement_cell}>
 										<Link href={`/materials/${resource}`}>
 											<ArkItem

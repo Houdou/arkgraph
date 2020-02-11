@@ -77,7 +77,7 @@
 	width: 100px;
 	text-align: center;
 }
-.actions .filter_toggle {
+.actions .filter_toggle, .compound_button {
   background-color: #333;
 	margin-right: 20px;
   padding: 8px 32px;
@@ -107,7 +107,10 @@
 	margin-bottom: 12px;
 }
 
-.query, .formula, .drops, .filters, .table, .upgrades, .summary, .requirements_summary {
+.query, .formula, .compound_area,
+.compound_side_products,
+.drops, .filters, .table, .upgrades,
+.summary, .requirements_summary {
 	width: 860px;
 	min-width: 860px;
 	background: linear-gradient(to right, #EEEEEE11 80%, #444 100%);
@@ -123,9 +126,12 @@
 	color: #AAA;
 	min-width: 144px;
 }
-.filter_toggle.filter_toggle_active {
+.filter_toggle.filter_toggle_active, .compound_button {
 	color: #EEE;
 	background-color: #111;
+}
+.compound_button {
+	margin: 12px;
 }
 
 .filter_toggles {
@@ -146,6 +152,16 @@
 }
 .filter_multi_lines {
 	flex-wrap: wrap;
+}
+.compound_side_products {
+	padding-top: 0;
+}
+.compound_side_product_items {
+	padding: 18px;
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	padding-bottom: 0;
 }
 
 .formula {
@@ -173,7 +189,7 @@
 .summary_cell > div {
 	min-width: 108px;
 }
-.requirement_cell, .compound_cell, .formula_cell {
+.requirement_cell, .compound_cell, .compound_ingredient_cell, .formula_cell {
 	min-width: 80px;
 	height: 56px;
 	padding: 18px 0;
@@ -185,6 +201,16 @@
 	align-self: flex-end;
 }
 .compound_cell {
+	justify-content: center;
+}
+.compound_ingredient_cell {
+	justify-content: space-around;
+	min-width: 110px;
+}
+.side_product_item {
+	min-width: 80px;
+	height: 90px;
+	padding: 18px 0 0;
 	justify-content: center;
 }
 
@@ -234,7 +260,10 @@
 		margin: 0;
 	}
 
-	.query, .formula, .drops, .filters, .table, .upgrades, .summary, .requirements_summary {
+	.query, .formula, .compound_area,
+	.compound_side_products,
+	.drops, .filters, .table,
+	.upgrades, .summary, .requirements_summary {
 		padding: 8px;
 		width: 100%;
 		min-width: unset;
@@ -252,6 +281,13 @@
 	.filter_toggle {
 		color: #AAA;
 		min-width: 88px;
+	}
+
+	.compound_area {
+		padding-right: unset;
+		flex-wrap: wrap;
+		overflow-x: scroll;
+		overflow-y: auto;
 	}
 
 	.upgrades {

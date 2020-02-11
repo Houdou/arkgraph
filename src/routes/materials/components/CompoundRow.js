@@ -1,22 +1,20 @@
 import React from 'preact';
 import style from '../style';
 import cn from 'classnames';
-import { Link } from 'preact-router/match';
 
 import ArkItem from '../../../components/item';
 import ArkCell from '../../../components/cell';
 import ArkRow from '../../../components/row';
 
-const ArkCompoundRow= ({
+const ArkCompoundRow = ({
 	compound,
+	material_id,
 	formula,
 	sum,
 	material_query,
+	stock,
+	adjustStockItem,
 }) => {
-	const {
-		result,
-	} = compound;
-
 	const CompoundItem = (props) => (
 		<ArkCell
 			fullheight
@@ -25,14 +23,24 @@ const ArkCompoundRow= ({
 				'padding-left': '5px',
 			}}
 		>
-			<div class={style.compound_cell}>
-				<Link href={`/materials/${result}`}>
-					<ArkItem
-						id={result}
-						tier={`T${result.substr(2, 1)}`}
-						scale={0.25}
-					/>
-				</Link>
+			<div class={style.compound_cell}
+				onClick={e => {
+					e.preventDefault();
+					e.stopPropagation();
+					adjustStockItem(material_id, e.shiftKey ? 10 : 1);
+				}}
+				onContextMenu={e => {
+					e.preventDefault();
+					e.stopPropagation();
+					adjustStockItem(material_id, e.shiftKey ? -10 : -1);
+				}}
+			>
+				<ArkItem
+					id={material_id}
+					tier={`T${material_id.substr(2, 1)}`}
+					scale={0.4}
+					quantity={stock[material_id] || 0}
+				/>
 			</div>
 		</ArkCell>
 	);
@@ -48,23 +56,36 @@ const ArkCompoundRow= ({
 		>
 			{
 				Object.entries(formula).map(([resource, quantity]) => (
-					<div class={style.requirement_cell}>
-						<Link href={`/materials/${resource === 'G-4-1' ? '' : resource}`}>
-							<ArkItem
-								id={resource}
-								tier={`T${resource.substr(2, 1)}`}
-								scale={0.25}
-							/>
-						</Link>
-						<span>x</span>
-						<span
-							class={cn(
-								style.requirement_quantity,
-								{
-									[style.long_quantity]: result !== 'G-4-1' && quantity.toString().length > 2,
-								}
-							)}
-						>{quantity}</span>
+					<div
+						class={style.compound_ingredient_cell}
+						onClick={e => {
+							e.preventDefault();
+							e.stopPropagation();
+							adjustStockItem(resource, e.shiftKey ? 10 : 1);
+						}}
+						onContextMenu={e => {
+							e.preventDefault();
+							e.stopPropagation();
+							adjustStockItem(resource, e.shiftKey ? -10 : -1);
+						}}
+					>
+						<ArkItem
+							id={resource}
+							tier={`T${resource.substr(2, 1)}`}
+							scale={0.4}
+							quantity={stock[resource] || 0}
+						/>
+						<span>
+							<span>x</span>
+							<span
+								class={cn(
+									style.requirement_quantity,
+									{
+										[style.long_quantity]: material_id !== 'G-4-1' && quantity.toString().length > 2,
+									}
+								)}
+							>{quantity}</span>
+						</span>
 					</div>
 				))
 			}
@@ -76,11 +97,10 @@ const ArkCompoundRow= ({
 			cells={
 				[
 					CompoundItem,
-					{ content: sum || 0 },
 					CompoundFormula,
 				]
 			}
-			style={{ height: '56px' }}
+			style={{ height: '88px' }}
 			fullheight
 		/>
 	);
