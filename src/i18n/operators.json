@@ -489,6 +489,48 @@
     "code": "beagle",
     "code_name": "Beagle"
   },
+  "char_284_spot": {
+    "en_US": {
+      "enabled": true,
+      "name": "Spot",
+      "skills": [
+        "Secondary Healing Mode"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スポット",
+      "skills": [
+        "第二態勢・回復"
+      ],
+      "alias": [
+        "すぽっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스팟",
+      "skills": [
+        "2급 치료 모드"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "斑点",
+      "skills": [
+        "次级治疗模式"
+      ],
+      "alias": [
+        "ban dian",
+        "bandian"
+      ],
+      "appellation": "Spot"
+    },
+    "code": "spot",
+    "code_name": "Spot"
+  },
   "char_124_kroos": {
     "en_US": {
       "enabled": true,
@@ -3010,7 +3052,7 @@
       "name": "イースチナ",
       "skills": [
         "一心不乱",
-        "嵐より生まれ出るもの"
+        "嵐より生まれしもの"
       ],
       "alias": [
         "いーすちな"
@@ -3833,13 +3875,13 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "機械川獺",
+      "name": "メカ・カワウソ",
       "skills": [
         "攪乱装置",
         "ミーボ起爆"
       ],
       "alias": [
-        "機械川獺"
+        "めか・かわうそ"
       ]
     },
     "ko_KR": {
@@ -4518,22 +4560,6 @@
     },
     "code": null,
     "code_name": "Popukar"
-  },
-  "char_284_spot": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "斑点",
-      "skills": [
-        "次级治疗模式"
-      ],
-      "alias": [
-        "ban dian",
-        "bandian"
-      ],
-      "appellation": "Spot"
-    },
-    "code": null,
-    "code_name": "Spot"
   },
   "char_253_greyy": {
     "zh_CN": {
