@@ -13,6 +13,18 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-02-25</p>
+			添加了新干员<br />
+			【<a href="/operator/刻俄柏">刻俄柏</a>】
+			【<a href="/operator/惊蛰">惊蛰</a>】
+			{
+				config.locale !== 'zh_CN' && (
+					<Fragment>
+						<p>To preview new operators, you need to enable <a href="/settings">Extended Data</a></p>
+					</Fragment>
+				)
+			}
+			<br />
 			<p>2020-02-11</p>
 			材料页添加了合成功能及副产物列表，合成的时候更方便调整库存了<br />
 			Add compound button & side product list to material page, <br />
