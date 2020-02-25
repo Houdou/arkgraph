@@ -4833,6 +4833,23 @@
     "code": null,
     "code_name": "Executor"
   },
+  "char_306_leizi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "惊蛰",
+      "skills": [
+        "攻击力强化·γ型",
+        "初雷"
+      ],
+      "alias": [
+        "jing zhe",
+        "jingzhe"
+      ],
+      "appellation": "Leizi"
+    },
+    "code": null,
+    "code_name": "Leizi"
+  },
   "char_348_ceylon": {
     "zh_CN": {
       "enabled": true,
@@ -4970,6 +4987,24 @@
     },
     "code": null,
     "code_name": "Mostima"
+  },
+  "char_2013_cerber": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "刻俄柏",
+      "skills": [
+        "“很冰的斧”",
+        "“很热的刀”",
+        "“很重的枪”"
+      ],
+      "alias": [
+        "ke e bai",
+        "keebai"
+      ],
+      "appellation": "Ceobe"
+    },
+    "code": null,
+    "code_name": "Ceobe"
   },
   "char_248_mgllan": {
     "zh_CN": {

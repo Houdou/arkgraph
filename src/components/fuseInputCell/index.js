@@ -103,7 +103,7 @@ const fuse_i18n = {
 };
 
 export const search = (query, lang) => {
-	const results = fuse_i18n[lang].search(query);
+	const results = (fuse_i18n[lang] || fuse_i18n.zh_CN).search(query);
 	if (results.length) {
 		const exact_match = results.find(({ name, code, alias }) => name === query || code === query || alias.includes(query));
 		if (exact_match) {
