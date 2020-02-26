@@ -4546,6 +4546,24 @@
     "code_name": "Skadi"
   },
   "char_281_popka": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "ポプカル",
+      "skills": [
+        "攻撃力強化α"
+      ],
+      "alias": [
+        "ぽぷかる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "포푸카",
+      "skills": [
+        "공격 강화α"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "泡普卡",
@@ -4562,6 +4580,26 @@
     "code_name": "Popukar"
   },
   "char_253_greyy": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "グレイ",
+      "skills": [
+        "戦術詠唱β",
+        "帯電"
+      ],
+      "alias": [
+        "ぐれい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그레이",
+      "skills": [
+        "전술영창β",
+        "정전기 방출"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "格雷伊",
@@ -4577,6 +4615,151 @@
     },
     "code": null,
     "code_name": "Greyy"
+  },
+  "char_308_swire": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "スワイヤー",
+      "skills": [
+        "統括指揮",
+        "協同作戦"
+      ],
+      "alias": [
+        "すわいやー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스와이어",
+      "skills": [
+        "총괄 지휘",
+        "협동 작전"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "诗怀雅",
+      "skills": [
+        "指挥调度",
+        "协同作战"
+      ],
+      "alias": [
+        "shi huai ya",
+        "shihuaiya"
+      ],
+      "appellation": "Swire"
+    },
+    "code": null,
+    "code_name": "Swire"
+  },
+  "char_010_chen": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "チェン",
+      "skills": [
+        "鞘打ち",
+        "赤霄・抜刀",
+        "赤霄・絶影"
+      ],
+      "alias": [
+        "ちぇん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "첸",
+      "skills": [
+        "칼집 공격",
+        "적소-발도",
+        "적소-절영"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "陈",
+      "skills": [
+        "鞘击",
+        "赤霄·拔刀",
+        "赤霄·绝影"
+      ],
+      "alias": [
+        "chen",
+        "chen"
+      ],
+      "appellation": "Ch'en"
+    },
+    "code": null,
+    "code_name": "Ch'en"
+  },
+  "trap_006_antidr": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "妨害装置",
+      "skills": [
+        "ドローン妨害"
+      ],
+      "alias": [
+        "妨害装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방해장치",
+      "skills": [
+        "드론 방해"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "干扰装置",
+      "skills": [
+        "无人机干扰"
+      ],
+      "alias": [
+        "gan rao zhuang zhi",
+        "ganraozhuangzhi"
+      ],
+      "appellation": "Anti-Drone"
+    },
+    "code": null,
+    "code_name": "Anti-Drone"
+  },
+  "trap_007_ballis": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "バリスタ",
+      "skills": [
+        "射撃"
+      ],
+      "alias": [
+        "ばりすた"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "발리스타",
+      "skills": [
+        "크로스보우 발사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "弩炮",
+      "skills": [
+        "发射弩箭"
+      ],
+      "alias": [
+        "nu pao",
+        "nupao"
+      ],
+      "appellation": "Ballista"
+    },
+    "code": null,
+    "code_name": "Ballista"
   },
   "char_190_clour": {
     "zh_CN": {
@@ -4730,23 +4913,6 @@
     },
     "code": null,
     "code_name": "Reed"
-  },
-  "char_308_swire": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "诗怀雅",
-      "skills": [
-        "指挥调度",
-        "协同作战"
-      ],
-      "alias": [
-        "shi huai ya",
-        "shihuaiya"
-      ],
-      "appellation": "Swire"
-    },
-    "code": null,
-    "code_name": "Swire"
   },
   "char_131_flameb": {
     "zh_CN": {
@@ -5060,24 +5226,6 @@
     "code": null,
     "code_name": "Nian"
   },
-  "char_010_chen": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "陈",
-      "skills": [
-        "鞘击",
-        "赤霄·拔刀",
-        "赤霄·绝影"
-      ],
-      "alias": [
-        "chen",
-        "chen"
-      ],
-      "appellation": "Ch'en"
-    },
-    "code": null,
-    "code_name": "Ch'en"
-  },
   "char_017_huang": {
     "zh_CN": {
       "enabled": true,
@@ -5113,38 +5261,6 @@
     },
     "code": null,
     "code_name": "Hellagur"
-  },
-  "trap_006_antidr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "干扰装置",
-      "skills": [
-        "无人机干扰"
-      ],
-      "alias": [
-        "gan rao zhuang zhi",
-        "ganraozhuangzhi"
-      ],
-      "appellation": "Anti-Drone"
-    },
-    "code": null,
-    "code_name": "Anti-Drone"
-  },
-  "trap_007_ballis": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "弩炮",
-      "skills": [
-        "发射弩箭"
-      ],
-      "alias": [
-        "nu pao",
-        "nupao"
-      ],
-      "appellation": "Ballista"
-    },
-    "code": null,
-    "code_name": "Ballista"
   },
   "trap_008_farm": {
     "zh_CN": {
