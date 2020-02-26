@@ -15,12 +15,12 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 			{
-				['ja_JP', 'ko_KR'].includes(config.locale) && (
+				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
 						<p>2020-02-26</p>
-					[JP][KR]<br />
-					５章新規オペレーターを追加しました<br />
-					Added Chap 5 operators<br />
+						[EN][JP][KR]<br />
+						Added Chap 5 operators<br />
+						５章新規オペレーターを追加しました<br />
 						{
 							[
 								'char_010_chen',
