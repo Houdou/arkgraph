@@ -44,6 +44,7 @@ const MaterialRow = (compound_materials) => () => (
 								id={resource}
 								tier={`T${resource.substr(2, 1)}`}
 								scale={0.25}
+								disable_link
 							/>
 						</Link>
 						<span>x</span>
@@ -139,6 +140,7 @@ const ArkPlanner = ({
 					id={resource}
 					tier={`T${resource.substr(2, 1)}`}
 					scale={0.25}
+					disable_link
 				/>
 			</Link>
 		</ArkCell>
