@@ -1,6 +1,7 @@
 import React from 'preact';
 import style from './style';
 import cn from 'classnames';
+import { Link } from 'preact-router/match';
 
 import { RESOURCES } from '../../models/Resources';
 const resources_available = Object.keys(RESOURCES);
@@ -65,6 +66,22 @@ const ArkItem = (props) => {
 							) || null
 						}
 					</div>
+					{(props.force_link || !props.disable_link) && (
+						<div
+							class={cn(
+								style.link,
+								{
+									[style.force_link]: props.force_link,
+								}
+							)}
+						>
+							{
+								<Link href={`/materials/${material_id}`} >
+									<img src="../assets/icons/external.png" alt="external" style={{ margin: '0 0 0 4px', width: '32px', height: '32px' }} />
+								</Link>
+							}
+						</div>
+					)}
 				</div>
 			</div>
 		</div>

@@ -31,6 +31,7 @@ const ArkCompoundRequirementsRow= ({
 						id={result}
 						tier={`T${result.substr(2, 1)}`}
 						scale={0.25}
+						disable_link
 					/>
 				</Link>
 			</div>
@@ -54,6 +55,7 @@ const ArkCompoundRequirementsRow= ({
 								id={resource}
 								tier={`T${resource.substr(2, 1)}`}
 								scale={0.25}
+								disable_link
 							/>
 						</Link>
 						<span>x</span>

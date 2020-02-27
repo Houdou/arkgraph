@@ -30,6 +30,22 @@
   display: flex;
   flex-flow: column-reverse;
 }
+.link {
+  z-index: 9903;
+  position: absolute;
+  font-size: 28px;
+  right: -50px;
+  top: -80px;
+  display: flex;
+  flex-flow: column-reverse;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4px 4px 0;
+}
+.wrapper:hover .link, .link.force_link {
+  opacity: 1;
+}
 .quantity {
   background: rgba(0, 0, 0, 0.90);
   color: #DDD;
@@ -55,4 +71,10 @@
 
 .item, .card {
   position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .link {
+    opacity: 0.9;
+  }
 }

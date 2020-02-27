@@ -233,6 +233,7 @@ const ArkMaterials = ({
 									tier={material.tier || 'T0'}
 									scale={0.8}
 									quantity={stock[material.id] || 0}
+									disable_link
 								/>
 								<span class={style.summary_quantity}>{operator_sum}{
 									compound_sum && compound_sum.length !== 0 && ` + ${ir('materials-material-compound_requirements', 'Consumption ')}${compound_sum.reduce((a, b) => (a + b), 0)}`
@@ -492,6 +493,7 @@ const ArkMaterials = ({
 												id={resource}
 												tier={`T${resource.substr(2, 1)}`}
 												scale={0.25}
+												disable_link
 											/>
 										</Link>
 										<span>x</span>
