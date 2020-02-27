@@ -3,6 +3,8 @@ import style from './style';
 
 import { STORAGE_VERSION } from '../../config/useConfig';
 import { getOperatorName } from '../../models/Operators';
+import ArkItem from '../../components/item';
+
 
 const Info = ({
 	config,
@@ -13,6 +15,24 @@ const Info = ({
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
+			<p>2020-02-27</p>
+			可调整数量的材料图标添加了悬浮可见跳转链接，方便跳转材料页面进行合成等操作<br />
+			Added link for materials that enabled stock adjustment feature. Appear when hovering on the material icon.<br />
+			より便利な素材加工できるように、素材詳細画面へのリンクをいろいろな場所に追加しました<br />
+			{
+				<div style={{ height: '56px', padding: '44px 24px', position: 'relative' }}>
+					<ArkItem
+						id="M-3-8"
+						tier="T4"
+						scale={0.46}
+						quantity={2}
+						requirement={14}
+						force_link
+					/>
+					<span style={{ position: 'absolute', left: '92px', top: '12px' }}>←「こ～こ～だ～よ～」</span>
+				</div>
+			}
+			<br />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
