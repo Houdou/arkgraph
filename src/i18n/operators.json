@@ -4898,6 +4898,23 @@
     "code": null,
     "code_name": "Sussurro"
   },
+  "char_385_finlpp": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "清流",
+      "skills": [
+        "治愈水波",
+        "涌泉"
+      ],
+      "alias": [
+        "qing liu",
+        "qingliu"
+      ],
+      "appellation": "Purestream"
+    },
+    "code": null,
+    "code_name": "Purestream"
+  },
   "char_260_durnar": {
     "zh_CN": {
       "enabled": true,

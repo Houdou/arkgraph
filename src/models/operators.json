@@ -24301,6 +24301,258 @@
     }
   },
   {
+    "unique_id": "char_385_finlpp",
+    "name": "清流",
+    "pinyin": [
+      "qing liu",
+      "qingliu"
+    ],
+    "profession": "MEDIC",
+    "rarity": 3,
+    "skill_names": [
+      "治愈水波",
+      "涌泉"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-1-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "治愈水波",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 1
+              },
+              {
+                "resource": "M-3-1",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "涌泉",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 1
+              },
+              {
+                "resource": "M-3-12",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 2
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 15000
+          },
+          {
+            "resource": "C-3-6",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
+          },
+          {
+            "resource": "C-4-6",
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 11
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 9
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2
+    }
+  },
+  {
     "unique_id": "char_199_yak",
     "name": "角峰",
     "pinyin": [
