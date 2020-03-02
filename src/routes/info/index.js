@@ -15,6 +15,10 @@ const Info = ({
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
+			<p>2020-03-02</p>
+			添加了新干员<br />
+			【<a href="/operator/清流">清流</a>】
+			<br />
 			<p>2020-02-27</p>
 			可调整数量的材料图标添加了悬浮可见跳转链接，方便跳转材料页面进行合成等操作<br />
 			Added link for materials that enabled stock adjustment feature. Appear when hovering on the material icon.<br />
