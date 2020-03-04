@@ -231,6 +231,10 @@ const ArkPlanner = ({
 											plan.syntheses.map(({ target, count, materials: compound_materials }) => {
 												const target_resource = MATERIALS.find(({ name }) => name === target);
 
+												if (!target_resource || Number(count) <= 0) {
+													return null;
+												}
+
 												return (
 													<ArkRow
 														cells={[
