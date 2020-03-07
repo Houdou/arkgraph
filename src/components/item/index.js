@@ -3,15 +3,8 @@ import style from './style';
 import cn from 'classnames';
 import { Link } from 'preact-router/match';
 
-import { RESOURCES } from '../../models/Resources';
+import { RESOURCES, parseQuantity } from '../../models/Resources';
 const resources_available = Object.keys(RESOURCES);
-
-const parseQuantity = (quantity) => {
-	if (quantity > 10000) {
-		return `${Math.round(quantity/10000)}万`;
-	}
-	return quantity;
-};
 
 const ArkItem = (props) => {
 	const material_id = resources_available.includes(props.id) ? props.id : '404';

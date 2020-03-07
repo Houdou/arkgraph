@@ -1,24 +1,11 @@
 import React from 'preact';
 import cn from 'classnames';
 import style from './style';
-import { RESOURCES, getResourceName } from '../../models/Resources';
+import { RESOURCES, getResourceName, parseQuantity } from '../../models/Resources';
 
 import ArkItem from '../item';
 import ArkLevelInfo from '../levelInfo';
 import PenguinLink from '../penguinLink';
-
-const parseQuantity = (quantity, locale) => {
-	if (quantity > 10000 && ['zh_US', 'ja_JP'].includes(locale)) {
-		return `${Math.round(quantity/10000)}万`;
-	}
-	if (quantity > 1000000) {
-		return `${Math.round(quantity/100000) / 10}M`;
-	}
-	if (quantity > 1000) {
-		return `${Math.round(quantity/1000)}K`;
-	}
-	return quantity;
-};
 
 const getIngradients = (material) => Object.keys(material.formula).filter(i => i !== 'G-4-1');
 

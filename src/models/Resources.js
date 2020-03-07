@@ -31,6 +31,19 @@ const getResourceName = ({ id, locale, fallback }) => {
 	return fallback;
 };
 
+export const parseQuantity = (quantity, locale) => {
+	if (quantity > 10000 && ['zh_US', 'ja_JP'].includes(locale)) {
+		return `${Math.round(quantity/10000)}万`;
+	}
+	if (quantity > 1000000) {
+		return `${Math.round(quantity/100000) / 10}M`;
+	}
+	if (quantity > 1000) {
+		return `${Math.round(quantity/1000)}K`;
+	}
+	return quantity;
+};
+
 const MATERIALS = [
 	{
 		id: 'M-5-1',
