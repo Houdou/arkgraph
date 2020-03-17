@@ -4106,14 +4106,14 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "DDF-F",
+      "name": "DDF・F",
       "skills": [
         "回収",
         "回収",
         "回収"
       ],
       "alias": [
-        "DDF-F"
+        "DDF・F"
       ]
     },
     "ko_KR": {
@@ -4156,14 +4156,14 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "DDF-L",
+      "name": "DDF・L",
       "skills": [
         "回収",
         "回収",
         "回収"
       ],
       "alias": [
-        "DDF-L"
+        "DDF・L"
       ]
     },
     "ko_KR": {
@@ -4206,14 +4206,14 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "DDF-A",
+      "name": "DDF・A",
       "skills": [
         "回収",
         "回収",
         "回収"
       ],
       "alias": [
-        "DDF-A"
+        "DDF・A"
       ]
     },
     "ko_KR": {
@@ -4881,6 +4881,23 @@
     "code": null,
     "code_name": "Myrtle"
   },
+  "char_337_utage": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "宴",
+      "skills": [
+        "分神",
+        "落地斩·破门"
+      ],
+      "alias": [
+        "yan",
+        "yan"
+      ],
+      "appellation": "Utage"
+    },
+    "code": null,
+    "code_name": "Utage"
+  },
   "char_298_susuro": {
     "zh_CN": {
       "enabled": true,
@@ -5000,6 +5017,23 @@
     "code": null,
     "code_name": "Flamebringer"
   },
+  "char_252_bibeak": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "柏喙",
+      "skills": [
+        "飞针剑羽",
+        "异刃斩"
+      ],
+      "alias": [
+        "bai hui",
+        "baihui"
+      ],
+      "appellation": "Bibeak"
+    },
+    "code": null,
+    "code_name": "Bibeak"
+  },
   "char_356_broca": {
     "zh_CN": {
       "enabled": true,
@@ -5050,6 +5084,23 @@
     },
     "code": null,
     "code_name": "GreyThroat"
+  },
+  "char_379_sesa": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "慑砂",
+      "skills": [
+        "攻击力强化·γ型",
+        "延时震荡零件"
+      ],
+      "alias": [
+        "she sha",
+        "shesha"
+      ],
+      "appellation": "Sesa"
+    },
+    "code": null,
+    "code_name": "Sesa"
   },
   "char_279_excu": {
     "zh_CN": {
@@ -5204,6 +5255,24 @@
     },
     "code": null,
     "code_name": "Schwarz"
+  },
+  "char_222_bpipe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "风笛",
+      "skills": [
+        "迅捷打击·γ型",
+        "高效冲击",
+        "闭膛连发"
+      ],
+      "alias": [
+        "feng di",
+        "fengdi"
+      ],
+      "appellation": "Bagpipe"
+    },
+    "code": null,
+    "code_name": "Bagpipe"
   },
   "char_213_mostma": {
     "zh_CN": {
