@@ -17,6 +17,13 @@ const Info = ({
 			<hr />
 			<p>2020-03-02</p>
 			添加了新干员<br />
+			【<a href="/operator/风笛">风笛</a>】
+			【<a href="/operator/柏喙">柏喙</a>】
+			【<a href="/operator/慑砂">慑砂</a>】
+			【<a href="/operator/宴">宴</a>】
+			<br />
+			<p>2020-03-02</p>
+			添加了新干员<br />
 			【<a href="/operator/清流">清流</a>】
 			<br />
 			<p>2020-02-27</p>
