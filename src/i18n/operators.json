@@ -1097,6 +1097,52 @@
     "code": "meteor",
     "code_name": "Meteor"
   },
+  "char_190_clour": {
+    "en_US": {
+      "enabled": true,
+      "name": "Vermeil",
+      "skills": [
+        "ATK Up β",
+        "Double Shot"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヴァーミル",
+      "skills": [
+        "攻撃力強化β",
+        "デュアルアロー"
+      ],
+      "alias": [
+        "ゔぁーみる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "버메일",
+      "skills": [
+        "공격 강화β",
+        "더블 샷"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "红云",
+      "skills": [
+        "攻击力强化·β型",
+        "双弦开弓"
+      ],
+      "alias": [
+        "hong yun",
+        "hongyun"
+      ],
+      "appellation": "Vermeil"
+    },
+    "code": "vermeil",
+    "code_name": "Vermeil"
+  },
   "char_118_yuki": {
     "en_US": {
       "enabled": true,
@@ -1241,7 +1287,7 @@
       "name": "Vigna",
       "skills": [
         "ATK Up β",
-        "Mallet Sound"
+        "Hammer-On"
       ],
       "alias": []
     },
@@ -2247,6 +2293,52 @@
     "code": "franka",
     "code_name": "Franka"
   },
+  "char_131_flameb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Flamebringer",
+      "skills": [
+        "Blood Pact",
+        "Blade Demon"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エンカク",
+      "skills": [
+        "血化粧",
+        "刃鬼"
+      ],
+      "alias": [
+        "えんかく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "플레임브링어",
+      "skills": [
+        "흡혈",
+        "인귀"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "炎客",
+      "skills": [
+        "歃血",
+        "刃鬼"
+      ],
+      "alias": [
+        "yan ke",
+        "yanke"
+      ],
+      "appellation": "Flamebringer"
+    },
+    "code": "flamebringer",
+    "code_name": "Flamebringer"
+  },
   "char_155_tiger": {
     "en_US": {
       "enabled": true,
@@ -2522,6 +2614,52 @@
     },
     "code": "meteorite",
     "code_name": "Meteorite"
+  },
+  "char_279_excu": {
+    "en_US": {
+      "enabled": true,
+      "name": "Executor",
+      "skills": [
+        "Muzzle’s Elegy",
+        "Final Journey"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "イグゼキュター",
+      "skills": [
+        "フルチョーク",
+        "終焉の旅路"
+      ],
+      "alias": [
+        "いぐぜきゅたー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이그제큐터",
+      "skills": [
+        "총구정리",
+        "최후의 여로"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "送葬人",
+      "skills": [
+        "铳口收束",
+        "最终旅程"
+      ],
+      "alias": [
+        "song zang ren",
+        "songzangren"
+      ],
+      "appellation": "Executor"
+    },
+    "code": "executor",
+    "code_name": "Executor"
   },
   "char_002_amiya": {
     "en_US": {
@@ -3605,6 +3743,56 @@
     "code": "angelina",
     "code_name": "Angelina"
   },
+  "char_248_mgllan": {
+    "en_US": {
+      "enabled": true,
+      "name": "Magallan",
+      "skills": [
+        "High-Efficiency Freezing Module",
+        "Laser Mining Module",
+        "Armed Combat Module"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "マゼラン",
+      "skills": [
+        "フリーズモジュール",
+        "レーザーモジュール",
+        "アサルトモジュール"
+      ],
+      "alias": [
+        "まぜらん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "마젤란",
+      "skills": [
+        "고효율 냉각 모드",
+        "레이저 채굴 모드",
+        "무장 타격 모드"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "麦哲伦",
+      "skills": [
+        "高效制冷模块",
+        "激光开采模块",
+        "武装打击模块"
+      ],
+      "alias": [
+        "mai zhe lun",
+        "maizhelun"
+      ],
+      "appellation": "Magallan"
+    },
+    "code": "magallan",
+    "code_name": "Magallan"
+  },
   "char_147_shining": {
     "en_US": {
       "enabled": true,
@@ -4248,7 +4436,7 @@
       "enabled": true,
       "name": "Roadblock",
       "skills": [
-        "Road Blocking"
+        "Obstruct"
       ],
       "alias": []
     },
@@ -4813,23 +5001,6 @@
     "code": "skadi",
     "code_name": "Skadi"
   },
-  "char_190_clour": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "红云",
-      "skills": [
-        "攻击力强化·β型",
-        "双弦开弓"
-      ],
-      "alias": [
-        "hong yun",
-        "hongyun"
-      ],
-      "appellation": "Vermeil"
-    },
-    "code": null,
-    "code_name": "Vermeil"
-  },
   "char_133_mm": {
     "zh_CN": {
       "enabled": true,
@@ -5000,23 +5171,6 @@
     "code": null,
     "code_name": "Reed"
   },
-  "char_131_flameb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "炎客",
-      "skills": [
-        "歃血",
-        "刃鬼"
-      ],
-      "alias": [
-        "yan ke",
-        "yanke"
-      ],
-      "appellation": "Flamebringer"
-    },
-    "code": null,
-    "code_name": "Flamebringer"
-  },
   "char_252_bibeak": {
     "zh_CN": {
       "enabled": true,
@@ -5101,23 +5255,6 @@
     },
     "code": null,
     "code_name": "Sesa"
-  },
-  "char_279_excu": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "送葬人",
-      "skills": [
-        "铳口收束",
-        "最终旅程"
-      ],
-      "alias": [
-        "song zang ren",
-        "songzangren"
-      ],
-      "appellation": "Executor"
-    },
-    "code": null,
-    "code_name": "Executor"
   },
   "char_306_leizi": {
     "zh_CN": {
@@ -5309,24 +5446,6 @@
     },
     "code": null,
     "code_name": "Ceobe"
-  },
-  "char_248_mgllan": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "麦哲伦",
-      "skills": [
-        "高效制冷模块",
-        "激光开采模块",
-        "武装打击模块"
-      ],
-      "alias": [
-        "mai zhe lun",
-        "maizhelun"
-      ],
-      "appellation": "Magallan"
-    },
-    "code": null,
-    "code_name": "Magallan"
   },
   "char_225_haak": {
     "zh_CN": {
