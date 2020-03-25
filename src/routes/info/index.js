@@ -15,6 +15,29 @@ const Info = ({
 			<h1><a href="https://ark-nights.com/">ARK-NIGHTS.com</a></h1>
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
+			<h2>{ir('homepage-announcement', '公告')}</h2>
+			{
+				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
+					<Fragment>
+						<p>2020-03-26</p>
+						[EN][JP][KR]<br />
+						Added event operators<br />
+						イベント新規オペレーターを追加しました<br />
+						{
+							[
+								'char_248_mgllan',
+								'char_279_excu',
+								'char_131_flameb',
+								'char_190_clour',
+							].map(id => (
+								<Fragment>
+							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
+								</Fragment>
+							))
+						}
+					</Fragment>
+				)
+			}
 			<p>2020-03-02</p>
 			添加了新干员<br />
 			【<a href="/operator/风笛">风笛</a>】
@@ -44,46 +67,6 @@ const Info = ({
 				</div>
 			}
 			<br />
-			<h2>{ir('homepage-announcement', '公告')}</h2>
-			{
-				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
-					<Fragment>
-						<p>2020-02-26</p>
-						[EN][JP][KR]<br />
-						Added Chap 5 operators<br />
-						５章新規オペレーターを追加しました<br />
-						{
-							[
-								'char_010_chen',
-								'char_308_swire',
-								'char_253_greyy',
-								'char_281_popka',
-							].map(id => (
-								<Fragment>
-							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
-								</Fragment>
-							))
-						}
-					</Fragment>
-				)
-			}
-			<p>2020-02-25</p>
-			添加了新干员<br />
-			【<a href="/operator/刻俄柏">刻俄柏</a>】
-			【<a href="/operator/惊蛰">惊蛰</a>】
-			{
-				config.locale !== 'zh_CN' && (
-					<Fragment>
-						<p>To preview new operators, you need to enable <a href="/settings">Extended Data</a></p>
-					</Fragment>
-				)
-			}
-			<br />
-			<p>2020-02-11</p>
-			材料页添加了合成功能及副产物列表，合成的时候更方便调整库存了<br />
-			Add compound button & side product list to material page, <br />
-			it's more convient now to align stock quantity.<br />
-			素材画面に加工機能を追加しました。副産物も一覧できますので、もっと便利な在庫数管理ができます<br />
 			<p>2020-01-16</p>
 			添加了多语言支持🎉<br />
 			日本語を追加しました🎉<br />
