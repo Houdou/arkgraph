@@ -5052,6 +5052,23 @@
     "code": null,
     "code_name": "Myrtle"
   },
+  "char_159_peacok": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "断罪者",
+      "skills": [
+        "断罪",
+        "创世纪"
+      ],
+      "alias": [
+        "duan zui zhe",
+        "duanzuizhe"
+      ],
+      "appellation": "Conviction"
+    },
+    "code": null,
+    "code_name": "Conviction"
+  },
   "char_337_utage": {
     "zh_CN": {
       "enabled": true,
