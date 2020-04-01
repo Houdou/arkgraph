@@ -16,6 +16,10 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-04-01</p>
+			添加了新干员<br />
+			【<a href="/operator/断罪者">断罪者</a>】
+			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
