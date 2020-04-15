@@ -16,23 +16,18 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-04-01</p>
-			添加了新干员<br />
-			【<a href="/operator/断罪者">断罪者</a>】
-			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2020-03-26</p>
+						<p>2020-04-15</p>
 						[EN][JP][KR]<br />
 						Added event operators<br />
-						イベント新規オペレーターを追加しました<br />
+						新規オペレーターを追加しました<br />
 						{
 							[
-								'char_248_mgllan',
-								'char_279_excu',
-								'char_131_flameb',
-								'char_190_clour',
+								'char_188_helage',
+								'char_274_astesi',
+								'char_151_myrtle',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
@@ -42,16 +37,10 @@ const Info = ({
 					</Fragment>
 				)
 			}
-			<p>2020-03-02</p>
-			添加了新干员<br />
-			【<a href="/operator/风笛">风笛</a>】
-			【<a href="/operator/柏喙">柏喙</a>】
-			【<a href="/operator/慑砂">慑砂</a>】
-			【<a href="/operator/宴">宴</a>】
 			<br />
-			<p>2020-03-02</p>
+			<p>2020-04-01</p>
 			添加了新干员<br />
-			【<a href="/operator/清流">清流</a>】
+			【<a href="/operator/断罪者">断罪者</a>】
 			<br />
 			<p>2020-02-27</p>
 			可调整数量的材料图标添加了悬浮可见跳转链接，方便跳转材料页面进行合成等操作<br />
