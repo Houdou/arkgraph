@@ -1327,6 +1327,52 @@
     "code": "vigna",
     "code_name": "Vigna"
   },
+  "char_151_myrtle": {
+    "en_US": {
+      "enabled": true,
+      "name": "Myrtle",
+      "skills": [
+        "Support β",
+        "Healing Wings"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "テンニンカ",
+      "skills": [
+        "支援指令β",
+        "治癒の翅"
+      ],
+      "alias": [
+        "てんにんか"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "머틀",
+      "skills": [
+        "지원지령β",
+        "치유의 날개"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "桃金娘",
+      "skills": [
+        "支援号令·β型",
+        "治愈之翼"
+      ],
+      "alias": [
+        "tao jin niang",
+        "taojinniang"
+      ],
+      "appellation": "Myrtle"
+    },
+    "code": "myrtle",
+    "code_name": "Myrtle"
+  },
   "char_130_doberm": {
     "en_US": {
       "enabled": true,
@@ -2476,6 +2522,52 @@
     },
     "code": "specter",
     "code_name": "Specter"
+  },
+  "char_274_astesi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Astesia",
+      "skills": [
+        "Astral Protection",
+        "Astral Sword"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アステシア",
+      "skills": [
+        "星座の守護",
+        "星輝剣"
+      ],
+      "alias": [
+        "あすてしあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아스테시아",
+      "skills": [
+        "성좌의 수호자",
+        "빛나는 별의 검"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "星极",
+      "skills": [
+        "星座守护",
+        "星辉剑"
+      ],
+      "alias": [
+        "xing ji",
+        "xingji"
+      ],
+      "appellation": "Astesia"
+    },
+    "code": "astesia",
+    "code_name": "Astesia"
   },
   "char_129_bluep": {
     "en_US": {
@@ -4093,6 +4185,56 @@
     "code": "ch'en",
     "code_name": "Ch'en"
   },
+  "char_188_helage": {
+    "en_US": {
+      "enabled": true,
+      "name": "Hellagur",
+      "skills": [
+        "Crescent Moon",
+        "Half Moon",
+        "Full Moon"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヘラグ",
+      "skills": [
+        "新月",
+        "弦月",
+        "満月"
+      ],
+      "alias": [
+        "へらぐ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "헬라그",
+      "skills": [
+        "초승달",
+        "그믐달",
+        "보름달"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "赫拉格",
+      "skills": [
+        "新月",
+        "弦月",
+        "满月"
+      ],
+      "alias": [
+        "he la ge",
+        "helage"
+      ],
+      "appellation": "Hellagur"
+    },
+    "code": "hellagur",
+    "code_name": "Hellagur"
+  },
   "token_10000_silent_healrb": {
     "en_US": {
       "enabled": true,
@@ -5035,23 +5177,6 @@
     "code": null,
     "code_name": "Ambriel"
   },
-  "char_151_myrtle": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "桃金娘",
-      "skills": [
-        "支援号令·β型",
-        "治愈之翼"
-      ],
-      "alias": [
-        "tao jin niang",
-        "taojinniang"
-      ],
-      "appellation": "Myrtle"
-    },
-    "code": null,
-    "code_name": "Myrtle"
-  },
   "char_159_peacok": {
     "zh_CN": {
       "enabled": true,
@@ -5221,23 +5346,6 @@
     },
     "code": null,
     "code_name": "Broca"
-  },
-  "char_274_astesi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "星极",
-      "skills": [
-        "星座守护",
-        "星辉剑"
-      ],
-      "alias": [
-        "xing ji",
-        "xingji"
-      ],
-      "appellation": "Astesia"
-    },
-    "code": null,
-    "code_name": "Astesia"
   },
   "char_367_swllow": {
     "zh_CN": {
@@ -5517,24 +5625,6 @@
     },
     "code": null,
     "code_name": "Blaze"
-  },
-  "char_188_helage": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "赫拉格",
-      "skills": [
-        "新月",
-        "弦月",
-        "满月"
-      ],
-      "alias": [
-        "he la ge",
-        "helage"
-      ],
-      "appellation": "Hellagur"
-    },
-    "code": null,
-    "code_name": "Hellagur"
   },
   "trap_008_farm": {
     "zh_CN": {
