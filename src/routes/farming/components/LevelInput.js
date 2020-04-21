@@ -44,6 +44,14 @@ const ArkStockInput = ({
 				onChange={e => {
 					const results = fuse.search(e.target.value);
 					if (results.length > 0) {
+						const exact = results.find(
+							({ level }) => level.toLowerCase().replace(/-/g, '') === (e.target.value || '').toLowerCase()
+						);
+						if (exact) {
+							setLevelId(exact.level);
+							return;
+						}
+
 						const [query] = results;
 						setLevelId(query.level);
 					} else {
