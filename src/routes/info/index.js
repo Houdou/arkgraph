@@ -17,6 +17,9 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 			<p>2020-04-21</p>
+			增加了活动图掉落、刷图<br />
+			优化了刷图页面的关卡搜索算法<br />
+			<br />
 			添加了新干员<br />
 			【<a href="/operator/傀影">傀影</a>】
 			【<a href="/operator/铸铁">铸铁</a>】
