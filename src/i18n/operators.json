@@ -5194,6 +5194,23 @@
     "code": null,
     "code_name": "Conviction"
   },
+  "char_301_cutter": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "刻刀",
+      "skills": [
+        "红移",
+        "绯红刺刀"
+      ],
+      "alias": [
+        "ke dao",
+        "kedao"
+      ],
+      "appellation": "Cutter"
+    },
+    "code": null,
+    "code_name": "Cutter"
+  },
   "char_337_utage": {
     "zh_CN": {
       "enabled": true,
@@ -5347,6 +5364,23 @@
     "code": null,
     "code_name": "Broca"
   },
+  "char_333_sidero": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "铸铁",
+      "skills": [
+        "生命回复·γ型",
+        "破浪回神"
+      ],
+      "alias": [
+        "zhu tie",
+        "zhutie"
+      ],
+      "appellation": "Sideroca"
+    },
+    "code": null,
+    "code_name": "Sideroca"
+  },
   "char_367_swllow": {
     "zh_CN": {
       "enabled": true,
@@ -5483,6 +5517,23 @@
     "code": null,
     "code_name": "Snowsant"
   },
+  "char_254_vodfox": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "巫恋",
+      "skills": [
+        "病入膏肓",
+        "诅咒娃娃"
+      ],
+      "alias": [
+        "wu lian",
+        "wulian"
+      ],
+      "appellation": "Shamare"
+    },
+    "code": null,
+    "code_name": "Shamare"
+  },
   "char_326_glacus": {
     "zh_CN": {
       "enabled": true,
@@ -5572,6 +5623,24 @@
     "code": null,
     "code_name": "Ceobe"
   },
+  "char_250_phatom": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "傀影",
+      "skills": [
+        "暗夜魅影",
+        "血色乐章",
+        "夜幕突袭"
+      ],
+      "alias": [
+        "kui ying",
+        "kuiying"
+      ],
+      "appellation": "Phantom"
+    },
+    "code": null,
+    "code_name": "Phantom"
+  },
   "char_225_haak": {
     "zh_CN": {
       "enabled": true,
@@ -5626,6 +5695,41 @@
     "code": null,
     "code_name": "Blaze"
   },
+  "token_10006_vodfox_doll": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "诅咒娃娃",
+      "skills": [
+        "",
+        "诅咒娃娃"
+      ],
+      "alias": [
+        "zu zhou wa wa",
+        "zuzhouwawa"
+      ],
+      "appellation": "Curse Doll"
+    },
+    "code": null,
+    "code_name": "Curse Doll"
+  },
+  "token_10007_phatom_twin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "镜中虚影",
+      "skills": [
+        "暗夜魅影",
+        "血色乐章",
+        "夜幕突袭"
+      ],
+      "alias": [
+        "jing zhong xu ying",
+        "jingzhongxuying"
+      ],
+      "appellation": "The Mirror"
+    },
+    "code": null,
+    "code_name": "The Mirror"
+  },
   "trap_008_farm": {
     "zh_CN": {
       "enabled": true,
@@ -5671,5 +5775,21 @@
     },
     "code": null,
     "code_name": "Originium ICrystal"
+  },
+  "trap_013_blower": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石流发生装置",
+      "skills": [
+        "气流"
+      ],
+      "alias": [
+        "yuan shi liu fa sheng zhuang zhi",
+        "yuanshiliufashengzhuangzhi"
+      ],
+      "appellation": "NULL"
+    },
+    "code": null,
+    "code_name": "NULL"
   }
 }
