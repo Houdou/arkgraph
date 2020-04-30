@@ -1787,6 +1787,52 @@
     "code": "gavial",
     "code_name": "Gavial"
   },
+  "char_298_susuro": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sussurro",
+      "skills": [
+        "Healing Up β",
+        "Deep Healing"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ススーロ",
+      "skills": [
+        "回復力強化β",
+        "ディープヒーリング"
+      ],
+      "alias": [
+        "すすーろ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수수로",
+      "skills": [
+        "치료 강화β",
+        "심화 치료"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "苏苏洛",
+      "skills": [
+        "治疗强化·β型",
+        "深度治疗"
+      ],
+      "alias": [
+        "su su luo",
+        "susuluo"
+      ],
+      "appellation": "Sussurro"
+    },
+    "code": "sussurro",
+    "code_name": "Sussurro"
+  },
   "char_181_flower": {
     "en_US": {
       "enabled": true,
@@ -2987,6 +3033,52 @@
     "code": "warfarin",
     "code_name": "Warfarin"
   },
+  "char_348_ceylon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ceylon",
+      "skills": [
+        "Concentrated Hydrotherapy",
+        "Water Blessing"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "セイロン",
+      "skills": [
+        "ハイドロセラピー",
+        "水霊の加護"
+      ],
+      "alias": [
+        "せいろん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "실론",
+      "skills": [
+        "집중식 수치료",
+        "수령의 보호"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "锡兰",
+      "skills": [
+        "集中式水疗",
+        "水灵庇护"
+      ],
+      "alias": [
+        "xi lan",
+        "xilan"
+      ],
+      "appellation": "Ceylon"
+    },
+    "code": "ceylon",
+    "code_name": "Ceylon"
+  },
   "char_148_nearl": {
     "en_US": {
       "enabled": true,
@@ -3447,6 +3539,52 @@
     "code": "istina",
     "code_name": "Истина"
   },
+  "char_326_glacus": {
+    "en_US": {
+      "enabled": true,
+      "name": "Glaucus",
+      "skills": [
+        "Binary Reload",
+        "Counter EMP"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "グラウコス",
+      "skills": [
+        "デュアルリロード",
+        "電磁パルス"
+      ],
+      "alias": [
+        "ぐらうこす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "글라우쿠스",
+      "skills": [
+        "복선 장전",
+        "펄스 반격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "格劳克斯",
+      "skills": [
+        "双线装填",
+        "反制电磁脉冲"
+      ],
+      "alias": [
+        "ge lao ke si",
+        "gelaokesi"
+      ],
+      "appellation": "Glaucus"
+    },
+    "code": "glaucus",
+    "code_name": "Glaucus"
+  },
   "char_101_sora": {
     "en_US": {
       "enabled": true,
@@ -3634,6 +3772,56 @@
     },
     "code": "exusiai",
     "code_name": "Exusiai"
+  },
+  "char_340_shwaz": {
+    "en_US": {
+      "enabled": true,
+      "name": "Schwarz",
+      "skills": [
+        "Charged Shot",
+        "Sharp Eye",
+        "Final Tactics"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シュヴァルツ",
+      "skills": [
+        "強射",
+        "暮色の慧眼",
+        "ターミネート"
+      ],
+      "alias": [
+        "しゅゔぁるつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "슈바르츠",
+      "skills": [
+        "강노",
+        "황혼의 눈동자",
+        "최후의 전술"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "黑",
+      "skills": [
+        "强弩",
+        "暮眼锐瞳",
+        "战术的终结"
+      ],
+      "alias": [
+        "hei",
+        "hei"
+      ],
+      "appellation": "Schwarz"
+    },
+    "code": "schwarz",
+    "code_name": "Schwarz"
   },
   "char_112_siege": {
     "en_US": {
@@ -5143,6 +5331,20 @@
     "code": "skadi",
     "code_name": "Skadi"
   },
+  "char_376_therex": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "THRM-EX",
+      "skills": [],
+      "alias": [
+        "THRM-EX",
+        "THRM-EX"
+      ],
+      "appellation": "Thermal-EX"
+    },
+    "code": null,
+    "code_name": "Thermal-EX"
+  },
   "char_133_mm": {
     "zh_CN": {
       "enabled": true,
@@ -5227,23 +5429,6 @@
     },
     "code": null,
     "code_name": "Utage"
-  },
-  "char_298_susuro": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "苏苏洛",
-      "skills": [
-        "治疗强化·β型",
-        "深度治疗"
-      ],
-      "alias": [
-        "su su luo",
-        "susuluo"
-      ],
-      "appellation": "Sussurro"
-    },
-    "code": null,
-    "code_name": "Sussurro"
   },
   "char_385_finlpp": {
     "zh_CN": {
@@ -5432,23 +5617,6 @@
     "code": null,
     "code_name": "Leizi"
   },
-  "char_348_ceylon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "锡兰",
-      "skills": [
-        "集中式水疗",
-        "水灵庇护"
-      ],
-      "alias": [
-        "xi lan",
-        "xilan"
-      ],
-      "appellation": "Ceylon"
-    },
-    "code": null,
-    "code_name": "Ceylon"
-  },
   "char_226_hmau": {
     "zh_CN": {
       "enabled": true,
@@ -5533,41 +5701,6 @@
     },
     "code": null,
     "code_name": "Shamare"
-  },
-  "char_326_glacus": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "格劳克斯",
-      "skills": [
-        "双线装填",
-        "反制电磁脉冲"
-      ],
-      "alias": [
-        "ge lao ke si",
-        "gelaokesi"
-      ],
-      "appellation": "Glaucus"
-    },
-    "code": null,
-    "code_name": "Glaucus"
-  },
-  "char_340_shwaz": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "黑",
-      "skills": [
-        "强弩",
-        "暮眼锐瞳",
-        "战术的终结"
-      ],
-      "alias": [
-        "hei",
-        "hei"
-      ],
-      "appellation": "Schwarz"
-    },
-    "code": null,
-    "code_name": "Schwarz"
   },
   "char_222_bpipe": {
     "zh_CN": {
@@ -5787,9 +5920,9 @@
         "yuan shi liu fa sheng zhuang zhi",
         "yuanshiliufashengzhuangzhi"
       ],
-      "appellation": "NULL"
+      "appellation": "F.O.O"
     },
     "code": null,
-    "code_name": "NULL"
+    "code_name": "F.O.O"
   }
 }
