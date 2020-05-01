@@ -5515,6 +5515,23 @@
     "code": null,
     "code_name": "Reed"
   },
+  "char_401_elysm": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "极境",
+      "skills": [
+        "支援号令·γ型",
+        "聆听"
+      ],
+      "alias": [
+        "ji jing",
+        "jijing"
+      ],
+      "appellation": "Elysium"
+    },
+    "code": null,
+    "code_name": "Elysium"
+  },
   "char_252_bibeak": {
     "zh_CN": {
       "enabled": true,
@@ -5702,6 +5719,24 @@
     "code": null,
     "code_name": "Shamare"
   },
+  "char_113_cqbw": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "W",
+      "skills": [
+        "红桃K",
+        "惊吓盒子",
+        "D12"
+      ],
+      "alias": [
+        "W",
+        "W"
+      ],
+      "appellation": "W"
+    },
+    "code": null,
+    "code_name": "W"
+  },
   "char_222_bpipe": {
     "zh_CN": {
       "enabled": true,
@@ -5773,6 +5808,24 @@
     },
     "code": null,
     "code_name": "Phantom"
+  },
+  "char_400_weedy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "温蒂",
+      "skills": [
+        "炮管敲击",
+        "水炮模式",
+        "液氮大炮"
+      ],
+      "alias": [
+        "wen di",
+        "wendi"
+      ],
+      "appellation": "Weedy"
+    },
+    "code": null,
+    "code_name": "Weedy"
   },
   "char_225_haak": {
     "zh_CN": {
@@ -5863,6 +5916,42 @@
     "code": null,
     "code_name": "The Mirror"
   },
+  "token_10008_cqbw_box": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "此面向敌",
+      "skills": [
+        "",
+        "受害者启动模式",
+        ""
+      ],
+      "alias": [
+        "ci mian xiang di",
+        "cimianxiangdi"
+      ],
+      "appellation": "F.T.E"
+    },
+    "code": null,
+    "code_name": "F.T.E"
+  },
+  "token_10009_weedy_cannon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "工程蓄水炮",
+      "skills": [
+        "",
+        "",
+        "液氮大炮"
+      ],
+      "alias": [
+        "gong cheng xu shui pao",
+        "gongchengxushuipao"
+      ],
+      "appellation": "Cannon"
+    },
+    "code": null,
+    "code_name": "Cannon"
+  },
   "trap_008_farm": {
     "zh_CN": {
       "enabled": true,
@@ -5908,6 +5997,38 @@
     },
     "code": null,
     "code_name": "Originium ICrystal"
+  },
+  "trap_011_ore": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石祭坛",
+      "skills": [
+        "脉冲波"
+      ],
+      "alias": [
+        "yuan shi ji tan",
+        "yuanshijitan"
+      ],
+      "appellation": "Originium Shrine"
+    },
+    "code": null,
+    "code_name": "Originium Shrine"
+  },
+  "trap_012_mine": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "干扰地雷",
+      "skills": [
+        "触爆"
+      ],
+      "alias": [
+        "gan rao di lei",
+        "ganraodilei"
+      ],
+      "appellation": "Interferential Mine"
+    },
+    "code": null,
+    "code_name": "Interferential Mine"
   },
   "trap_013_blower": {
     "zh_CN": {
