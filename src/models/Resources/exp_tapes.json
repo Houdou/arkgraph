@@ -1,0 +1,68 @@
+[
+  {
+    "id": "E-5-1",
+    "unique_id": 2004,
+    "name": "高级作战记录",
+    "pinyin": "gao ji zuo zhan ji lu",
+    "tier": "T5",
+    "value": 2000,
+    "type": "tape",
+    "source": {
+      "LS-4": "固定[1]",
+      "LS-5": "固定[3]"
+    },
+    "formula": {
+      "E-4-1": 2
+    }
+  }, {
+    "id": "E-4-1",
+    "unique_id": 2003,
+    "name": "中级作战记录",
+    "pinyin": "zhong ji zuo zhan ji lu",
+    "tier": "T4",
+    "value": 1000,
+    "type": "tape",
+    "source": {
+      "LS-3": "固定[3]",
+      "LS-4": "固定[1~3]",
+      "LS-5": "固定[1]"
+    },
+    "formula": {
+      "E-3-1": 2,
+      "E-2-1": 1
+    }
+  }, {
+    "id": "E-3-1",
+    "unique_id": 2002,
+    "name": "初级作战记录",
+    "pinyin": "chu ji zuo zhan ji lu",
+    "tier": "T3",
+    "value": 400,
+    "type": "tape",
+    "source": {
+      "LS-1": "固定[3]",
+      "LS-2": "固定[5]",
+      "LS-3": "固定[1~3]",
+      "LS-4": "固定[1~4]",
+      "LS-5": "固定[1]"
+    },
+    "formula": {
+      "E-2-1": 2
+    }
+  }, {
+    "id": "E-2-1",
+    "unique_id": 2001,
+    "name": "基础作战记录",
+    "pinyin": "ji chu zuo zhan ji lu",
+    "tier": "T2",
+    "value": 200,
+    "type": "tape",
+    "source": {
+      "LS-1": "固定[1~3]",
+      "LS-2": "固定[3~5]",
+      "LS-3": "固定[1~3]",
+      "LS-4": "固定[1~3]"
+    },
+    "formula": {}
+  }
+]
