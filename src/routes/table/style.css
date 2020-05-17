@@ -28,7 +28,7 @@
 	transition: transform 0.45s ease, opacity 0.3s ease;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
 	.row_header {
 		display: none;
 	}

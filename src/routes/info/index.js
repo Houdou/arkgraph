@@ -14,6 +14,10 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-05-17</p>
+			增加了固定表头的功能<br />
+			先頭列固定機能を追加しました<br />
+			Added freeze row header feature<br />
 			<p>2020-05-01</p>
 			添加了新干员<br />
 			【<a href="/operator/W">W</a>】
