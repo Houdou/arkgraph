@@ -170,12 +170,15 @@ const ArkTable = ({
 							ir={ir}
 							config={config}
 							records={records}
-							addEmptyRow={addEmptyRow}
 							addLastRow={addLastRow}
+							addEmptyRow={addEmptyRow}
+							updateRow={updateRow}
+							removeRow={removeRow}
+							completeRow={completeRow}
+							fulfillment_statuses={fulfillment_statuses}
 							summary={summary}
 							toggleHiddenAll={toggleHiddenAll}
 							sortRecords={sortRecords}
-							fulfillment_statuses={fulfillment_statuses}
 							{...filter_props}
 						/>
 					)

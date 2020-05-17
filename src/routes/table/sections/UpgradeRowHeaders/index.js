@@ -37,13 +37,17 @@ const ArkUpgradeRowHeaders = ({
 
 			debounce = setTimeout(() => {
 				if (headerRef && headerRef.current) {
-					headerRef.current.style.opacity = window.scrollX <= 400 ? 0 : 1;
+					const should_hide = window.scrollX <= 400;
+					headerRef.current.style.opacity = should_hide ? 0 : 1;
+					headerRef.current.style.pointerEvents = should_hide ? 'none' : 'initial';
 					headerRef.current.style.transform = `translateX(${window.scrollX}px)`;
 				}
 			}, 100);
 		};
 		if (headerRef && headerRef.current) {
-			headerRef.current.style.opacity = window.scrollX <= 400 ? 0 : 1;
+			const should_hide = window.scrollX <= 400;
+			headerRef.current.style.opacity = should_hide ? 0 : 1;
+			headerRef.current.style.pointerEvents = should_hide ? 'none' : 'initial';
 			headerRef.current.style.transform = `translateX(${window.scrollX}px)`;
 		}
 		window.onscroll = handleScroll;
