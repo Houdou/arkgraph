@@ -6,6 +6,8 @@ export const STORAGE_VERSION =  '2.4.0';
 const default_config = {
 	showAllResources: false,
 	showFocusMaterials: true,
+	tableRowHeader: true,
+	groupByOperator: false,
 	showFilter: false,
 	showExtendedData: false,
 	filters: [],
@@ -40,6 +42,20 @@ const reducer = (state, action) => {
 			newState = {
 				...state,
 				showFocusMaterials: action.payload,
+			};
+			break;
+		}
+		case 'config.toggleTableRowHeader': {
+			newState = {
+				...state,
+				tableRowHeader: action.payload,
+			};
+			break;
+		}
+		case 'config.toggleGroupByOperator': {
+			newState = {
+				...state,
+				groupByOperator: action.payload,
 			};
 			break;
 		}
@@ -152,6 +168,20 @@ const useData = () => {
 		});
 	};
 
+	const toggleTableRowHeader = (toggle) => {
+		dispatch({
+			type: 'config.toggleTableRowHeader',
+			payload: toggle,
+		});
+	};
+
+	const toggleGroupByOperator = (toggle) => {
+		dispatch({
+			type: 'config.toggleGroupByOperator',
+			payload: toggle,
+		});
+	};
+
 	const toggleShowFilter = (toggle) => {
 		dispatch({
 			type: 'config.toggleShowFilter',
@@ -194,6 +224,8 @@ const useData = () => {
 		setLanguage,
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
+		toggleTableRowHeader,
+		toggleGroupByOperator,
 		toggleShowFilter,
 		toggleShowExtendedData,
 		setFilters,

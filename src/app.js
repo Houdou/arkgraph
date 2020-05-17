@@ -31,6 +31,8 @@ const App = (props) => {
 		toggleShowAllResources,
 		toggleShowFocusMaterials,
 		toggleShowFilter,
+		toggleTableRowHeader,
+		toggleGroupByOperator,
 		toggleShowExp,
 		toggleShowExtendedData,
 		toggleShowAnnouncementCodeOnce,
@@ -69,6 +71,8 @@ const App = (props) => {
 				ir={ir}
 				toggleShowAllResources={toggleShowAllResources}
 				toggleShowFocusMaterials={toggleShowFocusMaterials}
+				toggleTableRowHeader={toggleTableRowHeader}
+				toggleGroupByOperator={toggleGroupByOperator}
 				toggleShowFilter={toggleShowFilter}
 				toggleShowExp={toggleShowExp}
 			/>

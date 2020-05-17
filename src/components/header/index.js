@@ -11,6 +11,7 @@ const Header = ({
 	config,
 	toggleShowAllResources,
 	toggleShowFocusMaterials,
+	toggleTableRowHeader,
 	toggleShowFilter,
 	toggleShowExp,
 }) => (
@@ -59,6 +60,11 @@ const Header = ({
 						value={config.showFocusMaterials}
 						toggle={toggleShowFocusMaterials}
 						content={ir('table-options-show_focusing_materials', 'Show focusing')}
+					/>
+					<Toggle
+						value={config.tableRowHeader}
+						toggle={toggleTableRowHeader}
+						content={ir('table-options-table_row_header', 'Fix row header')}
 					/>
 				</div>
 			)

@@ -11,6 +11,7 @@ import ArkSummaryRow from './components/SummaryRow';
 import ArkShortageRow from './components/ShortageRow';
 import ArkFocusMaterials from './sections/FocusMaterials';
 import ArkFilterSettings from './sections/FilterSettings';
+import ArkUpgradeRowHeaders from './sections/UpgradeRowHeaders';
 
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
@@ -163,6 +164,22 @@ const ArkTable = ({
 					addLastRow={addLastRow}
 					{...filter_props}
 				/>
+				{
+					config.tableRowHeader && records && (
+						<ArkUpgradeRowHeaders
+							ir={ir}
+							config={config}
+							records={records}
+							addEmptyRow={addEmptyRow}
+							addLastRow={addLastRow}
+							summary={summary}
+							toggleHiddenAll={toggleHiddenAll}
+							sortRecords={sortRecords}
+							fulfillment_statuses={fulfillment_statuses}
+							{...filter_props}
+						/>
+					)
+				}
 			</div>
 			<ArkFocusMaterials
 				ir={ir}

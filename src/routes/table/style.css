@@ -18,3 +18,18 @@
 		overflow: scroll visible;
 	}
 }
+
+.row_header {
+	position: absolute;
+	top: 132px;
+	background: #333;
+	transform: translateX(0);
+	opacity: 1;
+	transition: transform 0.45s ease, opacity 0.3s ease;
+}
+
+@media screen and (max-width: 600px) {
+	.row_header {
+		display: none;
+	}
+}

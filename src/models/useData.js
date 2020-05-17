@@ -330,6 +330,7 @@ const useData = () => {
 			type: 'data.addRow',
 			payload: {
 				operator_id: global.last_operator,
+				attribute: global.last_attribute,
 			},
 		});
 	};

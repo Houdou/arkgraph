@@ -109,6 +109,9 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 	if (operator_id) {
 		global.last_operator = operator_id;
 	}
+	if (attribute) {
+		global.last_attribute = attribute;
+	}
 	return {
 		operator_id,
 		attribute,
