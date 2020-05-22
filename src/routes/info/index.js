@@ -14,6 +14,27 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			{
+				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
+					<Fragment>
+						<p>2020-05-22</p>
+						[EN][JP][KR]<br />
+						Added event operators<br />
+						新規オペレーターを追加しました<br />
+						{
+							[
+								'char_275_breeze',
+								'char_355_ethan',
+								'char_260_durnar',
+							].map(id => (
+								<Fragment>
+							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
+								</Fragment>
+							))
+						}
+					</Fragment>
+				)
+			}
 			<p>2020-05-17</p>
 			增加了固定表头的功能<br />
 			先頭列固定機能を追加しました<br />
@@ -24,28 +45,6 @@ const Info = ({
 			【<a href="/operator/温蒂">温蒂</a>】
 			【<a href="/operator/极境">极境</a>】
 			<br />
-			{
-				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
-					<Fragment>
-						<p>2020-04-30</p>
-						[EN][JP][KR]<br />
-						Added event operators<br />
-						新規オペレーターを追加しました<br />
-						{
-							[
-								'char_340_shwaz',
-								'char_348_ceylon',
-								'char_326_glacus',
-								'char_298_susuro',
-							].map(id => (
-								<Fragment>
-							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
-								</Fragment>
-							))
-						}
-					</Fragment>
-				)
-			}
 			<p>2020-04-21</p>
 			增加了活动图掉落、刷图<br />
 			优化了刷图页面的关卡搜索算法<br />
