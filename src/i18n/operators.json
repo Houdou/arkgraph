@@ -2017,6 +2017,52 @@
     "code": "gummy",
     "code_name": "Гум"
   },
+  "char_260_durnar": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dur-nar",
+      "skills": [
+        "ATK Up β",
+        "Shielded Counterattack"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジュナー",
+      "skills": [
+        "攻撃力強化β",
+        "カウンターシールド"
+      ],
+      "alias": [
+        "じゅなー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "듀나",
+      "skills": [
+        "공격 강화β",
+        "방패 반격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "坚雷",
+      "skills": [
+        "攻击力强化·β型",
+        "起盾回击"
+      ],
+      "alias": [
+        "jian lei",
+        "jianlei"
+      ],
+      "appellation": "Dur-nar"
+    },
+    "code": "dur-nar",
+    "code_name": "Dur-nar"
+  },
   "char_110_deepcl": {
     "en_US": {
       "enabled": true,
@@ -2109,6 +2155,52 @@
     "code": "earthspirit",
     "code_name": "Earthspirit"
   },
+  "char_355_ethan": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ethan",
+      "skills": [
+        "Fancy Maneuvers",
+        "Suspended Cross"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "イーサン",
+      "skills": [
+        "ループザループ",
+        "グラインドツイスター"
+      ],
+      "alias": [
+        "いーさん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에단",
+      "skills": [
+        "요요",
+        "크로스 훅"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "伊桑",
+      "skills": [
+        "花式回旋",
+        "十字悬挂"
+      ],
+      "alias": [
+        "yi sang",
+        "yisang"
+      ],
+      "appellation": "Ethan"
+    },
+    "code": "ethan",
+    "code_name": "Ethan"
+  },
   "char_277_sqrrel": {
     "en_US": {
       "enabled": true,
@@ -2200,6 +2292,52 @@
     },
     "code": "ptilopsis",
     "code_name": "Ptilopsis"
+  },
+  "char_275_breeze": {
+    "en_US": {
+      "enabled": true,
+      "name": "Breeze",
+      "skills": [
+        "Cluster Therapy",
+        "Widespread Therapy"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブリーズ",
+      "skills": [
+        "集中療法",
+        "拡散療法"
+      ],
+      "alias": [
+        "ぶりーず"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "브리즈",
+      "skills": [
+        "집중식 치료",
+        "확산식 치료"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "微风",
+      "skills": [
+        "集束疗法",
+        "扩散疗法"
+      ],
+      "alias": [
+        "wei feng",
+        "weifeng"
+      ],
+      "appellation": "Breeze"
+    },
+    "code": "breeze",
+    "code_name": "Breeze"
   },
   "char_115_headbr": {
     "en_US": {
@@ -5446,57 +5584,6 @@
     },
     "code": null,
     "code_name": "Purestream"
-  },
-  "char_260_durnar": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "坚雷",
-      "skills": [
-        "攻击力强化·β型",
-        "起盾回击"
-      ],
-      "alias": [
-        "jian lei",
-        "jianlei"
-      ],
-      "appellation": "Dur-nar"
-    },
-    "code": null,
-    "code_name": "Dur-nar"
-  },
-  "char_355_ethan": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "伊桑",
-      "skills": [
-        "花式回旋",
-        "十字悬挂"
-      ],
-      "alias": [
-        "yi sang",
-        "yisang"
-      ],
-      "appellation": "Ethan"
-    },
-    "code": null,
-    "code_name": "Ethan"
-  },
-  "char_275_breeze": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "微风",
-      "skills": [
-        "集束疗法",
-        "扩散疗法"
-      ],
-      "alias": [
-        "wei feng",
-        "weifeng"
-      ],
-      "appellation": "Breeze"
-    },
-    "code": null,
-    "code_name": "Breeze"
   },
   "char_261_sddrag": {
     "zh_CN": {
