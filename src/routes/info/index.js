@@ -17,15 +17,16 @@ const Info = ({
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2020-05-22</p>
+						<p>2020-05-28</p>
 						[EN][JP][KR]<br />
 						Added event operators<br />
 						新規オペレーターを追加しました<br />
 						{
 							[
-								'char_275_breeze',
-								'char_355_ethan',
-								'char_260_durnar',
+								'char_213_mostma',
+								'char_325_bison',
+								'char_243_waaifu',
+								'char_133_mm',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
