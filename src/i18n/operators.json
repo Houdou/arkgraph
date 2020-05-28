@@ -1143,6 +1143,52 @@
     "code": "vermeil",
     "code_name": "Vermeil"
   },
+  "char_133_mm": {
+    "en_US": {
+      "enabled": true,
+      "name": "May",
+      "skills": [
+        "Paralyzing Shell",
+        "Binding Shock"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "メイ",
+      "skills": [
+        "ストップショット",
+        "スタンショック"
+      ],
+      "alias": [
+        "めい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "메이",
+      "skills": [
+        "마비탄",
+        "속박 전격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "梅",
+      "skills": [
+        "麻痹弹",
+        "束缚电击"
+      ],
+      "alias": [
+        "mei",
+        "mei"
+      ],
+      "appellation": "May"
+    },
+    "code": "may",
+    "code_name": "May"
+  },
   "char_118_yuki": {
     "en_US": {
       "enabled": true,
@@ -3309,6 +3355,52 @@
     "code": "projekt red",
     "code_name": "Projekt Red"
   },
+  "char_243_waaifu": {
+    "en_US": {
+      "enabled": true,
+      "name": "Waai Fu",
+      "skills": [
+        "One-inch Punch",
+        "Seven-styles Kick"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ワイフー",
+      "skills": [
+        "寸勁",
+        "七武掠陣脚"
+      ],
+      "alias": [
+        "わいふー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "와이후",
+      "skills": [
+        "촌경",
+        "칠무약진각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "槐琥",
+      "skills": [
+        "寸劲",
+        "七武掠阵踢"
+      ],
+      "alias": [
+        "huai hu",
+        "huaihu"
+      ],
+      "appellation": "Waai Fu"
+    },
+    "code": "waai fu",
+    "code_name": "Waai Fu"
+  },
   "char_107_liskam": {
     "en_US": {
       "enabled": true,
@@ -3400,6 +3492,52 @@
     },
     "code": "croissant",
     "code_name": "Croissant"
+  },
+  "char_325_bison": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bison",
+      "skills": [
+        "DEF Up γ",
+        "Intensified Defense"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "バイソン",
+      "skills": [
+        "防御力強化γ",
+        "戦線強化"
+      ],
+      "alias": [
+        "ばいそん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "바이슨",
+      "skills": [
+        "방어 강화γ",
+        "방어선 강화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "拜松",
+      "skills": [
+        "防御力强化·γ型",
+        "深化阵线"
+      ],
+      "alias": [
+        "bai song",
+        "baisong"
+      ],
+      "appellation": "Bison"
+    },
+    "code": "bison",
+    "code_name": "Bison"
   },
   "char_163_hpsts": {
     "en_US": {
@@ -4060,6 +4198,56 @@
     },
     "code": "ifrit",
     "code_name": "Ifrit"
+  },
+  "char_213_mostma": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mostima",
+      "skills": [
+        "ATK Up γ",
+        "Lock of Shattered Time",
+        "Key of Chronology"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "モスティマ",
+      "skills": [
+        "攻撃力強化γ",
+        "時荒びの黒き錠",
+        "時闢きの白き鍵"
+      ],
+      "alias": [
+        "もすてぃま"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모스티마",
+      "skills": [
+        "공격 강화γ",
+        "혼돈의 시간의 자물쇠",
+        "질서의 시간의 열쇠"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "莫斯提马",
+      "skills": [
+        "攻击力强化·γ型",
+        "荒时之锁",
+        "序时之匙"
+      ],
+      "alias": [
+        "mo si ti ma",
+        "mositima"
+      ],
+      "appellation": "Mostima"
+    },
+    "code": "mostima",
+    "code_name": "Mostima"
   },
   "char_180_amgoat": {
     "en_US": {
@@ -5151,6 +5339,82 @@
     "code": "turret",
     "code_name": "Ballista"
   },
+  "trap_008_farm": {
+    "en_US": {
+      "enabled": true,
+      "name": "Command Terminal",
+      "skills": [
+        "Startup!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コマンドシステム",
+      "skills": [
+        "アクティベート！"
+      ],
+      "alias": [
+        "こまんどしすてむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지휘 단말기",
+      "skills": [
+        "기동!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "指挥终端",
+      "skills": [
+        "启动！"
+      ],
+      "alias": [
+        "zhi hui zhong duan",
+        "zhihuizhongduan"
+      ],
+      "appellation": "CT-01"
+    },
+    "code": "command terminal",
+    "code_name": "CT-01"
+  },
+  "trap_009_battery": {
+    "en_US": {
+      "enabled": true,
+      "name": "Portable Supply Station",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "簡易補給所",
+      "skills": [],
+      "alias": [
+        "簡易補給所"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "휴대용 보급기",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携式补给站",
+      "skills": [],
+      "alias": [
+        "bian xie shi bu gei zhan",
+        "bianxieshibugeizhan"
+      ],
+      "appellation": "Portable Supply"
+    },
+    "code": "portable supply station",
+    "code_name": "Portable Supply"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -5483,23 +5747,6 @@
     "code": null,
     "code_name": "Thermal-EX"
   },
-  "char_133_mm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "梅",
-      "skills": [
-        "麻痹弹",
-        "束缚电击"
-      ],
-      "alias": [
-        "mei",
-        "mei"
-      ],
-      "appellation": "May"
-    },
-    "code": null,
-    "code_name": "May"
-  },
   "char_302_glaze": {
     "zh_CN": {
       "enabled": true,
@@ -5738,40 +5985,6 @@
     "code": null,
     "code_name": "Hung"
   },
-  "char_243_waaifu": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "槐琥",
-      "skills": [
-        "寸劲",
-        "七武掠阵踢"
-      ],
-      "alias": [
-        "huai hu",
-        "huaihu"
-      ],
-      "appellation": "Waai Fu"
-    },
-    "code": null,
-    "code_name": "Waai Fu"
-  },
-  "char_325_bison": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "拜松",
-      "skills": [
-        "防御力强化·γ型",
-        "深化阵线"
-      ],
-      "alias": [
-        "bai song",
-        "baisong"
-      ],
-      "appellation": "Bison"
-    },
-    "code": null,
-    "code_name": "Bison"
-  },
   "char_383_snsant": {
     "zh_CN": {
       "enabled": true,
@@ -5841,24 +6054,6 @@
     },
     "code": null,
     "code_name": "Bagpipe"
-  },
-  "char_213_mostma": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "莫斯提马",
-      "skills": [
-        "攻击力强化·γ型",
-        "荒时之锁",
-        "序时之匙"
-      ],
-      "alias": [
-        "mo si ti ma",
-        "mositima"
-      ],
-      "appellation": "Mostima"
-    },
-    "code": null,
-    "code_name": "Mostima"
   },
   "char_2013_cerber": {
     "zh_CN": {
@@ -6038,36 +6233,6 @@
     },
     "code": null,
     "code_name": "Cannon"
-  },
-  "trap_008_farm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "指挥终端",
-      "skills": [
-        "启动！"
-      ],
-      "alias": [
-        "zhi hui zhong duan",
-        "zhihuizhongduan"
-      ],
-      "appellation": "CT-01"
-    },
-    "code": null,
-    "code_name": "CT-01"
-  },
-  "trap_009_battery": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "便携式补给站",
-      "skills": [],
-      "alias": [
-        "bian xie shi bu gei zhan",
-        "bianxieshibugeizhan"
-      ],
-      "appellation": "Portable Supply"
-    },
-    "code": null,
-    "code_name": "Portable Supply"
   },
   "trap_010_frosts": {
     "zh_CN": {

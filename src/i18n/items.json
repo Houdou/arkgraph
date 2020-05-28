@@ -1864,18 +1864,20 @@
   },
   "M-3-11": {
     "en_US": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "Coagulating Gel",
       "alias": []
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "人工ゲル",
+      "alias": [
+        "人工げる"
+      ]
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "젤",
       "alias": []
     },
     "zh_CN": {
@@ -1889,18 +1891,20 @@
   },
   "M-4-11": {
     "en_US": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "Polymerized Gel",
       "alias": []
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "融合ゲル",
+      "alias": [
+        "融合げる"
+      ]
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "중합젤",
       "alias": []
     },
     "zh_CN": {
@@ -1914,18 +1918,20 @@
   },
   "M-3-12": {
     "en_US": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "Incandescent Alloy",
       "alias": []
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "熾合金",
+      "alias": [
+        "熾合金"
+      ]
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "열합금",
       "alias": []
     },
     "zh_CN": {
@@ -1939,18 +1945,20 @@
   },
   "M-4-12": {
     "en_US": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "Incandescent Alloy Block",
       "alias": []
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "上級熾合金",
+      "alias": [
+        "上級熾合金"
+      ]
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
+      "enabled": true,
+      "name": "열합금 팩",
       "alias": []
     },
     "zh_CN": {
