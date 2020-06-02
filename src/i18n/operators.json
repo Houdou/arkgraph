@@ -5985,6 +5985,23 @@
     "code": null,
     "code_name": "Hung"
   },
+  "char_378_asbest": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "石棉",
+      "skills": [
+        "固守模式",
+        "火电模式"
+      ],
+      "alias": [
+        "shi mian",
+        "shimian"
+      ],
+      "appellation": "Asbestos"
+    },
+    "code": null,
+    "code_name": "Asbestos"
+  },
   "char_383_snsant": {
     "zh_CN": {
       "enabled": true,
@@ -6018,6 +6035,23 @@
     },
     "code": null,
     "code_name": "Shamare"
+  },
+  "char_343_tknogi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "月禾",
+      "skills": [
+        "迹无",
+        "森廻"
+      ],
+      "alias": [
+        "yue he",
+        "yuehe"
+      ],
+      "appellation": "Tsukinogi"
+    },
+    "code": null,
+    "code_name": "Tsukinogi"
   },
   "char_113_cqbw": {
     "zh_CN": {
