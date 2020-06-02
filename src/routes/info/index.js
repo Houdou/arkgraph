@@ -14,6 +14,11 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-06-02</p>
+			添加了新干员<br />
+			【<a href="/operator/月禾">月禾</a>】
+			【<a href="/operator/石棉">石棉</a>】
+			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
@@ -49,12 +54,6 @@ const Info = ({
 			<p>2020-04-21</p>
 			增加了活动图掉落、刷图<br />
 			优化了刷图页面的关卡搜索算法<br />
-			<br />
-			添加了新干员<br />
-			【<a href="/operator/傀影">傀影</a>】
-			【<a href="/operator/铸铁">铸铁</a>】
-			【<a href="/operator/巫恋">巫恋</a>】
-			【<a href="/operator/刻刀">刻刀</a>】
 			<br />
 			<p>2020-01-16</p>
 			添加了多语言支持🎉<br />
