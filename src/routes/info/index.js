@@ -14,6 +14,12 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-06-18</p>
+			添加了新干员<br />
+			【<a href="/operator/早露">早露</a>】
+			【<a href="/operator/莱恩哈特">莱恩哈特</a>】
+			【<a href="/operator/苦艾">苦艾</a>】
+			【<a href="/operator/波登可">波登可</a>】
 			<p>2020-06-02</p>
 			添加了新干员<br />
 			【<a href="/operator/月禾">月禾</a>】
