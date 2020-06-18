@@ -4,7 +4,7 @@ import { Link } from 'preact-router/match';
 import cn from 'classnames';
 import style from './style';
 
-import { LEVELS } from '../../../../models/Levels';
+import { LEVELS, UNAVAILABLE_LEVELS } from '../../../../models/Levels';
 import { MATERIALS } from '../../../../models/Resources';
 import sumRequirements from '../../../../models/sumRequirements';
 import callArkPlanner from '../../../../services/arkplanner';
@@ -64,6 +64,7 @@ const MaterialRow = (compound_materials) => () => (
 );
 
 const ArkPlanner = ({
+	ir,
 	records,
 	stock,
 	setLevelId,
@@ -339,6 +340,7 @@ const ArkPlanner = ({
 											gold_demand: option_gold_demand,
 											exp_demand: option_exp_demand,
 											extra_outc: option_extra_outc,
+											exclude: ir.locale === 'zh_CN' ? [] : UNAVAILABLE_LEVELS,
 										});
 										setStatus(REQUEST_STATUS.DONE);
 										setPlan(result);

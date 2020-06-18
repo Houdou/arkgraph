@@ -5832,6 +5832,23 @@
     "code": null,
     "code_name": "Purestream"
   },
+  "char_258_podego": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "波登可",
+      "skills": [
+        "花香疗法",
+        "孢子扩散"
+      ],
+      "alias": [
+        "bo deng ke",
+        "bodengke"
+      ],
+      "appellation": "Podenco"
+    },
+    "code": null,
+    "code_name": "Podenco"
+  },
   "char_261_sddrag": {
     "zh_CN": {
       "enabled": true,
@@ -5951,6 +5968,23 @@
     "code": null,
     "code_name": "Sesa"
   },
+  "char_405_absin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "苦艾",
+      "skills": [
+        "执法模式",
+        "终结连射"
+      ],
+      "alias": [
+        "ku ai",
+        "kuai"
+      ],
+      "appellation": "Absinthe"
+    },
+    "code": null,
+    "code_name": "Absinthe"
+  },
   "char_306_leizi": {
     "zh_CN": {
       "enabled": true,
@@ -5967,6 +6001,23 @@
     },
     "code": null,
     "code_name": "Leizi"
+  },
+  "char_373_lionhd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱恩哈特",
+      "skills": [
+        "攻击力强化·γ型",
+        "解构与爆破"
+      ],
+      "alias": [
+        "lai en ha te",
+        "laienhate"
+      ],
+      "appellation": "Leonhardt"
+    },
+    "code": null,
+    "code_name": "Leonhardt"
   },
   "char_226_hmau": {
     "zh_CN": {
@@ -6070,6 +6121,24 @@
     },
     "code": null,
     "code_name": "W"
+  },
+  "char_197_poca": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "早露",
+      "skills": [
+        "攻击力强化·γ型",
+        "分裂射击",
+        "雪崩击"
+      ],
+      "alias": [
+        "zao lou",
+        "zaolou"
+      ],
+      "appellation": "Роса"
+    },
+    "code": null,
+    "code_name": "Роса"
   },
   "char_222_bpipe": {
     "zh_CN": {
