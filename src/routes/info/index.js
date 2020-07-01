@@ -14,30 +14,18 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-06-18</p>
-			添加了新干员<br />
-			【<a href="/operator/早露">早露</a>】
-			【<a href="/operator/莱恩哈特">莱恩哈特</a>】
-			【<a href="/operator/苦艾">苦艾</a>】
-			【<a href="/operator/波登可">波登可</a>】
-			<p>2020-06-02</p>
-			添加了新干员<br />
-			【<a href="/operator/月禾">月禾</a>】
-			【<a href="/operator/石棉">石棉</a>】
-			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2020-05-28</p>
+						<p>2020-07-01</p>
 						[EN][JP][KR]<br />
 						Added event operators<br />
 						新規オペレーターを追加しました<br />
 						{
 							[
-								'char_213_mostma',
-								'char_325_bison',
-								'char_243_waaifu',
-								'char_133_mm',
+								'char_017_huang',
+								'char_367_swllow',
+								'char_302_glaze',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
@@ -47,20 +35,17 @@ const Info = ({
 					</Fragment>
 				)
 			}
+			<p>2020-06-18</p>
+			添加了新干员<br />
+			【<a href="/operator/早露">早露</a>】
+			【<a href="/operator/莱恩哈特">莱恩哈特</a>】
+			【<a href="/operator/苦艾">苦艾</a>】
+			【<a href="/operator/波登可">波登可</a>】
+			<br />
 			<p>2020-05-17</p>
 			增加了固定表头的功能<br />
 			先頭列固定機能を追加しました<br />
 			Added freeze row header feature<br />
-			<p>2020-05-01</p>
-			添加了新干员<br />
-			【<a href="/operator/W">W</a>】
-			【<a href="/operator/温蒂">温蒂</a>】
-			【<a href="/operator/极境">极境</a>】
-			<br />
-			<p>2020-04-21</p>
-			增加了活动图掉落、刷图<br />
-			优化了刷图页面的关卡搜索算法<br />
-			<br />
 			<p>2020-01-16</p>
 			添加了多语言支持🎉<br />
 			日本語を追加しました🎉<br />
