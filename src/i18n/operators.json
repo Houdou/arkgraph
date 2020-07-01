@@ -1235,6 +1235,52 @@
     "code": "shirayuki",
     "code_name": "ShiraYuki"
   },
+  "char_302_glaze": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ambriel",
+      "skills": [
+        "Snaring Shell",
+        "Radar Sweep"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アンブリエル",
+      "skills": [
+        "妨害弾",
+        "全方位レーダー"
+      ],
+      "alias": [
+        "あんぶりえる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "엠브리엘",
+      "skills": [
+        "저지탄",
+        "레이더 위치 추적"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "安比尔",
+      "skills": [
+        "阻挡弹",
+        "雷达定位"
+      ],
+      "alias": [
+        "an bi er",
+        "anbier"
+      ],
+      "appellation": "Ambriel"
+    },
+    "code": "ambriel",
+    "code_name": "Ambriel"
+  },
   "char_198_blackd": {
     "en_US": {
       "enabled": true,
@@ -2890,6 +2936,52 @@
     },
     "code": "platinum",
     "code_name": "Platinum"
+  },
+  "char_367_swllow": {
+    "en_US": {
+      "enabled": true,
+      "name": "GreyThroat",
+      "skills": [
+        "Flying Feathers",
+        "Counterflow"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "グレースロート",
+      "skills": [
+        "風切",
+        "羽嵐"
+      ],
+      "alias": [
+        "ぐれーすろーと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그레이스롯",
+      "skills": [
+        "날개깃",
+        "역류"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "灰喉",
+      "skills": [
+        "飞羽",
+        "回流"
+      ],
+      "alias": [
+        "hui hou",
+        "huihou"
+      ],
+      "appellation": "GreyThroat"
+    },
+    "code": "greythroat",
+    "code_name": "GreyThroat"
   },
   "char_219_meteo": {
     "en_US": {
@@ -4699,6 +4791,56 @@
     "code": "ch'en",
     "code_name": "Ch'en"
   },
+  "char_017_huang": {
+    "en_US": {
+      "enabled": true,
+      "name": "Blaze",
+      "skills": [
+        "Power Strike γ",
+        "Chainsaw Extension Module",
+        "Boiling Burst"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブレイズ",
+      "skills": [
+        "強撃γ",
+        "鎖鋸拡張モジュール",
+        "ボイリングバースト"
+      ],
+      "alias": [
+        "ぶれいず"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "블레이즈",
+      "skills": [
+        "강타γ",
+        "전기톱 연장 모듈",
+        "끓어오르는 폭발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "煌",
+      "skills": [
+        "强力击·γ型",
+        "链锯延伸模块",
+        "沸腾爆裂"
+      ],
+      "alias": [
+        "huang",
+        "huang"
+      ],
+      "appellation": "Blaze"
+    },
+    "code": "blaze",
+    "code_name": "Blaze"
+  },
   "char_188_helage": {
     "en_US": {
       "enabled": true,
@@ -5415,6 +5557,48 @@
     "code": "portable supply station",
     "code_name": "Portable Supply"
   },
+  "trap_010_frosts": {
+    "en_US": {
+      "enabled": true,
+      "name": "Originium Ice Crystal",
+      "skills": [
+        "Frigid Tide"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "源石氷晶",
+      "skills": [
+        "氷結衝撃波"
+      ],
+      "alias": [
+        "源石氷晶"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오리지늄 얼음 결정",
+      "skills": [
+        "냉기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石冰晶",
+      "skills": [
+        "寒潮"
+      ],
+      "alias": [
+        "yuan shi bing jing",
+        "yuanshibingjing"
+      ],
+      "appellation": "Originium ICrystal"
+    },
+    "code": "originium ice crystal",
+    "code_name": "Originium ICrystal"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -5747,23 +5931,6 @@
     "code": null,
     "code_name": "Thermal-EX"
   },
-  "char_302_glaze": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "安比尔",
-      "skills": [
-        "阻挡弹",
-        "雷达定位"
-      ],
-      "alias": [
-        "an bi er",
-        "anbier"
-      ],
-      "appellation": "Ambriel"
-    },
-    "code": null,
-    "code_name": "Ambriel"
-  },
   "char_159_peacok": {
     "zh_CN": {
       "enabled": true,
@@ -5933,23 +6100,6 @@
     },
     "code": null,
     "code_name": "Sideroca"
-  },
-  "char_367_swllow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "灰喉",
-      "skills": [
-        "飞羽",
-        "回流"
-      ],
-      "alias": [
-        "hui hou",
-        "huihou"
-      ],
-      "appellation": "GreyThroat"
-    },
-    "code": null,
-    "code_name": "GreyThroat"
   },
   "char_379_sesa": {
     "zh_CN": {
@@ -6248,24 +6398,6 @@
     "code": null,
     "code_name": "Nian"
   },
-  "char_017_huang": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "煌",
-      "skills": [
-        "强力击·γ型",
-        "链锯延伸模块",
-        "沸腾爆裂"
-      ],
-      "alias": [
-        "huang",
-        "huang"
-      ],
-      "appellation": "Blaze"
-    },
-    "code": null,
-    "code_name": "Blaze"
-  },
   "token_10006_vodfox_doll": {
     "zh_CN": {
       "enabled": true,
@@ -6336,22 +6468,6 @@
     },
     "code": null,
     "code_name": "Cannon"
-  },
-  "trap_010_frosts": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "源石冰晶",
-      "skills": [
-        "寒潮"
-      ],
-      "alias": [
-        "yuan shi bing jing",
-        "yuanshibingjing"
-      ],
-      "appellation": "Originium ICrystal"
-    },
-    "code": null,
-    "code_name": "Originium ICrystal"
   },
   "trap_011_ore": {
     "zh_CN": {
