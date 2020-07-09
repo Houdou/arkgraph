@@ -5931,6 +5931,23 @@
     "code": null,
     "code_name": "Thermal-EX"
   },
+  "char_328_cammou": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "卡达",
+      "skills": [
+        "攻击力强化·β型",
+        "同步索敌攻击"
+      ],
+      "alias": [
+        "ka da",
+        "kada"
+      ],
+      "appellation": "Click"
+    },
+    "code": null,
+    "code_name": "Click"
+  },
   "char_159_peacok": {
     "zh_CN": {
       "enabled": true,
@@ -6050,6 +6067,23 @@
     "code": null,
     "code_name": "Elysium"
   },
+  "char_294_ayer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "断崖",
+      "skills": [
+        "多导向散射弹丸",
+        "浮游刃启动"
+      ],
+      "alias": [
+        "duan ya",
+        "duanya"
+      ],
+      "appellation": "Ayerscarpe"
+    },
+    "code": null,
+    "code_name": "Ayerscarpe"
+  },
   "char_252_bibeak": {
     "zh_CN": {
       "enabled": true,
@@ -6168,6 +6202,23 @@
     },
     "code": null,
     "code_name": "Leonhardt"
+  },
+  "char_345_folnic": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "亚叶",
+      "skills": [
+        "最大剂量输注",
+        "复合型药物弹片"
+      ],
+      "alias": [
+        "ya ye",
+        "yaye"
+      ],
+      "appellation": "Folinic"
+    },
+    "code": null,
+    "code_name": "Folinic"
   },
   "char_226_hmau": {
     "zh_CN": {
@@ -6326,6 +6377,24 @@
     "code": null,
     "code_name": "Ceobe"
   },
+  "char_358_lisa": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "铃兰",
+      "skills": [
+        "全力以赴",
+        "儿时的舞乐",
+        "狐火渺然"
+      ],
+      "alias": [
+        "ling lan",
+        "linglan"
+      ],
+      "appellation": "Suzuran"
+    },
+    "code": null,
+    "code_name": "Suzuran"
+  },
   "char_250_phatom": {
     "zh_CN": {
       "enabled": true,
@@ -6469,6 +6538,40 @@
     "code": null,
     "code_name": "Cannon"
   },
+  "token_10010_folivo_car": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "移动摄影器",
+      "skills": [
+        "",
+        "大功率输出模式"
+      ],
+      "alias": [
+        "yi dong she ying qi",
+        "yidongsheyingqi"
+      ],
+      "appellation": "M.P.M"
+    },
+    "code": null,
+    "code_name": "M.P.M"
+  },
+  "token_10011_beewax_oblisk": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙之碑",
+      "skills": [
+        "",
+        "沙之碑召唤"
+      ],
+      "alias": [
+        "sha zhi bei",
+        "shazhibei"
+      ],
+      "appellation": "Desert Obelisk"
+    },
+    "code": null,
+    "code_name": "Desert Obelisk"
+  },
   "trap_011_ore": {
     "zh_CN": {
       "enabled": true,
@@ -6516,5 +6619,21 @@
     },
     "code": null,
     "code_name": "F.O.O"
+  },
+  "trap_014_tower": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "L-44\"留声机\"",
+      "skills": [
+        "法术传输协议"
+      ],
+      "alias": [
+        "L-44\" liu sheng ji \"",
+        "L-44\"liushengji\""
+      ],
+      "appellation": "Gramophone"
+    },
+    "code": null,
+    "code_name": "Gramophone"
   }
 }
