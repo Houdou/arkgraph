@@ -14,6 +14,13 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-07-09</p>
+			添加了新干员<br />
+			【<a href="/operator/铃兰">铃兰</a>】
+			【<a href="/operator/亚叶">亚叶</a>】
+			【<a href="/operator/断崖">断崖</a>】
+			【<a href="/operator/卡达">卡达</a>】
+			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
@@ -35,13 +42,6 @@ const Info = ({
 					</Fragment>
 				)
 			}
-			<p>2020-06-18</p>
-			添加了新干员<br />
-			【<a href="/operator/早露">早露</a>】
-			【<a href="/operator/莱恩哈特">莱恩哈特</a>】
-			【<a href="/operator/苦艾">苦艾</a>】
-			【<a href="/operator/波登可">波登可</a>】
-			<br />
 			<p>2020-05-17</p>
 			增加了固定表头的功能<br />
 			先頭列固定機能を追加しました<br />
@@ -56,18 +56,6 @@ const Info = ({
 			オペレーターまたは素材が未だにリリースされていませんなら、正しく表示出来ませんの場合があります。<br />
 			It may have incorrect display if the operator or material is not yet released.<br />
 			<br />
-			考虑到ArkPlanner目前没有支持多服务器，暂时不支持多语言<br />
-
-			<p>2020-01-14</p>
-			添加了新干员
-			【<a href="/operator/年">年</a>】
-			【<a href="/operator/阿">阿</a>】
-			【<a href="/operator/吽">吽</a>】
-			<br />
-			<p>2020-01-08</p>
-			添加了新干员
-			【<a href="/operator/雪雉">雪雉</a>】<br />
-			添加了活动图掉落数据<br />
 			<p>2019-09-30</p>
 			部署了镜像站 <a href="https://cn.ark-nights.com">CN.Ark-Nights.com</a><br />
 			国内用户请使用CN站<br />
