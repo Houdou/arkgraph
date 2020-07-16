@@ -2523,6 +2523,52 @@
     "code": "texas",
     "code_name": "Texas"
   },
+  "char_261_sddrag": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reed",
+      "skills": [
+        "Swift Strike γ",
+        "Soul Spark"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "リード",
+      "skills": [
+        "迅速攻撃γ",
+        "マナスパーク"
+      ],
+      "alias": [
+        "りーど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "리드",
+      "skills": [
+        "신속공격γ",
+        "생령의 불꽃"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "苇草",
+      "skills": [
+        "迅捷打击·γ型",
+        "生灵火花"
+      ],
+      "alias": [
+        "wei cao",
+        "weicao"
+      ],
+      "appellation": "Reed"
+    },
+    "code": "reed",
+    "code_name": "Reed"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -2798,6 +2844,52 @@
     },
     "code": "specter",
     "code_name": "Specter"
+  },
+  "char_356_broca": {
+    "en_US": {
+      "enabled": true,
+      "name": "Broca",
+      "skills": [
+        "Galvanize",
+        "High-Voltage Current"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブローカ",
+      "skills": [
+        "ターンオン",
+        "ハイボルテージ"
+      ],
+      "alias": [
+        "ぶろーか"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "브로카",
+      "skills": [
+        "에너자이즈",
+        "고압전류"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "布洛卡",
+      "skills": [
+        "通电",
+        "高压电流"
+      ],
+      "alias": [
+        "bu luo ka",
+        "buluoka"
+      ],
+      "appellation": "Broca"
+    },
+    "code": "broca",
+    "code_name": "Broca"
   },
   "char_274_astesi": {
     "en_US": {
@@ -6033,23 +6125,6 @@
     "code": null,
     "code_name": "Podenco"
   },
-  "char_261_sddrag": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "苇草",
-      "skills": [
-        "迅捷打击·γ型",
-        "生灵火花"
-      ],
-      "alias": [
-        "wei cao",
-        "weicao"
-      ],
-      "appellation": "Reed"
-    },
-    "code": null,
-    "code_name": "Reed"
-  },
   "char_401_elysm": {
     "zh_CN": {
       "enabled": true,
@@ -6100,23 +6175,6 @@
     },
     "code": null,
     "code_name": "Bibeak"
-  },
-  "char_356_broca": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "布洛卡",
-      "skills": [
-        "通电",
-        "高压电流"
-      ],
-      "alias": [
-        "bu luo ka",
-        "buluoka"
-      ],
-      "appellation": "Broca"
-    },
-    "code": null,
-    "code_name": "Broca"
   },
   "char_333_sidero": {
     "zh_CN": {
