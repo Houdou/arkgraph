@@ -14,6 +14,11 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-07-28</p>
+			添加了新干员<br />
+			【<a href="/operator/稀音">稀音</a>】
+			【<a href="/operator/蜜蜡">蜜蜡</a>】
+			【<a href="/operator/贾维">贾维</a>】
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
@@ -34,12 +39,6 @@ const Info = ({
 					</Fragment>
 				)
 			}
-			<p>2020-07-09</p>
-			添加了新干员<br />
-			【<a href="/operator/铃兰">铃兰</a>】
-			【<a href="/operator/亚叶">亚叶</a>】
-			【<a href="/operator/断崖">断崖</a>】
-			【<a href="/operator/卡达">卡达</a>】
 			<br />
 			<p>2020-05-17</p>
 			增加了固定表头的功能<br />
