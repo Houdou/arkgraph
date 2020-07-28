@@ -24,6 +24,11 @@
         "ji chu zuo zhan ji lu",
         "jichuzuozhanjilu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "基礎作戰記錄",
+      "alias": []
     }
   },
   "E-3-1": {
@@ -51,6 +56,11 @@
         "chu ji zuo zhan ji lu",
         "chujizuozhanjilu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "初級作戰記錄",
+      "alias": []
     }
   },
   "E-4-1": {
@@ -78,6 +88,11 @@
         "zhong ji zuo zhan ji lu",
         "zhongjizuozhanjilu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "中級作戰記錄",
+      "alias": []
     }
   },
   "E-5-1": {
@@ -105,6 +120,11 @@
         "gao ji zuo zhan ji lu",
         "gaojizuozhanjilu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "高級作戰記錄",
+      "alias": []
     }
   },
   "C-3-1": {
@@ -132,6 +152,11 @@
         "xian feng xin pian",
         "xianfengxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "先鋒晶片",
+      "alias": []
     }
   },
   "C-4-1": {
@@ -159,6 +184,11 @@
         "xian feng xin pian zu",
         "xianfengxinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "先鋒晶片組",
+      "alias": []
     }
   },
   "C-5-1": {
@@ -186,6 +216,11 @@
         "xian feng shuang xin pian",
         "xianfengshuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "先鋒雙晶片",
+      "alias": []
     }
   },
   "C-3-2": {
@@ -213,6 +248,11 @@
         "jin wei xin pian",
         "jinweixinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "近衛晶片",
+      "alias": []
     }
   },
   "C-4-2": {
@@ -240,6 +280,11 @@
         "jin wei xin pian zu",
         "jinweixinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "近衛晶片組",
+      "alias": []
     }
   },
   "C-5-2": {
@@ -267,6 +312,11 @@
         "jin wei shuang xin pian",
         "jinweishuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "近衛雙晶片",
+      "alias": []
     }
   },
   "C-3-3": {
@@ -294,6 +344,11 @@
         "zhong zhuang xin pian",
         "zhongzhuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "重裝晶片",
+      "alias": []
     }
   },
   "C-4-3": {
@@ -321,6 +376,11 @@
         "zhong zhuang xin pian zu",
         "zhongzhuangxinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "重裝晶片組",
+      "alias": []
     }
   },
   "C-5-3": {
@@ -348,6 +408,11 @@
         "zhong zhuang shuang xin pian",
         "zhongzhuangshuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "重裝雙晶片",
+      "alias": []
     }
   },
   "C-3-4": {
@@ -375,6 +440,11 @@
         "ju ji xin pian",
         "jujixinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "狙擊晶片",
+      "alias": []
     }
   },
   "C-4-4": {
@@ -402,6 +472,11 @@
         "ju ji xin pian zu",
         "jujixinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "狙擊晶片組",
+      "alias": []
     }
   },
   "C-5-4": {
@@ -429,6 +504,11 @@
         "ju ji shuang xin pian",
         "jujishuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "狙擊雙晶片",
+      "alias": []
     }
   },
   "C-3-5": {
@@ -456,6 +536,11 @@
         "shu shi xin pian",
         "shushixinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "術師晶片",
+      "alias": []
     }
   },
   "C-4-5": {
@@ -483,6 +568,11 @@
         "shu shi xin pian zu",
         "shushixinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "術師晶片組",
+      "alias": []
     }
   },
   "C-5-5": {
@@ -510,6 +600,11 @@
         "shu shi shuang xin pian",
         "shushishuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "術師雙晶片",
+      "alias": []
     }
   },
   "C-3-6": {
@@ -537,6 +632,11 @@
         "yi liao xin pian",
         "yiliaoxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "醫療晶片",
+      "alias": []
     }
   },
   "C-4-6": {
@@ -564,6 +664,11 @@
         "yi liao xin pian zu",
         "yiliaoxinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "醫療晶片組",
+      "alias": []
     }
   },
   "C-5-6": {
@@ -591,6 +696,11 @@
         "yi liao shuang xin pian",
         "yiliaoshuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "醫療雙晶片",
+      "alias": []
     }
   },
   "C-3-7": {
@@ -618,6 +728,11 @@
         "fu zhu xin pian",
         "fuzhuxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "輔助晶片",
+      "alias": []
     }
   },
   "C-4-7": {
@@ -645,6 +760,11 @@
         "fu zhu xin pian zu",
         "fuzhuxinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "輔助晶片組",
+      "alias": []
     }
   },
   "C-5-7": {
@@ -672,6 +792,11 @@
         "fu zhu shuang xin pian",
         "fuzhushuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "輔助雙晶片",
+      "alias": []
     }
   },
   "C-3-8": {
@@ -699,6 +824,11 @@
         "te zhong xin pian",
         "tezhongxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "特種晶片",
+      "alias": []
     }
   },
   "C-4-8": {
@@ -726,6 +856,11 @@
         "te zhong xin pian zu",
         "tezhongxinpianzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "特種晶片組",
+      "alias": []
     }
   },
   "C-5-8": {
@@ -753,6 +888,11 @@
         "te zhong shuang xin pian",
         "tezhongshuangxinpian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "特種雙晶片",
+      "alias": []
     }
   },
   "S-2-1": {
@@ -780,6 +920,11 @@
         "ji qiao gai yao · juan 1",
         "jiqiaogaiyao·juan1"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "技巧概要·卷1",
+      "alias": []
     }
   },
   "S-3-1": {
@@ -807,6 +952,11 @@
         "ji qiao gai yao · juan 2",
         "jiqiaogaiyao·juan2"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "技巧概要·卷2",
+      "alias": []
     }
   },
   "S-4-1": {
@@ -834,6 +984,11 @@
         "ji qiao gai yao · juan 3",
         "jiqiaogaiyao·juan3"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "技巧概要·卷3",
+      "alias": []
     }
   },
   "G-4-1": {
@@ -861,6 +1016,11 @@
         "long men bi",
         "longmenbi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "龍門幣",
+      "alias": []
     }
   },
   "PC-3-1": {
@@ -888,6 +1048,11 @@
         "cai gou ping zheng",
         "caigoupingzheng"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "採購憑證",
+      "alias": []
     }
   },
   "EO-4-1": {
@@ -915,6 +1080,11 @@
         "sheng wang",
         "shengwang"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "聲望",
+      "alias": []
     }
   },
   "M-1-1": {
@@ -942,6 +1112,11 @@
         "yuan yan",
         "yuanyan"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "源岩",
+      "alias": []
     }
   },
   "M-2-1": {
@@ -969,6 +1144,11 @@
         "gu yuan yan",
         "guyuanyan"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "固源岩",
+      "alias": []
     }
   },
   "M-3-1": {
@@ -996,6 +1176,11 @@
         "gu yuan yan zu",
         "guyuanyanzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "固源岩組",
+      "alias": []
     }
   },
   "M-4-1": {
@@ -1023,6 +1208,11 @@
         "ti chun yuan yan",
         "tichunyuanyan"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "提純源岩",
+      "alias": []
     }
   },
   "M-1-4": {
@@ -1050,6 +1240,11 @@
         "dai tang",
         "daitang"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "代糖",
+      "alias": []
     }
   },
   "M-2-4": {
@@ -1077,6 +1272,11 @@
         "tang",
         "tang"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "糖",
+      "alias": []
     }
   },
   "M-3-4": {
@@ -1104,6 +1304,11 @@
         "tang zu",
         "tangzu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "糖組",
+      "alias": []
     }
   },
   "M-4-4": {
@@ -1131,6 +1336,11 @@
         "tang ju kuai",
         "tangjukuai"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "糖聚塊",
+      "alias": []
     }
   },
   "M-1-3": {
@@ -1158,6 +1368,11 @@
         "zhi yuan liao",
         "zhiyuanliao"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "酯原料",
+      "alias": []
     }
   },
   "M-2-3": {
@@ -1185,6 +1400,11 @@
         "ju suan zhi",
         "jusuanzhi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "聚酸酯",
+      "alias": []
     }
   },
   "M-3-3": {
@@ -1212,6 +1432,11 @@
         "ju suan zhi zu",
         "jusuanzhizu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "聚酸酯組",
+      "alias": []
     }
   },
   "M-4-3": {
@@ -1239,6 +1464,11 @@
         "ju suan zhi kuai",
         "jusuanzhikuai"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "聚酸酯塊",
+      "alias": []
     }
   },
   "M-1-5": {
@@ -1266,6 +1496,11 @@
         "yi tie sui pian",
         "yitiesuipian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "異鐵碎片",
+      "alias": []
     }
   },
   "M-2-5": {
@@ -1293,6 +1528,11 @@
         "yi tie",
         "yitie"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "異鐵",
+      "alias": []
     }
   },
   "M-3-5": {
@@ -1320,6 +1560,11 @@
         "yi tie zu",
         "yitiezu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "異鐵組",
+      "alias": []
     }
   },
   "M-4-5": {
@@ -1347,6 +1592,11 @@
         "yi tie kuai",
         "yitiekuai"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "異鐵塊",
+      "alias": []
     }
   },
   "M-1-6": {
@@ -1374,6 +1624,11 @@
         "shuang tong",
         "shuangtong"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "雙酮",
+      "alias": []
     }
   },
   "M-2-6": {
@@ -1401,6 +1656,11 @@
         "tong ning ji",
         "tongningji"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "酮凝集",
+      "alias": []
     }
   },
   "M-3-6": {
@@ -1428,6 +1688,11 @@
         "tong ning ji zu",
         "tongningjizu"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "酮凝集組",
+      "alias": []
     }
   },
   "M-4-6": {
@@ -1455,6 +1720,11 @@
         "tong zhen lie",
         "tongzhenlie"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "酮陣列",
+      "alias": []
     }
   },
   "M-1-2": {
@@ -1482,6 +1752,11 @@
         "po sun zhuang zhi",
         "posunzhuangzhi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "破損裝置",
+      "alias": []
     }
   },
   "M-2-2": {
@@ -1509,6 +1784,11 @@
         "zhuang zhi",
         "zhuangzhi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "裝置",
+      "alias": []
     }
   },
   "M-3-2": {
@@ -1536,6 +1816,11 @@
         "quan xin zhuang zhi",
         "quanxinzhuangzhi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "全新裝置",
+      "alias": []
     }
   },
   "M-4-2": {
@@ -1563,6 +1848,11 @@
         "gai liang zhuang zhi",
         "gailiangzhuangzhi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "改量裝置",
+      "alias": []
     }
   },
   "M-3-7": {
@@ -1590,6 +1880,11 @@
         "niu zhuan chun",
         "niuzhuanchun"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "扭轉醇",
+      "alias": []
     }
   },
   "M-4-7": {
@@ -1617,6 +1912,11 @@
         "bai ma chun",
         "baimachun"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "白馬醇",
+      "alias": []
     }
   },
   "M-3-8": {
@@ -1644,6 +1944,11 @@
         "qing meng kuang",
         "qingmengkuang"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "輕錳礦",
+      "alias": []
     }
   },
   "M-4-8": {
@@ -1671,6 +1976,11 @@
         "san shui meng kuang",
         "sanshuimengkuang"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "三水錳礦",
+      "alias": []
     }
   },
   "M-3-9": {
@@ -1698,6 +2008,11 @@
         "yan mo shi",
         "yanmoshi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "研磨石",
+      "alias": []
     }
   },
   "M-4-9": {
@@ -1725,6 +2040,11 @@
         "wu shui yan mo shi",
         "wushuiyanmoshi"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "五水研磨石",
+      "alias": []
     }
   },
   "M-3-10": {
@@ -1752,6 +2072,11 @@
         "RMA70-12",
         "RMA70-12"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "RMA70-12",
+      "alias": []
     }
   },
   "M-4-10": {
@@ -1779,6 +2104,11 @@
         "RMA70-24",
         "RMA70-24"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "RMA70-24",
+      "alias": []
     }
   },
   "M-5-3": {
@@ -1806,6 +2136,11 @@
         "ju he ji",
         "juheji"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "聚合劑",
+      "alias": []
     }
   },
   "M-5-2": {
@@ -1833,6 +2168,11 @@
         "shuang ji na mi pian",
         "shuangjinamipian"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "雙極納米片",
+      "alias": []
     }
   },
   "M-5-1": {
@@ -1860,6 +2200,11 @@
         "D32 gang",
         "D32gang"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "D32鋼",
+      "alias": []
     }
   },
   "M-3-11": {
@@ -1887,6 +2232,11 @@
         "ning jiao",
         "ningjiao"
       ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
     }
   },
   "M-4-11": {
@@ -1914,6 +2264,11 @@
         "ju he ning jiao",
         "juheningjiao"
       ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
     }
   },
   "M-3-12": {
@@ -1941,6 +2296,11 @@
         "chi he jin",
         "chihejin"
       ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
     }
   },
   "M-4-12": {
@@ -1968,6 +2328,11 @@
         "chi he jin kuai",
         "chihejinkuai"
       ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
     }
   },
   "O-4-1": {
@@ -1995,6 +2360,11 @@
         "xin pian zhu ji",
         "xinpianzhuji"
       ]
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "晶片助劑",
+      "alias": []
     }
   }
 }

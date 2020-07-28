@@ -30,6 +30,12 @@
       ],
       "appellation": "Lancet-2"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "Lancet-2",
+      "skills": [],
+      "alias": []
+    },
     "code": "lancet-2",
     "code_name": "Lancet-2"
   },
@@ -63,6 +69,12 @@
         "Castle-3"
       ],
       "appellation": "Castle-3"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "Castle-3",
+      "skills": [],
+      "alias": []
     },
     "code": "castle-3",
     "code_name": "Castle-3"
@@ -98,6 +110,12 @@
       ],
       "appellation": "Yato"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "夜刀",
+      "skills": [],
+      "alias": []
+    },
     "code": "yato",
     "code_name": "Yato"
   },
@@ -131,6 +149,12 @@
         "heijiao"
       ],
       "appellation": "Noir Corne"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "黑角",
+      "skills": [],
+      "alias": []
     },
     "code": "noir corne",
     "code_name": "Noir Corne"
@@ -166,6 +190,12 @@
       ],
       "appellation": "Rangers"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "巡林者",
+      "skills": [],
+      "alias": []
+    },
     "code": "rangers",
     "code_name": "Rangers"
   },
@@ -200,6 +230,12 @@
       ],
       "appellation": "Durin"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "杜林",
+      "skills": [],
+      "alias": []
+    },
     "code": "durin",
     "code_name": "Durin"
   },
@@ -233,6 +269,12 @@
         "12F"
       ],
       "appellation": "12F"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "12F",
+      "skills": [],
+      "alias": []
     },
     "code": "12f",
     "code_name": "12F"
@@ -276,6 +318,14 @@
       ],
       "appellation": "Fang"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "芬",
+      "skills": [
+        "衝鋒號令·α型"
+      ],
+      "alias": []
+    },
     "code": "fang",
     "code_name": "Fang"
   },
@@ -317,6 +367,14 @@
         "xiangcao"
       ],
       "appellation": "Vanilla"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "香草",
+      "skills": [
+        "衝鋒號令·援軍"
+      ],
+      "alias": []
     },
     "code": "vanilla",
     "code_name": "Vanilla"
@@ -360,6 +418,14 @@
       ],
       "appellation": "Plume"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "翎羽",
+      "skills": [
+        "迅捷打擊·α型"
+      ],
+      "alias": []
+    },
     "code": "plume",
     "code_name": "Plume"
   },
@@ -401,6 +467,14 @@
         "meilansuo"
       ],
       "appellation": "Melantha"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "玫蘭莎",
+      "skills": [
+        "攻擊力強化·α型"
+      ],
+      "alias": []
     },
     "code": "melantha",
     "code_name": "Melantha"
@@ -486,6 +560,14 @@
       ],
       "appellation": "Cardigan"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "卡緹",
+      "skills": [
+        "生命回復·α型"
+      ],
+      "alias": []
+    },
     "code": "cardigan",
     "code_name": "Cardigan"
   },
@@ -527,6 +609,14 @@
         "migelu"
       ],
       "appellation": "Beagle"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "米格魯",
+      "skills": [
+        "防禦力強化·α型"
+      ],
+      "alias": []
     },
     "code": "beagle",
     "code_name": "Beagle"
@@ -612,6 +702,14 @@
       ],
       "appellation": "Kroos"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "克洛絲",
+      "skills": [
+        "二連射·自動"
+      ],
+      "alias": []
+    },
     "code": "kroos",
     "code_name": "Kroos"
   },
@@ -653,6 +751,14 @@
         "andeqieer"
       ],
       "appellation": "Adnachiel"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "安德切爾",
+      "skills": [
+        "攻擊力強化·α型"
+      ],
+      "alias": []
     },
     "code": "adnachiel",
     "code_name": "Adnachiel"
@@ -696,6 +802,14 @@
       ],
       "appellation": "Lava"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "炎熔",
+      "skills": [
+        "戰術詠唱·α型"
+      ],
+      "alias": []
+    },
     "code": "lava",
     "code_name": "Lava"
   },
@@ -737,6 +851,14 @@
         "furong"
       ],
       "appellation": "Hibiscus"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "芙蓉",
+      "skills": [
+        "治療強化·α型"
+      ],
+      "alias": []
     },
     "code": "hibiscus",
     "code_name": "Hibiscus"
@@ -780,6 +902,14 @@
       ],
       "appellation": "Ansel"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "安賽爾",
+      "skills": [
+        "治療範圍強化"
+      ],
+      "alias": []
+    },
     "code": "ansel",
     "code_name": "Ansel"
   },
@@ -822,6 +952,14 @@
       ],
       "appellation": "Steward"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "史都華德",
+      "skills": [
+        "強力擊·α型"
+      ],
+      "alias": []
+    },
     "code": "steward",
     "code_name": "Steward"
   },
@@ -863,6 +1001,14 @@
         "zilan"
       ],
       "appellation": "Orchid"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "梓蘭",
+      "skills": [
+        "迅捷打擊·α型"
+      ],
+      "alias": []
     },
     "code": "orchid",
     "code_name": "Orchid"
@@ -910,6 +1056,15 @@
       ],
       "appellation": "Haze"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "夜煙",
+      "skills": [
+        "攻擊力強化·β型",
+        "赤色之瞳"
+      ],
+      "alias": []
+    },
     "code": "haze",
     "code_name": "Haze"
   },
@@ -955,6 +1110,15 @@
         "yuanshan"
       ],
       "appellation": "Gitano"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "遠山",
+      "skills": [
+        "戰術詠唱·β型",
+        "命運"
+      ],
+      "alias": []
     },
     "code": "gitano",
     "code_name": "Gitano"
@@ -1048,6 +1212,15 @@
       ],
       "appellation": "Jessica"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "潔西卡",
+      "skills": [
+        "強力擊·β型",
+        "掩護煙幕"
+      ],
+      "alias": []
+    },
     "code": "jessica",
     "code_name": "Jessica"
   },
@@ -1093,6 +1266,15 @@
         "liuxing"
       ],
       "appellation": "Meteor"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "流星",
+      "skills": [
+        "碎甲擊",
+        "碎甲擊·擴散"
+      ],
+      "alias": []
     },
     "code": "meteor",
     "code_name": "Meteor"
@@ -1232,6 +1414,15 @@
       ],
       "appellation": "ShiraYuki"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "白雪",
+      "skills": [
+        "敵飆",
+        "凝武"
+      ],
+      "alias": []
+    },
     "code": "shirayuki",
     "code_name": "ShiraYuki"
   },
@@ -1324,6 +1515,15 @@
       ],
       "appellation": "Courier"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "訊使",
+      "skills": [
+        "衝鋒號令·β型",
+        "衝鋒號令·防禦"
+      ],
+      "alias": []
+    },
     "code": "courier",
     "code_name": "Courier"
   },
@@ -1370,6 +1570,15 @@
       ],
       "appellation": "Scavenger"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "清道夫",
+      "skills": [
+        "衝鋒號令·β型",
+        "衝鋒號令·攻擊"
+      ],
+      "alias": []
+    },
     "code": "scavenger",
     "code_name": "Scavenger"
   },
@@ -1415,6 +1624,15 @@
         "hongdou"
       ],
       "appellation": "Vigna"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "紅豆",
+      "skills": [
+        "攻擊力強化·β型",
+        "槌音"
+      ],
+      "alias": []
     },
     "code": "vigna",
     "code_name": "Vigna"
@@ -1508,6 +1726,15 @@
       ],
       "appellation": "Dobermann"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "杜賓",
+      "skills": [
+        "強力擊·β型",
+        "鞭策"
+      ],
+      "alias": []
+    },
     "code": "dobermann",
     "code_name": "Dobermann"
   },
@@ -1553,6 +1780,15 @@
         "chanwan"
       ],
       "appellation": "Matoimaru"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "纏丸",
+      "skills": [
+        "生命回復·β型",
+        "惡鬼之力"
+      ],
+      "alias": []
     },
     "code": "matoimaru",
     "code_name": "Matoimaru"
@@ -1600,6 +1836,15 @@
       ],
       "appellation": "Frostleaf"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "霜葉",
+      "skills": [
+        "寒霜槍刃",
+        "凝冰槍刃"
+      ],
+      "alias": []
+    },
     "code": "frostleaf",
     "code_name": "Frostleaf"
   },
@@ -1645,6 +1890,15 @@
         "aisidaier"
       ],
       "appellation": "Estelle"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "艾絲黛爾",
+      "skills": [
+        "攻擊力強化·β型",
+        "捨身突擊"
+      ],
+      "alias": []
     },
     "code": "estelle",
     "code_name": "Estelle"
@@ -1692,6 +1946,15 @@
       ],
       "appellation": "Mousse"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "慕斯",
+      "skills": [
+        "撓傷",
+        "炸毛"
+      ],
+      "alias": []
+    },
     "code": "mousse",
     "code_name": "Mousse"
   },
@@ -1737,6 +2000,15 @@
         "li"
       ],
       "appellation": "Gravel"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "礫",
+      "skills": [
+        "影襲",
+        "鼠群"
+      ],
+      "alias": []
     },
     "code": "gravel",
     "code_name": "Gravel"
@@ -1784,6 +2056,15 @@
       ],
       "appellation": "Rope"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "暗索",
+      "skills": [
+        "勾爪發射",
+        "複式勾爪"
+      ],
+      "alias": []
+    },
     "code": "rope",
     "code_name": "Rope"
   },
@@ -1830,6 +2111,15 @@
       ],
       "appellation": "Myrrh"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "末藥",
+      "skills": [
+        "二重治療",
+        "醫療力場"
+      ],
+      "alias": []
+    },
     "code": "myrrh",
     "code_name": "Myrrh"
   },
@@ -1875,6 +2165,15 @@
         "jiaweier"
       ],
       "appellation": "Gavial"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "嘉維爾",
+      "skills": [
+        "活力再生",
+        "活力再生·廣域"
+      ],
+      "alias": []
     },
     "code": "gavial",
     "code_name": "Gavial"
@@ -1968,6 +2267,15 @@
       ],
       "appellation": "Perfumer"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "調香師",
+      "skills": [
+        "治療強化·β型",
+        "精調"
+      ],
+      "alias": []
+    },
     "code": "perfumer",
     "code_name": "Perfumer"
   },
@@ -2013,6 +2321,15 @@
         "jiaofeng"
       ],
       "appellation": "Matterhorn"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "角峰",
+      "skills": [
+        "體能強化",
+        "抗寒體質"
+      ],
+      "alias": []
     },
     "code": "matterhorn",
     "code_name": "Matterhorn"
@@ -2060,6 +2377,15 @@
       ],
       "appellation": "Cuora"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "蛇屠箱",
+      "skills": [
+        "防禦力強化·β型",
+        "殼狀防禦"
+      ],
+      "alias": []
+    },
     "code": "cuora",
     "code_name": "Cuora"
   },
@@ -2105,6 +2431,15 @@
         "gumi"
       ],
       "appellation": "Гум"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "古米",
+      "skills": [
+        "備用軍糧",
+        "食糧烹製"
+      ],
+      "alias": []
     },
     "code": "gummy",
     "code_name": "Гум"
@@ -2198,6 +2533,15 @@
       ],
       "appellation": "Deepcolor"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "深海色",
+      "skills": [
+        "光影之觸",
+        "視覺陷阱"
+      ],
+      "alias": []
+    },
     "code": "deepcolor",
     "code_name": "Deepcolor"
   },
@@ -2243,6 +2587,15 @@
         "diling"
       ],
       "appellation": "Earthspirit"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "地靈",
+      "skills": [
+        "攻擊力強化·β型",
+        "流沙化"
+      ],
+      "alias": []
     },
     "code": "earthspirit",
     "code_name": "Earthspirit"
@@ -2336,6 +2689,15 @@
       ],
       "appellation": "Shaw"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "阿消",
+      "skills": [
+        "水蒸氣泵",
+        "高壓水炮"
+      ],
+      "alias": []
+    },
     "code": "shaw",
     "code_name": "Shaw"
   },
@@ -2381,6 +2743,15 @@
         "baimianxiao"
       ],
       "appellation": "Ptilopsis"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "白面鴞",
+      "skills": [
+        "治療強化·γ型",
+        "腦啡肽"
+      ],
+      "alias": []
     },
     "code": "ptilopsis",
     "code_name": "Ptilopsis"
@@ -2474,6 +2845,15 @@
       ],
       "appellation": "Зима"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "凜冬",
+      "skills": [
+        "衝鋒號令·γ型",
+        "烏薩斯戰吼"
+      ],
+      "alias": []
+    },
     "code": "zima",
     "code_name": "Зима"
   },
@@ -2519,6 +2899,15 @@
         "dekesasi"
       ],
       "appellation": "Texas"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "德克薩斯",
+      "skills": [
+        "衝鋒號令·γ型",
+        "劍雨"
+      ],
+      "alias": []
     },
     "code": "texas",
     "code_name": "Texas"
@@ -2658,6 +3047,15 @@
       ],
       "appellation": "Franka"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "芙蘭卡",
+      "skills": [
+        "迅捷打擊·γ型",
+        "極致鋒度"
+      ],
+      "alias": []
+    },
     "code": "franka",
     "code_name": "Franka"
   },
@@ -2750,6 +3148,15 @@
       ],
       "appellation": "Indra"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "因陀羅",
+      "skills": [
+        "碎甲拳",
+        "裂魂"
+      ],
+      "alias": []
+    },
     "code": "indra",
     "code_name": "Indra"
   },
@@ -2796,6 +3203,15 @@
       ],
       "appellation": "Lappland"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "拉普蘭德",
+      "skills": [
+        "日晷",
+        "狼魂"
+      ],
+      "alias": []
+    },
     "code": "lappland",
     "code_name": "Lappland"
   },
@@ -2841,6 +3257,15 @@
         "youlingsha"
       ],
       "appellation": "Specter"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "幽靈鯊",
+      "skills": [
+        "攻擊力強化·γ型",
+        "肉斬骨斷"
+      ],
+      "alias": []
     },
     "code": "specter",
     "code_name": "Specter"
@@ -2980,6 +3405,15 @@
       ],
       "appellation": "Blue Poison"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "藍毒",
+      "skills": [
+        "二重射擊·自動",
+        "毒液散射"
+      ],
+      "alias": []
+    },
     "code": "blue poison",
     "code_name": "Blue Poison"
   },
@@ -3025,6 +3459,15 @@
         "baijin"
       ],
       "appellation": "Platinum"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "白金",
+      "skills": [
+        "攻擊力強化·γ型",
+        "天馬視域"
+      ],
+      "alias": []
     },
     "code": "platinum",
     "code_name": "Platinum"
@@ -3117,6 +3560,15 @@
         "yunxing"
       ],
       "appellation": "Meteorite"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "隕星",
+      "skills": [
+        "霰射彈頭",
+        "高爆彈頭"
+      ],
+      "alias": []
     },
     "code": "meteorite",
     "code_name": "Meteorite"
@@ -3214,6 +3666,16 @@
       ],
       "appellation": "Amiya"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "阿米婭",
+      "skills": [
+        "戰術詠唱·γ型",
+        "精神爆發",
+        "奇美拉"
+      ],
+      "alias": []
+    },
     "code": "amiya",
     "code_name": "Amiya"
   },
@@ -3259,6 +3721,15 @@
         "tianhuo"
       ],
       "appellation": "Skyfire"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "天火",
+      "skills": [
+        "攻擊力強化·γ型",
+        "天墜之火"
+      ],
+      "alias": []
     },
     "code": "skyfire",
     "code_name": "Skyfire"
@@ -3306,6 +3777,15 @@
       ],
       "appellation": "Mayer"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "梅爾",
+      "skills": [
+        "迷惑裝置",
+        "爆破回收"
+      ],
+      "alias": []
+    },
     "code": "mayer",
     "code_name": "Mayer"
   },
@@ -3352,6 +3832,15 @@
       ],
       "appellation": "Silence"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "赫默",
+      "skills": [
+        "治療強化·γ型",
+        "醫療無人機"
+      ],
+      "alias": []
+    },
     "code": "silence",
     "code_name": "Silence"
   },
@@ -3397,6 +3886,15 @@
         "huafalin"
       ],
       "appellation": "Warfarin"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "華法琳",
+      "skills": [
+        "緊急包紮",
+        "不穩定血漿"
+      ],
+      "alias": []
     },
     "code": "warfarin",
     "code_name": "Warfarin"
@@ -3490,6 +3988,15 @@
       ],
       "appellation": "Nearl"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "臨光",
+      "skills": [
+        "急救",
+        "急救模式"
+      ],
+      "alias": []
+    },
     "code": "nearl",
     "code_name": "Nearl"
   },
@@ -3535,6 +4042,15 @@
         "hong"
       ],
       "appellation": "Projekt Red"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "紅",
+      "skills": [
+        "處決模式",
+        "狼群"
+      ],
+      "alias": []
     },
     "code": "projekt red",
     "code_name": "Projekt Red"
@@ -3628,6 +4144,15 @@
       ],
       "appellation": "Liskarm"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "雷蛇",
+      "skills": [
+        "充能防禦",
+        "反擊電弧"
+      ],
+      "alias": []
+    },
     "code": "liskarm",
     "code_name": "Liskarm"
   },
@@ -3673,6 +4198,15 @@
         "kesong"
       ],
       "appellation": "Croissant"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "可頌",
+      "skills": [
+        "自動防禦",
+        "磁爆錘"
+      ],
+      "alias": []
     },
     "code": "croissant",
     "code_name": "Croissant"
@@ -3766,6 +4300,15 @@
       ],
       "appellation": "Vulcan"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "火神",
+      "skills": [
+        "堅守模式",
+        "武力模式"
+      ],
+      "alias": []
+    },
     "code": "vulcan",
     "code_name": "Vulcan"
   },
@@ -3811,6 +4354,15 @@
         "puluowangsi"
       ],
       "appellation": "Provence"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "普羅旺斯",
+      "skills": [
+        "狼眼",
+        "殺戮嗅覺"
+      ],
+      "alias": []
     },
     "code": "provence",
     "code_name": "Provence"
@@ -3858,6 +4410,15 @@
       ],
       "appellation": "Firewatch"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "守林人",
+      "skills": [
+        "環境偽裝",
+        "戰術電台"
+      ],
+      "alias": []
+    },
     "code": "firewatch",
     "code_name": "Firewatch"
   },
@@ -3903,6 +4464,15 @@
         "yaxin"
       ],
       "appellation": "Cliffheart"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "崖心",
+      "skills": [
+        "鎖鏈勾爪",
+        "束縛鏈"
+      ],
+      "alias": []
     },
     "code": "cliffheart",
     "code_name": "Cliffheart"
@@ -3950,6 +4520,15 @@
       ],
       "appellation": "Pramanix"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "初雪",
+      "skills": [
+        "傳音迴響",
+        "自然震懾"
+      ],
+      "alias": []
+    },
     "code": "pramanix",
     "code_name": "Pramanix"
   },
@@ -3995,6 +4574,15 @@
         "zhenli"
       ],
       "appellation": "Истина"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "真理",
+      "skills": [
+        "專心致志",
+        "文學風暴"
+      ],
+      "alias": []
     },
     "code": "istina",
     "code_name": "Истина"
@@ -4088,6 +4676,15 @@
       ],
       "appellation": "Sora"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "空",
+      "skills": [
+        "睡眠之歌",
+        "戰鬥之歌"
+      ],
+      "alias": []
+    },
     "code": "sora",
     "code_name": "Sora"
   },
@@ -4134,6 +4731,15 @@
       ],
       "appellation": "Manticore"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "獅蠍",
+      "skills": [
+        "蠍毒",
+        "蓄力毒尾擊"
+      ],
+      "alias": []
+    },
     "code": "manticore",
     "code_name": "Manticore"
   },
@@ -4179,6 +4785,15 @@
         "shitieshou"
       ],
       "appellation": "FEater"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "食鐵獸",
+      "skills": [
+        "鐵意六合",
+        "崩拳式"
+      ],
+      "alias": []
     },
     "code": "feater",
     "code_name": "FEater"
@@ -4229,6 +4844,16 @@
         "nengtianshi"
       ],
       "appellation": "Exusiai"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "能天使",
+      "skills": [
+        "衝鋒模式",
+        "掃射模式",
+        "超載模式"
+      ],
+      "alias": []
     },
     "code": "exusiai",
     "code_name": "Exusiai"
@@ -4330,6 +4955,16 @@
       ],
       "appellation": "Siege"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "推進之王",
+      "skills": [
+        "衝鋒號令·γ型",
+        "躍空錘",
+        "碎顱擊"
+      ],
+      "alias": []
+    },
     "code": "siege",
     "code_name": "Siege"
   },
@@ -4379,6 +5014,16 @@
         "yifulite"
       ],
       "appellation": "Ifrit"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "伊芙利特",
+      "skills": [
+        "狂熱",
+        "炎爆",
+        "灼地"
+      ],
+      "alias": []
     },
     "code": "ifrit",
     "code_name": "Ifrit"
@@ -4480,6 +5125,16 @@
       ],
       "appellation": "Eyjafjalla"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "艾雅法拉",
+      "skills": [
+        "二重詠唱",
+        "點燃",
+        "火山"
+      ],
+      "alias": []
+    },
     "code": "eyjafjalla",
     "code_name": "Eyjafjalla"
   },
@@ -4529,6 +5184,16 @@
         "anjielina"
       ],
       "appellation": "Angelina"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "安潔莉娜",
+      "skills": [
+        "秘杖·速充模式",
+        "秘杖·微粒模式",
+        "秘杖·反重力模式"
+      ],
+      "alias": []
     },
     "code": "angelina",
     "code_name": "Angelina"
@@ -4630,6 +5295,16 @@
       ],
       "appellation": "Shining"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "閃靈",
+      "skills": [
+        "信念",
+        "自動掩護",
+        "教條力場"
+      ],
+      "alias": []
+    },
     "code": "shining",
     "code_name": "Shining"
   },
@@ -4679,6 +5354,16 @@
         "yeying"
       ],
       "appellation": "Nightingale"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "夜鶯",
+      "skills": [
+        "治療強化·γ型",
+        "法術護盾",
+        "聖域"
+      ],
+      "alias": []
     },
     "code": "nightingale",
     "code_name": "Nightingale"
@@ -4730,6 +5415,16 @@
       ],
       "appellation": "Hoshiguma"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "星熊",
+      "skills": [
+        "戰意",
+        "荊棘",
+        "力之鋸"
+      ],
+      "alias": []
+    },
     "code": "hoshiguma",
     "code_name": "Hoshiguma"
   },
@@ -4780,6 +5475,16 @@
       ],
       "appellation": "Saria"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "塞雷婭",
+      "skills": [
+        "急救",
+        "藥物配置",
+        "鈣質化"
+      ],
+      "alias": []
+    },
     "code": "saria",
     "code_name": "Saria"
   },
@@ -4829,6 +5534,16 @@
         "yinhui"
       ],
       "appellation": "SilverAsh"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "銀灰",
+      "skills": [
+        "強力擊·γ型",
+        "雪境生存法則",
+        "真銀斬"
+      ],
+      "alias": []
     },
     "code": "silverash",
     "code_name": "SilverAsh"
@@ -5026,6 +5741,15 @@
       ],
       "appellation": "Medical Drone"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "醫療探機",
+      "skills": [
+        "自我銷毀",
+        "自我銷毀"
+      ],
+      "alias": []
+    },
     "code": "medic drone",
     "code_name": "Medical Drone"
   },
@@ -5071,6 +5795,15 @@
         "chushou"
       ],
       "appellation": "Tentacle"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "觸手",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": []
     },
     "code": "tentacle",
     "code_name": "Tentacle"
@@ -5122,6 +5855,16 @@
       ],
       "appellation": "Cage"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "幻影",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
     "code": "mirage",
     "code_name": "Cage"
   },
@@ -5167,6 +5910,15 @@
         "jixieshuita"
       ],
       "appellation": "Mibo"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "機械水獺",
+      "skills": [
+        "迷惑裝置",
+        "爆破回收"
+      ],
+      "alias": []
     },
     "code": "robotter",
     "code_name": "Mibo"
@@ -5218,6 +5970,16 @@
       ],
       "appellation": "DDF Type-F"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "龍騰.F",
+      "skills": [
+        "回收",
+        "回收",
+        "回收"
+      ],
+      "alias": []
+    },
     "code": "soaring dragon f",
     "code_name": "DDF Type-F"
   },
@@ -5267,6 +6029,16 @@
         "longteng.L"
       ],
       "appellation": "DDF Type-L"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "龍騰.L",
+      "skills": [
+        "回收",
+        "回收",
+        "回收"
+      ],
+      "alias": []
     },
     "code": "soaring dragon l",
     "code_name": "DDF Type-L"
@@ -5318,6 +6090,16 @@
       ],
       "appellation": "DDF Type-A"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "龍騰.A",
+      "skills": [
+        "回收",
+        "回收",
+        "回收"
+      ],
+      "alias": []
+    },
     "code": "soaring dragon a",
     "code_name": "DDF Type-A"
   },
@@ -5359,6 +6141,14 @@
         "zhangaiwu"
       ],
       "appellation": "Crate"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "障礙物",
+      "skills": [
+        "阻擋路線"
+      ],
+      "alias": []
     },
     "code": "roadblock",
     "code_name": "Crate"
@@ -5402,6 +6192,14 @@
       ],
       "appellation": "EMP"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "震撼裝置",
+      "skills": [
+        "EMP爆炸"
+      ],
+      "alias": []
+    },
     "code": "stun generator",
     "code_name": "EMP"
   },
@@ -5444,6 +6242,14 @@
       ],
       "appellation": "闸门"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "閘門",
+      "skills": [
+        "關閉閘門"
+      ],
+      "alias": []
+    },
     "code": "gate",
     "code_name": "闸门"
   },
@@ -5485,6 +6291,14 @@
         "zhenceqi"
       ],
       "appellation": "Detector"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "偵測器",
+      "skills": [
+        "反隱"
+      ],
+      "alias": []
     },
     "code": "detector",
     "code_name": "Detector"
@@ -5734,6 +6548,15 @@
       ],
       "appellation": "Savage"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "暴行",
+      "skills": [
+        "強力擊·β型",
+        "微差爆破"
+      ],
+      "alias": []
+    },
     "code": "savage",
     "code_name": "Savage"
   },
@@ -5776,6 +6599,14 @@
       ],
       "appellation": "Catapult"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "空爆",
+      "skills": [
+        "爆破範圍提升·α型"
+      ],
+      "alias": []
+    },
     "code": "catapult",
     "code_name": "Catapult"
   },
@@ -5817,6 +6648,14 @@
         "yuejianye"
       ],
       "appellation": "Midnight"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "月見夜",
+      "skills": [
+        "武器附魔·α型"
+      ],
+      "alias": []
     },
     "code": "midnight",
     "code_name": "Midnight"
@@ -5864,6 +6703,15 @@
       ],
       "appellation": "Beehunter"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "獵蜂",
+      "skills": [
+        "高機動",
+        "急速拳"
+      ],
+      "alias": []
+    },
     "code": "beehunter",
     "code_name": "Beehunter"
   },
@@ -5910,6 +6758,15 @@
       ],
       "appellation": "Nightmare"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "夜魔",
+      "skills": [
+        "靈魂汲取",
+        "夜魘魔影"
+      ],
+      "alias": []
+    },
     "code": "nightmare",
     "code_name": "Nightmare"
   },
@@ -5955,6 +6812,15 @@
         "gelani"
       ],
       "appellation": "Grani"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "格拉尼",
+      "skills": [
+        "防禦力強化·γ型",
+        "永不後退！"
+      ],
+      "alias": []
     },
     "code": "grani",
     "code_name": "Grani"
@@ -6005,6 +6871,16 @@
         "sikadi"
       ],
       "appellation": "Skadi"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "斯卡蒂",
+      "skills": [
+        "迅捷打擊·γ型",
+        "躍浪擊",
+        "湧潮悲歌"
+      ],
+      "alias": []
     },
     "code": "skadi",
     "code_name": "Skadi"
@@ -6125,6 +7001,23 @@
     "code": null,
     "code_name": "Podenco"
   },
+  "char_349_chiave": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "贾维",
+      "skills": [
+        "冲锋号令·γ型",
+        "火焰剥离"
+      ],
+      "alias": [
+        "jia wei",
+        "jiawei"
+      ],
+      "appellation": "Chiave"
+    },
+    "code": null,
+    "code_name": "Chiave"
+  },
   "char_401_elysm": {
     "zh_CN": {
       "enabled": true,
@@ -6244,6 +7137,23 @@
     "code": null,
     "code_name": "Leizi"
   },
+  "char_344_beewax": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "蜜蜡",
+      "skills": [
+        "沙暴扩散",
+        "守卫尖碑"
+      ],
+      "alias": [
+        "mi la",
+        "mila"
+      ],
+      "appellation": "Beeswax"
+    },
+    "code": null,
+    "code_name": "Beeswax"
+  },
   "char_373_lionhd": {
     "zh_CN": {
       "enabled": true,
@@ -6260,6 +7170,23 @@
     },
     "code": null,
     "code_name": "Leonhardt"
+  },
+  "char_336_folivo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "稀音",
+      "skills": [
+        "保护色隐蔽",
+        "全景过载摄像"
+      ],
+      "alias": [
+        "xi yin",
+        "xiyin"
+      ],
+      "appellation": "Scene"
+    },
+    "code": null,
+    "code_name": "Scene"
   },
   "char_345_folnic": {
     "zh_CN": {
@@ -6602,7 +7529,7 @@
       "name": "移动摄影器",
       "skills": [
         "",
-        "大功率输出模式"
+        "全景过载摄像"
       ],
       "alias": [
         "yi dong she ying qi",

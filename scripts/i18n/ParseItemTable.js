@@ -9,6 +9,7 @@ const LANG = [
 	'ja_JP',
 	'ko_KR',
 	'zh_CN',
+	'zh_TW',
 ];
 
 const item_data = {};
