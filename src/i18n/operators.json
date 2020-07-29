@@ -4000,6 +4000,52 @@
     "code": "nearl",
     "code_name": "Nearl"
   },
+  "char_226_hmau": {
+    "en_US": {
+      "enabled": true,
+      "name": "Hung",
+      "skills": [
+        "Treatment Countermeasure",
+        "Medical Mode Countermeasure"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウン",
+      "skills": [
+        "応急処置・受動",
+        "医療態勢・受動"
+      ],
+      "alias": [
+        "うん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "훔",
+      "skills": [
+        "반격 치료",
+        "반격 의료 모드"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "吽",
+      "skills": [
+        "反制治疗",
+        "反制医疗模式"
+      ],
+      "alias": [
+        "hou",
+        "hou"
+      ],
+      "appellation": "Hung"
+    },
+    "code": "hung",
+    "code_name": "Hung"
+  },
   "char_144_red": {
     "en_US": {
       "enabled": true,
@@ -4476,6 +4522,52 @@
     },
     "code": "cliffheart",
     "code_name": "Cliffheart"
+  },
+  "char_383_snsant": {
+    "en_US": {
+      "enabled": true,
+      "name": "Snowsant",
+      "skills": [
+        "Barbed Clawhook",
+        "Telescoping Electric Net"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スノーズント",
+      "skills": [
+        "フックキャッチ",
+        "ネットキャプチャー"
+      ],
+      "alias": [
+        "すのーずんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스노우상트",
+      "skills": [
+        "갈고리 후크",
+        "신축성 전기 포획망"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪雉",
+      "skills": [
+        "倒刺钩爪",
+        "伸缩式电捕网"
+      ],
+      "alias": [
+        "xue zhi",
+        "xuezhi"
+      ],
+      "appellation": "Snowsant"
+    },
+    "code": "snowsant",
+    "code_name": "Snowsant"
   },
   "char_174_slbell": {
     "en_US": {
@@ -5248,6 +5340,56 @@
     "code": "magallan",
     "code_name": "Magallan"
   },
+  "char_225_haak": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aak",
+      "skills": [
+        "Rapid Fire",
+        "Type-γ Stimpack",
+        "Durian-Flavored Stimpack"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ア",
+      "skills": [
+        "高速射撃",
+        "劇性増強剤・γ",
+        "劇性増強剤・ドリアン　"
+      ],
+      "alias": [
+        "あ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아",
+      "skills": [
+        "쾌속사격",
+        "폭발제γ",
+        "폭발제 (두리안맛) "
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿",
+      "skills": [
+        "快速射击",
+        "爆发剂·γ型",
+        "爆发剂·榴莲味"
+      ],
+      "alias": [
+        "a",
+        "a"
+      ],
+      "appellation": "Aak"
+    },
+    "code": "aak",
+    "code_name": "Aak"
+  },
   "char_147_shining": {
     "en_US": {
       "enabled": true,
@@ -5487,6 +5629,56 @@
     },
     "code": "saria",
     "code_name": "Saria"
+  },
+  "char_2014_nian": {
+    "en_US": {
+      "enabled": true,
+      "name": "Nian",
+      "skills": [
+        "Tin Burning",
+        "Copper Seal",
+        "Iron Defense"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ニェン",
+      "skills": [
+        "錫灼",
+        "銅印",
+        "鉄御"
+      ],
+      "alias": [
+        "にぇん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "니엔",
+      "skills": [
+        "달아오른 주석",
+        "동의 인장",
+        "철의 방어"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "年",
+      "skills": [
+        "锡灼",
+        "铜印",
+        "铁御"
+      ],
+      "alias": [
+        "nian",
+        "nian"
+      ],
+      "appellation": "Nian"
+    },
+    "code": "nian",
+    "code_name": "Nian"
   },
   "char_172_svrash": {
     "en_US": {
@@ -7205,23 +7397,6 @@
     "code": null,
     "code_name": "Folinic"
   },
-  "char_226_hmau": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "吽",
-      "skills": [
-        "反制治疗",
-        "反制医疗模式"
-      ],
-      "alias": [
-        "hou",
-        "hou"
-      ],
-      "appellation": "Hung"
-    },
-    "code": null,
-    "code_name": "Hung"
-  },
   "char_378_asbest": {
     "zh_CN": {
       "enabled": true,
@@ -7238,23 +7413,6 @@
     },
     "code": null,
     "code_name": "Asbestos"
-  },
-  "char_383_snsant": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "雪雉",
-      "skills": [
-        "倒刺钩爪",
-        "伸缩式电捕网"
-      ],
-      "alias": [
-        "xue zhi",
-        "xuezhi"
-      ],
-      "appellation": "Snowsant"
-    },
-    "code": null,
-    "code_name": "Snowsant"
   },
   "char_254_vodfox": {
     "zh_CN": {
@@ -7415,42 +7573,6 @@
     },
     "code": null,
     "code_name": "Weedy"
-  },
-  "char_225_haak": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿",
-      "skills": [
-        "快速射击",
-        "爆发剂·γ型",
-        "爆发剂·榴莲味"
-      ],
-      "alias": [
-        "a",
-        "a"
-      ],
-      "appellation": "Aak"
-    },
-    "code": null,
-    "code_name": "Aak"
-  },
-  "char_2014_nian": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "年",
-      "skills": [
-        "锡灼",
-        "铜印",
-        "铁御"
-      ],
-      "alias": [
-        "nian",
-        "nian"
-      ],
-      "appellation": "Nian"
-    },
-    "code": null,
-    "code_name": "Nian"
   },
   "token_10006_vodfox_doll": {
     "zh_CN": {
