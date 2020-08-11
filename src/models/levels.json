@@ -7168,6 +7168,15 @@
     "extra_drop": []
   },
   {
+    "level": "OF-ST6",
+    "energy": 0,
+    "unique_id": "act11d7_st01",
+    "zone_id": "act11d7_zone1",
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "TW-ST-1",
     "energy": 0,
     "unique_id": "act11d0_st01",
@@ -9455,16 +9464,16 @@
     "level": "OF-ST1",
     "energy": 0,
     "unique_id": "a003_st01",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-1",
-    "energy": 8,
+    "energy": 12,
     "unique_id": "a003_01",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9473,34 +9482,34 @@
     "level": "OF-ST2",
     "energy": 0,
     "unique_id": "a003_st02",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-2",
-    "energy": 12,
+    "energy": 16,
     "unique_id": "a003_02",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-3",
-    "energy": 16,
+    "energy": 24,
     "unique_id": "a003_03",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-4",
-    "energy": 16,
+    "energy": 24,
     "unique_id": "a003_04",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9509,25 +9518,25 @@
     "level": "OF-ST3",
     "energy": 0,
     "unique_id": "a003_st03",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-5",
-    "energy": 16,
+    "energy": 24,
     "unique_id": "a003_05",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-6",
-    "energy": 20,
+    "energy": 28,
     "unique_id": "a003_06",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9536,25 +9545,25 @@
     "level": "OF-ST4",
     "energy": 0,
     "unique_id": "a003_st04",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-7",
-    "energy": 20,
+    "energy": 30,
     "unique_id": "a003_07",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-8",
-    "energy": 20,
+    "energy": 30,
     "unique_id": "a003_08",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9563,7 +9572,7 @@
     "level": "OF-ST5",
     "energy": 0,
     "unique_id": "a003_st05",
-    "zone_id": "A003_zone1",
+    "zone_id": "act11d7_zone1",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9572,7 +9581,7 @@
     "level": "OF-F1",
     "energy": -1,
     "unique_id": "a003_f01",
-    "zone_id": "A003_zone2",
+    "zone_id": "act11d7_zone2",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9581,7 +9590,7 @@
     "level": "OF-F2",
     "energy": -1,
     "unique_id": "a003_f02",
-    "zone_id": "A003_zone2",
+    "zone_id": "act11d7_zone2",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9590,7 +9599,7 @@
     "level": "OF-F3",
     "energy": -1,
     "unique_id": "a003_f03",
-    "zone_id": "A003_zone2",
+    "zone_id": "act11d7_zone2",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9599,7 +9608,7 @@
     "level": "OF-F4",
     "energy": -1,
     "unique_id": "a003_f04",
-    "zone_id": "A003_zone2",
+    "zone_id": "act11d7_zone2",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9608,7 +9617,7 @@
     "level": "OF-EX1",
     "energy": 10,
     "unique_id": "a003_ex01",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9617,7 +9626,7 @@
     "level": "OF-EX1",
     "energy": 10,
     "unique_id": "a003_ex01#f#",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9626,7 +9635,7 @@
     "level": "OF-EX2",
     "energy": 10,
     "unique_id": "a003_ex02",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9635,7 +9644,7 @@
     "level": "OF-EX2",
     "energy": 10,
     "unique_id": "a003_ex02#f#",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9644,7 +9653,7 @@
     "level": "OF-EX3",
     "energy": 10,
     "unique_id": "a003_ex03",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9653,7 +9662,7 @@
     "level": "OF-EX3",
     "energy": 10,
     "unique_id": "a003_ex03#f#",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9662,7 +9671,7 @@
     "level": "OF-EX4",
     "energy": 10,
     "unique_id": "a003_ex04",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9671,7 +9680,7 @@
     "level": "OF-EX4",
     "energy": 10,
     "unique_id": "a003_ex04#f#",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9680,7 +9689,7 @@
     "level": "OF-EX5",
     "energy": 10,
     "unique_id": "a003_ex05",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9689,7 +9698,7 @@
     "level": "OF-EX5",
     "energy": 10,
     "unique_id": "a003_ex05#f#",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9698,7 +9707,7 @@
     "level": "OF-EX6",
     "energy": 10,
     "unique_id": "a003_ex06",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9707,7 +9716,7 @@
     "level": "OF-EX6",
     "energy": 10,
     "unique_id": "a003_ex06#f#",
-    "zone_id": "A003_zone3",
+    "zone_id": "act11d7_zone3",
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []

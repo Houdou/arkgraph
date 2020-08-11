@@ -14,7 +14,9 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-07-28</p>
+			<p>2020-08-11</p>
+			下午更新脚本跑错了，扶额（<br />
+			数据修复了<br />
 			添加了新干员<br />
 			【<a href="/operator/棘刺">棘刺</a>】
 			【<a href="/operator/安哲拉">安哲拉</a>】
@@ -23,7 +25,7 @@ const Info = ({
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-					<p>2020-07-29</p>
+						<p>2020-07-29</p>
 					[EN][JP][KR]<br />
 					Added event operators<br />
 					新規オペレーターを追加しました<br />
