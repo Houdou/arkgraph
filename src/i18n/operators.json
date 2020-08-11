@@ -660,6 +660,14 @@
       ],
       "appellation": "Spot"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "斑點",
+      "skills": [
+        "次級治療模式"
+      ],
+      "alias": []
+    },
     "code": "spot",
     "code_name": "Spot"
   },
@@ -7159,6 +7167,23 @@
     "code": null,
     "code_name": "Utage"
   },
+  "char_272_strong": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "孑",
+      "skills": [
+        "断螯",
+        "刺身拼盘"
+      ],
+      "alias": [
+        "jie",
+        "jie"
+      ],
+      "appellation": "Jaye"
+    },
+    "code": null,
+    "code_name": "Jaye"
+  },
   "char_385_finlpp": {
     "zh_CN": {
       "enabled": true,
@@ -7414,6 +7439,23 @@
     "code": null,
     "code_name": "Asbestos"
   },
+  "char_218_cuttle": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "安哲拉",
+      "skills": [
+        "攻击力强化·γ型",
+        "阻滞射击战术"
+      ],
+      "alias": [
+        "an zhe la",
+        "anzhela"
+      ],
+      "appellation": "Andreana"
+    },
+    "code": null,
+    "code_name": "Andreana"
+  },
   "char_254_vodfox": {
     "zh_CN": {
       "enabled": true,
@@ -7573,6 +7615,24 @@
     },
     "code": null,
     "code_name": "Weedy"
+  },
+  "char_293_thorns": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "棘刺",
+      "skills": [
+        "攻击力强化·γ型",
+        "护身尖刺",
+        "至高之术"
+      ],
+      "alias": [
+        "ji ci",
+        "jici"
+      ],
+      "appellation": "Thorns"
+    },
+    "code": null,
+    "code_name": "Thorns"
   },
   "token_10006_vodfox_doll": {
     "zh_CN": {
