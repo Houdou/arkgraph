@@ -518,6 +518,14 @@
       ],
       "appellation": "Popukar"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "泡普卡",
+      "skills": [
+        "攻擊力強化·α型"
+      ],
+      "alias": []
+    },
     "code": "popukar",
     "code_name": "Popukar"
   },
@@ -1173,6 +1181,15 @@
         "geleiyi"
       ],
       "appellation": "Greyy"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "格雷伊",
+      "skills": [
+        "戰術詠唱·β型",
+        "靜電釋放"
+      ],
+      "alias": []
     },
     "code": "greyy",
     "code_name": "Greyy"
@@ -3008,6 +3025,15 @@
         "shihuaiya"
       ],
       "appellation": "Swire"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "詩懷雅",
+      "skills": [
+        "指揮調度",
+        "協同作戰"
+      ],
+      "alias": []
     },
     "code": "swire",
     "code_name": "Swire"
@@ -5795,6 +5821,16 @@
       ],
       "appellation": "Ch'en"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "陳",
+      "skills": [
+        "鞘擊",
+        "赤霄·拔刀",
+        "赤霄·絕影"
+      ],
+      "alias": []
+    },
     "code": "ch'en",
     "code_name": "Ch'en"
   },
@@ -6542,6 +6578,14 @@
       ],
       "appellation": "Anti-Drone"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "干擾裝置",
+      "skills": [
+        "無人機干擾"
+      ],
+      "alias": []
+    },
     "code": "jammer",
     "code_name": "Anti-Drone"
   },
@@ -6583,6 +6627,14 @@
         "nupao"
       ],
       "appellation": "Ballista"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "弩炮",
+      "skills": [
+        "發射弩箭"
+      ],
+      "alias": []
     },
     "code": "turret",
     "code_name": "Ballista"
@@ -7099,6 +7151,62 @@
     "code": null,
     "code_name": "Thermal-EX"
   },
+  "char_504_rguard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-近战",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - jin zhan",
+        "yubeiganyuan-jinzhan"
+      ],
+      "appellation": "Reserve (Melee)"
+    },
+    "code": null,
+    "code_name": "Reserve (Melee)"
+  },
+  "char_507_rsnipe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-狙击",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - ju ji",
+        "yubeiganyuan-juji"
+      ],
+      "appellation": "Reserve (Sniper)"
+    },
+    "code": null,
+    "code_name": "Reserve (Sniper)"
+  },
+  "char_506_rmedic": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-后勤",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - hou qin",
+        "yubeiganyuan-houqin"
+      ],
+      "appellation": "Reserve (Logistic)"
+    },
+    "code": null,
+    "code_name": "Reserve (Logistic)"
+  },
+  "char_505_rcast": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-术师",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - shu shi",
+        "yubeiganyuan-shushi"
+      ],
+      "appellation": "Reserve (Caster)"
+    },
+    "code": null,
+    "code_name": "Reserve (Caster)"
+  },
   "char_328_cammou": {
     "zh_CN": {
       "enabled": true,
@@ -7115,6 +7223,23 @@
     },
     "code": null,
     "code_name": "Click"
+  },
+  "char_366_acdrop": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "酸糖",
+      "skills": [
+        "花式点射",
+        "扳机时刻"
+      ],
+      "alias": [
+        "suan tang",
+        "suantang"
+      ],
+      "appellation": "Aciddrop"
+    },
+    "code": null,
+    "code_name": "Aciddrop"
   },
   "char_159_peacok": {
     "zh_CN": {
@@ -7252,6 +7377,39 @@
     "code": null,
     "code_name": "Elysium"
   },
+  "char_508_aguard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "亮剑"
+      ],
+      "alias": [
+        "Sharp",
+        "Sharp"
+      ],
+      "appellation": "Sharp"
+    },
+    "code": null,
+    "code_name": "Sharp"
+  },
+  "char_415_flint": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "燧石",
+      "skills": [
+        "不息",
+        "锋芒毕露"
+      ],
+      "alias": [
+        "sui shi",
+        "suishi"
+      ],
+      "appellation": "Flint"
+    },
+    "code": null,
+    "code_name": "Flint"
+  },
   "char_294_ayer": {
     "zh_CN": {
       "enabled": true,
@@ -7303,6 +7461,22 @@
     "code": null,
     "code_name": "Sideroca"
   },
+  "char_511_asnipe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "旋臂"
+      ],
+      "alias": [
+        "Stormeye",
+        "Stormeye"
+      ],
+      "appellation": "Stormeye"
+    },
+    "code": null,
+    "code_name": "Stormeye"
+  },
   "char_379_sesa": {
     "zh_CN": {
       "enabled": true,
@@ -7336,6 +7510,39 @@
     },
     "code": null,
     "code_name": "Absinthe"
+  },
+  "char_411_tomimi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "特米米",
+      "skills": [
+        "部族技艺",
+        "嘉维尔保护方案"
+      ],
+      "alias": [
+        "te mi mi",
+        "temimi"
+      ],
+      "appellation": "Tomimi"
+    },
+    "code": null,
+    "code_name": "Tomimi"
+  },
+  "char_509_acast": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“为我所为”"
+      ],
+      "alias": [
+        "Pith",
+        "Pith"
+      ],
+      "appellation": "Pith"
+    },
+    "code": null,
+    "code_name": "Pith"
   },
   "char_306_leizi": {
     "zh_CN": {
@@ -7421,6 +7628,22 @@
     },
     "code": null,
     "code_name": "Folinic"
+  },
+  "char_510_amedic": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "宛如天启"
+      ],
+      "alias": [
+        "Touch",
+        "Touch"
+      ],
+      "appellation": "Touch"
+    },
+    "code": null,
+    "code_name": "Touch"
   },
   "char_378_asbest": {
     "zh_CN": {
@@ -7616,6 +7839,24 @@
     "code": null,
     "code_name": "Weedy"
   },
+  "char_416_zumama": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "森蚺",
+      "skills": [
+        "轻型挂斧",
+        "震慑劈砍",
+        "钢铁意志"
+      ],
+      "alias": [
+        "sen ran",
+        "senran"
+      ],
+      "appellation": "Eunectes"
+    },
+    "code": null,
+    "code_name": "Eunectes"
+  },
   "char_293_thorns": {
     "zh_CN": {
       "enabled": true,
@@ -7802,5 +8043,35 @@
     },
     "code": null,
     "code_name": "Gramophone"
+  },
+  "trap_015_tree": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "巨蕈",
+      "skills": [
+        "天然隐蔽"
+      ],
+      "alias": [
+        "ju xun",
+        "juxun"
+      ],
+      "appellation": "Huge Fungus"
+    },
+    "code": null,
+    "code_name": "Huge Fungus"
+  },
+  "trap_016_peon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗德岛临时雇员",
+      "skills": [],
+      "alias": [
+        "luo de dao lin shi gu yuan",
+        "luodedaolinshiguyuan"
+      ],
+      "appellation": "Temporary Employer"
+    },
+    "code": null,
+    "code_name": "Temporary Employer"
   }
 }
