@@ -14,13 +14,12 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-08-11</p>
-			下午更新脚本跑错了，扶额（<br />
-			数据修复了<br />
+			<p>2020-08-25</p>
 			添加了新干员<br />
-			【<a href="/operator/棘刺">棘刺</a>】
-			【<a href="/operator/安哲拉">安哲拉</a>】
-			【<a href="/operator/孑">孑</a>】
+			【<a href="/operator/森蚺">森蚺</a>】
+			【<a href="/operator/特米米">特米米</a>】
+			【<a href="/operator/燧石">燧石</a>】
+			【<a href="/operator/酸糖">酸糖</a>】
 			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
