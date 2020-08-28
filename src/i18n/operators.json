@@ -3768,6 +3768,52 @@
     "code": "skyfire",
     "code_name": "Skyfire"
   },
+  "char_306_leizi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Leizi",
+      "skills": [
+        "ATK Up γ",
+        "Thunderclap"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レイズ",
+      "skills": [
+        "攻撃力強化γ",
+        "初雷"
+      ],
+      "alias": [
+        "れいず"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레이즈",
+      "skills": [
+        "공격 강화γ",
+        "초뢰"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "惊蛰",
+      "skills": [
+        "攻击力强化·γ型",
+        "初雷"
+      ],
+      "alias": [
+        "jing zhe",
+        "jingzhe"
+      ],
+      "appellation": "Leizi"
+    },
+    "code": "leizi",
+    "code_name": "Leizi"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -5263,6 +5309,56 @@
     },
     "code": "eyjafjalla",
     "code_name": "Eyjafjalla"
+  },
+  "char_2013_cerber": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ceobe",
+      "skills": [
+        "\"Really Cold Axe\"",
+        "\"Really Hot Knives\"",
+        "\"Really Heavy Spear\""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ケオベ",
+      "skills": [
+        "「つめたいおの」",
+        "「あついないふ」",
+        "「おもたいやり」"
+      ],
+      "alias": [
+        "けおべ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "케오베",
+      "skills": [
+        " '엄청 차가운' 도끼",
+        " '엄청 뜨거운' 칼",
+        " '엄청 무거운' 창"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "刻俄柏",
+      "skills": [
+        "“很冰的斧”",
+        "“很热的刀”",
+        "“很重的枪”"
+      ],
+      "alias": [
+        "ke e bai",
+        "keebai"
+      ],
+      "appellation": "Ceobe"
+    },
+    "code": "ceobe",
+    "code_name": "Ceobe"
   },
   "char_291_aglina": {
     "en_US": {
@@ -7544,23 +7640,6 @@
     "code": null,
     "code_name": "Pith"
   },
-  "char_306_leizi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "惊蛰",
-      "skills": [
-        "攻击力强化·γ型",
-        "初雷"
-      ],
-      "alias": [
-        "jing zhe",
-        "jingzhe"
-      ],
-      "appellation": "Leizi"
-    },
-    "code": null,
-    "code_name": "Leizi"
-  },
   "char_344_beewax": {
     "zh_CN": {
       "enabled": true,
@@ -7766,24 +7845,6 @@
     },
     "code": null,
     "code_name": "Bagpipe"
-  },
-  "char_2013_cerber": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "刻俄柏",
-      "skills": [
-        "“很冰的斧”",
-        "“很热的刀”",
-        "“很重的枪”"
-      ],
-      "alias": [
-        "ke e bai",
-        "keebai"
-      ],
-      "appellation": "Ceobe"
-    },
-    "code": null,
-    "code_name": "Ceobe"
   },
   "char_358_lisa": {
     "zh_CN": {
