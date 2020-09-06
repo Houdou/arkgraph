@@ -212,7 +212,7 @@ const ArkOperatorTable = ({
 
 	const sum = {};
 	upgrades.forEach((upgrade) => {
-		upgrade.requirements.forEach(({ resource, quantity }) => {
+		upgrade.requirements && upgrade.requirements.forEach(({ resource, quantity }) => {
 			sum[resource] = (sum[resource] || 0) + quantity;
 		});
 	});
@@ -377,7 +377,7 @@ const ArkOperatorTable = ({
 						/>
 						{
 							upgrades && upgrades.map((upgrade, index) => (
-								upgrade.requirements.length > 0 && (
+								upgrade.requirements && upgrade.requirements.length > 0 && (
 									<ArkUpgradeRow
 										ir={ir}
 										key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}

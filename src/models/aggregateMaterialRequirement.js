@@ -31,7 +31,7 @@ const aggregateMaterialRequirement = ({
 			return showExtendedData || operator_lang && operator_lang.enabled;
 		})
 		.forEach((operator, index) => {
-			operator.skills.forEach((skill, index) => {
+			operator.skills && operator.skills.forEach((skill, index) => {
 				skill.materials.forEach(({ resource, quantity }) => {
 					material_requirements[resource].operator = material_requirements[resource].operator || [];
 					material_requirements[resource].operator.push({
@@ -46,8 +46,8 @@ const aggregateMaterialRequirement = ({
 				});
 			});
 
-			operator.elites.forEach((elite, index) => {
-				elite.materials.forEach(({ resource, quantity }) => {
+			operator.elites && operator.elites.forEach((elite, index) => {
+				elite.materials && elite.materials.forEach(({ resource, quantity }) => {
 					material_requirements[resource].operator = material_requirements[resource].operator || [];
 					material_requirements[resource].operator.push({
 						operator_id: operator.unique_id,

@@ -7,8 +7,8 @@
 	height: 32px;
 	min-width: 100px;
 	width: 100px;
-	border-right: 0.5px #666 solid;
-	border-bottom: 0.5px #666 solid;
+	border-right: 0.8px #666 solid;
+	border-bottom: 0.8px #666 solid;
 	color: #EEE;
 	transition: background-color 0.1s ease;
 }
