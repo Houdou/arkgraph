@@ -14,19 +14,19 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-09-07</p>
-			修复了roguelike模式干员导致的部分页面错误<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2020-08-28</p>
+						<p>2020-09-10</p>
 					[EN][JP][KR]<br />
 					Added event operators<br />
 					新規オペレーターを追加しました<br />
 						{
 							[
-								'char_2013_cerber',
-								'char_306_leizi',
+								'char_222_bpipe',
+								'char_252_bibeak',
+								'char_379_sesa',
+								'char_337_utage',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
@@ -36,6 +36,8 @@ const Info = ({
 					</Fragment>
 				)
 			}
+			<p>2020-09-07</p>
+			修复了roguelike模式干员导致的部分页面错误<br />
 			<p>2020-08-25</p>
 			添加了新干员<br />
 			【<a href="/operator/森蚺">森蚺</a>】
