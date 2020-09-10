@@ -1347,6 +1347,15 @@
       ],
       "appellation": "Vermeil"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "紅雲",
+      "skills": [
+        "攻擊力強化·β型",
+        "雙弦開弓"
+      ],
+      "alias": []
+    },
     "code": "vermeil",
     "code_name": "Vermeil"
   },
@@ -1982,6 +1991,52 @@
     },
     "code": "mousse",
     "code_name": "Mousse"
+  },
+  "char_337_utage": {
+    "en_US": {
+      "enabled": true,
+      "name": "Utage",
+      "skills": [
+        "Space Out",
+        "Descending Strike - Earth Splitter"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウタゲ",
+      "skills": [
+        "サボり",
+        "落地斬・突破"
+      ],
+      "alias": [
+        "うたげ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "우타게",
+      "skills": [
+        "한눈팔기",
+        "낙지참·파문"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "宴",
+      "skills": [
+        "分神",
+        "落地斩·破门"
+      ],
+      "alias": [
+        "yan",
+        "yan"
+      ],
+      "appellation": "Utage"
+    },
+    "code": "utage",
+    "code_name": "Utage"
   },
   "char_237_gravel": {
     "en_US": {
@@ -3136,6 +3191,15 @@
       ],
       "appellation": "Flamebringer"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "炎客",
+      "skills": [
+        "歃血",
+        "刃鬼"
+      ],
+      "alias": []
+    },
     "code": "flamebringer",
     "code_name": "Flamebringer"
   },
@@ -3248,6 +3312,52 @@
     },
     "code": "lappland",
     "code_name": "Lappland"
+  },
+  "char_252_bibeak": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bibeak",
+      "skills": [
+        "Plumage Pins",
+        "Blade Swap"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "バイビーク",
+      "skills": [
+        "剣羽飛針",
+        "異刃斬"
+      ],
+      "alias": [
+        "ばいびーく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "바이비크",
+      "skills": [
+        "깃털 칼날",
+        "갈라지는 칼날"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "柏喙",
+      "skills": [
+        "飞针剑羽",
+        "异刃斩"
+      ],
+      "alias": [
+        "bai hui",
+        "baihui"
+      ],
+      "appellation": "Bibeak"
+    },
+    "code": "bibeak",
+    "code_name": "Bibeak"
   },
   "char_143_ghost": {
     "en_US": {
@@ -3607,6 +3717,52 @@
     "code": "meteorite",
     "code_name": "Meteorite"
   },
+  "char_379_sesa": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sesa",
+      "skills": [
+        "ATK Up γ",
+        "Delayed Concussive Parts"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シェーシャ",
+      "skills": [
+        "攻撃力強化γ",
+        "ディレイドボンバー"
+      ],
+      "alias": [
+        "しぇーしゃ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "세사",
+      "skills": [
+        "공격 강화γ",
+        "딜레이 진탕 부품"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "慑砂",
+      "skills": [
+        "攻击力强化·γ型",
+        "延时震荡零件"
+      ],
+      "alias": [
+        "she sha",
+        "shesha"
+      ],
+      "appellation": "Sesa"
+    },
+    "code": "sesa",
+    "code_name": "Sesa"
+  },
   "char_279_excu": {
     "en_US": {
       "enabled": true,
@@ -3649,6 +3805,15 @@
         "songzangren"
       ],
       "appellation": "Executor"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "送葬人",
+      "skills": [
+        "銃口收束",
+        "最終旅程"
+      ],
+      "alias": []
     },
     "code": "executor",
     "code_name": "Executor"
@@ -5140,6 +5305,56 @@
     "code": "siege",
     "code_name": "Siege"
   },
+  "char_222_bpipe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bagpipe",
+      "skills": [
+        "Swift Strike γ",
+        "High-Impact Assault",
+        "Locked Breech Burst"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "バグパイプ",
+      "skills": [
+        "迅速攻撃γ",
+        "ハイパーインパクト",
+        "クローズドボルト連射"
+      ],
+      "alias": [
+        "ばぐぱいぷ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "백파이프",
+      "skills": [
+        "신속공격γ",
+        "고효율 충격",
+        "클로즈드 볼트 연발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "风笛",
+      "skills": [
+        "迅捷打击·γ型",
+        "高效冲击",
+        "闭膛连发"
+      ],
+      "alias": [
+        "feng di",
+        "fengdi"
+      ],
+      "appellation": "Bagpipe"
+    },
+    "code": "bagpipe",
+    "code_name": "Bagpipe"
+  },
   "char_134_ifrit": {
     "en_US": {
       "enabled": true,
@@ -5466,6 +5681,16 @@
         "maizhelun"
       ],
       "appellation": "Magallan"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "麥哲倫",
+      "skills": [
+        "高效製冷模組",
+        "雷射開採模組",
+        "武裝打擊模組"
+      ],
+      "alias": []
     },
     "code": "magallan",
     "code_name": "Magallan"
@@ -7371,23 +7596,6 @@
     "code": null,
     "code_name": "Cutter"
   },
-  "char_337_utage": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "宴",
-      "skills": [
-        "分神",
-        "落地斩·破门"
-      ],
-      "alias": [
-        "yan",
-        "yan"
-      ],
-      "appellation": "Utage"
-    },
-    "code": null,
-    "code_name": "Utage"
-  },
   "char_272_strong": {
     "zh_CN": {
       "enabled": true,
@@ -7523,23 +7731,6 @@
     "code": null,
     "code_name": "Ayerscarpe"
   },
-  "char_252_bibeak": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "柏喙",
-      "skills": [
-        "飞针剑羽",
-        "异刃斩"
-      ],
-      "alias": [
-        "bai hui",
-        "baihui"
-      ],
-      "appellation": "Bibeak"
-    },
-    "code": null,
-    "code_name": "Bibeak"
-  },
   "char_333_sidero": {
     "zh_CN": {
       "enabled": true,
@@ -7572,23 +7763,6 @@
     },
     "code": null,
     "code_name": "Stormeye"
-  },
-  "char_379_sesa": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "慑砂",
-      "skills": [
-        "攻击力强化·γ型",
-        "延时震荡零件"
-      ],
-      "alias": [
-        "she sha",
-        "shesha"
-      ],
-      "appellation": "Sesa"
-    },
-    "code": null,
-    "code_name": "Sesa"
   },
   "char_405_absin": {
     "zh_CN": {
@@ -7827,24 +8001,6 @@
     },
     "code": null,
     "code_name": "Роса"
-  },
-  "char_222_bpipe": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "风笛",
-      "skills": [
-        "迅捷打击·γ型",
-        "高效冲击",
-        "闭膛连发"
-      ],
-      "alias": [
-        "feng di",
-        "fengdi"
-      ],
-      "appellation": "Bagpipe"
-    },
-    "code": null,
-    "code_name": "Bagpipe"
   },
   "char_358_lisa": {
     "zh_CN": {
