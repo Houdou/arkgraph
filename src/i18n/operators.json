@@ -7596,6 +7596,23 @@
     "code": null,
     "code_name": "Cutter"
   },
+  "char_271_spikes": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "芳汀",
+      "skills": [
+        "小玩笑",
+        "致命恶作剧"
+      ],
+      "alias": [
+        "fang ting",
+        "fangting"
+      ],
+      "appellation": "Arene"
+    },
+    "code": null,
+    "code_name": "Arene"
+  },
   "char_272_strong": {
     "zh_CN": {
       "enabled": true,
@@ -7764,6 +7781,23 @@
     "code": null,
     "code_name": "Stormeye"
   },
+  "char_365_aprl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "四月",
+      "skills": [
+        "精准射击",
+        "灵活伪装"
+      ],
+      "alias": [
+        "si yue",
+        "siyue"
+      ],
+      "appellation": "April"
+    },
+    "code": null,
+    "code_name": "April"
+  },
   "char_405_absin": {
     "zh_CN": {
       "enabled": true,
@@ -7847,6 +7881,23 @@
     },
     "code": null,
     "code_name": "Leonhardt"
+  },
+  "char_388_mint": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "薄绿",
+      "skills": [
+        "风语",
+        "聚能涡旋"
+      ],
+      "alias": [
+        "bao lv",
+        "baolv"
+      ],
+      "appellation": "Mint"
+    },
+    "code": null,
+    "code_name": "Mint"
   },
   "char_336_folivo": {
     "zh_CN": {
@@ -8091,6 +8142,24 @@
     },
     "code": null,
     "code_name": "Thorns"
+  },
+  "char_350_surtr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "史尔特尔",
+      "skills": [
+        "烈焰魔剑",
+        "熔核巨影",
+        "黄昏"
+      ],
+      "alias": [
+        "shi er te er",
+        "shierteer"
+      ],
+      "appellation": "Surtr"
+    },
+    "code": null,
+    "code_name": "Surtr"
   },
   "token_10006_vodfox_doll": {
     "zh_CN": {
