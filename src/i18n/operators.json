@@ -2680,6 +2680,52 @@
     "code": "earthspirit",
     "code_name": "Earthspirit"
   },
+  "char_258_podego": {
+    "en_US": {
+      "enabled": true,
+      "name": "Podenco",
+      "skills": [
+        "Aromatherapy",
+        "Spread Spores"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ポデンコ",
+      "skills": [
+        "アロマセラピー",
+        "胞子飛散"
+      ],
+      "alias": [
+        "ぽでんこ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "포덴코",
+      "skills": [
+        "아로마 치료",
+        "포자 확산"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "波登可",
+      "skills": [
+        "花香疗法",
+        "孢子扩散"
+      ],
+      "alias": [
+        "bo deng ke",
+        "bodengke"
+      ],
+      "appellation": "Podenco"
+    },
+    "code": "podenco",
+    "code_name": "Podenco"
+  },
   "char_355_ethan": {
     "en_US": {
       "enabled": true,
@@ -3878,6 +3924,52 @@
     "code": "amiya",
     "code_name": "Amiya"
   },
+  "char_405_absin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Absinthe",
+      "skills": [
+        "Enforcement Mode",
+        "Ultimatum"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アブサント",
+      "skills": [
+        "執行態勢",
+        "告死の弾雨"
+      ],
+      "alias": [
+        "あぶさんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "압생트",
+      "skills": [
+        "집행 모드",
+        "종언의 연사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "苦艾",
+      "skills": [
+        "执法模式",
+        "终结连射"
+      ],
+      "alias": [
+        "ku ai",
+        "kuai"
+      ],
+      "appellation": "Absinthe"
+    },
+    "code": "absinthe",
+    "code_name": "Absinthe"
+  },
   "char_166_skfire": {
     "en_US": {
       "enabled": true,
@@ -3978,6 +4070,52 @@
     },
     "code": "leizi",
     "code_name": "Leizi"
+  },
+  "char_373_lionhd": {
+    "en_US": {
+      "enabled": true,
+      "name": "Leonhardt",
+      "skills": [
+        "ATK Up γ",
+        "Deconstruct and Detonate"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レオンハルト",
+      "skills": [
+        "攻撃力強化γ",
+        "弱点解析＆爆破"
+      ],
+      "alias": [
+        "れおんはると"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레온하르트",
+      "skills": [
+        "공격 강화γ",
+        "해체와 폭파"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱恩哈特",
+      "skills": [
+        "攻击力强化·γ型",
+        "解构与爆破"
+      ],
+      "alias": [
+        "lai en ha te",
+        "laienhate"
+      ],
+      "appellation": "Leonhardt"
+    },
+    "code": "leonhardt",
+    "code_name": "Leonhardt"
   },
   "char_242_otter": {
     "en_US": {
@@ -4170,7 +4308,7 @@
       "name": "실론",
       "skills": [
         "집중식 수치료",
-        "수령의 보호"
+        "물의 정령의 가호"
       ],
       "alias": []
     },
@@ -5244,6 +5382,56 @@
     },
     "code": "schwarz",
     "code_name": "Schwarz"
+  },
+  "char_197_poca": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rosa",
+      "skills": [
+        "ATK Up γ",
+        "Split Shot",
+        "Avalanche Breaker"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロサ",
+      "skills": [
+        "攻撃力強化γ",
+        "スプリットショット",
+        "ラヴィーナシュート"
+      ],
+      "alias": [
+        "ろさ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로사",
+      "skills": [
+        "공격 강화γ",
+        "분열 사격",
+        "눈사태 사격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "早露",
+      "skills": [
+        "攻击力强化·γ型",
+        "分裂射击",
+        "雪崩击"
+      ],
+      "alias": [
+        "zao lou",
+        "zaolou"
+      ],
+      "appellation": "Роса"
+    },
+    "code": "rosa",
+    "code_name": "Роса"
   },
   "char_112_siege": {
     "en_US": {
@@ -7078,6 +7266,90 @@
     "code": "originium ice crystal",
     "code_name": "Originium ICrystal"
   },
+  "trap_012_mine": {
+    "en_US": {
+      "enabled": true,
+      "name": "Interference Mine",
+      "skills": [
+        "Detonate"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "妨害地雷",
+      "skills": [
+        "接触式起爆"
+      ],
+      "alias": [
+        "妨害地雷"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방해지뢰",
+      "skills": [
+        "착발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "干扰地雷",
+      "skills": [
+        "触爆"
+      ],
+      "alias": [
+        "gan rao di lei",
+        "ganraodilei"
+      ],
+      "appellation": "Interferential Mine"
+    },
+    "code": "interference mine",
+    "code_name": "Interferential Mine"
+  },
+  "trap_013_blower": {
+    "en_US": {
+      "enabled": true,
+      "name": "Originium Flow Generator",
+      "skills": [
+        "Airflow"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "源石気流発生装置",
+      "skills": [
+        "源石気流"
+      ],
+      "alias": [
+        "源石気流発生装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오리지늄 기류 발생 장치",
+      "skills": [
+        "기류"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石流发生装置",
+      "skills": [
+        "气流"
+      ],
+      "alias": [
+        "yuan shi liu fa sheng zhuang zhi",
+        "yuanshiliufashengzhuangzhi"
+      ],
+      "appellation": "F.O.O"
+    },
+    "code": "originium flow generator",
+    "code_name": "F.O.O"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -7647,23 +7919,6 @@
     "code": null,
     "code_name": "Purestream"
   },
-  "char_258_podego": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "波登可",
-      "skills": [
-        "花香疗法",
-        "孢子扩散"
-      ],
-      "alias": [
-        "bo deng ke",
-        "bodengke"
-      ],
-      "appellation": "Podenco"
-    },
-    "code": null,
-    "code_name": "Podenco"
-  },
   "char_349_chiave": {
     "zh_CN": {
       "enabled": true,
@@ -7798,23 +8053,6 @@
     "code": null,
     "code_name": "April"
   },
-  "char_405_absin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "苦艾",
-      "skills": [
-        "执法模式",
-        "终结连射"
-      ],
-      "alias": [
-        "ku ai",
-        "kuai"
-      ],
-      "appellation": "Absinthe"
-    },
-    "code": null,
-    "code_name": "Absinthe"
-  },
   "char_411_tomimi": {
     "zh_CN": {
       "enabled": true,
@@ -7864,23 +8102,6 @@
     },
     "code": null,
     "code_name": "Beeswax"
-  },
-  "char_373_lionhd": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "莱恩哈特",
-      "skills": [
-        "攻击力强化·γ型",
-        "解构与爆破"
-      ],
-      "alias": [
-        "lai en ha te",
-        "laienhate"
-      ],
-      "appellation": "Leonhardt"
-    },
-    "code": null,
-    "code_name": "Leonhardt"
   },
   "char_388_mint": {
     "zh_CN": {
@@ -8034,24 +8255,6 @@
     },
     "code": null,
     "code_name": "W"
-  },
-  "char_197_poca": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "早露",
-      "skills": [
-        "攻击力强化·γ型",
-        "分裂射击",
-        "雪崩击"
-      ],
-      "alias": [
-        "zao lou",
-        "zaolou"
-      ],
-      "appellation": "Роса"
-    },
-    "code": null,
-    "code_name": "Роса"
   },
   "char_358_lisa": {
     "zh_CN": {
@@ -8281,38 +8484,6 @@
     },
     "code": null,
     "code_name": "Originium Shrine"
-  },
-  "trap_012_mine": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "干扰地雷",
-      "skills": [
-        "触爆"
-      ],
-      "alias": [
-        "gan rao di lei",
-        "ganraodilei"
-      ],
-      "appellation": "Interferential Mine"
-    },
-    "code": null,
-    "code_name": "Interferential Mine"
-  },
-  "trap_013_blower": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "源石流发生装置",
-      "skills": [
-        "气流"
-      ],
-      "alias": [
-        "yuan shi liu fa sheng zhuang zhi",
-        "yuanshiliufashengzhuangzhi"
-      ],
-      "appellation": "F.O.O"
-    },
-    "code": null,
-    "code_name": "F.O.O"
   },
   "trap_014_tower": {
     "zh_CN": {
