@@ -1714,6 +1714,15 @@
       ],
       "appellation": "Myrtle"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "桃金娘",
+      "skills": [
+        "支援號令·β型",
+        "治癒之翼"
+      ],
+      "alias": []
+    },
     "code": "myrtle",
     "code_name": "Myrtle"
   },
@@ -2300,6 +2309,15 @@
         "susuluo"
       ],
       "appellation": "Sussurro"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "蘇蘇洛",
+      "skills": [
+        "治療強化·β型",
+        "深度治療"
+      ],
+      "alias": []
     },
     "code": "sussurro",
     "code_name": "Sussurro"
@@ -3549,6 +3567,15 @@
       ],
       "appellation": "Astesia"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "星極",
+      "skills": [
+        "星座守護",
+        "星輝劍"
+      ],
+      "alias": []
+    },
     "code": "astesia",
     "code_name": "Astesia"
   },
@@ -4324,6 +4351,15 @@
         "xilan"
       ],
       "appellation": "Ceylon"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "錫蘭",
+      "skills": [
+        "集中式水療",
+        "水靈庇護"
+      ],
+      "alias": []
     },
     "code": "ceylon",
     "code_name": "Ceylon"
@@ -5105,6 +5141,15 @@
       ],
       "appellation": "Glaucus"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "格勞克斯",
+      "skills": [
+        "雙線裝填",
+        "反制電磁脈衝"
+      ],
+      "alias": []
+    },
     "code": "glaucus",
     "code_name": "Glaucus"
   },
@@ -5379,6 +5424,16 @@
         "hei"
       ],
       "appellation": "Schwarz"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "黑",
+      "skills": [
+        "強弩",
+        "暮眼銳瞳",
+        "戰術的終結"
+      ],
+      "alias": []
     },
     "code": "schwarz",
     "code_name": "Schwarz"
@@ -6439,6 +6494,16 @@
         "helage"
       ],
       "appellation": "Hellagur"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "赫拉格",
+      "skills": [
+        "新月",
+        "弦月",
+        "滿月"
+      ],
+      "alias": []
     },
     "code": "hellagur",
     "code_name": "Hellagur"
@@ -7919,6 +7984,23 @@
     "code": null,
     "code_name": "Purestream"
   },
+  "char_381_bubble": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "泡泡",
+      "skills": [
+        "防御力强化·β型",
+        "“挨打”"
+      ],
+      "alias": [
+        "pao pao",
+        "paopao"
+      ],
+      "appellation": "Bubble"
+    },
+    "code": null,
+    "code_name": "Bubble"
+  },
   "char_349_chiave": {
     "zh_CN": {
       "enabled": true,
@@ -7952,6 +8034,23 @@
     },
     "code": null,
     "code_name": "Elysium"
+  },
+  "char_265_sophia": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "鞭刃",
+      "skills": [
+        "激励艺术",
+        "鞭刃"
+      ],
+      "alias": [
+        "bian ren",
+        "bianren"
+      ],
+      "appellation": "Whislash"
+    },
+    "code": null,
+    "code_name": "Whislash"
   },
   "char_508_aguard": {
     "zh_CN": {
@@ -8052,6 +8151,23 @@
     },
     "code": null,
     "code_name": "April"
+  },
+  "char_346_aosta": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "奥斯塔",
+      "skills": [
+        "迅捷打击·γ型",
+        "影钉"
+      ],
+      "alias": [
+        "ao si ta",
+        "aosita"
+      ],
+      "appellation": "Aosta"
+    },
+    "code": null,
+    "code_name": "Aosta"
   },
   "char_411_tomimi": {
     "zh_CN": {
@@ -8310,6 +8426,24 @@
     "code": null,
     "code_name": "Weedy"
   },
+  "char_423_blemsh": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "瑕光",
+      "skills": [
+        "光芒涌动",
+        "慑敌辉光",
+        "先贤化身"
+      ],
+      "alias": [
+        "xia guang",
+        "xiaguang"
+      ],
+      "appellation": "Blemishine"
+    },
+    "code": null,
+    "code_name": "Blemishine"
+  },
   "char_416_zumama": {
     "zh_CN": {
       "enabled": true,
@@ -8530,5 +8664,37 @@
     },
     "code": null,
     "code_name": "Temporary Employer"
+  },
+  "trap_018_bomb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "轰隆隆先生",
+      "skills": [
+        "坏脾气"
+      ],
+      "alias": [
+        "hong long long xian sheng",
+        "honglonglongxiansheng"
+      ],
+      "appellation": "Mr.Rumble"
+    },
+    "code": null,
+    "code_name": "Mr.Rumble"
+  },
+  "trap_019_electric": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "梅什科线圈",
+      "skills": [
+        "通电！"
+      ],
+      "alias": [
+        "mei shi ke xian quan",
+        "meishikexianquan"
+      ],
+      "appellation": "Mieszko coil"
+    },
+    "code": null,
+    "code_name": "Mieszko coil"
   }
 }
