@@ -1194,6 +1194,52 @@
     "code": "greyy",
     "code_name": "Greyy"
   },
+  "char_328_cammou": {
+    "en_US": {
+      "enabled": true,
+      "name": "Click",
+      "skills": [
+        "ATK Up β",
+        "Synchronized Attack"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カシャ",
+      "skills": [
+        "攻撃力強化β",
+        "同調索敵攻撃"
+      ],
+      "alias": [
+        "かしゃ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "클릭",
+      "skills": [
+        "공격 강화β",
+        "동기화 색적 공격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "卡达",
+      "skills": [
+        "攻击力强化·β型",
+        "同步索敌攻击"
+      ],
+      "alias": [
+        "ka da",
+        "kada"
+      ],
+      "appellation": "Click"
+    },
+    "code": "click",
+    "code_name": "Click"
+  },
   "char_235_jesica": {
     "en_US": {
       "enabled": true,
@@ -2585,6 +2631,15 @@
       ],
       "appellation": "Dur-nar"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "堅雷",
+      "skills": [
+        "攻擊力強化·β型",
+        "起盾回擊"
+      ],
+      "alias": []
+    },
     "code": "dur-nar",
     "code_name": "Dur-nar"
   },
@@ -2787,6 +2842,15 @@
       ],
       "appellation": "Ethan"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "伊桑",
+      "skills": [
+        "花式迴旋",
+        "十字懸掛"
+      ],
+      "alias": []
+    },
     "code": "ethan",
     "code_name": "Ethan"
   },
@@ -2942,6 +3006,15 @@
         "weifeng"
       ],
       "appellation": "Breeze"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "微風",
+      "skills": [
+        "集束療法",
+        "擴散療法"
+      ],
+      "alias": []
     },
     "code": "breeze",
     "code_name": "Breeze"
@@ -3376,6 +3449,52 @@
     },
     "code": "lappland",
     "code_name": "Lappland"
+  },
+  "char_294_ayer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ayerscarpe",
+      "skills": [
+        "Shrapnel Burst",
+        "Activate Phase Blades"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エアースカーペ",
+      "skills": [
+        "多目標型散弾",
+        "ブレイドビット起動"
+      ],
+      "alias": [
+        "えあーすかーぺ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에이어스카르페",
+      "skills": [
+        "다중 유도 분산 탄환",
+        "부유 칼날 기동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "断崖",
+      "skills": [
+        "多导向散射弹丸",
+        "浮游刃启动"
+      ],
+      "alias": [
+        "duan ya",
+        "duanya"
+      ],
+      "appellation": "Ayerscarpe"
+    },
+    "code": "ayerscarpe",
+    "code_name": "Ayerscarpe"
   },
   "char_252_bibeak": {
     "en_US": {
@@ -4308,6 +4427,52 @@
     },
     "code": "warfarin",
     "code_name": "Warfarin"
+  },
+  "char_345_folnic": {
+    "en_US": {
+      "enabled": true,
+      "name": "Folinic",
+      "skills": [
+        "Max-Dosage Infusion",
+        "Compound Drug Shell"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フォリニック",
+      "skills": [
+        "最大限度量投薬",
+        "特製薬刃弾"
+      ],
+      "alias": [
+        "ふぉりにっく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "폴리닉",
+      "skills": [
+        "최대 약제량 투여",
+        "복합형 약물 파편"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "亚叶",
+      "skills": [
+        "最大剂量输注",
+        "复合型药物弹片"
+      ],
+      "alias": [
+        "ya ye",
+        "yaye"
+      ],
+      "appellation": "Folinic"
+    },
+    "code": "folinic",
+    "code_name": "Folinic"
   },
   "char_348_ceylon": {
     "en_US": {
@@ -5438,6 +5603,56 @@
     "code": "schwarz",
     "code_name": "Schwarz"
   },
+  "char_113_cqbw": {
+    "en_US": {
+      "enabled": true,
+      "name": "W",
+      "skills": [
+        "King of Hearts",
+        "Jack in the Box",
+        "D12"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "W",
+      "skills": [
+        "ハートのK",
+        "びっくり箱",
+        "D12"
+      ],
+      "alias": [
+        "W"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "W",
+      "skills": [
+        "하트 K",
+        "깜짝 상자",
+        "D12"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "W",
+      "skills": [
+        "红桃K",
+        "惊吓盒子",
+        "D12"
+      ],
+      "alias": [
+        "W",
+        "W"
+      ],
+      "appellation": "W"
+    },
+    "code": "w",
+    "code_name": "W"
+  },
   "char_197_poca": {
     "en_US": {
       "enabled": true,
@@ -5878,6 +6093,56 @@
     "code": "angelina",
     "code_name": "Angelina"
   },
+  "char_358_lisa": {
+    "en_US": {
+      "enabled": true,
+      "name": "Suzuran",
+      "skills": [
+        "I'll Do My Best",
+        "Childhood Frolic",
+        "Foxfire Haze"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スズラン",
+      "skills": [
+        "全身全霊",
+        "過ぎし日の舞",
+        "渺然たる狐火"
+      ],
+      "alias": [
+        "すずらん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스즈란",
+      "skills": [
+        "전력투구",
+        "어린 시절의 무용",
+        "희미한 여우불"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "铃兰",
+      "skills": [
+        "全力以赴",
+        "儿时的舞乐",
+        "狐火渺然"
+      ],
+      "alias": [
+        "ling lan",
+        "linglan"
+      ],
+      "appellation": "Suzuran"
+    },
+    "code": "suzuran",
+    "code_name": "Suzuran"
+  },
   "char_248_mgllan": {
     "en_US": {
       "enabled": true,
@@ -5937,6 +6202,56 @@
     },
     "code": "magallan",
     "code_name": "Magallan"
+  },
+  "char_250_phatom": {
+    "en_US": {
+      "enabled": true,
+      "name": "Phantom",
+      "skills": [
+        "Phantom of the Night",
+        "Bloody Opus",
+        "Night Raid"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ファントム",
+      "skills": [
+        "闇夜の影法師",
+        "血染めの楽章",
+        "襲来の悪夢"
+      ],
+      "alias": [
+        "ふぁんとむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "팬텀",
+      "skills": [
+        "어두운 밤의 유령",
+        "핏빛 악장",
+        "밤의 장막의 기습"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "傀影",
+      "skills": [
+        "暗夜魅影",
+        "血色乐章",
+        "夜幕突袭"
+      ],
+      "alias": [
+        "kui ying",
+        "kuiying"
+      ],
+      "appellation": "Phantom"
+    },
+    "code": "phantom",
+    "code_name": "Phantom"
   },
   "char_225_haak": {
     "en_US": {
@@ -6913,6 +7228,106 @@
     "code": "soaring dragon a",
     "code_name": "DDF Type-A"
   },
+  "token_10007_phatom_twin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Phantom in the Mirror",
+      "skills": [
+        "Phantom of the Night",
+        "Bloody Opus",
+        "Night Raid"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "鏡映虚影",
+      "skills": [
+        "闇夜の影法師",
+        "血染めの楽章",
+        "襲来の悪夢"
+      ],
+      "alias": [
+        "鏡映虚影"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "거울 속의 환영",
+      "skills": [
+        "어두운 밤의 유령",
+        "핏빛 악장",
+        "밤의 장막의 기습"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "镜中虚影",
+      "skills": [
+        "暗夜魅影",
+        "血色乐章",
+        "夜幕突袭"
+      ],
+      "alias": [
+        "jing zhong xu ying",
+        "jingzhongxuying"
+      ],
+      "appellation": "The Mirror"
+    },
+    "code": "phantom in the mirror",
+    "code_name": "The Mirror"
+  },
+  "token_10008_cqbw_box": {
+    "en_US": {
+      "enabled": true,
+      "name": "Front Toward Enemy",
+      "skills": [
+        "",
+        "Victim Seeker",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サプライズ！",
+      "skills": [
+        "",
+        "バッドラックXD",
+        ""
+      ],
+      "alias": [
+        "さぷらいず！"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "적 방향",
+      "skills": [
+        "",
+        "희생자 모드 기동",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "此面向敌",
+      "skills": [
+        "",
+        "受害者启动模式",
+        ""
+      ],
+      "alias": [
+        "ci mian xiang di",
+        "cimianxiangdi"
+      ],
+      "appellation": "F.T.E"
+    },
+    "code": "front toward enemy",
+    "code_name": "F.T.E"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -7415,6 +7830,48 @@
     "code": "originium flow generator",
     "code_name": "F.O.O"
   },
+  "trap_014_tower": {
+    "en_US": {
+      "enabled": true,
+      "name": "L-44 \"Gramophone\"",
+      "skills": [
+        "Arts Transfer Protocol"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "L-44「蓄音機」",
+      "skills": [
+        "アーツ転送プロトコル"
+      ],
+      "alias": [
+        "L-44「蓄音機」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "L-44 '축음기'",
+      "skills": [
+        "아츠 전송 협의"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "L-44\"留声机\"",
+      "skills": [
+        "法术传输协议"
+      ],
+      "alias": [
+        "L-44\" liu sheng ji \"",
+        "L-44\"liushengji\""
+      ],
+      "appellation": "Gramophone"
+    },
+    "code": "l-44 \"gramophone\"",
+    "code_name": "Gramophone"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -7865,23 +8322,6 @@
     "code": null,
     "code_name": "Reserve (Caster)"
   },
-  "char_328_cammou": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "卡达",
-      "skills": [
-        "攻击力强化·β型",
-        "同步索敌攻击"
-      ],
-      "alias": [
-        "ka da",
-        "kada"
-      ],
-      "appellation": "Click"
-    },
-    "code": null,
-    "code_name": "Click"
-  },
   "char_366_acdrop": {
     "zh_CN": {
       "enabled": true,
@@ -8085,23 +8525,6 @@
     "code": null,
     "code_name": "Flint"
   },
-  "char_294_ayer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "断崖",
-      "skills": [
-        "多导向散射弹丸",
-        "浮游刃启动"
-      ],
-      "alias": [
-        "duan ya",
-        "duanya"
-      ],
-      "appellation": "Ayerscarpe"
-    },
-    "code": null,
-    "code_name": "Ayerscarpe"
-  },
   "char_333_sidero": {
     "zh_CN": {
       "enabled": true,
@@ -8253,23 +8676,6 @@
     "code": null,
     "code_name": "Scene"
   },
-  "char_345_folnic": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "亚叶",
-      "skills": [
-        "最大剂量输注",
-        "复合型药物弹片"
-      ],
-      "alias": [
-        "ya ye",
-        "yaye"
-      ],
-      "appellation": "Folinic"
-    },
-    "code": null,
-    "code_name": "Folinic"
-  },
   "char_510_amedic": {
     "zh_CN": {
       "enabled": true,
@@ -8353,60 +8759,6 @@
     },
     "code": null,
     "code_name": "Tsukinogi"
-  },
-  "char_113_cqbw": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "W",
-      "skills": [
-        "红桃K",
-        "惊吓盒子",
-        "D12"
-      ],
-      "alias": [
-        "W",
-        "W"
-      ],
-      "appellation": "W"
-    },
-    "code": null,
-    "code_name": "W"
-  },
-  "char_358_lisa": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "铃兰",
-      "skills": [
-        "全力以赴",
-        "儿时的舞乐",
-        "狐火渺然"
-      ],
-      "alias": [
-        "ling lan",
-        "linglan"
-      ],
-      "appellation": "Suzuran"
-    },
-    "code": null,
-    "code_name": "Suzuran"
-  },
-  "char_250_phatom": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "傀影",
-      "skills": [
-        "暗夜魅影",
-        "血色乐章",
-        "夜幕突袭"
-      ],
-      "alias": [
-        "kui ying",
-        "kuiying"
-      ],
-      "appellation": "Phantom"
-    },
-    "code": null,
-    "code_name": "Phantom"
   },
   "char_400_weedy": {
     "zh_CN": {
@@ -8515,42 +8867,6 @@
     "code": null,
     "code_name": "Curse Doll"
   },
-  "token_10007_phatom_twin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "镜中虚影",
-      "skills": [
-        "暗夜魅影",
-        "血色乐章",
-        "夜幕突袭"
-      ],
-      "alias": [
-        "jing zhong xu ying",
-        "jingzhongxuying"
-      ],
-      "appellation": "The Mirror"
-    },
-    "code": null,
-    "code_name": "The Mirror"
-  },
-  "token_10008_cqbw_box": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "此面向敌",
-      "skills": [
-        "",
-        "受害者启动模式",
-        ""
-      ],
-      "alias": [
-        "ci mian xiang di",
-        "cimianxiangdi"
-      ],
-      "appellation": "F.T.E"
-    },
-    "code": null,
-    "code_name": "F.T.E"
-  },
   "token_10009_weedy_cannon": {
     "zh_CN": {
       "enabled": true,
@@ -8618,22 +8934,6 @@
     },
     "code": null,
     "code_name": "Originium Shrine"
-  },
-  "trap_014_tower": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "L-44\"留声机\"",
-      "skills": [
-        "法术传输协议"
-      ],
-      "alias": [
-        "L-44\" liu sheng ji \"",
-        "L-44\"liushengji\""
-      ],
-      "appellation": "Gramophone"
-    },
-    "code": null,
-    "code_name": "Gramophone"
   },
   "trap_015_tree": {
     "zh_CN": {
