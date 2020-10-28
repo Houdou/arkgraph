@@ -14,6 +14,30 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			{
+				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
+					<Fragment>
+					<p>2020-10-28</p>
+					[EN][JP][KR]<br />
+					Added event operators<br />
+					新規オペレーターを追加しました<br />
+					{
+						[
+							'char_250_phatom',
+							'char_113_cqbw',
+							'char_358_lisa',
+							'char_294_ayer',
+							'char_345_folnic',
+							'char_328_cammou',
+						].map(id => (
+							<Fragment>
+							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
+							</Fragment>
+						))
+					}
+					</Fragment>
+				)
+			}
 			<p>2020-10-15</p>
 			添加了新干员<br />
 			【<a href="/operator/瑕光">瑕光</a>】
@@ -21,28 +45,6 @@ const Info = ({
 			【<a href="/operator/奥斯塔">奥斯塔</a>】
 			【<a href="/operator/泡泡">泡泡</a>】
 			<br />
-			{
-				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
-					<Fragment>
-						<p>2020-09-29</p>
-					[EN][JP][KR]<br />
-					Added event operators<br />
-					新規オペレーターを追加しました<br />
-						{
-							[
-								'char_197_poca',
-								'char_373_lionhd',
-								'char_405_absin',
-								'char_258_podego',
-							].map(id => (
-								<Fragment>
-							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
-								</Fragment>
-							))
-						}
-					</Fragment>
-				)
-			}
 			<p>2020-09-07</p>
 			修复了roguelike模式干员导致的部分页面错误<br />
 			<p>2020-05-17</p>
