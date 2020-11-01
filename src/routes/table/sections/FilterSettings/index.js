@@ -35,6 +35,7 @@ const resource_filter_options = [
 			{ value: 'ketone', render: 'material_grouping_options-type-ketone' },
 			{ value: 'gel', render: 'material_grouping_options-type-gel' },
 			{ value: 'alloy', render: 'material_grouping_options-type-alloy' },
+			{ value: 'crystal', render: 'material_grouping_options-type-crystal' },
 			{ value: 'skill', render: 'material_grouping_options-type-skill' },
 			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],

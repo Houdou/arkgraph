@@ -31,20 +31,22 @@ const readTable = (lang) => {
 		.forEach(([unique_id, value]) => {
 			const item_id = ItemMapping[unique_id];
 			const {
-				name,
+				name: name_raw,
 			} = value;
+
+			const name = String(name_raw).trim();
 			item_data[item_id][lang].enabled = true;
 			item_data[item_id][lang].name = name;
 			item_data[item_id][lang].alias = [];
 			if (lang === 'zh_CN') {
-				const item_pinyin = [].concat(...pinyin(value.name, {
+				const item_pinyin = [].concat(...pinyin(name, {
 					style: pinyin.STYLE_NORMAL,
 				}));
 				item_data[item_id][lang].alias.push(item_pinyin.join(' '));
 				item_data[item_id][lang].alias.push(item_pinyin.join(''));
 			}
 			if (lang === 'ja_JP' && item_data[item_id][lang]) {
-				const item_hiragana = toHiragana(value.name);
+				const item_hiragana = toHiragana(name);
 				item_data[item_id][lang].alias.push(item_hiragana);
 			}
 		});
