@@ -15,6 +15,18 @@ const operator_data = {};
 const readTable = (lang) => {
 	const characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/character_table.json`));
 	const skills = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/skill_table.json`));
+
+	if (lang === 'zh_CN') {
+		const patch_characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/char_patch_table.json`));
+
+		Object.entries(patch_characters.patchChars).forEach(([unique_id, value]) => {
+			characters[unique_id] = {
+				...value,
+				name: `升变${value.name}`,
+			};
+		});
+	}
+
 	Object.entries(characters)
 		.forEach(([unique_id, value]) => {
 			operator_data[unique_id] = operator_data[unique_id] || {};
