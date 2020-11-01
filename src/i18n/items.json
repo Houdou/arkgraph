@@ -2207,6 +2207,36 @@
       "alias": []
     }
   },
+  "M-5-4": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "晶体电子单元",
+      "alias": [
+        "jing ti dian zi dan yuan",
+        "jingtidianzidanyuan"
+      ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
   "M-3-11": {
     "en_US": {
       "enabled": true,
@@ -2327,6 +2357,66 @@
       "alias": [
         "chi he jin kuai",
         "chihejinkuai"
+      ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-3-13": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "晶体元件",
+      "alias": [
+        "jing ti yuan jian",
+        "jingtiyuanjian"
+      ]
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-4-13": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "晶体电路",
+      "alias": [
+        "jing ti dian lu",
+        "jingtidianlu"
       ]
     },
     "zh_TW": {

@@ -8692,6 +8692,23 @@
     "code": null,
     "code_name": "Touch"
   },
+  "char_436_whispr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "絮雨",
+      "skills": [
+        "定向诊断",
+        "痛觉抑制"
+      ],
+      "alias": [
+        "xu yu",
+        "xuyu"
+      ],
+      "appellation": "Whisperain"
+    },
+    "code": null,
+    "code_name": "Whisperain"
+  },
   "char_378_asbest": {
     "zh_CN": {
       "enabled": true,
@@ -8760,6 +8777,24 @@
     "code": null,
     "code_name": "Tsukinogi"
   },
+  "char_391_rosmon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "迷迭香",
+      "skills": [
+        "思维膨大",
+        "末梢阻断",
+        "“如你所愿”"
+      ],
+      "alias": [
+        "mi die xiang",
+        "midiexiang"
+      ],
+      "appellation": "Rosmontis"
+    },
+    "code": null,
+    "code_name": "Rosmontis"
+  },
   "char_400_weedy": {
     "zh_CN": {
       "enabled": true,
@@ -8795,6 +8830,24 @@
     },
     "code": null,
     "code_name": "Blemishine"
+  },
+  "char_311_mudrok": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "泥岩",
+      "skills": [
+        "防御力强化·γ型",
+        "岩崩锤",
+        "秽壤的血脉"
+      ],
+      "alias": [
+        "ni yan",
+        "niyan"
+      ],
+      "appellation": "Mudrock"
+    },
+    "code": null,
+    "code_name": "Mudrock"
   },
   "char_416_zumama": {
     "zh_CN": {
@@ -8919,6 +8972,24 @@
     "code": null,
     "code_name": "Desert Obelisk"
   },
+  "token_10012_rosmon_shield": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "迷迭香的战术装备",
+      "skills": [
+        "",
+        "",
+        "战术装备召唤"
+      ],
+      "alias": [
+        "mi die xiang de zhan shu zhuang bei",
+        "midiexiangdezhanshuzhuangbei"
+      ],
+      "appellation": "Rosmontis-gear"
+    },
+    "code": null,
+    "code_name": "Rosmontis-gear"
+  },
   "trap_011_ore": {
     "zh_CN": {
       "enabled": true,
@@ -8996,5 +9067,102 @@
     },
     "code": null,
     "code_name": "Mieszko coil"
+  },
+  "trap_020_roadblock": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "道路障碍物",
+      "skills": [
+        "道路阻塞"
+      ],
+      "alias": [
+        "dao lu zhang ai wu",
+        "daoluzhangaiwu"
+      ],
+      "appellation": "Roads Obstacles"
+    },
+    "code": null,
+    "code_name": "Roads Obstacles"
+  },
+  "trap_021_flame": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "能量聚合体",
+      "skills": [
+        "能量结晶"
+      ],
+      "alias": [
+        "neng liang ju he ti",
+        "nengliangjuheti"
+      ],
+      "appellation": "Energy Crystal"
+    },
+    "code": null,
+    "code_name": "Energy Crystal"
+  },
+  "trap_022_frosts_friend": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "霜星的源石冰晶",
+      "skills": [
+        "寒潮"
+      ],
+      "alias": [
+        "shuang xing de yuan shi bing jing",
+        "shuangxingdeyuanshibingjing"
+      ],
+      "appellation": "Yelena-Crystal"
+    },
+    "code": null,
+    "code_name": "Yelena-Crystal"
+  },
+  "trap_023_ore_friend": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "爱国者的源石祭坛",
+      "skills": [
+        "脉冲波"
+      ],
+      "alias": [
+        "ai guo zhe de yuan shi ji tan",
+        "aiguozhedeyuanshijitan"
+      ],
+      "appellation": "Patriot-Shrine"
+    },
+    "code": null,
+    "code_name": "Patriot-Shrine"
+  },
+  "trap_024_npcsld": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "盾卫",
+      "skills": [
+        "列阵！"
+      ],
+      "alias": [
+        "dun wei",
+        "dunwei"
+      ],
+      "appellation": "Shield Guard"
+    },
+    "code": null,
+    "code_name": "Shield Guard"
+  },
+  "char_347_jaksel": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "杰克",
+      "skills": [
+        "给你一拳！",
+        "全神贯注！"
+      ],
+      "alias": [
+        "jie ke",
+        "jieke"
+      ],
+      "appellation": "Jackie"
+    },
+    "code": null,
+    "code_name": "Jackie"
   }
 }
