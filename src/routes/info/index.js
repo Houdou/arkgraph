@@ -14,6 +14,14 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-11-01</p>
+			阿米娅（升变）的专精稍微等一下。。。<br />
+			添加了新材料<br />
+			添加了新干员<br />
+			【<a href="/operator/迷迭香">迷迭香</a>】
+			【<a href="/operator/泥岩">泥岩</a>】
+			【<a href="/operator/絮雨">絮雨</a>】
+			【<a href="/operator/杰克">杰克</a>】
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
@@ -38,12 +46,6 @@ const Info = ({
 					</Fragment>
 				)
 			}
-			<p>2020-10-15</p>
-			添加了新干员<br />
-			【<a href="/operator/瑕光">瑕光</a>】
-			【<a href="/operator/鞭刃">鞭刃</a>】
-			【<a href="/operator/奥斯塔">奥斯塔</a>】
-			【<a href="/operator/泡泡">泡泡</a>】
 			<br />
 			<p>2020-09-07</p>
 			修复了roguelike模式干员导致的部分页面错误<br />
