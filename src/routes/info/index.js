@@ -15,8 +15,19 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 			<p>2020-11-01</p>
-			阿米娅（升变）的专精稍微等一下。。。<br />
+			【重要】
+			阿米娅升变相关技能材料，现阶段请使用<b>【升变阿米娅】</b>为关键词查询干员<br />
+			理解为添加了一位名叫【升变阿米娅】的干员即可<br />
+			直达：【<a href="/operator/升变阿米娅">升变阿米娅</a>】<br />
+			<br />
+			考虑到后期可能加入的其他复制人干员，之后的实现方案可能变更<br />
+			<br />
 			添加了新材料<br />
+			【<a href="/materials/M-5-4">晶体电子单元</a>】
+			【<a href="/materials/M-4-13">晶体电路</a>】
+			【<a href="/materials/M-3-13">晶体元件</a>】
+			<br />
+			<br />
 			添加了新干员<br />
 			【<a href="/operator/迷迭香">迷迭香</a>】
 			【<a href="/operator/泥岩">泥岩</a>】
@@ -25,24 +36,24 @@ const Info = ({
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-					<p>2020-10-28</p>
+						<p>2020-10-28</p>
 					[EN][JP][KR]<br />
 					Added event operators<br />
 					新規オペレーターを追加しました<br />
-					{
-						[
-							'char_250_phatom',
-							'char_113_cqbw',
-							'char_358_lisa',
-							'char_294_ayer',
-							'char_345_folnic',
-							'char_328_cammou',
-						].map(id => (
-							<Fragment>
+						{
+							[
+								'char_250_phatom',
+								'char_113_cqbw',
+								'char_358_lisa',
+								'char_294_ayer',
+								'char_345_folnic',
+								'char_328_cammou',
+							].map(id => (
+								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
-							</Fragment>
-						))
-					}
+								</Fragment>
+							))
+						}
 					</Fragment>
 				)
 			}
