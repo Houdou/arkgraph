@@ -14,6 +14,9 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-11-03</p>
+			修复了库存页面新材料顺序<br />
+			修复了库存页面新材料分类缺失问题<br />
 			<p>2020-11-01</p>
 			【重要】
 			阿米娅升变相关技能材料，现阶段请使用<b>【升变阿米娅】</b>为关键词查询干员<br />
