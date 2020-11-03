@@ -7,7 +7,7 @@ const material_list = [
 	...MATERIALS,
 	...SKILL_BOOKS,
 	...CHIPS,
-];
+].sort((a, b) => a.sortId - b.sortId);
 
 const indexed_material_list = material_list.map((m, index) => ({
 	material: m,
@@ -40,6 +40,7 @@ const material_grouping_options = {
 			{ value: 'ketone', render: 'material_grouping_options-type-ketone' },
 			{ value: 'gel', render: 'material_grouping_options-type-gel' },
 			{ value: 'alloy', render: 'material_grouping_options-type-alloy' },
+			{ value: 'crystal', render: 'material_grouping_options-type-crystal' },
 			{ value: 'skill', render: 'material_grouping_options-type-skill' },
 			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],
