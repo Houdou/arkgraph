@@ -3,19 +3,22 @@
     "en_US": {
       "enabled": true,
       "name": "Drill Battle Record",
-      "alias": []
+      "alias": [],
+      "sortId": 20004
     },
     "ja_JP": {
       "enabled": true,
       "name": "入門作戦記録",
       "alias": [
         "入門作戦記録"
-      ]
+      ],
+      "sortId": 20004
     },
     "ko_KR": {
       "enabled": true,
       "name": "기초작전기록",
-      "alias": []
+      "alias": [],
+      "sortId": 20004
     },
     "zh_CN": {
       "enabled": true,
@@ -23,31 +26,36 @@
       "alias": [
         "ji chu zuo zhan ji lu",
         "jichuzuozhanjilu"
-      ]
+      ],
+      "sortId": 70004
     },
     "zh_TW": {
       "enabled": true,
       "name": "基礎作戰記錄",
-      "alias": []
+      "alias": [],
+      "sortId": 20004
     }
   },
   "E-3-1": {
     "en_US": {
       "enabled": true,
       "name": "Frontline Battle Record",
-      "alias": []
+      "alias": [],
+      "sortId": 20003
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級作戦記録",
       "alias": [
         "初級作戦記録"
-      ]
+      ],
+      "sortId": 20003
     },
     "ko_KR": {
       "enabled": true,
       "name": "초급작전기록",
-      "alias": []
+      "alias": [],
+      "sortId": 20003
     },
     "zh_CN": {
       "enabled": true,
@@ -55,31 +63,36 @@
       "alias": [
         "chu ji zuo zhan ji lu",
         "chujizuozhanjilu"
-      ]
+      ],
+      "sortId": 70003
     },
     "zh_TW": {
       "enabled": true,
       "name": "初級作戰記錄",
-      "alias": []
+      "alias": [],
+      "sortId": 20003
     }
   },
   "E-4-1": {
     "en_US": {
       "enabled": true,
       "name": "Tactical Battle Record",
-      "alias": []
+      "alias": [],
+      "sortId": 20002
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級作戦記録",
       "alias": [
         "中級作戦記録"
-      ]
+      ],
+      "sortId": 20002
     },
     "ko_KR": {
       "enabled": true,
       "name": "중급작전기록",
-      "alias": []
+      "alias": [],
+      "sortId": 20002
     },
     "zh_CN": {
       "enabled": true,
@@ -87,31 +100,36 @@
       "alias": [
         "zhong ji zuo zhan ji lu",
         "zhongjizuozhanjilu"
-      ]
+      ],
+      "sortId": 70002
     },
     "zh_TW": {
       "enabled": true,
       "name": "中級作戰記錄",
-      "alias": []
+      "alias": [],
+      "sortId": 20002
     }
   },
   "E-5-1": {
     "en_US": {
       "enabled": true,
       "name": "Strategic Battle Record",
-      "alias": []
+      "alias": [],
+      "sortId": 20001
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級作戦記録",
       "alias": [
         "上級作戦記録"
-      ]
+      ],
+      "sortId": 20001
     },
     "ko_KR": {
       "enabled": true,
       "name": "고급작전기록",
-      "alias": []
+      "alias": [],
+      "sortId": 20001
     },
     "zh_CN": {
       "enabled": true,
@@ -119,31 +137,36 @@
       "alias": [
         "gao ji zuo zhan ji lu",
         "gaojizuozhanjilu"
-      ]
+      ],
+      "sortId": 70001
     },
     "zh_TW": {
       "enabled": true,
       "name": "高級作戰記錄",
-      "alias": []
+      "alias": [],
+      "sortId": 20001
     }
   },
   "C-3-1": {
     "en_US": {
       "enabled": true,
       "name": "Vanguard Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400004
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級先鋒SoC",
       "alias": [
         "初級先鋒SoC"
-      ]
+      ],
+      "sortId": 400004
     },
     "ko_KR": {
       "enabled": true,
       "name": "뱅가드 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400004
     },
     "zh_CN": {
       "enabled": true,
@@ -151,31 +174,36 @@
       "alias": [
         "xian feng xin pian",
         "xianfengxinpian"
-      ]
+      ],
+      "sortId": 400018
     },
     "zh_TW": {
       "enabled": true,
       "name": "先鋒晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400004
     }
   },
   "C-4-1": {
     "en_US": {
       "enabled": true,
       "name": "Vanguard Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400003
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級先鋒SoC",
       "alias": [
         "中級先鋒SoC"
-      ]
+      ],
+      "sortId": 400003
     },
     "ko_KR": {
       "enabled": true,
       "name": "뱅가드 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400003
     },
     "zh_CN": {
       "enabled": true,
@@ -183,31 +211,36 @@
       "alias": [
         "xian feng xin pian zu",
         "xianfengxinpianzu"
-      ]
+      ],
+      "sortId": 400010
     },
     "zh_TW": {
       "enabled": true,
       "name": "先鋒晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400003
     }
   },
   "C-5-1": {
     "en_US": {
       "enabled": true,
       "name": "Vanguard Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400002
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級先鋒SoC",
       "alias": [
         "上級先鋒SoC"
-      ]
+      ],
+      "sortId": 400002
     },
     "ko_KR": {
       "enabled": true,
       "name": "뱅가드 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400002
     },
     "zh_CN": {
       "enabled": true,
@@ -215,31 +248,36 @@
       "alias": [
         "xian feng shuang xin pian",
         "xianfengshuangxinpian"
-      ]
+      ],
+      "sortId": 400002
     },
     "zh_TW": {
       "enabled": true,
       "name": "先鋒雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400002
     }
   },
   "C-3-2": {
     "en_US": {
       "enabled": true,
       "name": "Guard Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400007
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級前衛SoC",
       "alias": [
         "初級前衛SoC"
-      ]
+      ],
+      "sortId": 400007
     },
     "ko_KR": {
       "enabled": true,
       "name": "가드 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400007
     },
     "zh_CN": {
       "enabled": true,
@@ -247,31 +285,36 @@
       "alias": [
         "jin wei xin pian",
         "jinweixinpian"
-      ]
+      ],
+      "sortId": 400019
     },
     "zh_TW": {
       "enabled": true,
       "name": "近衛晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400007
     }
   },
   "C-4-2": {
     "en_US": {
       "enabled": true,
       "name": "Guard Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400006
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級前衛SoC",
       "alias": [
         "中級前衛SoC"
-      ]
+      ],
+      "sortId": 400006
     },
     "ko_KR": {
       "enabled": true,
       "name": "가드 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400006
     },
     "zh_CN": {
       "enabled": true,
@@ -279,31 +322,36 @@
       "alias": [
         "jin wei xin pian zu",
         "jinweixinpianzu"
-      ]
+      ],
+      "sortId": 400011
     },
     "zh_TW": {
       "enabled": true,
       "name": "近衛晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400006
     }
   },
   "C-5-2": {
     "en_US": {
       "enabled": true,
       "name": "Guard Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400005
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級前衛SoC",
       "alias": [
         "上級前衛SoC"
-      ]
+      ],
+      "sortId": 400005
     },
     "ko_KR": {
       "enabled": true,
       "name": "가드 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400005
     },
     "zh_CN": {
       "enabled": true,
@@ -311,31 +359,36 @@
       "alias": [
         "jin wei shuang xin pian",
         "jinweishuangxinpian"
-      ]
+      ],
+      "sortId": 400003
     },
     "zh_TW": {
       "enabled": true,
       "name": "近衛雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400005
     }
   },
   "C-3-3": {
     "en_US": {
       "enabled": true,
       "name": "Defender Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400010
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級重装SoC",
       "alias": [
         "初級重装SoC"
-      ]
+      ],
+      "sortId": 400010
     },
     "ko_KR": {
       "enabled": true,
       "name": "디펜더 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400010
     },
     "zh_CN": {
       "enabled": true,
@@ -343,31 +396,36 @@
       "alias": [
         "zhong zhuang xin pian",
         "zhongzhuangxinpian"
-      ]
+      ],
+      "sortId": 400021
     },
     "zh_TW": {
       "enabled": true,
       "name": "重裝晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400010
     }
   },
   "C-4-3": {
     "en_US": {
       "enabled": true,
       "name": "Defender Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400009
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級重装SoC",
       "alias": [
         "中級重装SoC"
-      ]
+      ],
+      "sortId": 400009
     },
     "ko_KR": {
       "enabled": true,
       "name": "디펜더 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400009
     },
     "zh_CN": {
       "enabled": true,
@@ -375,31 +433,36 @@
       "alias": [
         "zhong zhuang xin pian zu",
         "zhongzhuangxinpianzu"
-      ]
+      ],
+      "sortId": 400013
     },
     "zh_TW": {
       "enabled": true,
       "name": "重裝晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400009
     }
   },
   "C-5-3": {
     "en_US": {
       "enabled": true,
       "name": "Defender Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400008
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級重装SoC",
       "alias": [
         "上級重装SoC"
-      ]
+      ],
+      "sortId": 400008
     },
     "ko_KR": {
       "enabled": true,
       "name": "디펜더 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400008
     },
     "zh_CN": {
       "enabled": true,
@@ -407,31 +470,36 @@
       "alias": [
         "zhong zhuang shuang xin pian",
         "zhongzhuangshuangxinpian"
-      ]
+      ],
+      "sortId": 400005
     },
     "zh_TW": {
       "enabled": true,
       "name": "重裝雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400008
     }
   },
   "C-3-4": {
     "en_US": {
       "enabled": true,
       "name": "Sniper Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400013
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級狙撃SoC",
       "alias": [
         "初級狙撃SoC"
-      ]
+      ],
+      "sortId": 400013
     },
     "ko_KR": {
       "enabled": true,
       "name": "스나이퍼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400013
     },
     "zh_CN": {
       "enabled": true,
@@ -439,31 +507,36 @@
       "alias": [
         "ju ji xin pian",
         "jujixinpian"
-      ]
+      ],
+      "sortId": 400020
     },
     "zh_TW": {
       "enabled": true,
       "name": "狙擊晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400013
     }
   },
   "C-4-4": {
     "en_US": {
       "enabled": true,
       "name": "Sniper Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400012
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級狙撃SoC",
       "alias": [
         "中級狙撃SoC"
-      ]
+      ],
+      "sortId": 400012
     },
     "ko_KR": {
       "enabled": true,
       "name": "스나이퍼 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400012
     },
     "zh_CN": {
       "enabled": true,
@@ -471,31 +544,36 @@
       "alias": [
         "ju ji xin pian zu",
         "jujixinpianzu"
-      ]
+      ],
+      "sortId": 400012
     },
     "zh_TW": {
       "enabled": true,
       "name": "狙擊晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400012
     }
   },
   "C-5-4": {
     "en_US": {
       "enabled": true,
       "name": "Sniper Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400011
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級狙撃SoC",
       "alias": [
         "上級狙撃SoC"
-      ]
+      ],
+      "sortId": 400011
     },
     "ko_KR": {
       "enabled": true,
       "name": "스나이퍼 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400011
     },
     "zh_CN": {
       "enabled": true,
@@ -503,31 +581,36 @@
       "alias": [
         "ju ji shuang xin pian",
         "jujishuangxinpian"
-      ]
+      ],
+      "sortId": 400004
     },
     "zh_TW": {
       "enabled": true,
       "name": "狙擊雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400011
     }
   },
   "C-3-5": {
     "en_US": {
       "enabled": true,
       "name": "Caster Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400016
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級術師SoC",
       "alias": [
         "初級術師SoC"
-      ]
+      ],
+      "sortId": 400016
     },
     "ko_KR": {
       "enabled": true,
       "name": "캐스터 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400016
     },
     "zh_CN": {
       "enabled": true,
@@ -535,31 +618,36 @@
       "alias": [
         "shu shi xin pian",
         "shushixinpian"
-      ]
+      ],
+      "sortId": 400024
     },
     "zh_TW": {
       "enabled": true,
       "name": "術師晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400016
     }
   },
   "C-4-5": {
     "en_US": {
       "enabled": true,
       "name": "Caster Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400015
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級術師SoC",
       "alias": [
         "中級術師SoC"
-      ]
+      ],
+      "sortId": 400015
     },
     "ko_KR": {
       "enabled": true,
       "name": "캐스터 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400015
     },
     "zh_CN": {
       "enabled": true,
@@ -567,31 +655,36 @@
       "alias": [
         "shu shi xin pian zu",
         "shushixinpianzu"
-      ]
+      ],
+      "sortId": 400016
     },
     "zh_TW": {
       "enabled": true,
       "name": "術師晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400015
     }
   },
   "C-5-5": {
     "en_US": {
       "enabled": true,
       "name": "Caster Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400014
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級術師SoC",
       "alias": [
         "上級術師SoC"
-      ]
+      ],
+      "sortId": 400014
     },
     "ko_KR": {
       "enabled": true,
       "name": "캐스터 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400014
     },
     "zh_CN": {
       "enabled": true,
@@ -599,31 +692,36 @@
       "alias": [
         "shu shi shuang xin pian",
         "shushishuangxinpian"
-      ]
+      ],
+      "sortId": 400008
     },
     "zh_TW": {
       "enabled": true,
       "name": "術師雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400014
     }
   },
   "C-3-6": {
     "en_US": {
       "enabled": true,
       "name": "Medic Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400019
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級医療SoC",
       "alias": [
         "初級医療SoC"
-      ]
+      ],
+      "sortId": 400019
     },
     "ko_KR": {
       "enabled": true,
       "name": "메딕 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400019
     },
     "zh_CN": {
       "enabled": true,
@@ -631,31 +729,36 @@
       "alias": [
         "yi liao xin pian",
         "yiliaoxinpian"
-      ]
+      ],
+      "sortId": 400022
     },
     "zh_TW": {
       "enabled": true,
       "name": "醫療晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400019
     }
   },
   "C-4-6": {
     "en_US": {
       "enabled": true,
       "name": "Medic Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400018
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級医療SoC",
       "alias": [
         "中級医療SoC"
-      ]
+      ],
+      "sortId": 400018
     },
     "ko_KR": {
       "enabled": true,
       "name": "메딕 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400018
     },
     "zh_CN": {
       "enabled": true,
@@ -663,31 +766,36 @@
       "alias": [
         "yi liao xin pian zu",
         "yiliaoxinpianzu"
-      ]
+      ],
+      "sortId": 400014
     },
     "zh_TW": {
       "enabled": true,
       "name": "醫療晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400018
     }
   },
   "C-5-6": {
     "en_US": {
       "enabled": true,
       "name": "Medic Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400017
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級医療SoC",
       "alias": [
         "上級医療SoC"
-      ]
+      ],
+      "sortId": 400017
     },
     "ko_KR": {
       "enabled": true,
       "name": "메딕 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400017
     },
     "zh_CN": {
       "enabled": true,
@@ -695,31 +803,36 @@
       "alias": [
         "yi liao shuang xin pian",
         "yiliaoshuangxinpian"
-      ]
+      ],
+      "sortId": 400006
     },
     "zh_TW": {
       "enabled": true,
       "name": "醫療雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400017
     }
   },
   "C-3-7": {
     "en_US": {
       "enabled": true,
       "name": "Supporter Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400022
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級補助SoC",
       "alias": [
         "初級補助SoC"
-      ]
+      ],
+      "sortId": 400022
     },
     "ko_KR": {
       "enabled": true,
       "name": "서포터 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400022
     },
     "zh_CN": {
       "enabled": true,
@@ -727,31 +840,36 @@
       "alias": [
         "fu zhu xin pian",
         "fuzhuxinpian"
-      ]
+      ],
+      "sortId": 400023
     },
     "zh_TW": {
       "enabled": true,
       "name": "輔助晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400022
     }
   },
   "C-4-7": {
     "en_US": {
       "enabled": true,
       "name": "Supporter Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400021
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級補助SoC",
       "alias": [
         "中級補助SoC"
-      ]
+      ],
+      "sortId": 400021
     },
     "ko_KR": {
       "enabled": true,
       "name": "서포터 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400021
     },
     "zh_CN": {
       "enabled": true,
@@ -759,31 +877,36 @@
       "alias": [
         "fu zhu xin pian zu",
         "fuzhuxinpianzu"
-      ]
+      ],
+      "sortId": 400015
     },
     "zh_TW": {
       "enabled": true,
       "name": "輔助晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400021
     }
   },
   "C-5-7": {
     "en_US": {
       "enabled": true,
       "name": "Supporter Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400020
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級補助SoC",
       "alias": [
         "上級補助SoC"
-      ]
+      ],
+      "sortId": 400020
     },
     "ko_KR": {
       "enabled": true,
       "name": "서포터 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400020
     },
     "zh_CN": {
       "enabled": true,
@@ -791,31 +914,36 @@
       "alias": [
         "fu zhu shuang xin pian",
         "fuzhushuangxinpian"
-      ]
+      ],
+      "sortId": 400007
     },
     "zh_TW": {
       "enabled": true,
       "name": "輔助雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400020
     }
   },
   "C-3-8": {
     "en_US": {
       "enabled": true,
       "name": "Specialist Chip",
-      "alias": []
+      "alias": [],
+      "sortId": 400025
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級特殊SoC",
       "alias": [
         "初級特殊SoC"
-      ]
+      ],
+      "sortId": 400025
     },
     "ko_KR": {
       "enabled": true,
       "name": "스페셜리스트 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400025
     },
     "zh_CN": {
       "enabled": true,
@@ -823,31 +951,36 @@
       "alias": [
         "te zhong xin pian",
         "tezhongxinpian"
-      ]
+      ],
+      "sortId": 400025
     },
     "zh_TW": {
       "enabled": true,
       "name": "特種晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400025
     }
   },
   "C-4-8": {
     "en_US": {
       "enabled": true,
       "name": "Specialist Chip Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 400024
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級特殊SoC",
       "alias": [
         "中級特殊SoC"
-      ]
+      ],
+      "sortId": 400024
     },
     "ko_KR": {
       "enabled": true,
       "name": "스페셜리스트 칩셋",
-      "alias": []
+      "alias": [],
+      "sortId": 400024
     },
     "zh_CN": {
       "enabled": true,
@@ -855,31 +988,36 @@
       "alias": [
         "te zhong xin pian zu",
         "tezhongxinpianzu"
-      ]
+      ],
+      "sortId": 400017
     },
     "zh_TW": {
       "enabled": true,
       "name": "特種晶片組",
-      "alias": []
+      "alias": [],
+      "sortId": 400024
     }
   },
   "C-5-8": {
     "en_US": {
       "enabled": true,
       "name": "Specialist Dualchip",
-      "alias": []
+      "alias": [],
+      "sortId": 400023
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級特殊SoC",
       "alias": [
         "上級特殊SoC"
-      ]
+      ],
+      "sortId": 400023
     },
     "ko_KR": {
       "enabled": true,
       "name": "스페셜리스트 듀얼 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 400023
     },
     "zh_CN": {
       "enabled": true,
@@ -887,31 +1025,36 @@
       "alias": [
         "te zhong shuang xin pian",
         "tezhongshuangxinpian"
-      ]
+      ],
+      "sortId": 400009
     },
     "zh_TW": {
       "enabled": true,
       "name": "特種雙晶片",
-      "alias": []
+      "alias": [],
+      "sortId": 400023
     }
   },
   "S-2-1": {
     "en_US": {
       "enabled": true,
       "name": "Skill Summary - 1",
-      "alias": []
+      "alias": [],
+      "sortId": 300003
     },
     "ja_JP": {
       "enabled": true,
       "name": "アーツ学Ⅰ",
       "alias": [
         "あーつ学Ⅰ"
-      ]
+      ],
+      "sortId": 300003
     },
     "ko_KR": {
       "enabled": true,
       "name": "스킬개론 제1권",
-      "alias": []
+      "alias": [],
+      "sortId": 300003
     },
     "zh_CN": {
       "enabled": true,
@@ -919,31 +1062,36 @@
       "alias": [
         "ji qiao gai yao · juan 1",
         "jiqiaogaiyao·juan1"
-      ]
+      ],
+      "sortId": 80003
     },
     "zh_TW": {
       "enabled": true,
       "name": "技巧概要·卷1",
-      "alias": []
+      "alias": [],
+      "sortId": 300003
     }
   },
   "S-3-1": {
     "en_US": {
       "enabled": true,
       "name": "Skill Summary - 2",
-      "alias": []
+      "alias": [],
+      "sortId": 300002
     },
     "ja_JP": {
       "enabled": true,
       "name": "アーツ学Ⅱ",
       "alias": [
         "あーつ学Ⅱ"
-      ]
+      ],
+      "sortId": 300002
     },
     "ko_KR": {
       "enabled": true,
       "name": "스킬개론 제2권",
-      "alias": []
+      "alias": [],
+      "sortId": 300002
     },
     "zh_CN": {
       "enabled": true,
@@ -951,31 +1099,36 @@
       "alias": [
         "ji qiao gai yao · juan 2",
         "jiqiaogaiyao·juan2"
-      ]
+      ],
+      "sortId": 80002
     },
     "zh_TW": {
       "enabled": true,
       "name": "技巧概要·卷2",
-      "alias": []
+      "alias": [],
+      "sortId": 300002
     }
   },
   "S-4-1": {
     "en_US": {
       "enabled": true,
       "name": "Skill Summary - 3",
-      "alias": []
+      "alias": [],
+      "sortId": 300001
     },
     "ja_JP": {
       "enabled": true,
       "name": "アーツ学Ⅲ",
       "alias": [
         "あーつ学Ⅲ"
-      ]
+      ],
+      "sortId": 300001
     },
     "ko_KR": {
       "enabled": true,
       "name": "스킬개론 제3권",
-      "alias": []
+      "alias": [],
+      "sortId": 300001
     },
     "zh_CN": {
       "enabled": true,
@@ -983,31 +1136,36 @@
       "alias": [
         "ji qiao gai yao · juan 3",
         "jiqiaogaiyao·juan3"
-      ]
+      ],
+      "sortId": 80001
     },
     "zh_TW": {
       "enabled": true,
       "name": "技巧概要·卷3",
-      "alias": []
+      "alias": [],
+      "sortId": 300001
     }
   },
   "G-4-1": {
     "en_US": {
       "enabled": true,
       "name": "LMD",
-      "alias": []
+      "alias": [],
+      "sortId": 10004
     },
     "ja_JP": {
       "enabled": true,
       "name": "龍門幣",
       "alias": [
         "龍門幣"
-      ]
+      ],
+      "sortId": 10004
     },
     "ko_KR": {
       "enabled": true,
       "name": "용문폐",
-      "alias": []
+      "alias": [],
+      "sortId": 10004
     },
     "zh_CN": {
       "enabled": true,
@@ -1015,31 +1173,36 @@
       "alias": [
         "long men bi",
         "longmenbi"
-      ]
+      ],
+      "sortId": 10004
     },
     "zh_TW": {
       "enabled": true,
       "name": "龍門幣",
-      "alias": []
+      "alias": [],
+      "sortId": 10004
     }
   },
   "PC-3-1": {
     "en_US": {
       "enabled": true,
       "name": "Shop Voucher",
-      "alias": []
+      "alias": [],
+      "sortId": 10008
     },
     "ja_JP": {
       "enabled": true,
       "name": "購買資格証",
       "alias": [
         "購買資格証"
-      ]
+      ],
+      "sortId": 10008
     },
     "ko_KR": {
       "enabled": true,
       "name": "구매증명서",
-      "alias": []
+      "alias": [],
+      "sortId": 10008
     },
     "zh_CN": {
       "enabled": true,
@@ -1047,31 +1210,36 @@
       "alias": [
         "cai gou ping zheng",
         "caigoupingzheng"
-      ]
+      ],
+      "sortId": 10008
     },
     "zh_TW": {
       "enabled": true,
       "name": "採購憑證",
-      "alias": []
+      "alias": [],
+      "sortId": 10008
     }
   },
   "EO-4-1": {
     "en_US": {
       "enabled": true,
       "name": "EXP",
-      "alias": []
+      "alias": [],
+      "sortId": -10000
     },
     "ja_JP": {
       "enabled": true,
       "name": "名声",
       "alias": [
         "名声"
-      ]
+      ],
+      "sortId": -10000
     },
     "ko_KR": {
       "enabled": true,
       "name": "명성",
-      "alias": []
+      "alias": [],
+      "sortId": -10000
     },
     "zh_CN": {
       "enabled": true,
@@ -1079,31 +1247,36 @@
       "alias": [
         "sheng wang",
         "shengwang"
-      ]
+      ],
+      "sortId": -10000
     },
     "zh_TW": {
       "enabled": true,
       "name": "聲望",
-      "alias": []
+      "alias": [],
+      "sortId": -10000
     }
   },
   "M-1-1": {
     "en_US": {
       "enabled": true,
       "name": "Orirock",
-      "alias": []
+      "alias": [],
+      "sortId": 100015
     },
     "ja_JP": {
       "enabled": true,
       "name": "源岩鉱",
       "alias": [
         "源岩鉱"
-      ]
+      ],
+      "sortId": 100015
     },
     "ko_KR": {
       "enabled": true,
       "name": "원암",
-      "alias": []
+      "alias": [],
+      "sortId": 100015
     },
     "zh_CN": {
       "enabled": true,
@@ -1111,31 +1284,36 @@
       "alias": [
         "yuan yan",
         "yuanyan"
-      ]
+      ],
+      "sortId": 100015
     },
     "zh_TW": {
       "enabled": true,
       "name": "源岩",
-      "alias": []
+      "alias": [],
+      "sortId": 100015
     }
   },
   "M-2-1": {
     "en_US": {
       "enabled": true,
       "name": "Orirock Cube",
-      "alias": []
+      "alias": [],
+      "sortId": 100014
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級源岩",
       "alias": [
         "初級源岩"
-      ]
+      ],
+      "sortId": 100014
     },
     "ko_KR": {
       "enabled": true,
       "name": "원암 큐브",
-      "alias": []
+      "alias": [],
+      "sortId": 100014
     },
     "zh_CN": {
       "enabled": true,
@@ -1143,31 +1321,36 @@
       "alias": [
         "gu yuan yan",
         "guyuanyan"
-      ]
+      ],
+      "sortId": 100014
     },
     "zh_TW": {
       "enabled": true,
       "name": "固源岩",
-      "alias": []
+      "alias": [],
+      "sortId": 100014
     }
   },
   "M-3-1": {
     "en_US": {
       "enabled": true,
       "name": "Orirock Cluster",
-      "alias": []
+      "alias": [],
+      "sortId": 100013
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級源岩",
       "alias": [
         "中級源岩"
-      ]
+      ],
+      "sortId": 100013
     },
     "ko_KR": {
       "enabled": true,
       "name": "원암 큐브 번들",
-      "alias": []
+      "alias": [],
+      "sortId": 100013
     },
     "zh_CN": {
       "enabled": true,
@@ -1175,31 +1358,36 @@
       "alias": [
         "gu yuan yan zu",
         "guyuanyanzu"
-      ]
+      ],
+      "sortId": 100013
     },
     "zh_TW": {
       "enabled": true,
       "name": "固源岩組",
-      "alias": []
+      "alias": [],
+      "sortId": 100013
     }
   },
   "M-4-1": {
     "en_US": {
       "enabled": true,
       "name": "Orirock Concentration",
-      "alias": []
+      "alias": [],
+      "sortId": 100012
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級源岩",
       "alias": [
         "上級源岩"
-      ]
+      ],
+      "sortId": 100012
     },
     "ko_KR": {
       "enabled": true,
       "name": "정제 원암",
-      "alias": []
+      "alias": [],
+      "sortId": 100012
     },
     "zh_CN": {
       "enabled": true,
@@ -1207,31 +1395,36 @@
       "alias": [
         "ti chun yuan yan",
         "tichunyuanyan"
-      ]
+      ],
+      "sortId": 100012
     },
     "zh_TW": {
       "enabled": true,
       "name": "提純源岩",
-      "alias": []
+      "alias": [],
+      "sortId": 100012
     }
   },
   "M-1-4": {
     "en_US": {
       "enabled": true,
       "name": "Sugar Substitute",
-      "alias": []
+      "alias": [],
+      "sortId": 100027
     },
     "ja_JP": {
       "enabled": true,
       "name": "ブドウ糖",
       "alias": [
         "ぶどう糖"
-      ]
+      ],
+      "sortId": 100027
     },
     "ko_KR": {
       "enabled": true,
       "name": "대체당",
-      "alias": []
+      "alias": [],
+      "sortId": 100027
     },
     "zh_CN": {
       "enabled": true,
@@ -1239,31 +1432,36 @@
       "alias": [
         "dai tang",
         "daitang"
-      ]
+      ],
+      "sortId": 100027
     },
     "zh_TW": {
       "enabled": true,
       "name": "代糖",
-      "alias": []
+      "alias": [],
+      "sortId": 100027
     }
   },
   "M-2-4": {
     "en_US": {
       "enabled": true,
       "name": "Sugar",
-      "alias": []
+      "alias": [],
+      "sortId": 100026
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級糖原",
       "alias": [
         "初級糖原"
-      ]
+      ],
+      "sortId": 100026
     },
     "ko_KR": {
       "enabled": true,
       "name": "포도당",
-      "alias": []
+      "alias": [],
+      "sortId": 100026
     },
     "zh_CN": {
       "enabled": true,
@@ -1271,31 +1469,36 @@
       "alias": [
         "tang",
         "tang"
-      ]
+      ],
+      "sortId": 100026
     },
     "zh_TW": {
       "enabled": true,
       "name": "糖",
-      "alias": []
+      "alias": [],
+      "sortId": 100026
     }
   },
   "M-3-4": {
     "en_US": {
       "enabled": true,
       "name": "Sugar Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 100025
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級糖原",
       "alias": [
         "中級糖原"
-      ]
+      ],
+      "sortId": 100025
     },
     "ko_KR": {
       "enabled": true,
       "name": "포도당 번들",
-      "alias": []
+      "alias": [],
+      "sortId": 100025
     },
     "zh_CN": {
       "enabled": true,
@@ -1303,31 +1506,36 @@
       "alias": [
         "tang zu",
         "tangzu"
-      ]
+      ],
+      "sortId": 100025
     },
     "zh_TW": {
       "enabled": true,
       "name": "糖組",
-      "alias": []
+      "alias": [],
+      "sortId": 100025
     }
   },
   "M-4-4": {
     "en_US": {
       "enabled": true,
       "name": "Sugar Lump",
-      "alias": []
+      "alias": [],
+      "sortId": 100024
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級糖原",
       "alias": [
         "上級糖原"
-      ]
+      ],
+      "sortId": 100024
     },
     "ko_KR": {
       "enabled": true,
       "name": "포도당 팩",
-      "alias": []
+      "alias": [],
+      "sortId": 100024
     },
     "zh_CN": {
       "enabled": true,
@@ -1335,31 +1543,36 @@
       "alias": [
         "tang ju kuai",
         "tangjukuai"
-      ]
+      ],
+      "sortId": 100024
     },
     "zh_TW": {
       "enabled": true,
       "name": "糖聚塊",
-      "alias": []
+      "alias": [],
+      "sortId": 100024
     }
   },
   "M-1-3": {
     "en_US": {
       "enabled": true,
       "name": "Ester",
-      "alias": []
+      "alias": [],
+      "sortId": 100023
     },
     "ja_JP": {
       "enabled": true,
       "name": "エステル原料",
       "alias": [
         "えすてる原料"
-      ]
+      ],
+      "sortId": 100023
     },
     "ko_KR": {
       "enabled": true,
       "name": "에스테르 원료",
-      "alias": []
+      "alias": [],
+      "sortId": 100023
     },
     "zh_CN": {
       "enabled": true,
@@ -1367,31 +1580,36 @@
       "alias": [
         "zhi yuan liao",
         "zhiyuanliao"
-      ]
+      ],
+      "sortId": 100023
     },
     "zh_TW": {
       "enabled": true,
       "name": "酯原料",
-      "alias": []
+      "alias": [],
+      "sortId": 100023
     }
   },
   "M-2-3": {
     "en_US": {
       "enabled": true,
       "name": "Polyester",
-      "alias": []
+      "alias": [],
+      "sortId": 100022
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級エステル",
       "alias": [
         "初級えすてる"
-      ]
+      ],
+      "sortId": 100022
     },
     "ko_KR": {
       "enabled": true,
       "name": "폴리에스테르",
-      "alias": []
+      "alias": [],
+      "sortId": 100022
     },
     "zh_CN": {
       "enabled": true,
@@ -1399,31 +1617,36 @@
       "alias": [
         "ju suan zhi",
         "jusuanzhi"
-      ]
+      ],
+      "sortId": 100022
     },
     "zh_TW": {
       "enabled": true,
       "name": "聚酸酯",
-      "alias": []
+      "alias": [],
+      "sortId": 100022
     }
   },
   "M-3-3": {
     "en_US": {
       "enabled": true,
       "name": "Polyester Pack",
-      "alias": []
+      "alias": [],
+      "sortId": 100021
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級エステル",
       "alias": [
         "中級えすてる"
-      ]
+      ],
+      "sortId": 100021
     },
     "ko_KR": {
       "enabled": true,
       "name": "폴리에스테르 번들",
-      "alias": []
+      "alias": [],
+      "sortId": 100021
     },
     "zh_CN": {
       "enabled": true,
@@ -1431,31 +1654,36 @@
       "alias": [
         "ju suan zhi zu",
         "jusuanzhizu"
-      ]
+      ],
+      "sortId": 100021
     },
     "zh_TW": {
       "enabled": true,
       "name": "聚酸酯組",
-      "alias": []
+      "alias": [],
+      "sortId": 100021
     }
   },
   "M-4-3": {
     "en_US": {
       "enabled": true,
       "name": "Polyester Lump",
-      "alias": []
+      "alias": [],
+      "sortId": 100020
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級エステル",
       "alias": [
         "上級えすてる"
-      ]
+      ],
+      "sortId": 100020
     },
     "ko_KR": {
       "enabled": true,
       "name": "폴리에스테르 팩",
-      "alias": []
+      "alias": [],
+      "sortId": 100020
     },
     "zh_CN": {
       "enabled": true,
@@ -1463,31 +1691,36 @@
       "alias": [
         "ju suan zhi kuai",
         "jusuanzhikuai"
-      ]
+      ],
+      "sortId": 100020
     },
     "zh_TW": {
       "enabled": true,
       "name": "聚酸酯塊",
-      "alias": []
+      "alias": [],
+      "sortId": 100020
     }
   },
   "M-1-5": {
     "en_US": {
       "enabled": true,
       "name": "Oriron Shard",
-      "alias": []
+      "alias": [],
+      "sortId": 100031
     },
     "ja_JP": {
       "enabled": true,
       "name": "異鉄の欠片",
       "alias": [
         "異鉄の欠片"
-      ]
+      ],
+      "sortId": 100031
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철 조각",
-      "alias": []
+      "alias": [],
+      "sortId": 100031
     },
     "zh_CN": {
       "enabled": true,
@@ -1495,31 +1728,36 @@
       "alias": [
         "yi tie sui pian",
         "yitiesuipian"
-      ]
+      ],
+      "sortId": 100031
     },
     "zh_TW": {
       "enabled": true,
       "name": "異鐵碎片",
-      "alias": []
+      "alias": [],
+      "sortId": 100031
     }
   },
   "M-2-5": {
     "en_US": {
       "enabled": true,
       "name": "Oriron",
-      "alias": []
+      "alias": [],
+      "sortId": 100030
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級異鉄",
       "alias": [
         "初級異鉄"
-      ]
+      ],
+      "sortId": 100030
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철",
-      "alias": []
+      "alias": [],
+      "sortId": 100030
     },
     "zh_CN": {
       "enabled": true,
@@ -1527,31 +1765,36 @@
       "alias": [
         "yi tie",
         "yitie"
-      ]
+      ],
+      "sortId": 100030
     },
     "zh_TW": {
       "enabled": true,
       "name": "異鐵",
-      "alias": []
+      "alias": [],
+      "sortId": 100030
     }
   },
   "M-3-5": {
     "en_US": {
       "enabled": true,
       "name": "Oriron Cluster",
-      "alias": []
+      "alias": [],
+      "sortId": 100029
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級異鉄",
       "alias": [
         "中級異鉄"
-      ]
+      ],
+      "sortId": 100029
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철 번들",
-      "alias": []
+      "alias": [],
+      "sortId": 100029
     },
     "zh_CN": {
       "enabled": true,
@@ -1559,31 +1802,36 @@
       "alias": [
         "yi tie zu",
         "yitiezu"
-      ]
+      ],
+      "sortId": 100029
     },
     "zh_TW": {
       "enabled": true,
       "name": "異鐵組",
-      "alias": []
+      "alias": [],
+      "sortId": 100029
     }
   },
   "M-4-5": {
     "en_US": {
       "enabled": true,
       "name": "Oriron Block",
-      "alias": []
+      "alias": [],
+      "sortId": 100028
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級異鉄",
       "alias": [
         "上級異鉄"
-      ]
+      ],
+      "sortId": 100028
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철 팩",
-      "alias": []
+      "alias": [],
+      "sortId": 100028
     },
     "zh_CN": {
       "enabled": true,
@@ -1591,31 +1839,36 @@
       "alias": [
         "yi tie kuai",
         "yitiekuai"
-      ]
+      ],
+      "sortId": 100028
     },
     "zh_TW": {
       "enabled": true,
       "name": "異鐵塊",
-      "alias": []
+      "alias": [],
+      "sortId": 100028
     }
   },
   "M-1-6": {
     "en_US": {
       "enabled": true,
       "name": "Diketon",
-      "alias": []
+      "alias": [],
+      "sortId": 100035
     },
     "ja_JP": {
       "enabled": true,
       "name": "アケトン試剤",
       "alias": [
         "あけとん試剤"
-      ]
+      ],
+      "sortId": 100035
     },
     "ko_KR": {
       "enabled": true,
       "name": "디케톤",
-      "alias": []
+      "alias": [],
+      "sortId": 100035
     },
     "zh_CN": {
       "enabled": true,
@@ -1623,31 +1876,36 @@
       "alias": [
         "shuang tong",
         "shuangtong"
-      ]
+      ],
+      "sortId": 100035
     },
     "zh_TW": {
       "enabled": true,
       "name": "雙酮",
-      "alias": []
+      "alias": [],
+      "sortId": 100035
     }
   },
   "M-2-6": {
     "en_US": {
       "enabled": true,
       "name": "Polyketon",
-      "alias": []
+      "alias": [],
+      "sortId": 100034
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級アケトン",
       "alias": [
         "初級あけとん"
-      ]
+      ],
+      "sortId": 100034
     },
     "ko_KR": {
       "enabled": true,
       "name": "아케톤 응집체",
-      "alias": []
+      "alias": [],
+      "sortId": 100034
     },
     "zh_CN": {
       "enabled": true,
@@ -1655,31 +1913,36 @@
       "alias": [
         "tong ning ji",
         "tongningji"
-      ]
+      ],
+      "sortId": 100034
     },
     "zh_TW": {
       "enabled": true,
       "name": "酮凝集",
-      "alias": []
+      "alias": [],
+      "sortId": 100034
     }
   },
   "M-3-6": {
     "en_US": {
       "enabled": true,
       "name": "Aketon",
-      "alias": []
+      "alias": [],
+      "sortId": 100033
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級アケトン",
       "alias": [
         "中級あけとん"
-      ]
+      ],
+      "sortId": 100033
     },
     "ko_KR": {
       "enabled": true,
       "name": "아케톤 응집체 번들",
-      "alias": []
+      "alias": [],
+      "sortId": 100033
     },
     "zh_CN": {
       "enabled": true,
@@ -1687,31 +1950,36 @@
       "alias": [
         "tong ning ji zu",
         "tongningjizu"
-      ]
+      ],
+      "sortId": 100033
     },
     "zh_TW": {
       "enabled": true,
       "name": "酮凝集組",
-      "alias": []
+      "alias": [],
+      "sortId": 100033
     }
   },
   "M-4-6": {
     "en_US": {
       "enabled": true,
       "name": "Keton Colloid",
-      "alias": []
+      "alias": [],
+      "sortId": 100032
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級アケトン",
       "alias": [
         "上級あけとん"
-      ]
+      ],
+      "sortId": 100032
     },
     "ko_KR": {
       "enabled": true,
       "name": "아케톤 팩",
-      "alias": []
+      "alias": [],
+      "sortId": 100032
     },
     "zh_CN": {
       "enabled": true,
@@ -1719,31 +1987,36 @@
       "alias": [
         "tong zhen lie",
         "tongzhenlie"
-      ]
+      ],
+      "sortId": 100032
     },
     "zh_TW": {
       "enabled": true,
       "name": "酮陣列",
-      "alias": []
+      "alias": [],
+      "sortId": 100032
     }
   },
   "M-1-2": {
     "en_US": {
       "enabled": true,
       "name": "Damaged Device",
-      "alias": []
+      "alias": [],
+      "sortId": 100019
     },
     "ja_JP": {
       "enabled": true,
       "name": "破損装置",
       "alias": [
         "破損装置"
-      ]
+      ],
+      "sortId": 100019
     },
     "ko_KR": {
       "enabled": true,
       "name": "파손된 장치",
-      "alias": []
+      "alias": [],
+      "sortId": 100019
     },
     "zh_CN": {
       "enabled": true,
@@ -1751,31 +2024,36 @@
       "alias": [
         "po sun zhuang zhi",
         "posunzhuangzhi"
-      ]
+      ],
+      "sortId": 100019
     },
     "zh_TW": {
       "enabled": true,
       "name": "破損裝置",
-      "alias": []
+      "alias": [],
+      "sortId": 100019
     }
   },
   "M-2-2": {
     "en_US": {
       "enabled": true,
       "name": "Device",
-      "alias": []
+      "alias": [],
+      "sortId": 100018
     },
     "ja_JP": {
       "enabled": true,
       "name": "初級装置",
       "alias": [
         "初級装置"
-      ]
+      ],
+      "sortId": 100018
     },
     "ko_KR": {
       "enabled": true,
       "name": "장치",
-      "alias": []
+      "alias": [],
+      "sortId": 100018
     },
     "zh_CN": {
       "enabled": true,
@@ -1783,31 +2061,36 @@
       "alias": [
         "zhuang zhi",
         "zhuangzhi"
-      ]
+      ],
+      "sortId": 100018
     },
     "zh_TW": {
       "enabled": true,
       "name": "裝置",
-      "alias": []
+      "alias": [],
+      "sortId": 100018
     }
   },
   "M-3-2": {
     "en_US": {
       "enabled": true,
       "name": "Integrated Device",
-      "alias": []
+      "alias": [],
+      "sortId": 100017
     },
     "ja_JP": {
       "enabled": true,
       "name": "中級装置",
       "alias": [
         "中級装置"
-      ]
+      ],
+      "sortId": 100017
     },
     "ko_KR": {
       "enabled": true,
       "name": "리뉴얼 장치",
-      "alias": []
+      "alias": [],
+      "sortId": 100017
     },
     "zh_CN": {
       "enabled": true,
@@ -1815,31 +2098,36 @@
       "alias": [
         "quan xin zhuang zhi",
         "quanxinzhuangzhi"
-      ]
+      ],
+      "sortId": 100017
     },
     "zh_TW": {
       "enabled": true,
       "name": "全新裝置",
-      "alias": []
+      "alias": [],
+      "sortId": 100017
     }
   },
   "M-4-2": {
     "en_US": {
       "enabled": true,
       "name": "Optimized Device",
-      "alias": []
+      "alias": [],
+      "sortId": 100016
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級装置",
       "alias": [
         "上級装置"
-      ]
+      ],
+      "sortId": 100016
     },
     "ko_KR": {
       "enabled": true,
       "name": "개량 장치",
-      "alias": []
+      "alias": [],
+      "sortId": 100016
     },
     "zh_CN": {
       "enabled": true,
@@ -1847,31 +2135,36 @@
       "alias": [
         "gai liang zhuang zhi",
         "gailiangzhuangzhi"
-      ]
+      ],
+      "sortId": 100016
     },
     "zh_TW": {
       "enabled": true,
       "name": "改量裝置",
-      "alias": []
+      "alias": [],
+      "sortId": 100016
     }
   },
   "M-3-7": {
     "en_US": {
       "enabled": true,
       "name": "Loxic Kohl",
-      "alias": []
+      "alias": [],
+      "sortId": 100005
     },
     "ja_JP": {
       "enabled": true,
       "name": "合成コール",
       "alias": [
         "合成こーる"
-      ]
+      ],
+      "sortId": 100005
     },
     "ko_KR": {
       "enabled": true,
       "name": "로식 콜",
-      "alias": []
+      "alias": [],
+      "sortId": 100005
     },
     "zh_CN": {
       "enabled": true,
@@ -1879,31 +2172,36 @@
       "alias": [
         "niu zhuan chun",
         "niuzhuanchun"
-      ]
+      ],
+      "sortId": 100005
     },
     "zh_TW": {
       "enabled": true,
       "name": "扭轉醇",
-      "alias": []
+      "alias": [],
+      "sortId": 100005
     }
   },
   "M-4-7": {
     "en_US": {
       "enabled": true,
       "name": "White Horse Kohl",
-      "alias": []
+      "alias": [],
+      "sortId": 100004
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級合成コール",
       "alias": [
         "上級合成こーる"
-      ]
+      ],
+      "sortId": 100004
     },
     "ko_KR": {
       "enabled": true,
       "name": "화이트 호스 콜",
-      "alias": []
+      "alias": [],
+      "sortId": 100004
     },
     "zh_CN": {
       "enabled": true,
@@ -1911,31 +2209,36 @@
       "alias": [
         "bai ma chun",
         "baimachun"
-      ]
+      ],
+      "sortId": 100004
     },
     "zh_TW": {
       "enabled": true,
       "name": "白馬醇",
-      "alias": []
+      "alias": [],
+      "sortId": 100004
     }
   },
   "M-3-8": {
     "en_US": {
       "enabled": true,
       "name": "Manganese Ore",
-      "alias": []
+      "alias": [],
+      "sortId": 100007
     },
     "ja_JP": {
       "enabled": true,
       "name": "マンガン",
       "alias": [
         "まんがん"
-      ]
+      ],
+      "sortId": 100007
     },
     "ko_KR": {
       "enabled": true,
       "name": "망간 광석",
-      "alias": []
+      "alias": [],
+      "sortId": 100007
     },
     "zh_CN": {
       "enabled": true,
@@ -1943,31 +2246,36 @@
       "alias": [
         "qing meng kuang",
         "qingmengkuang"
-      ]
+      ],
+      "sortId": 100007
     },
     "zh_TW": {
       "enabled": true,
       "name": "輕錳礦",
-      "alias": []
+      "alias": [],
+      "sortId": 100007
     }
   },
   "M-4-8": {
     "en_US": {
       "enabled": true,
       "name": "Manganese Trihydrate",
-      "alias": []
+      "alias": [],
+      "sortId": 100006
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級マンガン",
       "alias": [
         "上級まんがん"
-      ]
+      ],
+      "sortId": 100006
     },
     "ko_KR": {
       "enabled": true,
       "name": "망간 중합체",
-      "alias": []
+      "alias": [],
+      "sortId": 100006
     },
     "zh_CN": {
       "enabled": true,
@@ -1975,31 +2283,36 @@
       "alias": [
         "san shui meng kuang",
         "sanshuimengkuang"
-      ]
+      ],
+      "sortId": 100006
     },
     "zh_TW": {
       "enabled": true,
       "name": "三水錳礦",
-      "alias": []
+      "alias": [],
+      "sortId": 100006
     }
   },
   "M-3-9": {
     "en_US": {
       "enabled": true,
       "name": "Grindstone",
-      "alias": []
+      "alias": [],
+      "sortId": 100009
     },
     "ja_JP": {
       "enabled": true,
       "name": "砥石",
       "alias": [
         "砥石"
-      ]
+      ],
+      "sortId": 100009
     },
     "ko_KR": {
       "enabled": true,
       "name": "연마석",
-      "alias": []
+      "alias": [],
+      "sortId": 100009
     },
     "zh_CN": {
       "enabled": true,
@@ -2007,31 +2320,36 @@
       "alias": [
         "yan mo shi",
         "yanmoshi"
-      ]
+      ],
+      "sortId": 100009
     },
     "zh_TW": {
       "enabled": true,
       "name": "研磨石",
-      "alias": []
+      "alias": [],
+      "sortId": 100009
     }
   },
   "M-4-9": {
     "en_US": {
       "enabled": true,
       "name": "Grindstone Pentahydrate",
-      "alias": []
+      "alias": [],
+      "sortId": 100008
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級砥石",
       "alias": [
         "上級砥石"
-      ]
+      ],
+      "sortId": 100008
     },
     "ko_KR": {
       "enabled": true,
       "name": "고급연마석",
-      "alias": []
+      "alias": [],
+      "sortId": 100008
     },
     "zh_CN": {
       "enabled": true,
@@ -2039,31 +2357,36 @@
       "alias": [
         "wu shui yan mo shi",
         "wushuiyanmoshi"
-      ]
+      ],
+      "sortId": 100008
     },
     "zh_TW": {
       "enabled": true,
       "name": "五水研磨石",
-      "alias": []
+      "alias": [],
+      "sortId": 100008
     }
   },
   "M-3-10": {
     "en_US": {
       "enabled": true,
       "name": "RMA70-12",
-      "alias": []
+      "alias": [],
+      "sortId": 100011
     },
     "ja_JP": {
       "enabled": true,
       "name": "RMA70-12",
       "alias": [
         "RMA70-12"
-      ]
+      ],
+      "sortId": 100011
     },
     "ko_KR": {
       "enabled": true,
       "name": "RMA70-12",
-      "alias": []
+      "alias": [],
+      "sortId": 100011
     },
     "zh_CN": {
       "enabled": true,
@@ -2071,31 +2394,36 @@
       "alias": [
         "RMA70-12",
         "RMA70-12"
-      ]
+      ],
+      "sortId": 100011
     },
     "zh_TW": {
       "enabled": true,
       "name": "RMA70-12",
-      "alias": []
+      "alias": [],
+      "sortId": 100011
     }
   },
   "M-4-10": {
     "en_US": {
       "enabled": true,
       "name": "RMA70-24",
-      "alias": []
+      "alias": [],
+      "sortId": 100010
     },
     "ja_JP": {
       "enabled": true,
       "name": "RMA70-24",
       "alias": [
         "RMA70-24"
-      ]
+      ],
+      "sortId": 100010
     },
     "ko_KR": {
       "enabled": true,
       "name": "RMA70-24",
-      "alias": []
+      "alias": [],
+      "sortId": 100010
     },
     "zh_CN": {
       "enabled": true,
@@ -2103,31 +2431,36 @@
       "alias": [
         "RMA70-24",
         "RMA70-24"
-      ]
+      ],
+      "sortId": 100010
     },
     "zh_TW": {
       "enabled": true,
       "name": "RMA70-24",
-      "alias": []
+      "alias": [],
+      "sortId": 100010
     }
   },
   "M-5-3": {
     "en_US": {
       "enabled": true,
       "name": "Polymerization Preparation",
-      "alias": []
+      "alias": [],
+      "sortId": 100003
     },
     "ja_JP": {
       "enabled": true,
       "name": "融合剤",
       "alias": [
         "融合剤"
-      ]
+      ],
+      "sortId": 100003
     },
     "ko_KR": {
       "enabled": true,
       "name": "중합제",
-      "alias": []
+      "alias": [],
+      "sortId": 100003
     },
     "zh_CN": {
       "enabled": true,
@@ -2135,31 +2468,36 @@
       "alias": [
         "ju he ji",
         "juheji"
-      ]
+      ],
+      "sortId": 100003
     },
     "zh_TW": {
       "enabled": true,
       "name": "聚合劑",
-      "alias": []
+      "alias": [],
+      "sortId": 100003
     }
   },
   "M-5-2": {
     "en_US": {
       "enabled": true,
       "name": "Bipolar Nanoflake",
-      "alias": []
+      "alias": [],
+      "sortId": 100002
     },
     "ja_JP": {
       "enabled": true,
       "name": "ナノフレーク",
       "alias": [
         "なのふれーく"
-      ]
+      ],
+      "sortId": 100002
     },
     "ko_KR": {
       "enabled": true,
       "name": "바이폴라 나노플레이크 칩",
-      "alias": []
+      "alias": [],
+      "sortId": 100002
     },
     "zh_CN": {
       "enabled": true,
@@ -2167,31 +2505,36 @@
       "alias": [
         "shuang ji na mi pian",
         "shuangjinamipian"
-      ]
+      ],
+      "sortId": 100002
     },
     "zh_TW": {
       "enabled": true,
       "name": "雙極納米片",
-      "alias": []
+      "alias": [],
+      "sortId": 100002
     }
   },
   "M-5-1": {
     "en_US": {
       "enabled": true,
       "name": "D32 Steel",
-      "alias": []
+      "alias": [],
+      "sortId": 100001
     },
     "ja_JP": {
       "enabled": true,
       "name": "D32鋼",
       "alias": [
         "D32鋼"
-      ]
+      ],
+      "sortId": 100001
     },
     "ko_KR": {
       "enabled": true,
       "name": "D32강",
-      "alias": []
+      "alias": [],
+      "sortId": 100001
     },
     "zh_CN": {
       "enabled": true,
@@ -2199,12 +2542,14 @@
       "alias": [
         "D32 gang",
         "D32gang"
-      ]
+      ],
+      "sortId": 100001
     },
     "zh_TW": {
       "enabled": true,
       "name": "D32鋼",
-      "alias": []
+      "alias": [],
+      "sortId": 100001
     }
   },
   "M-5-4": {
@@ -2229,7 +2574,8 @@
       "alias": [
         "jing ti dian zi dan yuan",
         "jingtidianzidanyuan"
-      ]
+      ],
+      "sortId": 100040
     },
     "zh_TW": {
       "enabled": false,
@@ -2241,19 +2587,22 @@
     "en_US": {
       "enabled": true,
       "name": "Coagulating Gel",
-      "alias": []
+      "alias": [],
+      "sortId": 100037
     },
     "ja_JP": {
       "enabled": true,
       "name": "人工ゲル",
       "alias": [
         "人工げる"
-      ]
+      ],
+      "sortId": 100037
     },
     "ko_KR": {
       "enabled": true,
       "name": "젤",
-      "alias": []
+      "alias": [],
+      "sortId": 100037
     },
     "zh_CN": {
       "enabled": true,
@@ -2261,7 +2610,8 @@
       "alias": [
         "ning jiao",
         "ningjiao"
-      ]
+      ],
+      "sortId": 100037
     },
     "zh_TW": {
       "enabled": false,
@@ -2273,19 +2623,22 @@
     "en_US": {
       "enabled": true,
       "name": "Polymerized Gel",
-      "alias": []
+      "alias": [],
+      "sortId": 100036
     },
     "ja_JP": {
       "enabled": true,
       "name": "融合ゲル",
       "alias": [
         "融合げる"
-      ]
+      ],
+      "sortId": 100036
     },
     "ko_KR": {
       "enabled": true,
       "name": "중합젤",
-      "alias": []
+      "alias": [],
+      "sortId": 100036
     },
     "zh_CN": {
       "enabled": true,
@@ -2293,7 +2646,8 @@
       "alias": [
         "ju he ning jiao",
         "juheningjiao"
-      ]
+      ],
+      "sortId": 100036
     },
     "zh_TW": {
       "enabled": false,
@@ -2305,19 +2659,22 @@
     "en_US": {
       "enabled": true,
       "name": "Incandescent Alloy",
-      "alias": []
+      "alias": [],
+      "sortId": 100039
     },
     "ja_JP": {
       "enabled": true,
       "name": "熾合金",
       "alias": [
         "熾合金"
-      ]
+      ],
+      "sortId": 100039
     },
     "ko_KR": {
       "enabled": true,
       "name": "열합금",
-      "alias": []
+      "alias": [],
+      "sortId": 100039
     },
     "zh_CN": {
       "enabled": true,
@@ -2325,7 +2682,8 @@
       "alias": [
         "chi he jin",
         "chihejin"
-      ]
+      ],
+      "sortId": 100039
     },
     "zh_TW": {
       "enabled": false,
@@ -2337,19 +2695,22 @@
     "en_US": {
       "enabled": true,
       "name": "Incandescent Alloy Block",
-      "alias": []
+      "alias": [],
+      "sortId": 100038
     },
     "ja_JP": {
       "enabled": true,
       "name": "上級熾合金",
       "alias": [
         "上級熾合金"
-      ]
+      ],
+      "sortId": 100038
     },
     "ko_KR": {
       "enabled": true,
       "name": "열합금 팩",
-      "alias": []
+      "alias": [],
+      "sortId": 100038
     },
     "zh_CN": {
       "enabled": true,
@@ -2357,7 +2718,8 @@
       "alias": [
         "chi he jin kuai",
         "chihejinkuai"
-      ]
+      ],
+      "sortId": 100038
     },
     "zh_TW": {
       "enabled": false,
@@ -2387,7 +2749,8 @@
       "alias": [
         "jing ti yuan jian",
         "jingtiyuanjian"
-      ]
+      ],
+      "sortId": 100042
     },
     "zh_TW": {
       "enabled": false,
@@ -2417,7 +2780,8 @@
       "alias": [
         "jing ti dian lu",
         "jingtidianlu"
-      ]
+      ],
+      "sortId": 100041
     },
     "zh_TW": {
       "enabled": false,
@@ -2429,19 +2793,22 @@
     "en_US": {
       "enabled": true,
       "name": "Chip Catalyst",
-      "alias": []
+      "alias": [],
+      "sortId": 400001
     },
     "ja_JP": {
       "enabled": true,
       "name": "SoC強化剤",
       "alias": [
         "SoC強化剤"
-      ]
+      ],
+      "sortId": 400001
     },
     "ko_KR": {
       "enabled": true,
       "name": "칩 첨가제",
-      "alias": []
+      "alias": [],
+      "sortId": 400001
     },
     "zh_CN": {
       "enabled": true,
@@ -2449,12 +2816,14 @@
       "alias": [
         "xin pian zhu ji",
         "xinpianzhuji"
-      ]
+      ],
+      "sortId": 400001
     },
     "zh_TW": {
       "enabled": true,
       "name": "晶片助劑",
-      "alias": []
+      "alias": [],
+      "sortId": 400001
     }
   }
 }

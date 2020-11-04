@@ -5,7 +5,7 @@ import cn from 'classnames';
 
 import ArkMaterialsGroup from '../../components/materialsGroup';
 
-import { material_grouping_options, material_list } from './options';
+import { material_grouping_options, material_list, sorted_material_list_by_locale } from './options';
 
 const item_scale = 0.42;
 
@@ -80,7 +80,7 @@ const ArkStockView = ({
 						<ArkMaterialsGroup
 							ir={ir}
 							stock={stock}
-							resources={material_list}
+							resources={sorted_material_list_by_locale[ir.locale] || material_list}
 							item_scale={item_scale}
 							adjustStockItem={adjustStockItem}
 							groups={material_grouping_options[grouping_type].groups}

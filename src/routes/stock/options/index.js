@@ -1,5 +1,10 @@
 import { MONEY, PURCHASE_CREDIT, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../../models/Resources';
 
+import item_i18n from '../../../i18n/items.json';
+import { locale as available_locale } from '../../../i18n/locale';
+
+const LANG = Object.keys(available_locale);
+
 const material_list = [
 	MONEY,
 	PURCHASE_CREDIT,
@@ -7,7 +12,19 @@ const material_list = [
 	...MATERIALS,
 	...SKILL_BOOKS,
 	...CHIPS,
-].sort((a, b) => a.sortId - b.sortId);
+];
+
+const sorted_material_list_by_locale = Object.fromEntries(
+	LANG.map(locale => [
+		locale, material_list.map(e => {
+			const material_i18n = item_i18n[e.id];
+			return {
+				...e,
+				sortId: material_i18n && material_i18n[locale].sortId || 999999999,
+			};
+		}).sort((a, b) => a.sortId - b.sortId),
+	])
+);
 
 const indexed_material_list = material_list.map((m, index) => ({
 	material: m,
@@ -100,4 +117,5 @@ professions.forEach(({ value, render }, index) => {
 export {
 	material_grouping_options,
 	material_list,
+	sorted_material_list_by_locale,
 };

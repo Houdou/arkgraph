@@ -32,12 +32,14 @@ const readTable = (lang) => {
 			const item_id = ItemMapping[unique_id];
 			const {
 				name: name_raw,
+				sortId,
 			} = value;
 
 			const name = String(name_raw).trim();
 			item_data[item_id][lang].enabled = true;
 			item_data[item_id][lang].name = name;
 			item_data[item_id][lang].alias = [];
+			item_data[item_id][lang].sortId = sortId;
 			if (lang === 'zh_CN') {
 				const item_pinyin = [].concat(...pinyin(name, {
 					style: pinyin.STYLE_NORMAL,
