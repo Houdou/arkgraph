@@ -14,17 +14,16 @@ const material_list = [
 	...CHIPS,
 ];
 
-const sorted_material_list_by_locale = Object.fromEntries(
-	LANG.map(locale => [
-		locale, material_list.map(e => {
-			const material_i18n = item_i18n[e.id];
-			return {
-				...e,
-				sortId: material_i18n && material_i18n[locale].sortId || 999999999,
-			};
-		}).sort((a, b) => a.sortId - b.sortId),
-	])
-);
+const sorted_material_list_by_locale = {};
+LANG.forEach(locale => {
+	sorted_material_list_by_locale[locale] = material_list.map(e => {
+		const material_i18n = item_i18n[e.id];
+		return {
+			...e,
+			sortId: material_i18n && material_i18n[locale].sortId || 999999999,
+		};
+	}).sort((a, b) => a.sortId - b.sortId);
+});
 
 const indexed_material_list = material_list.map((m, index) => ({
 	material: m,
