@@ -5,7 +5,7 @@ import { locale as available_locale } from '../../../i18n/locale';
 
 const LANG = Object.keys(available_locale);
 
-const material_list = [
+const default_material_list = [
 	MONEY,
 	PURCHASE_CREDIT,
 	...EXP_TAPES,
@@ -13,22 +13,6 @@ const material_list = [
 	...SKILL_BOOKS,
 	...CHIPS,
 ];
-
-const sorted_material_list_by_locale = {};
-LANG.forEach(locale => {
-	sorted_material_list_by_locale[locale] = material_list.map(e => {
-		const material_i18n = item_i18n[e.id];
-		return {
-			...e,
-			sortId: material_i18n && material_i18n[locale].sortId || 999999999,
-		};
-	}).sort((a, b) => a.sortId - b.sortId);
-});
-
-const indexed_material_list = material_list.map((m, index) => ({
-	material: m,
-	index,
-}));
 
 const material_grouping_options = {
 	default: {
@@ -76,45 +60,79 @@ const material_grouping_options = {
 	},
 };
 
-Object.entries(material_grouping_options)
-	.forEach(([key, data]) => {
-		if (!data.field) {
-			return;
-		}
-		data.options.forEach(({ value, render }) => {
-			material_grouping_options[key].groups[value] =
-				{
-					render,
-					list: indexed_material_list
-						.filter(({ material }) => material[data.field] === value)
-						.map(({ index }) => index),
-				};
+const sorted_material_list_by_locale = {};
+const material_grouping_options_by_locale = {};
+LANG.forEach(locale => {
+	const sorted_material_list = default_material_list.map(e => {
+		const material_i18n = item_i18n[e.id];
+		return {
+			...e,
+			sortId: material_i18n && material_i18n[locale].sortId || 999999999,
+		};
+	}).sort((a, b) => a.sortId - b.sortId);
+	sorted_material_list_by_locale[locale] = sorted_material_list;
+
+	material_grouping_options_by_locale[locale] = getMaterialGroupingOptions(sorted_material_list);
+});
+
+function getMaterialGroupingOptions(material_list) {
+	const i18n_material_grouping_options = JSON.parse(JSON.stringify(material_grouping_options));
+
+	const indexed_material_list = material_list.map((m, index) => ({
+		material: m,
+		index,
+	}));
+
+	Object.entries(i18n_material_grouping_options)
+		.forEach(([key, data]) => {
+			if (!data.field) {
+				return;
+			}
+			data.options.forEach(({ value, render }) => {
+				i18n_material_grouping_options[key].groups[value] =
+					{
+						render,
+						list: indexed_material_list
+							.filter(({ material }) => material[data.field] === value)
+							.map(({ index }) => index),
+					};
+			});
 		});
+
+	// Special handling for chip
+	i18n_material_grouping_options.type.groups.chip.render = 'material_grouping_options-type-catalyst';
+	i18n_material_grouping_options.type.groups.chip.list = [
+		indexed_material_list.find(({ material }) => material.id === 'O-4-1').index,
+	];
+
+	const profession_chip_index = indexed_material_list
+		.filter(({ material }) => material.id.startsWith('C-'));
+	const professions = [
+		{ id_surfix: '1', value: 'pioneer', render: 'material_grouping_options-type-pioneer' },
+		{ id_surfix: '2', value: 'warrior', render: 'material_grouping_options-type-warrior' },
+		{ id_surfix: '3', value: 'tank', render: 'material_grouping_options-type-tank' },
+		{ id_surfix: '4', value: 'sniper', render: 'material_grouping_options-type-sniper' },
+		{ id_surfix: '5', value: 'caster', render: 'material_grouping_options-type-caster' },
+		{ id_surfix: '6', value: 'medic', render: 'material_grouping_options-type-medic' },
+		{ id_surfix: '7', value: 'support', render: 'material_grouping_options-type-support' },
+		{ id_surfix: '8', value: 'special', render: 'material_grouping_options-type-special' },
+	];
+
+	professions.forEach(({ id_surfix, value, render }) => {
+		i18n_material_grouping_options.type.groups[`chip_${value}`] = {
+			render: `${render}_chip`,
+			list: profession_chip_index.filter(({ material }) => material.id.endsWith(id_surfix)).map(({ index }) => index),
+		};
 	});
 
+	return i18n_material_grouping_options;
+}
 
-// Special handling for chip
-material_grouping_options.type.groups.chip.render = 'material_grouping_options-type-catalyst';
-const profession_chip_index = material_grouping_options.type.groups.chip.list.splice(1, 3 * 8);
-const professions = [
-	{ value: 'pioneer', render: 'material_grouping_options-type-pioneer' },
-	{ value: 'warrior', render: 'material_grouping_options-type-warrior' },
-	{ value: 'tank', render: 'material_grouping_options-type-tank' },
-	{ value: 'sniper', render: 'material_grouping_options-type-sniper' },
-	{ value: 'caster', render: 'material_grouping_options-type-caster' },
-	{ value: 'medic', render: 'material_grouping_options-type-medic' },
-	{ value: 'support', render: 'material_grouping_options-type-support' },
-	{ value: 'special', render: 'material_grouping_options-type-special' },
-];
-professions.forEach(({ value, render }, index) => {
-	material_grouping_options.type.groups[`chip_${value}`] = {
-		render: `${render}_chip`,
-		list: profession_chip_index.splice(0, 3),
-	};
-});
+const material_list = sorted_material_list_by_locale.zh_CN;
 
 export {
 	material_grouping_options,
 	material_list,
 	sorted_material_list_by_locale,
+	material_grouping_options_by_locale,
 };
