@@ -4942,6 +4942,52 @@
     "code": "vulcan",
     "code_name": "Vulcan"
   },
+  "char_378_asbest": {
+    "en_US": {
+      "enabled": true,
+      "name": "Asbestos",
+      "skills": [
+        "Resilient Mode",
+        "Thermal Power Mode"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アスベストス",
+      "skills": [
+        "堅守モード",
+        "爆炎モード"
+      ],
+      "alias": [
+        "あすべすとす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아스베스토스",
+      "skills": [
+        "인트렌치 모드",
+        "서멀 모드"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "石棉",
+      "skills": [
+        "固守模式",
+        "火电模式"
+      ],
+      "alias": [
+        "shi mian",
+        "shimian"
+      ],
+      "appellation": "Asbestos"
+    },
+    "code": "asbestos",
+    "code_name": "Asbestos"
+  },
   "char_145_prove": {
     "en_US": {
       "enabled": true,
@@ -5372,6 +5418,52 @@
     },
     "code": "sora",
     "code_name": "Sora"
+  },
+  "char_343_tknogi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tsukinogi",
+      "skills": [
+        "Without a Trace",
+        "Forest's Embrace"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ツキノギ",
+      "skills": [
+        "跡無",
+        "森廻"
+      ],
+      "alias": [
+        "つきのぎ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "츠키노기",
+      "skills": [
+        "역무",
+        "삼회"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "月禾",
+      "skills": [
+        "迹无",
+        "森廻"
+      ],
+      "alias": [
+        "yue he",
+        "yuehe"
+      ],
+      "appellation": "Tsukinogi"
+    },
+    "code": "tsukinogi",
+    "code_name": "Tsukinogi"
   },
   "char_215_mantic": {
     "en_US": {
@@ -8709,23 +8801,6 @@
     "code": null,
     "code_name": "Whisperain"
   },
-  "char_378_asbest": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "石棉",
-      "skills": [
-        "固守模式",
-        "火电模式"
-      ],
-      "alias": [
-        "shi mian",
-        "shimian"
-      ],
-      "appellation": "Asbestos"
-    },
-    "code": null,
-    "code_name": "Asbestos"
-  },
   "char_218_cuttle": {
     "zh_CN": {
       "enabled": true,
@@ -8759,23 +8834,6 @@
     },
     "code": null,
     "code_name": "Shamare"
-  },
-  "char_343_tknogi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "月禾",
-      "skills": [
-        "迹无",
-        "森廻"
-      ],
-      "alias": [
-        "yue he",
-        "yuehe"
-      ],
-      "appellation": "Tsukinogi"
-    },
-    "code": null,
-    "code_name": "Tsukinogi"
   },
   "char_391_rosmon": {
     "zh_CN": {
