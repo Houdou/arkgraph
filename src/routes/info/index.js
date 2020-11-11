@@ -14,6 +14,26 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			{
+				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
+					<Fragment>
+						<p>2020-11-11</p>
+					[EN][JP][KR]<br />
+					Added event operators<br />
+					新規オペレーターを追加しました<br />
+						{
+							[
+								'char_343_tknogi',
+								'char_378_asbest',
+							].map(id => (
+								<Fragment>
+							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
+								</Fragment>
+							))
+						}
+					</Fragment>
+				)
+			}
 			<p>2020-11-11</p>
 			修复了库存页面分类排序错误问题<br />
 			Fixed the wrong grouping orders in stock page<br />
@@ -36,30 +56,6 @@ const Info = ({
 			【<a href="/operator/泥岩">泥岩</a>】
 			【<a href="/operator/絮雨">絮雨</a>】
 			【<a href="/operator/杰克">杰克</a>】
-			{
-				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
-					<Fragment>
-						<p>2020-10-28</p>
-					[EN][JP][KR]<br />
-					Added event operators<br />
-					新規オペレーターを追加しました<br />
-						{
-							[
-								'char_250_phatom',
-								'char_113_cqbw',
-								'char_358_lisa',
-								'char_294_ayer',
-								'char_345_folnic',
-								'char_328_cammou',
-							].map(id => (
-								<Fragment>
-							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
-								</Fragment>
-							))
-						}
-					</Fragment>
-				)
-			}
 			<br />
 			<p>2020-09-07</p>
 			修复了roguelike模式干员导致的部分页面错误<br />
