@@ -63,21 +63,21 @@
   width: 160px;
   height: 200px;
 }
-.tip_paypal, .tip_paypal_button {
+.tip_donate, .tip_donate_button {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.tip_paypal_button {
+.tip_donate_button {
   padding: 12px;
   border-radius: 3px;
   background: #036ab7;
   box-shadow: 1px 2px 3px rgba(24, 24, 24, 0.3);
 }
-.tip_paypal_button a {
+.tip_donate_button a {
   text-decoration: none;
 }
-.tip_paypal_button .paypal_icon {
+.tip_donate_button .donate_icon {
   height: 24px;
   margin-right: 8px;
 }

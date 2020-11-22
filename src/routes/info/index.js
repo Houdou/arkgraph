@@ -104,11 +104,10 @@ const Info = ({
 					<img class={style.tip} src="../../assets/tip_ali.png" alt="reward_author" />
 					<img class={style.tip} src="../../assets/tip_wechat.png" alt="reward_author" />
 				</div>
-				<div class={style.tip_paypal}>
-					<div class={style.tip_paypal_button}>
-						<img class={style.paypal_icon} src="../../assets/icons/paypal.png" alt="paypal_icon" />
-						<a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ARY83FB9HG9WY&item_name=Operating+Ark-Nights.com&currency_code=USD&source=url">
-							Donate with PayPal
+				<div class={style.tip_donate}>
+					<div class={style.tip_donate_button}>
+						<a target="_blank" href="https://opencollective.com/towastudio/donate">
+							Donate with OpenCollective
 						</a>
 					</div>
 				</div>
