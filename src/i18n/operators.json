@@ -3129,6 +3129,52 @@
     "code": "texas",
     "code_name": "Texas"
   },
+  "char_349_chiave": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chiave",
+      "skills": [
+        "Charge γ",
+        "Blazing Wire Stripper"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "キアーベ",
+      "skills": [
+        "突撃指令γ",
+        "火炎剥離"
+      ],
+      "alias": [
+        "きあーべ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "키아베",
+      "skills": [
+        "돌격지령γ",
+        "플레임 필링"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "贾维",
+      "skills": [
+        "冲锋号令·γ型",
+        "火焰剥离"
+      ],
+      "alias": [
+        "jia wei",
+        "jiawei"
+      ],
+      "appellation": "Chiave"
+    },
+    "code": "chiave",
+    "code_name": "Chiave"
+  },
   "char_261_sddrag": {
     "en_US": {
       "enabled": true,
@@ -4216,6 +4262,52 @@
     },
     "code": "leizi",
     "code_name": "Leizi"
+  },
+  "char_344_beewax": {
+    "en_US": {
+      "enabled": true,
+      "name": "Beeswax",
+      "skills": [
+        "Growing Sandstorm",
+        "Guardian Obelisk"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ビーズワクス",
+      "skills": [
+        "砂嵐拡散",
+        "オベリスク召喚"
+      ],
+      "alias": [
+        "びーずわくす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비즈왁스",
+      "skills": [
+        "모래 폭풍 확산",
+        "수호의 오벨리스크"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "蜜蜡",
+      "skills": [
+        "沙暴扩散",
+        "守卫尖碑"
+      ],
+      "alias": [
+        "mi la",
+        "mila"
+      ],
+      "appellation": "Beeswax"
+    },
+    "code": "beeswax",
+    "code_name": "Beeswax"
   },
   "char_373_lionhd": {
     "en_US": {
@@ -7420,6 +7512,52 @@
     "code": "front toward enemy",
     "code_name": "F.T.E"
   },
+  "token_10011_beewax_oblisk": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sand Obelisk",
+      "skills": [
+        "",
+        "Summon Sand Obelisk"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "砂の碑",
+      "skills": [
+        "",
+        "オベリスクの激震"
+      ],
+      "alias": [
+        "砂の碑"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사막의 오벨리스크",
+      "skills": [
+        "",
+        "모래의 비석 소환"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙之碑",
+      "skills": [
+        "",
+        "沙之碑召唤"
+      ],
+      "alias": [
+        "sha zhi bei",
+        "shazhibei"
+      ],
+      "appellation": "Desert Obelisk"
+    },
+    "code": "sand obelisk",
+    "code_name": "Desert Obelisk"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -7963,6 +8101,82 @@
     },
     "code": "l-44 \"gramophone\"",
     "code_name": "Gramophone"
+  },
+  "trap_015_tree": {
+    "en_US": {
+      "enabled": true,
+      "name": "Giant Mushroom",
+      "skills": [
+        "Natural Camouflage"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "巨蕈",
+      "skills": [
+        "天然隐蔽"
+      ],
+      "alias": [
+        "巨蕈"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "거대 버섯",
+      "skills": [
+        "천연 은폐"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "巨蕈",
+      "skills": [
+        "天然隐蔽"
+      ],
+      "alias": [
+        "ju xun",
+        "juxun"
+      ],
+      "appellation": "Huge Fungus"
+    },
+    "code": "giant mushroom",
+    "code_name": "Huge Fungus"
+  },
+  "trap_016_peon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Temporary Rhodes Island Employee",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "罗德岛临时雇员",
+      "skills": [],
+      "alias": [
+        "罗德岛临时雇员"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로도스 아일랜드 임시 직원",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗德岛临时雇员",
+      "skills": [],
+      "alias": [
+        "luo de dao lin shi gu yuan",
+        "luodedaolinshiguyuan"
+      ],
+      "appellation": "Temporary Employer"
+    },
+    "code": "temporary rhodes island employee",
+    "code_name": "Temporary Employer"
   },
   "char_230_savage": {
     "en_US": {
@@ -8533,23 +8747,6 @@
     "code": null,
     "code_name": "Bubble"
   },
-  "char_349_chiave": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "贾维",
-      "skills": [
-        "冲锋号令·γ型",
-        "火焰剥离"
-      ],
-      "alias": [
-        "jia wei",
-        "jiawei"
-      ],
-      "appellation": "Chiave"
-    },
-    "code": null,
-    "code_name": "Chiave"
-  },
   "char_401_elysm": {
     "zh_CN": {
       "enabled": true,
@@ -8716,23 +8913,6 @@
     },
     "code": null,
     "code_name": "Pith"
-  },
-  "char_344_beewax": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "蜜蜡",
-      "skills": [
-        "沙暴扩散",
-        "守卫尖碑"
-      ],
-      "alias": [
-        "mi la",
-        "mila"
-      ],
-      "appellation": "Beeswax"
-    },
-    "code": null,
-    "code_name": "Beeswax"
   },
   "char_388_mint": {
     "zh_CN": {
@@ -9013,23 +9193,6 @@
     "code": null,
     "code_name": "M.P.M"
   },
-  "token_10011_beewax_oblisk": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "沙之碑",
-      "skills": [
-        "",
-        "沙之碑召唤"
-      ],
-      "alias": [
-        "sha zhi bei",
-        "shazhibei"
-      ],
-      "appellation": "Desert Obelisk"
-    },
-    "code": null,
-    "code_name": "Desert Obelisk"
-  },
   "token_10012_rosmon_shield": {
     "zh_CN": {
       "enabled": true,
@@ -9063,36 +9226,6 @@
     },
     "code": null,
     "code_name": "Originium Shrine"
-  },
-  "trap_015_tree": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "巨蕈",
-      "skills": [
-        "天然隐蔽"
-      ],
-      "alias": [
-        "ju xun",
-        "juxun"
-      ],
-      "appellation": "Huge Fungus"
-    },
-    "code": null,
-    "code_name": "Huge Fungus"
-  },
-  "trap_016_peon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "罗德岛临时雇员",
-      "skills": [],
-      "alias": [
-        "luo de dao lin shi gu yuan",
-        "luodedaolinshiguyuan"
-      ],
-      "appellation": "Temporary Employer"
-    },
-    "code": null,
-    "code_name": "Temporary Employer"
   },
   "trap_018_bomb": {
     "zh_CN": {
