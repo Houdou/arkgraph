@@ -2614,9 +2614,10 @@
       "sortId": 100037
     },
     "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "凝膠",
+      "alias": [],
+      "sortId": 100037
     }
   },
   "M-4-11": {
@@ -2650,9 +2651,10 @@
       "sortId": 100036
     },
     "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "聚合凝膠",
+      "alias": [],
+      "sortId": 100036
     }
   },
   "M-3-12": {
@@ -2686,9 +2688,10 @@
       "sortId": 100039
     },
     "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "熾合金",
+      "alias": [],
+      "sortId": 100039
     }
   },
   "M-4-12": {
@@ -2722,9 +2725,10 @@
       "sortId": 100038
     },
     "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "熾合金塊",
+      "alias": [],
+      "sortId": 100038
     }
   },
   "M-3-13": {
