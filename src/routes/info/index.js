@@ -14,6 +14,13 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2020-12-17</p>
+			添加了新干员<br />
+			【<a href="/operator/山">山</a>】
+			【<a href="/operator/卡夫卡">卡夫卡</a>】
+			【<a href="/operator/罗宾">罗宾</a>】
+			【<a href="/operator/松果">松果</a>】
+			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
@@ -36,31 +43,12 @@ const Info = ({
 					</Fragment>
 				)
 			}
-			<p>2020-11-11</p>
-			修复了库存页面分类排序错误问题<br />
-			Fixed the wrong grouping orders in stock page<br />
-			<p>2020-11-01</p>
-			【重要】
-			阿米娅升变相关技能材料，现阶段请使用<b>【升变阿米娅】</b>为关键词查询干员<br />
-			理解为添加了一位名叫【升变阿米娅】的干员即可<br />
-			直达：【<a href="/operator/升变阿米娅">升变阿米娅</a>】<br />
-			<br />
-			考虑到后期可能加入的其他复制人干员，之后的实现方案可能变更<br />
 			<br />
 			添加了新材料<br />
 			【<a href="/materials/M-5-4">晶体电子单元</a>】
 			【<a href="/materials/M-4-13">晶体电路</a>】
 			【<a href="/materials/M-3-13">晶体元件</a>】
 			<br />
-			<br />
-			添加了新干员<br />
-			【<a href="/operator/迷迭香">迷迭香</a>】
-			【<a href="/operator/泥岩">泥岩</a>】
-			【<a href="/operator/絮雨">絮雨</a>】
-			【<a href="/operator/杰克">杰克</a>】
-			<br />
-			<p>2020-09-07</p>
-			修复了roguelike模式干员导致的部分页面错误<br />
 			<p>2020-05-17</p>
 			增加了固定表头的功能<br />
 			先頭列固定機能を追加しました<br />
