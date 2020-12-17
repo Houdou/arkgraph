@@ -8863,6 +8863,23 @@
     "code": null,
     "code_name": "Reserve (Caster)"
   },
+  "char_440_pinecn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "松果",
+      "skills": [
+        "RMA长钉",
+        "电能过载"
+      ],
+      "alias": [
+        "song guo",
+        "songguo"
+      ],
+      "appellation": "Pinecone"
+    },
+    "code": null,
+    "code_name": "Pinecone"
+  },
   "char_366_acdrop": {
     "zh_CN": {
       "enabled": true,
@@ -9182,6 +9199,23 @@
     "code": null,
     "code_name": "Whisperain"
   },
+  "char_214_kafka": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "卡夫卡",
+      "skills": [
+        "怪异魔方",
+        "诡异剪刀"
+      ],
+      "alias": [
+        "ka fu ka",
+        "kafuka"
+      ],
+      "appellation": "Kafka"
+    },
+    "code": null,
+    "code_name": "Kafka"
+  },
   "char_218_cuttle": {
     "zh_CN": {
       "enabled": true,
@@ -9198,6 +9232,23 @@
     },
     "code": null,
     "code_name": "Andreana"
+  },
+  "char_451_robin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗宾",
+      "skills": [
+        "束缚“夹子”",
+        "弹射“夹子”"
+      ],
+      "alias": [
+        "luo bin",
+        "luobin"
+      ],
+      "appellation": "Robin"
+    },
+    "code": null,
+    "code_name": "Robin"
   },
   "char_391_rosmon": {
     "zh_CN": {
@@ -9289,6 +9340,24 @@
     "code": null,
     "code_name": "Eunectes"
   },
+  "char_264_f12yin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "山",
+      "skills": [
+        "左勾扫拳",
+        "横扫架势",
+        "震地碎岩击"
+      ],
+      "alias": [
+        "shan",
+        "shan"
+      ],
+      "appellation": "Mountain"
+    },
+    "code": null,
+    "code_name": "Mountain"
+  },
   "char_293_thorns": {
     "zh_CN": {
       "enabled": true,
@@ -9377,6 +9446,40 @@
     },
     "code": null,
     "code_name": "Rosmontis-gear"
+  },
+  "token_10013_robin_mine": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "\"夹子\"",
+      "skills": [
+        "束缚“夹子”",
+        "弹射“夹子”"
+      ],
+      "alias": [
+        "\" jia zi \"",
+        "\"jiazi\""
+      ],
+      "appellation": "\"Clip\" Charge"
+    },
+    "code": null,
+    "code_name": "\"Clip\" Charge"
+  },
+  "token_10014_bstalk_crab": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "磐蟹护卫队",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "pan xie hu wei dui",
+        "panxiehuweidui"
+      ],
+      "appellation": "M.C.G"
+    },
+    "code": null,
+    "code_name": "M.C.G"
   },
   "trap_011_ore": {
     "zh_CN": {
@@ -9505,6 +9608,22 @@
     },
     "code": null,
     "code_name": "Shield Guard"
+  },
+  "trap_025_prison": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "禁锢装置",
+      "skills": [
+        "启动禁锢！"
+      ],
+      "alias": [
+        "jin gu zhuang zhi",
+        "jinguzhuangzhi"
+      ],
+      "appellation": "Prison Device"
+    },
+    "code": null,
+    "code_name": "Prison Device"
   },
   "char_347_jaksel": {
     "zh_CN": {
