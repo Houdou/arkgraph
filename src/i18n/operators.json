@@ -79,6 +79,40 @@
     "code": "castle-3",
     "code_name": "Castle-3"
   },
+  "char_376_therex": {
+    "en_US": {
+      "enabled": true,
+      "name": "THRM-EX",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "THRM-EX",
+      "skills": [],
+      "alias": [
+        "THRM-EX"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "THRM-EX",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "THRM-EX",
+      "skills": [],
+      "alias": [
+        "THRM-EX",
+        "THRM-EX"
+      ],
+      "appellation": "Thermal-EX"
+    },
+    "code": "thrm-ex",
+    "code_name": "Thermal-EX"
+  },
   "char_502_nblade": {
     "en_US": {
       "enabled": true,
@@ -1557,6 +1591,15 @@
         "anbier"
       ],
       "appellation": "Ambriel"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "安比爾",
+      "skills": [
+        "阻擋彈",
+        "雷達定位"
+      ],
+      "alias": []
     },
     "code": "ambriel",
     "code_name": "Ambriel"
@@ -3276,6 +3319,52 @@
     "code": "reed",
     "code_name": "Reed"
   },
+  "char_401_elysm": {
+    "en_US": {
+      "enabled": true,
+      "name": "Elysium",
+      "skills": [
+        "Support γ",
+        "Monitor"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エリジウム",
+      "skills": [
+        "支援指令γ",
+        "集音"
+      ],
+      "alias": [
+        "えりじうむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "엘리시움",
+      "skills": [
+        "지원지령γ",
+        "경청"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "极境",
+      "skills": [
+        "支援号令·γ型",
+        "聆听"
+      ],
+      "alias": [
+        "ji jing",
+        "jijing"
+      ],
+      "appellation": "Elysium"
+    },
+    "code": "elysium",
+    "code_name": "Elysium"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -3997,6 +4086,15 @@
         "huihou"
       ],
       "appellation": "GreyThroat"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "灰喉",
+      "skills": [
+        "飛羽",
+        "回流"
+      ],
+      "alias": []
     },
     "code": "greythroat",
     "code_name": "GreyThroat"
@@ -6612,6 +6710,56 @@
     "code": "phantom",
     "code_name": "Phantom"
   },
+  "char_400_weedy": {
+    "en_US": {
+      "enabled": true,
+      "name": "Weedy",
+      "skills": [
+        "Barrel Burst",
+        "Hydraulics Mode",
+        "Liquid Nitrogen Cannon"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウィーディ",
+      "skills": [
+        "砲身強打",
+        "ハイドロキャノン",
+        "LN2キャノン"
+      ],
+      "alias": [
+        "うぃーでぃ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "위디",
+      "skills": [
+        "포관 타격",
+        "물대포 모드",
+        "액체 질소 대포"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "温蒂",
+      "skills": [
+        "炮管敲击",
+        "水炮模式",
+        "液氮大炮"
+      ],
+      "alias": [
+        "wen di",
+        "wendi"
+      ],
+      "appellation": "Weedy"
+    },
+    "code": "weedy",
+    "code_name": "Weedy"
+  },
   "char_225_haak": {
     "en_US": {
       "enabled": true,
@@ -6629,7 +6777,7 @@
       "skills": [
         "高速射撃",
         "劇性増強剤・γ",
-        "劇性増強剤・ドリアン　"
+        "劇性増強剤・ドリアン"
       ],
       "alias": [
         "あ"
@@ -7118,6 +7266,16 @@
         "huang"
       ],
       "appellation": "Blaze"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "煌",
+      "skills": [
+        "強力擊·γ型",
+        "鏈鋸延伸模組",
+        "沸騰爆裂"
+      ],
+      "alias": []
     },
     "code": "blaze",
     "code_name": "Blaze"
@@ -7733,6 +7891,56 @@
     "code": "front toward enemy",
     "code_name": "F.T.E"
   },
+  "token_10009_weedy_cannon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Industrial Reserve Water Cannon",
+      "skills": [
+        "",
+        "",
+        "Liquid Nitrogen Cannon"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "工事用蓄水砲",
+      "skills": [
+        "",
+        "",
+        "LN2キャノン"
+      ],
+      "alias": [
+        "工事用蓄水砲"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공학용 저수포",
+      "skills": [
+        "",
+        "",
+        "액체 질소 대포"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "工程蓄水炮",
+      "skills": [
+        "",
+        "",
+        "液氮大炮"
+      ],
+      "alias": [
+        "gong cheng xu shui pao",
+        "gongchengxushuipao"
+      ],
+      "appellation": "Cannon"
+    },
+    "code": "industrial reserve water cannon",
+    "code_name": "Cannon"
+  },
   "token_10011_beewax_oblisk": {
     "en_US": {
       "enabled": true,
@@ -8022,7 +8230,7 @@
       "enabled": true,
       "name": "干擾裝置",
       "skills": [
-        "無人機幹擾"
+        "無人機干擾"
       ],
       "alias": []
     },
@@ -8208,8 +8416,58 @@
       ],
       "appellation": "Originium ICrystal"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "源石冰晶",
+      "skills": [
+        "寒潮"
+      ],
+      "alias": []
+    },
     "code": "originium ice crystal",
     "code_name": "Originium ICrystal"
+  },
+  "trap_011_ore": {
+    "en_US": {
+      "enabled": true,
+      "name": "Originium Altar",
+      "skills": [
+        "Pulse Wave"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "源石祭壇",
+      "skills": [
+        "源石衝撃波"
+      ],
+      "alias": [
+        "源石祭壇"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오리지늄 제단",
+      "skills": [
+        "충격파"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石祭坛",
+      "skills": [
+        "脉冲波"
+      ],
+      "alias": [
+        "yuan shi ji tan",
+        "yuanshijitan"
+      ],
+      "appellation": "Originium Shrine"
+    },
+    "code": "originium altar",
+    "code_name": "Originium Shrine"
   },
   "trap_012_mine": {
     "en_US": {
@@ -8793,20 +9051,6 @@
     "code": "skadi",
     "code_name": "Skadi"
   },
-  "char_376_therex": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "THRM-EX",
-      "skills": [],
-      "alias": [
-        "THRM-EX",
-        "THRM-EX"
-      ],
-      "appellation": "Thermal-EX"
-    },
-    "code": null,
-    "code_name": "Thermal-EX"
-  },
   "char_504_rguard": {
     "zh_CN": {
       "enabled": true,
@@ -8981,23 +9225,6 @@
     },
     "code": null,
     "code_name": "Bubble"
-  },
-  "char_401_elysm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "极境",
-      "skills": [
-        "支援号令·γ型",
-        "聆听"
-      ],
-      "alias": [
-        "ji jing",
-        "jijing"
-      ],
-      "appellation": "Elysium"
-    },
-    "code": null,
-    "code_name": "Elysium"
   },
   "char_265_sophia": {
     "zh_CN": {
@@ -9268,24 +9495,6 @@
     "code": null,
     "code_name": "Rosmontis"
   },
-  "char_400_weedy": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "温蒂",
-      "skills": [
-        "炮管敲击",
-        "水炮模式",
-        "液氮大炮"
-      ],
-      "alias": [
-        "wen di",
-        "wendi"
-      ],
-      "appellation": "Weedy"
-    },
-    "code": null,
-    "code_name": "Weedy"
-  },
   "char_423_blemsh": {
     "zh_CN": {
       "enabled": true,
@@ -9394,24 +9603,6 @@
     "code": null,
     "code_name": "Surtr"
   },
-  "token_10009_weedy_cannon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "工程蓄水炮",
-      "skills": [
-        "",
-        "",
-        "液氮大炮"
-      ],
-      "alias": [
-        "gong cheng xu shui pao",
-        "gongchengxushuipao"
-      ],
-      "appellation": "Cannon"
-    },
-    "code": null,
-    "code_name": "Cannon"
-  },
   "token_10010_folivo_car": {
     "zh_CN": {
       "enabled": true,
@@ -9463,39 +9654,6 @@
     },
     "code": null,
     "code_name": "\"Clip\" Charge"
-  },
-  "token_10014_bstalk_crab": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "磐蟹护卫队",
-      "skills": [
-        "",
-        ""
-      ],
-      "alias": [
-        "pan xie hu wei dui",
-        "panxiehuweidui"
-      ],
-      "appellation": "M.C.G"
-    },
-    "code": null,
-    "code_name": "M.C.G"
-  },
-  "trap_011_ore": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "源石祭坛",
-      "skills": [
-        "脉冲波"
-      ],
-      "alias": [
-        "yuan shi ji tan",
-        "yuanshijitan"
-      ],
-      "appellation": "Originium Shrine"
-    },
-    "code": null,
-    "code_name": "Originium Shrine"
   },
   "trap_018_bomb": {
     "zh_CN": {
