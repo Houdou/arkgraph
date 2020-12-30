@@ -14,26 +14,18 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-12-17</p>
-			添加了新干员<br />
-			【<a href="/operator/山">山</a>】
-			【<a href="/operator/卡夫卡">卡夫卡</a>】
-			【<a href="/operator/罗宾">罗宾</a>】
-			【<a href="/operator/松果">松果</a>】
-			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2020-12-10</p>
+						<p>2020-12-30</p>
 					[EN][JP][KR]<br />
 					Added event operators<br />
 					新規オペレーターを追加しました<br />
 						{
 							[
-								'char_250_phatom',
-								'char_254_vodfox',
-								'char_301_cutter',
-								'char_333_sidero',
+								'char_113_cqbw',
+								'char_400_weedy',
+								'char_401_elysm',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
@@ -43,6 +35,13 @@ const Info = ({
 					</Fragment>
 				)
 			}
+			<br />
+			<p>2020-12-17</p>
+			添加了新干员<br />
+			【<a href="/operator/山">山</a>】
+			【<a href="/operator/卡夫卡">卡夫卡</a>】
+			【<a href="/operator/罗宾">罗宾</a>】
+			【<a href="/operator/松果">松果</a>】
 			<br />
 			添加了新材料<br />
 			【<a href="/materials/M-5-4">晶体电子单元</a>】
