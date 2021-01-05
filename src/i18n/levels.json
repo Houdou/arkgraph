@@ -4413,6 +4413,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "hard_06-02": {
@@ -4427,6 +4430,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -4443,6 +4449,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "hard_06-04": {
@@ -4457,6 +4466,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -8444,6 +8456,102 @@
       "enabled": true
     }
   },
+  "act15d5_01": {
+    "code": "BH-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_01#f#": {
+    "code": "BH-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_02": {
+    "code": "BH-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_02#f#": {
+    "code": "BH-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_03": {
+    "code": "BH-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_03#f#": {
+    "code": "BH-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_04": {
+    "code": "BH-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_04#f#": {
+    "code": "BH-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_05": {
+    "code": "BH-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_05#f#": {
+    "code": "BH-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_06": {
+    "code": "BH-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_06#f#": {
+    "code": "BH-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_07": {
+    "code": "BH-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_07#f#": {
+    "code": "BH-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_08": {
+    "code": "BH-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act15d5_08#f#": {
+    "code": "BH-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act15d0_01": {
     "code": "MB-1",
     "zh_CN": {
@@ -9046,6 +9154,12 @@
   },
   "camp_r_01": {
     "code": "卡西米尔",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_02": {
+    "code": "乌萨斯",
     "zh_CN": {
       "enabled": true
     }

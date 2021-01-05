@@ -3316,6 +3316,15 @@
       ],
       "appellation": "Reed"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "葦草",
+      "skills": [
+        "迅捷打擊·γ型",
+        "生靈火花"
+      ],
+      "alias": []
+    },
     "code": "reed",
     "code_name": "Reed"
   },
@@ -3829,6 +3838,15 @@
         "buluoka"
       ],
       "appellation": "Broca"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "布洛卡",
+      "skills": [
+        "通電",
+        "高壓電流"
+      ],
+      "alias": []
     },
     "code": "broca",
     "code_name": "Broca"
@@ -9141,6 +9159,23 @@
     "code": null,
     "code_name": "Aciddrop"
   },
+  "char_452_bstalk": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "豆苗",
+      "skills": [
+        "定点指令",
+        "“大家一起上”"
+      ],
+      "alias": [
+        "dou miao",
+        "doumiao"
+      ],
+      "appellation": "Beanstalk"
+    },
+    "code": null,
+    "code_name": "Beanstalk"
+  },
   "char_159_peacok": {
     "zh_CN": {
       "enabled": true,
@@ -9376,6 +9411,23 @@
     "code": null,
     "code_name": "Mint"
   },
+  "char_338_iris": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "爱丽丝",
+      "skills": [
+        "童话守卫者",
+        "梦乡摇篮"
+      ],
+      "alias": [
+        "ai li si",
+        "ailisi"
+      ],
+      "appellation": "Iris"
+    },
+    "code": null,
+    "code_name": "Iris"
+  },
   "char_336_folivo": {
     "zh_CN": {
       "enabled": true,
@@ -9476,6 +9528,24 @@
     },
     "code": null,
     "code_name": "Robin"
+  },
+  "char_332_archet": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "空弦",
+      "skills": [
+        "箭矢·散逸",
+        "箭矢·追猎",
+        "箭矢·暴风"
+      ],
+      "alias": [
+        "kong xian",
+        "kongxian"
+      ],
+      "appellation": "Archetto"
+    },
+    "code": null,
+    "code_name": "Archetto"
   },
   "char_391_rosmon": {
     "zh_CN": {
@@ -9654,6 +9724,23 @@
     },
     "code": null,
     "code_name": "\"Clip\" Charge"
+  },
+  "token_10014_bstalk_crab": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "磐蟹护卫队",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "pan xie hu wei dui",
+        "panxiehuweidui"
+      ],
+      "appellation": "M.C.G"
+    },
+    "code": null,
+    "code_name": "M.C.G"
   },
   "trap_018_bomb": {
     "zh_CN": {
