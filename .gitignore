@@ -2,8 +2,7 @@ node_modules
 build
 /*.log
 src/assets/wip
-scripts/commands/*
-scripts/an/*
+scripts/excels/*
 scripts/i18n/data
 
 package-lock.json
