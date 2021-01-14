@@ -29,8 +29,6 @@ const parseCharacter = (character, unique_id) => {
 		return null;
 	}
 
-	console.log(character.name);
-
 	const operator_pinyin = [].concat(...pinyin(character.name, {
 		style: pinyin.STYLE_NORMAL,
 	}));
@@ -88,7 +86,6 @@ const parseCharacter = (character, unique_id) => {
 		max_master_skills: operator.master_skills.length,
 	};
 
-	console.log(operator);
 	return operator;
 };
 

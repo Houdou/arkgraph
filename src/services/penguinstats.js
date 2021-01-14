@@ -1,4 +1,4 @@
-const URL = 'https://penguin-stats.io/PenguinStats/api/result/matrix?show_item_details=false&show_stage_details=false';
+const URL = 'https://penguin-stats.io/PenguinStats/api/v2/result/matrix';
 
 const fetchStatMatrix = async () => {
 	let matrix = [];

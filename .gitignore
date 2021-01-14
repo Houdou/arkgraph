@@ -4,5 +4,6 @@ build
 src/assets/wip
 scripts/excels/*
 scripts/i18n/data
+scripts/copy.js
 
 package-lock.json

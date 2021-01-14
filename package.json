@@ -10,6 +10,7 @@
     "pull-data": "cd scripts/i18n/data && git pull origin master --rebase",
     "prepare-data": "node scripts/copy.js",
     "parse-data": "node scripts/update.js",
+    "bump": "node scripts/bump.js",
     "update": "yarn pull-data && yarn prepare-data && yarn parse-data",
     "build": "preact build --no-prerender --template src/template.html",
     "serve": "preact build --no-prerender && preact serve --port 3000",
