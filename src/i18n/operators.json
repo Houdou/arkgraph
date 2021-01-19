@@ -9478,6 +9478,23 @@
     "code": null,
     "code_name": "Whisperain"
   },
+  "char_402_tuye": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "图耶",
+      "skills": [
+        "水流环",
+        "强心剂"
+      ],
+      "alias": [
+        "tu ye",
+        "tuye"
+      ],
+      "appellation": "Tuye"
+    },
+    "code": null,
+    "code_name": "Tuye"
+  },
   "char_214_kafka": {
     "zh_CN": {
       "enabled": true,
@@ -9869,6 +9886,22 @@
     },
     "code": null,
     "code_name": "Prison Device"
+  },
+  "trap_027_stone": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "碎石",
+      "skills": [
+        "阻挡路线"
+      ],
+      "alias": [
+        "sui shi",
+        "suishi"
+      ],
+      "appellation": "Rubble"
+    },
+    "code": null,
+    "code_name": "Rubble"
   },
   "char_347_jaksel": {
     "zh_CN": {
