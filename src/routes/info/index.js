@@ -14,24 +14,18 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2020-12-17</p>
-			添加了新干员<br />
-			【<a href="/operator/空弦">空弦</a>】
-			【<a href="/operator/爱丽丝">爱丽丝</a>】
-			【<a href="/operator/豆苗">豆苗</a>】
-			<br />
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2020-12-30</p>
+						<p>2021-01-20</p>
 					[EN][JP][KR]<br />
 					Added event operators<br />
 					新規オペレーターを追加しました<br />
 						{
 							[
-								'char_113_cqbw',
-								'char_400_weedy',
-								'char_401_elysm',
+								'char_293_thorns',
+								'char_218_cuttle',
+								'char_272_strong',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
@@ -42,15 +36,11 @@ const Info = ({
 				)
 			}
 			<br />
-			添加了新材料<br />
-			【<a href="/materials/M-5-4">晶体电子单元</a>】
-			【<a href="/materials/M-4-13">晶体电路</a>】
-			【<a href="/materials/M-3-13">晶体元件</a>】
+			<p>2021-01-19</p>
+			添加了新干员<br />
+			【<a href="/operator/图耶">图耶</a>】
 			<br />
-			<p>2020-05-17</p>
-			增加了固定表头的功能<br />
-			先頭列固定機能を追加しました<br />
-			Added freeze row header feature<br />
+			<br />
 			<p>2020-01-16</p>
 			添加了多语言支持🎉<br />
 			日本語を追加しました🎉<br />

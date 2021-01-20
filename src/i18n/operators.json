@@ -8624,12 +8624,12 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "巨蕈",
+      "name": "おばけ茸",
       "skills": [
-        "天然隐蔽"
+        "きのこガード"
       ],
       "alias": [
-        "巨蕈"
+        "おばけ茸"
       ]
     },
     "ko_KR": {
@@ -8664,10 +8664,10 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "罗德岛临时雇员",
+      "name": "伐採作業員",
       "skills": [],
       "alias": [
-        "罗德岛临时雇员"
+        "伐採作業員"
       ]
     },
     "ko_KR": {
@@ -9069,6 +9069,120 @@
     "code": "skadi",
     "code_name": "Skadi"
   },
+  "char_272_strong": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジェイ",
+      "skills": [
+        "蟹爪断ち",
+        "刺身・乱れ盛り"
+      ],
+      "alias": [
+        "じぇい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "제이",
+      "skills": [
+        "집게 자르기",
+        "모듬 회"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "孑",
+      "skills": [
+        "断螯",
+        "刺身拼盘"
+      ],
+      "alias": [
+        "jie",
+        "jie"
+      ],
+      "appellation": "Jaye"
+    },
+    "code": null,
+    "code_name": "Jaye"
+  },
+  "char_218_cuttle": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "アンドレアナ",
+      "skills": [
+        "攻撃力強化γ",
+        "脅威妨害戦術"
+      ],
+      "alias": [
+        "あんどれあな"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "안드레이나",
+      "skills": [
+        "공격 강화γ",
+        "차단 사격 전술"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "安哲拉",
+      "skills": [
+        "攻击力强化·γ型",
+        "阻滞射击战术"
+      ],
+      "alias": [
+        "an zhe la",
+        "anzhela"
+      ],
+      "appellation": "Andreana"
+    },
+    "code": null,
+    "code_name": "Andreana"
+  },
+  "char_293_thorns": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "ソーンズ",
+      "skills": [
+        "攻撃力強化γ",
+        "迎撃針棘",
+        "デストレッツァ"
+      ],
+      "alias": [
+        "そーんず"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "쏜즈",
+      "skills": [
+        "공격 강화γ",
+        "호신용 가시",
+        "지고의 술"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "棘刺",
+      "skills": [
+        "攻击力强化·γ型",
+        "护身尖刺",
+        "至高之术"
+      ],
+      "alias": [
+        "ji ci",
+        "jici"
+      ],
+      "appellation": "Thorns"
+    },
+    "code": null,
+    "code_name": "Thorns"
+  },
   "char_504_rguard": {
     "zh_CN": {
       "enabled": true,
@@ -9209,23 +9323,6 @@
     },
     "code": null,
     "code_name": "Arene"
-  },
-  "char_272_strong": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "孑",
-      "skills": [
-        "断螯",
-        "刺身拼盘"
-      ],
-      "alias": [
-        "jie",
-        "jie"
-      ],
-      "appellation": "Jaye"
-    },
-    "code": null,
-    "code_name": "Jaye"
   },
   "char_385_finlpp": {
     "zh_CN": {
@@ -9512,23 +9609,6 @@
     "code": null,
     "code_name": "Kafka"
   },
-  "char_218_cuttle": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "安哲拉",
-      "skills": [
-        "攻击力强化·γ型",
-        "阻滞射击战术"
-      ],
-      "alias": [
-        "an zhe la",
-        "anzhela"
-      ],
-      "appellation": "Andreana"
-    },
-    "code": null,
-    "code_name": "Andreana"
-  },
   "char_451_robin": {
     "zh_CN": {
       "enabled": true,
@@ -9653,24 +9733,6 @@
     },
     "code": null,
     "code_name": "Mountain"
-  },
-  "char_293_thorns": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "棘刺",
-      "skills": [
-        "攻击力强化·γ型",
-        "护身尖刺",
-        "至高之术"
-      ],
-      "alias": [
-        "ji ci",
-        "jici"
-      ],
-      "appellation": "Thorns"
-    },
-    "code": null,
-    "code_name": "Thorns"
   },
   "char_350_surtr": {
     "zh_CN": {

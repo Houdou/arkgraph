@@ -8150,6 +8150,18 @@
       "enabled": true
     }
   },
+  "act11d7_st01": {
+    "code": "OF-ST6",
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "main_08-01": {
     "code": "R8-1",
     "zh_CN": {
@@ -9142,12 +9154,6 @@
   },
   "act12d0_ex08#f#": {
     "code": "RI-EX-8",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act11d7_st01": {
-    "code": "OF-ST6",
     "zh_CN": {
       "enabled": true
     }
