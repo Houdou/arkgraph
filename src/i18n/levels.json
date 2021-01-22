@@ -5162,6 +5162,21 @@
       "enabled": true
     }
   },
+  "act11d7_st01": {
+    "code": "OF-ST6",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act9d0_01": {
     "code": "DM-1",
     "en_US": {
@@ -6195,6 +6210,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act7d5_01#f#": {
@@ -6209,6 +6227,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -6225,6 +6246,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act7d5_02#f#": {
@@ -6239,6 +6263,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -6255,6 +6282,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act7d5_03#f#": {
@@ -6269,6 +6299,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -6285,6 +6318,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act7d5_04#f#": {
@@ -6299,6 +6335,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -6315,6 +6354,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act7d5_05#f#": {
@@ -6329,6 +6371,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -6345,6 +6390,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act7d5_06#f#": {
@@ -6359,6 +6407,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -8147,18 +8198,6 @@
       "enabled": true
     },
     "zh_TW": {
-      "enabled": true
-    }
-  },
-  "act11d7_st01": {
-    "code": "OF-ST6",
-    "ja_JP": {
-      "enabled": true
-    },
-    "ko_KR": {
-      "enabled": true
-    },
-    "zh_CN": {
       "enabled": true
     }
   },
