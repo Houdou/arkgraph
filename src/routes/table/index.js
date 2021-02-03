@@ -148,7 +148,7 @@ const ArkTable = ({
 						<ArkUpgradeInputRow
 							ir={ir}
 							showExtendedData={config.showExtendedData}
-							key={`${record.operator}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
+							key={`${record.operator_id}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
 							record={record}
 							record_index={index}
 							update={updateRow}
