@@ -4682,6 +4682,52 @@
     "code": "mayer",
     "code_name": "Mayer"
   },
+  "char_336_folivo": {
+    "en_US": {
+      "enabled": true,
+      "name": "Scene",
+      "skills": [
+        "Protective Camouflage",
+        "Panoramic Overload"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シーン",
+      "skills": [
+        "擬態化機能",
+        "フルパノラマ撮影"
+      ],
+      "alias": [
+        "しーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "씬",
+      "skills": [
+        "보호색 은폐",
+        "과다 노출 풍경 촬영"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "稀音",
+      "skills": [
+        "保护色隐蔽",
+        "全景过载摄像"
+      ],
+      "alias": [
+        "xi yin",
+        "xiyin"
+      ],
+      "appellation": "Scene"
+    },
+    "code": "scene",
+    "code_name": "Scene"
+  },
   "char_108_silent": {
     "en_US": {
       "enabled": true,
@@ -4990,6 +5036,15 @@
         "hou"
       ],
       "appellation": "Hung"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "吽",
+      "skills": [
+        "反制治療",
+        "反制醫療模式"
+      ],
+      "alias": []
     },
     "code": "hung",
     "code_name": "Hung"
@@ -5623,6 +5678,15 @@
         "xuezhi"
       ],
       "appellation": "Snowsant"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "雪雉",
+      "skills": [
+        "倒刺鉤爪",
+        "伸縮式電捕網"
+      ],
+      "alias": []
     },
     "code": "snowsant",
     "code_name": "Snowsant"
@@ -6936,6 +7000,16 @@
       ],
       "appellation": "Aak"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "阿",
+      "skills": [
+        "快速射擊",
+        "爆發劑·γ型",
+        "爆發劑·榴槤味"
+      ],
+      "alias": []
+    },
     "code": "aak",
     "code_name": "Aak"
   },
@@ -7225,6 +7299,16 @@
         "nian"
       ],
       "appellation": "Nian"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "年",
+      "skills": [
+        "錫灼",
+        "銅印",
+        "鐵禦"
+      ],
+      "alias": []
     },
     "code": "nian",
     "code_name": "Nian"
@@ -8119,6 +8203,52 @@
     },
     "code": "industrial reserve water cannon",
     "code_name": "Cannon"
+  },
+  "token_10010_folivo_car": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mobile Buggy Cam",
+      "skills": [
+        "",
+        "Panoramic Overload"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "撮影ロボット",
+      "skills": [
+        "",
+        "フルパノラマ撮影"
+      ],
+      "alias": [
+        "撮影ろぼっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동촬영기",
+      "skills": [
+        "",
+        "과다 노출 풍경 촬영"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "移动摄影器",
+      "skills": [
+        "",
+        "全景过载摄像"
+      ],
+      "alias": [
+        "yi dong she ying qi",
+        "yidongsheyingqi"
+      ],
+      "appellation": "M.P.M"
+    },
+    "code": "mobile buggy cam",
+    "code_name": "M.P.M"
   },
   "token_10011_beewax_oblisk": {
     "en_US": {
@@ -9572,23 +9702,6 @@
     "code": null,
     "code_name": "Iris"
   },
-  "char_336_folivo": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "稀音",
-      "skills": [
-        "保护色隐蔽",
-        "全景过载摄像"
-      ],
-      "alias": [
-        "xi yin",
-        "xiyin"
-      ],
-      "appellation": "Scene"
-    },
-    "code": null,
-    "code_name": "Scene"
-  },
   "char_510_amedic": {
     "zh_CN": {
       "enabled": true,
@@ -9798,23 +9911,6 @@
     },
     "code": null,
     "code_name": "Surtr"
-  },
-  "token_10010_folivo_car": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "移动摄影器",
-      "skills": [
-        "",
-        "全景过载摄像"
-      ],
-      "alias": [
-        "yi dong she ying qi",
-        "yidongsheyingqi"
-      ],
-      "appellation": "M.P.M"
-    },
-    "code": null,
-    "code_name": "M.P.M"
   },
   "token_10012_rosmon_shield": {
     "zh_CN": {
