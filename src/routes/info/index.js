@@ -14,18 +14,26 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2021-02-07</p>
+			其实周五已经更新了数据了，这次忘记写公告了（扶额<br />
+			不好意思给各位产生了还没有更新的误解<br />
+			会改进一下更新机制，尽量做到自动加上更新日志<br />
+			<p>2021-02-05</p>
+			添加了新干员<br />
+			【<a href="/operator/夕">夕</a>】
+			【<a href="/operator/嵯峨">嵯峨</a>】
+			【<a href="/operator/乌有">乌有</a>】
+			【<a href="/operator/炎狱炎熔">炎狱炎熔</a>】
 			{
 				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
 					<Fragment>
-						<p>2021-01-20</p>
+						<p>2021-02-04</p>
 					[EN][JP][KR]<br />
 					Added event operators<br />
 					新規オペレーターを追加しました<br />
 						{
 							[
-								'char_293_thorns',
-								'char_218_cuttle',
-								'char_272_strong',
+								'char_336_folivo',
 							].map(id => (
 								<Fragment>
 							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
