@@ -151,7 +151,7 @@ const ArkSettings = ({
 					config.locale !== 'zh_CN' && (
 						<Fragment>
 							<h2>{ir('settings-extended_data-extended_data', 'Extended Data (Unstable)')}</h2>
-							{['en_US', 'ko_KR'].includes(config.locale) && (
+							{['zh_TW', 'en_US', 'ko_KR'].includes(config.locale) && (
 								<p>
 									Enable if you need to view ALL operators currently available in CN server. <br />
 									Use operator's codename to search.

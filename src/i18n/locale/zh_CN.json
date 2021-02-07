@@ -1,6 +1,7 @@
 {
 	"app-title": "明日方舟 | 干员培养表",
 	"homepage-announcement": "公告",
+	"homepage-announcement-new_operators": "添加了新干员",
 	"homepage-donation": "捐助",
 	"homepage-about": "关于项目",
 	"header-nav-homepage": "首页",
@@ -169,8 +170,8 @@
 	"settings-language-language": "语言",
 	"settings-backup-backup": "数据备份",
 	"settings-backup-clear_data": "双击清除所有数据",
-	"settings-extended_data-extended_data": "-",
-	"settings-extended_data-show": "-",
+	"settings-extended_data-extended_data": "未实装数据",
+	"settings-extended_data-show": "显示",
 	"settings-arkplanner-export-prefix": "导出",
 	"settings-arkplanner-export-suffix": "用数据"
 }

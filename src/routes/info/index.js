@@ -3,6 +3,43 @@ import style from './style';
 
 import { STORAGE_VERSION } from '../../config/useConfig';
 import { getOperatorName } from '../../models/Operators';
+const announcement_data = require('./auto_announcements.json');
+
+const AnnouncementItem = ({
+	date,
+	children,
+}) => (
+	<Fragment>
+		<p>{date}</p>
+		{
+			children
+		}
+		<br />
+	</Fragment>
+);
+
+const OperatorUpdates = ({
+	ir,
+	locale,
+	date,
+	new_operators,
+}) => (
+	<AnnouncementItem
+		date={date}
+	>
+		{ir('homepage-announcement-new_operators', 'New operators')}
+		<br />
+		{
+			new_operators.map(
+				id => (
+					<Fragment>
+					【<a href={`/operator/${getOperatorName({ id, locale })}`}>{getOperatorName({ id, locale })}</a>】
+					</Fragment>
+				)
+			)
+		}
+	</AnnouncementItem>
+);
 
 const Info = ({
 	config,
@@ -18,36 +55,19 @@ const Info = ({
 			其实周五已经更新了数据了，这次忘记写公告了（扶额<br />
 			不好意思给各位产生了还没有更新的误解<br />
 			会改进一下更新机制，尽量做到自动加上更新日志<br />
-			<p>2021-02-05</p>
-			添加了新干员<br />
-			【<a href="/operator/夕">夕</a>】
-			【<a href="/operator/嵯峨">嵯峨</a>】
-			【<a href="/operator/乌有">乌有</a>】
-			【<a href="/operator/炎狱炎熔">炎狱炎熔</a>】
 			{
-				['en_US', 'ja_JP', 'ko_KR'].includes(config.locale) && (
-					<Fragment>
-						<p>2021-02-04</p>
-					[EN][JP][KR]<br />
-					Added event operators<br />
-					新規オペレーターを追加しました<br />
-						{
-							[
-								'char_336_folivo',
-							].map(id => (
-								<Fragment>
-							【<a href={`/operator/${getOperatorName({ id, locale: config.locale })}`}>{getOperatorName({ id, locale: config.locale })}</a>】
-								</Fragment>
-							))
+				announcement_data
+					.filter(row => row.server.includes(config.locale))
+					.filter((_, i) => i < 10)
+					.map(row => {
+						switch (row.type) {
+							case 'new_operators':
+								return <OperatorUpdates ir={ir} locale={config.locale} {...row} />;
+							default:
+								return null;
 						}
-					</Fragment>
-				)
+					})
 			}
-			<br />
-			<p>2021-01-19</p>
-			添加了新干员<br />
-			【<a href="/operator/图耶">图耶</a>】
-			<br />
 			<br />
 			<p>2020-01-16</p>
 			添加了多语言支持🎉<br />
