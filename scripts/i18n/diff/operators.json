@@ -9361,6 +9361,20 @@
     "code_name": "Skadi"
   },
   "char_504_rguard": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-近距離",
+      "skills": [],
+      "alias": [
+        "予備隊員-近距離"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 근거리",
+      "skills": [],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "预备干员-近战",
@@ -9375,6 +9389,20 @@
     "code_name": "Reserve (Melee)"
   },
   "char_507_rsnipe": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-狙撃",
+      "skills": [],
+      "alias": [
+        "予備隊員-狙撃"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 스나이퍼",
+      "skills": [],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "预备干员-狙击",
@@ -9389,6 +9417,20 @@
     "code_name": "Reserve (Sniper)"
   },
   "char_506_rmedic": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-支援",
+      "skills": [],
+      "alias": [
+        "予備隊員-支援"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 지원",
+      "skills": [],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "预备干员-后勤",
@@ -9403,6 +9445,20 @@
     "code_name": "Reserve (Logistic)"
   },
   "char_505_rcast": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-術師",
+      "skills": [],
+      "alias": [
+        "予備隊員-術師"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 캐스터",
+      "skills": [],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "预备干员-术师",
@@ -9415,6 +9471,293 @@
     },
     "code": null,
     "code_name": "Reserve (Caster)"
+  },
+  "char_366_acdrop": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "アシッドドロップ",
+      "skills": [
+        "ファンシーショット",
+        "ダブルトリガー"
+      ],
+      "alias": [
+        "あしっどどろっぷ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "애시드드롭",
+      "skills": [
+        "버트 점사",
+        "트릭 타임"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "酸糖",
+      "skills": [
+        "花式点射",
+        "扳机时刻"
+      ],
+      "alias": [
+        "suan tang",
+        "suantang"
+      ],
+      "appellation": "Aciddrop"
+    },
+    "code": null,
+    "code_name": "Aciddrop"
+  },
+  "char_508_aguard": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "鋭刃"
+      ],
+      "alias": [
+        "Sharp"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "빛나는 검"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "亮剑"
+      ],
+      "alias": [
+        "Sharp",
+        "Sharp"
+      ],
+      "appellation": "Sharp"
+    },
+    "code": null,
+    "code_name": "Sharp"
+  },
+  "char_415_flint": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "フリント",
+      "skills": [
+        "ストマックブロー",
+        "鳥舞蜂刺"
+      ],
+      "alias": [
+        "ふりんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "플린트",
+      "skills": [
+        "불식",
+        "실력 과시"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "燧石",
+      "skills": [
+        "不息",
+        "锋芒毕露"
+      ],
+      "alias": [
+        "sui shi",
+        "suishi"
+      ],
+      "appellation": "Flint"
+    },
+    "code": null,
+    "code_name": "Flint"
+  },
+  "char_511_asnipe": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "旋風矢"
+      ],
+      "alias": [
+        "Stormeye"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "스파이럴 암"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "旋臂"
+      ],
+      "alias": [
+        "Stormeye",
+        "Stormeye"
+      ],
+      "appellation": "Stormeye"
+    },
+    "code": null,
+    "code_name": "Stormeye"
+  },
+  "char_411_tomimi": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "トミミ",
+      "skills": [
+        "部族の教え",
+        "ガヴィル保護プラン"
+      ],
+      "alias": [
+        "とみみ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "토미미",
+      "skills": [
+        "부족의 아츠",
+        "가비알 보호 방안"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "特米米",
+      "skills": [
+        "部族技艺",
+        "嘉维尔保护方案"
+      ],
+      "alias": [
+        "te mi mi",
+        "temimi"
+      ],
+      "appellation": "Tomimi"
+    },
+    "code": null,
+    "code_name": "Tomimi"
+  },
+  "char_509_acast": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "「我が成すことを成せ」"
+      ],
+      "alias": [
+        "Pith"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "\"내가 하고 싶은 걸 한다\""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“为我所为”"
+      ],
+      "alias": [
+        "Pith",
+        "Pith"
+      ],
+      "appellation": "Pith"
+    },
+    "code": null,
+    "code_name": "Pith"
+  },
+  "char_510_amedic": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "天啓の光"
+      ],
+      "alias": [
+        "Touch"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "천계와 같이"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "宛如天启"
+      ],
+      "alias": [
+        "Touch",
+        "Touch"
+      ],
+      "appellation": "Touch"
+    },
+    "code": null,
+    "code_name": "Touch"
+  },
+  "char_416_zumama": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "ユーネクテス",
+      "skills": [
+        "トマホーク",
+        "烈震崩撃",
+        "鋼鉄の意思"
+      ],
+      "alias": [
+        "ゆーねくてす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "유넥티스",
+      "skills": [
+        "경량형 도끼",
+        "위압적인 내려찍기",
+        "강철의 의지"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "森蚺",
+      "skills": [
+        "轻型挂斧",
+        "震慑劈砍",
+        "钢铁意志"
+      ],
+      "alias": [
+        "sen ran",
+        "senran"
+      ],
+      "appellation": "Eunectes"
+    },
+    "code": null,
+    "code_name": "Eunectes"
   },
   "char_440_pinecn": {
     "zh_CN": {
@@ -9432,23 +9775,6 @@
     },
     "code": null,
     "code_name": "Pinecone"
-  },
-  "char_366_acdrop": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "酸糖",
-      "skills": [
-        "花式点射",
-        "扳机时刻"
-      ],
-      "alias": [
-        "suan tang",
-        "suantang"
-      ],
-      "appellation": "Aciddrop"
-    },
-    "code": null,
-    "code_name": "Aciddrop"
   },
   "char_452_bstalk": {
     "zh_CN": {
@@ -9552,55 +9878,6 @@
     "code": null,
     "code_name": "Whislash"
   },
-  "char_508_aguard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Sharp",
-      "skills": [
-        "亮剑"
-      ],
-      "alias": [
-        "Sharp",
-        "Sharp"
-      ],
-      "appellation": "Sharp"
-    },
-    "code": null,
-    "code_name": "Sharp"
-  },
-  "char_415_flint": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "燧石",
-      "skills": [
-        "不息",
-        "锋芒毕露"
-      ],
-      "alias": [
-        "sui shi",
-        "suishi"
-      ],
-      "appellation": "Flint"
-    },
-    "code": null,
-    "code_name": "Flint"
-  },
-  "char_511_asnipe": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Stormeye",
-      "skills": [
-        "旋臂"
-      ],
-      "alias": [
-        "Stormeye",
-        "Stormeye"
-      ],
-      "appellation": "Stormeye"
-    },
-    "code": null,
-    "code_name": "Stormeye"
-  },
   "char_365_aprl": {
     "zh_CN": {
       "enabled": true,
@@ -9634,39 +9911,6 @@
     },
     "code": null,
     "code_name": "Aosta"
-  },
-  "char_411_tomimi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "特米米",
-      "skills": [
-        "部族技艺",
-        "嘉维尔保护方案"
-      ],
-      "alias": [
-        "te mi mi",
-        "temimi"
-      ],
-      "appellation": "Tomimi"
-    },
-    "code": null,
-    "code_name": "Tomimi"
-  },
-  "char_509_acast": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Pith",
-      "skills": [
-        "“为我所为”"
-      ],
-      "alias": [
-        "Pith",
-        "Pith"
-      ],
-      "appellation": "Pith"
-    },
-    "code": null,
-    "code_name": "Pith"
   },
   "char_388_mint": {
     "zh_CN": {
@@ -9718,22 +9962,6 @@
     },
     "code": null,
     "code_name": "Purgatory"
-  },
-  "char_510_amedic": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Touch",
-      "skills": [
-        "宛如天启"
-      ],
-      "alias": [
-        "Touch",
-        "Touch"
-      ],
-      "appellation": "Touch"
-    },
-    "code": null,
-    "code_name": "Touch"
   },
   "char_436_whispr": {
     "zh_CN": {
@@ -9927,24 +10155,6 @@
     },
     "code": null,
     "code_name": "Mudrock"
-  },
-  "char_416_zumama": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "森蚺",
-      "skills": [
-        "轻型挂斧",
-        "震慑劈砍",
-        "钢铁意志"
-      ],
-      "alias": [
-        "sen ran",
-        "senran"
-      ],
-      "appellation": "Eunectes"
-    },
-    "code": null,
-    "code_name": "Eunectes"
   },
   "char_264_f12yin": {
     "zh_CN": {

@@ -1,6 +1,20 @@
 [
   {
     "server": [
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-02-25",
+    "type": "new_operators",
+    "new_operators": [
+      "char_416_zumama",
+      "char_415_flint",
+      "char_411_tomimi",
+      "char_366_acdrop"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2021-02-05",
