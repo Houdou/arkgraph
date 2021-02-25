@@ -413,6 +413,40 @@
     "code": "vanilla",
     "code_name": "Vanilla"
   },
+  "char_504_rguard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Melee",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-近距離",
+      "skills": [],
+      "alias": [
+        "予備隊員-近距離"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 근거리",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-近战",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - jin zhan",
+        "yubeiganyuan-jinzhan"
+      ],
+      "appellation": "Reserve (Melee)"
+    },
+    "code": "reserve operator - melee",
+    "code_name": "Reserve (Melee)"
+  },
   "char_192_falco": {
     "en_US": {
       "enabled": true,
@@ -813,6 +847,40 @@
     "code": "adnachiel",
     "code_name": "Adnachiel"
   },
+  "char_507_rsnipe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Sniper",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-狙撃",
+      "skills": [],
+      "alias": [
+        "予備隊員-狙撃"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 스나이퍼",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-狙击",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - ju ji",
+        "yubeiganyuan-juji"
+      ],
+      "appellation": "Reserve (Sniper)"
+    },
+    "code": "reserve operator - sniper",
+    "code_name": "Reserve (Sniper)"
+  },
   "char_121_lava": {
     "en_US": {
       "enabled": true,
@@ -963,6 +1031,40 @@
     "code": "ansel",
     "code_name": "Ansel"
   },
+  "char_506_rmedic": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Logistics",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-支援",
+      "skills": [],
+      "alias": [
+        "予備隊員-支援"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 지원",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-后勤",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - hou qin",
+        "yubeiganyuan-houqin"
+      ],
+      "appellation": "Reserve (Logistic)"
+    },
+    "code": "reserve operator - logistics",
+    "code_name": "Reserve (Logistic)"
+  },
   "char_210_stward": {
     "en_US": {
       "enabled": true,
@@ -1012,6 +1114,40 @@
     },
     "code": "steward",
     "code_name": "Steward"
+  },
+  "char_505_rcast": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Caster",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-術師",
+      "skills": [],
+      "alias": [
+        "予備隊員-術師"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 캐스터",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-术师",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - shu shi",
+        "yubeiganyuan-shushi"
+      ],
+      "appellation": "Reserve (Caster)"
+    },
+    "code": "reserve operator - caster",
+    "code_name": "Reserve (Caster)"
   },
   "char_278_orchid": {
     "en_US": {
@@ -1603,6 +1739,52 @@
     },
     "code": "ambriel",
     "code_name": "Ambriel"
+  },
+  "char_366_acdrop": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aciddrop",
+      "skills": [
+        "Fancy Shot",
+        "Trigger Time"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アシッドドロップ",
+      "skills": [
+        "ファンシーショット",
+        "ダブルトリガー"
+      ],
+      "alias": [
+        "あしっどどろっぷ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "애시드드롭",
+      "skills": [
+        "버트 점사",
+        "트릭 타임"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "酸糖",
+      "skills": [
+        "花式点射",
+        "扳机时刻"
+      ],
+      "alias": [
+        "suan tang",
+        "suantang"
+      ],
+      "appellation": "Aciddrop"
+    },
+    "code": "aciddrop",
+    "code_name": "Aciddrop"
   },
   "char_198_blackd": {
     "en_US": {
@@ -3585,6 +3767,48 @@
     "code": "flamebringer",
     "code_name": "Flamebringer"
   },
+  "char_508_aguard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "Drawing Sword"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "鋭刃"
+      ],
+      "alias": [
+        "Sharp"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "빛나는 검"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "亮剑"
+      ],
+      "alias": [
+        "Sharp",
+        "Sharp"
+      ],
+      "appellation": "Sharp"
+    },
+    "code": "sharp",
+    "code_name": "Sharp"
+  },
   "char_155_tiger": {
     "en_US": {
       "enabled": true,
@@ -3639,6 +3863,52 @@
     },
     "code": "indra",
     "code_name": "Indra"
+  },
+  "char_415_flint": {
+    "en_US": {
+      "enabled": true,
+      "name": "Flint",
+      "skills": [
+        "Ceaseless",
+        "Rampage"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フリント",
+      "skills": [
+        "ストマックブロー",
+        "鳥舞蜂刺"
+      ],
+      "alias": [
+        "ふりんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "플린트",
+      "skills": [
+        "불식",
+        "실력 과시"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "燧石",
+      "skills": [
+        "不息",
+        "锋芒毕露"
+      ],
+      "alias": [
+        "sui shi",
+        "suishi"
+      ],
+      "appellation": "Flint"
+    },
+    "code": "flint",
+    "code_name": "Flint"
   },
   "char_140_whitew": {
     "en_US": {
@@ -4163,6 +4433,48 @@
     "code": "greythroat",
     "code_name": "GreyThroat"
   },
+  "char_511_asnipe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "Spiral Arm"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "旋風矢"
+      ],
+      "alias": [
+        "Stormeye"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "스파이럴 암"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "旋臂"
+      ],
+      "alias": [
+        "Stormeye",
+        "Stormeye"
+      ],
+      "appellation": "Stormeye"
+    },
+    "code": "stormeye",
+    "code_name": "Stormeye"
+  },
   "char_219_meteo": {
     "en_US": {
       "enabled": true,
@@ -4425,6 +4737,52 @@
     "code": "absinthe",
     "code_name": "Absinthe"
   },
+  "char_411_tomimi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tomimi",
+      "skills": [
+        "Tribe Skill",
+        "Protection Plan for Gavial"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トミミ",
+      "skills": [
+        "部族の教え",
+        "ガヴィル保護プラン"
+      ],
+      "alias": [
+        "とみみ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "토미미",
+      "skills": [
+        "부족의 아츠",
+        "가비알 보호 방안"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "特米米",
+      "skills": [
+        "部族技艺",
+        "嘉维尔保护方案"
+      ],
+      "alias": [
+        "te mi mi",
+        "temimi"
+      ],
+      "appellation": "Tomimi"
+    },
+    "code": "tomimi",
+    "code_name": "Tomimi"
+  },
   "char_166_skfire": {
     "en_US": {
       "enabled": true,
@@ -4479,6 +4837,48 @@
     },
     "code": "skyfire",
     "code_name": "Skyfire"
+  },
+  "char_509_acast": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "\"All For Me\""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "「我が成すことを成せ」"
+      ],
+      "alias": [
+        "Pith"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "\"내가 하고 싶은 걸 한다\""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“为我所为”"
+      ],
+      "alias": [
+        "Pith",
+        "Pith"
+      ],
+      "appellation": "Pith"
+    },
+    "code": "pith",
+    "code_name": "Pith"
   },
   "char_306_leizi": {
     "en_US": {
@@ -4883,6 +5283,48 @@
     },
     "code": "folinic",
     "code_name": "Folinic"
+  },
+  "char_510_amedic": {
+    "en_US": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "Apocalyptic Scene"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "天啓の光"
+      ],
+      "alias": [
+        "Touch"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "천계와 같이"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "宛如天启"
+      ],
+      "alias": [
+        "Touch",
+        "Touch"
+      ],
+      "appellation": "Touch"
+    },
+    "code": "touch",
+    "code_name": "Touch"
   },
   "char_348_ceylon": {
     "en_US": {
@@ -7313,6 +7755,56 @@
     "code": "nian",
     "code_name": "Nian"
   },
+  "char_416_zumama": {
+    "en_US": {
+      "enabled": true,
+      "name": "Eunectes",
+      "skills": [
+        "Tomahawk",
+        "Menacing Slash",
+        "Iron Will"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ユーネクテス",
+      "skills": [
+        "トマホーク",
+        "烈震崩撃",
+        "鋼鉄の意思"
+      ],
+      "alias": [
+        "ゆーねくてす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "유넥티스",
+      "skills": [
+        "경량형 도끼",
+        "위압적인 내려찍기",
+        "강철의 의지"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "森蚺",
+      "skills": [
+        "轻型挂斧",
+        "震慑劈砍",
+        "钢铁意志"
+      ],
+      "alias": [
+        "sen ran",
+        "senran"
+      ],
+      "appellation": "Eunectes"
+    },
+    "code": "eunectes",
+    "code_name": "Eunectes"
+  },
   "char_172_svrash": {
     "en_US": {
       "enabled": true,
@@ -9359,405 +9851,6 @@
     },
     "code": "skadi",
     "code_name": "Skadi"
-  },
-  "char_504_rguard": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "予備隊員-近距離",
-      "skills": [],
-      "alias": [
-        "予備隊員-近距離"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "예비 인원 - 근거리",
-      "skills": [],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-近战",
-      "skills": [],
-      "alias": [
-        "yu bei gan yuan - jin zhan",
-        "yubeiganyuan-jinzhan"
-      ],
-      "appellation": "Reserve (Melee)"
-    },
-    "code": null,
-    "code_name": "Reserve (Melee)"
-  },
-  "char_507_rsnipe": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "予備隊員-狙撃",
-      "skills": [],
-      "alias": [
-        "予備隊員-狙撃"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "예비 인원 - 스나이퍼",
-      "skills": [],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-狙击",
-      "skills": [],
-      "alias": [
-        "yu bei gan yuan - ju ji",
-        "yubeiganyuan-juji"
-      ],
-      "appellation": "Reserve (Sniper)"
-    },
-    "code": null,
-    "code_name": "Reserve (Sniper)"
-  },
-  "char_506_rmedic": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "予備隊員-支援",
-      "skills": [],
-      "alias": [
-        "予備隊員-支援"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "예비 인원 - 지원",
-      "skills": [],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-后勤",
-      "skills": [],
-      "alias": [
-        "yu bei gan yuan - hou qin",
-        "yubeiganyuan-houqin"
-      ],
-      "appellation": "Reserve (Logistic)"
-    },
-    "code": null,
-    "code_name": "Reserve (Logistic)"
-  },
-  "char_505_rcast": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "予備隊員-術師",
-      "skills": [],
-      "alias": [
-        "予備隊員-術師"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "예비 인원 - 캐스터",
-      "skills": [],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-术师",
-      "skills": [],
-      "alias": [
-        "yu bei gan yuan - shu shi",
-        "yubeiganyuan-shushi"
-      ],
-      "appellation": "Reserve (Caster)"
-    },
-    "code": null,
-    "code_name": "Reserve (Caster)"
-  },
-  "char_366_acdrop": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "アシッドドロップ",
-      "skills": [
-        "ファンシーショット",
-        "ダブルトリガー"
-      ],
-      "alias": [
-        "あしっどどろっぷ"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "애시드드롭",
-      "skills": [
-        "버트 점사",
-        "트릭 타임"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "酸糖",
-      "skills": [
-        "花式点射",
-        "扳机时刻"
-      ],
-      "alias": [
-        "suan tang",
-        "suantang"
-      ],
-      "appellation": "Aciddrop"
-    },
-    "code": null,
-    "code_name": "Aciddrop"
-  },
-  "char_508_aguard": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "Sharp",
-      "skills": [
-        "鋭刃"
-      ],
-      "alias": [
-        "Sharp"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "Sharp",
-      "skills": [
-        "빛나는 검"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "Sharp",
-      "skills": [
-        "亮剑"
-      ],
-      "alias": [
-        "Sharp",
-        "Sharp"
-      ],
-      "appellation": "Sharp"
-    },
-    "code": null,
-    "code_name": "Sharp"
-  },
-  "char_415_flint": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "フリント",
-      "skills": [
-        "ストマックブロー",
-        "鳥舞蜂刺"
-      ],
-      "alias": [
-        "ふりんと"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "플린트",
-      "skills": [
-        "불식",
-        "실력 과시"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "燧石",
-      "skills": [
-        "不息",
-        "锋芒毕露"
-      ],
-      "alias": [
-        "sui shi",
-        "suishi"
-      ],
-      "appellation": "Flint"
-    },
-    "code": null,
-    "code_name": "Flint"
-  },
-  "char_511_asnipe": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "Stormeye",
-      "skills": [
-        "旋風矢"
-      ],
-      "alias": [
-        "Stormeye"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "Stormeye",
-      "skills": [
-        "스파이럴 암"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "Stormeye",
-      "skills": [
-        "旋臂"
-      ],
-      "alias": [
-        "Stormeye",
-        "Stormeye"
-      ],
-      "appellation": "Stormeye"
-    },
-    "code": null,
-    "code_name": "Stormeye"
-  },
-  "char_411_tomimi": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "トミミ",
-      "skills": [
-        "部族の教え",
-        "ガヴィル保護プラン"
-      ],
-      "alias": [
-        "とみみ"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "토미미",
-      "skills": [
-        "부족의 아츠",
-        "가비알 보호 방안"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "特米米",
-      "skills": [
-        "部族技艺",
-        "嘉维尔保护方案"
-      ],
-      "alias": [
-        "te mi mi",
-        "temimi"
-      ],
-      "appellation": "Tomimi"
-    },
-    "code": null,
-    "code_name": "Tomimi"
-  },
-  "char_509_acast": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "Pith",
-      "skills": [
-        "「我が成すことを成せ」"
-      ],
-      "alias": [
-        "Pith"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "Pith",
-      "skills": [
-        "\"내가 하고 싶은 걸 한다\""
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "Pith",
-      "skills": [
-        "“为我所为”"
-      ],
-      "alias": [
-        "Pith",
-        "Pith"
-      ],
-      "appellation": "Pith"
-    },
-    "code": null,
-    "code_name": "Pith"
-  },
-  "char_510_amedic": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "Touch",
-      "skills": [
-        "天啓の光"
-      ],
-      "alias": [
-        "Touch"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "Touch",
-      "skills": [
-        "천계와 같이"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "Touch",
-      "skills": [
-        "宛如天启"
-      ],
-      "alias": [
-        "Touch",
-        "Touch"
-      ],
-      "appellation": "Touch"
-    },
-    "code": null,
-    "code_name": "Touch"
-  },
-  "char_416_zumama": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "ユーネクテス",
-      "skills": [
-        "トマホーク",
-        "烈震崩撃",
-        "鋼鉄の意思"
-      ],
-      "alias": [
-        "ゆーねくてす"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "유넥티스",
-      "skills": [
-        "경량형 도끼",
-        "위압적인 내려찍기",
-        "강철의 의지"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "森蚺",
-      "skills": [
-        "轻型挂斧",
-        "震慑劈砍",
-        "钢铁意志"
-      ],
-      "alias": [
-        "sen ran",
-        "senran"
-      ],
-      "appellation": "Eunectes"
-    },
-    "code": null,
-    "code_name": "Eunectes"
   },
   "char_440_pinecn": {
     "zh_CN": {
