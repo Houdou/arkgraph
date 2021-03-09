@@ -8311,6 +8311,210 @@
     "extra_drop": []
   },
   {
+    "level": "OD-ST-1",
+    "energy": 0,
+    "unique_id": "act17d0_st01",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-TR-1",
+    "energy": 0,
+    "unique_id": "act17d0_tr01",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-1",
+    "energy": 12,
+    "unique_id": "act17d0_01",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "中概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "中概率"
+      },
+      {
+        "resource": "M-1-1",
+        "probability": "大概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-2",
+    "energy": 12,
+    "unique_id": "act17d0_02",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "中概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "中概率"
+      },
+      {
+        "resource": "M-1-1",
+        "probability": "大概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-3",
+    "energy": 12,
+    "unique_id": "act17d0_03",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-2-4",
+        "probability": "固定"
+      },
+      {
+        "resource": "M-1-1",
+        "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-4",
+    "energy": 12,
+    "unique_id": "act17d0_04",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-2-6",
+        "probability": "大概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "大概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-5",
+    "energy": 12,
+    "unique_id": "act17d0_05",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-2-3",
+        "probability": "固定"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "中概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-6",
+    "energy": 12,
+    "unique_id": "act17d0_06",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-2-2",
+        "probability": "中概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "大概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-ST-2",
+    "energy": 0,
+    "unique_id": "act17d0_st02",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-7",
+    "energy": 18,
+    "unique_id": "act17d0_07",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-3-8",
+        "probability": "中概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-8",
+    "energy": 18,
+    "unique_id": "act17d0_08",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [
+      {
+        "resource": "M-3-9",
+        "probability": "中概率"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "OD-ST-3",
+    "energy": 0,
+    "unique_id": "act17d0_st03",
+    "zone_id": "act17d0_zone1",
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "WR-ST-1",
     "energy": 0,
     "unique_id": "act16d5_st01",
@@ -13184,6 +13388,15 @@
     "level": "乌萨斯",
     "energy": 25,
     "unique_id": "camp_r_02",
+    "zone_id": "camp_zone_3",
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "乌萨斯",
+    "energy": 25,
+    "unique_id": "camp_r_03",
     "zone_id": "camp_zone_3",
     "normal_drop": [],
     "special_drop": [],

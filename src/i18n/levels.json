@@ -8975,6 +8975,78 @@
       "enabled": true
     }
   },
+  "act17d0_st01": {
+    "code": "OD-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_tr01": {
+    "code": "OD-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_01": {
+    "code": "OD-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_02": {
+    "code": "OD-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_03": {
+    "code": "OD-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_04": {
+    "code": "OD-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_05": {
+    "code": "OD-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_06": {
+    "code": "OD-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_st02": {
+    "code": "OD-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_07": {
+    "code": "OD-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_08": {
+    "code": "OD-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act17d0_st03": {
+    "code": "OD-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act16d5_st01": {
     "code": "WR-ST-1",
     "zh_CN": {
@@ -9684,6 +9756,12 @@
     }
   },
   "camp_r_02": {
+    "code": "乌萨斯",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_03": {
     "code": "乌萨斯",
     "zh_CN": {
       "enabled": true
