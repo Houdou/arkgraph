@@ -1,6 +1,22 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-03-26",
+    "type": "new_operators",
+    "new_operators": [
+      "char_350_surtr",
+      "char_365_aprl",
+      "char_388_mint",
+      "char_159_peacok",
+      "char_271_spikes"
+    ]
+  },
+  {
+    "server": [
       "zh_TW"
     ],
     "date": "2021-03-09",
