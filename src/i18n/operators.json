@@ -2116,6 +2116,52 @@
     "code": "matoimaru",
     "code_name": "Matoimaru"
   },
+  "char_159_peacok": {
+    "en_US": {
+      "enabled": true,
+      "name": "Conviction",
+      "skills": [
+        "Judgment",
+        "Genesis"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コンビクション",
+      "skills": [
+        "断罪",
+        "創世記"
+      ],
+      "alias": [
+        "こんびくしょん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "컨빅션",
+      "skills": [
+        "단죄",
+        "창세기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "断罪者",
+      "skills": [
+        "断罪",
+        "创世纪"
+      ],
+      "alias": [
+        "duan zui zhe",
+        "duanzuizhe"
+      ],
+      "appellation": "Conviction"
+    },
+    "code": "conviction",
+    "code_name": "Conviction"
+  },
   "char_193_frostl": {
     "en_US": {
       "enabled": true,
@@ -2381,6 +2427,52 @@
     },
     "code": "utage",
     "code_name": "Utage"
+  },
+  "char_271_spikes": {
+    "en_US": {
+      "enabled": true,
+      "name": "Arene",
+      "skills": [
+        "Just Kidding",
+        "Deadly Prank"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アレーン",
+      "skills": [
+        "いたずら",
+        "フェイタルトリック"
+      ],
+      "alias": [
+        "あれーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아렌",
+      "skills": [
+        "농담",
+        "치명적인 장난"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "芳汀",
+      "skills": [
+        "小玩笑",
+        "致命恶作剧"
+      ],
+      "alias": [
+        "fang ting",
+        "fangting"
+      ],
+      "appellation": "Arene"
+    },
+    "code": "arene",
+    "code_name": "Arene"
   },
   "char_237_gravel": {
     "en_US": {
@@ -3878,8 +3970,8 @@
       "enabled": true,
       "name": "Flint",
       "skills": [
-        "Ceaseless",
-        "Rampage"
+        "Relentless",
+        "Display of Might"
       ],
       "alias": []
     },
@@ -4493,6 +4585,52 @@
     "code": "stormeye",
     "code_name": "Stormeye"
   },
+  "char_365_aprl": {
+    "en_US": {
+      "enabled": true,
+      "name": "April",
+      "skills": [
+        "Precise Shooting",
+        "Flexible Camouflage"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エイプリル",
+      "skills": [
+        "精密射撃",
+        "コンシールメント"
+      ],
+      "alias": [
+        "えいぷりる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에이프릴",
+      "skills": [
+        "정밀 사격",
+        "재빠른 위장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "四月",
+      "skills": [
+        "精准射击",
+        "灵活伪装"
+      ],
+      "alias": [
+        "si yue",
+        "siyue"
+      ],
+      "appellation": "April"
+    },
+    "code": "april",
+    "code_name": "April"
+  },
   "char_219_meteo": {
     "en_US": {
       "enabled": true,
@@ -4769,8 +4907,8 @@
       "enabled": true,
       "name": "Tomimi",
       "skills": [
-        "Tribe Skill",
-        "Protection Plan for Gavial"
+        "Tribal Techniques",
+        "Gavial's Protection Plan"
       ],
       "alias": []
     },
@@ -5053,6 +5191,52 @@
     },
     "code": "leonhardt",
     "code_name": "Leonhardt"
+  },
+  "char_388_mint": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mint",
+      "skills": [
+        "Wind Whispers",
+        "Swirling Vortex"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミント",
+      "skills": [
+        "風のささやき",
+        "スパイラルバースト"
+      ],
+      "alias": [
+        "みんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "민트",
+      "skills": [
+        "바람의 언어",
+        "커뮬레이티브 볼텍스"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "薄绿",
+      "skills": [
+        "风语",
+        "聚能涡旋"
+      ],
+      "alias": [
+        "bao lv",
+        "baolv"
+      ],
+      "appellation": "Mint"
+    },
+    "code": "mint",
+    "code_name": "Mint"
   },
   "char_242_otter": {
     "en_US": {
@@ -6027,7 +6211,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "안드레이나",
+      "name": "안드레아나",
       "skills": [
         "공격 강화γ",
         "차단 사격 전술"
@@ -7909,7 +8093,7 @@
       "skills": [
         "ATK Up γ",
         "Protective Spikes",
-        "Supreme Arts"
+        "Destreza"
       ],
       "alias": []
     },
@@ -7931,7 +8115,7 @@
       "skills": [
         "공격 강화γ",
         "호신용 가시",
-        "지고의 술"
+        "데스트레자"
       ],
       "alias": []
     },
@@ -8071,6 +8255,56 @@
     },
     "code": "blaze",
     "code_name": "Blaze"
+  },
+  "char_350_surtr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Surtr",
+      "skills": [
+        "Laevatain",
+        "Molten Giant",
+        "Twilight"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スルト",
+      "skills": [
+        "レーヴァテイン",
+        "災厄の巨焔",
+        "ラグナロク"
+      ],
+      "alias": [
+        "すると"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수르트",
+      "skills": [
+        "열화의 마검",
+        "몰튼 코어의 거대한 그림자",
+        "황혼"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "史尔特尔",
+      "skills": [
+        "烈焰魔剑",
+        "熔核巨影",
+        "黄昏"
+      ],
+      "alias": [
+        "shi er te er",
+        "shierteer"
+      ],
+      "appellation": "Surtr"
+    },
+    "code": "surtr",
+    "code_name": "Surtr"
   },
   "char_188_helage": {
     "en_US": {
@@ -9923,40 +10157,6 @@
     "code": null,
     "code_name": "Beanstalk"
   },
-  "char_159_peacok": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "断罪者",
-      "skills": [
-        "断罪",
-        "创世纪"
-      ],
-      "alias": [
-        "duan zui zhe",
-        "duanzuizhe"
-      ],
-      "appellation": "Conviction"
-    },
-    "code": null,
-    "code_name": "Conviction"
-  },
-  "char_271_spikes": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "芳汀",
-      "skills": [
-        "小玩笑",
-        "致命恶作剧"
-      ],
-      "alias": [
-        "fang ting",
-        "fangting"
-      ],
-      "appellation": "Arene"
-    },
-    "code": null,
-    "code_name": "Arene"
-  },
   "char_385_finlpp": {
     "zh_CN": {
       "enabled": true,
@@ -10025,23 +10225,6 @@
     "code": null,
     "code_name": "Tachanka"
   },
-  "char_365_aprl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "四月",
-      "skills": [
-        "精准射击",
-        "灵活伪装"
-      ],
-      "alias": [
-        "si yue",
-        "siyue"
-      ],
-      "appellation": "April"
-    },
-    "code": null,
-    "code_name": "April"
-  },
   "char_346_aosta": {
     "zh_CN": {
       "enabled": true,
@@ -10058,23 +10241,6 @@
     },
     "code": null,
     "code_name": "Aosta"
-  },
-  "char_388_mint": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "薄绿",
-      "skills": [
-        "风语",
-        "聚能涡旋"
-      ],
-      "alias": [
-        "bao lv",
-        "baolv"
-      ],
-      "appellation": "Mint"
-    },
-    "code": null,
-    "code_name": "Mint"
   },
   "char_338_iris": {
     "zh_CN": {
@@ -10372,24 +10538,6 @@
     },
     "code": null,
     "code_name": "Mountain"
-  },
-  "char_350_surtr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "史尔特尔",
-      "skills": [
-        "烈焰魔剑",
-        "熔核巨影",
-        "黄昏"
-      ],
-      "alias": [
-        "shi er te er",
-        "shierteer"
-      ],
-      "appellation": "Surtr"
-    },
-    "code": null,
-    "code_name": "Surtr"
   },
   "token_10012_rosmon_shield": {
     "zh_CN": {
