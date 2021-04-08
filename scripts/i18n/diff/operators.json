@@ -1407,6 +1407,15 @@
       ],
       "appellation": "Click"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "卡達",
+      "skills": [
+        "攻擊力強化·β型",
+        "同步索敵攻擊"
+      ],
+      "alias": []
+    },
     "code": "click",
     "code_name": "Click"
   },
@@ -2158,6 +2167,15 @@
         "duanzuizhe"
       ],
       "appellation": "Conviction"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "斷罪者",
+      "skills": [
+        "斷罪",
+        "創世紀"
+      ],
+      "alias": []
     },
     "code": "conviction",
     "code_name": "Conviction"
@@ -2960,6 +2978,52 @@
     "code": "cuora",
     "code_name": "Cuora"
   },
+  "char_381_bubble": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bubble",
+      "skills": [
+        "DEF Up β",
+        "\"Beaten Up\""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "バブル",
+      "skills": [
+        "防御力強化β",
+        "「かかってこい！」"
+      ],
+      "alias": [
+        "ばぶる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "버블",
+      "skills": [
+        "방어 강화β",
+        "얻어맞기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "泡泡",
+      "skills": [
+        "防御力强化·β型",
+        "“挨打”"
+      ],
+      "alias": [
+        "pao pao",
+        "paopao"
+      ],
+      "appellation": "Bubble"
+    },
+    "code": "bubble",
+    "code_name": "Bubble"
+  },
   "char_196_sunbr": {
     "en_US": {
       "enabled": true,
@@ -3222,6 +3286,15 @@
         "bodengke"
       ],
       "appellation": "Podenco"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "波登可",
+      "skills": [
+        "花香療法",
+        "孢子擴散"
+      ],
+      "alias": []
     },
     "code": "podenco",
     "code_name": "Podenco"
@@ -3758,6 +3831,52 @@
     "code": "swire",
     "code_name": "Swire"
   },
+  "char_265_sophia": {
+    "en_US": {
+      "enabled": true,
+      "name": "Whislash",
+      "skills": [
+        "Motivational Skills",
+        "Whip Sword"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウィスラッシュ",
+      "skills": [
+        "激励の美学",
+        "鞭刃解放"
+      ],
+      "alias": [
+        "うぃすらっしゅ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "위슬래시",
+      "skills": [
+        "격려의 기술",
+        "사복검"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "鞭刃",
+      "skills": [
+        "激励艺术",
+        "鞭刃"
+      ],
+      "alias": [
+        "bian ren",
+        "bianren"
+      ],
+      "appellation": "Whislash"
+    },
+    "code": "whislash",
+    "code_name": "Whislash"
+  },
   "char_106_franka": {
     "en_US": {
       "enabled": true,
@@ -4108,6 +4227,15 @@
         "duanya"
       ],
       "appellation": "Ayerscarpe"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "斷崖",
+      "skills": [
+        "多導向散射彈丸",
+        "浮游刃啟動"
+      ],
+      "alias": []
     },
     "code": "ayerscarpe",
     "code_name": "Ayerscarpe"
@@ -4796,6 +4924,52 @@
     "code": "executor",
     "code_name": "Executor"
   },
+  "char_346_aosta": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aosta",
+      "skills": [
+        "Swift Strike γ",
+        "Shadow Nails"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アオスタ",
+      "skills": [
+        "迅速攻撃γ",
+        "影縫い釘"
+      ],
+      "alias": [
+        "あおすた"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아오스타",
+      "skills": [
+        "신속공격γ",
+        "그림자 못"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "奥斯塔",
+      "skills": [
+        "迅捷打击·γ型",
+        "影钉"
+      ],
+      "alias": [
+        "ao si ta",
+        "aosita"
+      ],
+      "appellation": "Aosta"
+    },
+    "code": "aosta",
+    "code_name": "Aosta"
+  },
   "char_002_amiya": {
     "en_US": {
       "enabled": true,
@@ -4898,6 +5072,15 @@
         "kuai"
       ],
       "appellation": "Absinthe"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "苦艾",
+      "skills": [
+        "執法模式",
+        "終結連射"
+      ],
+      "alias": []
     },
     "code": "absinthe",
     "code_name": "Absinthe"
@@ -5188,6 +5371,15 @@
         "laienhate"
       ],
       "appellation": "Leonhardt"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "萊恩哈特",
+      "skills": [
+        "攻擊力強化·γ型",
+        "解構與爆破"
+      ],
+      "alias": []
     },
     "code": "leonhardt",
     "code_name": "Leonhardt"
@@ -5491,6 +5683,15 @@
         "yaye"
       ],
       "appellation": "Folinic"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "亞葉",
+      "skills": [
+        "最大劑量輸注",
+        "複合型藥物彈片"
+      ],
+      "alias": []
     },
     "code": "folinic",
     "code_name": "Folinic"
@@ -6933,6 +7134,16 @@
       ],
       "appellation": "W"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "W",
+      "skills": [
+        "紅桃K",
+        "驚嚇盒子",
+        "D12"
+      ],
+      "alias": []
+    },
     "code": "w",
     "code_name": "W"
   },
@@ -6982,6 +7193,16 @@
         "zaolou"
       ],
       "appellation": "Роса"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "早露",
+      "skills": [
+        "攻擊力強化·γ型",
+        "分裂射擊",
+        "雪崩擊"
+      ],
+      "alias": []
     },
     "code": "rosa",
     "code_name": "Роса"
@@ -7453,6 +7674,16 @@
       ],
       "appellation": "Suzuran"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "鈴蘭",
+      "skills": [
+        "全力以赴",
+        "兒時的舞樂",
+        "狐火渺然"
+      ],
+      "alias": []
+    },
     "code": "suzuran",
     "code_name": "Suzuran"
   },
@@ -7562,6 +7793,16 @@
         "kuiying"
       ],
       "appellation": "Phantom"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "傀影",
+      "skills": [
+        "暗夜魅影",
+        "血色樂章",
+        "夜幕突襲"
+      ],
+      "alias": []
     },
     "code": "phantom",
     "code_name": "Phantom"
@@ -7915,6 +8156,56 @@
     },
     "code": "saria",
     "code_name": "Saria"
+  },
+  "char_423_blemsh": {
+    "en_US": {
+      "enabled": true,
+      "name": "Blemishine",
+      "skills": [
+        "Surging Brilliance",
+        "Deterring Radiance",
+        "Divine Avatar"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブレミシャイン",
+      "skills": [
+        "光芒奔溢",
+        "破邪輝光",
+        "英霊顕現"
+      ],
+      "alias": [
+        "ぶれみしゃいん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "블레미샤인",
+      "skills": [
+        "용솟음치는 빛",
+        "압도적인 빛",
+        "선현의 화신"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "瑕光",
+      "skills": [
+        "光芒涌动",
+        "慑敌辉光",
+        "先贤化身"
+      ],
+      "alias": [
+        "xia guang",
+        "xiaguang"
+      ],
+      "appellation": "Blemishine"
+    },
+    "code": "blemishine",
+    "code_name": "Blemishine"
   },
   "char_2014_nian": {
     "en_US": {
@@ -8864,6 +9155,16 @@
       ],
       "appellation": "The Mirror"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "鏡中虛影",
+      "skills": [
+        "暗夜魅影",
+        "血色樂章",
+        "夜幕突襲"
+      ],
+      "alias": []
+    },
     "code": "phantom in the mirror",
     "code_name": "The Mirror"
   },
@@ -8913,6 +9214,16 @@
         "cimianxiangdi"
       ],
       "appellation": "F.T.E"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "此面向敵",
+      "skills": [
+        "",
+        "受害者啟動模式",
+        ""
+      ],
+      "alias": []
     },
     "code": "front toward enemy",
     "code_name": "F.T.E"
@@ -9580,6 +9891,14 @@
       ],
       "appellation": "Interferential Mine"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "干擾地雷",
+      "skills": [
+        "觸爆"
+      ],
+      "alias": []
+    },
     "code": "interference mine",
     "code_name": "Interferential Mine"
   },
@@ -9622,6 +9941,14 @@
       ],
       "appellation": "F.O.O"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "源石流發生裝置",
+      "skills": [
+        "氣流"
+      ],
+      "alias": []
+    },
     "code": "originium flow generator",
     "code_name": "F.O.O"
   },
@@ -9663,6 +9990,14 @@
         "L-44\"liushengji\""
       ],
       "appellation": "Gramophone"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "L-44\"留聲機\"",
+      "skills": [
+        "法術傳輸協議"
+      ],
+      "alias": []
     },
     "code": "l-44 \"gramophone\"",
     "code_name": "Gramophone"
@@ -9742,6 +10077,90 @@
     },
     "code": "temporary rhodes island employee",
     "code_name": "Temporary Employer"
+  },
+  "trap_018_bomb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mr. Boom",
+      "skills": [
+        "Ill Temper"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミスターランブル",
+      "skills": [
+        "大癇癪"
+      ],
+      "alias": [
+        "みすたーらんぶる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미스터 럼블",
+      "skills": [
+        "까칠한 성격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "轰隆隆先生",
+      "skills": [
+        "坏脾气"
+      ],
+      "alias": [
+        "hong long long xian sheng",
+        "honglonglongxiansheng"
+      ],
+      "appellation": "Mr.Rumble"
+    },
+    "code": "mr. boom",
+    "code_name": "Mr.Rumble"
+  },
+  "trap_019_electric": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mieszko Coil",
+      "skills": [
+        "Energized!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミェシュココイル",
+      "skills": [
+        "通電！"
+      ],
+      "alias": [
+        "みぇしゅここいる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미에슈코 코일",
+      "skills": [
+        "파워 온!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "梅什科线圈",
+      "skills": [
+        "通电！"
+      ],
+      "alias": [
+        "mei shi ke xian quan",
+        "meishikexianquan"
+      ],
+      "appellation": "Mieszko coil"
+    },
+    "code": "mieszko coil",
+    "code_name": "Mieszko coil"
   },
   "char_230_savage": {
     "en_US": {
@@ -10174,40 +10593,6 @@
     "code": null,
     "code_name": "Purestream"
   },
-  "char_381_bubble": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "泡泡",
-      "skills": [
-        "防御力强化·β型",
-        "“挨打”"
-      ],
-      "alias": [
-        "pao pao",
-        "paopao"
-      ],
-      "appellation": "Bubble"
-    },
-    "code": null,
-    "code_name": "Bubble"
-  },
-  "char_265_sophia": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "鞭刃",
-      "skills": [
-        "激励艺术",
-        "鞭刃"
-      ],
-      "alias": [
-        "bian ren",
-        "bianren"
-      ],
-      "appellation": "Whislash"
-    },
-    "code": null,
-    "code_name": "Whislash"
-  },
   "char_459_tachak": {
     "zh_CN": {
       "enabled": true,
@@ -10224,23 +10609,6 @@
     },
     "code": null,
     "code_name": "Tachanka"
-  },
-  "char_346_aosta": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "奥斯塔",
-      "skills": [
-        "迅捷打击·γ型",
-        "影钉"
-      ],
-      "alias": [
-        "ao si ta",
-        "aosita"
-      ],
-      "appellation": "Aosta"
-    },
-    "code": null,
-    "code_name": "Aosta"
   },
   "char_338_iris": {
     "zh_CN": {
@@ -10485,24 +10853,6 @@
     "code": null,
     "code_name": "Dusk"
   },
-  "char_423_blemsh": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "瑕光",
-      "skills": [
-        "光芒涌动",
-        "慑敌辉光",
-        "先贤化身"
-      ],
-      "alias": [
-        "xia guang",
-        "xiaguang"
-      ],
-      "appellation": "Blemishine"
-    },
-    "code": null,
-    "code_name": "Blemishine"
-  },
   "char_311_mudrok": {
     "zh_CN": {
       "enabled": true,
@@ -10625,38 +10975,6 @@
     },
     "code": null,
     "code_name": "Welcome Mat"
-  },
-  "trap_018_bomb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "轰隆隆先生",
-      "skills": [
-        "坏脾气"
-      ],
-      "alias": [
-        "hong long long xian sheng",
-        "honglonglongxiansheng"
-      ],
-      "appellation": "Mr.Rumble"
-    },
-    "code": null,
-    "code_name": "Mr.Rumble"
-  },
-  "trap_019_electric": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "梅什科线圈",
-      "skills": [
-        "通电！"
-      ],
-      "alias": [
-        "mei shi ke xian quan",
-        "meishikexianquan"
-      ],
-      "appellation": "Mieszko coil"
-    },
-    "code": null,
-    "code_name": "Mieszko coil"
   },
   "trap_020_roadblock": {
     "zh_CN": {
@@ -10900,6 +11218,22 @@
     },
     "code": null,
     "code_name": "Reinforcing Materials"
+  },
+  "trap_035_emperor": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "大帝",
+      "skills": [
+        "Punchline"
+      ],
+      "alias": [
+        "da di",
+        "dadi"
+      ],
+      "appellation": "Emperor"
+    },
+    "code": null,
+    "code_name": "Emperor"
   },
   "trap_036_storm": {
     "zh_CN": {
