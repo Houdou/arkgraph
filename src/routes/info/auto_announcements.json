@@ -1,6 +1,18 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2021-04-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_472_pasngr",
+      "char_304_zebra",
+      "char_363_toddi"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
