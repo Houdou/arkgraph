@@ -10639,10 +10639,10 @@
         "yan yu yan rong",
         "yanyuyanrong"
       ],
-      "appellation": "Purgatory"
+      "appellation": "Lava the Purgatory"
     },
     "code": null,
-    "code_name": "Purgatory"
+    "code_name": "Lava the Purgatory"
   },
   "char_436_whispr": {
     "zh_CN": {
@@ -10728,6 +10728,40 @@
     },
     "code": null,
     "code_name": "Blitz"
+  },
+  "char_304_zebra": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "暴雨",
+      "skills": [
+        "应急迷彩",
+        "群体迷彩"
+      ],
+      "alias": [
+        "bao yu",
+        "baoyu"
+      ],
+      "appellation": "Heavyrain"
+    },
+    "code": null,
+    "code_name": "Heavyrain"
+  },
+  "char_363_toddi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "熔泉",
+      "skills": [
+        "信号矢",
+        "便携破城矢"
+      ],
+      "alias": [
+        "rong quan",
+        "rongquan"
+      ],
+      "appellation": "Toddifons"
+    },
+    "code": null,
+    "code_name": "Toddifons"
   },
   "char_451_robin": {
     "zh_CN": {
@@ -10852,6 +10886,24 @@
     },
     "code": null,
     "code_name": "Dusk"
+  },
+  "char_472_pasngr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "异客",
+      "skills": [
+        "电能之触",
+        "聚焦指令",
+        "辉煌裂片"
+      ],
+      "alias": [
+        "yi ke",
+        "yike"
+      ],
+      "appellation": "Passenger"
+    },
+    "code": null,
+    "code_name": "Passenger"
   },
   "char_311_mudrok": {
     "zh_CN": {
@@ -11250,6 +11302,22 @@
     },
     "code": null,
     "code_name": "Sand Storm"
+  },
+  "trap_037_airsup": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "可移动战术机库",
+      "skills": [
+        "派遣空援"
+      ],
+      "alias": [
+        "ke yi dong zhan shu ji ku",
+        "keyidongzhanshujiku"
+      ],
+      "appellation": "Maneuver Drone Hangar"
+    },
+    "code": null,
+    "code_name": "Maneuver Drone Hangar"
   },
   "char_347_jaksel": {
     "zh_CN": {

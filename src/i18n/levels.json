@@ -9467,6 +9467,12 @@
       "enabled": true
     }
   },
+  "sub_03-3-2": {
+    "code": "S3-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "main_08-01": {
     "code": "R8-1",
     "zh_CN": {
@@ -9737,12 +9743,6 @@
       "enabled": true
     }
   },
-  "sub_03-3-2": {
-    "code": "S3-7",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
   "sub_05-4-3": {
     "code": "S5-9",
     "zh_CN": {
@@ -9769,6 +9769,72 @@
   },
   "hard_08-04": {
     "code": "H8-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_01": {
+    "code": "WD-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_tr01": {
+    "code": "WD-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_02": {
+    "code": "WD-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_03": {
+    "code": "WD-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_04": {
+    "code": "WD-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_st01": {
+    "code": "WD-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_05": {
+    "code": "WD-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_06": {
+    "code": "WD-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_07": {
+    "code": "WD-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_08": {
+    "code": "WD-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d0_st02": {
+    "code": "WD-ST-2",
     "zh_CN": {
       "enabled": true
     }
