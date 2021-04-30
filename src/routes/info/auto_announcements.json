@@ -1,6 +1,35 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-05-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_391_rosmon",
+      "char_311_mudrok",
+      "char_436_whispr",
+      "char_1001_amiya2",
+      "char_347_jaksel"
+    ]
+  },
+  {
+    "server": [
+      "zh_TW"
+    ],
+    "date": "2021-05-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_349_chiave",
+      "char_344_beewax",
+      "char_378_asbest",
+      "char_343_tknogi"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2021-04-15",
@@ -114,31 +143,6 @@
       "char_2015_dusk",
       "char_1011_lava2",
       "char_455_nothin"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2021-02-04",
-    "type": "new_operators",
-    "new_operators": [
-      "char_336_folivo"
-    ]
-  },
-  {
-    "server": [
-      "zh_TW"
-    ],
-    "date": "2021-01-27",
-    "type": "new_operators",
-    "new_operators": [
-      "char_225_haak",
-      "char_2014_nian",
-      "char_226_hmau",
-      "char_383_snsant"
     ]
   }
 ]
