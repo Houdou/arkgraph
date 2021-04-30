@@ -4,7 +4,7 @@
       "enabled": true,
       "name": "Drill Battle Record",
       "alias": [],
-      "sortId": 20004
+      "sortId": 70004
     },
     "ja_JP": {
       "enabled": true,
@@ -12,13 +12,13 @@
       "alias": [
         "入門作戦記録"
       ],
-      "sortId": 20004
+      "sortId": 70004
     },
     "ko_KR": {
       "enabled": true,
       "name": "기초작전기록",
       "alias": [],
-      "sortId": 20004
+      "sortId": 70004
     },
     "zh_CN": {
       "enabled": true,
@@ -41,7 +41,7 @@
       "enabled": true,
       "name": "Frontline Battle Record",
       "alias": [],
-      "sortId": 20003
+      "sortId": 70003
     },
     "ja_JP": {
       "enabled": true,
@@ -49,13 +49,13 @@
       "alias": [
         "初級作戦記録"
       ],
-      "sortId": 20003
+      "sortId": 70003
     },
     "ko_KR": {
       "enabled": true,
       "name": "초급작전기록",
       "alias": [],
-      "sortId": 20003
+      "sortId": 70003
     },
     "zh_CN": {
       "enabled": true,
@@ -78,7 +78,7 @@
       "enabled": true,
       "name": "Tactical Battle Record",
       "alias": [],
-      "sortId": 20002
+      "sortId": 70002
     },
     "ja_JP": {
       "enabled": true,
@@ -86,13 +86,13 @@
       "alias": [
         "中級作戦記録"
       ],
-      "sortId": 20002
+      "sortId": 70002
     },
     "ko_KR": {
       "enabled": true,
       "name": "중급작전기록",
       "alias": [],
-      "sortId": 20002
+      "sortId": 70002
     },
     "zh_CN": {
       "enabled": true,
@@ -115,7 +115,7 @@
       "enabled": true,
       "name": "Strategic Battle Record",
       "alias": [],
-      "sortId": 20001
+      "sortId": 70001
     },
     "ja_JP": {
       "enabled": true,
@@ -123,13 +123,13 @@
       "alias": [
         "上級作戦記録"
       ],
-      "sortId": 20001
+      "sortId": 70001
     },
     "ko_KR": {
       "enabled": true,
       "name": "고급작전기록",
       "alias": [],
-      "sortId": 20001
+      "sortId": 70001
     },
     "zh_CN": {
       "enabled": true,
@@ -152,7 +152,7 @@
       "enabled": true,
       "name": "Vanguard Chip",
       "alias": [],
-      "sortId": 400004
+      "sortId": 400018
     },
     "ja_JP": {
       "enabled": true,
@@ -160,13 +160,13 @@
       "alias": [
         "初級先鋒SoC"
       ],
-      "sortId": 400004
+      "sortId": 400018
     },
     "ko_KR": {
       "enabled": true,
       "name": "뱅가드 칩",
       "alias": [],
-      "sortId": 400004
+      "sortId": 400018
     },
     "zh_CN": {
       "enabled": true,
@@ -189,7 +189,7 @@
       "enabled": true,
       "name": "Vanguard Chip Pack",
       "alias": [],
-      "sortId": 400003
+      "sortId": 400010
     },
     "ja_JP": {
       "enabled": true,
@@ -197,13 +197,13 @@
       "alias": [
         "中級先鋒SoC"
       ],
-      "sortId": 400003
+      "sortId": 400010
     },
     "ko_KR": {
       "enabled": true,
       "name": "뱅가드 칩셋",
       "alias": [],
-      "sortId": 400003
+      "sortId": 400010
     },
     "zh_CN": {
       "enabled": true,
@@ -263,7 +263,7 @@
       "enabled": true,
       "name": "Guard Chip",
       "alias": [],
-      "sortId": 400007
+      "sortId": 400019
     },
     "ja_JP": {
       "enabled": true,
@@ -271,13 +271,13 @@
       "alias": [
         "初級前衛SoC"
       ],
-      "sortId": 400007
+      "sortId": 400019
     },
     "ko_KR": {
       "enabled": true,
       "name": "가드 칩",
       "alias": [],
-      "sortId": 400007
+      "sortId": 400019
     },
     "zh_CN": {
       "enabled": true,
@@ -300,7 +300,7 @@
       "enabled": true,
       "name": "Guard Chip Pack",
       "alias": [],
-      "sortId": 400006
+      "sortId": 400011
     },
     "ja_JP": {
       "enabled": true,
@@ -308,13 +308,13 @@
       "alias": [
         "中級前衛SoC"
       ],
-      "sortId": 400006
+      "sortId": 400011
     },
     "ko_KR": {
       "enabled": true,
       "name": "가드 칩셋",
       "alias": [],
-      "sortId": 400006
+      "sortId": 400011
     },
     "zh_CN": {
       "enabled": true,
@@ -337,7 +337,7 @@
       "enabled": true,
       "name": "Guard Dualchip",
       "alias": [],
-      "sortId": 400005
+      "sortId": 400003
     },
     "ja_JP": {
       "enabled": true,
@@ -345,13 +345,13 @@
       "alias": [
         "上級前衛SoC"
       ],
-      "sortId": 400005
+      "sortId": 400003
     },
     "ko_KR": {
       "enabled": true,
       "name": "가드 듀얼 칩",
       "alias": [],
-      "sortId": 400005
+      "sortId": 400003
     },
     "zh_CN": {
       "enabled": true,
@@ -374,7 +374,7 @@
       "enabled": true,
       "name": "Defender Chip",
       "alias": [],
-      "sortId": 400010
+      "sortId": 400021
     },
     "ja_JP": {
       "enabled": true,
@@ -382,13 +382,13 @@
       "alias": [
         "初級重装SoC"
       ],
-      "sortId": 400010
+      "sortId": 400021
     },
     "ko_KR": {
       "enabled": true,
       "name": "디펜더 칩",
       "alias": [],
-      "sortId": 400010
+      "sortId": 400021
     },
     "zh_CN": {
       "enabled": true,
@@ -411,7 +411,7 @@
       "enabled": true,
       "name": "Defender Chip Pack",
       "alias": [],
-      "sortId": 400009
+      "sortId": 400013
     },
     "ja_JP": {
       "enabled": true,
@@ -419,13 +419,13 @@
       "alias": [
         "中級重装SoC"
       ],
-      "sortId": 400009
+      "sortId": 400013
     },
     "ko_KR": {
       "enabled": true,
       "name": "디펜더 칩셋",
       "alias": [],
-      "sortId": 400009
+      "sortId": 400013
     },
     "zh_CN": {
       "enabled": true,
@@ -448,7 +448,7 @@
       "enabled": true,
       "name": "Defender Dualchip",
       "alias": [],
-      "sortId": 400008
+      "sortId": 400005
     },
     "ja_JP": {
       "enabled": true,
@@ -456,13 +456,13 @@
       "alias": [
         "上級重装SoC"
       ],
-      "sortId": 400008
+      "sortId": 400005
     },
     "ko_KR": {
       "enabled": true,
       "name": "디펜더 듀얼 칩",
       "alias": [],
-      "sortId": 400008
+      "sortId": 400005
     },
     "zh_CN": {
       "enabled": true,
@@ -485,7 +485,7 @@
       "enabled": true,
       "name": "Sniper Chip",
       "alias": [],
-      "sortId": 400013
+      "sortId": 400020
     },
     "ja_JP": {
       "enabled": true,
@@ -493,13 +493,13 @@
       "alias": [
         "初級狙撃SoC"
       ],
-      "sortId": 400013
+      "sortId": 400020
     },
     "ko_KR": {
       "enabled": true,
       "name": "스나이퍼 칩",
       "alias": [],
-      "sortId": 400013
+      "sortId": 400020
     },
     "zh_CN": {
       "enabled": true,
@@ -559,7 +559,7 @@
       "enabled": true,
       "name": "Sniper Dualchip",
       "alias": [],
-      "sortId": 400011
+      "sortId": 400004
     },
     "ja_JP": {
       "enabled": true,
@@ -567,13 +567,13 @@
       "alias": [
         "上級狙撃SoC"
       ],
-      "sortId": 400011
+      "sortId": 400004
     },
     "ko_KR": {
       "enabled": true,
       "name": "스나이퍼 듀얼 칩",
       "alias": [],
-      "sortId": 400011
+      "sortId": 400004
     },
     "zh_CN": {
       "enabled": true,
@@ -596,7 +596,7 @@
       "enabled": true,
       "name": "Caster Chip",
       "alias": [],
-      "sortId": 400016
+      "sortId": 400024
     },
     "ja_JP": {
       "enabled": true,
@@ -604,13 +604,13 @@
       "alias": [
         "初級術師SoC"
       ],
-      "sortId": 400016
+      "sortId": 400024
     },
     "ko_KR": {
       "enabled": true,
       "name": "캐스터 칩",
       "alias": [],
-      "sortId": 400016
+      "sortId": 400024
     },
     "zh_CN": {
       "enabled": true,
@@ -633,7 +633,7 @@
       "enabled": true,
       "name": "Caster Chip Pack",
       "alias": [],
-      "sortId": 400015
+      "sortId": 400016
     },
     "ja_JP": {
       "enabled": true,
@@ -641,13 +641,13 @@
       "alias": [
         "中級術師SoC"
       ],
-      "sortId": 400015
+      "sortId": 400016
     },
     "ko_KR": {
       "enabled": true,
       "name": "캐스터 칩셋",
       "alias": [],
-      "sortId": 400015
+      "sortId": 400016
     },
     "zh_CN": {
       "enabled": true,
@@ -670,7 +670,7 @@
       "enabled": true,
       "name": "Caster Dualchip",
       "alias": [],
-      "sortId": 400014
+      "sortId": 400008
     },
     "ja_JP": {
       "enabled": true,
@@ -678,13 +678,13 @@
       "alias": [
         "上級術師SoC"
       ],
-      "sortId": 400014
+      "sortId": 400008
     },
     "ko_KR": {
       "enabled": true,
       "name": "캐스터 듀얼 칩",
       "alias": [],
-      "sortId": 400014
+      "sortId": 400008
     },
     "zh_CN": {
       "enabled": true,
@@ -707,7 +707,7 @@
       "enabled": true,
       "name": "Medic Chip",
       "alias": [],
-      "sortId": 400019
+      "sortId": 400022
     },
     "ja_JP": {
       "enabled": true,
@@ -715,13 +715,13 @@
       "alias": [
         "初級医療SoC"
       ],
-      "sortId": 400019
+      "sortId": 400022
     },
     "ko_KR": {
       "enabled": true,
       "name": "메딕 칩",
       "alias": [],
-      "sortId": 400019
+      "sortId": 400022
     },
     "zh_CN": {
       "enabled": true,
@@ -744,7 +744,7 @@
       "enabled": true,
       "name": "Medic Chip Pack",
       "alias": [],
-      "sortId": 400018
+      "sortId": 400014
     },
     "ja_JP": {
       "enabled": true,
@@ -752,13 +752,13 @@
       "alias": [
         "中級医療SoC"
       ],
-      "sortId": 400018
+      "sortId": 400014
     },
     "ko_KR": {
       "enabled": true,
       "name": "메딕 칩셋",
       "alias": [],
-      "sortId": 400018
+      "sortId": 400014
     },
     "zh_CN": {
       "enabled": true,
@@ -781,7 +781,7 @@
       "enabled": true,
       "name": "Medic Dualchip",
       "alias": [],
-      "sortId": 400017
+      "sortId": 400006
     },
     "ja_JP": {
       "enabled": true,
@@ -789,13 +789,13 @@
       "alias": [
         "上級医療SoC"
       ],
-      "sortId": 400017
+      "sortId": 400006
     },
     "ko_KR": {
       "enabled": true,
       "name": "메딕 듀얼 칩",
       "alias": [],
-      "sortId": 400017
+      "sortId": 400006
     },
     "zh_CN": {
       "enabled": true,
@@ -818,7 +818,7 @@
       "enabled": true,
       "name": "Supporter Chip",
       "alias": [],
-      "sortId": 400022
+      "sortId": 400023
     },
     "ja_JP": {
       "enabled": true,
@@ -826,13 +826,13 @@
       "alias": [
         "初級補助SoC"
       ],
-      "sortId": 400022
+      "sortId": 400023
     },
     "ko_KR": {
       "enabled": true,
       "name": "서포터 칩",
       "alias": [],
-      "sortId": 400022
+      "sortId": 400023
     },
     "zh_CN": {
       "enabled": true,
@@ -855,7 +855,7 @@
       "enabled": true,
       "name": "Supporter Chip Pack",
       "alias": [],
-      "sortId": 400021
+      "sortId": 400015
     },
     "ja_JP": {
       "enabled": true,
@@ -863,13 +863,13 @@
       "alias": [
         "中級補助SoC"
       ],
-      "sortId": 400021
+      "sortId": 400015
     },
     "ko_KR": {
       "enabled": true,
       "name": "서포터 칩셋",
       "alias": [],
-      "sortId": 400021
+      "sortId": 400015
     },
     "zh_CN": {
       "enabled": true,
@@ -892,7 +892,7 @@
       "enabled": true,
       "name": "Supporter Dualchip",
       "alias": [],
-      "sortId": 400020
+      "sortId": 400007
     },
     "ja_JP": {
       "enabled": true,
@@ -900,13 +900,13 @@
       "alias": [
         "上級補助SoC"
       ],
-      "sortId": 400020
+      "sortId": 400007
     },
     "ko_KR": {
       "enabled": true,
       "name": "서포터 듀얼 칩",
       "alias": [],
-      "sortId": 400020
+      "sortId": 400007
     },
     "zh_CN": {
       "enabled": true,
@@ -966,7 +966,7 @@
       "enabled": true,
       "name": "Specialist Chip Pack",
       "alias": [],
-      "sortId": 400024
+      "sortId": 400017
     },
     "ja_JP": {
       "enabled": true,
@@ -974,13 +974,13 @@
       "alias": [
         "中級特殊SoC"
       ],
-      "sortId": 400024
+      "sortId": 400017
     },
     "ko_KR": {
       "enabled": true,
       "name": "스페셜리스트 칩셋",
       "alias": [],
-      "sortId": 400024
+      "sortId": 400017
     },
     "zh_CN": {
       "enabled": true,
@@ -1003,7 +1003,7 @@
       "enabled": true,
       "name": "Specialist Dualchip",
       "alias": [],
-      "sortId": 400023
+      "sortId": 400009
     },
     "ja_JP": {
       "enabled": true,
@@ -1011,13 +1011,13 @@
       "alias": [
         "上級特殊SoC"
       ],
-      "sortId": 400023
+      "sortId": 400009
     },
     "ko_KR": {
       "enabled": true,
       "name": "스페셜리스트 듀얼 칩",
       "alias": [],
-      "sortId": 400023
+      "sortId": 400009
     },
     "zh_CN": {
       "enabled": true,
@@ -1040,7 +1040,7 @@
       "enabled": true,
       "name": "Skill Summary - 1",
       "alias": [],
-      "sortId": 300003
+      "sortId": 80003
     },
     "ja_JP": {
       "enabled": true,
@@ -1048,13 +1048,13 @@
       "alias": [
         "あーつ学Ⅰ"
       ],
-      "sortId": 300003
+      "sortId": 80003
     },
     "ko_KR": {
       "enabled": true,
       "name": "스킬개론 제1권",
       "alias": [],
-      "sortId": 300003
+      "sortId": 80003
     },
     "zh_CN": {
       "enabled": true,
@@ -1077,7 +1077,7 @@
       "enabled": true,
       "name": "Skill Summary - 2",
       "alias": [],
-      "sortId": 300002
+      "sortId": 80002
     },
     "ja_JP": {
       "enabled": true,
@@ -1085,13 +1085,13 @@
       "alias": [
         "あーつ学Ⅱ"
       ],
-      "sortId": 300002
+      "sortId": 80002
     },
     "ko_KR": {
       "enabled": true,
       "name": "스킬개론 제2권",
       "alias": [],
-      "sortId": 300002
+      "sortId": 80002
     },
     "zh_CN": {
       "enabled": true,
@@ -1114,7 +1114,7 @@
       "enabled": true,
       "name": "Skill Summary - 3",
       "alias": [],
-      "sortId": 300001
+      "sortId": 80001
     },
     "ja_JP": {
       "enabled": true,
@@ -1122,13 +1122,13 @@
       "alias": [
         "あーつ学Ⅲ"
       ],
-      "sortId": 300001
+      "sortId": 80001
     },
     "ko_KR": {
       "enabled": true,
       "name": "스킬개론 제3권",
       "alias": [],
-      "sortId": 300001
+      "sortId": 80001
     },
     "zh_CN": {
       "enabled": true,
@@ -2554,19 +2554,24 @@
   },
   "M-5-4": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Crystalline Electroassembly",
+      "alias": [],
+      "sortId": 100040
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "結晶制御装置",
+      "alias": [
+        "結晶制御装置"
+      ],
+      "sortId": 100040
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "결정 전자 장치",
+      "alias": [],
+      "sortId": 100040
     },
     "zh_CN": {
       "enabled": true,
@@ -2733,19 +2738,24 @@
   },
   "M-3-13": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Crystalline Component",
+      "alias": [],
+      "sortId": 100042
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "素子結晶",
+      "alias": [
+        "素子結晶"
+      ],
+      "sortId": 100042
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "결정 부품",
+      "alias": [],
+      "sortId": 100042
     },
     "zh_CN": {
       "enabled": true,
@@ -2764,19 +2774,24 @@
   },
   "M-4-13": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Crystalline Circuit",
+      "alias": [],
+      "sortId": 100041
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "結晶回路",
+      "alias": [
+        "結晶回路"
+      ],
+      "sortId": 100041
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "결정 회로",
+      "alias": [],
+      "sortId": 100041
     },
     "zh_CN": {
       "enabled": true,

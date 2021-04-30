@@ -3672,6 +3672,15 @@
       ],
       "appellation": "Chiave"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "賈維",
+      "skills": [
+        "衝鋒號令·γ型",
+        "火焰剝離"
+      ],
+      "alias": []
+    },
     "code": "chiave",
     "code_name": "Chiave"
   },
@@ -5326,6 +5335,15 @@
       ],
       "appellation": "Beeswax"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "蜜蠟",
+      "skills": [
+        "沙暴擴散",
+        "守衛尖碑"
+      ],
+      "alias": []
+    },
     "code": "beeswax",
     "code_name": "Beeswax"
   },
@@ -5792,6 +5810,52 @@
     },
     "code": "ceylon",
     "code_name": "Ceylon"
+  },
+  "char_436_whispr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Whisperain",
+      "skills": [
+        "Oriented Diagnosis",
+        "Pain Suppression"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウィスパーレイン",
+      "skills": [
+        "対症療法",
+        "痛覚抑制"
+      ],
+      "alias": [
+        "うぃすぱーれいん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "위스퍼레인",
+      "skills": [
+        "방향성 진단",
+        "통각 억제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "絮雨",
+      "skills": [
+        "定向诊断",
+        "痛觉抑制"
+      ],
+      "alias": [
+        "xu yu",
+        "xuyu"
+      ],
+      "appellation": "Whisperain"
+    },
+    "code": "whisperain",
+    "code_name": "Whisperain"
   },
   "char_148_nearl": {
     "en_US": {
@@ -6275,6 +6339,15 @@
         "shimian"
       ],
       "appellation": "Asbestos"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "石棉",
+      "skills": [
+        "固守模式",
+        "火電模式"
+      ],
+      "alias": []
     },
     "code": "asbestos",
     "code_name": "Asbestos"
@@ -6854,6 +6927,15 @@
       ],
       "appellation": "Tsukinogi"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "月禾",
+      "skills": [
+        "跡無",
+        "森廻"
+      ],
+      "alias": []
+    },
     "code": "tsukinogi",
     "code_name": "Tsukinogi"
   },
@@ -7206,6 +7288,56 @@
     },
     "code": "rosa",
     "code_name": "Роса"
+  },
+  "char_391_rosmon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rosmontis",
+      "skills": [
+        "Expanded Cognition",
+        "Nociceptor Inhibition",
+        "“As You Wish”"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロスモンティス",
+      "skills": [
+        "意識拡張",
+        "神経遮断",
+        "「君が望むままに」"
+      ],
+      "alias": [
+        "ろすもんてぃす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로즈몬티스",
+      "skills": [
+        "사고 팽창",
+        "말초 차단",
+        "\"네가 원하는 대로\""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "迷迭香",
+      "skills": [
+        "思维膨大",
+        "末梢阻断",
+        "“如你所愿”"
+      ],
+      "alias": [
+        "mi die xiang",
+        "midiexiang"
+      ],
+      "appellation": "Rosmontis"
+    },
+    "code": "rosmontis",
+    "code_name": "Rosmontis"
   },
   "char_112_siege": {
     "en_US": {
@@ -8266,6 +8398,56 @@
     },
     "code": "nian",
     "code_name": "Nian"
+  },
+  "char_311_mudrok": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mudrock",
+      "skills": [
+        "DEF Up γ",
+        "Crag Splitter",
+        "Bloodline of Desecrated Earth"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "マドロック",
+      "skills": [
+        "防御力強化γ",
+        "岩崩し",
+        "悪土の血脈"
+      ],
+      "alias": [
+        "まどろっく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "머드락",
+      "skills": [
+        "방어 강화γ",
+        "바위를 깨는 망치",
+        "더러운 대지의 핏줄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "泥岩",
+      "skills": [
+        "防御力强化·γ型",
+        "岩崩锤",
+        "秽壤的血脉"
+      ],
+      "alias": [
+        "ni yan",
+        "niyan"
+      ],
+      "appellation": "Mudrock"
+    },
+    "code": "mudrock",
+    "code_name": "Mudrock"
   },
   "char_416_zumama": {
     "en_US": {
@@ -9367,8 +9549,67 @@
       ],
       "appellation": "Desert Obelisk"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "沙之碑",
+      "skills": [
+        "",
+        "沙之碑召喚"
+      ],
+      "alias": []
+    },
     "code": "sand obelisk",
     "code_name": "Desert Obelisk"
+  },
+  "token_10012_rosmon_shield": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rosmontis's Tactical Equipment",
+      "skills": [
+        "",
+        "",
+        "Call Tactical Equipment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロスモンティスの戦術装備",
+      "skills": [
+        "",
+        "",
+        "戦術装備配置"
+      ],
+      "alias": [
+        "ろすもんてぃすの戦術装備"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로즈몬티스의 전술 장비",
+      "skills": [
+        "",
+        "",
+        "전술 장비 소환"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "迷迭香的战术装备",
+      "skills": [
+        "",
+        "",
+        "战术装备召唤"
+      ],
+      "alias": [
+        "mi die xiang de zhan shu zhuang bei",
+        "midiexiangdezhanshuzhuangbei"
+      ],
+      "appellation": "Rosmontis-gear"
+    },
+    "code": "rosmontis's tactical equipment",
+    "code_name": "Rosmontis-gear"
   },
   "trap_001_crate": {
     "en_US": {
@@ -10162,6 +10403,216 @@
     "code": "mieszko coil",
     "code_name": "Mieszko coil"
   },
+  "trap_020_roadblock": {
+    "en_US": {
+      "enabled": true,
+      "name": "Static Roadblock",
+      "skills": [
+        "Obstruction"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "路上障害物",
+      "skills": [
+        "進路封鎖"
+      ],
+      "alias": [
+        "路上障害物"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "도로 장애물",
+      "skills": [
+        "길막기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "道路障碍物",
+      "skills": [
+        "道路阻塞"
+      ],
+      "alias": [
+        "dao lu zhang ai wu",
+        "daoluzhangaiwu"
+      ],
+      "appellation": "Roads Obstacles"
+    },
+    "code": "static roadblock",
+    "code_name": "Roads Obstacles"
+  },
+  "trap_021_flame": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Aggregate",
+      "skills": [
+        "Energy Crystallization"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エネルギークリスタル",
+      "skills": [
+        "エネルギー聚合体"
+      ],
+      "alias": [
+        "えねるぎーくりすたる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에너지 중합체",
+      "skills": [
+        "에너지 결정"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "能量聚合体",
+      "skills": [
+        "能量结晶"
+      ],
+      "alias": [
+        "neng liang ju he ti",
+        "nengliangjuheti"
+      ],
+      "appellation": "Energy Crystal"
+    },
+    "code": "energy aggregate",
+    "code_name": "Energy Crystal"
+  },
+  "trap_022_frosts_friend": {
+    "en_US": {
+      "enabled": true,
+      "name": "FrostNova's Originium Ice Crystal",
+      "skills": [
+        "Frigid Tide"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フロストノヴァの源石氷晶",
+      "skills": [
+        "氷結衝撃波"
+      ],
+      "alias": [
+        "ふろすとのゔぁの源石氷晶"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "프로스트노바의 오리지늄 얼음 결정",
+      "skills": [
+        "냉기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "霜星的源石冰晶",
+      "skills": [
+        "寒潮"
+      ],
+      "alias": [
+        "shuang xing de yuan shi bing jing",
+        "shuangxingdeyuanshibingjing"
+      ],
+      "appellation": "Yelena-Crystal"
+    },
+    "code": "frostnova's originium ice crystal",
+    "code_name": "Yelena-Crystal"
+  },
+  "trap_023_ore_friend": {
+    "en_US": {
+      "enabled": true,
+      "name": "Patriot's Originium Altar",
+      "skills": [
+        "Pulse Wave"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パトリオットの源石祭壇",
+      "skills": [
+        "源石衝撃波"
+      ],
+      "alias": [
+        "ぱとりおっとの源石祭壇"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "패트리어트의 오리지늄 제단",
+      "skills": [
+        "충격파"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "爱国者的源石祭坛",
+      "skills": [
+        "脉冲波"
+      ],
+      "alias": [
+        "ai guo zhe de yuan shi ji tan",
+        "aiguozhedeyuanshijitan"
+      ],
+      "appellation": "Patriot-Shrine"
+    },
+    "code": "patriot's originium altar",
+    "code_name": "Patriot-Shrine"
+  },
+  "trap_024_npcsld": {
+    "en_US": {
+      "enabled": true,
+      "name": "Shieldguard",
+      "skills": [
+        "Form Up!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "盾兵",
+      "skills": [
+        "構え！"
+      ],
+      "alias": [
+        "盾兵"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방패병",
+      "skills": [
+        "포진!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "盾卫",
+      "skills": [
+        "列阵！"
+      ],
+      "alias": [
+        "dun wei",
+        "dunwei"
+      ],
+      "appellation": "Shield Guard"
+    },
+    "code": "shieldguard",
+    "code_name": "Shield Guard"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -10371,6 +10822,52 @@
     },
     "code": "beehunter",
     "code_name": "Beehunter"
+  },
+  "char_347_jaksel": {
+    "en_US": {
+      "enabled": true,
+      "name": "Jackie",
+      "skills": [
+        "Grit Those Teeth!",
+        "Pay Close Attention!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジャッキー",
+      "skills": [
+        "全力パンチ！",
+        "全神経集中！"
+      ],
+      "alias": [
+        "じゃっきー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "재키",
+      "skills": [
+        "한 방 먹여주마!",
+        "정신 집중!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "杰克",
+      "skills": [
+        "给你一拳！",
+        "全神贯注！"
+      ],
+      "alias": [
+        "jie ke",
+        "jieke"
+      ],
+      "appellation": "Jackie"
+    },
+    "code": "jackie",
+    "code_name": "Jackie"
   },
   "char_164_nightm": {
     "en_US": {
@@ -10644,23 +11141,6 @@
     "code": null,
     "code_name": "Lava the Purgatory"
   },
-  "char_436_whispr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "絮雨",
-      "skills": [
-        "定向诊断",
-        "痛觉抑制"
-      ],
-      "alias": [
-        "xu yu",
-        "xuyu"
-      ],
-      "appellation": "Whisperain"
-    },
-    "code": null,
-    "code_name": "Whisperain"
-  },
   "char_402_tuye": {
     "zh_CN": {
       "enabled": true,
@@ -10833,24 +11313,6 @@
     "code": null,
     "code_name": "Ash"
   },
-  "char_391_rosmon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "迷迭香",
-      "skills": [
-        "思维膨大",
-        "末梢阻断",
-        "“如你所愿”"
-      ],
-      "alias": [
-        "mi die xiang",
-        "midiexiang"
-      ],
-      "appellation": "Rosmontis"
-    },
-    "code": null,
-    "code_name": "Rosmontis"
-  },
   "char_362_saga": {
     "zh_CN": {
       "enabled": true,
@@ -10905,24 +11367,6 @@
     "code": null,
     "code_name": "Passenger"
   },
-  "char_311_mudrok": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "泥岩",
-      "skills": [
-        "防御力强化·γ型",
-        "岩崩锤",
-        "秽壤的血脉"
-      ],
-      "alias": [
-        "ni yan",
-        "niyan"
-      ],
-      "appellation": "Mudrock"
-    },
-    "code": null,
-    "code_name": "Mudrock"
-  },
   "char_264_f12yin": {
     "zh_CN": {
       "enabled": true,
@@ -10940,24 +11384,6 @@
     },
     "code": null,
     "code_name": "Mountain"
-  },
-  "token_10012_rosmon_shield": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "迷迭香的战术装备",
-      "skills": [
-        "",
-        "",
-        "战术装备召唤"
-      ],
-      "alias": [
-        "mi die xiang de zhan shu zhuang bei",
-        "midiexiangdezhanshuzhuangbei"
-      ],
-      "appellation": "Rosmontis-gear"
-    },
-    "code": null,
-    "code_name": "Rosmontis-gear"
   },
   "token_10013_robin_mine": {
     "zh_CN": {
@@ -11027,86 +11453,6 @@
     },
     "code": null,
     "code_name": "Welcome Mat"
-  },
-  "trap_020_roadblock": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "道路障碍物",
-      "skills": [
-        "道路阻塞"
-      ],
-      "alias": [
-        "dao lu zhang ai wu",
-        "daoluzhangaiwu"
-      ],
-      "appellation": "Roads Obstacles"
-    },
-    "code": null,
-    "code_name": "Roads Obstacles"
-  },
-  "trap_021_flame": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "能量聚合体",
-      "skills": [
-        "能量结晶"
-      ],
-      "alias": [
-        "neng liang ju he ti",
-        "nengliangjuheti"
-      ],
-      "appellation": "Energy Crystal"
-    },
-    "code": null,
-    "code_name": "Energy Crystal"
-  },
-  "trap_022_frosts_friend": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "霜星的源石冰晶",
-      "skills": [
-        "寒潮"
-      ],
-      "alias": [
-        "shuang xing de yuan shi bing jing",
-        "shuangxingdeyuanshibingjing"
-      ],
-      "appellation": "Yelena-Crystal"
-    },
-    "code": null,
-    "code_name": "Yelena-Crystal"
-  },
-  "trap_023_ore_friend": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "爱国者的源石祭坛",
-      "skills": [
-        "脉冲波"
-      ],
-      "alias": [
-        "ai guo zhe de yuan shi ji tan",
-        "aiguozhedeyuanshijitan"
-      ],
-      "appellation": "Patriot-Shrine"
-    },
-    "code": null,
-    "code_name": "Patriot-Shrine"
-  },
-  "trap_024_npcsld": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "盾卫",
-      "skills": [
-        "列阵！"
-      ],
-      "alias": [
-        "dun wei",
-        "dunwei"
-      ],
-      "appellation": "Shield Guard"
-    },
-    "code": null,
-    "code_name": "Shield Guard"
   },
   "trap_025_prison": {
     "zh_CN": {
@@ -11318,23 +11664,6 @@
     },
     "code": null,
     "code_name": "Maneuver Drone Hangar"
-  },
-  "char_347_jaksel": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "杰克",
-      "skills": [
-        "给你一拳！",
-        "全神贯注！"
-      ],
-      "alias": [
-        "jie ke",
-        "jieke"
-      ],
-      "appellation": "Jackie"
-    },
-    "code": null,
-    "code_name": "Jackie"
   },
   "char_1001_amiya2": {
     "zh_CN": {
