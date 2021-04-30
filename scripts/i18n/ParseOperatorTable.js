@@ -16,13 +16,23 @@ const readTable = (lang) => {
 	const characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/character_table.json`));
 	const skills = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/skill_table.json`));
 
-	if (lang === 'zh_CN') {
+	if (lang !== 'zh_TW') {
 		const patch_characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/char_patch_table.json`));
 
 		Object.entries(patch_characters.patchChars).forEach(([unique_id, value]) => {
 			characters[unique_id] = {
 				...value,
-				name: `升变${value.name}`,
+				name: (() => {
+					switch (lang) {
+						case 'zh_CN':
+							return `升变${value.name}`;
+						case 'ja_JP':
+							return `昇格${value.name}`;
+						case 'en_US':
+						case 'ko_KR':
+							return `Promoted ${value.name}`;
+					}
+				})(),
 			};
 		});
 	}

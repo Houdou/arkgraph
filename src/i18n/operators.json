@@ -11039,6 +11039,52 @@
     "code": "skadi",
     "code_name": "Skadi"
   },
+  "char_1001_amiya2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Promoted Amiya",
+      "skills": [
+        "Ying Xiao - Fleeting Night",
+        "Ying Xiao - Shadowless"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "昇格アーミヤ",
+      "skills": [
+        "影霄・奔夜",
+        "影霄・絶影"
+      ],
+      "alias": [
+        "昇格あーみや"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Promoted 아미야",
+      "skills": [
+        "영소·분야",
+        "영소·절영"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "升变阿米娅",
+      "skills": [
+        "影霄·奔夜",
+        "影霄·绝影"
+      ],
+      "alias": [
+        "sheng bian a mi ya",
+        "shengbianamiya"
+      ],
+      "appellation": "Amiya"
+    },
+    "code": "promoted amiya",
+    "code_name": "Amiya"
+  },
   "char_440_pinecn": {
     "zh_CN": {
       "enabled": true,
@@ -11664,22 +11710,5 @@
     },
     "code": null,
     "code_name": "Maneuver Drone Hangar"
-  },
-  "char_1001_amiya2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "升变阿米娅",
-      "skills": [
-        "影霄·奔夜",
-        "影霄·绝影"
-      ],
-      "alias": [
-        "sheng bian a mi ya",
-        "shengbianamiya"
-      ],
-      "appellation": "Amiya"
-    },
-    "code": null,
-    "code_name": "Amiya"
   }
 }
