@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2021-05-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1012_skadi2",
+      "char_474_glady",
+      "char_003_kalts",
+      "char_475_akafyu"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -130,19 +143,6 @@
       "char_415_flint",
       "char_411_tomimi",
       "char_366_acdrop"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2021-02-05",
-    "type": "new_operators",
-    "new_operators": [
-      "char_362_saga",
-      "char_2015_dusk",
-      "char_1011_lava2",
-      "char_455_nothin"
     ]
   }
 ]
