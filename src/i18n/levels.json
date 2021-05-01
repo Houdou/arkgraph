@@ -10247,6 +10247,78 @@
       "enabled": true
     }
   },
+  "act18d3_01": {
+    "code": "SV-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_tr01": {
+    "code": "SV-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_02": {
+    "code": "SV-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_03": {
+    "code": "SV-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_04": {
+    "code": "SV-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_05": {
+    "code": "SV-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_06": {
+    "code": "SV-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_07": {
+    "code": "SV-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_st01": {
+    "code": "SV-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_08": {
+    "code": "SV-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_09": {
+    "code": "SV-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_st02": {
+    "code": "SV-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act18d0_01": {
     "code": "WD-1",
     "zh_CN": {
@@ -11029,6 +11101,12 @@
   },
   "camp_r_03": {
     "code": "乌萨斯",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_04": {
+    "code": "汐斯塔",
     "zh_CN": {
       "enabled": true
     }

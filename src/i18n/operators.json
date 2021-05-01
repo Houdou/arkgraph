@@ -11153,6 +11153,23 @@
     "code": null,
     "code_name": "Tachanka"
   },
+  "char_475_akafyu": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "赤冬",
+      "skills": [
+        "信影流·雷刀之势",
+        "信影流·十文字胜"
+      ],
+      "alias": [
+        "chi dong",
+        "chidong"
+      ],
+      "appellation": "Akafuyu"
+    },
+    "code": null,
+    "code_name": "Akafuyu"
+  },
   "char_338_iris": {
     "zh_CN": {
       "enabled": true,
@@ -11413,6 +11430,60 @@
     "code": null,
     "code_name": "Passenger"
   },
+  "char_1012_skadi2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "浊心斯卡蒂",
+      "skills": [
+        "同归殊途之吟",
+        "同葬无光之愿",
+        "\"潮涌，潮枯\""
+      ],
+      "alias": [
+        "zhuo xin si ka di",
+        "zhuoxinsikadi"
+      ],
+      "appellation": "Skadi the Corrupting Heart"
+    },
+    "code": null,
+    "code_name": "Skadi the Corrupting Heart"
+  },
+  "char_474_glady": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "歌蕾蒂娅",
+      "skills": [
+        "缺水的大洋裂断",
+        "缺水的掌握怒海",
+        "缺水的碎漩狂舞"
+      ],
+      "alias": [
+        "ge lei di ya",
+        "geleidiya"
+      ],
+      "appellation": "Gladiia"
+    },
+    "code": null,
+    "code_name": "Gladiia"
+  },
+  "char_003_kalts": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "凯尔希",
+      "skills": [
+        "指令：结构加固",
+        "指令：战术协同",
+        "指令：熔毁"
+      ],
+      "alias": [
+        "kai er xi",
+        "kaierxi"
+      ],
+      "appellation": "Kal'tsit"
+    },
+    "code": null,
+    "code_name": "Kal'tsit"
+  },
   "char_264_f12yin": {
     "zh_CN": {
       "enabled": true,
@@ -11430,6 +11501,24 @@
     },
     "code": null,
     "code_name": "Mountain"
+  },
+  "token_10002_kalts_mon3tr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "Mon3tr",
+        "Mon3tr"
+      ],
+      "appellation": "Mon3tr"
+    },
+    "code": null,
+    "code_name": "Mon3tr"
   },
   "token_10013_robin_mine": {
     "zh_CN": {
@@ -11499,6 +11588,24 @@
     },
     "code": null,
     "code_name": "Welcome Mat"
+  },
+  "token_10017_skadi2_dedant": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "斯卡蒂的海嗣",
+      "skills": [
+        "共鸣",
+        "共鸣",
+        "共鸣"
+      ],
+      "alias": [
+        "si ka di de hai si",
+        "sikadidehaisi"
+      ],
+      "appellation": "Skadi's seaborn"
+    },
+    "code": null,
+    "code_name": "Skadi's seaborn"
   },
   "trap_025_prison": {
     "zh_CN": {
@@ -11710,5 +11817,37 @@
     },
     "code": null,
     "code_name": "Maneuver Drone Hangar"
+  },
+  "trap_038_dsbell": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "应急救治设施",
+      "skills": [
+        "应急治疗协议"
+      ],
+      "alias": [
+        "ying ji jiu zhi she shi",
+        "yingjijiuzhisheshi"
+      ],
+      "appellation": "Emergency Aid Building"
+    },
+    "code": null,
+    "code_name": "Emergency Aid Building"
+  },
+  "trap_039_dstnta": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "子代",
+      "skills": [
+        "摄食"
+      ],
+      "alias": [
+        "zi dai",
+        "zidai"
+      ],
+      "appellation": "Seaborn's Filial Generation"
+    },
+    "code": null,
+    "code_name": "Seaborn's Filial Generation"
   }
 }
