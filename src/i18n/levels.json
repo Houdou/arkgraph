@@ -7035,6 +7035,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_02": {
@@ -7049,6 +7052,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7065,6 +7071,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_04": {
@@ -7079,6 +7088,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7095,6 +7107,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_06": {
@@ -7109,6 +7124,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7125,6 +7143,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_08": {
@@ -7139,6 +7160,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7155,6 +7179,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_ex01": {
@@ -7169,6 +7196,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7185,6 +7215,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_ex02": {
@@ -7199,6 +7232,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7215,6 +7251,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_ex03": {
@@ -7229,6 +7268,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7245,6 +7287,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_ex04": {
@@ -7259,6 +7304,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7275,6 +7323,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_ex05": {
@@ -7289,6 +7340,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7305,6 +7359,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_ex06": {
@@ -7319,6 +7376,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -7335,6 +7395,9 @@
     },
     "zh_CN": {
       "enabled": true
+    },
+    "zh_TW": {
+      "enabled": true
     }
   },
   "act9d0_mo01": {
@@ -7349,6 +7412,9 @@
       "enabled": true
     },
     "zh_CN": {
+      "enabled": true
+    },
+    "zh_TW": {
       "enabled": true
     }
   },
@@ -10315,6 +10381,102 @@
   },
   "act18d3_st02": {
     "code": "SV-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex01": {
+    "code": "SV-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex01#f#": {
+    "code": "SV-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex02": {
+    "code": "SV-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex02#f#": {
+    "code": "SV-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex03": {
+    "code": "SV-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex03#f#": {
+    "code": "SV-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex04": {
+    "code": "SV-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex04#f#": {
+    "code": "SV-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex05": {
+    "code": "SV-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex05#f#": {
+    "code": "SV-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex06": {
+    "code": "SV-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex06#f#": {
+    "code": "SV-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex07": {
+    "code": "SV-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex07#f#": {
+    "code": "SV-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex08": {
+    "code": "SV-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act18d3_ex08#f#": {
+    "code": "SV-EX-8",
     "zh_CN": {
       "enabled": true
     }

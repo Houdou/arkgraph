@@ -2388,6 +2388,15 @@
       ],
       "appellation": "Cutter"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "刻刀",
+      "skills": [
+        "紅移",
+        "緋紅刺刀"
+      ],
+      "alias": []
+    },
     "code": "cutter",
     "code_name": "Cutter"
   },
@@ -2867,6 +2876,52 @@
     },
     "code": "perfumer",
     "code_name": "Perfumer"
+  },
+  "char_385_finlpp": {
+    "en_US": {
+      "enabled": true,
+      "name": "Purestream",
+      "skills": [
+        "Healing Waves",
+        "Lifespring"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "セイリュウ",
+      "skills": [
+        "ヒールウェーブ",
+        "ピュアスプリング"
+      ],
+      "alias": [
+        "せいりゅう"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "퓨어스트림",
+      "skills": [
+        "치유의 물의 파동",
+        "용솟는 샘물"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "清流",
+      "skills": [
+        "治愈水波",
+        "涌泉"
+      ],
+      "alias": [
+        "qing liu",
+        "qingliu"
+      ],
+      "appellation": "Purestream"
+    },
+    "code": "purestream",
+    "code_name": "Purestream"
   },
   "char_199_yak": {
     "en_US": {
@@ -4511,6 +4566,15 @@
         "zhutie"
       ],
       "appellation": "Sideroca"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "鑄鐵",
+      "skills": [
+        "生命回復·γ型",
+        "破浪回神"
+      ],
+      "alias": []
     },
     "code": "sideroca",
     "code_name": "Sideroca"
@@ -6715,6 +6779,15 @@
         "wulian"
       ],
       "appellation": "Shamare"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "巫戀",
+      "skills": [
+        "病入膏肓",
+        "詛咒娃娃"
+      ],
+      "alias": []
     },
     "code": "shamare",
     "code_name": "Shamare"
@@ -9287,6 +9360,15 @@
       ],
       "appellation": "Curse Doll"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "詛咒娃娃",
+      "skills": [
+        "",
+        "詛咒娃娃"
+      ],
+      "alias": []
+    },
     "code": "cursed doll",
     "code_name": "Curse Doll"
   },
@@ -11118,23 +11200,6 @@
     },
     "code": null,
     "code_name": "Beanstalk"
-  },
-  "char_385_finlpp": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "清流",
-      "skills": [
-        "治愈水波",
-        "涌泉"
-      ],
-      "alias": [
-        "qing liu",
-        "qingliu"
-      ],
-      "appellation": "Purestream"
-    },
-    "code": null,
-    "code_name": "Purestream"
   },
   "char_459_tachak": {
     "zh_CN": {
