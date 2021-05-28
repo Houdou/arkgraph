@@ -158,7 +158,7 @@ const ArkFarming = ({
 								<div class={style.penguin_link}>
 									{
 										!excluding_list.includes(level.id) && (
-											<PenguinLink category="stage" id={`${level.zone_id}/${level.unique_id}`} render={ir('penguin-check_full_drop_rate', 'Check full drop rate')} />
+											<PenguinLink category="stage" id={`${level.zone_id}/${level.unique_id}${level.is_perm ? '_perm' : ''}`} render={ir('penguin-check_full_drop_rate', 'Check full drop rate')} />
 										)
 									}
 								</div>

@@ -4,6 +4,7 @@
     "energy": 6,
     "unique_id": "main_00-01",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -47,6 +48,7 @@
     "energy": 6,
     "unique_id": "main_00-01#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -56,6 +58,7 @@
     "energy": 0,
     "unique_id": "tr_01",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -65,6 +68,7 @@
     "energy": 6,
     "unique_id": "main_00-02",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -108,6 +112,7 @@
     "energy": 6,
     "unique_id": "main_00-02#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -117,6 +122,7 @@
     "energy": 0,
     "unique_id": "tr_02",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -126,6 +132,7 @@
     "energy": 6,
     "unique_id": "main_00-03",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -169,6 +176,7 @@
     "energy": 6,
     "unique_id": "main_00-03#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -178,6 +186,7 @@
     "energy": 0,
     "unique_id": "tr_03",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -187,6 +196,7 @@
     "energy": 6,
     "unique_id": "main_00-04",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -230,6 +240,7 @@
     "energy": 6,
     "unique_id": "main_00-04#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -239,6 +250,7 @@
     "energy": 0,
     "unique_id": "tr_04",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -248,6 +260,7 @@
     "energy": 6,
     "unique_id": "main_00-05",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -291,6 +304,7 @@
     "energy": 6,
     "unique_id": "main_00-05#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -300,6 +314,7 @@
     "energy": 6,
     "unique_id": "main_00-06",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -343,6 +358,7 @@
     "energy": 6,
     "unique_id": "main_00-06#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -352,6 +368,7 @@
     "energy": 0,
     "unique_id": "tr_05",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -361,6 +378,7 @@
     "energy": 6,
     "unique_id": "main_00-07",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -404,6 +422,7 @@
     "energy": 6,
     "unique_id": "main_00-07#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -413,6 +432,7 @@
     "energy": 0,
     "unique_id": "tr_06",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -422,6 +442,7 @@
     "energy": 6,
     "unique_id": "main_00-08",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -465,6 +486,7 @@
     "energy": 6,
     "unique_id": "main_00-08#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -474,6 +496,7 @@
     "energy": 6,
     "unique_id": "main_00-09",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-1",
@@ -517,6 +540,7 @@
     "energy": 6,
     "unique_id": "main_00-09#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -526,6 +550,7 @@
     "energy": 0,
     "unique_id": "tr_07",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -535,6 +560,7 @@
     "energy": 6,
     "unique_id": "main_00-10",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -578,6 +604,7 @@
     "energy": 6,
     "unique_id": "main_00-10#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -587,6 +614,7 @@
     "energy": 6,
     "unique_id": "main_00-11",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -630,6 +658,7 @@
     "energy": 6,
     "unique_id": "main_00-11#f#",
     "zone_id": "main_0",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -639,6 +668,7 @@
     "energy": 6,
     "unique_id": "main_01-01",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -677,6 +707,7 @@
     "energy": 6,
     "unique_id": "main_01-01#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -686,6 +717,7 @@
     "energy": 0,
     "unique_id": "main_01-02",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -695,6 +727,7 @@
     "energy": 6,
     "unique_id": "main_01-03",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -738,6 +771,7 @@
     "energy": 6,
     "unique_id": "main_01-03#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -747,6 +781,7 @@
     "energy": 6,
     "unique_id": "main_01-04",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -785,6 +820,7 @@
     "energy": 6,
     "unique_id": "main_01-04#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -794,6 +830,7 @@
     "energy": 6,
     "unique_id": "main_01-05",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -837,6 +874,7 @@
     "energy": 6,
     "unique_id": "main_01-05#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -846,6 +884,7 @@
     "energy": 0,
     "unique_id": "tr_08",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -855,6 +894,7 @@
     "energy": 6,
     "unique_id": "main_01-06",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-6",
@@ -898,6 +938,7 @@
     "energy": 6,
     "unique_id": "main_01-06#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -907,6 +948,7 @@
     "energy": 0,
     "unique_id": "tr_09",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -916,6 +958,7 @@
     "energy": 6,
     "unique_id": "main_01-07",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-1",
@@ -959,6 +1002,7 @@
     "energy": 6,
     "unique_id": "main_01-07#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -968,6 +1012,7 @@
     "energy": 9,
     "unique_id": "main_01-08",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -1011,6 +1056,7 @@
     "energy": 9,
     "unique_id": "main_01-08#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1020,6 +1066,7 @@
     "energy": 0,
     "unique_id": "tr_10",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1029,6 +1076,7 @@
     "energy": 9,
     "unique_id": "main_01-09",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -1067,6 +1115,7 @@
     "energy": 9,
     "unique_id": "main_01-09#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1076,6 +1125,7 @@
     "energy": 9,
     "unique_id": "main_01-10",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "S-2-1",
@@ -1119,6 +1169,7 @@
     "energy": 9,
     "unique_id": "main_01-10#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1128,6 +1179,7 @@
     "energy": 0,
     "unique_id": "main_01-11",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1137,6 +1189,7 @@
     "energy": 9,
     "unique_id": "main_01-12",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -1180,6 +1233,7 @@
     "energy": 9,
     "unique_id": "main_01-12#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1189,6 +1243,7 @@
     "energy": 0,
     "unique_id": "tr_11",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1198,6 +1253,7 @@
     "energy": 9,
     "unique_id": "main_02-01",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -1241,6 +1297,7 @@
     "energy": 9,
     "unique_id": "main_02-01#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1250,6 +1307,7 @@
     "energy": 9,
     "unique_id": "sub_02-01",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -1293,6 +1351,7 @@
     "energy": 9,
     "unique_id": "main_02-02",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -1336,6 +1395,7 @@
     "energy": 9,
     "unique_id": "main_02-02#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1345,6 +1405,7 @@
     "energy": 9,
     "unique_id": "sub_02-02",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -1383,6 +1444,7 @@
     "energy": 9,
     "unique_id": "sub_02-03",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-2-1",
@@ -1426,6 +1488,7 @@
     "energy": 9,
     "unique_id": "sub_02-04",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -1464,6 +1527,7 @@
     "energy": 12,
     "unique_id": "main_02-03",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -1507,6 +1571,7 @@
     "energy": 12,
     "unique_id": "main_02-03#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1516,6 +1581,7 @@
     "energy": 0,
     "unique_id": "tr_12",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1525,6 +1591,7 @@
     "energy": 12,
     "unique_id": "main_02-04",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -1568,6 +1635,7 @@
     "energy": 12,
     "unique_id": "main_02-04#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1577,6 +1645,7 @@
     "energy": 12,
     "unique_id": "sub_02-05",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-1",
@@ -1620,6 +1689,7 @@
     "energy": 12,
     "unique_id": "sub_02-06",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -1667,6 +1737,7 @@
     "energy": 12,
     "unique_id": "sub_02-07",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -1710,6 +1781,7 @@
     "energy": 0,
     "unique_id": "tr_13",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1719,6 +1791,7 @@
     "energy": 12,
     "unique_id": "main_02-05",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -1766,6 +1839,7 @@
     "energy": 12,
     "unique_id": "main_02-05#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1775,6 +1849,7 @@
     "energy": 12,
     "unique_id": "main_02-06",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -1818,6 +1893,7 @@
     "energy": 12,
     "unique_id": "main_02-06#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1827,6 +1903,7 @@
     "energy": 0,
     "unique_id": "tr_14",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1836,6 +1913,7 @@
     "energy": 12,
     "unique_id": "main_02-07",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -1878,6 +1956,7 @@
     "energy": 12,
     "unique_id": "main_02-07#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -1887,6 +1966,7 @@
     "energy": 12,
     "unique_id": "sub_02-08",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -1934,6 +2014,7 @@
     "energy": 12,
     "unique_id": "sub_02-09",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-6",
@@ -1981,6 +2062,7 @@
     "energy": 12,
     "unique_id": "main_02-08",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -2028,6 +2110,7 @@
     "energy": 12,
     "unique_id": "main_02-08#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2037,6 +2120,7 @@
     "energy": 12,
     "unique_id": "main_02-09",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -2080,6 +2164,7 @@
     "energy": 12,
     "unique_id": "main_02-09#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2089,6 +2174,7 @@
     "energy": 12,
     "unique_id": "sub_02-10",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -2132,6 +2218,7 @@
     "energy": 12,
     "unique_id": "sub_02-11",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -2174,6 +2261,7 @@
     "energy": 15,
     "unique_id": "sub_02-12",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-1",
@@ -2213,6 +2301,7 @@
     "energy": 15,
     "unique_id": "main_02-10",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -2260,6 +2349,7 @@
     "energy": 15,
     "unique_id": "main_02-10#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2269,6 +2359,7 @@
     "energy": 15,
     "unique_id": "main_03-01",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -2316,6 +2407,7 @@
     "energy": 15,
     "unique_id": "main_03-01#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2325,6 +2417,7 @@
     "energy": 15,
     "unique_id": "main_03-02",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -2364,6 +2457,7 @@
     "energy": 15,
     "unique_id": "main_03-02#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2373,6 +2467,7 @@
     "energy": 15,
     "unique_id": "main_03-03",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -2412,6 +2507,7 @@
     "energy": 15,
     "unique_id": "main_03-03#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2421,6 +2517,7 @@
     "energy": 0,
     "unique_id": "tr_15",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2430,6 +2527,7 @@
     "energy": 15,
     "unique_id": "main_03-04",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -2469,6 +2567,7 @@
     "energy": 15,
     "unique_id": "main_03-04#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2478,6 +2577,7 @@
     "energy": 15,
     "unique_id": "main_03-05",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -2517,6 +2617,7 @@
     "energy": 15,
     "unique_id": "main_03-05#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2526,6 +2627,7 @@
     "energy": 15,
     "unique_id": "main_03-06",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -2568,6 +2670,7 @@
     "energy": 15,
     "unique_id": "main_03-06#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2577,6 +2680,7 @@
     "energy": 15,
     "unique_id": "main_03-07",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -2624,6 +2728,7 @@
     "energy": 15,
     "unique_id": "main_03-07#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2633,6 +2738,7 @@
     "energy": 18,
     "unique_id": "main_03-08",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -2689,6 +2795,7 @@
     "energy": 18,
     "unique_id": "main_03-08#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2698,6 +2805,7 @@
     "energy": 15,
     "unique_id": "sub_03-1-1",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -2745,6 +2853,7 @@
     "energy": 15,
     "unique_id": "sub_03-1-2",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -2784,6 +2893,7 @@
     "energy": 15,
     "unique_id": "sub_03-2-1",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -2831,6 +2941,7 @@
     "energy": 15,
     "unique_id": "sub_03-2-2",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -2870,6 +2981,7 @@
     "energy": 15,
     "unique_id": "sub_03-2-3",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -2912,6 +3024,7 @@
     "energy": 15,
     "unique_id": "sub_03-3-1",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -2951,6 +3064,7 @@
     "energy": 18,
     "unique_id": "sub_03-3-2",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-13",
@@ -2969,6 +3083,7 @@
     "energy": 0,
     "unique_id": "guide_01",
     "zone_id": "guide_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2978,6 +3093,7 @@
     "energy": 0,
     "unique_id": "guide_02",
     "zone_id": "guide_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -2987,6 +3103,7 @@
     "energy": 18,
     "unique_id": "main_04-01",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -3029,6 +3146,7 @@
     "energy": 18,
     "unique_id": "main_04-01#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3038,6 +3156,7 @@
     "energy": 18,
     "unique_id": "main_04-02",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -3102,6 +3221,7 @@
     "energy": 18,
     "unique_id": "main_04-02#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3111,6 +3231,7 @@
     "energy": 18,
     "unique_id": "main_04-03",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -3158,6 +3279,7 @@
     "energy": 18,
     "unique_id": "main_04-03#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3167,6 +3289,7 @@
     "energy": 18,
     "unique_id": "main_04-04",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -3219,6 +3342,7 @@
     "energy": 18,
     "unique_id": "main_04-04#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3228,6 +3352,7 @@
     "energy": 18,
     "unique_id": "main_04-05",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -3284,6 +3409,7 @@
     "energy": 18,
     "unique_id": "main_04-05#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3293,6 +3419,7 @@
     "energy": 18,
     "unique_id": "main_04-06",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -3345,6 +3472,7 @@
     "energy": 18,
     "unique_id": "main_04-06#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3354,6 +3482,7 @@
     "energy": 18,
     "unique_id": "main_04-07",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -3406,6 +3535,7 @@
     "energy": 18,
     "unique_id": "main_04-07#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3415,6 +3545,7 @@
     "energy": 21,
     "unique_id": "main_04-08",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -3471,6 +3602,7 @@
     "energy": 21,
     "unique_id": "main_04-08#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3480,6 +3612,7 @@
     "energy": 21,
     "unique_id": "main_04-09",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -3536,6 +3669,7 @@
     "energy": 21,
     "unique_id": "main_04-09#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3545,6 +3679,7 @@
     "energy": 21,
     "unique_id": "main_04-10",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -3597,6 +3732,7 @@
     "energy": 21,
     "unique_id": "main_04-10#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3606,6 +3742,7 @@
     "energy": 18,
     "unique_id": "main_05-01",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -3653,6 +3790,7 @@
     "energy": 18,
     "unique_id": "main_05-01#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3662,6 +3800,7 @@
     "energy": 18,
     "unique_id": "main_05-02",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -3714,6 +3853,7 @@
     "energy": 18,
     "unique_id": "main_05-02#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3723,6 +3863,7 @@
     "energy": 18,
     "unique_id": "main_05-03",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -3741,6 +3882,7 @@
     "energy": 18,
     "unique_id": "main_05-03#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3750,6 +3892,7 @@
     "energy": 18,
     "unique_id": "main_05-04",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -3801,6 +3944,7 @@
     "energy": 18,
     "unique_id": "main_05-04#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3810,6 +3954,7 @@
     "energy": 18,
     "unique_id": "main_05-05",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -3862,6 +4007,7 @@
     "energy": 18,
     "unique_id": "main_05-05#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3871,6 +4017,7 @@
     "energy": 18,
     "unique_id": "main_05-06",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -3930,6 +4077,7 @@
     "energy": 18,
     "unique_id": "main_05-06#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3939,6 +4087,7 @@
     "energy": 21,
     "unique_id": "main_05-07",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -3957,6 +4106,7 @@
     "energy": 21,
     "unique_id": "main_05-07#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -3966,6 +4116,7 @@
     "energy": 18,
     "unique_id": "main_05-08",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -4022,6 +4173,7 @@
     "energy": 18,
     "unique_id": "main_05-08#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4031,6 +4183,7 @@
     "energy": 18,
     "unique_id": "main_05-09",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -4078,6 +4231,7 @@
     "energy": 18,
     "unique_id": "main_05-09#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4087,6 +4241,7 @@
     "energy": 21,
     "unique_id": "main_05-10",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -4105,6 +4260,7 @@
     "energy": 21,
     "unique_id": "main_05-10#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4114,6 +4270,7 @@
     "energy": 0,
     "unique_id": "st_05-01",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4123,6 +4280,7 @@
     "energy": 18,
     "unique_id": "main_06-01",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -4137,6 +4295,7 @@
     "energy": 18,
     "unique_id": "main_06-01#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4146,6 +4305,7 @@
     "energy": 18,
     "unique_id": "main_06-02",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -4202,6 +4362,7 @@
     "energy": 18,
     "unique_id": "main_06-02#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4211,6 +4372,7 @@
     "energy": 18,
     "unique_id": "main_06-03",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -4258,6 +4420,7 @@
     "energy": 18,
     "unique_id": "main_06-03#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4267,6 +4430,7 @@
     "energy": 18,
     "unique_id": "main_06-04",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -4323,6 +4487,7 @@
     "energy": 18,
     "unique_id": "main_06-04#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4332,6 +4497,7 @@
     "energy": 18,
     "unique_id": "main_06-05",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -4350,6 +4516,7 @@
     "energy": 18,
     "unique_id": "main_06-05#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4359,6 +4526,7 @@
     "energy": 0,
     "unique_id": "st_06-01",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4368,6 +4536,7 @@
     "energy": 0,
     "unique_id": "main_06-06",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4377,6 +4546,7 @@
     "energy": 18,
     "unique_id": "main_06-07",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -4436,6 +4606,7 @@
     "energy": 18,
     "unique_id": "main_06-07#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4445,6 +4616,7 @@
     "energy": 0,
     "unique_id": "tr_16",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4454,6 +4626,7 @@
     "energy": 18,
     "unique_id": "main_06-08",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -4472,6 +4645,7 @@
     "energy": 18,
     "unique_id": "main_06-08#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4481,6 +4655,7 @@
     "energy": 18,
     "unique_id": "main_06-09",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -4532,6 +4707,7 @@
     "energy": 18,
     "unique_id": "main_06-09#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4541,6 +4717,7 @@
     "energy": 21,
     "unique_id": "main_06-10",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -4559,6 +4736,7 @@
     "energy": 21,
     "unique_id": "main_06-10#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4568,6 +4746,7 @@
     "energy": 18,
     "unique_id": "main_06-11",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -4632,6 +4811,7 @@
     "energy": 18,
     "unique_id": "main_06-11#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4641,6 +4821,7 @@
     "energy": 0,
     "unique_id": "st_06-02",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4650,6 +4831,7 @@
     "energy": 18,
     "unique_id": "main_06-12",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -4697,6 +4879,7 @@
     "energy": 18,
     "unique_id": "main_06-12#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4706,6 +4889,7 @@
     "energy": 18,
     "unique_id": "main_06-13",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -4762,6 +4946,7 @@
     "energy": 18,
     "unique_id": "main_06-13#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4771,6 +4956,7 @@
     "energy": 21,
     "unique_id": "main_06-14",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -4789,6 +4975,7 @@
     "energy": 21,
     "unique_id": "main_06-14#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4798,6 +4985,7 @@
     "energy": 0,
     "unique_id": "main_06-15",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4807,6 +4995,7 @@
     "energy": 0,
     "unique_id": "st_06-03",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4816,6 +5005,7 @@
     "energy": 0,
     "unique_id": "st_07-01",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4825,6 +5015,7 @@
     "energy": 18,
     "unique_id": "main_07-01",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -4881,6 +5072,7 @@
     "energy": 18,
     "unique_id": "main_07-01#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4890,6 +5082,7 @@
     "energy": 18,
     "unique_id": "main_07-02",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -4904,6 +5097,7 @@
     "energy": 18,
     "unique_id": "main_07-02#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4913,6 +5107,7 @@
     "energy": 18,
     "unique_id": "main_07-03",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -4972,6 +5167,7 @@
     "energy": 18,
     "unique_id": "main_07-03#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -4981,6 +5177,7 @@
     "energy": 18,
     "unique_id": "main_07-04",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -5037,6 +5234,7 @@
     "energy": 18,
     "unique_id": "main_07-04#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5046,6 +5244,7 @@
     "energy": 0,
     "unique_id": "tr_17",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5055,6 +5254,7 @@
     "energy": 18,
     "unique_id": "main_07-05",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -5073,6 +5273,7 @@
     "energy": 18,
     "unique_id": "main_07-05#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5082,6 +5283,7 @@
     "energy": 0,
     "unique_id": "st_07-02",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5091,6 +5293,7 @@
     "energy": 18,
     "unique_id": "main_07-06",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -5155,6 +5358,7 @@
     "energy": 18,
     "unique_id": "main_07-06#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5164,6 +5368,7 @@
     "energy": 21,
     "unique_id": "main_07-07",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -5220,6 +5425,7 @@
     "energy": 21,
     "unique_id": "main_07-07#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5229,6 +5435,7 @@
     "energy": 18,
     "unique_id": "main_07-08",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -5280,6 +5487,7 @@
     "energy": 18,
     "unique_id": "main_07-08#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5289,6 +5497,7 @@
     "energy": 18,
     "unique_id": "main_07-09",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -5307,6 +5516,7 @@
     "energy": 18,
     "unique_id": "main_07-09#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5316,6 +5526,7 @@
     "energy": 18,
     "unique_id": "main_07-10",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -5334,6 +5545,7 @@
     "energy": 18,
     "unique_id": "main_07-10#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5343,6 +5555,7 @@
     "energy": 18,
     "unique_id": "main_07-11",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -5390,6 +5603,7 @@
     "energy": 18,
     "unique_id": "main_07-11#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5399,6 +5613,7 @@
     "energy": 18,
     "unique_id": "main_07-12",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -5450,6 +5665,7 @@
     "energy": 18,
     "unique_id": "main_07-12#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5459,6 +5675,7 @@
     "energy": 18,
     "unique_id": "main_07-13",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -5518,6 +5735,7 @@
     "energy": 18,
     "unique_id": "main_07-13#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5527,6 +5745,7 @@
     "energy": 18,
     "unique_id": "main_07-14",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -5545,6 +5764,7 @@
     "energy": 18,
     "unique_id": "main_07-14#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5554,6 +5774,7 @@
     "energy": 21,
     "unique_id": "main_07-15",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -5618,6 +5839,7 @@
     "energy": 21,
     "unique_id": "main_07-15#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5627,6 +5849,7 @@
     "energy": 21,
     "unique_id": "main_07-16",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -5645,6 +5868,7 @@
     "energy": 21,
     "unique_id": "main_07-16#f#",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5654,6 +5878,7 @@
     "energy": 0,
     "unique_id": "st_07-03",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5663,6 +5888,7 @@
     "energy": 0,
     "unique_id": "st_07-04",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5672,6 +5898,7 @@
     "energy": 18,
     "unique_id": "main_08-01",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -5714,6 +5941,7 @@
     "energy": 18,
     "unique_id": "main_08-01#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5723,6 +5951,7 @@
     "energy": 0,
     "unique_id": "st_08-01",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5732,6 +5961,7 @@
     "energy": 0,
     "unique_id": "tr_18",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5741,6 +5971,7 @@
     "energy": 18,
     "unique_id": "main_08-02",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -5805,6 +6036,7 @@
     "energy": 18,
     "unique_id": "main_08-02#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5814,6 +6046,7 @@
     "energy": 18,
     "unique_id": "main_08-03",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -5870,6 +6103,7 @@
     "energy": 18,
     "unique_id": "main_08-03#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5879,6 +6113,7 @@
     "energy": 18,
     "unique_id": "st_08-02",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5888,6 +6123,7 @@
     "energy": 18,
     "unique_id": "main_08-04",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -5902,6 +6138,7 @@
     "energy": 18,
     "unique_id": "main_08-04#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5911,6 +6148,7 @@
     "energy": 0,
     "unique_id": "st_08-03",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5920,6 +6158,7 @@
     "energy": 18,
     "unique_id": "main_08-05",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -5938,6 +6177,7 @@
     "energy": 18,
     "unique_id": "main_08-05#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5947,6 +6187,7 @@
     "energy": 18,
     "unique_id": "st_08-04",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -5956,6 +6197,7 @@
     "energy": 18,
     "unique_id": "main_08-06",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -6003,6 +6245,7 @@
     "energy": 18,
     "unique_id": "main_08-06#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6012,6 +6255,7 @@
     "energy": 0,
     "unique_id": "st_08-05",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6021,6 +6265,7 @@
     "energy": 18,
     "unique_id": "main_08-07",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -6085,6 +6330,7 @@
     "energy": 18,
     "unique_id": "main_08-07#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6094,6 +6340,7 @@
     "energy": 18,
     "unique_id": "main_08-08",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -6112,6 +6359,7 @@
     "energy": 18,
     "unique_id": "main_08-08#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6121,6 +6369,7 @@
     "energy": 18,
     "unique_id": "main_08-09",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -6139,6 +6388,7 @@
     "energy": 18,
     "unique_id": "main_08-09#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6148,6 +6398,7 @@
     "energy": 18,
     "unique_id": "main_08-10",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -6199,6 +6450,7 @@
     "energy": 18,
     "unique_id": "main_08-10#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6208,6 +6460,7 @@
     "energy": 18,
     "unique_id": "main_08-11",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -6264,6 +6517,7 @@
     "energy": 18,
     "unique_id": "main_08-11#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6273,6 +6527,7 @@
     "energy": 21,
     "unique_id": "main_08-12",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -6291,6 +6546,7 @@
     "energy": 21,
     "unique_id": "main_08-12#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6300,6 +6556,7 @@
     "energy": 21,
     "unique_id": "main_08-13",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-13",
@@ -6352,6 +6609,7 @@
     "energy": 21,
     "unique_id": "main_08-13#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6361,6 +6619,7 @@
     "energy": 18,
     "unique_id": "main_08-14",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-2",
@@ -6408,6 +6667,7 @@
     "energy": 18,
     "unique_id": "main_08-14#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6417,6 +6677,7 @@
     "energy": 0,
     "unique_id": "main_08-15",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6426,6 +6687,7 @@
     "energy": 21,
     "unique_id": "main_08-16",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -6482,6 +6744,7 @@
     "energy": 21,
     "unique_id": "main_08-16#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6491,6 +6754,7 @@
     "energy": 18,
     "unique_id": "main_08-17",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -6550,6 +6814,7 @@
     "energy": 18,
     "unique_id": "main_08-17#f#",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6559,6 +6824,7 @@
     "energy": 0,
     "unique_id": "st_08-06",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6568,6 +6834,7 @@
     "energy": 0,
     "unique_id": "spst_08-01",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6577,6 +6844,7 @@
     "energy": 0,
     "unique_id": "spst_08-02",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6586,6 +6854,7 @@
     "energy": 0,
     "unique_id": "spst_08-03",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6595,6 +6864,7 @@
     "energy": 0,
     "unique_id": "spst_08-04",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6604,6 +6874,7 @@
     "energy": 0,
     "unique_id": "spst_08-05",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -6613,6 +6884,7 @@
     "energy": 18,
     "unique_id": "sub_04-1-1",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -6677,6 +6949,7 @@
     "energy": 18,
     "unique_id": "sub_04-1-2",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -6723,6 +6996,7 @@
     "energy": 18,
     "unique_id": "sub_04-1-3",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -6777,6 +7051,7 @@
     "energy": 18,
     "unique_id": "sub_04-2-1",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -6831,6 +7106,7 @@
     "energy": 18,
     "unique_id": "sub_04-2-2",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -6877,6 +7153,7 @@
     "energy": 21,
     "unique_id": "sub_04-2-3",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -6931,6 +7208,7 @@
     "energy": 18,
     "unique_id": "sub_04-3-1",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -6985,6 +7263,7 @@
     "energy": 18,
     "unique_id": "sub_04-3-2",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -7031,6 +7310,7 @@
     "energy": 21,
     "unique_id": "sub_04-3-3",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -7090,6 +7370,7 @@
     "energy": 18,
     "unique_id": "sub_04-4-1",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -7137,6 +7418,7 @@
     "energy": 18,
     "unique_id": "sub_05-1-1",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-1",
@@ -7155,6 +7437,7 @@
     "energy": 18,
     "unique_id": "sub_05-1-2",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -7209,6 +7492,7 @@
     "energy": 18,
     "unique_id": "sub_05-2-1",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -7223,6 +7507,7 @@
     "energy": 18,
     "unique_id": "sub_05-2-2",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -7241,6 +7526,7 @@
     "energy": 18,
     "unique_id": "sub_05-3-1",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -7255,6 +7541,7 @@
     "energy": 18,
     "unique_id": "sub_05-3-2",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -7314,6 +7601,7 @@
     "energy": 18,
     "unique_id": "sub_05-4-1",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -7370,6 +7658,7 @@
     "energy": 18,
     "unique_id": "sub_05-4-2",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -7422,6 +7711,7 @@
     "energy": 18,
     "unique_id": "sub_05-4-3",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-13",
@@ -7486,6 +7776,7 @@
     "energy": 18,
     "unique_id": "sub_06-1-1",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -7537,6 +7828,7 @@
     "energy": 18,
     "unique_id": "sub_06-1-2",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-1",
@@ -7551,6 +7843,7 @@
     "energy": 18,
     "unique_id": "sub_06-2-1",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -7569,6 +7862,7 @@
     "energy": 18,
     "unique_id": "sub_06-2-2",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -7615,6 +7909,7 @@
     "energy": 18,
     "unique_id": "sub_07-1-1",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": [
@@ -7657,6 +7952,7 @@
     "energy": 18,
     "unique_id": "sub_07-1-2",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -7671,6 +7967,7 @@
     "energy": 10,
     "unique_id": "hard_05-01",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7680,6 +7977,7 @@
     "energy": 10,
     "unique_id": "hard_05-02",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7689,6 +7987,7 @@
     "energy": 10,
     "unique_id": "hard_05-03",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7698,6 +7997,7 @@
     "energy": 10,
     "unique_id": "hard_05-04",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7707,6 +8007,7 @@
     "energy": 10,
     "unique_id": "hard_06-01",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7716,6 +8017,7 @@
     "energy": 10,
     "unique_id": "hard_06-02",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7725,6 +8027,7 @@
     "energy": 10,
     "unique_id": "hard_06-03",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7734,6 +8037,7 @@
     "energy": 10,
     "unique_id": "hard_06-04",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7743,6 +8047,7 @@
     "energy": 10,
     "unique_id": "hard_07-01",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7752,6 +8057,7 @@
     "energy": 10,
     "unique_id": "hard_07-02",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7761,6 +8067,7 @@
     "energy": 10,
     "unique_id": "hard_07-03",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7770,6 +8077,7 @@
     "energy": 10,
     "unique_id": "hard_07-04",
     "zone_id": "main_7",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7779,6 +8087,7 @@
     "energy": 10,
     "unique_id": "hard_08-01",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7788,6 +8097,7 @@
     "energy": 10,
     "unique_id": "hard_08-02",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7797,6 +8107,7 @@
     "energy": 10,
     "unique_id": "hard_08-03",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7806,6 +8117,7 @@
     "energy": 10,
     "unique_id": "hard_08-04",
     "zone_id": "main_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7815,6 +8127,7 @@
     "energy": 10,
     "unique_id": "wk_melee_1",
     "zone_id": "weekly_9",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7824,6 +8137,7 @@
     "energy": 15,
     "unique_id": "wk_melee_2",
     "zone_id": "weekly_9",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7833,6 +8147,7 @@
     "energy": 20,
     "unique_id": "wk_melee_3",
     "zone_id": "weekly_9",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7842,6 +8157,7 @@
     "energy": 25,
     "unique_id": "wk_melee_4",
     "zone_id": "weekly_9",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7851,6 +8167,7 @@
     "energy": 30,
     "unique_id": "wk_melee_5",
     "zone_id": "weekly_9",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7860,6 +8177,7 @@
     "energy": 10,
     "unique_id": "wk_armor_1",
     "zone_id": "weekly_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7869,6 +8187,7 @@
     "energy": 15,
     "unique_id": "wk_armor_2",
     "zone_id": "weekly_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7878,6 +8197,7 @@
     "energy": 20,
     "unique_id": "wk_armor_3",
     "zone_id": "weekly_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7887,6 +8207,7 @@
     "energy": 25,
     "unique_id": "wk_armor_4",
     "zone_id": "weekly_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7896,6 +8217,7 @@
     "energy": 30,
     "unique_id": "wk_armor_5",
     "zone_id": "weekly_8",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -7905,6 +8227,7 @@
     "energy": 10,
     "unique_id": "wk_kc_1",
     "zone_id": "weekly_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -7923,6 +8246,7 @@
     "energy": 15,
     "unique_id": "wk_kc_2",
     "zone_id": "weekly_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -7941,6 +8265,7 @@
     "energy": 20,
     "unique_id": "wk_kc_3",
     "zone_id": "weekly_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -7963,6 +8288,7 @@
     "energy": 25,
     "unique_id": "wk_kc_4",
     "zone_id": "weekly_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-5-1",
@@ -7989,6 +8315,7 @@
     "energy": 30,
     "unique_id": "wk_kc_5",
     "zone_id": "weekly_7",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "E-5-1",
@@ -8011,6 +8338,7 @@
     "energy": 10,
     "unique_id": "wk_toxic_1",
     "zone_id": "weekly_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "PC-3-1",
@@ -8025,6 +8353,7 @@
     "energy": 15,
     "unique_id": "wk_toxic_2",
     "zone_id": "weekly_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "PC-3-1",
@@ -8039,6 +8368,7 @@
     "energy": 20,
     "unique_id": "wk_toxic_3",
     "zone_id": "weekly_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "PC-3-1",
@@ -8053,6 +8383,7 @@
     "energy": 25,
     "unique_id": "wk_toxic_4",
     "zone_id": "weekly_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "PC-3-1",
@@ -8067,6 +8398,7 @@
     "energy": 30,
     "unique_id": "wk_toxic_5",
     "zone_id": "weekly_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "PC-3-1",
@@ -8081,6 +8413,7 @@
     "energy": 10,
     "unique_id": "wk_fly_1",
     "zone_id": "weekly_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "S-2-1",
@@ -8095,6 +8428,7 @@
     "energy": 15,
     "unique_id": "wk_fly_2",
     "zone_id": "weekly_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "S-2-1",
@@ -8109,6 +8443,7 @@
     "energy": 20,
     "unique_id": "wk_fly_3",
     "zone_id": "weekly_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "S-3-1",
@@ -8127,6 +8462,7 @@
     "energy": 25,
     "unique_id": "wk_fly_4",
     "zone_id": "weekly_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "S-4-1",
@@ -8149,6 +8485,7 @@
     "energy": 30,
     "unique_id": "wk_fly_5",
     "zone_id": "weekly_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "S-4-1",
@@ -8171,6 +8508,7 @@
     "energy": 18,
     "unique_id": "pro_a_1",
     "zone_id": "weekly_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-3-3",
@@ -8189,6 +8527,7 @@
     "energy": 36,
     "unique_id": "pro_a_2",
     "zone_id": "weekly_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-4-3",
@@ -8207,6 +8546,7 @@
     "energy": 18,
     "unique_id": "pro_b_1",
     "zone_id": "weekly_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-3-4",
@@ -8225,6 +8565,7 @@
     "energy": 36,
     "unique_id": "pro_b_2",
     "zone_id": "weekly_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-4-4",
@@ -8243,6 +8584,7 @@
     "energy": 18,
     "unique_id": "pro_c_1",
     "zone_id": "weekly_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-3-1",
@@ -8261,6 +8603,7 @@
     "energy": 36,
     "unique_id": "pro_c_2",
     "zone_id": "weekly_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-4-1",
@@ -8279,6 +8622,7 @@
     "energy": 18,
     "unique_id": "pro_d_1",
     "zone_id": "weekly_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-3-2",
@@ -8297,6 +8641,7 @@
     "energy": 36,
     "unique_id": "pro_d_2",
     "zone_id": "weekly_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "C-4-2",
@@ -8315,13 +8660,17 @@
     "energy": 12,
     "unique_id": "act18d3_01",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-3",
-        "probability": "中概率"
-      },
+        "resource": "M-1-1",
+        "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
       {
-        "resource": "M-1-2",
+        "resource": "M-1-4",
         "probability": "小概率"
       },
       {
@@ -8333,22 +8682,33 @@
         "probability": "小概率"
       },
       {
-        "resource": "M-1-4",
-        "probability": "中概率"
+        "resource": "E-2-1",
+        "probability": "小概率"
       },
       {
-        "resource": "M-1-1",
-        "probability": "大概率"
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "SV-TR-1",
     "energy": 0,
     "unique_id": "act18d3_tr01",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8358,13 +8718,61 @@
     "energy": 12,
     "unique_id": "act18d3_02",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
+        "resource": "M-1-4",
+        "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
         "resource": "M-1-3",
-        "probability": "中概率"
+        "probability": "小概率"
       },
       {
         "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "SV-3",
+    "energy": 12,
+    "unique_id": "act18d3_03",
+    "zone_id": "act18d3_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
         "probability": "小概率"
       },
       {
@@ -8376,94 +8784,169 @@
         "probability": "小概率"
       },
       {
-        "resource": "M-1-4",
-        "probability": "中概率"
+        "resource": "E-2-1",
+        "probability": "小概率"
       },
-      {
-        "resource": "M-1-1",
-        "probability": "大概率"
-      }
-    ],
-    "special_drop": [],
-    "extra_drop": []
-  },
-  {
-    "level": "SV-3",
-    "energy": 12,
-    "unique_id": "act18d3_03",
-    "zone_id": "act18d3_zone1",
-    "normal_drop": [
       {
         "resource": "M-2-4",
-        "probability": "固定"
+        "probability": "小概率"
       },
       {
-        "resource": "M-1-1",
-        "probability": "固定"
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "SV-4",
     "energy": 12,
     "unique_id": "act18d3_04",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-6",
-        "probability": "大概率"
-      },
-      {
-        "resource": "M-2-1",
-        "probability": "大概率"
+        "resource": "M-1-5",
+        "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "SV-5",
     "energy": 12,
     "unique_id": "act18d3_05",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-3",
+        "resource": "M-1-6",
         "probability": "固定"
-      },
-      {
-        "resource": "M-2-4",
-        "probability": "中概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "SV-6",
     "energy": 12,
     "unique_id": "act18d3_06",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-5",
-        "probability": "大概率"
-      },
-      {
-        "resource": "M-2-1",
-        "probability": "大概率"
+        "resource": "M-1-2",
+        "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "SV-7",
     "energy": 15,
     "unique_id": "act18d3_07",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -8471,13 +8954,47 @@
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "SV-ST-1",
     "energy": 0,
     "unique_id": "act18d3_st01",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8487,34 +9004,125 @@
     "energy": 18,
     "unique_id": "act18d3_08",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-13",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-13",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-7",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-11",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "SV-9",
     "energy": 18,
     "unique_id": "act18d3_09",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-2",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-2",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-12",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "SV-ST-2",
     "energy": 0,
     "unique_id": "act18d3_st02",
     "zone_id": "act18d3_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8524,6 +9132,7 @@
     "energy": 10,
     "unique_id": "act18d3_ex01",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8533,6 +9142,7 @@
     "energy": 10,
     "unique_id": "act18d3_ex01#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8542,6 +9152,7 @@
     "energy": 10,
     "unique_id": "act18d3_ex02",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8551,6 +9162,7 @@
     "energy": 10,
     "unique_id": "act18d3_ex02#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8560,6 +9172,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex03",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8569,6 +9182,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex03#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8578,6 +9192,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex04",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8587,6 +9202,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex04#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8596,6 +9212,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex05",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8605,6 +9222,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex05#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8614,6 +9232,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex06",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8623,6 +9242,7 @@
     "energy": 15,
     "unique_id": "act18d3_ex06#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8632,6 +9252,7 @@
     "energy": 20,
     "unique_id": "act18d3_ex07",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8641,6 +9262,7 @@
     "energy": 20,
     "unique_id": "act18d3_ex07#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8650,6 +9272,7 @@
     "energy": 20,
     "unique_id": "act18d3_ex08",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8659,6 +9282,7 @@
     "energy": 20,
     "unique_id": "act18d3_ex08#f#",
     "zone_id": "act18d3_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8668,40 +9292,51 @@
     "energy": 12,
     "unique_id": "act18d0_01",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
+        "resource": "M-1-5",
+        "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
         "resource": "M-1-3",
-        "probability": "中概率"
+        "probability": "小概率"
       },
       {
         "resource": "M-1-2",
         "probability": "小概率"
       },
       {
-        "resource": "M-1-5",
+        "resource": "M-2-1",
         "probability": "小概率"
       },
       {
-        "resource": "M-1-6",
+        "resource": "M-2-3",
         "probability": "小概率"
       },
       {
-        "resource": "M-1-4",
-        "probability": "中概率"
+        "resource": "M-2-2",
+        "probability": "小概率"
       },
       {
-        "resource": "M-1-1",
-        "probability": "大概率"
+        "resource": "E-2-1",
+        "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "WD-TR-1",
     "energy": 0,
     "unique_id": "act18d0_tr01",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8711,13 +9346,17 @@
     "energy": 12,
     "unique_id": "act18d0_02",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-3",
-        "probability": "中概率"
-      },
+        "resource": "M-1-6",
+        "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
       {
-        "resource": "M-1-2",
+        "resource": "M-1-4",
         "probability": "小概率"
       },
       {
@@ -8729,58 +9368,125 @@
         "probability": "小概率"
       },
       {
-        "resource": "M-1-4",
-        "probability": "中概率"
+        "resource": "E-2-1",
+        "probability": "小概率"
       },
       {
-        "resource": "M-1-1",
-        "probability": "大概率"
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "WD-3",
     "energy": 12,
     "unique_id": "act18d0_03",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-6",
-        "probability": "大概率"
-      },
-      {
-        "resource": "M-2-4",
-        "probability": "中概率"
+        "resource": "M-1-2",
+        "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "WD-4",
     "energy": 12,
     "unique_id": "act18d0_04",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-5",
-        "probability": "大概率"
-      },
-      {
-        "resource": "M-2-1",
-        "probability": "大概率"
+        "resource": "E-3-1",
+        "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "WD-ST-1",
     "energy": 0,
     "unique_id": "act18d0_st01",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8790,66 +9496,191 @@
     "energy": 12,
     "unique_id": "act18d0_05",
     "zone_id": "act18d0_zone1",
-    "normal_drop": [
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": [
       {
-        "resource": "M-2-2",
-        "probability": "中概率"
+        "resource": "M-1-1",
+        "probability": "小概率"
       },
       {
-        "resource": "M-2-4",
-        "probability": "中概率"
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "WD-6",
     "energy": 15,
     "unique_id": "act18d0_06",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-3",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "WD-7",
     "energy": 18,
     "unique_id": "act18d0_07",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-6",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-6",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-9",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-13",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-10",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "WD-8",
     "energy": 18,
     "unique_id": "act18d0_08",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-10",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-7",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-11",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "WD-ST-2",
     "energy": 0,
     "unique_id": "act18d0_st02",
     "zone_id": "act18d0_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8859,6 +9690,7 @@
     "energy": 10,
     "unique_id": "act18d0_ex01",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8868,6 +9700,7 @@
     "energy": 10,
     "unique_id": "act18d0_ex01#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8877,6 +9710,7 @@
     "energy": 10,
     "unique_id": "act18d0_ex02",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8886,6 +9720,7 @@
     "energy": 10,
     "unique_id": "act18d0_ex02#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8895,6 +9730,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex03",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8904,6 +9740,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex03#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8913,6 +9750,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex04",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8922,6 +9760,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex04#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8931,6 +9770,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex05",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8940,6 +9780,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex05#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8949,6 +9790,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex06",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8958,6 +9800,7 @@
     "energy": 15,
     "unique_id": "act18d0_ex06#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8967,6 +9810,7 @@
     "energy": 20,
     "unique_id": "act18d0_ex07",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8976,6 +9820,7 @@
     "energy": 20,
     "unique_id": "act18d0_ex07#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8985,6 +9830,7 @@
     "energy": 20,
     "unique_id": "act18d0_ex08",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -8994,6 +9840,7 @@
     "energy": 20,
     "unique_id": "act18d0_ex08#f#",
     "zone_id": "act18d0_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9003,6 +9850,7 @@
     "energy": 0,
     "unique_id": "act17d7_01",
     "zone_id": "act17d7_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9012,6 +9860,7 @@
     "energy": 0,
     "unique_id": "act17d0_st01",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9021,6 +9870,7 @@
     "energy": 0,
     "unique_id": "act17d0_tr01",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9030,6 +9880,7 @@
     "energy": 12,
     "unique_id": "act17d0_01",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -9064,6 +9915,7 @@
     "energy": 12,
     "unique_id": "act17d0_02",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -9098,6 +9950,7 @@
     "energy": 12,
     "unique_id": "act17d0_03",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -9116,6 +9969,7 @@
     "energy": 12,
     "unique_id": "act17d0_04",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -9134,6 +9988,7 @@
     "energy": 12,
     "unique_id": "act17d0_05",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -9152,6 +10007,7 @@
     "energy": 12,
     "unique_id": "act17d0_06",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -9170,6 +10026,7 @@
     "energy": 0,
     "unique_id": "act17d0_st02",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9179,6 +10036,7 @@
     "energy": 18,
     "unique_id": "act17d0_07",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -9193,6 +10051,7 @@
     "energy": 18,
     "unique_id": "act17d0_08",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -9207,6 +10066,7 @@
     "energy": 0,
     "unique_id": "act17d0_st03",
     "zone_id": "act17d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9216,6 +10076,7 @@
     "energy": 10,
     "unique_id": "act17d0_ex01",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9225,6 +10086,7 @@
     "energy": 10,
     "unique_id": "act17d0_ex01#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9234,6 +10096,7 @@
     "energy": 10,
     "unique_id": "act17d0_ex02",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9243,6 +10106,7 @@
     "energy": 10,
     "unique_id": "act17d0_ex02#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9252,6 +10116,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex03",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9261,6 +10126,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex03#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9270,6 +10136,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex04",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9279,6 +10146,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex04#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9288,6 +10156,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex05",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9297,6 +10166,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex05#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9306,6 +10176,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex06",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9315,6 +10186,7 @@
     "energy": 15,
     "unique_id": "act17d0_ex06#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9324,6 +10196,7 @@
     "energy": 20,
     "unique_id": "act17d0_ex07",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9333,6 +10206,7 @@
     "energy": 20,
     "unique_id": "act17d0_ex07#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9342,6 +10216,7 @@
     "energy": 20,
     "unique_id": "act17d0_ex08",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9351,6 +10226,7 @@
     "energy": 20,
     "unique_id": "act17d0_ex08#f#",
     "zone_id": "act17d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9360,6 +10236,7 @@
     "energy": 0,
     "unique_id": "act16d5_st01",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9369,6 +10246,7 @@
     "energy": 9,
     "unique_id": "act16d5_01",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -9387,6 +10265,7 @@
     "energy": 0,
     "unique_id": "act16d5_tr01",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9396,6 +10275,7 @@
     "energy": 9,
     "unique_id": "act16d5_02",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -9414,6 +10294,7 @@
     "energy": 12,
     "unique_id": "act16d5_03",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -9432,6 +10313,7 @@
     "energy": 12,
     "unique_id": "act16d5_04",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -9450,6 +10332,7 @@
     "energy": 12,
     "unique_id": "act16d5_05",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -9468,6 +10351,7 @@
     "energy": 0,
     "unique_id": "act16d5_st02",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9477,6 +10361,7 @@
     "energy": 12,
     "unique_id": "act16d5_06",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-1",
@@ -9495,6 +10380,7 @@
     "energy": 12,
     "unique_id": "act16d5_07",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -9513,6 +10399,7 @@
     "energy": 15,
     "unique_id": "act16d5_08",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -9527,6 +10414,7 @@
     "energy": 18,
     "unique_id": "act16d5_09",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -9541,6 +10429,7 @@
     "energy": 18,
     "unique_id": "act16d5_10",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -9555,6 +10444,7 @@
     "energy": 0,
     "unique_id": "act16d5_st03",
     "zone_id": "act16d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9564,6 +10454,7 @@
     "energy": 10,
     "unique_id": "act16d5_ex01",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9573,6 +10464,7 @@
     "energy": 10,
     "unique_id": "act16d5_ex01#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9582,6 +10474,7 @@
     "energy": 10,
     "unique_id": "act16d5_ex02",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9591,6 +10484,7 @@
     "energy": 10,
     "unique_id": "act16d5_ex02#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9600,6 +10494,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex03",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9609,6 +10504,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex03#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9618,6 +10514,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex04",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9627,6 +10524,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex04#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9636,6 +10534,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex05",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9645,6 +10544,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex05#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9654,6 +10554,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex06",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9663,6 +10564,7 @@
     "energy": 15,
     "unique_id": "act16d5_ex06#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9672,6 +10574,7 @@
     "energy": 20,
     "unique_id": "act16d5_ex07",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9681,6 +10584,7 @@
     "energy": 20,
     "unique_id": "act16d5_ex07#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9690,6 +10594,7 @@
     "energy": 20,
     "unique_id": "act16d5_ex08",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9699,6 +10604,7 @@
     "energy": 20,
     "unique_id": "act16d5_ex08#f#",
     "zone_id": "act16d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9708,6 +10614,7 @@
     "energy": 6,
     "unique_id": "act15d5_01",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -9747,6 +10654,7 @@
     "energy": 6,
     "unique_id": "act15d5_01#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9756,6 +10664,7 @@
     "energy": 6,
     "unique_id": "act15d5_02",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-1",
@@ -9795,6 +10704,7 @@
     "energy": 6,
     "unique_id": "act15d5_02#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9804,6 +10714,7 @@
     "energy": 9,
     "unique_id": "act15d5_03",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -9843,6 +10754,7 @@
     "energy": 9,
     "unique_id": "act15d5_03#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9852,6 +10764,7 @@
     "energy": 9,
     "unique_id": "act15d5_04",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -9891,6 +10804,7 @@
     "energy": 9,
     "unique_id": "act15d5_04#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9900,6 +10814,7 @@
     "energy": 12,
     "unique_id": "act15d5_05",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -9939,6 +10854,7 @@
     "energy": 12,
     "unique_id": "act15d5_05#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9948,6 +10864,7 @@
     "energy": 12,
     "unique_id": "act15d5_06",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -9987,6 +10904,7 @@
     "energy": 12,
     "unique_id": "act15d5_06#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -9996,6 +10914,7 @@
     "energy": 15,
     "unique_id": "act15d5_07",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -10043,6 +10962,7 @@
     "energy": 15,
     "unique_id": "act15d5_07#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10052,6 +10972,7 @@
     "energy": 18,
     "unique_id": "act15d5_08",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -10111,6 +11032,7 @@
     "energy": 18,
     "unique_id": "act15d5_08#f#",
     "zone_id": "act15d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10120,6 +11042,7 @@
     "energy": 9,
     "unique_id": "act15d0_01",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -10138,6 +11061,7 @@
     "energy": 0,
     "unique_id": "act15d0_tr01",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10147,6 +11071,7 @@
     "energy": 9,
     "unique_id": "act15d0_02",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -10165,6 +11090,7 @@
     "energy": 12,
     "unique_id": "act15d0_03",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -10183,6 +11109,7 @@
     "energy": 0,
     "unique_id": "act15d0_st01",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10192,6 +11119,7 @@
     "energy": 12,
     "unique_id": "act15d0_04",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -10210,6 +11138,7 @@
     "energy": 15,
     "unique_id": "act15d0_05",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -10228,6 +11157,7 @@
     "energy": 15,
     "unique_id": "act15d0_06",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -10242,6 +11172,7 @@
     "energy": 18,
     "unique_id": "act15d0_07",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -10256,6 +11187,7 @@
     "energy": 18,
     "unique_id": "act15d0_08",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -10270,6 +11202,7 @@
     "energy": 0,
     "unique_id": "act15d0_st02",
     "zone_id": "act15d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10279,6 +11212,7 @@
     "energy": 10,
     "unique_id": "act15d0_ex01",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10288,6 +11222,7 @@
     "energy": 10,
     "unique_id": "act15d0_ex01#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10297,6 +11232,7 @@
     "energy": 10,
     "unique_id": "act15d0_ex02",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10306,6 +11242,7 @@
     "energy": 10,
     "unique_id": "act15d0_ex02#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10315,6 +11252,7 @@
     "energy": 10,
     "unique_id": "act15d0_ex03",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10324,6 +11262,7 @@
     "energy": 10,
     "unique_id": "act15d0_ex03#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10333,6 +11272,7 @@
     "energy": 15,
     "unique_id": "act15d0_ex04",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10342,6 +11282,7 @@
     "energy": 15,
     "unique_id": "act15d0_ex04#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10351,6 +11292,7 @@
     "energy": 15,
     "unique_id": "act15d0_ex05",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10360,6 +11302,7 @@
     "energy": 15,
     "unique_id": "act15d0_ex05#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10369,6 +11312,7 @@
     "energy": 15,
     "unique_id": "act15d0_ex06",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10378,6 +11322,7 @@
     "energy": 15,
     "unique_id": "act15d0_ex06#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10387,6 +11332,7 @@
     "energy": 20,
     "unique_id": "act15d0_ex07",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10396,6 +11342,7 @@
     "energy": 20,
     "unique_id": "act15d0_ex07#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10405,6 +11352,7 @@
     "energy": 20,
     "unique_id": "act15d0_ex08",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10414,6 +11362,7 @@
     "energy": 20,
     "unique_id": "act15d0_ex08#f#",
     "zone_id": "act15d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10423,6 +11372,7 @@
     "energy": 0,
     "unique_id": "act13d5_st01",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10432,6 +11382,7 @@
     "energy": 9,
     "unique_id": "act13d5_01",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -10450,6 +11401,7 @@
     "energy": 0,
     "unique_id": "act13d5_tr01",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10459,6 +11411,7 @@
     "energy": 9,
     "unique_id": "act13d5_02",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -10477,6 +11430,7 @@
     "energy": 12,
     "unique_id": "act13d5_03",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -10495,6 +11449,7 @@
     "energy": 12,
     "unique_id": "act13d5_04",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -10513,6 +11468,7 @@
     "energy": 15,
     "unique_id": "act13d5_05",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -10531,6 +11487,7 @@
     "energy": 15,
     "unique_id": "act13d5_06",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -10545,6 +11502,7 @@
     "energy": 18,
     "unique_id": "act13d5_07",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -10559,6 +11517,7 @@
     "energy": 0,
     "unique_id": "act13d5_st02",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10568,6 +11527,7 @@
     "energy": 18,
     "unique_id": "act13d5_08",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-8",
@@ -10582,6 +11542,7 @@
     "energy": 0,
     "unique_id": "act13d5_st03",
     "zone_id": "act13d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10591,6 +11552,7 @@
     "energy": 10,
     "unique_id": "act13d5_ex01",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10600,6 +11562,7 @@
     "energy": 10,
     "unique_id": "act13d5_ex01#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10609,6 +11572,7 @@
     "energy": 10,
     "unique_id": "act13d5_ex02",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10618,6 +11582,7 @@
     "energy": 10,
     "unique_id": "act13d5_ex02#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10627,6 +11592,7 @@
     "energy": 10,
     "unique_id": "act13d5_ex03",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10636,6 +11602,7 @@
     "energy": 10,
     "unique_id": "act13d5_ex03#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10645,6 +11612,7 @@
     "energy": 15,
     "unique_id": "act13d5_ex04",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10654,6 +11622,7 @@
     "energy": 15,
     "unique_id": "act13d5_ex04#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10663,6 +11632,7 @@
     "energy": 15,
     "unique_id": "act13d5_ex05",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10672,6 +11642,7 @@
     "energy": 15,
     "unique_id": "act13d5_ex05#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10681,6 +11652,7 @@
     "energy": 15,
     "unique_id": "act13d5_ex06",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10690,6 +11662,7 @@
     "energy": 15,
     "unique_id": "act13d5_ex06#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10699,6 +11672,7 @@
     "energy": 20,
     "unique_id": "act13d5_ex07",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10708,6 +11682,7 @@
     "energy": 20,
     "unique_id": "act13d5_ex07#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10717,6 +11692,7 @@
     "energy": 20,
     "unique_id": "act13d5_ex08",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10726,6 +11702,7 @@
     "energy": 20,
     "unique_id": "act13d5_ex08#f#",
     "zone_id": "act13d5_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10735,6 +11712,7 @@
     "energy": 6,
     "unique_id": "act13d0_01",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -10774,6 +11752,7 @@
     "energy": 6,
     "unique_id": "act13d0_01#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10783,6 +11762,7 @@
     "energy": 6,
     "unique_id": "act13d0_02",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-1",
@@ -10822,6 +11802,7 @@
     "energy": 6,
     "unique_id": "act13d0_02#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10831,6 +11812,7 @@
     "energy": 9,
     "unique_id": "act13d0_03",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -10870,6 +11852,7 @@
     "energy": 9,
     "unique_id": "act13d0_03#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10879,6 +11862,7 @@
     "energy": 9,
     "unique_id": "act13d0_04",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -10918,6 +11902,7 @@
     "energy": 9,
     "unique_id": "act13d0_04#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10927,6 +11912,7 @@
     "energy": 12,
     "unique_id": "act13d0_05",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -10966,6 +11952,7 @@
     "energy": 12,
     "unique_id": "act13d0_05#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -10975,6 +11962,7 @@
     "energy": 12,
     "unique_id": "act13d0_06",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -11014,6 +12002,7 @@
     "energy": 12,
     "unique_id": "act13d0_06#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11023,6 +12012,7 @@
     "energy": 15,
     "unique_id": "act13d0_07",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -11070,6 +12060,7 @@
     "energy": 15,
     "unique_id": "act13d0_07#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11079,6 +12070,7 @@
     "energy": 18,
     "unique_id": "act13d0_08",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -11138,6 +12130,7 @@
     "energy": 18,
     "unique_id": "act13d0_08#f#",
     "zone_id": "act13d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11147,6 +12140,7 @@
     "energy": 9,
     "unique_id": "act12d0_01",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -11165,6 +12159,7 @@
     "energy": 9,
     "unique_id": "act12d0_02",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -11183,6 +12178,7 @@
     "energy": 0,
     "unique_id": "act12d0_tr01",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11192,6 +12188,7 @@
     "energy": 12,
     "unique_id": "act12d0_03",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-6",
@@ -11210,6 +12207,7 @@
     "energy": 12,
     "unique_id": "act12d0_04",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -11228,6 +12226,7 @@
     "energy": 0,
     "unique_id": "act12d0_st01",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11237,6 +12236,7 @@
     "energy": 15,
     "unique_id": "act12d0_05",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -11255,6 +12255,7 @@
     "energy": 15,
     "unique_id": "act12d0_06",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-1",
@@ -11269,6 +12270,7 @@
     "energy": 0,
     "unique_id": "act12d0_st02",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11278,6 +12280,7 @@
     "energy": 18,
     "unique_id": "act12d0_07",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-4",
@@ -11292,6 +12295,7 @@
     "energy": 18,
     "unique_id": "act12d0_08",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-10",
@@ -11306,6 +12310,7 @@
     "energy": 18,
     "unique_id": "act12d0_09",
     "zone_id": "act12d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11315,6 +12320,7 @@
     "energy": 10,
     "unique_id": "act12d0_ex01",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11324,6 +12330,7 @@
     "energy": 10,
     "unique_id": "act12d0_ex01#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11333,6 +12340,7 @@
     "energy": 10,
     "unique_id": "act12d0_ex02",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11342,6 +12350,7 @@
     "energy": 10,
     "unique_id": "act12d0_ex02#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11351,6 +12360,7 @@
     "energy": 15,
     "unique_id": "act12d0_ex03",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11360,6 +12370,7 @@
     "energy": 15,
     "unique_id": "act12d0_ex03#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11369,6 +12380,7 @@
     "energy": 15,
     "unique_id": "act12d0_ex04",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11378,6 +12390,7 @@
     "energy": 15,
     "unique_id": "act12d0_ex04#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11387,6 +12400,7 @@
     "energy": 15,
     "unique_id": "act12d0_ex05",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11396,6 +12410,7 @@
     "energy": 15,
     "unique_id": "act12d0_ex05#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11405,6 +12420,7 @@
     "energy": 20,
     "unique_id": "act12d0_ex06",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11414,6 +12430,7 @@
     "energy": 20,
     "unique_id": "act12d0_ex06#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11423,6 +12440,7 @@
     "energy": 20,
     "unique_id": "act12d0_ex07",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11432,6 +12450,7 @@
     "energy": 20,
     "unique_id": "act12d0_ex07#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11441,6 +12460,7 @@
     "energy": 20,
     "unique_id": "act12d0_ex08",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11450,6 +12470,7 @@
     "energy": 20,
     "unique_id": "act12d0_ex08#f#",
     "zone_id": "act12d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11459,6 +12480,7 @@
     "energy": 0,
     "unique_id": "act11d7_st01",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11468,6 +12490,7 @@
     "energy": 0,
     "unique_id": "act11d0_st01",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11477,6 +12500,7 @@
     "energy": 9,
     "unique_id": "act11d0_01",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -11495,6 +12519,7 @@
     "energy": 9,
     "unique_id": "act11d0_02",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -11513,6 +12538,7 @@
     "energy": 0,
     "unique_id": "act11d0_tr01",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11522,6 +12548,7 @@
     "energy": 12,
     "unique_id": "act11d0_03",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -11540,6 +12567,7 @@
     "energy": 12,
     "unique_id": "act11d0_04",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -11558,6 +12586,7 @@
     "energy": 15,
     "unique_id": "act11d0_05",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -11576,6 +12605,7 @@
     "energy": 15,
     "unique_id": "act11d0_06",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -11590,6 +12620,7 @@
     "energy": 18,
     "unique_id": "act11d0_07",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -11604,6 +12635,7 @@
     "energy": 18,
     "unique_id": "act11d0_08",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -11618,6 +12650,7 @@
     "energy": 0,
     "unique_id": "act11d0_st02",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11627,6 +12660,7 @@
     "energy": 15,
     "unique_id": "act11d0_s01",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11636,6 +12670,7 @@
     "energy": 15,
     "unique_id": "act11d0_s01#f#",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11645,6 +12680,7 @@
     "energy": 15,
     "unique_id": "act11d0_s02",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11654,6 +12690,7 @@
     "energy": 15,
     "unique_id": "act11d0_s02#f#",
     "zone_id": "act11d0_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11663,6 +12700,7 @@
     "energy": 10,
     "unique_id": "act11d0_ex01",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11672,6 +12710,7 @@
     "energy": 10,
     "unique_id": "act11d0_ex01#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11681,6 +12720,7 @@
     "energy": 10,
     "unique_id": "act11d0_ex02",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11690,6 +12730,7 @@
     "energy": 10,
     "unique_id": "act11d0_ex02#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11699,6 +12740,7 @@
     "energy": 10,
     "unique_id": "act11d0_ex03",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11708,6 +12750,7 @@
     "energy": 10,
     "unique_id": "act11d0_ex03#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11717,6 +12760,7 @@
     "energy": 15,
     "unique_id": "act11d0_ex04",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11726,6 +12770,7 @@
     "energy": 15,
     "unique_id": "act11d0_ex04#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11735,6 +12780,7 @@
     "energy": 15,
     "unique_id": "act11d0_ex05",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11744,6 +12790,7 @@
     "energy": 15,
     "unique_id": "act11d0_ex05#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11753,6 +12800,7 @@
     "energy": 15,
     "unique_id": "act11d0_ex06",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11762,6 +12810,7 @@
     "energy": 15,
     "unique_id": "act11d0_ex06#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11771,6 +12820,7 @@
     "energy": 20,
     "unique_id": "act11d0_ex07",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11780,6 +12830,7 @@
     "energy": 20,
     "unique_id": "act11d0_ex07#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11789,6 +12840,7 @@
     "energy": 20,
     "unique_id": "act11d0_ex08",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11798,6 +12850,7 @@
     "energy": 20,
     "unique_id": "act11d0_ex08#f#",
     "zone_id": "act11d0_zone2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11807,6 +12860,7 @@
     "energy": 25,
     "unique_id": "act11d0_mo01",
     "zone_id": "act11d0_zone3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11816,6 +12870,7 @@
     "energy": 6,
     "unique_id": "act10d5_01",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -11855,6 +12910,7 @@
     "energy": 6,
     "unique_id": "act10d5_01#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11864,6 +12920,7 @@
     "energy": 9,
     "unique_id": "act10d5_02",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-1",
@@ -11903,6 +12960,7 @@
     "energy": 9,
     "unique_id": "act10d5_02#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11912,6 +12970,7 @@
     "energy": 9,
     "unique_id": "act10d5_03",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -11951,6 +13010,7 @@
     "energy": 9,
     "unique_id": "act10d5_03#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -11960,6 +13020,7 @@
     "energy": 12,
     "unique_id": "act10d5_04",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -11999,6 +13060,7 @@
     "energy": 12,
     "unique_id": "act10d5_04#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12008,6 +13070,7 @@
     "energy": 15,
     "unique_id": "act10d5_05",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -12055,6 +13118,7 @@
     "energy": 15,
     "unique_id": "act10d5_05#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12064,6 +13128,7 @@
     "energy": 15,
     "unique_id": "act10d5_06",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-5",
@@ -12111,6 +13176,7 @@
     "energy": 15,
     "unique_id": "act10d5_06#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12120,6 +13186,7 @@
     "energy": 18,
     "unique_id": "act10d5_07",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-11",
@@ -12179,6 +13246,7 @@
     "energy": 18,
     "unique_id": "act10d5_07#f#",
     "zone_id": "act10d5_zone1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12188,138 +13256,397 @@
     "energy": 9,
     "unique_id": "act9d0_01",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-4",
-        "probability": "固定"
-      },
-      {
-        "resource": "M-1-1",
-        "probability": "固定"
+        "resource": "M-2-3",
+        "probability": "大概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "DM-2",
     "energy": 9,
     "unique_id": "act9d0_02",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-3",
-        "probability": "固定"
-      },
-      {
-        "resource": "M-1-2",
+        "resource": "M-2-6",
         "probability": "中概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "DM-3",
     "energy": 12,
     "unique_id": "act9d0_03",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-5",
+        "resource": "M-1-3",
         "probability": "固定"
-      },
-      {
-        "resource": "M-1-6",
-        "probability": "大概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "DM-4",
     "energy": 12,
     "unique_id": "act9d0_04",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-1",
+        "resource": "M-1-5",
         "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
       },
       {
         "resource": "M-2-5",
         "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "DM-5",
     "energy": 15,
     "unique_id": "act9d0_05",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-4",
+        "resource": "M-2-1",
         "probability": "固定"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
       },
       {
         "resource": "M-2-2",
         "probability": "小概率"
       }
-    ],
-    "special_drop": [],
-    "extra_drop": []
+    ]
   },
   {
     "level": "DM-6",
     "energy": 15,
     "unique_id": "act9d0_06",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-4",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "DM-7",
     "energy": 18,
     "unique_id": "act9d0_07",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-7",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-7",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-9",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-13",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-10",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "DM-8",
     "energy": 18,
     "unique_id": "act9d0_08",
     "zone_id": "act17d5_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-5",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-5",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-12",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "DM-ST-1",
     "energy": 0,
     "unique_id": "act9d0_st01",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12329,6 +13656,7 @@
     "energy": 10,
     "unique_id": "act9d0_ex01",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12338,6 +13666,7 @@
     "energy": 10,
     "unique_id": "act9d0_ex01#f#",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12347,6 +13676,7 @@
     "energy": 10,
     "unique_id": "act9d0_ex02",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12356,6 +13686,7 @@
     "energy": 10,
     "unique_id": "act9d0_ex02#f#",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12365,6 +13696,7 @@
     "energy": 15,
     "unique_id": "act9d0_ex03",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12374,6 +13706,7 @@
     "energy": 15,
     "unique_id": "act9d0_ex03#f#",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12383,6 +13716,7 @@
     "energy": 15,
     "unique_id": "act9d0_ex04",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12392,6 +13726,7 @@
     "energy": 15,
     "unique_id": "act9d0_ex04#f#",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12401,6 +13736,7 @@
     "energy": 20,
     "unique_id": "act9d0_ex05",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12410,6 +13746,7 @@
     "energy": 20,
     "unique_id": "act9d0_ex05#f#",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12419,6 +13756,7 @@
     "energy": 20,
     "unique_id": "act9d0_ex06",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12428,6 +13766,7 @@
     "energy": 20,
     "unique_id": "act9d0_ex06#f#",
     "zone_id": "act17d5_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12437,6 +13776,7 @@
     "energy": 25,
     "unique_id": "act9d0_mo01",
     "zone_id": "act17d5_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12446,6 +13786,7 @@
     "energy": 6,
     "unique_id": "act7d5_01",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-2",
@@ -12485,6 +13826,7 @@
     "energy": 6,
     "unique_id": "act7d5_01#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12494,6 +13836,7 @@
     "energy": 9,
     "unique_id": "act7d5_02",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-6",
@@ -12533,6 +13876,7 @@
     "energy": 9,
     "unique_id": "act7d5_02#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12542,6 +13886,7 @@
     "energy": 12,
     "unique_id": "act7d5_03",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-3",
@@ -12581,6 +13926,7 @@
     "energy": 12,
     "unique_id": "act7d5_03#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12590,6 +13936,7 @@
     "energy": 15,
     "unique_id": "act7d5_04",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -12637,6 +13984,7 @@
     "energy": 15,
     "unique_id": "act7d5_04#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12646,6 +13994,7 @@
     "energy": 18,
     "unique_id": "act7d5_05",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -12705,6 +14054,7 @@
     "energy": 18,
     "unique_id": "act7d5_05#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12714,6 +14064,7 @@
     "energy": 18,
     "unique_id": "act7d5_06",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-12",
@@ -12773,6 +14124,7 @@
     "energy": 18,
     "unique_id": "act7d5_06#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12782,6 +14134,7 @@
     "energy": 6,
     "unique_id": "act6d5_01",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-3",
@@ -12821,6 +14174,7 @@
     "energy": 6,
     "unique_id": "act6d5_01#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12830,6 +14184,7 @@
     "energy": 9,
     "unique_id": "act6d5_02",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-5",
@@ -12869,6 +14224,7 @@
     "energy": 9,
     "unique_id": "act6d5_02#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12878,6 +14234,7 @@
     "energy": 12,
     "unique_id": "act6d5_03",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-1",
@@ -12917,6 +14274,7 @@
     "energy": 12,
     "unique_id": "act6d5_03#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12926,6 +14284,7 @@
     "energy": 12,
     "unique_id": "act6d5_04",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-4",
@@ -12965,6 +14324,7 @@
     "energy": 12,
     "unique_id": "act6d5_04#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -12974,6 +14334,7 @@
     "energy": 15,
     "unique_id": "act6d5_05",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-2",
@@ -13021,6 +14382,7 @@
     "energy": 15,
     "unique_id": "act6d5_05#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13030,6 +14392,7 @@
     "energy": 15,
     "unique_id": "act6d5_06",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-6",
@@ -13077,6 +14440,7 @@
     "energy": 15,
     "unique_id": "act6d5_06#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13086,6 +14450,7 @@
     "energy": 15,
     "unique_id": "act6d5_07",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-7",
@@ -13133,6 +14498,7 @@
     "energy": 15,
     "unique_id": "act6d5_07#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13142,6 +14508,7 @@
     "energy": 18,
     "unique_id": "act6d5_08",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -13201,6 +14568,7 @@
     "energy": 18,
     "unique_id": "act6d5_08#f#",
     "zone_id": "main_6",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13210,6 +14578,7 @@
     "energy": 10,
     "unique_id": "act5d0_01",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13219,6 +14588,7 @@
     "energy": 10,
     "unique_id": "act5d0_02",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -13233,6 +14603,7 @@
     "energy": 10,
     "unique_id": "act5d0_03",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13242,6 +14613,7 @@
     "energy": 10,
     "unique_id": "act5d0_04",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -13256,6 +14628,7 @@
     "energy": 15,
     "unique_id": "act5d0_05",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13265,6 +14638,7 @@
     "energy": 0,
     "unique_id": "act5d0_st01",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13274,6 +14648,7 @@
     "energy": 15,
     "unique_id": "act5d0_06",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -13288,6 +14663,7 @@
     "energy": 15,
     "unique_id": "act5d0_07",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13297,6 +14673,7 @@
     "energy": 15,
     "unique_id": "act5d0_08",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "E-3-1",
@@ -13311,6 +14688,7 @@
     "energy": 0,
     "unique_id": "act5d0_st02",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13320,6 +14698,7 @@
     "energy": 20,
     "unique_id": "act5d0_09",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13329,6 +14708,7 @@
     "energy": 20,
     "unique_id": "act5d0_10",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "E-4-1",
@@ -13347,6 +14727,7 @@
     "energy": 0,
     "unique_id": "act5d0_st03",
     "zone_id": "act14d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13356,6 +14737,7 @@
     "energy": 10,
     "unique_id": "act5d0_ex01",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13365,6 +14747,7 @@
     "energy": 10,
     "unique_id": "act5d0_ex01#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13374,6 +14757,7 @@
     "energy": 10,
     "unique_id": "act5d0_ex02",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13383,6 +14767,7 @@
     "energy": 10,
     "unique_id": "act5d0_ex02#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13392,6 +14777,7 @@
     "energy": 15,
     "unique_id": "act5d0_ex03",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13401,6 +14787,7 @@
     "energy": 15,
     "unique_id": "act5d0_ex03#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13410,6 +14797,7 @@
     "energy": 15,
     "unique_id": "act5d0_ex04",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13419,6 +14807,7 @@
     "energy": 15,
     "unique_id": "act5d0_ex04#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13428,6 +14817,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex05",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13437,6 +14827,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex05#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13446,6 +14837,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex06",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13455,6 +14847,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex06#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13464,6 +14857,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex07",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13473,6 +14867,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex07#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13482,6 +14877,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex08",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13491,6 +14887,7 @@
     "energy": 20,
     "unique_id": "act5d0_ex08#f#",
     "zone_id": "act14d7_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13500,6 +14897,7 @@
     "energy": 6,
     "unique_id": "act4d0_01",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-4",
@@ -13539,6 +14937,7 @@
     "energy": 6,
     "unique_id": "act4d0_01#f#",
     "zone_id": "main_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13548,6 +14947,7 @@
     "energy": 9,
     "unique_id": "act4d0_02",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-1-1",
@@ -13587,6 +14987,7 @@
     "energy": 9,
     "unique_id": "act4d0_02#f#",
     "zone_id": "main_2",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13596,6 +14997,7 @@
     "energy": 12,
     "unique_id": "act4d0_03",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-6",
@@ -13643,6 +15045,7 @@
     "energy": 12,
     "unique_id": "act4d0_03#f#",
     "zone_id": "main_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13652,6 +15055,7 @@
     "energy": 15,
     "unique_id": "act4d0_04",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-2-5",
@@ -13691,6 +15095,7 @@
     "energy": 15,
     "unique_id": "act4d0_04#f#",
     "zone_id": "main_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13700,6 +15105,7 @@
     "energy": 18,
     "unique_id": "act4d0_05",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [
       {
         "resource": "M-3-3",
@@ -13743,6 +15149,7 @@
     "energy": 18,
     "unique_id": "act4d0_05#f#",
     "zone_id": "main_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13752,15 +15159,17 @@
     "energy": 0,
     "unique_id": "a003_st01",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-1",
-    "energy": 12,
+    "energy": 0,
     "unique_id": "a003_01",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13770,33 +15179,37 @@
     "energy": 0,
     "unique_id": "a003_st02",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-2",
-    "energy": 16,
+    "energy": 0,
     "unique_id": "a003_02",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-3",
-    "energy": 24,
+    "energy": 0,
     "unique_id": "a003_03",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-4",
-    "energy": 24,
+    "energy": 0,
     "unique_id": "a003_04",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13806,24 +15219,27 @@
     "energy": 0,
     "unique_id": "a003_st03",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-5",
-    "energy": 24,
+    "energy": 0,
     "unique_id": "a003_05",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-6",
-    "energy": 28,
+    "energy": 0,
     "unique_id": "a003_06",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13833,24 +15249,27 @@
     "energy": 0,
     "unique_id": "a003_st04",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-7",
-    "energy": 30,
+    "energy": 0,
     "unique_id": "a003_07",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-8",
-    "energy": 30,
+    "energy": 0,
     "unique_id": "a003_08",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13860,51 +15279,210 @@
     "energy": 0,
     "unique_id": "a003_st05",
     "zone_id": "act11d7_zone1",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
   },
   {
     "level": "OF-F1",
-    "energy": -1,
+    "energy": 9,
     "unique_id": "a003_f01",
     "zone_id": "act11d7_zone2",
-    "normal_drop": [],
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-2-4",
+        "probability": "大概率"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "OF-F2",
-    "energy": -1,
+    "energy": 12,
     "unique_id": "a003_f02",
     "zone_id": "act11d7_zone2",
-    "normal_drop": [],
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "OF-F3",
-    "energy": -1,
+    "energy": 15,
     "unique_id": "a003_f03",
     "zone_id": "act11d7_zone2",
-    "normal_drop": [],
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "OF-F4",
-    "energy": -1,
+    "energy": 18,
     "unique_id": "a003_f04",
     "zone_id": "act11d7_zone2",
-    "normal_drop": [],
-    "special_drop": [],
-    "extra_drop": []
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      }
+    ],
+    "special_drop": [
+      {
+        "resource": "M-4-8",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-12",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "OF-EX1",
     "energy": 10,
     "unique_id": "a003_ex01",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13914,6 +15492,7 @@
     "energy": 10,
     "unique_id": "a003_ex01#f#",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13923,6 +15502,7 @@
     "energy": 10,
     "unique_id": "a003_ex02",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13932,6 +15512,7 @@
     "energy": 10,
     "unique_id": "a003_ex02#f#",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13941,6 +15522,7 @@
     "energy": 10,
     "unique_id": "a003_ex03",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13950,6 +15532,7 @@
     "energy": 10,
     "unique_id": "a003_ex03#f#",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13959,6 +15542,7 @@
     "energy": 10,
     "unique_id": "a003_ex04",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13968,6 +15552,7 @@
     "energy": 10,
     "unique_id": "a003_ex04#f#",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13977,6 +15562,7 @@
     "energy": 10,
     "unique_id": "a003_ex05",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13986,6 +15572,7 @@
     "energy": 10,
     "unique_id": "a003_ex05#f#",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -13995,6 +15582,7 @@
     "energy": 10,
     "unique_id": "a003_ex06",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14004,6 +15592,7 @@
     "energy": 10,
     "unique_id": "a003_ex06#f#",
     "zone_id": "act11d7_zone3",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14013,92 +15602,227 @@
     "energy": 9,
     "unique_id": "a001_01",
     "zone_id": "act13d2_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-3",
-        "probability": "固定"
-      },
-      {
-        "resource": "M-1-1",
+        "resource": "M-2-1",
         "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "GT-2",
     "energy": 9,
     "unique_id": "a001_02",
     "zone_id": "act13d2_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-1-4",
-        "probability": "固定"
-      },
-      {
-        "resource": "M-1-2",
+        "resource": "M-2-5",
         "probability": "中概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "GT-3",
     "energy": 12,
     "unique_id": "a001_03",
     "zone_id": "act13d2_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-5",
-        "probability": "大概率"
-      },
-      {
-        "resource": "M-2-4",
-        "probability": "中概率"
+        "resource": "M-1-1",
+        "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "GT-4",
     "energy": 12,
     "unique_id": "a001_04",
     "zone_id": "act13d2_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
-        "resource": "M-2-6",
-        "probability": "大概率"
-      },
-      {
-        "resource": "M-2-3",
-        "probability": "中概率"
+        "resource": "M-1-4",
+        "probability": "固定"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "GT-5",
     "energy": 15,
     "unique_id": "a001_05",
     "zone_id": "act13d2_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-7",
-        "probability": "中概率"
+        "probability": "小概率"
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "GT-6",
     "energy": 15,
     "unique_id": "a001_06",
     "zone_id": "act13d2_zone1",
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-9",
@@ -14106,13 +15830,47 @@
       }
     ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "GT-EX-1",
     "energy": 15,
     "unique_id": "a001_ex01",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14122,6 +15880,7 @@
     "energy": 15,
     "unique_id": "a001_ex02",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14131,6 +15890,7 @@
     "energy": 15,
     "unique_id": "a001_ex03",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14140,6 +15900,7 @@
     "energy": 15,
     "unique_id": "a001_ex04",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14149,6 +15910,7 @@
     "energy": 15,
     "unique_id": "a001_ex04#f#",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14158,6 +15920,7 @@
     "energy": 15,
     "unique_id": "a001_ex05",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14167,6 +15930,7 @@
     "energy": 15,
     "unique_id": "a001_ex05#f#",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14176,6 +15940,7 @@
     "energy": 15,
     "unique_id": "a001_ex06",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14185,6 +15950,7 @@
     "energy": 15,
     "unique_id": "a001_ex06#f#",
     "zone_id": "act13d2_zone2",
+    "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14194,6 +15960,7 @@
     "energy": 20,
     "unique_id": "camp_01",
     "zone_id": "camp_zone_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14203,6 +15970,7 @@
     "energy": 25,
     "unique_id": "camp_02",
     "zone_id": "camp_zone_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14212,6 +15980,7 @@
     "energy": 25,
     "unique_id": "camp_03",
     "zone_id": "camp_zone_1",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14221,6 +15990,7 @@
     "energy": 25,
     "unique_id": "camp_r_01",
     "zone_id": "camp_zone_4",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14230,6 +16000,7 @@
     "energy": 25,
     "unique_id": "camp_r_02",
     "zone_id": "camp_zone_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14239,6 +16010,7 @@
     "energy": 25,
     "unique_id": "camp_r_03",
     "zone_id": "camp_zone_3",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []
@@ -14248,6 +16020,7 @@
     "energy": 25,
     "unique_id": "camp_r_04",
     "zone_id": "camp_zone_5",
+    "is_perm": false,
     "normal_drop": [],
     "special_drop": [],
     "extra_drop": []

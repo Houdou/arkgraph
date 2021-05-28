@@ -1,4 +1,5 @@
 const { stages } = require('./excels/stage_table.json');
+const { stageList: retro_stages } = require('./excels/retro_table.json');
 
 const MapItem = require('./mapping.json');
 const MapOcc = {
@@ -10,17 +11,21 @@ const MapOcc = {
 };
 
 const ParseLevel = (data) => {
+	const retro_data = retro_stages[data.stageId];
+	const is_perm = Boolean(retro_data);
+
 	const level = {
 		level: data.code,
-		energy: data.apCost,
+		energy: is_perm ? retro_data.apCost : data.apCost,
 		unique_id: data.stageId,
 		zone_id: data.zoneId,
+		is_perm,
 		normal_drop: [],
 		special_drop: [],
 		extra_drop: [],
 	};
 
-	data.stageDropInfo.displayDetailRewards.forEach(({
+	(is_perm ? retro_data : data).stageDropInfo.displayDetailRewards.forEach(({
 		occPercent,
 		id,
 		dropType,
