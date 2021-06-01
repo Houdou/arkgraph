@@ -110,6 +110,12 @@
       ],
       "appellation": "Thermal-EX"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "THRM-EX",
+      "skills": [],
+      "alias": []
+    },
     "code": "thrm-ex",
     "code_name": "Thermal-EX"
   },
@@ -3836,6 +3842,15 @@
         "jijing"
       ],
       "appellation": "Elysium"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "極境",
+      "skills": [
+        "支援號令·γ型",
+        "聆聽"
+      ],
+      "alias": []
     },
     "code": "elysium",
     "code_name": "Elysium"
@@ -8059,6 +8074,16 @@
       ],
       "appellation": "Weedy"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "溫蒂",
+      "skills": [
+        "炮管敲擊",
+        "水炮模式",
+        "液氮大炮"
+      ],
+      "alias": []
+    },
     "code": "weedy",
     "code_name": "Weedy"
   },
@@ -9539,6 +9564,16 @@
       ],
       "appellation": "Cannon"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "工程蓄水炮",
+      "skills": [
+        "",
+        "",
+        "液氮大炮"
+      ],
+      "alias": []
+    },
     "code": "industrial reserve water cannon",
     "code_name": "Cannon"
   },
@@ -10171,6 +10206,14 @@
         "yuanshijitan"
       ],
       "appellation": "Originium Shrine"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "源石祭壇",
+      "skills": [
+        "脈衝波"
+      ],
+      "alias": []
     },
     "code": "originium altar",
     "code_name": "Originium Shrine"
@@ -11167,6 +11210,23 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
+  "char_469_indigo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "深靛",
+      "skills": [
+        "灯塔守卫者",
+        "光影迷宫"
+      ],
+      "alias": [
+        "shen dian",
+        "shendian"
+      ],
+      "appellation": "Indigo"
+    },
+    "code": null,
+    "code_name": "Indigo"
+  },
   "char_440_pinecn": {
     "zh_CN": {
       "enabled": true,
@@ -11371,6 +11431,23 @@
     "code": null,
     "code_name": "Toddifons"
   },
+  "char_478_kirara": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "绮良",
+      "skills": [
+        "锚击",
+        "锚点捕捉"
+      ],
+      "alias": [
+        "qi liang",
+        "qiliang"
+      ],
+      "appellation": "Kirara"
+    },
+    "code": null,
+    "code_name": "Kirara"
+  },
   "char_451_robin": {
     "zh_CN": {
       "enabled": true,
@@ -11404,6 +11481,23 @@
     },
     "code": null,
     "code_name": "Frost"
+  },
+  "char_369_bena": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "贝娜",
+      "skills": [
+        "奋力修剪",
+        "快速修剪"
+      ],
+      "alias": [
+        "bei na",
+        "beina"
+      ],
+      "appellation": "Bena"
+    },
+    "code": null,
+    "code_name": "Bena"
   },
   "char_332_archet": {
     "zh_CN": {
@@ -11494,6 +11588,24 @@
     },
     "code": null,
     "code_name": "Passenger"
+  },
+  "char_426_billro": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "卡涅利安",
+      "skills": [
+        "沙暴守卫",
+        "沙缚镣锁",
+        "食噬之印"
+      ],
+      "alias": [
+        "ka nie li an",
+        "kanielian"
+      ],
+      "appellation": "Carnelian"
+    },
+    "code": null,
+    "code_name": "Carnelian"
   },
   "char_1012_skadi2": {
     "zh_CN": {
