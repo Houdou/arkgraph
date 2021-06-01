@@ -106,7 +106,8 @@ const announcement_items = [
 		return {
 			...item,
 			new_operators: item.new_operators.sort((a, b) => (
-				OPERATORS.find(({ unique_id }) => unique_id === b).rarity - OPERATORS.find(({ unique_id }) => unique_id === a).rarity
+				(OPERATORS.find(({ unique_id }) => unique_id === b) || { rarity: 0 }).rarity
+				- (OPERATORS.find(({ unique_id }) => unique_id === a) || { rarity: 0 }).rarity
 			)),
 		};
 	}
