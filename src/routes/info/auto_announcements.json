@@ -3,6 +3,33 @@
     "server": [
       "zh_TW"
     ],
+    "date": "2021-06-23",
+    "type": "new_operators",
+    "new_operators": [
+      "char_293_thorns",
+      "char_218_cuttle",
+      "char_272_strong"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-06-23",
+    "type": "new_operators",
+    "new_operators": [
+      "char_264_f12yin",
+      "char_214_kafka",
+      "char_451_robin",
+      "char_440_pinecn"
+    ]
+  },
+  {
+    "server": [
+      "zh_TW"
+    ],
     "date": "2021-06-01",
     "type": "new_operators",
     "new_operators": [
@@ -100,41 +127,6 @@
       "char_472_pasngr",
       "char_304_zebra",
       "char_363_toddi"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2021-04-09",
-    "type": "new_operators",
-    "new_operators": [
-      "char_423_blemsh",
-      "char_265_sophia",
-      "char_346_aosta",
-      "char_381_bubble"
-    ]
-  },
-  {
-    "server": [
-      "zh_TW"
-    ],
-    "date": "2021-04-09",
-    "type": "new_operators",
-    "new_operators": [
-      "char_113_cqbw",
-      "char_197_poca",
-      "char_358_lisa",
-      "char_250_phatom",
-      "char_294_ayer",
-      "char_405_absin",
-      "char_373_lionhd",
-      "char_345_folnic",
-      "char_328_cammou",
-      "char_159_peacok",
-      "char_258_podego"
     ]
   }
 ]

@@ -1700,6 +1700,52 @@
     "code": "shirayuki",
     "code_name": "ShiraYuki"
   },
+  "char_440_pinecn": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pinecone",
+      "skills": [
+        "RMA Spikes",
+        "Electrical Overcharge"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パインコーン",
+      "skills": [
+        "RMAスパイク",
+        "過負荷駆動"
+      ],
+      "alias": [
+        "ぱいんこーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파인콘",
+      "skills": [
+        "RMA 스파이크",
+        "전기 에너지 과부하"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "松果",
+      "skills": [
+        "RMA长钉",
+        "电能过载"
+      ],
+      "alias": [
+        "song guo",
+        "songguo"
+      ],
+      "appellation": "Pinecone"
+    },
+    "code": "pinecone",
+    "code_name": "Pinecone"
+  },
   "char_302_glaze": {
     "en_US": {
       "enabled": true,
@@ -2604,6 +2650,15 @@
         "jie"
       ],
       "appellation": "Jaye"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "孑",
+      "skills": [
+        "斷螯",
+        "刺身拼盤"
+      ],
+      "alias": []
     },
     "code": "jaye",
     "code_name": "Jaye"
@@ -6156,6 +6211,52 @@
     "code": "waai fu",
     "code_name": "Waai Fu"
   },
+  "char_214_kafka": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kafka",
+      "skills": [
+        "Cube of Absurdism",
+        "Shears of Surrealism"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カフカ",
+      "skills": [
+        "ミステリーキューブ",
+        "カオスシザーズ"
+      ],
+      "alias": [
+        "かふか"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "카프카",
+      "skills": [
+        "기이한 루빅큐브",
+        "요상한 가위"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "卡夫卡",
+      "skills": [
+        "怪异魔方",
+        "诡异剪刀"
+      ],
+      "alias": [
+        "ka fu ka",
+        "kafuka"
+      ],
+      "appellation": "Kafka"
+    },
+    "code": "kafka",
+    "code_name": "Kafka"
+  },
   "char_107_liskam": {
     "en_US": {
       "enabled": true,
@@ -6583,6 +6684,15 @@
         "anzhela"
       ],
       "appellation": "Andreana"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "安哲拉",
+      "skills": [
+        "攻擊力強化·γ型",
+        "阻滯射擊戰術"
+      ],
+      "alias": []
     },
     "code": "andreana",
     "code_name": "Andreana"
@@ -7136,6 +7246,52 @@
     },
     "code": "feater",
     "code_name": "FEater"
+  },
+  "char_451_robin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Robin",
+      "skills": [
+        "Binding “Clip”",
+        "Launching “Clip”"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロビン",
+      "skills": [
+        "バインド「クリップ」",
+        "バースト「クリップ」"
+      ],
+      "alias": [
+        "ろびん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로빈",
+      "skills": [
+        "속박 '클립'",
+        "사출 '클립'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗宾",
+      "skills": [
+        "束缚“夹子”",
+        "弹射“夹子”"
+      ],
+      "alias": [
+        "luo bin",
+        "luobin"
+      ],
+      "appellation": "Robin"
+    },
+    "code": "robin",
+    "code_name": "Robin"
   },
   "char_103_angel": {
     "en_US": {
@@ -8597,6 +8753,56 @@
     "code": "eunectes",
     "code_name": "Eunectes"
   },
+  "char_264_f12yin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mountain",
+      "skills": [
+        "Left Hook",
+        "Sweeping Stance",
+        "Earth-Shattering Smash"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "マウンテン",
+      "skills": [
+        "左鉤突き",
+        "猛虎の構え",
+        "震地砕岩撃"
+      ],
+      "alias": [
+        "まうんてん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "마운틴",
+      "skills": [
+        "레프트 훅",
+        "스탠스 스위칭",
+        "지진쇄암격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "山",
+      "skills": [
+        "左勾扫拳",
+        "横扫架势",
+        "震地碎岩击"
+      ],
+      "alias": [
+        "shan",
+        "shan"
+      ],
+      "appellation": "Mountain"
+    },
+    "code": "mountain",
+    "code_name": "Mountain"
+  },
   "char_172_svrash": {
     "en_US": {
       "enabled": true,
@@ -8703,6 +8909,16 @@
         "jici"
       ],
       "appellation": "Thorns"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "棘刺",
+      "skills": [
+        "攻擊力強化·γ型",
+        "護身尖刺",
+        "至高之術"
+      ],
+      "alias": []
     },
     "code": "thorns",
     "code_name": "Thorns"
@@ -9728,6 +9944,52 @@
     "code": "rosmontis's tactical equipment",
     "code_name": "Rosmontis-gear"
   },
+  "token_10013_robin_mine": {
+    "en_US": {
+      "enabled": true,
+      "name": "\"Clip\"",
+      "skills": [
+        "Binding “Clip”",
+        "Launching “Clip”"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「クリップ」",
+      "skills": [
+        "バインド「クリップ」",
+        "バースト「クリップ」"
+      ],
+      "alias": [
+        "「くりっぷ」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'클립'",
+      "skills": [
+        "속박 '클립'",
+        "사출 '클립'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "\"夹子\"",
+      "skills": [
+        "束缚“夹子”",
+        "弹射“夹子”"
+      ],
+      "alias": [
+        "\" jia zi \"",
+        "\"jiazi\""
+      ],
+      "appellation": "\"Clip\" Charge"
+    },
+    "code": "\"clip\"",
+    "code_name": "\"Clip\" Charge"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -9901,7 +10163,7 @@
       "enabled": true,
       "name": "탐지기",
       "skills": [
-        "안티 스텔스"
+        "은신 해제"
       ],
       "alias": []
     },
@@ -10738,6 +11000,48 @@
     "code": "shieldguard",
     "code_name": "Shield Guard"
   },
+  "trap_025_prison": {
+    "en_US": {
+      "enabled": true,
+      "name": "Imprisonment Device",
+      "skills": [
+        "Lock ‘em Up!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "禁固装置",
+      "skills": [
+        "禁固機能起動！"
+      ],
+      "alias": [
+        "禁固装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "구속 장치",
+      "skills": [
+        "구속 작동!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "禁锢装置",
+      "skills": [
+        "启动禁锢！"
+      ],
+      "alias": [
+        "jin gu zhuang zhi",
+        "jinguzhuangzhi"
+      ],
+      "appellation": "Prison Device"
+    },
+    "code": "imprisonment device",
+    "code_name": "Prison Device"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -11227,23 +11531,6 @@
     "code": null,
     "code_name": "Indigo"
   },
-  "char_440_pinecn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "松果",
-      "skills": [
-        "RMA长钉",
-        "电能过载"
-      ],
-      "alias": [
-        "song guo",
-        "songguo"
-      ],
-      "appellation": "Pinecone"
-    },
-    "code": null,
-    "code_name": "Pinecone"
-  },
   "char_452_bstalk": {
     "zh_CN": {
       "enabled": true,
@@ -11346,23 +11633,6 @@
     "code": null,
     "code_name": "Tuye"
   },
-  "char_214_kafka": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "卡夫卡",
-      "skills": [
-        "怪异魔方",
-        "诡异剪刀"
-      ],
-      "alias": [
-        "ka fu ka",
-        "kafuka"
-      ],
-      "appellation": "Kafka"
-    },
-    "code": null,
-    "code_name": "Kafka"
-  },
   "char_455_nothin": {
     "zh_CN": {
       "enabled": true,
@@ -11447,23 +11717,6 @@
     },
     "code": null,
     "code_name": "Kirara"
-  },
-  "char_451_robin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "罗宾",
-      "skills": [
-        "束缚“夹子”",
-        "弹射“夹子”"
-      ],
-      "alias": [
-        "luo bin",
-        "luobin"
-      ],
-      "appellation": "Robin"
-    },
-    "code": null,
-    "code_name": "Robin"
   },
   "char_458_rfrost": {
     "zh_CN": {
@@ -11661,24 +11914,6 @@
     "code": null,
     "code_name": "Kal'tsit"
   },
-  "char_264_f12yin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "山",
-      "skills": [
-        "左勾扫拳",
-        "横扫架势",
-        "震地碎岩击"
-      ],
-      "alias": [
-        "shan",
-        "shan"
-      ],
-      "appellation": "Mountain"
-    },
-    "code": null,
-    "code_name": "Mountain"
-  },
   "token_10002_kalts_mon3tr": {
     "zh_CN": {
       "enabled": true,
@@ -11696,23 +11931,6 @@
     },
     "code": null,
     "code_name": "Mon3tr"
-  },
-  "token_10013_robin_mine": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "\"夹子\"",
-      "skills": [
-        "束缚“夹子”",
-        "弹射“夹子”"
-      ],
-      "alias": [
-        "\" jia zi \"",
-        "\"jiazi\""
-      ],
-      "appellation": "\"Clip\" Charge"
-    },
-    "code": null,
-    "code_name": "\"Clip\" Charge"
   },
   "token_10014_bstalk_crab": {
     "zh_CN": {
@@ -11783,22 +12001,6 @@
     },
     "code": null,
     "code_name": "Skadi's seaborn"
-  },
-  "trap_025_prison": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "禁锢装置",
-      "skills": [
-        "启动禁锢！"
-      ],
-      "alias": [
-        "jin gu zhuang zhi",
-        "jinguzhuangzhi"
-      ],
-      "appellation": "Prison Device"
-    },
-    "code": null,
-    "code_name": "Prison Device"
   },
   "trap_026_inverter": {
     "zh_CN": {
