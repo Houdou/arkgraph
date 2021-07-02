@@ -450,6 +450,12 @@
       ],
       "appellation": "Reserve (Melee)"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "預備幹員-近戰",
+      "skills": [],
+      "alias": []
+    },
     "code": "reserve operator - melee",
     "code_name": "Reserve (Melee)"
   },
@@ -884,6 +890,12 @@
       ],
       "appellation": "Reserve (Sniper)"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "預備幹員-狙擊",
+      "skills": [],
+      "alias": []
+    },
     "code": "reserve operator - sniper",
     "code_name": "Reserve (Sniper)"
   },
@@ -1068,6 +1080,12 @@
       ],
       "appellation": "Reserve (Logistic)"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "預備幹員-後勤",
+      "skills": [],
+      "alias": []
+    },
     "code": "reserve operator - logistics",
     "code_name": "Reserve (Logistic)"
   },
@@ -1151,6 +1169,12 @@
         "yubeiganyuan-shushi"
       ],
       "appellation": "Reserve (Caster)"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "預備幹員-術師",
+      "skills": [],
+      "alias": []
     },
     "code": "reserve operator - caster",
     "code_name": "Reserve (Caster)"
@@ -1843,6 +1867,15 @@
         "suantang"
       ],
       "appellation": "Aciddrop"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "酸糖",
+      "skills": [
+        "花式點射",
+        "扳機時刻"
+      ],
+      "alias": []
     },
     "code": "aciddrop",
     "code_name": "Aciddrop"
@@ -4160,6 +4193,14 @@
       ],
       "appellation": "Sharp"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "亮劍"
+      ],
+      "alias": []
+    },
     "code": "sharp",
     "code_name": "Sharp"
   },
@@ -4260,6 +4301,15 @@
         "suishi"
       ],
       "appellation": "Flint"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "燧石",
+      "skills": [
+        "不息",
+        "鋒芒畢露"
+      ],
+      "alias": []
     },
     "code": "flint",
     "code_name": "Flint"
@@ -4853,6 +4903,14 @@
       ],
       "appellation": "Stormeye"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "旋臂"
+      ],
+      "alias": []
+    },
     "code": "stormeye",
     "code_name": "Stormeye"
   },
@@ -5271,6 +5329,15 @@
       ],
       "appellation": "Tomimi"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "特米米",
+      "skills": [
+        "部族技藝",
+        "嘉維爾保護方案"
+      ],
+      "alias": []
+    },
     "code": "tomimi",
     "code_name": "Tomimi"
   },
@@ -5367,6 +5434,14 @@
         "Pith"
       ],
       "appellation": "Pith"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“為我所為”"
+      ],
+      "alias": []
     },
     "code": "pith",
     "code_name": "Pith"
@@ -5886,6 +5961,14 @@
         "Touch"
       ],
       "appellation": "Touch"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "宛如天啟"
+      ],
+      "alias": []
     },
     "code": "touch",
     "code_name": "Touch"
@@ -8750,6 +8833,16 @@
       ],
       "appellation": "Eunectes"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "森蚺",
+      "skills": [
+        "輕型掛斧",
+        "震懾劈砍",
+        "鋼鐵意志"
+      ],
+      "alias": []
+    },
     "code": "eunectes",
     "code_name": "Eunectes"
   },
@@ -10669,6 +10762,14 @@
       ],
       "appellation": "Huge Fungus"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "巨蕈",
+      "skills": [
+        "天然隱蔽"
+      ],
+      "alias": []
+    },
     "code": "giant mushroom",
     "code_name": "Huge Fungus"
   },
@@ -10702,6 +10803,12 @@
         "luodedaolinshiguyuan"
       ],
       "appellation": "Temporary Employer"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "羅德島臨時雇員",
+      "skills": [],
+      "alias": []
     },
     "code": "temporary rhodes island employee",
     "code_name": "Temporary Employer"
@@ -11913,6 +12020,24 @@
     },
     "code": null,
     "code_name": "Kal'tsit"
+  },
+  "char_485_pallas": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "帕拉斯",
+      "skills": [
+        "胜利的连击",
+        "信念的长鞭",
+        "英勇的祝福"
+      ],
+      "alias": [
+        "pa la si",
+        "palasi"
+      ],
+      "appellation": "Pallas"
+    },
+    "code": null,
+    "code_name": "Pallas"
   },
   "token_10002_kalts_mon3tr": {
     "zh_CN": {

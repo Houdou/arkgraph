@@ -8656,6 +8656,96 @@
     "extra_drop": []
   },
   {
+    "level": "TB-DB-1",
+    "energy": 10,
+    "unique_id": "act1lock_a-01",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "TB-DB-2",
+    "energy": 10,
+    "unique_id": "act1lock_a-02",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "TB-DB-3",
+    "energy": 10,
+    "unique_id": "act1lock_a-03",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "TB-DB-4",
+    "energy": 10,
+    "unique_id": "act1lock_a-04",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "LK-DP-A",
+    "energy": 0,
+    "unique_id": "act1lock_b-01",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "LK-DP-B",
+    "energy": 0,
+    "unique_id": "act1lock_b-02",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "LK-DP-C",
+    "energy": 0,
+    "unique_id": "act1lock_b-03",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "LK-DP-D",
+    "energy": 0,
+    "unique_id": "act1lock_b-04",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "FIN-TS",
+    "energy": 15,
+    "unique_id": "act1lock_c-01",
+    "zone_id": "act1lock_zone1",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "PL-1",
     "energy": 6,
     "unique_id": "act7mini_01",
@@ -12419,9 +12509,43 @@
     "unique_id": "act12d0_01",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-2-4",
+        "probability": "大概率"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-2",
@@ -12429,9 +12553,43 @@
     "unique_id": "act12d0_02",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-2-3",
+        "probability": "大概率"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-TR-1",
@@ -12449,9 +12607,43 @@
     "unique_id": "act12d0_03",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-4",
@@ -12459,9 +12651,47 @@
     "unique_id": "act12d0_04",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-ST-1",
@@ -12479,9 +12709,39 @@
     "unique_id": "act12d0_05",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-2-5",
+        "probability": "固定"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-6",
@@ -12489,9 +12749,47 @@
     "unique_id": "act12d0_06",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-3-1",
+        "probability": "中概率"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-ST-2",
@@ -12509,9 +12807,64 @@
     "unique_id": "act12d0_07",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
-    "special_drop": [],
-    "extra_drop": []
+    "normal_drop": [
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      }
+    ],
+    "special_drop": [
+      {
+        "resource": "M-4-4",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-12",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-8",
@@ -12519,9 +12872,51 @@
     "unique_id": "act12d0_08",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
+    "normal_drop": [
+      {
+        "resource": "M-3-10",
+        "probability": "小概率"
+      }
+    ],
     "special_drop": [],
-    "extra_drop": []
+    "extra_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-9",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-13",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-10",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-9",
@@ -12529,9 +12924,52 @@
     "unique_id": "act12d0_09",
     "zone_id": "act12d0_zone1",
     "is_perm": true,
-    "normal_drop": [],
-    "special_drop": [],
-    "extra_drop": []
+    "normal_drop": [
+      {
+        "resource": "M-3-3",
+        "probability": "小概率"
+      }
+    ],
+    "special_drop": [
+      {
+        "resource": "M-4-3",
+        "probability": "罕见"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-7",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-11",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "RI-EX-1",
