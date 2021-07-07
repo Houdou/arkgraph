@@ -2100,6 +2100,52 @@
     "code": "myrtle",
     "code_name": "Myrtle"
   },
+  "char_452_bstalk": {
+    "en_US": {
+      "enabled": true,
+      "name": "Beanstalk",
+      "skills": [
+        "Sentinel Command",
+        "\"Everyone Together!\""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ビーンストーク",
+      "skills": [
+        "出動指令",
+        "「全員集合！」"
+      ],
+      "alias": [
+        "びーんすとーく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "빈스토크",
+      "skills": [
+        "핀포인트 커맨드",
+        "\"다 같이 가자\""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "豆苗",
+      "skills": [
+        "定点指令",
+        "“大家一起上”"
+      ],
+      "alias": [
+        "dou miao",
+        "doumiao"
+      ],
+      "appellation": "Beanstalk"
+    },
+    "code": "beanstalk",
+    "code_name": "Beanstalk"
+  },
   "char_130_doberm": {
     "en_US": {
       "enabled": true,
@@ -5657,6 +5703,52 @@
     "code": "mint",
     "code_name": "Mint"
   },
+  "char_338_iris": {
+    "en_US": {
+      "enabled": true,
+      "name": "Iris",
+      "skills": [
+        "Fairytale Guardian",
+        "Dreamland’s Cradle"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アイリス",
+      "skills": [
+        "童話の守り人",
+        "夢想揺籃"
+      ],
+      "alias": [
+        "あいりす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아이리스",
+      "skills": [
+        "동화의 파수꾼",
+        "꿈나라의 요람"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "爱丽丝",
+      "skills": [
+        "童话守卫者",
+        "梦乡摇篮"
+      ],
+      "alias": [
+        "ai li si",
+        "ailisi"
+      ],
+      "appellation": "Iris"
+    },
+    "code": "iris",
+    "code_name": "Iris"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -7435,6 +7527,56 @@
     },
     "code": "exusiai",
     "code_name": "Exusiai"
+  },
+  "char_332_archet": {
+    "en_US": {
+      "enabled": true,
+      "name": "Archetto",
+      "skills": [
+        "Dispersing Arrows",
+        "Pursuing Arrows",
+        "Thundering Arrows"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アルケット",
+      "skills": [
+        "飛散の矢",
+        "追討の矢",
+        "暴風の矢"
+      ],
+      "alias": [
+        "あるけっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아르케토",
+      "skills": [
+        "화살·산개",
+        "화살·추적 사냥",
+        "화살·폭풍"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "空弦",
+      "skills": [
+        "箭矢·散逸",
+        "箭矢·追猎",
+        "箭矢·暴风"
+      ],
+      "alias": [
+        "kong xian",
+        "kongxian"
+      ],
+      "appellation": "Archetto"
+    },
+    "code": "archetto",
+    "code_name": "Archetto"
   },
   "char_340_shwaz": {
     "en_US": {
@@ -10083,6 +10225,52 @@
     "code": "\"clip\"",
     "code_name": "\"Clip\" Charge"
   },
+  "token_10014_bstalk_crab": {
+    "en_US": {
+      "enabled": true,
+      "name": "Metal Crab Guard Team",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハガネガニ守備隊",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "はがねがに守備隊"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "메탈 크랩 호위대",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "磐蟹护卫队",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "pan xie hu wei dui",
+        "panxiehuweidui"
+      ],
+      "appellation": "M.C.G"
+    },
+    "code": "metal crab guard team",
+    "code_name": "M.C.G"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -11638,23 +11826,6 @@
     "code": null,
     "code_name": "Indigo"
   },
-  "char_452_bstalk": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "豆苗",
-      "skills": [
-        "定点指令",
-        "“大家一起上”"
-      ],
-      "alias": [
-        "dou miao",
-        "doumiao"
-      ],
-      "appellation": "Beanstalk"
-    },
-    "code": null,
-    "code_name": "Beanstalk"
-  },
   "char_459_tachak": {
     "zh_CN": {
       "enabled": true,
@@ -11688,23 +11859,6 @@
     },
     "code": null,
     "code_name": "Akafuyu"
-  },
-  "char_338_iris": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "爱丽丝",
-      "skills": [
-        "童话守卫者",
-        "梦乡摇篮"
-      ],
-      "alias": [
-        "ai li si",
-        "ailisi"
-      ],
-      "appellation": "Iris"
-    },
-    "code": null,
-    "code_name": "Iris"
   },
   "char_1011_lava2": {
     "zh_CN": {
@@ -11858,24 +12012,6 @@
     },
     "code": null,
     "code_name": "Bena"
-  },
-  "char_332_archet": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "空弦",
-      "skills": [
-        "箭矢·散逸",
-        "箭矢·追猎",
-        "箭矢·暴风"
-      ],
-      "alias": [
-        "kong xian",
-        "kongxian"
-      ],
-      "appellation": "Archetto"
-    },
-    "code": null,
-    "code_name": "Archetto"
   },
   "char_456_ash": {
     "zh_CN": {
@@ -12056,23 +12192,6 @@
     },
     "code": null,
     "code_name": "Mon3tr"
-  },
-  "token_10014_bstalk_crab": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "磐蟹护卫队",
-      "skills": [
-        "",
-        ""
-      ],
-      "alias": [
-        "pan xie hu wei dui",
-        "panxiehuweidui"
-      ],
-      "appellation": "M.C.G"
-    },
-    "code": null,
-    "code_name": "M.C.G"
   },
   "token_10015_dusk_drgn": {
     "zh_CN": {
