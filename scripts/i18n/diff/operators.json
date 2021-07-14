@@ -6166,6 +6166,52 @@
     "code": "whisperain",
     "code_name": "Whisperain"
   },
+  "char_402_tuye": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tuye",
+      "skills": [
+        "Aqua Loop",
+        "Cardiac Stimulant"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トゥイエ",
+      "skills": [
+        "アクアリング",
+        "カンフル剤"
+      ],
+      "alias": [
+        "とぅいえ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "투예",
+      "skills": [
+        "물줄기",
+        "강심제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "图耶",
+      "skills": [
+        "水流环",
+        "强心剂"
+      ],
+      "alias": [
+        "tu ye",
+        "tuye"
+      ],
+      "appellation": "Tuye"
+    },
+    "code": "tuye",
+    "code_name": "Tuye"
+  },
   "char_148_nearl": {
     "en_US": {
       "enabled": true,
@@ -11337,6 +11383,48 @@
     "code": "imprisonment device",
     "code_name": "Prison Device"
   },
+  "trap_027_stone": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rubble",
+      "skills": [
+        "Obstruct"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "礫岩",
+      "skills": [
+        "進路妨害"
+      ],
+      "alias": [
+        "礫岩"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "돌무더기",
+      "skills": [
+        "진로 방해"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "碎石",
+      "skills": [
+        "阻挡路线"
+      ],
+      "alias": [
+        "sui shi",
+        "suishi"
+      ],
+      "appellation": "Rubble"
+    },
+    "code": "rubble",
+    "code_name": "Rubble"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -11877,23 +11965,6 @@
     "code": null,
     "code_name": "Lava the Purgatory"
   },
-  "char_402_tuye": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "图耶",
-      "skills": [
-        "水流环",
-        "强心剂"
-      ],
-      "alias": [
-        "tu ye",
-        "tuye"
-      ],
-      "appellation": "Tuye"
-    },
-    "code": null,
-    "code_name": "Tuye"
-  },
   "char_455_nothin": {
     "zh_CN": {
       "enabled": true,
@@ -12261,22 +12332,6 @@
     },
     "code": null,
     "code_name": "D.B.F2.1ver "
-  },
-  "trap_027_stone": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "碎石",
-      "skills": [
-        "阻挡路线"
-      ],
-      "alias": [
-        "sui shi",
-        "suishi"
-      ],
-      "appellation": "Rubble"
-    },
-    "code": null,
-    "code_name": "Rubble"
   },
   "trap_028_cannon": {
     "zh_CN": {
