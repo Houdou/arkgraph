@@ -2106,7 +2106,7 @@
       "name": "Beanstalk",
       "skills": [
         "Sentinel Command",
-        "\"Everyone Together!\""
+        "'Everyone Together!'"
       ],
       "alias": []
     },
@@ -2628,6 +2628,15 @@
         "fangting"
       ],
       "appellation": "Arene"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "芳汀",
+      "skills": [
+        "小玩笑",
+        "致命惡作劇"
+      ],
+      "alias": []
     },
     "code": "arene",
     "code_name": "Arene"
@@ -3179,7 +3188,7 @@
       "name": "Bubble",
       "skills": [
         "DEF Up β",
-        "\"Beaten Up\""
+        "'Beaten Up'"
       ],
       "alias": []
     },
@@ -5003,6 +5012,15 @@
       ],
       "appellation": "April"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "四月",
+      "skills": [
+        "精準射擊",
+        "靈活偽裝"
+      ],
+      "alias": []
+    },
     "code": "april",
     "code_name": "April"
   },
@@ -5447,7 +5465,7 @@
       "enabled": true,
       "name": "Pith",
       "skills": [
-        "\"All For Me\""
+        "'All For Me'"
       ],
       "alias": []
     },
@@ -5700,6 +5718,15 @@
       ],
       "appellation": "Mint"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "薄綠",
+      "skills": [
+        "風語",
+        "聚能渦旋"
+      ],
+      "alias": []
+    },
     "code": "mint",
     "code_name": "Mint"
   },
@@ -5748,6 +5775,52 @@
     },
     "code": "iris",
     "code_name": "Iris"
+  },
+  "char_1011_lava2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lava the Purgatory",
+      "skills": [
+        "Flame Quenched Dagger",
+        "Ring of Hellfire"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "炎獄ラヴァ",
+      "skills": [
+        "フレイムエンチャント",
+        "プルガトリオ"
+      ],
+      "alias": [
+        "炎獄らゔぁ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "라바 더 퍼거토리",
+      "skills": [
+        "불에 담근 비수",
+        "지옥불 고리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "炎狱炎熔",
+      "skills": [
+        "焰淬匕首",
+        "狱火之环"
+      ],
+      "alias": [
+        "yan yu yan rong",
+        "yanyuyanrong"
+      ],
+      "appellation": "Lava the Purgatory"
+    },
+    "code": "lava the purgatory",
+    "code_name": "Lava the Purgatory"
   },
   "char_242_otter": {
     "en_US": {
@@ -5846,6 +5919,15 @@
         "xiyin"
       ],
       "appellation": "Scene"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "稀音",
+      "skills": [
+        "保護色隱蔽",
+        "全景超載攝影"
+      ],
+      "alias": []
     },
     "code": "scene",
     "code_name": "Scene"
@@ -6477,6 +6559,52 @@
     },
     "code": "kafka",
     "code_name": "Kafka"
+  },
+  "char_455_nothin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mr.Nothing",
+      "skills": [
+        "Cautious Retreat",
+        "Wax and Wane"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウユウ",
+      "skills": [
+        "引き際の心得",
+        "諸行無常"
+      ],
+      "alias": [
+        "うゆう"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "우요우",
+      "skills": [
+        "지난이퇴",
+        "음청원결"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "乌有",
+      "skills": [
+        "知难而退",
+        "阴晴圆缺"
+      ],
+      "alias": [
+        "wu you",
+        "wuyou"
+      ],
+      "appellation": "Mr.Nothing"
+    },
+    "code": "mr.nothing",
+    "code_name": "Mr.Nothing"
   },
   "char_107_liskam": {
     "en_US": {
@@ -7473,8 +7601,8 @@
       "enabled": true,
       "name": "Robin",
       "skills": [
-        "Binding “Clip”",
-        "Launching “Clip”"
+        "Binding 'Clip'",
+        "Launching 'Clip'"
       ],
       "alias": []
     },
@@ -7811,7 +7939,7 @@
       "skills": [
         "Expanded Cognition",
         "Nociceptor Inhibition",
-        "“As You Wish”"
+        "'As You Wish'"
       ],
       "alias": []
     },
@@ -7973,6 +8101,56 @@
     },
     "code": "bagpipe",
     "code_name": "Bagpipe"
+  },
+  "char_362_saga": {
+    "en_US": {
+      "enabled": true,
+      "name": "Saga",
+      "skills": [
+        "Charge γ",
+        "Cleansing Evil",
+        "Fierce Glare"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サガ",
+      "skills": [
+        "突撃指令γ",
+        "懲悪",
+        "怒目"
+      ],
+      "alias": [
+        "さが"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사가",
+      "skills": [
+        "돌격지령γ",
+        "제악",
+        "격노의 눈"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "嵯峨",
+      "skills": [
+        "冲锋号令·γ型",
+        "除恶",
+        "怒目"
+      ],
+      "alias": [
+        "cuo e",
+        "cuoe"
+      ],
+      "appellation": "Saga"
+    },
+    "code": "saga",
+    "code_name": "Saga"
   },
   "char_134_ifrit": {
     "en_US": {
@@ -8159,9 +8337,9 @@
       "enabled": true,
       "name": "Ceobe",
       "skills": [
-        "\"Really Cold Axe\"",
-        "\"Really Hot Knives\"",
-        "\"Really Heavy Spear\""
+        "'Really Cold Axe'",
+        "'Really Hot Knives'",
+        "'Really Heavy Spear'"
       ],
       "alias": []
     },
@@ -8213,6 +8391,56 @@
     },
     "code": "ceobe",
     "code_name": "Ceobe"
+  },
+  "char_2015_dusk": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dusk",
+      "skills": [
+        "Transcendental Stroke",
+        "Flowing Ink",
+        "Image over Form"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シー",
+      "skills": [
+        "工筆入魂",
+        "潑墨淋漓",
+        "写意攻苦"
+      ],
+      "alias": [
+        "しー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시",
+      "skills": [
+        "경지에 다다른 세밀화법",
+        "거침없는 발묵",
+        "사의승형"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "夕",
+      "skills": [
+        "工笔入化",
+        "泼墨淋漓",
+        "写意胜形"
+      ],
+      "alias": [
+        "xi",
+        "xi"
+      ],
+      "appellation": "Dusk"
+    },
+    "code": "dusk",
+    "code_name": "Dusk"
   },
   "char_291_aglina": {
     "en_US": {
@@ -9371,6 +9599,16 @@
       ],
       "appellation": "Surtr"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "史爾特爾",
+      "skills": [
+        "烈焰魔劍",
+        "熔核巨影",
+        "黃昏"
+      ],
+      "alias": []
+    },
     "code": "surtr",
     "code_name": "Surtr"
   },
@@ -10117,6 +10355,15 @@
       ],
       "appellation": "M.P.M"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "移動攝影器",
+      "skills": [
+        "",
+        "全景超載攝影"
+      ],
+      "alias": []
+    },
     "code": "mobile buggy cam",
     "code_name": "M.P.M"
   },
@@ -10228,10 +10475,10 @@
   "token_10013_robin_mine": {
     "en_US": {
       "enabled": true,
-      "name": "\"Clip\"",
+      "name": "'Clip'",
       "skills": [
-        "Binding “Clip”",
-        "Launching “Clip”"
+        "Binding 'Clip'",
+        "Launching 'Clip'"
       ],
       "alias": []
     },
@@ -10268,7 +10515,7 @@
       ],
       "appellation": "\"Clip\" Charge"
     },
-    "code": "\"clip\"",
+    "code": "'clip'",
     "code_name": "\"Clip\" Charge"
   },
   "token_10014_bstalk_crab": {
@@ -10316,6 +10563,56 @@
     },
     "code": "metal crab guard team",
     "code_name": "M.C.G"
+  },
+  "token_10015_dusk_drgn": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Freeling'",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「小自在」",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "「小自在」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'작은 즈자이'",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "\"小自在\"",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "\" xiao zi zai \"",
+        "\"xiaozizai\""
+      ],
+      "appellation": "Little Instinct"
+    },
+    "code": "'freeling'",
+    "code_name": "Little Instinct"
   },
   "trap_001_crate": {
     "en_US": {
@@ -10910,7 +11207,7 @@
   "trap_014_tower": {
     "en_US": {
       "enabled": true,
-      "name": "L-44 \"Gramophone\"",
+      "name": "L-44 'Gramophone'",
       "skills": [
         "Arts Transfer Protocol"
       ],
@@ -10930,7 +11227,7 @@
       "enabled": true,
       "name": "L-44 '축음기'",
       "skills": [
-        "아츠 전송 협의"
+        "아츠 전송 프로토콜"
       ],
       "alias": []
     },
@@ -10954,7 +11251,7 @@
       ],
       "alias": []
     },
-    "code": "l-44 \"gramophone\"",
+    "code": "l-44 'gramophone'",
     "code_name": "Gramophone"
   },
   "trap_015_tree": {
@@ -11382,6 +11679,48 @@
     },
     "code": "imprisonment device",
     "code_name": "Prison Device"
+  },
+  "trap_026_inverter": {
+    "en_US": {
+      "enabled": true,
+      "name": "Two-Step Firecracker mk2",
+      "skills": [
+        "Warping Reality"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "改良型爆竹",
+      "skills": [
+        "事象震動"
+      ],
+      "alias": [
+        "改良型爆竹"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "개량형 양자폭죽",
+      "skills": [
+        "현실 뒤흔들기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "改良型二踢脚",
+      "skills": [
+        "撼动现实"
+      ],
+      "alias": [
+        "gai liang xing er ti jiao",
+        "gailiangxingertijiao"
+      ],
+      "appellation": "D.B.F2.1ver "
+    },
+    "code": "two-step firecracker mk2",
+    "code_name": "D.B.F2.1ver "
   },
   "trap_027_stone": {
     "en_US": {
@@ -11948,40 +12287,6 @@
     "code": null,
     "code_name": "Akafuyu"
   },
-  "char_1011_lava2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "炎狱炎熔",
-      "skills": [
-        "焰淬匕首",
-        "狱火之环"
-      ],
-      "alias": [
-        "yan yu yan rong",
-        "yanyuyanrong"
-      ],
-      "appellation": "Lava the Purgatory"
-    },
-    "code": null,
-    "code_name": "Lava the Purgatory"
-  },
-  "char_455_nothin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "乌有",
-      "skills": [
-        "知难而退",
-        "阴晴圆缺"
-      ],
-      "alias": [
-        "wu you",
-        "wuyou"
-      ],
-      "appellation": "Mr.Nothing"
-    },
-    "code": null,
-    "code_name": "Mr.Nothing"
-  },
   "char_457_blitz": {
     "zh_CN": {
       "enabled": true,
@@ -12101,42 +12406,6 @@
     },
     "code": null,
     "code_name": "Ash"
-  },
-  "char_362_saga": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "嵯峨",
-      "skills": [
-        "冲锋号令·γ型",
-        "除恶",
-        "怒目"
-      ],
-      "alias": [
-        "cuo e",
-        "cuoe"
-      ],
-      "appellation": "Saga"
-    },
-    "code": null,
-    "code_name": "Saga"
-  },
-  "char_2015_dusk": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "夕",
-      "skills": [
-        "工笔入化",
-        "泼墨淋漓",
-        "写意胜形"
-      ],
-      "alias": [
-        "xi",
-        "xi"
-      ],
-      "appellation": "Dusk"
-    },
-    "code": null,
-    "code_name": "Dusk"
   },
   "char_472_pasngr": {
     "zh_CN": {
@@ -12264,24 +12533,6 @@
     "code": null,
     "code_name": "Mon3tr"
   },
-  "token_10015_dusk_drgn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "\"小自在\"",
-      "skills": [
-        "",
-        "",
-        ""
-      ],
-      "alias": [
-        "\" xiao zi zai \"",
-        "\"xiaozizai\""
-      ],
-      "appellation": "Little Instinct"
-    },
-    "code": null,
-    "code_name": "Little Instinct"
-  },
   "token_10016_rfrost_mine": {
     "zh_CN": {
       "enabled": true,
@@ -12316,22 +12567,6 @@
     },
     "code": null,
     "code_name": "Skadi's seaborn"
-  },
-  "trap_026_inverter": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "改良型二踢脚",
-      "skills": [
-        "撼动现实"
-      ],
-      "alias": [
-        "gai liang xing er ti jiao",
-        "gailiangxingertijiao"
-      ],
-      "appellation": "D.B.F2.1ver "
-    },
-    "code": null,
-    "code_name": "D.B.F2.1ver "
   },
   "trap_028_cannon": {
     "zh_CN": {
