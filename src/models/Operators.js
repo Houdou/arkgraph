@@ -2,6 +2,8 @@ import operators from './operators.json';
 import operator_i18n from '../i18n/operators.json';
 import { locale as available_locale } from '../i18n/locale';
 
+import { getEquipmentName } from './Equipments';
+
 const LANG = Object.keys(available_locale);
 
 const OPERATORS = operators.map(o => o);
@@ -62,9 +64,21 @@ const getSkillNames = ({ id, locale, showExtendedData = false }) => {
 	return [];
 };
 
+const getEquipmentNames = ({ id, locale, showExtendedData = false }) => {
+	const operator = operators.find(({ unique_id }) => unique_id === id);
+
+	if (operator) {
+		return operator.equipments.map(({
+			equipment_id,
+		}) => getEquipmentName({ id: equipment_id, locale, showExtendedData }));
+	}
+	return [];
+};
+
 export {
 	OPERATORS,
 	getOperatorName,
 	getSkillNames,
+	getEquipmentNames,
 	findOperatorByName,
 };

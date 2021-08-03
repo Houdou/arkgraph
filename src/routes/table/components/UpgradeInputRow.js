@@ -10,7 +10,7 @@ import ArkDropdownCell from '../../../components/dropdown';
 import ArkInputCell from '../../../components/inputCell';
 
 import { ATTRIBUTES } from '../../../models/Attributes';
-import { OPERATORS, getOperatorName, getSkillNames } from '../../../models/Operators';
+import { OPERATORS, getOperatorName, getSkillNames, getEquipmentNames } from '../../../models/Operators';
 import { FULFILLMENT_STATUS } from '../../../models/checkFulFillment';
 
 import useRecord from '../../../models/useRecord';
@@ -80,6 +80,7 @@ const ArkUpgradeInputRow = ({
 		MASTER_SKILL_1: ir('attribute-master_skill_1', 'Master Skill 1'),
 		MASTER_SKILL_2: ir('attribute-master_skill_2', 'Master Skill 2'),
 		MASTER_SKILL_3: ir('attribute-master_skill_3', 'Master Skill 3'),
+		ADVANCED_EQUIPMENT_1: ir('attribute-advanced_equipment_1', 'Module 1'),
 	};
 
 	if (operator_data) {
@@ -98,6 +99,9 @@ const ArkUpgradeInputRow = ({
 				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
 			}
 		}
+		if (!operator_data.meta.equipments_enabled) {
+			unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_1);
+		}
 
 		[
 			ATTRIBUTES.MASTER_SKILL_1,
@@ -114,6 +118,18 @@ const ArkUpgradeInputRow = ({
 					render_map[attr] = skill_names[index];
 				}
 			});
+
+		if (!unavailable_attributes.includes(ATTRIBUTES.ADVANCED_EQUIPMENT_1)) {
+			const equipment_names = getEquipmentNames({
+				id: operator_id,
+				locale: ir.locale,
+				showExtendedData,
+			});
+
+			equipment_names.forEach((name, index) => {
+				render_map[ATTRIBUTES[`ADVANCED_EQUIPMENT_${index+1}`]] = name;
+			});
+		}
 	}
 
 	const OperatorInput = (props) => (
@@ -212,7 +228,9 @@ const ArkUpgradeInputRow = ({
 					VisibilityButton,
 					OperatorInput,
 					AttributeInput,
-					CurrentInput,
+					[
+						ATTRIBUTES.ADVANCED_EQUIPMENT_1,
+					].includes(attribute) ? { content: Number(current) } : CurrentInput,
 					[
 						ATTRIBUTES.LEVEL_ELITE_0,
 						ATTRIBUTES.LEVEL_ELITE_1,

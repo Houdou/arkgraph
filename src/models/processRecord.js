@@ -32,6 +32,10 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
 			}
 		}
+		if (!operator.meta.equipments_enabled) {
+			// TODO: handle multiple equipment
+			unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_1);
+		}
 
 		switch (attribute) {
 			case ATTRIBUTES.LEVEL_ELITE_0:
@@ -80,7 +84,7 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 				if (unavailable_attributes.includes(attribute)) {
 					attribute = ATTRIBUTES.SKILL_LEVEL;
 					current = 1;
-					current = 2;
+					target = 2;
 				} else {
 					current = clampRange(current, 0, 2);
 					target = current + 1;
@@ -91,11 +95,22 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 				if (unavailable_attributes.includes(attribute)) {
 					attribute = ATTRIBUTES.SKILL_LEVEL;
 					current = 1;
-					current = 2;
+					target = 2;
 				} else {
 					current = clampRange(current, 0, 2);
 					target = current + 1;
 					requirements = operator.master_skills[2].upgrades[current].materials;
+				}
+				break;
+			case ATTRIBUTES.ADVANCED_EQUIPMENT_1:
+				if (unavailable_attributes.includes(attribute)) {
+					attribute = ATTRIBUTES.ELITE_RANK;
+					current = 1;
+					target = 2;
+				} else {
+					current = clampRange(current, 0, operator.equipments.length - 1);
+					target = current;
+					requirements = operator.equipments[current].materials;
 				}
 				break;
 			default:

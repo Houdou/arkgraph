@@ -8,6 +8,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "冲锋模式",
       "扫射模式",
@@ -317,7 +318,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -329,6 +331,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "箭矢·散逸",
       "箭矢·追猎",
@@ -638,7 +641,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -650,6 +654,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "支援射击",
       "突击战术",
@@ -959,7 +964,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -971,6 +977,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "强弩",
       "暮眼锐瞳",
@@ -1280,7 +1287,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -1292,6 +1300,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "红桃K",
       "惊吓盒子",
@@ -1601,7 +1610,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -1613,6 +1623,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "分裂射击",
@@ -1922,7 +1933,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -1934,6 +1946,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "思维膨大",
       "末梢阻断",
@@ -2243,7 +2256,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -2255,6 +2269,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "高压冲击",
       "“堇青之夜”",
@@ -2564,7 +2579,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -2576,6 +2592,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·γ型",
       "跃空锤",
@@ -2885,7 +2902,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -2897,6 +2915,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·γ型",
       "高效冲击",
@@ -3206,7 +3225,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -3218,6 +3238,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·γ型",
       "除恶",
@@ -3527,7 +3548,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -3539,6 +3561,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "狂热",
       "炎爆",
@@ -3848,7 +3871,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -3860,6 +3884,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "荒时之锁",
@@ -4169,7 +4194,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -4181,6 +4207,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "二重咏唱",
       "点燃",
@@ -4490,7 +4517,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -4502,6 +4530,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "“很冰的斧”",
       "“很热的刀”",
@@ -4811,7 +4840,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -4823,6 +4853,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "工笔入化",
       "泼墨淋漓",
@@ -5132,7 +5163,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -5144,6 +5176,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "电能之触",
       "聚焦指令",
@@ -5453,7 +5486,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -5465,6 +5499,7 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "沙暴守卫",
       "沙缚镣锁",
@@ -5774,7 +5809,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -5786,6 +5822,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "秘杖·速充模式",
       "秘杖·微粒模式",
@@ -6095,7 +6132,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -6107,6 +6145,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "全力以赴",
       "儿时的舞乐",
@@ -6416,7 +6455,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -6428,6 +6468,25 @@
     ],
     "profession": "SUPPORT",
     "rarity": 5,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_mgllan",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "高效制冷模块",
       "激光开采模块",
@@ -6737,7 +6796,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": true
     }
   },
   {
@@ -6749,6 +6809,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "同归殊途之吟",
       "同葬无光之愿",
@@ -7058,7 +7119,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -7070,6 +7132,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "暗夜魅影",
       "血色乐章",
@@ -7379,7 +7442,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -7391,6 +7455,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "炮管敲击",
       "水炮模式",
@@ -7700,7 +7765,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -7712,6 +7778,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "快速射击",
       "爆发剂·γ型",
@@ -8021,7 +8088,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -8033,6 +8101,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "缺水的大洋裂断",
       "缺水的掌握怒海",
@@ -8342,7 +8411,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -8354,6 +8424,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "唤醒",
       "囚徒困境",
@@ -8663,7 +8734,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -8675,6 +8747,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "信条",
       "自动掩护",
@@ -8984,7 +9057,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -8996,6 +9070,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "治疗强化·γ型",
       "法术护盾",
@@ -9305,7 +9380,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -9317,6 +9393,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "指令：结构加固",
       "指令：战术协同",
@@ -9626,7 +9703,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -9638,6 +9716,7 @@
     ],
     "profession": "TANK",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "战意",
       "荆棘",
@@ -9947,7 +10026,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -9959,6 +10039,7 @@
     ],
     "profession": "TANK",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "急救",
       "药物配置",
@@ -10268,7 +10349,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -10280,6 +10362,7 @@
     ],
     "profession": "TANK",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "光芒涌动",
       "慑敌辉光",
@@ -10589,7 +10672,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -10601,6 +10685,7 @@
     ],
     "profession": "TANK",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "锡灼",
       "铜印",
@@ -10910,7 +10995,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -10922,6 +11008,7 @@
     ],
     "profession": "TANK",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "防御力强化·γ型",
       "岩崩锤",
@@ -11231,7 +11318,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -11243,6 +11331,7 @@
     ],
     "profession": "TANK",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "轻型挂斧",
       "震慑劈砍",
@@ -11552,7 +11641,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -11564,6 +11654,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "左勾扫拳",
       "横扫架势",
@@ -11873,7 +11964,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -11885,6 +11977,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "强力击·γ型",
       "雪境生存法则",
@@ -12194,7 +12287,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -12206,6 +12300,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "护身尖刺",
@@ -12515,7 +12610,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -12527,6 +12623,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "鞘击",
       "赤霄·拔刀",
@@ -12836,7 +12933,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -12848,6 +12946,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "强力击·γ型",
       "链锯延伸模块",
@@ -13157,7 +13256,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -13169,6 +13269,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "烈焰魔剑",
       "熔核巨影",
@@ -13478,7 +13579,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -13490,6 +13592,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "新月",
       "弦月",
@@ -13799,7 +13902,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -13811,6 +13915,25 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_pallas",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "胜利的连击",
       "信念的长鞭",
@@ -14120,7 +14243,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": true
     }
   },
   {
@@ -14132,6 +14256,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 5,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·γ型",
       "跃浪击",
@@ -14441,7 +14566,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -14453,6 +14579,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "治疗强化·γ型",
       "脑啡肽"
@@ -14697,7 +14824,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -14709,6 +14837,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "集束疗法",
       "扩散疗法"
@@ -14953,7 +15082,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -14965,6 +15095,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·γ型",
       "乌萨斯战吼"
@@ -15209,7 +15340,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -15221,6 +15353,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·γ型",
       "剑雨"
@@ -15465,7 +15598,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -15477,6 +15611,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·γ型",
       "火焰剥离"
@@ -15721,7 +15856,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -15733,6 +15869,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·γ型",
       "生灵火花"
@@ -15977,7 +16114,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -15989,6 +16127,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "支援号令·γ型",
       "聆听"
@@ -16233,7 +16372,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -16245,6 +16385,25 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_swire",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "指挥调度",
       "协同作战"
@@ -16489,7 +16648,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": true
     }
   },
   {
@@ -16501,6 +16661,25 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_sophia",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "激励艺术",
       "鞭刃"
@@ -16745,7 +16924,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": true
     }
   },
   {
@@ -16757,6 +16937,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·γ型",
       "极致锋度"
@@ -17001,7 +17182,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -17013,6 +17195,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "歃血",
       "刃鬼"
@@ -17257,7 +17440,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -17269,6 +17453,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "亮剑"
     ],
@@ -17329,7 +17514,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -17341,6 +17527,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "碎甲拳",
       "裂魂"
@@ -17585,7 +17772,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -17597,6 +17785,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "不息",
       "锋芒毕露"
@@ -17841,7 +18030,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -17853,6 +18043,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "日晷",
       "狼魂"
@@ -18097,7 +18288,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -18109,6 +18301,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "多导向散射弹丸",
       "浮游刃启动"
@@ -18353,7 +18546,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -18365,6 +18559,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "飞针剑羽",
       "异刃斩"
@@ -18609,7 +18804,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -18621,6 +18817,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "燃烧榴弹",
       "倾泻弹药"
@@ -18865,7 +19062,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -18877,6 +19075,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "肉斩骨断"
@@ -19121,7 +19320,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -19133,6 +19333,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "通电",
       "高压电流"
@@ -19377,7 +19578,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -19389,6 +19591,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "星座守护",
       "星辉剑"
@@ -19633,7 +19836,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -19645,6 +19849,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "生命回复·γ型",
       "破浪回神"
@@ -19889,7 +20094,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -19901,6 +20107,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "信影流·雷刀之势",
       "信影流·十文字胜"
@@ -20145,7 +20352,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -20157,6 +20365,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "高速切割",
       "收割"
@@ -20401,7 +20610,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -20413,6 +20623,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "当机立断",
       "剑走偏锋"
@@ -20657,7 +20868,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -20669,6 +20881,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "二重射击·自动",
       "毒液散射"
@@ -20913,7 +21126,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -20925,6 +21139,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "天马视域"
@@ -21169,7 +21384,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -21181,6 +21397,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "飞羽",
       "回流"
@@ -21425,7 +21642,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -21437,6 +21655,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "旋臂"
     ],
@@ -21497,7 +21716,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -21509,6 +21729,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "精准射击",
       "灵活伪装"
@@ -21753,7 +21974,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -21765,6 +21987,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "霰射弹头",
       "高爆弹头"
@@ -22009,7 +22232,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -22021,6 +22245,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "延时震荡零件"
@@ -22265,7 +22490,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -22277,6 +22503,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "铳口收束",
       "最终旅程"
@@ -22521,7 +22748,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -22533,6 +22761,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·γ型",
       "影钉"
@@ -22777,7 +23006,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -22789,6 +23019,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "战术咏唱·γ型",
       "精神爆发",
@@ -23090,7 +23321,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 3
+      "max_master_skills": 3,
+      "equipments_enabled": false
     }
   },
   {
@@ -23102,6 +23334,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "执法模式",
       "终结连射"
@@ -23346,7 +23579,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -23358,6 +23592,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "部族技艺",
       "嘉维尔保护方案"
@@ -23602,7 +23837,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -23614,6 +23850,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "天坠之火"
@@ -23858,7 +24095,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -23870,6 +24108,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "“为我所为”"
     ],
@@ -23930,7 +24169,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -23942,6 +24182,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "初雷"
@@ -24186,7 +24427,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -24198,6 +24440,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "沙暴扩散",
       "守卫尖碑"
@@ -24442,7 +24685,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -24454,6 +24698,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "解构与爆破"
@@ -24698,7 +24943,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -24710,6 +24956,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "风语",
       "聚能涡旋"
@@ -24954,7 +25201,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -24966,6 +25214,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "童话守卫者",
       "梦乡摇篮"
@@ -25210,7 +25459,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -25222,6 +25472,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "焰淬匕首",
       "狱火之环"
@@ -25466,7 +25717,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -25478,6 +25730,25 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_otter",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "迷惑装置",
       "爆破回收"
@@ -25722,7 +25993,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": true
     }
   },
   {
@@ -25734,6 +26006,25 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_folivo",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "保护色隐蔽",
       "全景过载摄像"
@@ -25978,7 +26269,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": true
     }
   },
   {
@@ -25990,6 +26282,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "治疗强化·γ型",
       "医疗无人机"
@@ -26234,7 +26527,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -26246,6 +26540,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "紧急包扎",
       "不稳定血浆"
@@ -26490,7 +26785,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -26502,6 +26798,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "最大剂量输注",
       "复合型药物弹片"
@@ -26746,7 +27043,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -26758,6 +27056,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "宛如天启"
     ],
@@ -26818,7 +27117,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -26830,6 +27130,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "集中式水疗",
       "水灵庇护"
@@ -27074,7 +27375,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -27086,6 +27388,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "定向诊断",
       "痛觉抑制"
@@ -27330,7 +27633,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -27342,6 +27646,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "水流环",
       "强心剂"
@@ -27586,7 +27891,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -27598,6 +27904,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "急救",
       "急救模式"
@@ -27842,7 +28149,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -27854,6 +28162,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "反制治疗",
       "反制医疗模式"
@@ -28098,7 +28407,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -28110,6 +28420,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "处决模式",
       "狼群"
@@ -28354,7 +28665,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -28366,6 +28678,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "寸劲",
       "七武掠阵踢"
@@ -28610,7 +28923,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -28622,6 +28936,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "怪异魔方",
       "诡异剪刀"
@@ -28866,7 +29181,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -28878,6 +29194,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "知难而退",
       "阴晴圆缺"
@@ -29122,7 +29439,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -29134,6 +29452,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "充能防御",
       "反击电弧"
@@ -29378,7 +29697,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -29390,6 +29710,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "自动防御",
       "磁爆锤"
@@ -29634,7 +29955,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -29646,6 +29968,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "防御力强化·γ型",
       "深化阵线"
@@ -29890,7 +30213,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -29902,6 +30226,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "坚守模式",
       "武力模式"
@@ -30146,7 +30471,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -30158,6 +30484,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "固守模式",
       "火电模式"
@@ -30402,7 +30729,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -30414,6 +30742,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "闪光护盾",
       "突破防线"
@@ -30658,7 +30987,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -30670,6 +31000,7 @@
     ],
     "profession": "TANK",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "应急迷彩",
       "群体迷彩"
@@ -30914,7 +31245,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -30926,6 +31258,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "狼眼",
       "杀戮嗅觉"
@@ -31170,7 +31503,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -31182,6 +31516,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "环境伪装",
       "战术电台"
@@ -31426,7 +31761,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -31438,6 +31774,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·γ型",
       "阻滞射击战术"
@@ -31682,7 +32019,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -31694,6 +32032,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "信号矢",
       "便携破城矢"
@@ -31938,7 +32277,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -31950,6 +32290,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "锁链勾爪",
       "束缚链"
@@ -32194,7 +32535,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -32206,6 +32548,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "倒刺钩爪",
       "伸缩式电捕网"
@@ -32450,7 +32793,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -32462,6 +32806,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "传音回响",
       "自然震慑"
@@ -32706,7 +33051,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -32718,6 +33064,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "病入膏肓",
       "诅咒娃娃"
@@ -32962,7 +33309,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -32974,6 +33322,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "专心致志",
       "文学风暴"
@@ -33218,7 +33567,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -33230,6 +33580,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "双线装填",
       "反制电磁脉冲"
@@ -33474,7 +33825,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -33486,6 +33838,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "睡眠之歌",
       "战斗之歌"
@@ -33730,7 +34083,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -33742,6 +34096,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "迹无",
       "森廻"
@@ -33986,7 +34341,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -33998,6 +34354,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "蝎毒",
       "蓄力毒尾击"
@@ -34242,7 +34599,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -34254,6 +34612,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "锚击",
       "锚点捕捉"
@@ -34498,7 +34857,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -34510,6 +34870,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "铁意六合",
       "崩拳式"
@@ -34754,7 +35115,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -34766,6 +35128,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "束缚“夹子”",
       "弹射“夹子”"
@@ -35010,7 +35373,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -35022,6 +35386,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "陷阱部署",
       "击倒猎物"
@@ -35266,7 +35631,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -35278,6 +35644,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "奋力修剪",
       "快速修剪"
@@ -35522,7 +35889,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -35534,6 +35902,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "强力击·β型",
       "微差爆破"
@@ -35778,7 +36147,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -35790,6 +36160,7 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "灵魂汲取",
       "夜魇魔影"
@@ -36034,7 +36405,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -36046,6 +36418,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "防御力强化·γ型",
       "永不后退！"
@@ -36290,7 +36663,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -36302,6 +36676,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 4,
+    "equipments": [],
     "skill_names": [
       "影霄·奔夜",
       "影霄·绝影"
@@ -36546,7 +36921,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -36558,6 +36934,7 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "赤色之瞳"
@@ -36798,7 +37175,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -36810,6 +37188,7 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "战术咏唱·β型",
       "命运"
@@ -37050,7 +37429,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -37062,6 +37442,7 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "战术咏唱·β型",
       "静电释放"
@@ -37302,7 +37683,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -37314,6 +37696,7 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "同步索敌攻击"
@@ -37554,7 +37937,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -37566,6 +37950,7 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "灯塔守卫者",
       "光影迷宫"
@@ -37806,7 +38191,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -37818,6 +38204,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "强力击·β型",
       "掩护烟幕"
@@ -38058,7 +38445,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -38070,6 +38458,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "碎甲击",
       "碎甲击·扩散"
@@ -38310,7 +38699,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -38322,6 +38712,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "双弦开弓"
@@ -38562,7 +38953,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -38574,6 +38966,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "麻痹弹",
       "束缚电击"
@@ -38814,7 +39207,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -38826,6 +39220,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "敌飙",
       "凝武"
@@ -39066,7 +39461,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -39078,6 +39474,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "RMA长钉",
       "电能过载"
@@ -39318,7 +39715,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -39330,6 +39728,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "阻挡弹",
       "雷达定位"
@@ -39570,7 +39969,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -39582,6 +39982,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "花式点射",
       "扳机时刻"
@@ -39822,7 +40223,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -39834,6 +40236,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·β型",
       "冲锋号令·防御"
@@ -40074,7 +40477,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -40086,6 +40490,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·β型",
       "冲锋号令·攻击"
@@ -40326,7 +40731,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -40338,6 +40744,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "槌音"
@@ -40578,7 +40985,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -40590,6 +40998,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "支援号令·β型",
       "治愈之翼"
@@ -40830,7 +41239,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -40842,6 +41252,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "定点指令",
       "“大家一起上”"
@@ -41082,7 +41493,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -41094,6 +41506,25 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_doberm",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "强力击·β型",
       "鞭策"
@@ -41334,7 +41765,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": true
     }
   },
   {
@@ -41346,6 +41778,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "生命回复·β型",
       "恶鬼之力"
@@ -41586,7 +42019,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -41598,6 +42032,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "断罪",
       "创世纪"
@@ -41838,7 +42273,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -41850,6 +42286,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "寒霜枪刃",
       "凝冰枪刃"
@@ -42090,7 +42527,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -42102,6 +42540,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "舍身突击"
@@ -42342,7 +42781,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -42354,6 +42794,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "挠伤",
       "炸毛"
@@ -42594,7 +43035,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -42606,6 +43048,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "红移",
       "绯红刺刀"
@@ -42846,7 +43289,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -42858,6 +43302,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "分神",
       "落地斩·破门"
@@ -43098,7 +43543,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -43110,6 +43556,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "小玩笑",
       "致命恶作剧"
@@ -43350,7 +43797,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -43362,6 +43810,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "影袭",
       "鼠群"
@@ -43602,7 +44051,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -43614,6 +44064,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "断螯",
       "刺身拼盘"
@@ -43854,7 +44305,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -43866,6 +44318,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "勾爪发射",
       "复式勾爪"
@@ -44106,7 +44559,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -44118,6 +44572,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "二重治疗",
       "医疗力场"
@@ -44358,7 +44813,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -44370,6 +44826,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "活力再生",
       "活力再生·广域"
@@ -44610,7 +45067,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -44622,6 +45080,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "治疗强化·β型",
       "深度治疗"
@@ -44862,7 +45321,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -44874,6 +45334,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "治疗强化·β型",
       "精调"
@@ -45114,7 +45575,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -45126,6 +45588,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "治愈水波",
       "涌泉"
@@ -45366,7 +45829,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -45378,6 +45842,7 @@
     ],
     "profession": "TANK",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "体能强化",
       "抗寒体质"
@@ -45618,7 +46083,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -45630,6 +46096,7 @@
     ],
     "profession": "TANK",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "防御力强化·β型",
       "壳状防御"
@@ -45870,7 +46337,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -45882,6 +46350,7 @@
     ],
     "profession": "TANK",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "防御力强化·β型",
       "“挨打”"
@@ -46122,7 +46591,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -46134,6 +46604,7 @@
     ],
     "profession": "TANK",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "备用军粮",
       "食粮烹制"
@@ -46374,7 +46845,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -46386,6 +46858,7 @@
     ],
     "profession": "TANK",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "起盾回击"
@@ -46626,7 +47099,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -46638,6 +47112,25 @@
     ],
     "profession": "SUPPORT",
     "rarity": 3,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_deepcl",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "光影之触",
       "视觉陷阱"
@@ -46878,7 +47371,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": true
     }
   },
   {
@@ -46890,6 +47384,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·β型",
       "流沙化"
@@ -47130,7 +47625,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -47142,6 +47638,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "花香疗法",
       "孢子扩散"
@@ -47382,7 +47879,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -47394,6 +47892,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "花式回旋",
       "十字悬挂"
@@ -47634,7 +48133,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -47646,6 +48146,7 @@
     ],
     "profession": "SPECIAL",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "水蒸气泵",
       "高压水炮"
@@ -47886,7 +48387,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -47898,6 +48400,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "高机动",
       "急速拳"
@@ -48138,7 +48641,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -48150,6 +48654,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 3,
+    "equipments": [],
     "skill_names": [
       "给你一拳！",
       "全神贯注！"
@@ -48390,7 +48895,8 @@
     ],
     "meta": {
       "max_elite_rank": 2,
-      "max_master_skills": 2
+      "max_master_skills": 2,
+      "equipments_enabled": false
     }
   },
   {
@@ -48402,6 +48908,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·α型"
     ],
@@ -48500,7 +49007,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -48512,6 +49020,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "冲锋号令·援军"
     ],
@@ -48610,7 +49119,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -48622,6 +49132,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [],
     "skills": [],
     "master_skills": [],
@@ -48633,7 +49144,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 0
+      "max_master_skills": 0,
+      "equipments_enabled": false
     }
   },
   {
@@ -48645,6 +49157,7 @@
     ],
     "profession": "PIONEER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·α型"
     ],
@@ -48743,7 +49256,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -48755,6 +49269,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·α型"
     ],
@@ -48853,7 +49368,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -48865,6 +49381,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·α型"
     ],
@@ -48963,7 +49480,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -48975,6 +49493,7 @@
     ],
     "profession": "TANK",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "生命回复·α型"
     ],
@@ -49073,7 +49592,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49085,6 +49605,7 @@
     ],
     "profession": "TANK",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "防御力强化·α型"
     ],
@@ -49183,7 +49704,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49195,6 +49717,7 @@
     ],
     "profession": "TANK",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "次级治疗模式"
     ],
@@ -49293,7 +49816,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49305,6 +49829,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "二连射·自动"
     ],
@@ -49403,7 +49928,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49415,6 +49941,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "攻击力强化·α型"
     ],
@@ -49513,7 +50040,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49525,6 +50053,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [],
     "skills": [],
     "master_skills": [],
@@ -49536,7 +50065,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 0
+      "max_master_skills": 0,
+      "equipments_enabled": false
     }
   },
   {
@@ -49548,6 +50078,7 @@
     ],
     "profession": "CASTER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "战术咏唱·α型"
     ],
@@ -49646,7 +50177,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49658,6 +50190,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "治疗强化·α型"
     ],
@@ -49756,7 +50289,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49768,6 +50302,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "治疗范围强化"
     ],
@@ -49866,7 +50401,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -49878,6 +50414,7 @@
     ],
     "profession": "MEDIC",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [],
     "skills": [],
     "master_skills": [],
@@ -49889,7 +50426,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 0
+      "max_master_skills": 0,
+      "equipments_enabled": false
     }
   },
   {
@@ -49901,6 +50439,7 @@
     ],
     "profession": "CASTER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "强力击·α型"
     ],
@@ -49999,7 +50538,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -50011,6 +50551,7 @@
     ],
     "profession": "CASTER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [],
     "skills": [],
     "master_skills": [],
@@ -50022,7 +50563,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 0
+      "max_master_skills": 0,
+      "equipments_enabled": false
     }
   },
   {
@@ -50034,6 +50576,7 @@
     ],
     "profession": "SUPPORT",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "迅捷打击·α型"
     ],
@@ -50132,7 +50675,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -50144,6 +50688,7 @@
     ],
     "profession": "SNIPER",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "爆破范围提升·α型"
     ],
@@ -50242,7 +50787,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   },
   {
@@ -50254,6 +50800,7 @@
     ],
     "profession": "WARRIOR",
     "rarity": 2,
+    "equipments": [],
     "skill_names": [
       "武器附魔·α型"
     ],
@@ -50352,7 +50899,8 @@
     ],
     "meta": {
       "max_elite_rank": 1,
-      "max_master_skills": 1
+      "max_master_skills": 1,
+      "equipments_enabled": false
     }
   }
 ]

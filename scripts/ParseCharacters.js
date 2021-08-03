@@ -1,6 +1,7 @@
 const pinyin = require('pinyin');
 const characters = require('./excels/character_table.json');
 const patch_characters = require('./excels/char_patch_table.json');
+const { equipDict: unique_equipments } = require('./excels/uniequip_table.json');
 const skills = require('./excels/skill_table.json');
 const MapItem = require('./mapping.json');
 const game_data = require('./excels/gamedata_const.json');
@@ -41,6 +42,7 @@ const parseCharacter = (character, unique_id) => {
 		],
 		profession: character.profession,
 		rarity: character.rarity,
+		equipments: [],
 	};
 
 	const master_skills = character.skills.map(skill_data => {
@@ -81,9 +83,26 @@ const parseCharacter = (character, unique_id) => {
 			quantity: requirement.count,
 		})),
 	})).splice(1);
+	operator.equipments = Object.entries(unique_equipments)
+		.filter(([equipment_id, equipData]) => equipData.charId === unique_id && equipData.itemCost)
+		.map(([equipment_id, equipData]) => {
+			const {
+				itemCost,
+			} = equipData;
+
+			return {
+				equipment_id,
+				materials: itemCost.map(requirement => ({
+					resource: MapItem[requirement.id],
+					quantity: requirement.count,
+				})),
+			};
+		});
+
 	operator.meta = {
 		max_elite_rank: operator.elites.length,
 		max_master_skills: operator.master_skills.length,
+		equipments_enabled: operator.equipments.length > 0,
 	};
 
 	return operator;
