@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2021-08-03",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1013_chen2",
+      "char_437_mizuki",
+      "char_421_crow",
+      "char_486_takila"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -122,19 +135,6 @@
       "char_400_weedy",
       "char_401_elysm",
       "char_376_therex"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2021-06-01",
-    "type": "new_operators",
-    "new_operators": [
-      "char_426_billro",
-      "char_478_kirara",
-      "char_369_bena",
-      "char_469_indigo"
     ]
   }
 ]
