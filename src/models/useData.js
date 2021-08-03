@@ -21,6 +21,7 @@ const ATTRIBUTE_MAPPING = {
 };
 
 const default_state = {
+	version: STORAGE_VERSION,
 	records: [],
 	stock: {},
 	focus_materials: [],

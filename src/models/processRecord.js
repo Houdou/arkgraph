@@ -105,8 +105,8 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 			case ATTRIBUTES.ADVANCED_EQUIPMENT_1:
 				if (unavailable_attributes.includes(attribute)) {
 					attribute = ATTRIBUTES.ELITE_RANK;
-					current = 1;
-					target = 2;
+					current = 0;
+					target = 1;
 				} else {
 					current = clampRange(current, 0, operator.equipments.length - 1);
 					target = current;
