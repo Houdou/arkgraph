@@ -12287,6 +12287,40 @@
     "code": null,
     "code_name": "Akafuyu"
   },
+  "char_421_crow": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "羽毛笔",
+      "skills": [
+        "高速切割",
+        "收割"
+      ],
+      "alias": [
+        "yu mao bi",
+        "yumaobi"
+      ],
+      "appellation": "La Pluma"
+    },
+    "code": null,
+    "code_name": "La Pluma"
+  },
+  "char_486_takila": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "龙舌兰",
+      "skills": [
+        "当机立断",
+        "剑走偏锋"
+      ],
+      "alias": [
+        "long she lan",
+        "longshelan"
+      ],
+      "appellation": "Tequila"
+    },
+    "code": null,
+    "code_name": "Tequila"
+  },
   "char_457_blitz": {
     "zh_CN": {
       "enabled": true,
@@ -12407,6 +12441,24 @@
     "code": null,
     "code_name": "Ash"
   },
+  "char_1013_chen2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "假日威龙陈",
+      "skills": [
+        "高压冲击",
+        "“堇青之夜”",
+        "“假日风暴”"
+      ],
+      "alias": [
+        "jia ri wei long chen",
+        "jiariweilongchen"
+      ],
+      "appellation": "Ch'en the Holungday"
+    },
+    "code": null,
+    "code_name": "Ch'en the Holungday"
+  },
   "char_472_pasngr": {
     "zh_CN": {
       "enabled": true,
@@ -12478,6 +12530,24 @@
     },
     "code": null,
     "code_name": "Gladiia"
+  },
+  "char_437_mizuki": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "水月",
+      "skills": [
+        "唤醒",
+        "囚徒困境",
+        "镜花水月"
+      ],
+      "alias": [
+        "shui yue",
+        "shuiyue"
+      ],
+      "appellation": "Mizuki"
+    },
+    "code": null,
+    "code_name": "Mizuki"
   },
   "char_003_kalts": {
     "zh_CN": {
@@ -12762,5 +12832,72 @@
     },
     "code": null,
     "code_name": "Seaborn's Filial Generation"
+  },
+  "trap_040_canoe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "特制水上平台",
+      "skills": [
+        "放置平台",
+        "放置平台"
+      ],
+      "alias": [
+        "te zhi shui shang ping tai",
+        "tezhishuishangpingtai"
+      ],
+      "appellation": "TinyBoat"
+    },
+    "code": null,
+    "code_name": "TinyBoat"
+  },
+  "trap_041_fcanon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "风筝",
+      "skills": [
+        "开炮！"
+      ],
+      "alias": [
+        "feng zheng",
+        "fengzheng"
+      ],
+      "appellation": "Kite"
+    },
+    "code": null,
+    "code_name": "Kite"
+  },
+  "trap_042_tidectrl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "涨潮控制",
+      "skills": [
+        "小幅涨潮",
+        "大幅涨潮",
+        "深水"
+      ],
+      "alias": [
+        "zhang chao kong zhi",
+        "zhangchaokongzhi"
+      ],
+      "appellation": "Tide Controller"
+    },
+    "code": null,
+    "code_name": "Tide Controller"
+  },
+  "trap_046_oxygen": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "防水蚀镀膜装置",
+      "skills": [
+        "防水蚀镀膜装置"
+      ],
+      "alias": [
+        "fang shui shi du mo zhuang zhi",
+        "fangshuishidumozhuangzhi"
+      ],
+      "appellation": "Erosionproof Coating Device"
+    },
+    "code": null,
+    "code_name": "Erosionproof Coating Device"
   }
 }
