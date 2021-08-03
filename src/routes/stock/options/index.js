@@ -1,4 +1,4 @@
-import { MONEY, PURCHASE_CREDIT, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../../models/Resources';
+import { MONEY, PURCHASE_CREDIT, MOD_TOKEN, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../../models/Resources';
 
 import item_i18n from '../../../i18n/items.json';
 import { locale as available_locale } from '../../../i18n/locale';
@@ -8,6 +8,7 @@ const LANG = Object.keys(available_locale);
 const default_material_list = [
 	MONEY,
 	PURCHASE_CREDIT,
+	MOD_TOKEN,
 	...EXP_TAPES,
 	...MATERIALS,
 	...SKILL_BOOKS,

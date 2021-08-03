@@ -2844,5 +2844,36 @@
       "alias": [],
       "sortId": 400001
     }
+  },
+  "W-5-1": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "模组数据块",
+      "alias": [
+        "mo zu shu ju kuai",
+        "mozushujukuai"
+      ],
+      "sortId": 90001
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
   }
 }

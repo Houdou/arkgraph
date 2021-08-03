@@ -410,7 +410,6 @@ const CHIPS = [
 	},
 ];
 
-
 class Resource {
 	constructor({ id, name, tier, type, formula, source, unique_id }) {
 		this.id = id;
@@ -467,10 +466,21 @@ const EXP = {
 	formula: {},
 };
 
+const MOD_TOKEN = {
+	id: 'W-5-1',
+	unique_id: 'mod_unlock_token',
+	name: '模组数据块',
+	tier: 'T5',
+	type: 'rare',
+	source: {},
+	formula: {},
+};
+
 [
 	MONEY,
 	PURCHASE_CREDIT,
 	EXP,
+	MOD_TOKEN,
 	...MATERIALS,
 	...SKILL_BOOKS,
 	...EXP_TAPES,
@@ -483,6 +493,7 @@ export {
 	MONEY,
 	PURCHASE_CREDIT,
 	EXP,
+	MOD_TOKEN,
 	RESOURCES,
 	MATERIALS,
 	SKILL_BOOKS,
