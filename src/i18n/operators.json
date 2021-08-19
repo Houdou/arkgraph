@@ -3225,6 +3225,15 @@
       ],
       "appellation": "Bubble"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "泡泡",
+      "skills": [
+        "防禦力強化·β型",
+        "“挨打”"
+      ],
+      "alias": []
+    },
     "code": "bubble",
     "code_name": "Bubble"
   },
@@ -4096,6 +4105,15 @@
       ],
       "appellation": "Whislash"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "鞭刃",
+      "skills": [
+        "激勵藝術",
+        "鞭刃"
+      ],
+      "alias": []
+    },
     "code": "whislash",
     "code_name": "Whislash"
   },
@@ -4533,6 +4551,52 @@
     },
     "code": "bibeak",
     "code_name": "Bibeak"
+  },
+  "char_459_tachak": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tachanka",
+      "skills": [
+        "Incendiary Grenade",
+        "Spray and Pray"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Tachanka",
+      "skills": [
+        "焼夷弾",
+        "制圧射撃"
+      ],
+      "alias": [
+        "Tachanka"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Tachanka",
+      "skills": [
+        "중형 폭발 수류탄",
+        "난사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战车",
+      "skills": [
+        "燃烧榴弹",
+        "倾泻弹药"
+      ],
+      "alias": [
+        "zhan che",
+        "zhanche"
+      ],
+      "appellation": "Tachanka"
+    },
+    "code": "tachanka",
+    "code_name": "Tachanka"
   },
   "char_143_ghost": {
     "en_US": {
@@ -5231,6 +5295,15 @@
         "aosita"
       ],
       "appellation": "Aosta"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "奥斯塔",
+      "skills": [
+        "迅捷打擊·γ型",
+        "影釘"
+      ],
+      "alias": []
     },
     "code": "aosta",
     "code_name": "Aosta"
@@ -6881,6 +6954,52 @@
     "code": "asbestos",
     "code_name": "Asbestos"
   },
+  "char_457_blitz": {
+    "en_US": {
+      "enabled": true,
+      "name": "Blitz",
+      "skills": [
+        "Flash Shield",
+        "Shield Bash"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Blitz",
+      "skills": [
+        "フラッシュシールド",
+        "防衛線突破"
+      ],
+      "alias": [
+        "Blitz"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Blitz",
+      "skills": [
+        "섬광 방패",
+        "방어선 돌파"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "闪击",
+      "skills": [
+        "闪光护盾",
+        "突破防线"
+      ],
+      "alias": [
+        "shan ji",
+        "shanji"
+      ],
+      "appellation": "Blitz"
+    },
+    "code": "blitz",
+    "code_name": "Blitz"
+  },
   "char_145_prove": {
     "en_US": {
       "enabled": true,
@@ -7642,6 +7761,52 @@
     "code": "robin",
     "code_name": "Robin"
   },
+  "char_458_rfrost": {
+    "en_US": {
+      "enabled": true,
+      "name": "Frost",
+      "skills": [
+        "Trap Deployment",
+        "Incapacitated Prey"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Frost",
+      "skills": [
+        "トラップセット",
+        "リーサルパシュート"
+      ],
+      "alias": [
+        "Frost"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Frost",
+      "skills": [
+        "함정 설치",
+        "사냥감 무력화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "霜华",
+      "skills": [
+        "陷阱部署",
+        "击倒猎物"
+      ],
+      "alias": [
+        "shuang hua",
+        "shuanghua"
+      ],
+      "appellation": "Frost"
+    },
+    "code": "frost",
+    "code_name": "Frost"
+  },
   "char_103_angel": {
     "en_US": {
       "enabled": true,
@@ -7751,6 +7916,56 @@
     },
     "code": "archetto",
     "code_name": "Archetto"
+  },
+  "char_456_ash": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ash",
+      "skills": [
+        "Supporting Fire",
+        "Assault Tactics",
+        "Breaching Rounds"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Ash",
+      "skills": [
+        "援護射撃",
+        "突撃戦法",
+        "ブリーチング弾"
+      ],
+      "alias": [
+        "Ash"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Ash",
+      "skills": [
+        "지원 사격",
+        "강습 전술",
+        "파괴탄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "灰烬",
+      "skills": [
+        "支援射击",
+        "突击战术",
+        "攻坚榴弹"
+      ],
+      "alias": [
+        "hui jin",
+        "huijin"
+      ],
+      "appellation": "Ash"
+    },
+    "code": "ash",
+    "code_name": "Ash"
   },
   "char_340_shwaz": {
     "en_US": {
@@ -9088,6 +9303,16 @@
         "xiaguang"
       ],
       "appellation": "Blemishine"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "瑕光",
+      "skills": [
+        "光芒湧動",
+        "懾敵輝光",
+        "先賢化身"
+      ],
+      "alias": []
     },
     "code": "blemishine",
     "code_name": "Blemishine"
@@ -10614,6 +10839,52 @@
     "code": "'freeling'",
     "code_name": "Little Instinct"
   },
+  "token_10016_rfrost_mine": {
+    "en_US": {
+      "enabled": true,
+      "name": "Welcome Mat",
+      "skills": [
+        "Trap Deployment",
+        "Incapacitated Prey"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウェルカムマット",
+      "skills": [
+        "トラップセット",
+        "リーサルパシュート"
+      ],
+      "alias": [
+        "うぇるかむまっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전술 함정",
+      "skills": [
+        "함정 설치",
+        "사냥감 무력화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "迎宾踏垫",
+      "skills": [
+        "陷阱部署",
+        "击倒猎物"
+      ],
+      "alias": [
+        "ying bin ta dian",
+        "yingbintadian"
+      ],
+      "appellation": "Welcome Mat"
+    },
+    "code": "welcome mat",
+    "code_name": "Welcome Mat"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -11383,6 +11654,14 @@
       ],
       "appellation": "Mr.Rumble"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "轟隆隆先生",
+      "skills": [
+        "壞脾氣"
+      ],
+      "alias": []
+    },
     "code": "mr. boom",
     "code_name": "Mr.Rumble"
   },
@@ -11424,6 +11703,14 @@
         "meishikexianquan"
       ],
       "appellation": "Mieszko coil"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "梅什科線圈",
+      "skills": [
+        "通電！"
+      ],
+      "alias": []
     },
     "code": "mieszko coil",
     "code_name": "Mieszko coil"
@@ -11763,6 +12050,354 @@
     },
     "code": "rubble",
     "code_name": "Rubble"
+  },
+  "trap_028_cannon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pulse Defense Module",
+      "skills": [
+        "Pulse Beam",
+        "Pulse Beam"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "衝撃防御モジュール",
+      "skills": [
+        "衝撃集束波",
+        "衝撃集束波"
+      ],
+      "alias": [
+        "衝撃防御もじゅーる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "펄스 방어 모듈",
+      "skills": [
+        "펄스 빔",
+        "펄스 빔"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "脉冲防御模组",
+      "skills": [
+        "脉冲束流",
+        "脉冲束流"
+      ],
+      "alias": [
+        "mai chong fang yu mo zu",
+        "maichongfangyumozu"
+      ],
+      "appellation": "Pulse Former"
+    },
+    "code": "pulse defense module",
+    "code_name": "Pulse Former"
+  },
+  "trap_029_poison": {
+    "en_US": {
+      "enabled": true,
+      "name": "Teargas Control Valve",
+      "skills": [
+        "Close Valve",
+        "Open Valve"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "催涙ガス制御弁",
+      "skills": [
+        "放出停止",
+        "ガス放出"
+      ],
+      "alias": [
+        "催涙がす制御弁"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "최루 가스 제어 밸브",
+      "skills": [
+        "밸브 끄기",
+        "밸브 열기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "催泪瓦斯控制阀",
+      "skills": [
+        "关闭阀门",
+        "开启阀门"
+      ],
+      "alias": [
+        "cui lei wa si kong zhi fa",
+        "cuileiwasikongzhifa"
+      ],
+      "appellation": "lachrymator Control Valve"
+    },
+    "code": "teargas control valve",
+    "code_name": "lachrymator Control Valve"
+  },
+  "trap_030_factory": {
+    "en_US": {
+      "enabled": true,
+      "name": "Drone Factory",
+      "skills": [
+        "Production Line",
+        "Production Line"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ドローン工場",
+      "skills": [
+        "生産ライン",
+        "生産ライン"
+      ],
+      "alias": [
+        "どろーん工場"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "드론 공장",
+      "skills": [
+        "생산 라인",
+        "생산 라인"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "无人机工厂",
+      "skills": [
+        "生产线",
+        "生产线"
+      ],
+      "alias": [
+        "wu ren ji gong chang",
+        "wurenjigongchang"
+      ],
+      "appellation": "Drone Factory"
+    },
+    "code": "drone factory",
+    "code_name": "Drone Factory"
+  },
+  "trap_031_sleep": {
+    "en_US": {
+      "enabled": true,
+      "name": "Snowsant's Safe Escape Crane",
+      "skills": [
+        "Rescue Rope"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スノーズントの安全クレーン",
+      "skills": [
+        "救援ロープ"
+      ],
+      "alias": [
+        "すのーずんとの安全くれーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스노우상트의 안전한 크레인",
+      "skills": [
+        "구원의 밧줄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪雉的安全起重机",
+      "skills": [
+        "救援绳索"
+      ],
+      "alias": [
+        "xue zhi de an quan qi zhong ji",
+        "xuezhideanquanqizhongji"
+      ],
+      "appellation": "Safety Harness"
+    },
+    "code": "snowsant's safe escape crane",
+    "code_name": "Safety Harness"
+  },
+  "trap_032_mound": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dirt Mound",
+      "skills": [
+        "Sandstorm Protection"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "土石構造",
+      "skills": [
+        "防風壁"
+      ],
+      "alias": [
+        "土石構造"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "토석 구조물",
+      "skills": [
+        "모래바람 엄폐"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "土石结构",
+      "skills": [
+        "风沙掩体"
+      ],
+      "alias": [
+        "tu shi jie gou",
+        "tushijiegou"
+      ],
+      "appellation": "Rockfill Construct"
+    },
+    "code": "dirt mound",
+    "code_name": "Rockfill Construct"
+  },
+  "trap_033_sbomb": {
+    "en_US": {
+      "enabled": true,
+      "name": "High-Energy Originium Bomb",
+      "skills": [
+        "Detonate"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "高威力源石爆弾",
+      "skills": [
+        "起爆"
+      ],
+      "alias": [
+        "高威力源石爆弾"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고에너지 오리지늄 폭탄",
+      "skills": [
+        "기폭"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "高能源石炸弹",
+      "skills": [
+        "起爆"
+      ],
+      "alias": [
+        "gao neng yuan shi zha dan",
+        "gaonengyuanshizhadan"
+      ],
+      "appellation": "Originium Demo-charge"
+    },
+    "code": "high-energy originium bomb",
+    "code_name": "Originium Demo-charge"
+  },
+  "trap_034_machst": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reinforcement Device",
+      "skills": [
+        "Strengthen and Reinforce"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "補強装置",
+      "skills": [
+        "補強工事"
+      ],
+      "alias": [
+        "補強装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "강화재",
+      "skills": [
+        "보강 강화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "加固装置",
+      "skills": [
+        "强化加固"
+      ],
+      "alias": [
+        "jia gu zhuang zhi",
+        "jiaguzhuangzhi"
+      ],
+      "appellation": "Reinforcing Materials"
+    },
+    "code": "reinforcement device",
+    "code_name": "Reinforcing Materials"
+  },
+  "trap_036_storm": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sandstorm",
+      "skills": [
+        "Sandstorm"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "砂嵐",
+      "skills": [
+        "砂嵐"
+      ],
+      "alias": [
+        "砂嵐"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모래 폭풍",
+      "skills": [
+        "모래 폭풍"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙尘暴",
+      "skills": [
+        "沙尘暴"
+      ],
+      "alias": [
+        "sha chen bao",
+        "shachenbao"
+      ],
+      "appellation": "Sand Storm"
+    },
+    "code": "sandstorm",
+    "code_name": "Sand Storm"
   },
   "char_230_savage": {
     "en_US": {
@@ -12253,23 +12888,6 @@
     "code": null,
     "code_name": "Indigo"
   },
-  "char_459_tachak": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战车",
-      "skills": [
-        "燃烧榴弹",
-        "倾泻弹药"
-      ],
-      "alias": [
-        "zhan che",
-        "zhanche"
-      ],
-      "appellation": "Tachanka"
-    },
-    "code": null,
-    "code_name": "Tachanka"
-  },
   "char_475_akafyu": {
     "zh_CN": {
       "enabled": true,
@@ -12320,23 +12938,6 @@
     },
     "code": null,
     "code_name": "Tequila"
-  },
-  "char_457_blitz": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "闪击",
-      "skills": [
-        "闪光护盾",
-        "突破防线"
-      ],
-      "alias": [
-        "shan ji",
-        "shanji"
-      ],
-      "appellation": "Blitz"
-    },
-    "code": null,
-    "code_name": "Blitz"
   },
   "char_304_zebra": {
     "zh_CN": {
@@ -12389,23 +12990,6 @@
     "code": null,
     "code_name": "Kirara"
   },
-  "char_458_rfrost": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "霜华",
-      "skills": [
-        "陷阱部署",
-        "击倒猎物"
-      ],
-      "alias": [
-        "shuang hua",
-        "shuanghua"
-      ],
-      "appellation": "Frost"
-    },
-    "code": null,
-    "code_name": "Frost"
-  },
   "char_369_bena": {
     "zh_CN": {
       "enabled": true,
@@ -12422,24 +13006,6 @@
     },
     "code": null,
     "code_name": "Bena"
-  },
-  "char_456_ash": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "灰烬",
-      "skills": [
-        "支援射击",
-        "突击战术",
-        "攻坚榴弹"
-      ],
-      "alias": [
-        "hui jin",
-        "huijin"
-      ],
-      "appellation": "Ash"
-    },
-    "code": null,
-    "code_name": "Ash"
   },
   "char_1013_chen2": {
     "zh_CN": {
@@ -12603,23 +13169,6 @@
     "code": null,
     "code_name": "Mon3tr"
   },
-  "token_10016_rfrost_mine": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "迎宾踏垫",
-      "skills": [
-        "陷阱部署",
-        "击倒猎物"
-      ],
-      "alias": [
-        "ying bin ta dian",
-        "yingbintadian"
-      ],
-      "appellation": "Welcome Mat"
-    },
-    "code": null,
-    "code_name": "Welcome Mat"
-  },
   "token_10017_skadi2_dedant": {
     "zh_CN": {
       "enabled": true,
@@ -12638,121 +13187,6 @@
     "code": null,
     "code_name": "Skadi's seaborn"
   },
-  "trap_028_cannon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "脉冲防御模组",
-      "skills": [
-        "脉冲束流",
-        "脉冲束流"
-      ],
-      "alias": [
-        "mai chong fang yu mo zu",
-        "maichongfangyumozu"
-      ],
-      "appellation": "Pulse Former"
-    },
-    "code": null,
-    "code_name": "Pulse Former"
-  },
-  "trap_029_poison": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "催泪瓦斯控制阀",
-      "skills": [
-        "关闭阀门",
-        "开启阀门"
-      ],
-      "alias": [
-        "cui lei wa si kong zhi fa",
-        "cuileiwasikongzhifa"
-      ],
-      "appellation": "lachrymator Control Valve"
-    },
-    "code": null,
-    "code_name": "lachrymator Control Valve"
-  },
-  "trap_030_factory": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "无人机工厂",
-      "skills": [
-        "生产线",
-        "生产线"
-      ],
-      "alias": [
-        "wu ren ji gong chang",
-        "wurenjigongchang"
-      ],
-      "appellation": "Drone Factory"
-    },
-    "code": null,
-    "code_name": "Drone Factory"
-  },
-  "trap_031_sleep": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "雪雉的安全起重机",
-      "skills": [
-        "救援绳索"
-      ],
-      "alias": [
-        "xue zhi de an quan qi zhong ji",
-        "xuezhideanquanqizhongji"
-      ],
-      "appellation": "Safety Harness"
-    },
-    "code": null,
-    "code_name": "Safety Harness"
-  },
-  "trap_032_mound": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "土石结构",
-      "skills": [
-        "风沙掩体"
-      ],
-      "alias": [
-        "tu shi jie gou",
-        "tushijiegou"
-      ],
-      "appellation": "Rockfill Construct"
-    },
-    "code": null,
-    "code_name": "Rockfill Construct"
-  },
-  "trap_033_sbomb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "高能源石炸弹",
-      "skills": [
-        "起爆"
-      ],
-      "alias": [
-        "gao neng yuan shi zha dan",
-        "gaonengyuanshizhadan"
-      ],
-      "appellation": "Originium Demo-charge"
-    },
-    "code": null,
-    "code_name": "Originium Demo-charge"
-  },
-  "trap_034_machst": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "加固装置",
-      "skills": [
-        "强化加固"
-      ],
-      "alias": [
-        "jia gu zhuang zhi",
-        "jiaguzhuangzhi"
-      ],
-      "appellation": "Reinforcing Materials"
-    },
-    "code": null,
-    "code_name": "Reinforcing Materials"
-  },
   "trap_035_emperor": {
     "zh_CN": {
       "enabled": true,
@@ -12768,22 +13202,6 @@
     },
     "code": null,
     "code_name": "Emperor"
-  },
-  "trap_036_storm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "沙尘暴",
-      "skills": [
-        "沙尘暴"
-      ],
-      "alias": [
-        "sha chen bao",
-        "shachenbao"
-      ],
-      "appellation": "Sand Storm"
-    },
-    "code": null,
-    "code_name": "Sand Storm"
   },
   "trap_037_airsup": {
     "zh_CN": {
