@@ -51,6 +51,8 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2021-09-17</p>
+			增加了新材料<br />
 			<p>2021-08-03</p>
 			尝试支持了干员模组需求计算，目前需要在【培养表】页面添加，稍后增加到【干员】页面<br />
 			先选择干员，如果干员有模组可以开放，则在升级项目中可以选择模组名字即可<br />
