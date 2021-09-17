@@ -173,6 +173,12 @@
 .setting_option_type_crystal.setting_option_type:after {
   background-image: url('/assets/materials/M-4-13.png');
 }
+.setting_option_type_cuttingfluid.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-13.png');
+}
+.setting_option_type_solvent.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-13.png');
+}
 .setting_option_type_rare.setting_option_type:after {
   background-image: url('/assets/materials/M-5-1.png');
 }

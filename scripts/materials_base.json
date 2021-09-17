@@ -495,5 +495,51 @@
     "type": "crystal",
     "source": {},
     "formula": {}
+  }, {
+    "id": "M-4-14",
+    "unique_id": 31044,
+    "name": "精炼溶剂",
+    "pinyin": "jing lian rong ji",
+    "tier": "T4",
+    "type": "solvent",
+    "source": {},
+    "formula": {
+      "M-3-14": 1,
+      "M-3-15": 1,
+      "M-3-11": 1,
+      "G-4-1": 300
+    }
+  }, {
+    "id": "M-3-14",
+    "unique_id": 31043,
+    "name": "半自然溶剂",
+    "pinyin": "ban zi ran rong ji",
+    "tier": "T3",
+    "type": "solvent",
+    "source": {},
+    "formula": {}
+  }, {
+    "id": "M-4-15",
+    "unique_id": 31054,
+    "name": "切削原液",
+    "pinyin": "qie xiao yuan ye",
+    "tier": "T4",
+    "type": "cuttingfluid",
+    "source": {},
+    "formula": {
+      "M-3-15": 1,
+      "M-3-13": 1,
+      "M-3-10": 1,
+      "G-4-1": 300
+    }
+  }, {
+    "id": "M-3-15",
+    "unique_id": 31053,
+    "name": "化合切削液",
+    "pinyin": "hua he qie xiao ye",
+    "tier": "T3",
+    "type": "cuttingfluid",
+    "source": {},
+    "formula": {}
   }
 ]

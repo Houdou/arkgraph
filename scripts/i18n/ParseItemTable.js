@@ -2,7 +2,7 @@ const path = require('path');
 const pinyin = require('pinyin');
 const { default: toHiragana } = require('jaco/fn/toHiragana');
 
-const ItemMapping = require('./item_mapping.json');
+const ItemMapping = require('../mapping.json');
 
 const LANG = [
 	'en_US',

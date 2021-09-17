@@ -36,6 +36,8 @@ const resource_filter_options = [
 			{ value: 'gel', render: 'material_grouping_options-type-gel' },
 			{ value: 'alloy', render: 'material_grouping_options-type-alloy' },
 			{ value: 'crystal', render: 'material_grouping_options-type-crystal' },
+			{ value: 'cuttingfluid', render: 'material_grouping_options-type-cuttingfluid' },
+			{ value: 'solvent', render: 'material_grouping_options-type-solvent' },
 			{ value: 'skill', render: 'material_grouping_options-type-skill' },
 			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],

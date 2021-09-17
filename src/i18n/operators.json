@@ -4595,6 +4595,15 @@
       ],
       "appellation": "Tachanka"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "TACHANKA",
+      "skills": [
+        "燃燒榴彈",
+        "傾瀉彈藥"
+      ],
+      "alias": []
+    },
     "code": "tachanka",
     "code_name": "Tachanka"
   },
@@ -6318,6 +6327,15 @@
       ],
       "appellation": "Whisperain"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "絮雨",
+      "skills": [
+        "定向診斷",
+        "痛覺抑制"
+      ],
+      "alias": []
+    },
     "code": "whisperain",
     "code_name": "Whisperain"
   },
@@ -6996,6 +7014,15 @@
         "shanji"
       ],
       "appellation": "Blitz"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "BLITZ",
+      "skills": [
+        "閃光護盾",
+        "突破防線"
+      ],
+      "alias": []
     },
     "code": "blitz",
     "code_name": "Blitz"
@@ -7804,6 +7831,15 @@
       ],
       "appellation": "Frost"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "FROST",
+      "skills": [
+        "陷阱部署",
+        "擊倒獵物"
+      ],
+      "alias": []
+    },
     "code": "frost",
     "code_name": "Frost"
   },
@@ -7963,6 +7999,16 @@
         "huijin"
       ],
       "appellation": "Ash"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "ASH",
+      "skills": [
+        "支援射擊",
+        "突擊戰術",
+        "攻堅榴彈"
+      ],
+      "alias": []
     },
     "code": "ash",
     "code_name": "Ash"
@@ -8193,6 +8239,16 @@
         "midiexiang"
       ],
       "appellation": "Rosmontis"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "迷迭香",
+      "skills": [
+        "思維膨大",
+        "末梢阻斷",
+        "“如你所願”"
+      ],
+      "alias": []
     },
     "code": "rosmontis",
     "code_name": "Rosmontis"
@@ -9423,6 +9479,16 @@
         "niyan"
       ],
       "appellation": "Mudrock"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "泥岩",
+      "skills": [
+        "防禦力強化·γ型",
+        "岩崩錘",
+        "穢壤的血脈"
+      ],
+      "alias": []
     },
     "code": "mudrock",
     "code_name": "Mudrock"
@@ -10694,6 +10760,16 @@
       ],
       "appellation": "Rosmontis-gear"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "迷迭香的戰術裝備",
+      "skills": [
+        "",
+        "",
+        "戰術裝備召喚"
+      ],
+      "alias": []
+    },
     "code": "rosmontis's tactical equipment",
     "code_name": "Rosmontis-gear"
   },
@@ -10881,6 +10957,15 @@
         "yingbintadian"
       ],
       "appellation": "Welcome Mat"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "迎賓踏墊",
+      "skills": [
+        "陷阱部署",
+        "擊倒獵物"
+      ],
+      "alias": []
     },
     "code": "welcome mat",
     "code_name": "Welcome Mat"
@@ -11754,6 +11839,14 @@
       ],
       "appellation": "Roads Obstacles"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "道路障礙物",
+      "skills": [
+        "道路阻塞"
+      ],
+      "alias": []
+    },
     "code": "static roadblock",
     "code_name": "Roads Obstacles"
   },
@@ -11795,6 +11888,14 @@
         "nengliangjuheti"
       ],
       "appellation": "Energy Crystal"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "能量聚合體",
+      "skills": [
+        "能量結晶"
+      ],
+      "alias": []
     },
     "code": "energy aggregate",
     "code_name": "Energy Crystal"
@@ -11838,6 +11939,14 @@
       ],
       "appellation": "Yelena-Crystal"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "霜星的源石冰晶",
+      "skills": [
+        "寒潮"
+      ],
+      "alias": []
+    },
     "code": "frostnova's originium ice crystal",
     "code_name": "Yelena-Crystal"
   },
@@ -11880,6 +11989,14 @@
       ],
       "appellation": "Patriot-Shrine"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "愛國者的源石祭壇",
+      "skills": [
+        "脈衝波"
+      ],
+      "alias": []
+    },
     "code": "patriot's originium altar",
     "code_name": "Patriot-Shrine"
   },
@@ -11921,6 +12038,14 @@
         "dunwei"
       ],
       "appellation": "Shield Guard"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "盾衛",
+      "skills": [
+        "列陣！"
+      ],
+      "alias": []
     },
     "code": "shieldguard",
     "code_name": "Shield Guard"
@@ -12094,6 +12219,15 @@
       ],
       "appellation": "Pulse Former"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "脈衝防禦模組",
+      "skills": [
+        "脈衝束流",
+        "脈衝束流"
+      ],
+      "alias": []
+    },
     "code": "pulse defense module",
     "code_name": "Pulse Former"
   },
@@ -12139,6 +12273,15 @@
         "cuileiwasikongzhifa"
       ],
       "appellation": "lachrymator Control Valve"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "催淚瓦斯控制閥",
+      "skills": [
+        "關閉閥門",
+        "開啟閥門"
+      ],
+      "alias": []
     },
     "code": "teargas control valve",
     "code_name": "lachrymator Control Valve"
@@ -12186,6 +12329,15 @@
       ],
       "appellation": "Drone Factory"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "無人機工廠",
+      "skills": [
+        "生產線",
+        "生產線"
+      ],
+      "alias": []
+    },
     "code": "drone factory",
     "code_name": "Drone Factory"
   },
@@ -12227,6 +12379,14 @@
         "xuezhideanquanqizhongji"
       ],
       "appellation": "Safety Harness"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "雪雉的安全起重機",
+      "skills": [
+        "救援繩索"
+      ],
+      "alias": []
     },
     "code": "snowsant's safe escape crane",
     "code_name": "Safety Harness"
@@ -12270,6 +12430,14 @@
       ],
       "appellation": "Rockfill Construct"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "土石結構",
+      "skills": [
+        "風沙掩體"
+      ],
+      "alias": []
+    },
     "code": "dirt mound",
     "code_name": "Rockfill Construct"
   },
@@ -12311,6 +12479,14 @@
         "gaonengyuanshizhadan"
       ],
       "appellation": "Originium Demo-charge"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "高能源石炸彈",
+      "skills": [
+        "起爆"
+      ],
+      "alias": []
     },
     "code": "high-energy originium bomb",
     "code_name": "Originium Demo-charge"
@@ -12354,6 +12530,14 @@
       ],
       "appellation": "Reinforcing Materials"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "加固裝置",
+      "skills": [
+        "強化加固"
+      ],
+      "alias": []
+    },
     "code": "reinforcement device",
     "code_name": "Reinforcing Materials"
   },
@@ -12395,6 +12579,14 @@
         "shachenbao"
       ],
       "appellation": "Sand Storm"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "沙塵暴",
+      "skills": [
+        "沙塵暴"
+      ],
+      "alias": []
     },
     "code": "sandstorm",
     "code_name": "Sand Storm"
@@ -12652,6 +12844,15 @@
       ],
       "appellation": "Jackie"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "傑克",
+      "skills": [
+        "給你一拳！",
+        "全神貫注！"
+      ],
+      "alias": []
+    },
     "code": "jackie",
     "code_name": "Jackie"
   },
@@ -12888,6 +13089,23 @@
     "code": null,
     "code_name": "Indigo"
   },
+  "char_484_robrta": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗比菈塔",
+      "skills": [
+        "叙拉古式上妆",
+        "全自动造型仪"
+      ],
+      "alias": [
+        "luo bi la ta",
+        "luobilata"
+      ],
+      "appellation": "Roberta"
+    },
+    "code": null,
+    "code_name": "Roberta"
+  },
   "char_475_akafyu": {
     "zh_CN": {
       "enabled": true,
@@ -12938,6 +13156,23 @@
     },
     "code": null,
     "code_name": "Tequila"
+  },
+  "char_473_mberry": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "桑葚",
+      "skills": [
+        "治愈云雾",
+        "安全区域"
+      ],
+      "alias": [
+        "sang shen",
+        "sangshen"
+      ],
+      "appellation": "Mulberry"
+    },
+    "code": null,
+    "code_name": "Mulberry"
   },
   "char_304_zebra": {
     "zh_CN": {
@@ -13024,6 +13259,24 @@
     },
     "code": null,
     "code_name": "Ch'en the Holungday"
+  },
+  "char_479_sleach": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "琴柳",
+      "skills": [
+        "支援号令·γ型",
+        "信仰传承",
+        "光辉旗帜"
+      ],
+      "alias": [
+        "qin liu",
+        "qinliu"
+      ],
+      "appellation": "Saileach"
+    },
+    "code": null,
+    "code_name": "Saileach"
   },
   "char_472_pasngr": {
     "zh_CN": {
@@ -13187,6 +13440,23 @@
     "code": null,
     "code_name": "Skadi's seaborn"
   },
+  "token_10018_robrta_mach": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "全自动造型仪",
+      "skills": [
+        "全自动造型仪",
+        "全自动造型仪"
+      ],
+      "alias": [
+        "quan zi dong zao xing yi",
+        "quanzidongzaoxingyi"
+      ],
+      "appellation": "Making-up Machine"
+    },
+    "code": null,
+    "code_name": "Making-up Machine"
+  },
   "trap_035_emperor": {
     "zh_CN": {
       "enabled": true,
@@ -13301,6 +13571,54 @@
     },
     "code": null,
     "code_name": "Tide Controller"
+  },
+  "trap_043_dupilr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "破碎支柱",
+      "skills": [
+        "支柱坍塌"
+      ],
+      "alias": [
+        "po sui zhi zhu",
+        "posuizhizhu"
+      ],
+      "appellation": "Tattered Pillar"
+    },
+    "code": null,
+    "code_name": "Tattered Pillar"
+  },
+  "trap_044_duruin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "战场废墟",
+      "skills": [
+        "阻挡路线"
+      ],
+      "alias": [
+        "zhan chang fei xu",
+        "zhanchangfeixu"
+      ],
+      "appellation": "Battlefield Ruins"
+    },
+    "code": null,
+    "code_name": "Battlefield Ruins"
+  },
+  "trap_045_dublst": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "爆破装置",
+      "skills": [
+        "爆破"
+      ],
+      "alias": [
+        "bao po zhuang zhi",
+        "baopozhuangzhi"
+      ],
+      "appellation": "Demolition Device"
+    },
+    "code": null,
+    "code_name": "Demolition Device"
   },
   "trap_046_oxygen": {
     "zh_CN": {

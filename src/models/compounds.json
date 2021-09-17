@@ -17,68 +17,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.038,
+        "probability": 0.898,
         "resource": "M-4-1",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-4",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-3",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-5",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-6",
         "quantity": 1
       },
       {
-        "probability": 0.519,
+        "probability": 0.449,
         "resource": "M-4-2",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-7",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-8",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-9",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-10",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-11",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-12",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-15",
         "quantity": 1
       }
     ],
@@ -98,68 +108,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.038,
+        "probability": 0.898,
         "resource": "M-4-1",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-4",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-3",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-5",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-6",
         "quantity": 1
       },
       {
-        "probability": 0.519,
+        "probability": 0.449,
         "resource": "M-4-2",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-7",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-8",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-9",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-10",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-11",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-12",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-15",
         "quantity": 1
       }
     ],
@@ -183,68 +203,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.038,
+        "probability": 0.898,
         "resource": "M-4-1",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-4",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-3",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-5",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-6",
         "quantity": 1
       },
       {
-        "probability": 0.519,
+        "probability": 0.449,
         "resource": "M-4-2",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-7",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-8",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-9",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-10",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-11",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-12",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-15",
         "quantity": 1
       }
     ],
@@ -268,68 +298,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -353,68 +393,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -438,68 +488,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -523,68 +583,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -692,68 +762,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -861,68 +941,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1030,68 +1120,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1199,68 +1299,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1368,68 +1478,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1529,68 +1649,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1614,68 +1744,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1699,68 +1839,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],
@@ -1784,68 +1934,78 @@
     ],
     "side_products": [
       {
-        "probability": 1.038,
+        "probability": 0.898,
         "resource": "M-4-1",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-4",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-3",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-5",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-6",
         "quantity": 1
       },
       {
-        "probability": 0.519,
+        "probability": 0.449,
         "resource": "M-4-2",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-7",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-8",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-9",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-10",
         "quantity": 1
       },
       {
-        "probability": 0.89,
+        "probability": 0.77,
         "resource": "M-4-11",
         "quantity": 1
       },
       {
-        "probability": 0.779,
+        "probability": 0.674,
         "resource": "M-4-12",
         "quantity": 1
       },
       {
-        "probability": 0.692,
+        "probability": 0.599,
         "resource": "M-4-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.674,
+        "resource": "M-4-15",
         "quantity": 1
       }
     ],
@@ -1869,68 +2029,268 @@
     ],
     "side_products": [
       {
-        "probability": 1.117,
+        "probability": 0.985,
         "resource": "M-3-1",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-4",
         "quantity": 1
       },
       {
-        "probability": 0.931,
+        "probability": 0.821,
         "resource": "M-3-3",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-5",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-6",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-2",
         "quantity": 1
       },
       {
-        "probability": 0.838,
+        "probability": 0.739,
         "resource": "M-3-7",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-8",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-9",
         "quantity": 1
       },
       {
-        "probability": 0.559,
+        "probability": 0.493,
         "resource": "M-3-10",
         "quantity": 1
       },
       {
-        "probability": 0.67,
+        "probability": 0.591,
         "resource": "M-3-11",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-12",
         "quantity": 1
       },
       {
-        "probability": 0.745,
+        "probability": 0.657,
         "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
+        "quantity": 1
+      }
+    ],
+    "ap_cost": 4
+  },
+  {
+    "material_id": "M-4-14",
+    "formula": [
+      {
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "resource": "M-3-15",
+        "quantity": 1
+      },
+      {
+        "resource": "M-3-11",
+        "quantity": 1
+      }
+    ],
+    "side_products": [
+      {
+        "probability": 0.985,
+        "resource": "M-3-1",
+        "quantity": 1
+      },
+      {
+        "probability": 0.821,
+        "resource": "M-3-4",
+        "quantity": 1
+      },
+      {
+        "probability": 0.821,
+        "resource": "M-3-3",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-5",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-6",
+        "quantity": 1
+      },
+      {
+        "probability": 0.493,
+        "resource": "M-3-2",
+        "quantity": 1
+      },
+      {
+        "probability": 0.739,
+        "resource": "M-3-7",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-8",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-9",
+        "quantity": 1
+      },
+      {
+        "probability": 0.493,
+        "resource": "M-3-10",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-11",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-12",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
+        "quantity": 1
+      }
+    ],
+    "ap_cost": 4
+  },
+  {
+    "material_id": "M-4-15",
+    "formula": [
+      {
+        "resource": "M-3-15",
+        "quantity": 1
+      },
+      {
+        "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "resource": "M-3-10",
+        "quantity": 1
+      }
+    ],
+    "side_products": [
+      {
+        "probability": 0.985,
+        "resource": "M-3-1",
+        "quantity": 1
+      },
+      {
+        "probability": 0.821,
+        "resource": "M-3-4",
+        "quantity": 1
+      },
+      {
+        "probability": 0.821,
+        "resource": "M-3-3",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-5",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-6",
+        "quantity": 1
+      },
+      {
+        "probability": 0.493,
+        "resource": "M-3-2",
+        "quantity": 1
+      },
+      {
+        "probability": 0.739,
+        "resource": "M-3-7",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-8",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-9",
+        "quantity": 1
+      },
+      {
+        "probability": 0.493,
+        "resource": "M-3-10",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-11",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-12",
+        "quantity": 1
+      },
+      {
+        "probability": 0.657,
+        "resource": "M-3-13",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-14",
+        "quantity": 1
+      },
+      {
+        "probability": 0.591,
+        "resource": "M-3-15",
         "quantity": 1
       }
     ],

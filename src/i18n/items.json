@@ -33,7 +33,7 @@
       "enabled": true,
       "name": "基礎作戰記錄",
       "alias": [],
-      "sortId": 20004
+      "sortId": 70004
     }
   },
   "E-3-1": {
@@ -70,7 +70,7 @@
       "enabled": true,
       "name": "初級作戰記錄",
       "alias": [],
-      "sortId": 20003
+      "sortId": 70003
     }
   },
   "E-4-1": {
@@ -107,7 +107,7 @@
       "enabled": true,
       "name": "中級作戰記錄",
       "alias": [],
-      "sortId": 20002
+      "sortId": 70002
     }
   },
   "E-5-1": {
@@ -144,7 +144,7 @@
       "enabled": true,
       "name": "高級作戰記錄",
       "alias": [],
-      "sortId": 20001
+      "sortId": 70001
     }
   },
   "C-3-1": {
@@ -181,7 +181,7 @@
       "enabled": true,
       "name": "先鋒晶片",
       "alias": [],
-      "sortId": 400004
+      "sortId": 400018
     }
   },
   "C-4-1": {
@@ -218,7 +218,7 @@
       "enabled": true,
       "name": "先鋒晶片組",
       "alias": [],
-      "sortId": 400003
+      "sortId": 400010
     }
   },
   "C-5-1": {
@@ -292,7 +292,7 @@
       "enabled": true,
       "name": "近衛晶片",
       "alias": [],
-      "sortId": 400007
+      "sortId": 400019
     }
   },
   "C-4-2": {
@@ -329,7 +329,7 @@
       "enabled": true,
       "name": "近衛晶片組",
       "alias": [],
-      "sortId": 400006
+      "sortId": 400011
     }
   },
   "C-5-2": {
@@ -366,7 +366,7 @@
       "enabled": true,
       "name": "近衛雙晶片",
       "alias": [],
-      "sortId": 400005
+      "sortId": 400003
     }
   },
   "C-3-3": {
@@ -403,7 +403,7 @@
       "enabled": true,
       "name": "重裝晶片",
       "alias": [],
-      "sortId": 400010
+      "sortId": 400021
     }
   },
   "C-4-3": {
@@ -440,7 +440,7 @@
       "enabled": true,
       "name": "重裝晶片組",
       "alias": [],
-      "sortId": 400009
+      "sortId": 400013
     }
   },
   "C-5-3": {
@@ -477,7 +477,7 @@
       "enabled": true,
       "name": "重裝雙晶片",
       "alias": [],
-      "sortId": 400008
+      "sortId": 400005
     }
   },
   "C-3-4": {
@@ -514,7 +514,7 @@
       "enabled": true,
       "name": "狙擊晶片",
       "alias": [],
-      "sortId": 400013
+      "sortId": 400020
     }
   },
   "C-4-4": {
@@ -588,7 +588,7 @@
       "enabled": true,
       "name": "狙擊雙晶片",
       "alias": [],
-      "sortId": 400011
+      "sortId": 400004
     }
   },
   "C-3-5": {
@@ -625,7 +625,7 @@
       "enabled": true,
       "name": "術師晶片",
       "alias": [],
-      "sortId": 400016
+      "sortId": 400024
     }
   },
   "C-4-5": {
@@ -662,7 +662,7 @@
       "enabled": true,
       "name": "術師晶片組",
       "alias": [],
-      "sortId": 400015
+      "sortId": 400016
     }
   },
   "C-5-5": {
@@ -699,7 +699,7 @@
       "enabled": true,
       "name": "術師雙晶片",
       "alias": [],
-      "sortId": 400014
+      "sortId": 400008
     }
   },
   "C-3-6": {
@@ -736,7 +736,7 @@
       "enabled": true,
       "name": "醫療晶片",
       "alias": [],
-      "sortId": 400019
+      "sortId": 400022
     }
   },
   "C-4-6": {
@@ -773,7 +773,7 @@
       "enabled": true,
       "name": "醫療晶片組",
       "alias": [],
-      "sortId": 400018
+      "sortId": 400014
     }
   },
   "C-5-6": {
@@ -810,7 +810,7 @@
       "enabled": true,
       "name": "醫療雙晶片",
       "alias": [],
-      "sortId": 400017
+      "sortId": 400006
     }
   },
   "C-3-7": {
@@ -847,7 +847,7 @@
       "enabled": true,
       "name": "輔助晶片",
       "alias": [],
-      "sortId": 400022
+      "sortId": 400023
     }
   },
   "C-4-7": {
@@ -884,7 +884,7 @@
       "enabled": true,
       "name": "輔助晶片組",
       "alias": [],
-      "sortId": 400021
+      "sortId": 400015
     }
   },
   "C-5-7": {
@@ -921,7 +921,7 @@
       "enabled": true,
       "name": "輔助雙晶片",
       "alias": [],
-      "sortId": 400020
+      "sortId": 400007
     }
   },
   "C-3-8": {
@@ -995,7 +995,7 @@
       "enabled": true,
       "name": "特種晶片組",
       "alias": [],
-      "sortId": 400024
+      "sortId": 400017
     }
   },
   "C-5-8": {
@@ -1032,7 +1032,7 @@
       "enabled": true,
       "name": "特種雙晶片",
       "alias": [],
-      "sortId": 400023
+      "sortId": 400009
     }
   },
   "S-2-1": {
@@ -1069,7 +1069,7 @@
       "enabled": true,
       "name": "技巧概要·卷1",
       "alias": [],
-      "sortId": 300003
+      "sortId": 80003
     }
   },
   "S-3-1": {
@@ -1106,7 +1106,7 @@
       "enabled": true,
       "name": "技巧概要·卷2",
       "alias": [],
-      "sortId": 300002
+      "sortId": 80002
     }
   },
   "S-4-1": {
@@ -1143,7 +1143,7 @@
       "enabled": true,
       "name": "技巧概要·卷3",
       "alias": [],
-      "sortId": 300001
+      "sortId": 80001
     }
   },
   "G-4-1": {
@@ -1218,43 +1218,6 @@
       "name": "採購憑證",
       "alias": [],
       "sortId": 10008
-    }
-  },
-  "EO-4-1": {
-    "en_US": {
-      "enabled": true,
-      "name": "EXP",
-      "alias": [],
-      "sortId": -10000
-    },
-    "ja_JP": {
-      "enabled": true,
-      "name": "名声",
-      "alias": [
-        "名声"
-      ],
-      "sortId": -10000
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "명성",
-      "alias": [],
-      "sortId": -10000
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "声望",
-      "alias": [
-        "sheng wang",
-        "shengwang"
-      ],
-      "sortId": -10000
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "聲望",
-      "alias": [],
-      "sortId": -10000
     }
   },
   "M-1-1": {
@@ -2583,9 +2546,10 @@
       "sortId": 100040
     },
     "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "晶體電子單元",
+      "alias": [],
+      "sortId": 100040
     }
   },
   "M-3-11": {
@@ -2767,9 +2731,10 @@
       "sortId": 100042
     },
     "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "晶體元件",
+      "alias": [],
+      "sortId": 100042
     }
   },
   "M-4-13": {
@@ -2801,6 +2766,131 @@
         "jingtidianlu"
       ],
       "sortId": 100041
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "晶體電路",
+      "alias": [],
+      "sortId": 100041
+    }
+  },
+  "M-3-14": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "半自然溶剂",
+      "alias": [
+        "ban zi ran rong ji",
+        "banziranrongji"
+      ],
+      "sortId": 100044
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-4-14": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "精炼溶剂",
+      "alias": [
+        "jing lian rong ji",
+        "jinglianrongji"
+      ],
+      "sortId": 100043
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-3-15": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "化合切削液",
+      "alias": [
+        "hua he qie xiao ye",
+        "huaheqiexiaoye"
+      ],
+      "sortId": 100046
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-4-15": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "切削原液",
+      "alias": [
+        "qie xiao yuan ye",
+        "qiexiaoyuanye"
+      ],
+      "sortId": 100045
     },
     "zh_TW": {
       "enabled": false,

@@ -54,5 +54,54 @@
       "enabled": true,
       "name": "军用望远镜"
     }
+  },
+  "uniequip_002_milu": {
+    "char_id": "char_158_milu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "野战狙击套装"
+    }
+  },
+  "uniequip_002_cuttle": {
+    "char_id": "char_218_cuttle",
+    "zh_CN": {
+      "enabled": true,
+      "name": "枪支调试工具组"
+    }
+  },
+  "uniequip_002_glaze": {
+    "char_id": "char_302_glaze",
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携雷达的辅助器材"
+    }
+  },
+  "uniequip_002_cgbird": {
+    "char_id": "char_179_cgbird",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“封闭的希望”"
+    }
+  },
+  "uniequip_002_plosis": {
+    "char_id": "char_128_plosis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "医疗环境分析装置"
+    }
+  },
+  "uniequip_002_breeze": {
+    "char_id": "char_275_breeze",
+    "zh_CN": {
+      "enabled": true,
+      "name": "外科医疗套组"
+    }
+  },
+  "uniequip_002_flower": {
+    "char_id": "char_181_flower",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“爱琴之吻”"
+    }
   }
 }
