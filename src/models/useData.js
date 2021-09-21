@@ -5,7 +5,7 @@ import { RESOURCES, MATERIALS, EXP } from './Resources';
 import processRecord from './processRecord';
 
 export const STORAGE_KEY =  'Towa_ArkTable_Save';
-const STORAGE_VERSION =  '2.1.0';
+const STORAGE_VERSION =  '2.2.0';
 
 // V1 => V2 migration
 import { findOperatorByName } from './Operators';
@@ -250,12 +250,24 @@ const reducer = (state, action) => {
 					}
 
 					// Patch any => v2.1.0
-					if (loaded.version !== '2.1.0') {
+					if (loaded.version !== '2.2.0') {
 						const crystal_patch = loaded.compound_materials.find(
 							record => record.id === 'M-5-4'
 						);
 						if (!crystal_patch) {
 							loaded.compound_materials.push({ id: 'M-5-4', options: {} });
+						}
+						const cutting_patch = loaded.compound_materials.find(
+							record => record.id === 'M-4-14'
+						);
+						if (!cutting_patch) {
+							loaded.compound_materials.push({ id: 'M-4-14', options: {} });
+						}
+						const solvent_patch = loaded.compound_materials.find(
+							record => record.id === 'M-4-15'
+						);
+						if (!solvent_patch) {
+							loaded.compound_materials.push({ id: 'M-4-15', options: {} });
 						}
 					}
 
