@@ -2016,7 +2016,7 @@
       "name": "비그나",
       "skills": [
         "공격 강화β",
-        "망치 소리"
+        "해머온"
       ],
       "alias": []
     },
@@ -5212,7 +5212,7 @@
       "enabled": true,
       "name": "Executor",
       "skills": [
-        "Muzzle’s Elegy",
+        "Muzzle's Elegy",
         "Final Journey"
       ],
       "alias": []
@@ -5818,7 +5818,7 @@
       "name": "Iris",
       "skills": [
         "Fairytale Guardian",
-        "Dreamland’s Cradle"
+        "Dreamland's Cradle"
       ],
       "alias": []
     },
@@ -6654,7 +6654,7 @@
   "char_455_nothin": {
     "en_US": {
       "enabled": true,
-      "name": "Mr.Nothing",
+      "name": "Mr. Nothing",
       "skills": [
         "Cautious Retreat",
         "Wax and Wane"
@@ -6694,7 +6694,7 @@
       ],
       "appellation": "Mr.Nothing"
     },
-    "code": "mr.nothing",
+    "code": "mr. nothing",
     "code_name": "Mr.Nothing"
   },
   "char_107_liskam": {
@@ -7027,6 +7027,52 @@
     "code": "blitz",
     "code_name": "Blitz"
   },
+  "char_304_zebra": {
+    "en_US": {
+      "enabled": true,
+      "name": "Heavyrain",
+      "skills": [
+        "Emergency Camouflage",
+        "Group Camouflage"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヘビーレイン",
+      "skills": [
+        "応急迷彩",
+        "広域迷彩"
+      ],
+      "alias": [
+        "へびーれいん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "헤비레인",
+      "skills": [
+        "응급 위장",
+        "단체 위장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "暴雨",
+      "skills": [
+        "应急迷彩",
+        "群体迷彩"
+      ],
+      "alias": [
+        "bao yu",
+        "baoyu"
+      ],
+      "appellation": "Heavyrain"
+    },
+    "code": "heavyrain",
+    "code_name": "Heavyrain"
+  },
   "char_145_prove": {
     "en_US": {
       "enabled": true,
@@ -7191,6 +7237,52 @@
     },
     "code": "andreana",
     "code_name": "Andreana"
+  },
+  "char_363_toddi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Toddifons",
+      "skills": [
+        "Signal Arrow",
+        "Portable Fortcracker Arrows"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トギフォンス",
+      "skills": [
+        "信号矢",
+        "携帯破城矢"
+      ],
+      "alias": [
+        "とぎふぉんす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "토디폰스",
+      "skills": [
+        "신호 화살",
+        "휴대용 공성 화살"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "熔泉",
+      "skills": [
+        "信号矢",
+        "便携破城矢"
+      ],
+      "alias": [
+        "rong quan",
+        "rongquan"
+      ],
+      "appellation": "Toddifons"
+    },
+    "code": "toddifons",
+    "code_name": "Toddifons"
   },
   "char_173_slchan": {
     "en_US": {
@@ -8712,6 +8804,56 @@
     },
     "code": "dusk",
     "code_name": "Dusk"
+  },
+  "char_472_pasngr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Passenger",
+      "skills": [
+        "Touch of Static",
+        "Focus Command",
+        "Glorious Shards"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パッセンジャー",
+      "skills": [
+        "エレキチェーン",
+        "フォーカスオーダー",
+        "ルミナスフラグメンツ"
+      ],
+      "alias": [
+        "ぱっせんじゃー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "패신저",
+      "skills": [
+        "전기 에너지 접촉",
+        "집중 명령",
+        "찬란히 찢어진 조각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "异客",
+      "skills": [
+        "电能之触",
+        "聚焦指令",
+        "辉煌裂片"
+      ],
+      "alias": [
+        "yi ke",
+        "yike"
+      ],
+      "appellation": "Passenger"
+    },
+    "code": "passenger",
+    "code_name": "Passenger"
   },
   "char_291_aglina": {
     "en_US": {
@@ -11811,12 +11953,12 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "路上障害物",
+      "name": "道路障害物",
       "skills": [
         "進路封鎖"
       ],
       "alias": [
-        "路上障害物"
+        "道路障害物"
       ]
     },
     "ko_KR": {
@@ -12055,7 +12197,7 @@
       "enabled": true,
       "name": "Imprisonment Device",
       "skills": [
-        "Lock ‘em Up!"
+        "Lock 'em Up!"
       ],
       "alias": []
     },
@@ -12590,6 +12732,48 @@
     },
     "code": "sandstorm",
     "code_name": "Sand Storm"
+  },
+  "trap_037_airsup": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mobile Tactical Hangar",
+      "skills": [
+        "Dispatch Air Support"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "可動式戦術格納庫",
+      "skills": [
+        "空援派遣"
+      ],
+      "alias": [
+        "可動式戦術格納庫"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동식 전술 격납고",
+      "skills": [
+        "공중 지원 파견"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可移动战术机库",
+      "skills": [
+        "派遣空援"
+      ],
+      "alias": [
+        "ke yi dong zhan shu ji ku",
+        "keyidongzhanshujiku"
+      ],
+      "appellation": "Maneuver Drone Hangar"
+    },
+    "code": "mobile tactical hangar",
+    "code_name": "Maneuver Drone Hangar"
   },
   "char_230_savage": {
     "en_US": {
@@ -13174,40 +13358,6 @@
     "code": null,
     "code_name": "Mulberry"
   },
-  "char_304_zebra": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "暴雨",
-      "skills": [
-        "应急迷彩",
-        "群体迷彩"
-      ],
-      "alias": [
-        "bao yu",
-        "baoyu"
-      ],
-      "appellation": "Heavyrain"
-    },
-    "code": null,
-    "code_name": "Heavyrain"
-  },
-  "char_363_toddi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "熔泉",
-      "skills": [
-        "信号矢",
-        "便携破城矢"
-      ],
-      "alias": [
-        "rong quan",
-        "rongquan"
-      ],
-      "appellation": "Toddifons"
-    },
-    "code": null,
-    "code_name": "Toddifons"
-  },
   "char_478_kirara": {
     "zh_CN": {
       "enabled": true,
@@ -13277,24 +13427,6 @@
     },
     "code": null,
     "code_name": "Saileach"
-  },
-  "char_472_pasngr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "异客",
-      "skills": [
-        "电能之触",
-        "聚焦指令",
-        "辉煌裂片"
-      ],
-      "alias": [
-        "yi ke",
-        "yike"
-      ],
-      "appellation": "Passenger"
-    },
-    "code": null,
-    "code_name": "Passenger"
   },
   "char_426_billro": {
     "zh_CN": {
@@ -13472,22 +13604,6 @@
     },
     "code": null,
     "code_name": "Emperor"
-  },
-  "trap_037_airsup": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "可移动战术机库",
-      "skills": [
-        "派遣空援"
-      ],
-      "alias": [
-        "ke yi dong zhan shu ji ku",
-        "keyidongzhanshujiku"
-      ],
-      "appellation": "Maneuver Drone Hangar"
-    },
-    "code": null,
-    "code_name": "Maneuver Drone Hangar"
   },
   "trap_038_dsbell": {
     "zh_CN": {
