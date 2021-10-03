@@ -1,6 +1,20 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-10-03",
+    "type": "new_operators",
+    "new_operators": [
+      "char_472_pasngr",
+      "char_304_zebra",
+      "char_363_toddi"
+    ]
+  },
+  {
+    "server": [
       "zh_TW"
     ],
     "date": "2021-09-17",
@@ -122,27 +136,6 @@
       "char_332_archet",
       "char_338_iris",
       "char_452_bstalk"
-    ]
-  },
-  {
-    "server": [
-      "zh_TW"
-    ],
-    "date": "2021-07-02",
-    "type": "new_operators",
-    "new_operators": [
-      "char_416_zumama",
-      "char_508_aguard",
-      "char_415_flint",
-      "char_511_asnipe",
-      "char_411_tomimi",
-      "char_509_acast",
-      "char_510_amedic",
-      "char_366_acdrop",
-      "char_504_rguard",
-      "char_507_rsnipe",
-      "char_506_rmedic",
-      "char_505_rcast"
     ]
   }
 ]
