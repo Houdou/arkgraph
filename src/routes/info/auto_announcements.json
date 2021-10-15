@@ -1,6 +1,17 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2021-10-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_430_fartth",
+      "char_431_ashlok"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -122,20 +133,6 @@
     "type": "new_operators",
     "new_operators": [
       "char_402_tuye"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2021-07-07",
-    "type": "new_operators",
-    "new_operators": [
-      "char_332_archet",
-      "char_338_iris",
-      "char_452_bstalk"
     ]
   }
 ]
