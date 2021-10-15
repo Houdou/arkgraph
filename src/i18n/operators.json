@@ -13358,6 +13358,23 @@
     "code": null,
     "code_name": "Mulberry"
   },
+  "char_431_ashlok": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "灰毫",
+      "skills": [
+        "攻击力强化·γ型",
+        "专注轰击"
+      ],
+      "alias": [
+        "hui hao",
+        "huihao"
+      ],
+      "appellation": "Ashlock"
+    },
+    "code": null,
+    "code_name": "Ashlock"
+  },
   "char_478_kirara": {
     "zh_CN": {
       "enabled": true,
@@ -13391,6 +13408,24 @@
     },
     "code": null,
     "code_name": "Bena"
+  },
+  "char_430_fartth": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "远牙",
+      "skills": [
+        "迅捷打击·γ型",
+        "同盟支援",
+        "光羽箭"
+      ],
+      "alias": [
+        "yuan ya",
+        "yuanya"
+      ],
+      "appellation": "Fartooth"
+    },
+    "code": null,
+    "code_name": "Fartooth"
   },
   "char_1013_chen2": {
     "zh_CN": {
