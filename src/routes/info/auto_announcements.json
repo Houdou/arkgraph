@@ -1,6 +1,21 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-10-22",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1012_skadi2",
+      "char_474_glady",
+      "char_003_kalts",
+      "char_475_akafyu"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2021-10-15",
@@ -121,18 +136,6 @@
       "char_388_mint",
       "char_336_folivo",
       "char_271_spikes"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2021-07-14",
-    "type": "new_operators",
-    "new_operators": [
-      "char_402_tuye"
     ]
   }
 ]

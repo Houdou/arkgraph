@@ -4827,6 +4827,52 @@
     "code": "sideroca",
     "code_name": "Sideroca"
   },
+  "char_475_akafyu": {
+    "en_US": {
+      "enabled": true,
+      "name": "Akafuyu",
+      "skills": [
+        "Nobukage-ryu - Kaminari Gatana no Zei",
+        "Nobukage-ryu - Juumonji Masaru"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アカフユ",
+      "skills": [
+        "信影流・雷刀之勢",
+        "信影流・十文字勝"
+      ],
+      "alias": [
+        "あかふゆ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아카후유",
+      "skills": [
+        "노부카게류·뇌도지세",
+        "노부카게류·십문자승"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "赤冬",
+      "skills": [
+        "信影流·雷刀之势",
+        "信影流·十文字胜"
+      ],
+      "alias": [
+        "chi dong",
+        "chidong"
+      ],
+      "appellation": "Akafuyu"
+    },
+    "code": "akafuyu",
+    "code_name": "Akafuyu"
+  },
   "char_129_bluep": {
     "en_US": {
       "enabled": true,
@@ -9035,6 +9081,56 @@
     "code": "magallan",
     "code_name": "Magallan"
   },
+  "char_1012_skadi2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Skadi the Corrupting Heart",
+      "skills": [
+        "Chant of Returning by Varied Paths",
+        "Wish of Burial Beyond the Light",
+        "'The Tide Surges, The Tide Recedes'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "濁心スカジ",
+      "skills": [
+        "同帰殊塗の吟",
+        "同葬無光の願",
+        "「満ち潮、枯れ潮」"
+      ],
+      "alias": [
+        "濁心すかじ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스카디 더 커럽팅 하트",
+      "skills": [
+        "수도동귀의 노래",
+        "함께 묻히길 바라는 마음",
+        "'밀물, 썰물'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "浊心斯卡蒂",
+      "skills": [
+        "同归殊途之吟",
+        "同葬无光之愿",
+        "\"潮涌，潮枯\""
+      ],
+      "alias": [
+        "zhuo xin si ka di",
+        "zhuoxinsikadi"
+      ],
+      "appellation": "Skadi the Corrupting Heart"
+    },
+    "code": "skadi the corrupting heart",
+    "code_name": "Skadi the Corrupting Heart"
+  },
   "char_250_phatom": {
     "en_US": {
       "enabled": true,
@@ -9215,6 +9311,56 @@
     "code": "aak",
     "code_name": "Aak"
   },
+  "char_474_glady": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gladiia",
+      "skills": [
+        "Waterless Parting of the Great Ocean",
+        "Waterless Grasp of the Raging Seas",
+        "Waterless Dance of the Shattered Maelstrom"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "グレイディーア",
+      "skills": [
+        "渇水の大洋裂断",
+        "渇水の荒波掌握",
+        "渇水の乱渦狂舞"
+      ],
+      "alias": [
+        "ぐれいでぃーあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "글래디아",
+      "skills": [
+        "갈증의 대양 절단",
+        "갈증의 노해 장악",
+        "갈증의 소용돌이"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "歌蕾蒂娅",
+      "skills": [
+        "缺水的大洋裂断",
+        "缺水的掌握怒海",
+        "缺水的碎漩狂舞"
+      ],
+      "alias": [
+        "ge lei di ya",
+        "geleidiya"
+      ],
+      "appellation": "Gladiia"
+    },
+    "code": "gladiia",
+    "code_name": "Gladiia"
+  },
   "char_147_shining": {
     "en_US": {
       "enabled": true,
@@ -9334,6 +9480,56 @@
     },
     "code": "nightingale",
     "code_name": "Nightingale"
+  },
+  "char_003_kalts": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kal'tsit",
+      "skills": [
+        "Command: Structural Fortification",
+        "Command: Tactical Coordination",
+        "Command: Meltdown"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ケルシー",
+      "skills": [
+        "指令：構造強化",
+        "指令：戦術連携",
+        "指令：メルトダウン"
+      ],
+      "alias": [
+        "けるしー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "켈시",
+      "skills": [
+        "명령: 구조 보강",
+        "명령: 전술 협동",
+        "명령: 용해"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "凯尔希",
+      "skills": [
+        "指令：结构加固",
+        "指令：战术协同",
+        "指令：熔毁"
+      ],
+      "alias": [
+        "kai er xi",
+        "kaierxi"
+      ],
+      "appellation": "Kal'tsit"
+    },
+    "code": "kal'tsit",
+    "code_name": "Kal'tsit"
   },
   "char_136_hsguma": {
     "en_US": {
@@ -10214,6 +10410,56 @@
     },
     "code": "tentacle",
     "code_name": "Tentacle"
+  },
+  "token_10002_kalts_mon3tr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "Mon3tr"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "Mon3tr",
+        "Mon3tr"
+      ],
+      "appellation": "Mon3tr"
+    },
+    "code": "mon3tr",
+    "code_name": "Mon3tr"
   },
   "token_10003_cgbird_bird": {
     "en_US": {
@@ -11111,6 +11357,56 @@
     },
     "code": "welcome mat",
     "code_name": "Welcome Mat"
+  },
+  "token_10017_skadi2_dedant": {
+    "en_US": {
+      "enabled": true,
+      "name": "Skadi's Seaborn",
+      "skills": [
+        "Resonance",
+        "Resonance",
+        "Resonance"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スカジのシーボーン",
+      "skills": [
+        "共鳴",
+        "共鳴",
+        "共鳴"
+      ],
+      "alias": [
+        "すかじのしーぼーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스카디의 시본",
+      "skills": [
+        "공명",
+        "공명",
+        "공명"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "斯卡蒂的海嗣",
+      "skills": [
+        "共鸣",
+        "共鸣",
+        "共鸣"
+      ],
+      "alias": [
+        "si ka di de hai si",
+        "sikadidehaisi"
+      ],
+      "appellation": "Skadi's seaborn"
+    },
+    "code": "skadi's seaborn",
+    "code_name": "Skadi's seaborn"
   },
   "trap_001_crate": {
     "en_US": {
@@ -12775,6 +13071,90 @@
     "code": "mobile tactical hangar",
     "code_name": "Maneuver Drone Hangar"
   },
+  "trap_038_dsbell": {
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Aid Building",
+      "skills": [
+        "Emergency Medical Agreement"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "応急治療施設",
+      "skills": [
+        "応急治療プロトコル"
+      ],
+      "alias": [
+        "応急治療施設"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "응급처치 시설",
+      "skills": [
+        "응급치료 프로토콜"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "应急救治设施",
+      "skills": [
+        "应急治疗协议"
+      ],
+      "alias": [
+        "ying ji jiu zhi she shi",
+        "yingjijiuzhisheshi"
+      ],
+      "appellation": "Emergency Aid Building"
+    },
+    "code": "emergency aid building",
+    "code_name": "Emergency Aid Building"
+  },
+  "trap_039_dstnta": {
+    "en_US": {
+      "enabled": true,
+      "name": "Offspring",
+      "skills": [
+        "Devour"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "生まれしもの",
+      "skills": [
+        "摂食"
+      ],
+      "alias": [
+        "生まれしもの"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "즈다이",
+      "skills": [
+        "섭식"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "子代",
+      "skills": [
+        "摄食"
+      ],
+      "alias": [
+        "zi dai",
+        "zidai"
+      ],
+      "appellation": "Seaborn's Filial Generation"
+    },
+    "code": "offspring",
+    "code_name": "Seaborn's Filial Generation"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -13290,23 +13670,6 @@
     "code": null,
     "code_name": "Roberta"
   },
-  "char_475_akafyu": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "赤冬",
-      "skills": [
-        "信影流·雷刀之势",
-        "信影流·十文字胜"
-      ],
-      "alias": [
-        "chi dong",
-        "chidong"
-      ],
-      "appellation": "Akafuyu"
-    },
-    "code": null,
-    "code_name": "Akafuyu"
-  },
   "char_421_crow": {
     "zh_CN": {
       "enabled": true,
@@ -13481,42 +13844,6 @@
     "code": null,
     "code_name": "Carnelian"
   },
-  "char_1012_skadi2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "浊心斯卡蒂",
-      "skills": [
-        "同归殊途之吟",
-        "同葬无光之愿",
-        "\"潮涌，潮枯\""
-      ],
-      "alias": [
-        "zhuo xin si ka di",
-        "zhuoxinsikadi"
-      ],
-      "appellation": "Skadi the Corrupting Heart"
-    },
-    "code": null,
-    "code_name": "Skadi the Corrupting Heart"
-  },
-  "char_474_glady": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "歌蕾蒂娅",
-      "skills": [
-        "缺水的大洋裂断",
-        "缺水的掌握怒海",
-        "缺水的碎漩狂舞"
-      ],
-      "alias": [
-        "ge lei di ya",
-        "geleidiya"
-      ],
-      "appellation": "Gladiia"
-    },
-    "code": null,
-    "code_name": "Gladiia"
-  },
   "char_437_mizuki": {
     "zh_CN": {
       "enabled": true,
@@ -13535,24 +13862,6 @@
     "code": null,
     "code_name": "Mizuki"
   },
-  "char_003_kalts": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "凯尔希",
-      "skills": [
-        "指令：结构加固",
-        "指令：战术协同",
-        "指令：熔毁"
-      ],
-      "alias": [
-        "kai er xi",
-        "kaierxi"
-      ],
-      "appellation": "Kal'tsit"
-    },
-    "code": null,
-    "code_name": "Kal'tsit"
-  },
   "char_485_pallas": {
     "zh_CN": {
       "enabled": true,
@@ -13570,42 +13879,6 @@
     },
     "code": null,
     "code_name": "Pallas"
-  },
-  "token_10002_kalts_mon3tr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Mon3tr",
-      "skills": [
-        "",
-        "",
-        ""
-      ],
-      "alias": [
-        "Mon3tr",
-        "Mon3tr"
-      ],
-      "appellation": "Mon3tr"
-    },
-    "code": null,
-    "code_name": "Mon3tr"
-  },
-  "token_10017_skadi2_dedant": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "斯卡蒂的海嗣",
-      "skills": [
-        "共鸣",
-        "共鸣",
-        "共鸣"
-      ],
-      "alias": [
-        "si ka di de hai si",
-        "sikadidehaisi"
-      ],
-      "appellation": "Skadi's seaborn"
-    },
-    "code": null,
-    "code_name": "Skadi's seaborn"
   },
   "token_10018_robrta_mach": {
     "zh_CN": {
@@ -13639,38 +13912,6 @@
     },
     "code": null,
     "code_name": "Emperor"
-  },
-  "trap_038_dsbell": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "应急救治设施",
-      "skills": [
-        "应急治疗协议"
-      ],
-      "alias": [
-        "ying ji jiu zhi she shi",
-        "yingjijiuzhisheshi"
-      ],
-      "appellation": "Emergency Aid Building"
-    },
-    "code": null,
-    "code_name": "Emergency Aid Building"
-  },
-  "trap_039_dstnta": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "子代",
-      "skills": [
-        "摄食"
-      ],
-      "alias": [
-        "zi dai",
-        "zidai"
-      ],
-      "appellation": "Seaborn's Filial Generation"
-    },
-    "code": null,
-    "code_name": "Seaborn's Filial Generation"
   },
   "trap_040_canoe": {
     "zh_CN": {
