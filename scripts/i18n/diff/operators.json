@@ -1767,6 +1767,15 @@
       ],
       "appellation": "Pinecone"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "松果",
+      "skills": [
+        "RMA長釘",
+        "電能超載"
+      ],
+      "alias": []
+    },
     "code": "pinecone",
     "code_name": "Pinecone"
   },
@@ -6694,6 +6703,15 @@
       ],
       "appellation": "Kafka"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "卡夫卡",
+      "skills": [
+        "怪異魔方",
+        "詭異剪刀"
+      ],
+      "alias": []
+    },
     "code": "kafka",
     "code_name": "Kafka"
   },
@@ -7922,6 +7940,15 @@
         "luobin"
       ],
       "appellation": "Robin"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "羅賓",
+      "skills": [
+        "束縛“夾子”",
+        "彈射“夾子”"
+      ],
+      "alias": []
     },
     "code": "robin",
     "code_name": "Robin"
@@ -9938,6 +9965,16 @@
       ],
       "appellation": "Mountain"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "山",
+      "skills": [
+        "左勾掃拳",
+        "橫掃架勢",
+        "震地碎岩擊"
+      ],
+      "alias": []
+    },
     "code": "mountain",
     "code_name": "Mountain"
   },
@@ -11203,6 +11240,15 @@
         "\"jiazi\""
       ],
       "appellation": "\"Clip\" Charge"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "\"夾子\"",
+      "skills": [
+        "束縛“夾子”",
+        "彈射“夾子”"
+      ],
+      "alias": []
     },
     "code": "'clip'",
     "code_name": "\"Clip\" Charge"
@@ -12527,6 +12573,14 @@
       ],
       "appellation": "Prison Device"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "禁錮裝置",
+      "skills": [
+        "啟動禁錮！"
+      ],
+      "alias": []
+    },
     "code": "imprisonment device",
     "code_name": "Prison Device"
   },
@@ -13636,6 +13690,20 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
+  "char_4000_jnight": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "正义骑士号",
+      "skills": [],
+      "alias": [
+        "zheng yi qi shi hao",
+        "zhengyiqishihao"
+      ],
+      "appellation": "\"Justice Knight\""
+    },
+    "code": null,
+    "code_name": "\"Justice Knight\""
+  },
   "char_469_indigo": {
     "zh_CN": {
       "enabled": true,
@@ -13653,6 +13721,23 @@
     "code": null,
     "code_name": "Indigo"
   },
+  "char_4004_pudd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "布丁",
+      "skills": [
+        "战术咏唱·β型",
+        "扩散电流"
+      ],
+      "alias": [
+        "bu ding",
+        "buding"
+      ],
+      "appellation": "Pudding"
+    },
+    "code": null,
+    "code_name": "Pudding"
+  },
   "char_484_robrta": {
     "zh_CN": {
       "enabled": true,
@@ -13669,6 +13754,23 @@
     },
     "code": null,
     "code_name": "Roberta"
+  },
+  "char_496_wildmn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "野鬃",
+      "skills": [
+        "骑枪刺击",
+        "夹枪冲锋"
+      ],
+      "alias": [
+        "ye zong",
+        "yezong"
+      ],
+      "appellation": "Wild Mane"
+    },
+    "code": null,
+    "code_name": "Wild Mane"
   },
   "char_421_crow": {
     "zh_CN": {
@@ -13704,6 +13806,23 @@
     "code": null,
     "code_name": "Tequila"
   },
+  "char_489_serum": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "蚀清",
+      "skills": [
+        "专注力超载",
+        "传导蚀滞弹"
+      ],
+      "alias": [
+        "shi qing",
+        "shiqing"
+      ],
+      "appellation": "Corroserum"
+    },
+    "code": null,
+    "code_name": "Corroserum"
+  },
   "char_473_mberry": {
     "zh_CN": {
       "enabled": true,
@@ -13720,6 +13839,23 @@
     },
     "code": null,
     "code_name": "Mulberry"
+  },
+  "char_449_glider": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "蜜莓",
+      "skills": [
+        "精神护理",
+        "振奋"
+      ],
+      "alias": [
+        "mi mei",
+        "mimei"
+      ],
+      "appellation": "Honeyberry"
+    },
+    "code": null,
+    "code_name": "Honeyberry"
   },
   "char_431_ashlok": {
     "zh_CN": {
@@ -13826,6 +13962,24 @@
     "code": null,
     "code_name": "Saileach"
   },
+  "char_420_flamtl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "焰尾",
+      "skills": [
+        "迅敏直觉",
+        "“红松林”",
+        "焰心"
+      ],
+      "alias": [
+        "yan wei",
+        "yanwei"
+      ],
+      "appellation": "Flametail"
+    },
+    "code": null,
+    "code_name": "Flametail"
+  },
   "char_426_billro": {
     "zh_CN": {
       "enabled": true,
@@ -13880,6 +14034,24 @@
     "code": null,
     "code_name": "Pallas"
   },
+  "char_1014_nearl2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "耀骑士临光",
+      "skills": [
+        "灿焰长刃",
+        "逐夜烁光",
+        "耀阳颔首"
+      ],
+      "alias": [
+        "yao qi shi lin guang",
+        "yaoqishilinguang"
+      ],
+      "appellation": "Nearl the Radiant Knight"
+    },
+    "code": null,
+    "code_name": "Nearl the Radiant Knight"
+  },
   "token_10018_robrta_mach": {
     "zh_CN": {
       "enabled": true,
@@ -13896,6 +14068,24 @@
     },
     "code": null,
     "code_name": "Making-up Machine"
+  },
+  "token_10019_nearl2_sword": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“耀阳”",
+      "skills": [
+        "",
+        "",
+        "\"耀阳\""
+      ],
+      "alias": [
+        "“ yao yang ”",
+        "“yaoyang”"
+      ],
+      "appellation": "Blazing Sun"
+    },
+    "code": null,
+    "code_name": "Blazing Sun"
   },
   "trap_035_emperor": {
     "zh_CN": {
@@ -14027,5 +14217,37 @@
     },
     "code": null,
     "code_name": "Erosionproof Coating Device"
+  },
+  "trap_048_neonlamp": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "城市霓虹",
+      "skills": [
+        "文明的光芒"
+      ],
+      "alias": [
+        "cheng shi ni hong",
+        "chengshinihong"
+      ],
+      "appellation": "City Neon "
+    },
+    "code": null,
+    "code_name": "City Neon "
+  },
+  "trap_049_candle": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "骑士之徽",
+      "skills": [
+        "骑士的荣耀"
+      ],
+      "alias": [
+        "qi shi zhi hui",
+        "qishizhihui"
+      ],
+      "appellation": "Knight Trophy"
+    },
+    "code": null,
+    "code_name": "Knight Trophy"
   }
 }
