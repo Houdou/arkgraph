@@ -3,6 +3,34 @@
     "server": [
       "zh_TW"
     ],
+    "date": "2021-12-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_332_archet",
+      "char_338_iris",
+      "char_402_tuye",
+      "char_452_bstalk"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-12-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_426_billro",
+      "char_478_kirara",
+      "char_369_bena",
+      "char_469_indigo"
+    ]
+  },
+  {
+    "server": [
+      "zh_TW"
+    ],
     "date": "2021-11-01",
     "type": "new_operators",
     "new_operators": [
@@ -110,32 +138,6 @@
       "char_459_tachak",
       "char_457_blitz",
       "char_458_rfrost"
-    ]
-  },
-  {
-    "server": [
-      "zh_TW"
-    ],
-    "date": "2021-08-19",
-    "type": "new_operators",
-    "new_operators": [
-      "char_423_blemsh",
-      "char_265_sophia",
-      "char_346_aosta",
-      "char_381_bubble"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2021-08-03",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1013_chen2",
-      "char_437_mizuki",
-      "char_421_crow",
-      "char_486_takila"
     ]
   }
 ]

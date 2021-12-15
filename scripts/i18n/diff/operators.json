@@ -1449,6 +1449,52 @@
     "code": "click",
     "code_name": "Click"
   },
+  "char_469_indigo": {
+    "en_US": {
+      "enabled": true,
+      "name": "Indigo",
+      "skills": [
+        "Lighthouse Guardian",
+        "Labyrinth of Light"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "インディゴ",
+      "skills": [
+        "導灯の守護者",
+        "光と影の迷路"
+      ],
+      "alias": [
+        "いんでぃご"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "인디고",
+      "skills": [
+        "등대지기",
+        "그림자 미로"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "深靛",
+      "skills": [
+        "灯塔守卫者",
+        "光影迷宫"
+      ],
+      "alias": [
+        "shen dian",
+        "shendian"
+      ],
+      "appellation": "Indigo"
+    },
+    "code": "indigo",
+    "code_name": "Indigo"
+  },
   "char_235_jesica": {
     "en_US": {
       "enabled": true,
@@ -1860,7 +1906,7 @@
       "name": "애시드드롭",
       "skills": [
         "버트 점사",
-        "트릭 타임"
+        "트리거 모멘트"
       ],
       "alias": []
     },
@@ -2151,6 +2197,15 @@
         "doumiao"
       ],
       "appellation": "Beanstalk"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "豆苗",
+      "skills": [
+        "定點指令",
+        "“大家一起上”"
+      ],
+      "alias": []
     },
     "code": "beanstalk",
     "code_name": "Beanstalk"
@@ -5910,6 +5965,15 @@
       ],
       "appellation": "Iris"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "愛麗絲",
+      "skills": [
+        "童話守衛者",
+        "夢鄉搖籃"
+      ],
+      "alias": []
+    },
     "code": "iris",
     "code_name": "Iris"
   },
@@ -6040,7 +6104,7 @@
       "name": "씬",
       "skills": [
         "보호색 은폐",
-        "과다 노출 풍경 촬영"
+        "파노라마 오버로드 촬영"
       ],
       "alias": []
     },
@@ -6436,6 +6500,15 @@
         "tuye"
       ],
       "appellation": "Tuye"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "圖耶",
+      "skills": [
+        "水流環",
+        "強心劑"
+      ],
+      "alias": []
     },
     "code": "tuye",
     "code_name": "Tuye"
@@ -7843,6 +7916,52 @@
     "code": "manticore",
     "code_name": "Manticore"
   },
+  "char_478_kirara": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kirara",
+      "skills": [
+        "Anchor Strike",
+        "Anchor Point Snap"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "キララ",
+      "skills": [
+        "アンカークラッシュ",
+        "アンカーポイント"
+      ],
+      "alias": [
+        "きらら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "키라라",
+      "skills": [
+        "닻 휘두르기",
+        "닻 지점 포획"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "绮良",
+      "skills": [
+        "锚击",
+        "锚点捕捉"
+      ],
+      "alias": [
+        "qi liang",
+        "qiliang"
+      ],
+      "appellation": "Kirara"
+    },
+    "code": "kirara",
+    "code_name": "Kirara"
+  },
   "char_241_panda": {
     "en_US": {
       "enabled": true,
@@ -8008,6 +8127,52 @@
     "code": "frost",
     "code_name": "Frost"
   },
+  "char_369_bena": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bena",
+      "skills": [
+        "Fervent Trimming",
+        "Rapid Trimming"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ベナ",
+      "skills": [
+        "フルトリミング",
+        "クイッククロップ"
+      ],
+      "alias": [
+        "べな"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "베나",
+      "skills": [
+        "전력 가지치기",
+        "빠른 가지치기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "贝娜",
+      "skills": [
+        "奋力修剪",
+        "快速修剪"
+      ],
+      "alias": [
+        "bei na",
+        "beina"
+      ],
+      "appellation": "Bena"
+    },
+    "code": "bena",
+    "code_name": "Bena"
+  },
   "char_103_angel": {
     "en_US": {
       "enabled": true,
@@ -8114,6 +8279,16 @@
         "kongxian"
       ],
       "appellation": "Archetto"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "空弦",
+      "skills": [
+        "箭矢·散逸",
+        "箭矢·追獵",
+        "箭矢·暴風"
+      ],
+      "alias": []
     },
     "code": "archetto",
     "code_name": "Archetto"
@@ -8927,6 +9102,56 @@
     },
     "code": "passenger",
     "code_name": "Passenger"
+  },
+  "char_426_billro": {
+    "en_US": {
+      "enabled": true,
+      "name": "Carnelian",
+      "skills": [
+        "Sandstorm Guardian",
+        "Sand Fetters",
+        "Mark of Gluttony"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カーネリアン",
+      "skills": [
+        "熱砂護陣",
+        "砂縛地獄",
+        "喰殺ノ刻印"
+      ],
+      "alias": [
+        "かーねりあん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "카넬리안",
+      "skills": [
+        "모래폭풍 수비",
+        "모래속박 족쇄",
+        "식서의 인장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "卡涅利安",
+      "skills": [
+        "沙暴守卫",
+        "沙缚镣锁",
+        "食噬之印"
+      ],
+      "alias": [
+        "ka nie li an",
+        "kanielian"
+      ],
+      "appellation": "Carnelian"
+    },
+    "code": "carnelian",
+    "code_name": "Carnelian"
   },
   "char_291_aglina": {
     "en_US": {
@@ -10971,7 +11196,7 @@
   "token_10009_weedy_cannon": {
     "en_US": {
       "enabled": true,
-      "name": "Industrial Reserve Water Cannon",
+      "name": "Industrial Water Cannon",
       "skills": [
         "",
         "",
@@ -11025,7 +11250,7 @@
       ],
       "alias": []
     },
-    "code": "industrial reserve water cannon",
+    "code": "industrial water cannon",
     "code_name": "Cannon"
   },
   "token_10010_folivo_car": {
@@ -11054,7 +11279,7 @@
       "name": "이동촬영기",
       "skills": [
         "",
-        "과다 노출 풍경 촬영"
+        "파노라마 오버로드 촬영"
       ],
       "alias": []
     },
@@ -11295,6 +11520,15 @@
         "panxiehuweidui"
       ],
       "appellation": "M.C.G"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "磐蟹護衛隊",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": []
     },
     "code": "metal crab guard team",
     "code_name": "M.C.G"
@@ -12665,6 +12899,14 @@
       ],
       "appellation": "Rubble"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "碎石",
+      "skills": [
+        "阻擋路線"
+      ],
+      "alias": []
+    },
     "code": "rubble",
     "code_name": "Rubble"
   },
@@ -13704,23 +13946,6 @@
     "code": null,
     "code_name": "\"Justice Knight\""
   },
-  "char_469_indigo": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "深靛",
-      "skills": [
-        "灯塔守卫者",
-        "光影迷宫"
-      ],
-      "alias": [
-        "shen dian",
-        "shendian"
-      ],
-      "appellation": "Indigo"
-    },
-    "code": null,
-    "code_name": "Indigo"
-  },
   "char_4004_pudd": {
     "zh_CN": {
       "enabled": true,
@@ -13874,40 +14099,6 @@
     "code": null,
     "code_name": "Ashlock"
   },
-  "char_478_kirara": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "绮良",
-      "skills": [
-        "锚击",
-        "锚点捕捉"
-      ],
-      "alias": [
-        "qi liang",
-        "qiliang"
-      ],
-      "appellation": "Kirara"
-    },
-    "code": null,
-    "code_name": "Kirara"
-  },
-  "char_369_bena": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "贝娜",
-      "skills": [
-        "奋力修剪",
-        "快速修剪"
-      ],
-      "alias": [
-        "bei na",
-        "beina"
-      ],
-      "appellation": "Bena"
-    },
-    "code": null,
-    "code_name": "Bena"
-  },
   "char_430_fartth": {
     "zh_CN": {
       "enabled": true,
@@ -13979,24 +14170,6 @@
     },
     "code": null,
     "code_name": "Flametail"
-  },
-  "char_426_billro": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "卡涅利安",
-      "skills": [
-        "沙暴守卫",
-        "沙缚镣锁",
-        "食噬之印"
-      ],
-      "alias": [
-        "ka nie li an",
-        "kanielian"
-      ],
-      "appellation": "Carnelian"
-    },
-    "code": null,
-    "code_name": "Carnelian"
   },
   "char_437_mizuki": {
     "zh_CN": {
