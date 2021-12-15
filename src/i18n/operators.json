@@ -13705,6 +13705,35 @@
     "code_name": "\"Justice Knight\""
   },
   "char_469_indigo": {
+    "en_US": {
+      "enabled": true,
+      "name": "Indigo",
+      "skills": [
+        "Lighthouse Guardian",
+        "Labyrinth of Light"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "インディゴ",
+      "skills": [
+        "導灯の守護者",
+        "光と影の迷路"
+      ],
+      "alias": [
+        "いんでぃご"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "인디고",
+      "skills": [
+        "인디고",
+        "그림자 미로"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "深靛",
@@ -13875,6 +13904,35 @@
     "code_name": "Ashlock"
   },
   "char_478_kirara": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kirara",
+      "skills": [
+        "Anchor Strike",
+        "Anchor Point Snap"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "キララ",
+      "skills": [
+        "アンカークラッシュ",
+        "アンカーポイント"
+      ],
+      "alias": [
+        "きらら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "키라라",
+      "skills": [
+        "닻 휘두르기",
+        "닻 지점 포획"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "绮良",
@@ -13892,6 +13950,35 @@
     "code_name": "Kirara"
   },
   "char_369_bena": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bena",
+      "skills": [
+        "Fervent Trimming",
+        "Rapid Trimming"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ベナ",
+      "skills": [
+        "フルトリミング",
+        "クイッククロップ"
+      ],
+      "alias": [
+        "べな"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "베나",
+      "skills": [
+        "전력 재단",
+        "빠른 가위질"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "贝娜",
@@ -13981,6 +14068,38 @@
     "code_name": "Flametail"
   },
   "char_426_billro": {
+    "en_US": {
+      "enabled": true,
+      "name": "Carnelian",
+      "skills": [
+        "Sandstorm Guardian",
+        "Sand Fetters",
+        "Mark of Gluttony"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カーネリアン",
+      "skills": [
+        "熱砂護陣",
+        "砂縛地獄",
+        "喰殺ノ刻印"
+      ],
+      "alias": [
+        "かーねりあん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "카넬리안",
+      "skills": [
+        "모래폭풍 수비",
+        "모래속박 족쇄",
+        "식서의 인장"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
       "name": "卡涅利安",
