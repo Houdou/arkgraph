@@ -4,6 +4,20 @@ import { storage } from './version.json';
 export const STORAGE_KEY =  'Towa_ArkTable_Config';
 export const STORAGE_VERSION = storage;
 
+const detectLocale = () => {
+	const lang = navigator.language;
+	if (lang) {
+		if (lang.startsWith('en')) {
+			return 'en_US';
+		} else if (lang.startsWith('ja')) {
+			return 'ja_JP';
+		} else if (lang.startsWith('ko')) {
+			return 'ko_KR';
+		}
+	}
+	return 'zh_CN';
+};
+
 const default_config = {
 	showAllResources: false,
 	showFocusMaterials: true,
@@ -14,7 +28,7 @@ const default_config = {
 	filters: [],
 	showExp: false,
 	showAnnouncementCodeOnce: false,
-	locale: window.localStorage.getItem('Towa_ArkTable_Lang') || 'zh_CN',
+	locale: window.localStorage.getItem('Towa_ArkTable_Lang') || detectLocale(),
 };
 
 const reducer = (state, action) => {
