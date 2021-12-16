@@ -155,10 +155,10 @@ const ArkPlanner = ({
 						{
 							plan && (
 								<Fragment>
-									<span class={style.sub_header}>统计</span>
+									<span class={style.sub_header}>{ir('farming-planner-synthesis', 'Synthesis')}</span>
 									<div class={style.plan_section}>
 										<ArkRow disable_hover cells={[
-											{ content: '预计刷图次数', fullwidth: true },
+											{ content: ir('farming-planner-estimated-times', 'Estimated Runs'), fullwidth: true },
 											{
 												content: plan.stages
 													.map(({ count }) => Number(count) || 0)
@@ -168,34 +168,34 @@ const ArkPlanner = ({
 										]}
 										/>
 										<ArkRow disable_hover cells={[
-											{ content: '预计理智消耗', fullwidth: true },
+											{ content: ir('farming-planner-estimated-sanity', 'Total Estimated Sanity'), fullwidth: true },
 											{ content: plan.cost, fullwidth: true },
 										]}
 										/>
 										<ArkRow disable_hover cells={[
-											{ content: '预计获得经验', fullwidth: true },
+											{ content: ir('farming-planner-estimated-exp', 'Total Estimated EXP'), fullwidth: true },
 											{ content: plan.exp, fullwidth: true },
 										]}
 										/>
 										<ArkRow disable_hover cells={[
-											{ content: '预计获得龙门币', fullwidth: true },
+											{ content: ir('farming-planner-estimated-lmd', 'Total Estimated LMD'), fullwidth: true },
 											{ content: plan.gold, fullwidth: true },
 										]}
 										/>
 										<ArkRow disable_hover cells={[
-											{ content: '合成消耗龙门币', fullwidth: true },
+											{ content: ir('farming-planner-craft-lmd', 'LMD costs for Crafting'), fullwidth: true },
 											{ content: plan.gcost, fullwidth: true },
 										]}
 										/>
 									</div>
-									<span class={style.sub_header}>关卡</span>
+									<span class={style.sub_header}>{ir('farming-planner-stages', 'Stages')}</span>
 									<div class={style.plan_section}>
 										<ArkRow
 											cells={[
-												{ content: '关卡' },
-												{ content: '理智' },
-												{ content: '次数' },
-												{ content: '掉落期望', fullwidth: true },
+												{ content: ir('farming-planner-level', 'Stage') },
+												{ content: ir('farming-planner-sanity', 'Sanity') },
+												{ content: ir('farming-planner-times', '# of Runs') },
+												{ content: ir('farming-planner-drop', 'Estimated Drop Items'), fullwidth: true },
 											]}
 											disable_hover
 										/>
@@ -219,13 +219,13 @@ const ArkPlanner = ({
 											})
 										}
 									</div>
-									<span class={style.sub_header}>合成</span>
+									<span class={style.sub_header}>{ir('farming-planner-crafting', 'Crafting')}</span>
 									<div class={style.plan_section}>
 										<ArkRow disable_hover cells={[
-											{ content: '合成材料' },
-											{ content: '合成费用' },
-											{ content: '数量' },
-											{ content: '材料消耗', fullwidth: true },
+											{ content: ir('farming-planner-crafting-item', 'Item') },
+											{ content: ir('farming-planner-crafting-lmd-cost', 'LMD') },
+											{ content: ir('farming-planner-crafting-amount', 'Amount') },
+											{ content: ir('farming-planner-crafting-materials', 'Materials to Craft'), fullwidth: true },
 										]}
 										/>
 										{
@@ -269,7 +269,7 @@ const ArkPlanner = ({
 					REQUEST_STATUS.DONE,
 				].includes(status) && (
 					<Fragment>
-						<span class={style.sub_header}>选项</span>
+						<span class={style.sub_header}>{ir('farming-planner-options', 'Options')}</span>
 						<div class={style.request_options}>
 							<div
 								class={cn(
@@ -282,7 +282,7 @@ const ArkPlanner = ({
 									setOptionGoldDemand(!option_gold_demand);
 								}}
 							>
-							大量需求龙门币
+								{ir('farming-planner-options-lmd-demand', 'Large demand for LMD')}
 							</div>
 							<div
 								class={cn(
@@ -295,7 +295,7 @@ const ArkPlanner = ({
 									setOptionExpDemand(!option_exp_demand);
 								}}
 							>
-							大量需求经验
+								{ir('farming-planner-options-exp-demand', 'Large demand for EXP')}
 							</div>
 							<div
 								class={cn(
@@ -308,7 +308,7 @@ const ArkPlanner = ({
 									setOptionExtraOutc(!option_extra_outc);
 								}}
 							>
-							计算合成副产物
+								{ir('farming-planner-options-by-products', 'Consider by-products')}
 							</div>
 						</div>
 						<div class={style.helper_block}>
@@ -358,7 +358,7 @@ const ArkPlanner = ({
 										setPlan(null);
 									}
 								}}
-							>生成刷图规划</div>
+							>{ir('farming-planner-calculate', 'Calculate Farming Plan')}</div>
 						</div>
 					</Fragment>
 				)
@@ -366,13 +366,13 @@ const ArkPlanner = ({
 			{
 				status === REQUEST_STATUS.PENDING && (
 					<div class={style.helper_block}>
-						<div class={style.request_button}>神经递质释放中</div>
+						<div class={style.request_button}>{ir('farming-planner-calculating', 'Connecting to the neural network')}</div>
 					</div>
 				)
 			}
 			{
 				status === REQUEST_STATUS.FAILED && (
-					<div class={style.helper_block}>无法与ArkPlanner取得连接...请稍后再试</div>
+					<div class={style.helper_block}>{ir('farming-planner-calculate-failed', 'Unable to connect to ArkPlanner...Please try again later')}</div>
 				)
 			}
 			<small>Powered by ArkPlanner & ARK-NIGHTS.com</small>
