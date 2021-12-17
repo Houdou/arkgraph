@@ -28,11 +28,17 @@
 }
 
 .material_group_item {
-	width: 84px;
-	height: 96px;
+	width: 106px;
+	height: 128px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	margin-top: 6px;
+}
+
+.material_group_item_icon {
+	margin-bottom: 12px;
 }
 
 @media screen and (max-width: 600px) {

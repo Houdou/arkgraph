@@ -2,6 +2,7 @@ import React from 'preact';
 import style from './style';
 
 import ArkItem from '../item';
+import ArkInputCell from '../inputCell';
 
 const ArkMaterialGroup = ({
 	ir,
@@ -10,6 +11,7 @@ const ArkMaterialGroup = ({
 	groups,
 	resources,
 	adjustStockItem,
+	setStockItem,
 	item_scale,
 	filter,
 	filter_type,
@@ -30,28 +32,34 @@ const ArkMaterialGroup = ({
 							{
 								list.map((index) => (
 									Boolean(filter ? filter(resources[index]) : true) && (
-										<div
-											key={resources[index].id}
-											class={style.material_group_item}
-											onClick={e => {
-												e.preventDefault();
-												e.stopPropagation();
-												adjustStockItem(resources[index].id, e.shiftKey ? 10 : 1);
-											}}
-											onContextMenu={e => {
-												e.preventDefault();
-												e.stopPropagation();
-												adjustStockItem(resources[index].id, e.shiftKey ? -10 : -1);
-											}}
-										>
-											<ArkItem
-												id={resources[index].id}
-												tier={resources[index].tier}
-												scale={item_scale}
-												quantity={stock[resources[index].id] || 0}
-												requirement={summary[resources[index].id] || 0}
-												show_exceeded={filter_type === 'exceeded'}
-											/>
+										<div class={style.material_group_item}>
+											<div
+												key={resources[index].id}
+												class={style.material_group_item_icon}
+												onClick={e => {
+													e.preventDefault();
+													e.stopPropagation();
+													adjustStockItem(resources[index].id, e.shiftKey ? 10 : 1);
+												}}
+												onContextMenu={e => {
+													e.preventDefault();
+													e.stopPropagation();
+													adjustStockItem(resources[index].id, e.shiftKey ? -10 : -1);
+												}}
+											>
+												<ArkItem
+													id={resources[index].id}
+													tier={resources[index].tier}
+													scale={item_scale}
+													requirement={summary[resources[index].id] || 0}
+													show_exceeded={filter_type === 'exceeded'}
+												/>
+											</div>
+											<ArkInputCell
+												name={resources[index]}
+												value={stock[resources[index].id] || 0}
+												onChange={quantity => setStockItem(resources[index].id, quantity)}
+												tabIndex={index} />
 										</div>
 									)))
 							}

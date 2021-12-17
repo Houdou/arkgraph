@@ -19,6 +19,7 @@ const ArkStockView = ({
 		state: { stock },
 		load,
 		adjustStockItem,
+		setStockItem,
 	} = data;
 
 	const [grouping_type, setGroupingType_raw] = useState(global.grouping_type || 'default');
@@ -83,6 +84,7 @@ const ArkStockView = ({
 							resources={sorted_material_list_by_locale[ir.locale] || material_list}
 							item_scale={item_scale}
 							adjustStockItem={adjustStockItem}
+							setStockItem={setStockItem}
 							groups={material_grouping_options_by_locale[ir.locale][grouping_type].groups}
 						/>
 					</div>
