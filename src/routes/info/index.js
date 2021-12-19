@@ -64,6 +64,13 @@ const Info = ({
 						}
 					})
 			}
+			<p>2021-12-19</p>
+			【刷图】和【库存】页面现在支持手动输入数量了~ <br />
+			ArkPlanner 组件现在支持多语言了 <br />
+			调整了日语翻译 <br />
+			以上诸多改动都来自 @red8ya 的贡献，非常感谢！<br />
+			Huge thanks to the all the contributons from @red8ya! <br />
+			<br />
 			<p>2021-09-17</p>
 			增加了新材料<br />
 			<p>2021-08-03</p>
