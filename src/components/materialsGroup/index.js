@@ -51,6 +51,7 @@ const ArkMaterialGroup = ({
 													id={resources[index].id}
 													tier={resources[index].tier}
 													scale={item_scale}
+													// quantity={stock[resources[index].id] || 0}
 													requirement={summary[resources[index].id] || 0}
 													show_exceeded={filter_type === 'exceeded'}
 												/>
@@ -59,7 +60,8 @@ const ArkMaterialGroup = ({
 												name={resources[index]}
 												value={stock[resources[index].id] || 0}
 												onChange={quantity => setStockItem(resources[index].id, quantity)}
-												tabIndex={index} />
+												tabIndex={index}
+											/>
 										</div>
 									)))
 							}

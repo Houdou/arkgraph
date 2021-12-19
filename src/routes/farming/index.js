@@ -53,6 +53,7 @@ const ArkFarming = ({
 		state: { stock, records, compound_materials },
 		load,
 		adjustStockItem,
+		setStockItem,
 	} = data;
 
 	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
@@ -169,6 +170,7 @@ const ArkFarming = ({
 									resources={level_drop_resources.resources}
 									item_scale={item_scale}
 									adjustStockItem={adjustStockItem}
+									setStockItem={setStockItem}
 									groups={{
 										normal_drop: { render: 'farming-drop-normal_drop', list: level_drop_resources.normal_drop },
 										special_drop: { render: 'farming-drop-special_drop', list: level_drop_resources.special_drop },
@@ -237,6 +239,7 @@ const ArkFarming = ({
 							resources={material_list}
 							item_scale={item_scale}
 							adjustStockItem={adjustStockItem}
+							setStockItem={setStockItem}
 							groups={material_grouping_options[grouping_type].groups}
 							filter={itemFilter}
 							filter_type={filter_type}
