@@ -166,5 +166,68 @@
       "enabled": true,
       "name": "便携测电设备"
     }
+  },
+  "uniequip_002_chen": {
+    "char_id": "char_010_chen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗德岛制式剑"
+    }
+  },
+  "uniequip_002_tachak": {
+    "char_id": "char_459_tachak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "轻机枪枪架"
+    }
+  },
+  "uniequip_002_bibeak": {
+    "char_id": "char_252_bibeak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "做工优良的衬衣"
+    }
+  },
+  "uniequip_002_cutter": {
+    "char_id": "char_301_cutter",
+    "zh_CN": {
+      "enabled": true,
+      "name": "可替换刀具套装"
+    }
+  },
+  "uniequip_002_bpipe": {
+    "char_id": "char_222_bpipe",
+    "zh_CN": {
+      "enabled": true,
+      "name": "破城矛弹夹"
+    }
+  },
+  "uniequip_002_grani": {
+    "char_id": "char_220_grani",
+    "zh_CN": {
+      "enabled": true,
+      "name": "骑警套装"
+    }
+  },
+  "uniequip_002_wildmn": {
+    "char_id": "char_496_wildmn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "长枪替补套装"
+    }
+  },
+  "uniequip_002_sddrag": {
+    "char_id": "char_261_sddrag",
+    "zh_CN": {
+      "enabled": true,
+      "name": "枪刃清洁套装"
+    }
+  },
+  "uniequip_002_vigna": {
+    "char_id": "char_290_vigna",
+    "zh_CN": {
+      "enabled": true,
+      "name": "伟大的摇滚"
+    }
   }
 }
