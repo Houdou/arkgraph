@@ -1,6 +1,18 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2021-12-21",
+    "type": "new_operators",
+    "new_operators": [
+      "char_206_gnosis",
+      "char_4013_kjera",
+      "char_422_aurora"
+    ]
+  },
+  {
+    "server": [
       "zh_TW"
     ],
     "date": "2021-12-15",
@@ -123,21 +135,6 @@
       "char_479_sleach",
       "char_473_mberry",
       "char_484_robrta"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2021-08-19",
-    "type": "new_operators",
-    "new_operators": [
-      "char_456_ash",
-      "char_459_tachak",
-      "char_457_blitz",
-      "char_458_rfrost"
     ]
   }
 ]

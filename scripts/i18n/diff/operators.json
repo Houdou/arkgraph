@@ -14048,6 +14048,23 @@
     "code": null,
     "code_name": "Corroserum"
   },
+  "char_4013_kjera": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "耶拉",
+      "skills": [
+        "攻击力强化·γ型",
+        "心随意动"
+      ],
+      "alias": [
+        "ye la",
+        "yela"
+      ],
+      "appellation": "Kjera"
+    },
+    "code": null,
+    "code_name": "Kjera"
+  },
   "char_473_mberry": {
     "zh_CN": {
       "enabled": true,
@@ -14098,6 +14115,23 @@
     },
     "code": null,
     "code_name": "Ashlock"
+  },
+  "char_422_aurora": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "极光",
+      "skills": [
+        "固守家园",
+        "人工降雪"
+      ],
+      "alias": [
+        "ji guang",
+        "jiguang"
+      ],
+      "appellation": "Aurora"
+    },
+    "code": null,
+    "code_name": "Aurora"
   },
   "char_430_fartth": {
     "zh_CN": {
@@ -14170,6 +14204,24 @@
     },
     "code": null,
     "code_name": "Flametail"
+  },
+  "char_206_gnosis": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "灵知",
+      "skills": [
+        "高速思考",
+        "零度爆发",
+        "失温症"
+      ],
+      "alias": [
+        "ling zhi",
+        "lingzhi"
+      ],
+      "appellation": "Gnosis"
+    },
+    "code": null,
+    "code_name": "Gnosis"
   },
   "char_437_mizuki": {
     "zh_CN": {
@@ -14422,5 +14474,21 @@
     },
     "code": null,
     "code_name": "Knight Trophy"
+  },
+  "trap_050_blizzard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "暴风雪",
+      "skills": [
+        "暴风雪"
+      ],
+      "alias": [
+        "bao feng xue",
+        "baofengxue"
+      ],
+      "appellation": "blizzard"
+    },
+    "code": null,
+    "code_name": "blizzard"
   }
 }
