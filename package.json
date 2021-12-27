@@ -13,7 +13,7 @@
     "generate-announcement": "node scripts/i18n/CheckOperatorsDiff.js",
     "bump": "yarn generate-announcement && node scripts/bump.js",
     "update": "yarn pull-data && yarn prepare-data && yarn parse-data",
-    "build": "preact build --no-prerender --template src/template.html",
+    "build": "preact build --no-prerender --template src/template.html --production && node scripts/postBuild.js",
     "serve": "preact build --no-prerender && preact serve --port 3000",
     "dev": "preact watch --port 3000 --template src/template.html",
     "lint": "eslint src",
