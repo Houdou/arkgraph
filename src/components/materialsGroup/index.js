@@ -54,7 +54,7 @@ const ArkMaterialGroup = ({
 													quantity={stock[resources[index].id] || 0}
 													requirement={summary[resources[index].id] || 0}
 													show_exceeded={filter_type === 'exceeded'}
-													show_quantity={false}
+													hide_quantity
 												/>
 											</div>
 											<ArkInputCell
