@@ -38,7 +38,7 @@ const ArkItem = (props) => {
 					<img src={`../../assets/cards/${card_tier}.png`} class={style.card} alt="card_tier" />
 					<div class={style.numbers}>
 						{
-							props.quantity && props.quantity !== 0 && (
+							props.show_quantity && props.quantity && props.quantity !== 0 && (
 								<div class={style.quantity}>
 									{parseQuantity(props.quantity)}
 								</div>
@@ -46,7 +46,7 @@ const ArkItem = (props) => {
 						}
 						{
 							shortage && shortage !== 0 && (
-								<div class={style.requirement}>
+								<div class={style.shortage}>
 									{parseQuantity(shortage)}
 								</div>
 							) || null

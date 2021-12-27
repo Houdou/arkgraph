@@ -51,9 +51,10 @@ const ArkMaterialGroup = ({
 													id={resources[index].id}
 													tier={resources[index].tier}
 													scale={item_scale}
-													// quantity={stock[resources[index].id] || 0}
+													quantity={stock[resources[index].id] || 0}
 													requirement={summary[resources[index].id] || 0}
 													show_exceeded={filter_type === 'exceeded'}
+													show_quantity={false}
 												/>
 											</div>
 											<ArkInputCell
