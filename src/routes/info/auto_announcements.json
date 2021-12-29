@@ -1,6 +1,31 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2021-12-29",
+    "type": "new_operators",
+    "new_operators": [
+      "char_485_pallas"
+    ]
+  },
+  {
+    "server": [
+      "zh_TW"
+    ],
+    "date": "2021-12-29",
+    "type": "new_operators",
+    "new_operators": [
+      "char_362_saga",
+      "char_2015_dusk",
+      "char_1011_lava2",
+      "char_455_nothin"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2021-12-21",
@@ -106,35 +131,6 @@
       "char_472_pasngr",
       "char_304_zebra",
       "char_363_toddi"
-    ]
-  },
-  {
-    "server": [
-      "zh_TW"
-    ],
-    "date": "2021-09-17",
-    "type": "new_operators",
-    "new_operators": [
-      "char_456_ash",
-      "char_391_rosmon",
-      "char_311_mudrok",
-      "char_459_tachak",
-      "char_436_whispr",
-      "char_457_blitz",
-      "char_458_rfrost",
-      "char_347_jaksel"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2021-09-17",
-    "type": "new_operators",
-    "new_operators": [
-      "char_479_sleach",
-      "char_473_mberry",
-      "char_484_robrta"
     ]
   }
 ]

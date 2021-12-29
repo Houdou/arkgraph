@@ -6020,6 +6020,15 @@
       ],
       "appellation": "Lava the Purgatory"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "炎獄炎熔",
+      "skills": [
+        "焰淬匕首",
+        "獄火之環"
+      ],
+      "alias": []
+    },
     "code": "lava the purgatory",
     "code_name": "Lava the Purgatory"
   },
@@ -6830,6 +6839,15 @@
         "wuyou"
       ],
       "appellation": "Mr.Nothing"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "烏有",
+      "skills": [
+        "知難而退",
+        "陰晴圓缺"
+      ],
+      "alias": []
     },
     "code": "mr. nothing",
     "code_name": "Mr.Nothing"
@@ -8760,6 +8778,16 @@
       ],
       "appellation": "Saga"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "嵯峨",
+      "skills": [
+        "衝鋒號令·γ型",
+        "除惡",
+        "怒目"
+      ],
+      "alias": []
+    },
     "code": "saga",
     "code_name": "Saga"
   },
@@ -9049,6 +9077,16 @@
         "xi"
       ],
       "appellation": "Dusk"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "夕",
+      "skills": [
+        "工筆入化",
+        "潑墨淋漓",
+        "寫意勝形"
+      ],
+      "alias": []
     },
     "code": "dusk",
     "code_name": "Dusk"
@@ -10563,6 +10601,56 @@
     "code": "hellagur",
     "code_name": "Hellagur"
   },
+  "char_485_pallas": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pallas",
+      "skills": [
+        "Strikes of Victory",
+        "Whip of Conviction",
+        "Blessing of Heroism"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パラス",
+      "skills": [
+        "勝敗分かつ連撃",
+        "信念宿りし長鞭",
+        "勇士に捧ぐ祝福"
+      ],
+      "alias": [
+        "ぱらす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "팔라스",
+      "skills": [
+        "승리의 연타",
+        "신념의 채찍",
+        "용감의 축복"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "帕拉斯",
+      "skills": [
+        "胜利的连击",
+        "信念的长鞭",
+        "英勇的祝福"
+      ],
+      "alias": [
+        "pa la si",
+        "palasi"
+      ],
+      "appellation": "Pallas"
+    },
+    "code": "pallas",
+    "code_name": "Pallas"
+  },
   "token_10000_silent_healrb": {
     "en_US": {
       "enabled": true,
@@ -11579,6 +11667,16 @@
         "\"xiaozizai\""
       ],
       "appellation": "Little Instinct"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "\"小自在\"",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
     },
     "code": "'freeling'",
     "code_name": "Little Instinct"
@@ -12856,6 +12954,14 @@
         "gailiangxingertijiao"
       ],
       "appellation": "D.B.F2.1ver "
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "改良型二踢腳",
+      "skills": [
+        "撼動現實"
+      ],
+      "alias": []
     },
     "code": "two-step firecracker mk2",
     "code_name": "D.B.F2.1ver "
@@ -14240,24 +14346,6 @@
     },
     "code": null,
     "code_name": "Mizuki"
-  },
-  "char_485_pallas": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "帕拉斯",
-      "skills": [
-        "胜利的连击",
-        "信念的长鞭",
-        "英勇的祝福"
-      ],
-      "alias": [
-        "pa la si",
-        "palasi"
-      ],
-      "appellation": "Pallas"
-    },
-    "code": null,
-    "code_name": "Pallas"
   },
   "char_1014_nearl2": {
     "zh_CN": {
