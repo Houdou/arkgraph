@@ -14035,6 +14035,14 @@
       ],
       "appellation": "Amiya"
     },
+    "zh_TW": {
+      "enabled": true,
+      "skills": [
+        "影霄·奔夜",
+        "影霄·絕影"
+      ],
+      "alias": []
+    },
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
@@ -14204,6 +14212,23 @@
     },
     "code": null,
     "code_name": "Honeyberry"
+  },
+  "char_4025_aprot2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "暮落",
+      "skills": [
+        "速战速决",
+        "燃命狂欢"
+      ],
+      "alias": [
+        "mu la",
+        "mula"
+      ],
+      "appellation": "Shalem"
+    },
+    "code": null,
+    "code_name": "Shalem"
   },
   "char_431_ashlok": {
     "zh_CN": {
@@ -14578,5 +14603,69 @@
     },
     "code": null,
     "code_name": "blizzard"
+  },
+  "trap_051_vultres": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "无主的财富",
+      "skills": [
+        "诱人珍宝"
+      ],
+      "alias": [
+        "wu zhu de cai fu",
+        "wuzhudecaifu"
+      ],
+      "appellation": "Unowned Treasure"
+    },
+    "code": null,
+    "code_name": "Unowned Treasure"
+  },
+  "trap_052_slowfd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "失修舞台雾机",
+      "skills": [
+        "高压喷射"
+      ],
+      "alias": [
+        "shi xiu wu tai wu ji",
+        "shixiuwutaiwuji"
+      ],
+      "appellation": "Broken Fog Machine"
+    },
+    "code": null,
+    "code_name": "Broken Fog Machine"
+  },
+  "trap_053_airbomb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携气罐",
+      "skills": [
+        "砰！"
+      ],
+      "alias": [
+        "bian xie qi guan",
+        "bianxieqiguan"
+      ],
+      "appellation": "Gas Tank P."
+    },
+    "code": null,
+    "code_name": "Gas Tank P."
+  },
+  "trap_054_dancdol": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“报幕助手”",
+      "skills": [
+        "剧目宣告"
+      ],
+      "alias": [
+        "“ bao mu zhu shou ”",
+        "“baomuzhushou”"
+      ],
+      "appellation": "“Host's Assistant”"
+    },
+    "code": null,
+    "code_name": "“Host's Assistant”"
   }
 }
