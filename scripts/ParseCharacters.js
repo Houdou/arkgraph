@@ -20,7 +20,10 @@ const all_characters = [
 			}
 		}
 	),
-];
+].filter(
+	// Duplicated rogue characters
+	([unique_id]) => unique_id !== 'char_512_aprot' // char_4025_aprot2
+);
 
 const parseCharacter = (character, unique_id) => {
 	if (

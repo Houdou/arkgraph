@@ -16,28 +16,30 @@ const readTable = (lang) => {
 	const characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/character_table.json`));
 	const skills = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/skill_table.json`));
 
-	if (lang !== 'zh_TW') {
-		const patch_characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/char_patch_table.json`));
+	const patch_characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/char_patch_table.json`));
 
-		Object.entries(patch_characters.patchChars).forEach(([unique_id, value]) => {
-			characters[unique_id] = {
-				...value,
-				name: (() => {
-					switch (lang) {
-						case 'zh_CN':
-							return `升变${value.name}`;
-						case 'ja_JP':
-							return `昇格${value.name}`;
-						case 'en_US':
-						case 'ko_KR':
-							return `Promoted ${value.name}`;
-					}
-				})(),
-			};
-		});
-	}
+	Object.entries(patch_characters.patchChars).forEach(([unique_id, value]) => {
+		characters[unique_id] = {
+			...value,
+			name: (() => {
+				switch (lang) {
+					case 'zh_CN':
+						return `升变${value.name}`;
+					case 'ja_JP':
+						return `昇格${value.name}`;
+					case 'en_US':
+					case 'ko_KR':
+						return `Promoted ${value.name}`;
+				}
+			})(),
+		};
+	});
 
 	Object.entries(characters)
+		.filter(
+			// Duplicated rogue characters
+			([unique_id]) => unique_id !== 'char_512_aprot' // char_4025_aprot2
+		)
 		.forEach(([unique_id, value]) => {
 			operator_data[unique_id] = operator_data[unique_id] || {};
 			operator_data[unique_id][lang] = {
