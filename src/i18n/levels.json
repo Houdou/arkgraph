@@ -13796,6 +13796,21 @@
       "enabled": true
     }
   },
+  "camp_r_05": {
+    "code": "伊比利亚",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "st_09-01": {
     "code": "9-1",
     "zh_CN": {
@@ -14902,12 +14917,6 @@
   },
   "act17d7_01": {
     "code": "LTTB",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "camp_r_05": {
-    "code": "伊比利亚",
     "zh_CN": {
       "enabled": true
     }

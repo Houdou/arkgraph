@@ -2937,19 +2937,24 @@
   },
   "W-5-1": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Module Data Block",
+      "alias": [],
+      "sortId": 90001
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "モジュールデータ",
+      "alias": [
+        "もじゅーるでーた"
+      ],
+      "sortId": 90001
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "모듈 데이터칩",
+      "alias": [],
+      "sortId": 90001
     },
     "zh_CN": {
       "enabled": true,

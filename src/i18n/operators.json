@@ -14264,6 +14264,23 @@
     "code": null,
     "code_name": "Aurora"
   },
+  "char_4019_ncdeer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "九色鹿",
+      "skills": [
+        "人间降吉",
+        "仙山去远"
+      ],
+      "alias": [
+        "jiu se lu",
+        "jiuselu"
+      ],
+      "appellation": "Nine-Colored Deer"
+    },
+    "code": null,
+    "code_name": "Nine-Colored Deer"
+  },
   "char_430_fartth": {
     "zh_CN": {
       "enabled": true,
