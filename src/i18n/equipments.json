@@ -1,6 +1,18 @@
 {
   "uniequip_002_mgllan": {
     "char_id": "char_248_mgllan",
+    "en_US": {
+      "enabled": true,
+      "name": "Drone Control Module.P"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ドローン操作専門モジュール"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "프로 드론 조작 모듈"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "专业无人机操作模块"
@@ -8,6 +20,18 @@
   },
   "uniequip_002_folivo": {
     "char_id": "char_336_folivo",
+    "en_US": {
+      "enabled": true,
+      "name": "Improved Lens.P"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "プロ級改良レンズ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "프로급 개량 렌즈"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "专业级改良镜头"
@@ -15,6 +39,18 @@
   },
   "uniequip_002_otter": {
     "char_id": "char_242_otter",
+    "en_US": {
+      "enabled": true,
+      "name": "'Meeboo' Control Terminal XP"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミーボコントロール端末XP"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미보 제어 단말 XP"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "咪波控制终端XP"
@@ -22,6 +58,18 @@
   },
   "uniequip_002_deepcl": {
     "char_id": "char_110_deepcl",
+    "en_US": {
+      "enabled": true,
+      "name": "Weird Palette"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "冒涜的なパレット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수상한 팔레트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "诡异的调色盘"
@@ -29,6 +77,18 @@
   },
   "uniequip_002_pallas": {
     "char_id": "char_485_pallas",
+    "en_US": {
+      "enabled": true,
+      "name": "'Ούρος'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「故郷の山岩」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'고향의 바위'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“故乡的山岩”"
@@ -36,6 +96,18 @@
   },
   "uniequip_002_sophia": {
     "char_id": "char_265_sophia",
+    "en_US": {
+      "enabled": true,
+      "name": "Whipsword Wire.L"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "鞭刃延長ワイヤー"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "더 길어진 채찍"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "加长鞭刃丝线"
@@ -43,6 +115,18 @@
   },
   "uniequip_002_swire": {
     "char_id": "char_308_swire",
+    "en_US": {
+      "enabled": true,
+      "name": "Self-defense Lipstick"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "防犯ルージュ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "호신용 립스틱"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "防身口红"
@@ -50,6 +134,18 @@
   },
   "uniequip_002_doberm": {
     "char_id": "char_130_doberm",
+    "en_US": {
+      "enabled": true,
+      "name": "Military Telescope"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "軍用望遠鏡"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "군용 망원경"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "军用望远镜"
