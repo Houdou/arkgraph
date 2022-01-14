@@ -4937,6 +4937,98 @@
     "code": "akafuyu",
     "code_name": "Akafuyu"
   },
+  "char_421_crow": {
+    "en_US": {
+      "enabled": true,
+      "name": "La Pluma",
+      "skills": [
+        "Rapid Slashing",
+        "Reap"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ラ・プルマ",
+      "skills": [
+        "ソニックスラッシュ",
+        "リーピング"
+      ],
+      "alias": [
+        "ら・ぷるま"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "라 플루마",
+      "skills": [
+        "고속절단",
+        "수확"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "羽毛笔",
+      "skills": [
+        "高速切割",
+        "收割"
+      ],
+      "alias": [
+        "yu mao bi",
+        "yumaobi"
+      ],
+      "appellation": "La Pluma"
+    },
+    "code": "la pluma",
+    "code_name": "La Pluma"
+  },
+  "char_486_takila": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tequila",
+      "skills": [
+        "Decisive Action",
+        "Esoteric Bladework"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "テキーラ",
+      "skills": [
+        "即断即決",
+        "極刃奇襲"
+      ],
+      "alias": [
+        "てきーら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "테킬라",
+      "skills": [
+        "즉시 결단",
+        "기상천외"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "龙舌兰",
+      "skills": [
+        "当机立断",
+        "剑走偏锋"
+      ],
+      "alias": [
+        "long she lan",
+        "longshelan"
+      ],
+      "appellation": "Tequila"
+    },
+    "code": "tequila",
+    "code_name": "Tequila"
+  },
   "char_129_bluep": {
     "en_US": {
       "enabled": true,
@@ -6647,7 +6739,7 @@
       "name": "レッド",
       "skills": [
         "処刑の構え",
-        "郡狼"
+        "群狼"
       ],
       "alias": [
         "れっど"
@@ -7225,6 +7317,15 @@
       ],
       "appellation": "Heavyrain"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "暴雨",
+      "skills": [
+        "應急迷彩",
+        "群體迷彩"
+      ],
+      "alias": []
+    },
     "code": "heavyrain",
     "code_name": "Heavyrain"
   },
@@ -7435,6 +7536,15 @@
         "rongquan"
       ],
       "appellation": "Toddifons"
+    },
+    "zh_TW": {
+      "enabled": true,
+      "name": "熔泉",
+      "skills": [
+        "信號矢",
+        "便攜破城矢"
+      ],
+      "alias": []
     },
     "code": "toddifons",
     "code_name": "Toddifons"
@@ -8611,6 +8721,56 @@
     "code": "rosmontis",
     "code_name": "Rosmontis"
   },
+  "char_1013_chen2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ch'en the Holungday",
+      "skills": [
+        "High-Pressure Splash",
+        "'Night of Violet'",
+        "'Holiday Storm'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "遊龍チェン",
+      "skills": [
+        "高圧ショット",
+        "バイオレットナイト",
+        "ホリデーストーム"
+      ],
+      "alias": [
+        "遊龍ちぇん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "첸 더 홀룽데이",
+      "skills": [
+        "고압 충격",
+        "'나이트 오브 바이올렛'",
+        "'홀리데이 스톰'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "假日威龙陈",
+      "skills": [
+        "高压冲击",
+        "“堇青之夜”",
+        "“假日风暴”"
+      ],
+      "alias": [
+        "jia ri wei long chen",
+        "jiariweilongchen"
+      ],
+      "appellation": "Ch'en the Holungday"
+    },
+    "code": "ch'en the holungday",
+    "code_name": "Ch'en the Holungday"
+  },
   "char_112_siege": {
     "en_US": {
       "enabled": true,
@@ -9138,6 +9298,16 @@
       ],
       "appellation": "Passenger"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "異客",
+      "skills": [
+        "電能之觸",
+        "聚焦指令",
+        "輝煌裂片"
+      ],
+      "alias": []
+    },
     "code": "passenger",
     "code_name": "Passenger"
   },
@@ -9650,6 +9820,56 @@
     },
     "code": "gladiia",
     "code_name": "Gladiia"
+  },
+  "char_437_mizuki": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mizuki",
+      "skills": [
+        "Awaken",
+        "Prisoner's Dilemma",
+        "Moon in the Water"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミヅキ",
+      "skills": [
+        "呼び声",
+        "ジレンマ",
+        "鏡花水月"
+      ],
+      "alias": [
+        "みづき"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미즈키",
+      "skills": [
+        "일깨움",
+        "죄수의 딜레마",
+        "경화수월"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "水月",
+      "skills": [
+        "唤醒",
+        "囚徒困境",
+        "镜花水月"
+      ],
+      "alias": [
+        "shui yue",
+        "shuiyue"
+      ],
+      "appellation": "Mizuki"
+    },
+    "code": "mizuki",
+    "code_name": "Mizuki"
   },
   "char_147_shining": {
     "en_US": {
@@ -13470,6 +13690,14 @@
       ],
       "appellation": "Maneuver Drone Hangar"
     },
+    "zh_TW": {
+      "enabled": true,
+      "name": "可移動戰術機庫",
+      "skills": [
+        "派遣空援"
+      ],
+      "alias": []
+    },
     "code": "mobile tactical hangar",
     "code_name": "Maneuver Drone Hangar"
   },
@@ -13556,6 +13784,186 @@
     },
     "code": "offspring",
     "code_name": "Seaborn's Filial Generation"
+  },
+  "trap_040_canoe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Custom Floating Platform",
+      "skills": [
+        "Deployment Platform",
+        "Deployment Platform"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "特設ボート",
+      "skills": [
+        "ボード設置",
+        "ボード設置"
+      ],
+      "alias": [
+        "特設ぼーと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "특제 수상 플랫폼",
+      "skills": [
+        "플랫폼 설치",
+        "플랫폼 설치"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "特制水上平台",
+      "skills": [
+        "放置平台",
+        "放置平台"
+      ],
+      "alias": [
+        "te zhi shui shang ping tai",
+        "tezhishuishangpingtai"
+      ],
+      "appellation": "TinyBoat"
+    },
+    "code": "custom floating platform",
+    "code_name": "TinyBoat"
+  },
+  "trap_041_fcanon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kite",
+      "skills": [
+        "Fire!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カイト",
+      "skills": [
+        "撃ち方始め！"
+      ],
+      "alias": [
+        "かいと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "연",
+      "skills": [
+        "포격!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "风筝",
+      "skills": [
+        "开炮！"
+      ],
+      "alias": [
+        "feng zheng",
+        "fengzheng"
+      ],
+      "appellation": "Kite"
+    },
+    "code": "kite",
+    "code_name": "Kite"
+  },
+  "trap_042_tidectrl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tide Controller",
+      "skills": [
+        "Small Rising Tide",
+        "Large Rising Tide",
+        "Deep Water"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "潮高制御装置",
+      "skills": [
+        "引き潮",
+        "満ち潮",
+        "「深水区域」"
+      ],
+      "alias": [
+        "潮高制御装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "밀물 제어 장치",
+      "skills": [
+        "소폭 만조",
+        "대폭 만조",
+        "깊은 수역"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "涨潮控制",
+      "skills": [
+        "小幅涨潮",
+        "大幅涨潮",
+        "深水"
+      ],
+      "alias": [
+        "zhang chao kong zhi",
+        "zhangchaokongzhi"
+      ],
+      "appellation": "Tide Controller"
+    },
+    "code": "tide controller",
+    "code_name": "Tide Controller"
+  },
+  "trap_046_oxygen": {
+    "en_US": {
+      "enabled": true,
+      "name": "Erosion-Resistant Coating Application Device",
+      "skills": [
+        "Erosion-Resistant Coating Application Device"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "耐水蝕コーティング装置",
+      "skills": [
+        "耐水蝕コーティング装置"
+      ],
+      "alias": [
+        "耐水蝕こーてぃんぐ装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수식 방지 코팅 장치",
+      "skills": [
+        "수식 방지 코팅 장치"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "防水蚀镀膜装置",
+      "skills": [
+        "防水蚀镀膜装置"
+      ],
+      "alias": [
+        "fang shui shi du mo zhuang zhi",
+        "fangshuishidumozhuangzhi"
+      ],
+      "appellation": "Erosionproof Coating Device"
+    },
+    "code": "erosion-resistant coating application device",
+    "code_name": "Erosionproof Coating Device"
   },
   "char_230_savage": {
     "en_US": {
@@ -14111,40 +14519,6 @@
     "code": null,
     "code_name": "Wild Mane"
   },
-  "char_421_crow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "羽毛笔",
-      "skills": [
-        "高速切割",
-        "收割"
-      ],
-      "alias": [
-        "yu mao bi",
-        "yumaobi"
-      ],
-      "appellation": "La Pluma"
-    },
-    "code": null,
-    "code_name": "La Pluma"
-  },
-  "char_486_takila": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "龙舌兰",
-      "skills": [
-        "当机立断",
-        "剑走偏锋"
-      ],
-      "alias": [
-        "long she lan",
-        "longshelan"
-      ],
-      "appellation": "Tequila"
-    },
-    "code": null,
-    "code_name": "Tequila"
-  },
   "char_489_serum": {
     "zh_CN": {
       "enabled": true,
@@ -14299,24 +14673,6 @@
     "code": null,
     "code_name": "Fartooth"
   },
-  "char_1013_chen2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "假日威龙陈",
-      "skills": [
-        "高压冲击",
-        "“堇青之夜”",
-        "“假日风暴”"
-      ],
-      "alias": [
-        "jia ri wei long chen",
-        "jiariweilongchen"
-      ],
-      "appellation": "Ch'en the Holungday"
-    },
-    "code": null,
-    "code_name": "Ch'en the Holungday"
-  },
   "char_479_sleach": {
     "zh_CN": {
       "enabled": true,
@@ -14370,24 +14726,6 @@
     },
     "code": null,
     "code_name": "Gnosis"
-  },
-  "char_437_mizuki": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "水月",
-      "skills": [
-        "唤醒",
-        "囚徒困境",
-        "镜花水月"
-      ],
-      "alias": [
-        "shui yue",
-        "shuiyue"
-      ],
-      "appellation": "Mizuki"
-    },
-    "code": null,
-    "code_name": "Mizuki"
   },
   "char_1014_nearl2": {
     "zh_CN": {
@@ -14458,57 +14796,6 @@
     "code": null,
     "code_name": "Emperor"
   },
-  "trap_040_canoe": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "特制水上平台",
-      "skills": [
-        "放置平台",
-        "放置平台"
-      ],
-      "alias": [
-        "te zhi shui shang ping tai",
-        "tezhishuishangpingtai"
-      ],
-      "appellation": "TinyBoat"
-    },
-    "code": null,
-    "code_name": "TinyBoat"
-  },
-  "trap_041_fcanon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "风筝",
-      "skills": [
-        "开炮！"
-      ],
-      "alias": [
-        "feng zheng",
-        "fengzheng"
-      ],
-      "appellation": "Kite"
-    },
-    "code": null,
-    "code_name": "Kite"
-  },
-  "trap_042_tidectrl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "涨潮控制",
-      "skills": [
-        "小幅涨潮",
-        "大幅涨潮",
-        "深水"
-      ],
-      "alias": [
-        "zhang chao kong zhi",
-        "zhangchaokongzhi"
-      ],
-      "appellation": "Tide Controller"
-    },
-    "code": null,
-    "code_name": "Tide Controller"
-  },
   "trap_043_dupilr": {
     "zh_CN": {
       "enabled": true,
@@ -14556,22 +14843,6 @@
     },
     "code": null,
     "code_name": "Demolition Device"
-  },
-  "trap_046_oxygen": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "防水蚀镀膜装置",
-      "skills": [
-        "防水蚀镀膜装置"
-      ],
-      "alias": [
-        "fang shui shi du mo zhuang zhi",
-        "fangshuishidumozhuangzhi"
-      ],
-      "appellation": "Erosionproof Coating Device"
-    },
-    "code": null,
-    "code_name": "Erosionproof Coating Device"
   },
   "trap_048_neonlamp": {
     "zh_CN": {
