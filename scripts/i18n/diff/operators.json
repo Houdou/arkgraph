@@ -14519,6 +14519,40 @@
     "code": null,
     "code_name": "Wild Mane"
   },
+  "char_476_blkngt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "夜半",
+      "skills": [
+        "半醒",
+        "安眠"
+      ],
+      "alias": [
+        "ye ban",
+        "yeban"
+      ],
+      "appellation": "Blacknight"
+    },
+    "code": null,
+    "code_name": "Blacknight"
+  },
+  "char_1021_kroos2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "寒芒克洛丝",
+      "skills": [
+        "无痕",
+        "封喉"
+      ],
+      "alias": [
+        "han mang ke luo si",
+        "hanmangkeluosi"
+      ],
+      "appellation": "Kroos the Keen Glint"
+    },
+    "code": null,
+    "code_name": "Kroos the Keen Glint"
+  },
   "char_489_serum": {
     "zh_CN": {
       "enabled": true,
@@ -14727,6 +14761,42 @@
     "code": null,
     "code_name": "Gnosis"
   },
+  "char_2023_ling": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "令",
+      "skills": [
+        "重进酒",
+        "笑鸣瑟",
+        "宁作吾"
+      ],
+      "alias": [
+        "ling",
+        "ling"
+      ],
+      "appellation": "Ling"
+    },
+    "code": null,
+    "code_name": "Ling"
+  },
+  "char_322_lmlee": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "老鲤",
+      "skills": [
+        "小惩大诫",
+        "驱凶辟邪",
+        "贵客盈门"
+      ],
+      "alias": [
+        "lao li",
+        "laoli"
+      ],
+      "appellation": "Lee"
+    },
+    "code": null,
+    "code_name": "Lee"
+  },
   "char_1014_nearl2": {
     "zh_CN": {
       "enabled": true,
@@ -14779,6 +14849,77 @@
     },
     "code": null,
     "code_name": "Blazing Sun"
+  },
+  "token_10020_ling_soul1": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“清平”",
+      "skills": [
+        "重进酒",
+        "重进酒",
+        "重进酒"
+      ],
+      "alias": [
+        "“ qing ping ”",
+        "“qingping”"
+      ],
+      "appellation": "Tranquility"
+    },
+    "code": null,
+    "code_name": "Tranquility"
+  },
+  "token_10020_ling_soul2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“逍遥”",
+      "skills": [
+        "笑鸣瑟",
+        "笑鸣瑟",
+        "笑鸣瑟"
+      ],
+      "alias": [
+        "“ xiao yao ”",
+        "“xiaoyao”"
+      ],
+      "appellation": "Peripateticism"
+    },
+    "code": null,
+    "code_name": "Peripateticism"
+  },
+  "token_10020_ling_soul3": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“弦惊”",
+      "skills": [
+        "宁作吾",
+        "宁作吾",
+        "宁作吾"
+      ],
+      "alias": [
+        "“ xian jing ”",
+        "“xianjing”"
+      ],
+      "appellation": "Thunderer"
+    },
+    "code": null,
+    "code_name": "Thunderer"
+  },
+  "token_10021_blkngt_hypnos": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "眠兽",
+      "skills": [
+        "食梦",
+        "食梦"
+      ],
+      "alias": [
+        "mian shou",
+        "mianshou"
+      ],
+      "appellation": "Hypnos"
+    },
+    "code": null,
+    "code_name": "Hypnos"
   },
   "trap_035_emperor": {
     "zh_CN": {
@@ -14955,5 +15096,35 @@
     },
     "code": null,
     "code_name": "“Host's Assistant”"
+  },
+  "trap_055_tileblock": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "封印的地面",
+      "skills": [
+        "不可部署"
+      ],
+      "alias": [
+        "feng yin de di mian",
+        "fengyindedimian"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": null,
+    "code_name": "Sealed Floor"
+  },
+  "trap_056_sfsuifire": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "丹田",
+      "skills": [],
+      "alias": [
+        "dan tian",
+        "dantian"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": null,
+    "code_name": "Sealed Floor"
   }
 }
