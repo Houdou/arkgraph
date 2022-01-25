@@ -325,5 +325,75 @@
       "enabled": true,
       "name": "伟大的摇滚"
     }
+  },
+  "uniequip_002_nearl2": {
+    "char_id": "char_1014_nearl2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "耀阳锋刃"
+    }
+  },
+  "uniequip_002_skadi": {
+    "char_id": "char_263_skadi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "潮湿的剑袋"
+    }
+  },
+  "uniequip_002_flameb": {
+    "char_id": "char_131_flameb",
+    "zh_CN": {
+      "enabled": true,
+      "name": "锈损的断刀"
+    }
+  },
+  "uniequip_002_franka": {
+    "char_id": "char_106_franka",
+    "zh_CN": {
+      "enabled": true,
+      "name": "尖端铝热单元"
+    }
+  },
+  "uniequip_002_peacok": {
+    "char_id": "char_159_peacok",
+    "zh_CN": {
+      "enabled": true,
+      "name": "断罪之拳"
+    }
+  },
+  "uniequip_002_gyuki": {
+    "char_id": "char_289_gyuki",
+    "zh_CN": {
+      "enabled": true,
+      "name": "断竹插花作品"
+    }
+  },
+  "uniequip_002_nothin": {
+    "char_id": "char_455_nothin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“檐下听雨”"
+    }
+  },
+  "uniequip_002_strong": {
+    "char_id": "char_272_strong",
+    "zh_CN": {
+      "enabled": true,
+      "name": "精钢刀具套组"
+    }
+  },
+  "uniequip_002_lmlee": {
+    "char_id": "char_322_lmlee",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“无问吉凶”"
+    }
+  },
+  "uniequip_002_ling": {
+    "char_id": "char_2023_ling",
+    "zh_CN": {
+      "enabled": true,
+      "name": "诗短梦长"
+    }
   }
 }
