@@ -14689,6 +14689,23 @@
     "code": null,
     "code_name": "Nine-Colored Deer"
   },
+  "char_492_quercu": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "夏栎",
+      "skills": [
+        "大地的慈悲",
+        "生灵的回响"
+      ],
+      "alias": [
+        "xia li",
+        "xiali"
+      ],
+      "appellation": "Quercus"
+    },
+    "code": null,
+    "code_name": "Quercus"
+  },
   "char_430_fartth": {
     "zh_CN": {
       "enabled": true,
@@ -14742,6 +14759,24 @@
     },
     "code": null,
     "code_name": "Flametail"
+  },
+  "char_377_gdglow": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "澄闪",
+      "skills": [
+        "火花四溅",
+        "电流翻涌",
+        "澄净闪耀"
+      ],
+      "alias": [
+        "cheng shan",
+        "chengshan"
+      ],
+      "appellation": "Goldenglow"
+    },
+    "code": null,
+    "code_name": "Goldenglow"
   },
   "char_206_gnosis": {
     "zh_CN": {
