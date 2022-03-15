@@ -14706,6 +14706,40 @@
     "code": null,
     "code_name": "Quercus"
   },
+  "char_4036_forcer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "见行者",
+      "skills": [
+        "护身射击",
+        "惊爆射击"
+      ],
+      "alias": [
+        "jian hang zhe",
+        "jianhangzhe"
+      ],
+      "appellation": "Enforcer"
+    },
+    "code": null,
+    "code_name": "Enforcer"
+  },
+  "char_4016_kazema": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "风丸",
+      "skills": [
+        "纸艺·迅击",
+        "纸艺·双影"
+      ],
+      "alias": [
+        "feng wan",
+        "fengwan"
+      ],
+      "appellation": "Kazemaru"
+    },
+    "code": null,
+    "code_name": "Kazemaru"
+  },
   "char_430_fartth": {
     "zh_CN": {
       "enabled": true,
@@ -14723,6 +14757,24 @@
     },
     "code": null,
     "code_name": "Fartooth"
+  },
+  "char_300_phenxi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "菲亚梅塔",
+      "skills": [
+        "“你须直面”",
+        "“你须愧悔”",
+        "“你须偿还”"
+      ],
+      "alias": [
+        "fei ya mei ta",
+        "feiyameita"
+      ],
+      "appellation": "Fiammetta"
+    },
+    "code": null,
+    "code_name": "Fiammetta"
   },
   "char_479_sleach": {
     "zh_CN": {
@@ -14956,6 +15008,23 @@
     "code": null,
     "code_name": "Hypnos"
   },
+  "token_10022_kazema_shadow": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "纸偶",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "zhi ou",
+        "zhiou"
+      ],
+      "appellation": "Kaminingyo"
+    },
+    "code": null,
+    "code_name": "Kaminingyo"
+  },
   "trap_035_emperor": {
     "zh_CN": {
       "enabled": true,
@@ -15161,5 +15230,22 @@
     },
     "code": null,
     "code_name": "Sealed Floor"
+  },
+  "trap_057_wpnsts": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“冰淇淋机”",
+      "skills": [
+        "拉特兰式冰淇淋",
+        "拉特兰式冰淇淋"
+      ],
+      "alias": [
+        "“ bing qi lin ji ”",
+        "“bingqilinji”"
+      ],
+      "appellation": "\"Gelato Stop\""
+    },
+    "code": null,
+    "code_name": "\"Gelato Stop\""
   }
 }

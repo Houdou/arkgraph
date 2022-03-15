@@ -3,6 +3,18 @@
     "server": [
       "zh_CN"
     ],
+    "date": "2022-03-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_300_phenxi",
+      "char_4036_forcer",
+      "char_4016_kazema"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
     "date": "2022-02-15",
     "type": "new_operators",
     "new_operators": [
@@ -104,18 +116,6 @@
       "char_2015_dusk",
       "char_1011_lava2",
       "char_455_nothin"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2021-12-21",
-    "type": "new_operators",
-    "new_operators": [
-      "char_206_gnosis",
-      "char_4013_kjera",
-      "char_422_aurora"
     ]
   }
 ]
