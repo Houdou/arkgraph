@@ -395,5 +395,89 @@
       "enabled": true,
       "name": "诗短梦长"
     }
+  },
+  "uniequip_002_cqbw": {
+    "char_id": "char_113_cqbw",
+    "zh_CN": {
+      "enabled": true,
+      "name": "佣兵的行囊"
+    }
+  },
+  "uniequip_002_phenxi": {
+    "char_id": "char_300_phenxi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“律外”特种弹药配给组"
+    }
+  },
+  "uniequip_002_meteo": {
+    "char_id": "char_219_meteo",
+    "zh_CN": {
+      "enabled": true,
+      "name": "无名的身份牌"
+    }
+  },
+  "uniequip_002_sesa": {
+    "char_id": "char_379_sesa",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“灵魂共鸣”"
+    }
+  },
+  "uniequip_002_yuki": {
+    "char_id": "char_118_yuki",
+    "zh_CN": {
+      "enabled": true,
+      "name": "手里剑"
+    }
+  },
+  "uniequip_002_dusk": {
+    "char_id": "char_2015_dusk",
+    "zh_CN": {
+      "enabled": true,
+      "name": "无题长卷"
+    }
+  },
+  "uniequip_002_mostma": {
+    "char_id": "char_213_mostma",
+    "zh_CN": {
+      "enabled": true,
+      "name": "锁与匙之家"
+    }
+  },
+  "uniequip_002_lava2": {
+    "char_id": "char_1011_lava2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "萨卡兹的刀"
+    }
+  },
+  "uniequip_002_skfire": {
+    "char_id": "char_166_skfire",
+    "zh_CN": {
+      "enabled": true,
+      "name": "阻燃处理方案"
+    }
+  },
+  "uniequip_002_lionhd": {
+    "char_id": "char_373_lionhd",
+    "zh_CN": {
+      "enabled": true,
+      "name": "传承与开拓"
+    }
+  },
+  "uniequip_002_fmout": {
+    "char_id": "char_109_fmout",
+    "zh_CN": {
+      "enabled": true,
+      "name": "占卜师旅行套装"
+    }
+  },
+  "uniequip_002_greyy": {
+    "char_id": "char_253_greyy",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新的开始"
+    }
   }
 }

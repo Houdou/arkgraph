@@ -1641,7 +1641,25 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_cqbw",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "红桃K",
       "惊吓盒子",
@@ -1952,7 +1970,348 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "equipments_enabled": false
+      "equipments_enabled": true
+    }
+  },
+  {
+    "unique_id": "char_300_phenxi",
+    "name": "菲亚梅塔",
+    "pinyin": [
+      "fei ya mei ta",
+      "feiyameita"
+    ],
+    "profession": "SNIPER",
+    "rarity": 5,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_phenxi",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      }
+    ],
+    "skill_names": [
+      "“你须直面”",
+      "“你须愧悔”",
+      "“你须偿还”"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 4
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "“你须直面”",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-7",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "“你须愧悔”",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 9
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "“你须偿还”",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-4",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 6
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "equipments_enabled": true
     }
   },
   {
@@ -4889,7 +5248,25 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_mostma",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "攻击力强化·γ型",
       "荒时之锁",
@@ -5200,7 +5577,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -5858,7 +6235,25 @@
     ],
     "profession": "CASTER",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_dusk",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "工笔入化",
       "泼墨淋漓",
@@ -6169,7 +6564,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -25669,7 +26064,25 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_meteo",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "霰射弹头",
       "高爆弹头"
@@ -25915,7 +26328,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -25927,7 +26340,25 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_sesa",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-7",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "攻击力强化·γ型",
       "延时震荡零件"
@@ -26173,7 +26604,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -27532,7 +27963,25 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_skfire",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "攻击力强化·γ型",
       "天坠之火"
@@ -27778,7 +28227,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -28398,7 +28847,25 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_lionhd",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "攻击力强化·γ型",
       "解构与爆破"
@@ -28644,7 +29111,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -29172,7 +29639,25 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_lava2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "焰淬匕首",
       "狱火之环"
@@ -29418,7 +29903,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -41250,6 +41735,264 @@
     }
   },
   {
+    "unique_id": "char_4036_forcer",
+    "name": "见行者",
+    "pinyin": [
+      "jian hang zhe",
+      "jianhangzhe"
+    ],
+    "profession": "SPECIAL",
+    "rarity": 4,
+    "equipments": [],
+    "skill_names": [
+      "护身射击",
+      "惊爆射击"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "护身射击",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "惊爆射击",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-2",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-8",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-8",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-11",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-15",
+            "quantity": 12
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "equipments_enabled": false
+    }
+  },
+  {
     "unique_id": "char_451_robin",
     "name": "罗宾",
     "pinyin": [
@@ -42013,6 +42756,264 @@
           {
             "resource": "M-3-7",
             "quantity": 15
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "equipments_enabled": false
+    }
+  },
+  {
+    "unique_id": "char_4016_kazema",
+    "name": "风丸",
+    "pinyin": [
+      "feng wan",
+      "fengwan"
+    ],
+    "profession": "SPECIAL",
+    "rarity": 4,
+    "equipments": [],
+    "skill_names": [
+      "纸艺·迅击",
+      "纸艺·双影"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "纸艺·迅击",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-7",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "纸艺·双影",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-8",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-8",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 9
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 13
           }
         ]
       }
@@ -43336,7 +44337,25 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_fmout",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "战术咏唱·β型",
       "命运"
@@ -43578,7 +44597,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -43590,7 +44609,25 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_greyy",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "战术咏唱·β型",
       "静电释放"
@@ -43832,7 +44869,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -45640,7 +46677,25 @@
     ],
     "profession": "SNIPER",
     "rarity": 3,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_yuki",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "敌飙",
       "凝武"
@@ -45882,7 +46937,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
