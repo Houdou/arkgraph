@@ -3576,6 +3576,52 @@
     "code": "podenco",
     "code_name": "Podenco"
   },
+  "char_484_robrta": {
+    "en_US": {
+      "enabled": true,
+      "name": "Roberta",
+      "skills": [
+        "Siracusan-Style Makeup",
+        "Full Auto Modeler"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロベルタ",
+      "skills": [
+        "シラクーザ式化粧術",
+        "メイクアップマシン"
+      ],
+      "alias": [
+        "ろべるた"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로베르타",
+      "skills": [
+        "시라쿠사식 화장",
+        "전자동 스타일러"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗比菈塔",
+      "skills": [
+        "叙拉古式上妆",
+        "全自动造型仪"
+      ],
+      "alias": [
+        "luo bi la ta",
+        "luobilata"
+      ],
+      "appellation": "Roberta"
+    },
+    "code": "roberta",
+    "code_name": "Roberta"
+  },
   "char_355_ethan": {
     "en_US": {
       "enabled": true,
@@ -6614,6 +6660,52 @@
     "code": "tuye",
     "code_name": "Tuye"
   },
+  "char_473_mberry": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mulberry",
+      "skills": [
+        "Healing Haze",
+        "Safe Zone"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "マルベリー",
+      "skills": [
+        "ヒーリングミスト",
+        "セーフティゾーン"
+      ],
+      "alias": [
+        "まるべりー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "멀베리",
+      "skills": [
+        "힐링 헤이즈",
+        "안전지대"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "桑葚",
+      "skills": [
+        "治愈云雾",
+        "安全区域"
+      ],
+      "alias": [
+        "sang shen",
+        "sangshen"
+      ],
+      "appellation": "Mulberry"
+    },
+    "code": "mulberry",
+    "code_name": "Mulberry"
+  },
   "char_148_nearl": {
     "en_US": {
       "enabled": true,
@@ -8950,6 +9042,56 @@
     },
     "code": "saga",
     "code_name": "Saga"
+  },
+  "char_479_sleach": {
+    "en_US": {
+      "enabled": true,
+      "name": "Saileach",
+      "skills": [
+        "Support γ",
+        "Inheritance of Faith",
+        "Glorious Banner"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サイラッハ",
+      "skills": [
+        "支援指令γ",
+        "信念の義旗",
+        "光輝の御旗"
+      ],
+      "alias": [
+        "さいらっは"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사일라흐",
+      "skills": [
+        "지원지령γ",
+        "신앙의 전승",
+        "찬란한 깃발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "琴柳",
+      "skills": [
+        "支援号令·γ型",
+        "信仰传承",
+        "光辉旗帜"
+      ],
+      "alias": [
+        "qin liu",
+        "qinliu"
+      ],
+      "appellation": "Saileach"
+    },
+    "code": "saileach",
+    "code_name": "Saileach"
   },
   "char_134_ifrit": {
     "en_US": {
@@ -12006,6 +12148,52 @@
     "code": "skadi's seaborn",
     "code_name": "Skadi's seaborn"
   },
+  "token_10018_robrta_mach": {
+    "en_US": {
+      "enabled": true,
+      "name": "Full Auto Modeler",
+      "skills": [
+        "Full Auto Modeler",
+        "Full Auto Modeler"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "メイクアップマシン",
+      "skills": [
+        "メイクアップマシン",
+        "メイクアップマシン"
+      ],
+      "alias": [
+        "めいくあっぷましん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전자동 스타일러",
+      "skills": [
+        "전자동 스타일러",
+        "전자동 스타일러"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "全自动造型仪",
+      "skills": [
+        "全自动造型仪",
+        "全自动造型仪"
+      ],
+      "alias": [
+        "quan zi dong zao xing yi",
+        "quanzidongzaoxingyi"
+      ],
+      "appellation": "Making-up Machine"
+    },
+    "code": "full auto modeler",
+    "code_name": "Making-up Machine"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -13923,6 +14111,132 @@
     "code": "tide controller",
     "code_name": "Tide Controller"
   },
+  "trap_043_dupilr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tattered Pillar",
+      "skills": [
+        "Collapsing Pillar"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "脆い石柱",
+      "skills": [
+        "倒壊"
+      ],
+      "alias": [
+        "脆い石柱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "망가진 기둥",
+      "skills": [
+        "기둥 붕괴"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "破碎支柱",
+      "skills": [
+        "支柱坍塌"
+      ],
+      "alias": [
+        "po sui zhi zhu",
+        "posuizhizhu"
+      ],
+      "appellation": "Tattered Pillar"
+    },
+    "code": "tattered pillar",
+    "code_name": "Tattered Pillar"
+  },
+  "trap_044_duruin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Battlefield Ruins",
+      "skills": [
+        "Obstruct"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "瓦礫",
+      "skills": [
+        "進路妨害"
+      ],
+      "alias": [
+        "瓦礫"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전장의 폐허",
+      "skills": [
+        "진로 방해"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战场废墟",
+      "skills": [
+        "阻挡路线"
+      ],
+      "alias": [
+        "zhan chang fei xu",
+        "zhanchangfeixu"
+      ],
+      "appellation": "Battlefield Ruins"
+    },
+    "code": "battlefield ruins",
+    "code_name": "Battlefield Ruins"
+  },
+  "trap_045_dublst": {
+    "en_US": {
+      "enabled": true,
+      "name": "Demolition Device",
+      "skills": [
+        "Explode"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "爆破装置",
+      "skills": [
+        "爆破"
+      ],
+      "alias": [
+        "爆破装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "폭파 장치",
+      "skills": [
+        "폭파"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "爆破装置",
+      "skills": [
+        "爆破"
+      ],
+      "alias": [
+        "bao po zhuang zhi",
+        "baopozhuangzhi"
+      ],
+      "appellation": "Demolition Device"
+    },
+    "code": "demolition device",
+    "code_name": "Demolition Device"
+  },
   "trap_046_oxygen": {
     "en_US": {
       "enabled": true,
@@ -14485,23 +14799,6 @@
     "code": null,
     "code_name": "Pudding"
   },
-  "char_484_robrta": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "罗比菈塔",
-      "skills": [
-        "叙拉古式上妆",
-        "全自动造型仪"
-      ],
-      "alias": [
-        "luo bi la ta",
-        "luobilata"
-      ],
-      "appellation": "Roberta"
-    },
-    "code": null,
-    "code_name": "Roberta"
-  },
   "char_496_wildmn": {
     "zh_CN": {
       "enabled": true,
@@ -14586,23 +14883,6 @@
     },
     "code": null,
     "code_name": "Kjera"
-  },
-  "char_473_mberry": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "桑葚",
-      "skills": [
-        "治愈云雾",
-        "安全区域"
-      ],
-      "alias": [
-        "sang shen",
-        "sangshen"
-      ],
-      "appellation": "Mulberry"
-    },
-    "code": null,
-    "code_name": "Mulberry"
   },
   "char_449_glider": {
     "zh_CN": {
@@ -14776,24 +15056,6 @@
     "code": null,
     "code_name": "Fiammetta"
   },
-  "char_479_sleach": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "琴柳",
-      "skills": [
-        "支援号令·γ型",
-        "信仰传承",
-        "光辉旗帜"
-      ],
-      "alias": [
-        "qin liu",
-        "qinliu"
-      ],
-      "appellation": "Saileach"
-    },
-    "code": null,
-    "code_name": "Saileach"
-  },
   "char_420_flamtl": {
     "zh_CN": {
       "enabled": true,
@@ -14901,23 +15163,6 @@
     },
     "code": null,
     "code_name": "Nearl the Radiant Knight"
-  },
-  "token_10018_robrta_mach": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "全自动造型仪",
-      "skills": [
-        "全自动造型仪",
-        "全自动造型仪"
-      ],
-      "alias": [
-        "quan zi dong zao xing yi",
-        "quanzidongzaoxingyi"
-      ],
-      "appellation": "Making-up Machine"
-    },
-    "code": null,
-    "code_name": "Making-up Machine"
   },
   "token_10019_nearl2_sword": {
     "zh_CN": {
@@ -15040,54 +15285,6 @@
     },
     "code": null,
     "code_name": "Emperor"
-  },
-  "trap_043_dupilr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "破碎支柱",
-      "skills": [
-        "支柱坍塌"
-      ],
-      "alias": [
-        "po sui zhi zhu",
-        "posuizhizhu"
-      ],
-      "appellation": "Tattered Pillar"
-    },
-    "code": null,
-    "code_name": "Tattered Pillar"
-  },
-  "trap_044_duruin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战场废墟",
-      "skills": [
-        "阻挡路线"
-      ],
-      "alias": [
-        "zhan chang fei xu",
-        "zhanchangfeixu"
-      ],
-      "appellation": "Battlefield Ruins"
-    },
-    "code": null,
-    "code_name": "Battlefield Ruins"
-  },
-  "trap_045_dublst": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "爆破装置",
-      "skills": [
-        "爆破"
-      ],
-      "alias": [
-        "bao po zhuang zhi",
-        "baopozhuangzhi"
-      ],
-      "appellation": "Demolition Device"
-    },
-    "code": null,
-    "code_name": "Demolition Device"
   },
   "trap_048_neonlamp": {
     "zh_CN": {
