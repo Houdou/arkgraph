@@ -151,15 +151,20 @@
       "name": "军用望远镜"
     }
   },
-  "uniequip_002_fartth": {
-    "char_id": "char_430_fartth",
-    "zh_CN": {
-      "enabled": true,
-      "name": "首战支援套组"
-    }
-  },
   "uniequip_002_milu": {
     "char_id": "char_158_milu",
+    "en_US": {
+      "enabled": true,
+      "name": "Field Sniper Equipment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "野戦用狙撃装備"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "야전 저격 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "野战狙击套装"
@@ -167,6 +172,18 @@
   },
   "uniequip_002_cuttle": {
     "char_id": "char_218_cuttle",
+    "en_US": {
+      "enabled": true,
+      "name": "Gunsmithing Toolkit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "銃器整備用工具箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "총기 정비 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "枪支调试工具组"
@@ -174,6 +191,18 @@
   },
   "uniequip_002_glaze": {
     "char_id": "char_302_glaze",
+    "en_US": {
+      "enabled": true,
+      "name": "Portable Radar Equipment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レーダー補助機材"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "휴대용 레이더 보조 기기"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "便携雷达的辅助器材"
@@ -181,6 +210,18 @@
   },
   "uniequip_002_cgbird": {
     "char_id": "char_179_cgbird",
+    "en_US": {
+      "enabled": true,
+      "name": "'Closed Hope'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「籠の中の希望」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'갇혀버린 희망'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“封闭的希望”"
@@ -188,6 +229,18 @@
   },
   "uniequip_002_plosis": {
     "char_id": "char_128_plosis",
+    "en_US": {
+      "enabled": true,
+      "name": "Medic Environment Analyze System"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "医療環境分析装置"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "의료 환경 분석 장치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "医疗环境分析装置"
@@ -195,6 +248,18 @@
   },
   "uniequip_002_breeze": {
     "char_id": "char_275_breeze",
+    "en_US": {
+      "enabled": true,
+      "name": "Surgical Instrument Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "外科医療キット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "외과 의료 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "外科医疗套组"
@@ -202,9 +267,28 @@
   },
   "uniequip_002_flower": {
     "char_id": "char_181_flower",
+    "en_US": {
+      "enabled": true,
+      "name": "'Aegean's Kiss'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「エーゲの口づけ」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'에게의 키스'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“爱琴之吻”"
+    }
+  },
+  "uniequip_002_fartth": {
+    "char_id": "char_430_fartth",
+    "zh_CN": {
+      "enabled": true,
+      "name": "首战支援套组"
     }
   },
   "uniequip_002_phatom": {

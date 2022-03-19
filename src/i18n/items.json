@@ -2776,19 +2776,24 @@
   },
   "M-3-14": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Semi-Synthetic Solvent",
+      "alias": [],
+      "sortId": 100044
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "半自然溶剤",
+      "alias": [
+        "半自然溶剤"
+      ],
+      "sortId": 100044
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "반합성 용제",
+      "alias": [],
+      "sortId": 100044
     },
     "zh_CN": {
       "enabled": true,
@@ -2807,19 +2812,24 @@
   },
   "M-4-14": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Refined Solvent",
+      "alias": [],
+      "sortId": 100043
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "精錬溶剤",
+      "alias": [
+        "精錬溶剤"
+      ],
+      "sortId": 100043
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "정제된 용제",
+      "alias": [],
+      "sortId": 100043
     },
     "zh_CN": {
       "enabled": true,
@@ -2838,19 +2848,24 @@
   },
   "M-3-15": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Compound Cutting Fluid",
+      "alias": [],
+      "sortId": 100046
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "切削液",
+      "alias": [
+        "切削液"
+      ],
+      "sortId": 100046
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "중합 적살유",
+      "alias": [],
+      "sortId": 100046
     },
     "zh_CN": {
       "enabled": true,
@@ -2869,19 +2884,24 @@
   },
   "M-4-15": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Cutting Fluid Solution",
+      "alias": [],
+      "sortId": 100045
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "上級切削液",
+      "alias": [
+        "上級切削液"
+      ],
+      "sortId": 100045
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "절삭유 원액",
+      "alias": [],
+      "sortId": 100045
     },
     "zh_CN": {
       "enabled": true,
