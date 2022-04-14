@@ -6899,6 +6899,21 @@
       "enabled": true
     }
   },
+  "act17d7_01": {
+    "code": "LTTB",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act8mini_01": {
     "code": "VI-1",
     "en_US": {
@@ -15407,6 +15422,414 @@
       "enabled": true
     }
   },
+  "easy_09-01": {
+    "code": "9-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-02": {
+    "code": "9-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-03": {
+    "code": "9-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-04": {
+    "code": "9-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-05": {
+    "code": "9-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-06": {
+    "code": "9-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-07": {
+    "code": "9-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-08": {
+    "code": "9-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-09": {
+    "code": "9-11",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-10": {
+    "code": "9-12",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-11": {
+    "code": "9-13",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-12": {
+    "code": "9-14",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-13": {
+    "code": "9-15",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-14": {
+    "code": "9-16",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-15": {
+    "code": "9-17",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-16": {
+    "code": "9-18",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_09-17": {
+    "code": "9-19",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "st_10-01": {
+    "code": "10-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-01": {
+    "code": "10-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-01": {
+    "code": "10-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-01": {
+    "code": "10-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-02": {
+    "code": "10-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-02": {
+    "code": "10-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-02": {
+    "code": "10-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tr_20": {
+    "code": "TR-20",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-03": {
+    "code": "10-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-03": {
+    "code": "10-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-03": {
+    "code": "10-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-04": {
+    "code": "10-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-04": {
+    "code": "10-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-04": {
+    "code": "10-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-05": {
+    "code": "10-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-05": {
+    "code": "10-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-05": {
+    "code": "10-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-06": {
+    "code": "10-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-06": {
+    "code": "10-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-06": {
+    "code": "10-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-07": {
+    "code": "10-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-07": {
+    "code": "10-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-07": {
+    "code": "10-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-08": {
+    "code": "10-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-08": {
+    "code": "10-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-08": {
+    "code": "10-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-09": {
+    "code": "10-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-09": {
+    "code": "10-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-09": {
+    "code": "10-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-10": {
+    "code": "10-11",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-10": {
+    "code": "10-11",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-10": {
+    "code": "10-11",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-11": {
+    "code": "10-12",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-11": {
+    "code": "10-12",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-11": {
+    "code": "10-12",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "st_10-02": {
+    "code": "10-13",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-12": {
+    "code": "10-14",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-12": {
+    "code": "10-14",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-12": {
+    "code": "10-14",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-13": {
+    "code": "10-15",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-13": {
+    "code": "10-15",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-13": {
+    "code": "10-15",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-14": {
+    "code": "10-16",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-14": {
+    "code": "10-16",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-14": {
+    "code": "10-16",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_10-15": {
+    "code": "10-17",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "main_10-15": {
+    "code": "10-17",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "tough_10-15": {
+    "code": "10-17",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "st_10-03": {
+    "code": "10-18",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "st_10-04": {
+    "code": "10-19",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "easy_sub_09-1-1": {
+    "code": "S9-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act16side_st01": {
     "code": "GA-ST-1",
     "zh_CN": {
@@ -15469,6 +15892,102 @@
   },
   "act16side_st02": {
     "code": "GA-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex01": {
+    "code": "GA-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex01#f#": {
+    "code": "GA-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex02": {
+    "code": "GA-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex02#f#": {
+    "code": "GA-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex03": {
+    "code": "GA-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex03#f#": {
+    "code": "GA-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex04": {
+    "code": "GA-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex04#f#": {
+    "code": "GA-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex05": {
+    "code": "GA-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex05#f#": {
+    "code": "GA-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex06": {
+    "code": "GA-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex06#f#": {
+    "code": "GA-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex07": {
+    "code": "GA-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex07#f#": {
+    "code": "GA-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex08": {
+    "code": "GA-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16side_ex08#f#": {
+    "code": "GA-EX-8",
     "zh_CN": {
       "enabled": true
     }
@@ -16249,12 +16768,6 @@
   },
   "act9mini_06#f#": {
     "code": "PS-6",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act17d7_01": {
-    "code": "LTTB",
     "zh_CN": {
       "enabled": true
     }

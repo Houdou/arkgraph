@@ -563,5 +563,68 @@
       "enabled": true,
       "name": "新的开始"
     }
+  },
+  "uniequip_002_shwaz": {
+    "char_id": "char_340_shwaz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "定制弩配件套装"
+    }
+  },
+  "uniequip_002_prove": {
+    "char_id": "char_145_prove",
+    "zh_CN": {
+      "enabled": true,
+      "name": "尾巴养护套装"
+    }
+  },
+  "uniequip_002_acdrop": {
+    "char_id": "char_366_acdrop",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“自由、洋葱圈和我”"
+    }
+  },
+  "uniequip_002_lisa": {
+    "char_id": "char_358_lisa",
+    "zh_CN": {
+      "enabled": true,
+      "name": "怀中御守"
+    }
+  },
+  "uniequip_002_aglina": {
+    "char_id": "char_291_aglina",
+    "zh_CN": {
+      "enabled": true,
+      "name": "重力校准模块"
+    }
+  },
+  "uniequip_002_glacus": {
+    "char_id": "char_326_glacus",
+    "zh_CN": {
+      "enabled": true,
+      "name": "外骨骼装备"
+    }
+  },
+  "uniequip_002_glassb": {
+    "char_id": "char_195_glassb",
+    "zh_CN": {
+      "enabled": true,
+      "name": "读书笔记"
+    }
+  },
+  "uniequip_002_podego": {
+    "char_id": "char_258_podego",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“不谢的苗圃”"
+    }
+  },
+  "uniequip_002_skgoat": {
+    "char_id": "char_183_skgoat",
+    "zh_CN": {
+      "enabled": true,
+      "name": "待确认的申请表"
+    }
   }
 }

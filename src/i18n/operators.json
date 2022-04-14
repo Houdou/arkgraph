@@ -13789,6 +13789,48 @@
     "code": "reinforcement device",
     "code_name": "Reinforcing Materials"
   },
+  "trap_035_emperor": {
+    "en_US": {
+      "enabled": true,
+      "name": "Emperor",
+      "skills": [
+        "Punchline"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エンペラー",
+      "skills": [
+        "Punchline"
+      ],
+      "alias": [
+        "えんぺらー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "엠퍼러",
+      "skills": [
+        "Punchline"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "大帝",
+      "skills": [
+        "Punchline"
+      ],
+      "alias": [
+        "da di",
+        "dadi"
+      ],
+      "appellation": "Emperor"
+    },
+    "code": "emperor",
+    "code_name": "Emperor"
+  },
   "trap_036_storm": {
     "en_US": {
       "enabled": true,
@@ -14799,6 +14841,23 @@
     "code": null,
     "code_name": "Pudding"
   },
+  "char_4041_chnut": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "褐果",
+      "skills": [
+        "积微成著",
+        "厚土迸发"
+      ],
+      "alias": [
+        "he guo",
+        "heguo"
+      ],
+      "appellation": "Chestnut"
+    },
+    "code": null,
+    "code_name": "Chestnut"
+  },
   "char_496_wildmn": {
     "zh_CN": {
       "enabled": true,
@@ -14884,6 +14943,23 @@
     "code": null,
     "code_name": "Kjera"
   },
+  "char_4040_rockr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "洛洛",
+      "skills": [
+        "战术咏唱·γ型",
+        "自负此轭"
+      ],
+      "alias": [
+        "luo luo",
+        "luoluo"
+      ],
+      "appellation": "Rockrock"
+    },
+    "code": null,
+    "code_name": "Rockrock"
+  },
   "char_449_glider": {
     "zh_CN": {
       "enabled": true,
@@ -14951,6 +15027,23 @@
     },
     "code": null,
     "code_name": "Aurora"
+  },
+  "char_4045_heidi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "海蒂",
+      "skills": [
+        "虚构故事·怒士",
+        "虚构故事·锈城"
+      ],
+      "alias": [
+        "hai di",
+        "haidi"
+      ],
+      "appellation": "Heidi"
+    },
+    "code": null,
+    "code_name": "Heidi"
   },
   "char_4019_ncdeer": {
     "zh_CN": {
@@ -15146,6 +15239,24 @@
     "code": null,
     "code_name": "Lee"
   },
+  "char_4039_horn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "号角",
+      "skills": [
+        "照明榴弹",
+        "暴风号令",
+        "终极防线"
+      ],
+      "alias": [
+        "hao jiao",
+        "haojiao"
+      ],
+      "appellation": "Horn"
+    },
+    "code": null,
+    "code_name": "Horn"
+  },
   "char_1014_nearl2": {
     "zh_CN": {
       "enabled": true,
@@ -15270,22 +15381,6 @@
     "code": null,
     "code_name": "Kaminingyo"
   },
-  "trap_035_emperor": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "大帝",
-      "skills": [
-        "Punchline"
-      ],
-      "alias": [
-        "da di",
-        "dadi"
-      ],
-      "appellation": "Emperor"
-    },
-    "code": null,
-    "code_name": "Emperor"
-  },
   "trap_048_neonlamp": {
     "zh_CN": {
       "enabled": true,
@@ -15329,10 +15424,10 @@
         "bao feng xue",
         "baofengxue"
       ],
-      "appellation": "blizzard"
+      "appellation": "Blizzard"
     },
     "code": null,
-    "code_name": "blizzard"
+    "code_name": "Blizzard"
   },
   "trap_051_vultres": {
     "zh_CN": {
@@ -15444,5 +15539,37 @@
     },
     "code": null,
     "code_name": "\"Gelato Stop\""
+  },
+  "trap_058_gunctrl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "伦蒂尼姆城防副炮",
+      "skills": [
+        "开火"
+      ],
+      "alias": [
+        "lun di ni mu cheng fang fu pao",
+        "lundinimuchengfangfupao"
+      ],
+      "appellation": " Citadel Artillery of Londinium"
+    },
+    "code": null,
+    "code_name": " Citadel Artillery of Londinium"
+  },
+  "trap_059_peacokfool": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "断罪者",
+      "skills": [
+        "断罪模式！"
+      ],
+      "alias": [
+        "duan zui zhe",
+        "duanzuizhe"
+      ],
+      "appellation": "Conviction"
+    },
+    "code": null,
+    "code_name": "Conviction"
   }
 }
