@@ -7421,6 +7421,52 @@
     "code": "heavyrain",
     "code_name": "Heavyrain"
   },
+  "char_431_ashlok": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ashlock",
+      "skills": [
+        "ATK Up γ",
+        "Focused Bombardment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アッシュロック",
+      "skills": [
+        "攻撃力強化γ",
+        "砲撃専念"
+      ],
+      "alias": [
+        "あっしゅろっく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "애쉬락",
+      "skills": [
+        "공격 강화γ",
+        "집중 폭격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "灰毫",
+      "skills": [
+        "攻击力强化·γ型",
+        "专注轰击"
+      ],
+      "alias": [
+        "hui hao",
+        "huihao"
+      ],
+      "appellation": "Ashlock"
+    },
+    "code": "ashlock",
+    "code_name": "Ashlock"
+  },
   "char_145_prove": {
     "en_US": {
       "enabled": true,
@@ -8632,6 +8678,56 @@
     },
     "code": "schwarz",
     "code_name": "Schwarz"
+  },
+  "char_430_fartth": {
+    "en_US": {
+      "enabled": true,
+      "name": "Fartooth",
+      "skills": [
+        "Swift Strike γ",
+        "Ally Support",
+        "Feathershine Arrows"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ファートゥース",
+      "skills": [
+        "迅速攻撃γ",
+        "戦術連携",
+        "フェザーアロー"
+      ],
+      "alias": [
+        "ふぁーとぅーす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파투스",
+      "skills": [
+        "신속공격γ",
+        "동맹 지원",
+        "페더샤인 애로우"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "远牙",
+      "skills": [
+        "迅捷打击·γ型",
+        "同盟支援",
+        "光羽箭"
+      ],
+      "alias": [
+        "yuan ya",
+        "yuanya"
+      ],
+      "appellation": "Fartooth"
+    },
+    "code": "fartooth",
+    "code_name": "Fartooth"
   },
   "char_113_cqbw": {
     "en_US": {
@@ -14994,23 +15090,6 @@
     "code": null,
     "code_name": "Shalem"
   },
-  "char_431_ashlok": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "灰毫",
-      "skills": [
-        "攻击力强化·γ型",
-        "专注轰击"
-      ],
-      "alias": [
-        "hui hao",
-        "huihao"
-      ],
-      "appellation": "Ashlock"
-    },
-    "code": null,
-    "code_name": "Ashlock"
-  },
   "char_422_aurora": {
     "zh_CN": {
       "enabled": true,
@@ -15112,24 +15191,6 @@
     },
     "code": null,
     "code_name": "Kazemaru"
-  },
-  "char_430_fartth": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "远牙",
-      "skills": [
-        "迅捷打击·γ型",
-        "同盟支援",
-        "光羽箭"
-      ],
-      "alias": [
-        "yuan ya",
-        "yuanya"
-      ],
-      "appellation": "Fartooth"
-    },
-    "code": null,
-    "code_name": "Fartooth"
   },
   "char_300_phenxi": {
     "zh_CN": {

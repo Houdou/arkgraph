@@ -151,6 +151,25 @@
       "name": "军用望远镜"
     }
   },
+  "uniequip_002_fartth": {
+    "char_id": "char_430_fartth",
+    "en_US": {
+      "enabled": true,
+      "name": "First-show Support Set"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "デビュー戦サポートセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "첫 경기 지원 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "首战支援套组"
+    }
+  },
   "uniequip_002_milu": {
     "char_id": "char_158_milu",
     "en_US": {
@@ -282,13 +301,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "“爱琴之吻”"
-    }
-  },
-  "uniequip_002_fartth": {
-    "char_id": "char_430_fartth",
-    "zh_CN": {
-      "enabled": true,
-      "name": "首战支援套组"
     }
   },
   "uniequip_002_phatom": {
