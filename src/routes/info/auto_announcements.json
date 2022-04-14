@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2022-04-14",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4039_horn",
+      "char_4040_rockr",
+      "char_4045_heidi",
+      "char_4041_chnut"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -105,18 +118,6 @@
     "new_operators": [
       "char_4025_aprot2",
       "char_512_aprot"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2021-12-29",
-    "type": "new_operators",
-    "new_operators": [
-      "char_485_pallas"
     ]
   }
 ]
