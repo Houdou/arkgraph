@@ -11523,6 +11523,36 @@
     "extra_drop": []
   },
   {
+    "level": "H10-1",
+    "energy": 10,
+    "unique_id": "hard_10-01",
+    "zone_id": "main_10",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "H10-2",
+    "energy": 10,
+    "unique_id": "hard_10-02",
+    "zone_id": "main_10",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "H10-3",
+    "energy": 10,
+    "unique_id": "hard_10-03",
+    "zone_id": "main_10",
+    "is_perm": false,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "CE-1",
     "energy": 10,
     "unique_id": "wk_melee_1",

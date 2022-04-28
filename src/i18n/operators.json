@@ -119,6 +119,40 @@
     "code": "thrm-ex",
     "code_name": "Thermal-EX"
   },
+  "char_4000_jnight": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Justice Knight'",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジャスティスナイト",
+      "skills": [],
+      "alias": [
+        "じゃすてぃすないと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "저스티스 나이트",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "正义骑士号",
+      "skills": [],
+      "alias": [
+        "zheng yi qi shi hao",
+        "zhengyiqishihao"
+      ],
+      "appellation": "\"Justice Knight\""
+    },
+    "code": "'justice knight'",
+    "code_name": "\"Justice Knight\""
+  },
   "char_502_nblade": {
     "en_US": {
       "enabled": true,
@@ -1494,6 +1528,52 @@
     },
     "code": "indigo",
     "code_name": "Indigo"
+  },
+  "char_4004_pudd": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pudding",
+      "skills": [
+        "Tactical Chant β",
+        "Diffusion Current"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "プリン",
+      "skills": [
+        "戦術詠唱β",
+        "電子流拡散"
+      ],
+      "alias": [
+        "ぷりん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "푸딩",
+      "skills": [
+        "전술영창β",
+        "전류 확산"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "布丁",
+      "skills": [
+        "战术咏唱·β型",
+        "扩散电流"
+      ],
+      "alias": [
+        "bu ding",
+        "buding"
+      ],
+      "appellation": "Pudding"
+    },
+    "code": "pudding",
+    "code_name": "Pudding"
   },
   "char_235_jesica": {
     "en_US": {
@@ -4062,6 +4142,52 @@
     "code": "reed",
     "code_name": "Reed"
   },
+  "char_496_wildmn": {
+    "en_US": {
+      "enabled": true,
+      "name": "Wild Mane",
+      "skills": [
+        "Stabbing Lance",
+        "Lance Charge"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ワイルドメイン",
+      "skills": [
+        "ラピッドランス",
+        "ランスチャージ"
+      ],
+      "alias": [
+        "わいるどめいん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "와일드메인",
+      "skills": [
+        "스태빙 랜스",
+        "랜스 차지"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "野鬃",
+      "skills": [
+        "骑枪刺击",
+        "夹枪冲锋"
+      ],
+      "alias": [
+        "ye zong",
+        "yezong"
+      ],
+      "appellation": "Wild Mane"
+    },
+    "code": "wild mane",
+    "code_name": "Wild Mane"
+  },
   "char_401_elysm": {
     "en_US": {
       "enabled": true,
@@ -6170,6 +6296,52 @@
     "code": "lava the purgatory",
     "code_name": "Lava the Purgatory"
   },
+  "char_489_serum": {
+    "en_US": {
+      "enabled": true,
+      "name": "Corroserum",
+      "skills": [
+        "Focus Overload",
+        "Conductive Corrosive Blast"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コロセラム",
+      "skills": [
+        "過集中",
+        "神経蝕滞弾"
+      ],
+      "alias": [
+        "ころせらむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "코로세럼",
+      "skills": [
+        "집중력 과부하",
+        "전도성 부식탄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "蚀清",
+      "skills": [
+        "专注力超载",
+        "传导蚀滞弹"
+      ],
+      "alias": [
+        "shi qing",
+        "shiqing"
+      ],
+      "appellation": "Corroserum"
+    },
+    "code": "corroserum",
+    "code_name": "Corroserum"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -6705,6 +6877,52 @@
     },
     "code": "mulberry",
     "code_name": "Mulberry"
+  },
+  "char_449_glider": {
+    "en_US": {
+      "enabled": true,
+      "name": "Honeyberry",
+      "skills": [
+        "Spiritual Care",
+        "Rouse"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハニーベリー",
+      "skills": [
+        "メンタルケア",
+        "リフレッシュ"
+      ],
+      "alias": [
+        "はにーべりー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "허니베리",
+      "skills": [
+        "스피리추얼 케어",
+        "분발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "蜜莓",
+      "skills": [
+        "精神护理",
+        "振奋"
+      ],
+      "alias": [
+        "mi mei",
+        "mimei"
+      ],
+      "appellation": "Honeyberry"
+    },
+    "code": "honeyberry",
+    "code_name": "Honeyberry"
   },
   "char_148_nearl": {
     "en_US": {
@@ -9189,6 +9407,56 @@
     "code": "saileach",
     "code_name": "Saileach"
   },
+  "char_420_flamtl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Flametail",
+      "skills": [
+        "Quick Intuition",
+        "'Pinus Sylvestris'",
+        "Flameheart"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フレイムテイル",
+      "skills": [
+        "俊敏なる直覚",
+        "「レッドパイン」",
+        "フレイムハート"
+      ],
+      "alias": [
+        "ふれいむている"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "플레임테일",
+      "skills": [
+        "예리한 직감",
+        "'피누스 실베스트리스'",
+        "불꽃의 마음"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "焰尾",
+      "skills": [
+        "迅敏直觉",
+        "“红松林”",
+        "焰心"
+      ],
+      "alias": [
+        "yan wei",
+        "yanwei"
+      ],
+      "appellation": "Flametail"
+    },
+    "code": "flametail",
+    "code_name": "Flametail"
+  },
   "char_134_ifrit": {
     "en_US": {
       "enabled": true,
@@ -11109,6 +11377,56 @@
     "code": "pallas",
     "code_name": "Pallas"
   },
+  "char_1014_nearl2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Nearl the Radiant Knight",
+      "skills": [
+        "Flaming Edge",
+        "Night-Scouring Gleam",
+        "Blazing Sun's Obeisance"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "耀騎士ニアール",
+      "skills": [
+        "夜に灯る白焔",
+        "闇を払う暁光",
+        "大地を照らす烈陽"
+      ],
+      "alias": [
+        "耀騎士にあーる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "니어 더 래디언트 나이트",
+      "skills": [
+        "찬란한 불꽃의 장검",
+        "밤의 광채",
+        "눈부신 태양의 승인"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "耀骑士临光",
+      "skills": [
+        "灿焰长刃",
+        "逐夜烁光",
+        "耀阳颔首"
+      ],
+      "alias": [
+        "yao qi shi lin guang",
+        "yaoqishilinguang"
+      ],
+      "appellation": "Nearl the Radiant Knight"
+    },
+    "code": "nearl the radiant knight",
+    "code_name": "Nearl the Radiant Knight"
+  },
   "token_10000_silent_healrb": {
     "en_US": {
       "enabled": true,
@@ -12289,6 +12607,56 @@
     },
     "code": "full auto modeler",
     "code_name": "Making-up Machine"
+  },
+  "token_10019_nearl2_sword": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Blazing Sun'",
+      "skills": [
+        "",
+        "",
+        "'Blazing Sun'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ブレイジング・サン」",
+      "skills": [
+        "",
+        "",
+        "「ブレイジング・サン」"
+      ],
+      "alias": [
+        "「ぶれいじんぐ・さん」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'눈 부신 태양'",
+      "skills": [
+        "",
+        "",
+        "'눈부신 태양'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“耀阳”",
+      "skills": [
+        "",
+        "",
+        "\"耀阳\""
+      ],
+      "alias": [
+        "“ yao yang ”",
+        "“yaoyang”"
+      ],
+      "appellation": "Blazing Sun"
+    },
+    "code": "'blazing sun'",
+    "code_name": "Blazing Sun"
   },
   "trap_001_crate": {
     "en_US": {
@@ -14417,6 +14785,90 @@
     "code": "erosion-resistant coating application device",
     "code_name": "Erosionproof Coating Device"
   },
+  "trap_048_neonlamp": {
+    "en_US": {
+      "enabled": true,
+      "name": "City Neon",
+      "skills": [
+        "The Light of Civilization"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "都市のネオン",
+      "skills": [
+        "「文明の灯火」"
+      ],
+      "alias": [
+        "都市のねおん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시티 네온",
+      "skills": [
+        "문명의 빛"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "城市霓虹",
+      "skills": [
+        "文明的光芒"
+      ],
+      "alias": [
+        "cheng shi ni hong",
+        "chengshinihong"
+      ],
+      "appellation": "City Neon "
+    },
+    "code": "city neon",
+    "code_name": "City Neon "
+  },
+  "trap_049_candle": {
+    "en_US": {
+      "enabled": true,
+      "name": "Knight Crest",
+      "skills": [
+        "Knight's Honor"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "騎士の紋章",
+      "skills": [
+        "「騎士の栄光」"
+      ],
+      "alias": [
+        "騎士の紋章"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기사 훈장",
+      "skills": [
+        "기사의 명예"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "骑士之徽",
+      "skills": [
+        "骑士的荣耀"
+      ],
+      "alias": [
+        "qi shi zhi hui",
+        "qishizhihui"
+      ],
+      "appellation": "Knight Trophy"
+    },
+    "code": "knight crest",
+    "code_name": "Knight Trophy"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -14906,37 +15358,6 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
-  "char_4000_jnight": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "正义骑士号",
-      "skills": [],
-      "alias": [
-        "zheng yi qi shi hao",
-        "zhengyiqishihao"
-      ],
-      "appellation": "\"Justice Knight\""
-    },
-    "code": null,
-    "code_name": "\"Justice Knight\""
-  },
-  "char_4004_pudd": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "布丁",
-      "skills": [
-        "战术咏唱·β型",
-        "扩散电流"
-      ],
-      "alias": [
-        "bu ding",
-        "buding"
-      ],
-      "appellation": "Pudding"
-    },
-    "code": null,
-    "code_name": "Pudding"
-  },
   "char_4041_chnut": {
     "zh_CN": {
       "enabled": true,
@@ -14953,23 +15374,6 @@
     },
     "code": null,
     "code_name": "Chestnut"
-  },
-  "char_496_wildmn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "野鬃",
-      "skills": [
-        "骑枪刺击",
-        "夹枪冲锋"
-      ],
-      "alias": [
-        "ye zong",
-        "yezong"
-      ],
-      "appellation": "Wild Mane"
-    },
-    "code": null,
-    "code_name": "Wild Mane"
   },
   "char_476_blkngt": {
     "zh_CN": {
@@ -15005,23 +15409,6 @@
     "code": null,
     "code_name": "Kroos the Keen Glint"
   },
-  "char_489_serum": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "蚀清",
-      "skills": [
-        "专注力超载",
-        "传导蚀滞弹"
-      ],
-      "alias": [
-        "shi qing",
-        "shiqing"
-      ],
-      "appellation": "Corroserum"
-    },
-    "code": null,
-    "code_name": "Corroserum"
-  },
   "char_4013_kjera": {
     "zh_CN": {
       "enabled": true,
@@ -15055,23 +15442,6 @@
     },
     "code": null,
     "code_name": "Rockrock"
-  },
-  "char_449_glider": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "蜜莓",
-      "skills": [
-        "精神护理",
-        "振奋"
-      ],
-      "alias": [
-        "mi mei",
-        "mimei"
-      ],
-      "appellation": "Honeyberry"
-    },
-    "code": null,
-    "code_name": "Honeyberry"
   },
   "char_4025_aprot2": {
     "zh_CN": {
@@ -15210,24 +15580,6 @@
     "code": null,
     "code_name": "Fiammetta"
   },
-  "char_420_flamtl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "焰尾",
-      "skills": [
-        "迅敏直觉",
-        "“红松林”",
-        "焰心"
-      ],
-      "alias": [
-        "yan wei",
-        "yanwei"
-      ],
-      "appellation": "Flametail"
-    },
-    "code": null,
-    "code_name": "Flametail"
-  },
   "char_377_gdglow": {
     "zh_CN": {
       "enabled": true,
@@ -15318,42 +15670,6 @@
     "code": null,
     "code_name": "Horn"
   },
-  "char_1014_nearl2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "耀骑士临光",
-      "skills": [
-        "灿焰长刃",
-        "逐夜烁光",
-        "耀阳颔首"
-      ],
-      "alias": [
-        "yao qi shi lin guang",
-        "yaoqishilinguang"
-      ],
-      "appellation": "Nearl the Radiant Knight"
-    },
-    "code": null,
-    "code_name": "Nearl the Radiant Knight"
-  },
-  "token_10019_nearl2_sword": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“耀阳”",
-      "skills": [
-        "",
-        "",
-        "\"耀阳\""
-      ],
-      "alias": [
-        "“ yao yang ”",
-        "“yaoyang”"
-      ],
-      "appellation": "Blazing Sun"
-    },
-    "code": null,
-    "code_name": "Blazing Sun"
-  },
   "token_10020_ling_soul1": {
     "zh_CN": {
       "enabled": true,
@@ -15441,38 +15757,6 @@
     },
     "code": null,
     "code_name": "Kaminingyo"
-  },
-  "trap_048_neonlamp": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "城市霓虹",
-      "skills": [
-        "文明的光芒"
-      ],
-      "alias": [
-        "cheng shi ni hong",
-        "chengshinihong"
-      ],
-      "appellation": "City Neon "
-    },
-    "code": null,
-    "code_name": "City Neon "
-  },
-  "trap_049_candle": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "骑士之徽",
-      "skills": [
-        "骑士的荣耀"
-      ],
-      "alias": [
-        "qi shi zhi hui",
-        "qishizhihui"
-      ],
-      "appellation": "Knight Trophy"
-    },
-    "code": null,
-    "code_name": "Knight Trophy"
   },
   "trap_050_blizzard": {
     "zh_CN": {

@@ -305,6 +305,18 @@
   },
   "uniequip_002_phatom": {
     "char_id": "char_250_phatom",
+    "en_US": {
+      "enabled": true,
+      "name": "Miss Christine's Felt"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レディのフェルト細工"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미스 크리스틴의 펠트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "克里斯汀小姐的毛毡"
@@ -312,6 +324,18 @@
   },
   "uniequip_002_kafka": {
     "char_id": "char_214_kafka",
+    "en_US": {
+      "enabled": true,
+      "name": "Rubik's Cube Pendant"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "キューブ型ペンダント"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "큐브 펜던트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "魔方挂坠"
@@ -319,6 +343,18 @@
   },
   "uniequip_002_red": {
     "char_id": "char_144_red",
+    "en_US": {
+      "enabled": true,
+      "name": "Mystery Prop Pack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "謎多き戦術バッグ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미스테리 툴키트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "神秘的道具包"
@@ -326,6 +362,18 @@
   },
   "uniequip_002_waaifu": {
     "char_id": "char_243_waaifu",
+    "en_US": {
+      "enabled": true,
+      "name": "The Classic of Hung Mei Wing Chun"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "紅眉詠春拳譜"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "홍미영춘권 비급"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "红眉咏春拳谱"
@@ -333,6 +381,18 @@
   },
   "uniequip_002_gravel": {
     "char_id": "char_237_gravel",
+    "en_US": {
+      "enabled": true,
+      "name": "Covert Action Toolkit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "﻿隠密行動用工具バッグ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비밀 작전용 공구 가방"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "隐秘行动工具包"
@@ -340,6 +400,18 @@
   },
   "uniequip_002_pasngr": {
     "char_id": "char_472_pasngr",
+    "en_US": {
+      "enabled": true,
+      "name": "Electromagnetic Regulator"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "電磁調節器"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전자기 조절 장치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "电磁调节器"
@@ -347,6 +419,18 @@
   },
   "uniequip_002_leizi": {
     "char_id": "char_306_leizi",
+    "en_US": {
+      "enabled": true,
+      "name": "'All the Thunderlight'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「天地通明」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'천지통명'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“天地通明”"
@@ -354,6 +438,18 @@
   },
   "uniequip_002_pudd": {
     "char_id": "char_4004_pudd",
+    "en_US": {
+      "enabled": true,
+      "name": "Portable Electrical Measuring Equipment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "携帯式テスター"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "휴대용 전기 측정 장비"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "便携测电设备"
