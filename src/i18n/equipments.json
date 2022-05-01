@@ -734,5 +734,75 @@
       "enabled": true,
       "name": "待确认的申请表"
     }
+  },
+  "uniequip_002_ghost2": {
+    "char_id": "char_1023_ghost2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“唱片”收藏箱"
+    }
+  },
+  "uniequip_002_bena": {
+    "char_id": "char_369_bena",
+    "zh_CN": {
+      "enabled": true,
+      "name": "《乔弗瑞古今童话集》精装本"
+    }
+  },
+  "uniequip_002_kazema": {
+    "char_id": "char_4016_kazema",
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧物"
+    }
+  },
+  "uniequip_002_lumen": {
+    "char_id": "char_4042_lumen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "纯铜单筒望远镜"
+    }
+  },
+  "uniequip_002_ceylon": {
+    "char_id": "char_348_ceylon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "野外考察套装"
+    }
+  },
+  "uniequip_002_whispr": {
+    "char_id": "char_436_whispr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "古朴的急救箱"
+    }
+  },
+  "uniequip_002_finlpp": {
+    "char_id": "char_385_finlpp",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“江河之韵”"
+    }
+  },
+  "uniequip_002_zumama": {
+    "char_id": "char_416_zumama",
+    "zh_CN": {
+      "enabled": true,
+      "name": "祖玛玛的工具箱"
+    }
+  },
+  "uniequip_002_aurora": {
+    "char_id": "char_422_aurora",
+    "zh_CN": {
+      "enabled": true,
+      "name": "盾用摄制模块"
+    }
+  },
+  "uniequip_002_irene": {
+    "char_id": "char_4009_irene",
+    "zh_CN": {
+      "enabled": true,
+      "name": "厚重的经卷"
+    }
   }
 }
