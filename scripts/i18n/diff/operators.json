@@ -15477,6 +15477,23 @@
     "code": null,
     "code_name": "Aurora"
   },
+  "char_433_windft": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "掠风",
+      "skills": [
+        "此身为筑",
+        "此身为源"
+      ],
+      "alias": [
+        "lve feng",
+        "lvefeng"
+      ],
+      "appellation": "Windflit"
+    },
+    "code": null,
+    "code_name": "Windflit"
+  },
   "char_4045_heidi": {
     "zh_CN": {
       "enabled": true,
@@ -15652,6 +15669,42 @@
     "code": null,
     "code_name": "Lee"
   },
+  "char_1023_ghost2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "归溟幽灵鲨",
+      "skills": [
+        "生存的技巧",
+        "生存的渴望",
+        "生存的重压"
+      ],
+      "alias": [
+        "gui ming you ling sha",
+        "guimingyoulingsha"
+      ],
+      "appellation": "Specter the Unchained"
+    },
+    "code": null,
+    "code_name": "Specter the Unchained"
+  },
+  "char_4042_lumen": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "流明",
+      "skills": [
+        "沐雨",
+        "沛霖",
+        "灯火不灭"
+      ],
+      "alias": [
+        "liu ming",
+        "liuming"
+      ],
+      "appellation": "Lumen"
+    },
+    "code": null,
+    "code_name": "Lumen"
+  },
   "char_4039_horn": {
     "zh_CN": {
       "enabled": true,
@@ -15669,6 +15722,24 @@
     },
     "code": null,
     "code_name": "Horn"
+  },
+  "char_4009_irene": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "艾丽妮",
+      "skills": [
+        "起风",
+        "裂潮",
+        "判决"
+      ],
+      "alias": [
+        "ai li ni",
+        "ailini"
+      ],
+      "appellation": "Irene"
+    },
+    "code": null,
+    "code_name": "Irene"
   },
   "token_10020_ling_soul1": {
     "zh_CN": {
@@ -15757,6 +15828,23 @@
     },
     "code": null,
     "code_name": "Kaminingyo"
+  },
+  "token_10023_windft_wrench": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "可靠电池",
+      "skills": [
+        "可靠电池",
+        "可靠电池"
+      ],
+      "alias": [
+        "ke kao dian chi",
+        "kekaodianchi"
+      ],
+      "appellation": "Reliable Battery"
+    },
+    "code": null,
+    "code_name": "Reliable Battery"
   },
   "trap_050_blizzard": {
     "zh_CN": {
@@ -15916,5 +16004,39 @@
     },
     "code": null,
     "code_name": "Conviction"
+  },
+  "trap_060_bouncy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣徒之手",
+      "skills": [
+        "圣徒之手",
+        "圣徒之手·清理模式",
+        "圣徒之手·巡回模式"
+      ],
+      "alias": [
+        "sheng tu zhi shou",
+        "shengtuzhishou"
+      ],
+      "appellation": "Hand of Saint"
+    },
+    "code": null,
+    "code_name": "Hand of Saint"
+  },
+  "trap_061_creep": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "溟痕",
+      "skills": [
+        "溟痕"
+      ],
+      "alias": [
+        "ming hen",
+        "minghen"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": null,
+    "code_name": "Sealed Floor"
   }
 }

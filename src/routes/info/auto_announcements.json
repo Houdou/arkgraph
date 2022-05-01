@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2022-05-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1023_ghost2",
+      "char_4042_lumen",
+      "char_4009_irene",
+      "char_433_windft"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -118,16 +131,6 @@
       "char_437_mizuki",
       "char_421_crow",
       "char_486_takila"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2022-01-10",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4019_ncdeer"
     ]
   }
 ]
