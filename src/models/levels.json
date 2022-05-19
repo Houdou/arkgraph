@@ -12751,6 +12751,96 @@
     "extra_drop": []
   },
   {
+    "level": "SN-S-1-A",
+    "energy": 15,
+    "unique_id": "act17side_s01_a",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-1-B",
+    "energy": 15,
+    "unique_id": "act17side_s01_b",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-2-A",
+    "energy": 20,
+    "unique_id": "act17side_s02_a",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-2-B",
+    "energy": 20,
+    "unique_id": "act17side_s02_b",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-3-A",
+    "energy": 25,
+    "unique_id": "act17side_s03_a",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-3-B",
+    "energy": 25,
+    "unique_id": "act17side_s03_b",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-4-A",
+    "energy": 25,
+    "unique_id": "act17side_s04_a",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-4-B",
+    "energy": 25,
+    "unique_id": "act17side_s04_b",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "SN-S-5",
+    "energy": 25,
+    "unique_id": "act17side_s05",
+    "zone_id": "act17side_zone5",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "GA-ST-1",
     "energy": 0,
     "unique_id": "act16side_st01",
