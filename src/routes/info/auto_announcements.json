@@ -3,6 +3,16 @@
     "server": [
       "zh_CN"
     ],
+    "date": "2022-05-19",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4043_erato"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
     "date": "2022-05-01",
     "type": "new_operators",
     "new_operators": [
@@ -116,21 +126,6 @@
       "char_472_pasngr",
       "char_304_zebra",
       "char_363_toddi"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2022-01-14",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1013_chen2",
-      "char_437_mizuki",
-      "char_421_crow",
-      "char_486_takila"
     ]
   }
 ]

@@ -15477,6 +15477,23 @@
     "code": null,
     "code_name": "Aurora"
   },
+  "char_4043_erato": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "埃拉托 ",
+      "skills": [
+        "安眠旋律",
+        "英雄赞歌"
+      ],
+      "alias": [
+        "ai la tuo  ",
+        "ailatuo "
+      ],
+      "appellation": "Erato"
+    },
+    "code": null,
+    "code_name": "Erato"
+  },
   "char_433_windft": {
     "zh_CN": {
       "enabled": true,
