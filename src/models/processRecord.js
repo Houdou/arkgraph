@@ -28,13 +28,18 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 			unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_2);
 		}
 		if (operator.meta.max_master_skills === 1) {
-			if (operator.master_skills[0].upgrades.every(({ materials }) => materials.length === 0)){
+			if (operator.master_skills[0].upgrades.every(({ materials }) => materials.length === 0)) {
 				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
 			}
 		}
-		if (!operator.meta.equipments_enabled) {
-			// TODO: handle multiple equipment
-			unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_1);
+		if (operator.meta.max_equipments < 3) {
+			unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_3);
+			if (operator.meta.max_equipments < 2) {
+				unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_2);
+				if (operator.meta.max_equipments < 1) {
+					unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_1);
+				}
+			}
 		}
 
 		switch (attribute) {
@@ -108,9 +113,31 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 					current = 0;
 					target = 1;
 				} else {
-					current = clampRange(current, 0, operator.equipments.length - 1);
-					target = current;
-					requirements = operator.equipments[current].materials;
+					current = clampRange(current, 0, operator.equipments[0].length - 1);
+					target = current + 1;
+					requirements = operator.equipments[0][current].materials;
+				}
+				break;
+			case ATTRIBUTES.ADVANCED_EQUIPMENT_2:
+				if (unavailable_attributes.includes(attribute)) {
+					attribute = ATTRIBUTES.ELITE_RANK;
+					current = 0;
+					target = 1;
+				} else {
+					current = clampRange(current, 0, operator.equipments[1].length - 1);
+					target = current + 1;
+					requirements = operator.equipments[1][current].materials;
+				}
+				break;
+			case ATTRIBUTES.ADVANCED_EQUIPMENT_3:
+				if (unavailable_attributes.includes(attribute)) {
+					attribute = ATTRIBUTES.ELITE_RANK;
+					current = 0;
+					target = 1;
+				} else {
+					current = clampRange(current, 0, operator.equipments[2].length - 1);
+					target = current + 1;
+					requirements = operator.equipments[2][current].materials;
 				}
 				break;
 			default:

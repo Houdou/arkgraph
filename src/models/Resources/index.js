@@ -466,21 +466,41 @@ const EXP = {
 	formula: {},
 };
 
-const MOD_TOKEN = {
-	id: 'W-5-1',
-	unique_id: 'mod_unlock_token',
-	name: '模组数据块',
-	tier: 'T5',
-	type: 'rare',
-	source: {},
-	formula: {},
-};
+const MOD_TOKENS = [
+	{
+		id: 'W-5-1',
+		unique_id: 'mod_unlock_token',
+		name: '模组数据块',
+		tier: 'T5',
+		type: 'rare',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'W-5-2',
+		unique_id: 'mod_update_token_1',
+		name: '数据增补条',
+		tier: 'T4',
+		type: 'rare',
+		source: {},
+		formula: {},
+	},
+	{
+		id: 'W-5-3',
+		unique_id: 'mod_update_token_2',
+		name: '数据增补仪',
+		tier: 'T5',
+		type: 'rare',
+		source: {},
+		formula: {},
+	},
+];
 
 [
 	MONEY,
 	PURCHASE_CREDIT,
 	EXP,
-	MOD_TOKEN,
+	...MOD_TOKENS,
 	...MATERIALS,
 	...SKILL_BOOKS,
 	...EXP_TAPES,
@@ -493,7 +513,7 @@ export {
 	MONEY,
 	PURCHASE_CREDIT,
 	EXP,
-	MOD_TOKEN,
+	MOD_TOKENS,
 	RESOURCES,
 	MATERIALS,
 	SKILL_BOOKS,

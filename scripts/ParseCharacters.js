@@ -86,8 +86,7 @@ const parseCharacter = (character, unique_id) => {
 			quantity: requirement.count,
 		})),
 	})).splice(1);
-	operator.equipments = [].concat(
-		...Object.entries(unique_equipments)
+	operator.equipments = Object.entries(unique_equipments)
 		.filter(([equipment_id, equipData]) => equipData.charId === unique_id && equipData.itemCost)
 		.map(([equipment_id, equipData]) => {
 			const {
@@ -102,13 +101,12 @@ const parseCharacter = (character, unique_id) => {
 					quantity: requirement.count,
 				})),
 			}));
-		})
-	);
+		});
 
 	operator.meta = {
 		max_elite_rank: operator.elites.length,
 		max_master_skills: operator.master_skills.length,
-		equipments_enabled: operator.equipments.length > 0,
+		max_equipments: operator.equipments.length,
 	};
 
 	return operator;

@@ -16,7 +16,7 @@ import ArkUpgradeRowHeaders from './sections/UpgradeRowHeaders';
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
 import checkFulFillment from '../../models/checkFulFillment';
-import { MONEY, PURCHASE_CREDIT, EXP, MOD_TOKEN, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
+import { MONEY, PURCHASE_CREDIT, EXP, MOD_TOKENS, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
 	{ name: '移除' },
@@ -31,7 +31,7 @@ const header_list = [
 	EXP,
 	...EXP_TAPES,
 	...SKILL_BOOKS,
-	MOD_TOKEN,
+	...MOD_TOKENS,
 	...MATERIALS,
 	...CHIPS,
 ];

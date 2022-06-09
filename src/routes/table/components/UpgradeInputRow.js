@@ -81,6 +81,8 @@ const ArkUpgradeInputRow = ({
 		MASTER_SKILL_2: ir('attribute-master_skill_2', 'Master Skill 2'),
 		MASTER_SKILL_3: ir('attribute-master_skill_3', 'Master Skill 3'),
 		ADVANCED_EQUIPMENT_1: ir('attribute-advanced_equipment_1', 'Module 1'),
+		ADVANCED_EQUIPMENT_2: ir('attribute-advanced_equipment_2', 'Module 2'),
+		ADVANCED_EQUIPMENT_3: ir('attribute-advanced_equipment_3', 'Module 3'),
 	};
 
 	if (operator_data) {
@@ -99,8 +101,14 @@ const ArkUpgradeInputRow = ({
 				unavailable_attributes.push(ATTRIBUTES.MASTER_SKILL_1);
 			}
 		}
-		if (!operator_data.meta.equipments_enabled) {
-			unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_1);
+		if (operator_data.meta.max_equipments < 3) {
+			unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_3);
+			if (operator_data.meta.max_equipments < 2) {
+				unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_2);
+				if (operator_data.meta.max_equipments < 1) {
+					unavailable_attributes.push(ATTRIBUTES.ADVANCED_EQUIPMENT_1);
+				}
+			}
 		}
 
 		[
@@ -228,9 +236,7 @@ const ArkUpgradeInputRow = ({
 					VisibilityButton,
 					OperatorInput,
 					AttributeInput,
-					[
-						ATTRIBUTES.ADVANCED_EQUIPMENT_1,
-					].includes(attribute) ? { content: Number(current) } : CurrentInput,
+					CurrentInput,
 					[
 						ATTRIBUTES.LEVEL_ELITE_0,
 						ATTRIBUTES.LEVEL_ELITE_1,

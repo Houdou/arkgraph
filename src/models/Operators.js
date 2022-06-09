@@ -68,9 +68,15 @@ const getEquipmentNames = ({ id, locale, showExtendedData = false }) => {
 	const operator = operators.find(({ unique_id }) => unique_id === id);
 
 	if (operator) {
-		return operator.equipments.map(({
-			equipment_id,
-		}) => getEquipmentName({ id: equipment_id, locale, showExtendedData }));
+		return operator.equipments.map((
+			equipment
+		) => {
+			const {
+				equipment_id,
+			} = equipment[0];
+
+			return getEquipmentName({ id: equipment_id, locale, showExtendedData })
+		});
 	}
 	return [];
 };
