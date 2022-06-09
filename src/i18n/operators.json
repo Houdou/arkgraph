@@ -15443,6 +15443,23 @@
     "code": null,
     "code_name": "Rockrock"
   },
+  "char_1024_hbisc2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "濯尘芙蓉",
+      "skills": [
+        "攻击力强化·γ型",
+        "抚业之触"
+      ],
+      "alias": [
+        "zhuo chen fu rong",
+        "zhuochenfurong"
+      ],
+      "appellation": "Hibiscus the Purifier"
+    },
+    "code": null,
+    "code_name": "Hibiscus the Purifier"
+  },
   "char_4025_aprot2": {
     "zh_CN": {
       "enabled": true,
@@ -15459,6 +15476,23 @@
     },
     "code": null,
     "code_name": "Shalem"
+  },
+  "char_4047_pianst": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "车尔尼",
+      "skills": [
+        "纷飞十指",
+        "曲惊四座"
+      ],
+      "alias": [
+        "che er ni",
+        "cheerni"
+      ],
+      "appellation": "Czerny"
+    },
+    "code": null,
+    "code_name": "Czerny"
   },
   "char_422_aurora": {
     "zh_CN": {
@@ -15631,6 +15665,24 @@
     },
     "code": null,
     "code_name": "Goldenglow"
+  },
+  "char_4046_ebnhlz": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "黑键",
+      "skills": [
+        "渐快急板",
+        "荒芜回响",
+        "寂静之声"
+      ],
+      "alias": [
+        "hei jian",
+        "heijian"
+      ],
+      "appellation": "Ebenholz"
+    },
+    "code": null,
+    "code_name": "Ebenholz"
   },
   "char_206_gnosis": {
     "zh_CN": {
@@ -15863,6 +15915,24 @@
     "code": null,
     "code_name": "Reliable Battery"
   },
+  "token_10024_ebnhlz_rcube": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧日残影",
+      "skills": [
+        "",
+        "闪回",
+        ""
+      ],
+      "alias": [
+        "jiu ri can ying",
+        "jiuricanying"
+      ],
+      "appellation": "Old Day Remnants"
+    },
+    "code": null,
+    "code_name": "Old Day Remnants"
+  },
   "trap_050_blizzard": {
     "zh_CN": {
       "enabled": true,
@@ -16055,5 +16125,161 @@
     },
     "code": null,
     "code_name": "Sealed Floor"
+  },
+  "trap_062_magicstart": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“低音号”",
+      "skills": [],
+      "alias": [
+        "“ di yin hao ”",
+        "“diyinhao”"
+      ],
+      "appellation": "\"Tuba\""
+    },
+    "code": null,
+    "code_name": "\"Tuba\""
+  },
+  "trap_063_magicturn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "L-7 “回音壁”",
+      "skills": [],
+      "alias": [
+        "L-7 “ hui yin bi ”",
+        "L-7 “huiyinbi”"
+      ],
+      "appellation": "L-7 \"Whisperer\""
+    },
+    "code": null,
+    "code_name": "L-7 \"Whisperer\""
+  },
+  "trap_064_magiccircle": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“谐振器”",
+      "skills": [
+        "调谐"
+      ],
+      "alias": [
+        "“ xie zhen qi ”",
+        "“xiezhenqi”"
+      ],
+      "appellation": "\"Resonator\""
+    },
+    "code": null,
+    "code_name": "\"Resonator\""
+  },
+  "trap_069_buffcard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "战备激活阀",
+      "skills": [
+        "升格"
+      ],
+      "alias": [
+        "zhan bei ji huo fa",
+        "zhanbeijihuofa"
+      ],
+      "appellation": "Equipment Activation Valve"
+    },
+    "code": null,
+    "code_name": "Equipment Activation Valve"
+  },
+  "trap_070_supplycard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备区发讯器",
+      "skills": [
+        "新遣"
+      ],
+      "alias": [
+        "yu bei qu fa xun qi",
+        "yubeiqufaxunqi"
+      ],
+      "appellation": "Preparation Area Transmitter"
+    },
+    "code": null,
+    "code_name": "Preparation Area Transmitter"
+  },
+  "trap_071_recyclecard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "紧急召回情报箱",
+      "skills": [
+        "蓄锐"
+      ],
+      "alias": [
+        "jin ji zhao hui qing bao xiang",
+        "jinjizhaohuiqingbaoxiang"
+      ],
+      "appellation": "Emergency Recall Box"
+    },
+    "code": null,
+    "code_name": "Emergency Recall Box"
+  },
+  "trap_072_revivecard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "休整区发讯器",
+      "skills": [
+        "回召"
+      ],
+      "alias": [
+        "xiu zheng qu fa xun qi",
+        "xiuzhengqufaxunqi"
+      ],
+      "appellation": "Recuperation Area Transmitter"
+    },
+    "code": null,
+    "code_name": "Recuperation Area Transmitter"
+  },
+  "trap_073_btauntcard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "污染晶石",
+      "skills": [
+        "晶化"
+      ],
+      "alias": [
+        "wu ran jing shi",
+        "wuranjingshi"
+      ],
+      "appellation": "Contaminated Mineral"
+    },
+    "code": null,
+    "code_name": "Contaminated Mineral"
+  },
+  "trap_074_bbombcard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "聚热晶簇",
+      "skills": [
+        "爆炸"
+      ],
+      "alias": [
+        "ju re jing cu",
+        "jurejingcu"
+      ],
+      "appellation": "Heat Cluster"
+    },
+    "code": null,
+    "code_name": "Heat Cluster"
+  },
+  "trap_082_salecard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "改派发讯器",
+      "skills": [
+        "临调"
+      ],
+      "alias": [
+        "gai pai fa xun qi",
+        "gaipaifaxunqi"
+      ],
+      "appellation": "Reassignment Transmitter"
+    },
+    "code": null,
+    "code_name": "Reassignment Transmitter"
   }
 }

@@ -980,6 +980,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_shwaz",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -992,6 +993,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_shwaz",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_shwaz",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -1321,6 +1364,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_fartth",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -1333,6 +1377,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_fartth",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_fartth",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -1662,6 +1748,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_cqbw",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -1674,6 +1761,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cqbw",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cqbw",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -2003,6 +2132,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_phenxi",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -2015,6 +2145,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_phenxi",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_phenxi",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -3636,6 +3808,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_bpipe",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -3648,6 +3821,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_bpipe",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_bpipe",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -5269,6 +5484,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_mostma",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -5281,6 +5497,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_mostma",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_mostma",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -6256,6 +6514,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_dusk",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -6268,6 +6527,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_dusk",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_dusk",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -6597,6 +6898,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_pasngr",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -6609,6 +6911,108 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_pasngr",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_pasngr",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_003_pasngr",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_003_pasngr",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_003_pasngr",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -7573,6 +7977,390 @@
     }
   },
   {
+    "unique_id": "char_4046_ebnhlz",
+    "name": "黑键",
+    "pinyin": [
+      "hei jian",
+      "heijian"
+    ],
+    "profession": "CASTER",
+    "rarity": 5,
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_ebnhlz",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ebnhlz",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ebnhlz",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          }
+        ]
+      }
+    ],
+    "skill_names": [
+      "渐快急板",
+      "荒芜回响",
+      "寂静之声"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "渐快急板",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "荒芜回响",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-2",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "寂静之声",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-12",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 9
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-5",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 7
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-5",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-4-14",
+            "quantity": 7
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "equipments_enabled": true
+    }
+  },
+  {
     "unique_id": "char_206_gnosis",
     "name": "灵知",
     "pinyin": [
@@ -7907,6 +8695,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_aglina",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -7919,6 +8708,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_aglina",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_aglina",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -8248,6 +9079,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_lisa",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -8260,6 +9092,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lisa",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lisa",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -8589,6 +9463,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_mgllan",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -8601,6 +9476,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_mgllan",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_mgllan",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -9253,6 +10170,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_ling",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -9265,6 +10183,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ling",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ling",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -9594,6 +10554,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_phatom",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -9606,6 +10567,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_phatom",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_phatom",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -9935,6 +10938,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_lmlee",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -9947,6 +10951,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lmlee",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lmlee",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -11568,6 +12614,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_ghost2",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -11580,6 +12627,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ghost2",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ghost2",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -12232,6 +13321,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_cgbird",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -12244,6 +13334,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cgbird",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cgbird",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -12896,6 +14028,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_lumen",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -12908,6 +14041,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lumen",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lumen",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -13557,7 +14732,68 @@
     ],
     "profession": "TANK",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_demkni",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_demkni",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_demkni",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "急救",
       "药物配置",
@@ -13868,7 +15104,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -13880,7 +15116,68 @@
     ],
     "profession": "TANK",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_blemsh",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_blemsh",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_blemsh",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "光芒涌动",
       "慑敌辉光",
@@ -14191,7 +15488,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -14852,6 +16149,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_zumama",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -14864,6 +16162,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_zumama",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_zumama",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -16485,6 +17825,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_chen",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -16497,6 +17838,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_chen",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_chen",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -16826,6 +18209,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_irene",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -16838,6 +18222,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_irene",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_irene",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -18136,6 +19562,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_pallas",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -18148,6 +19575,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_pallas",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_pallas",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -18477,6 +19946,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_nearl2",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -18489,6 +19959,48 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_nearl2",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_nearl2",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -18818,6 +20330,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_skadi",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -18830,6 +20343,108 @@
           {
             "resource": "G-4-1",
             "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_skadi",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_skadi",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_003_skadi",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 80000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_003_skadi",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 60
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 100000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_003_skadi",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 4
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
           }
         ]
       }
@@ -19159,6 +20774,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_plosis",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -19171,6 +20787,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_plosis",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_plosis",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -19435,6 +21093,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_breeze",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -19447,6 +21106,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_breeze",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_breeze",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -20485,6 +22186,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_sddrag",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -20497,6 +22199,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sddrag",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-13",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sddrag",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -20761,6 +22505,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_wildmn",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -20773,6 +22518,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_wildmn",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_wildmn",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-11",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -21553,6 +23340,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_swire",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -21565,6 +23353,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_swire",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_swire",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -21829,6 +23659,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_sophia",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -21841,6 +23672,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sophia",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sophia",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -22105,6 +23978,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_franka",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -22117,6 +23991,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_franka",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_franka",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -22381,6 +24297,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_flameb",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -22393,6 +24310,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_flameb",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-15",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_flameb",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -23763,6 +25722,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_bibeak",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -23775,6 +25735,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_bibeak",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_bibeak",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-15",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -24039,6 +26041,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_tachak",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -24051,6 +26054,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_tachak",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_tachak",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -27485,6 +29530,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_meteo",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -27497,6 +29543,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_meteo",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_meteo",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -27761,6 +29849,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_sesa",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -27773,6 +29862,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sesa",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sesa",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -29384,6 +31515,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_skfire",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -29396,6 +31528,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_skfire",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-14",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_skfire",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-15",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -29734,6 +31908,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_leizi",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -29746,6 +31921,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_leizi",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_leizi",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-14",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -30268,6 +32485,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_lionhd",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -30280,6 +32498,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lionhd",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lionhd",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-11",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -30799,7 +33059,68 @@
     ],
     "profession": "CASTER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_iris",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_iris",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-15",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_iris",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "童话守卫者",
       "梦乡摇篮"
@@ -31045,7 +33366,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -31060,6 +33381,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_lava2",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -31072,6 +33394,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lava2",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_lava2",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -32110,6 +34474,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_otter",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -32122,6 +34487,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_otter",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_otter",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -32386,6 +34793,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_folivo",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -32398,6 +34806,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_folivo",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_folivo",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -33510,6 +35960,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_ceylon",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -33522,6 +35973,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ceylon",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_ceylon",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-13",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -33786,6 +36279,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_whispr",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -33798,6 +36292,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_whispr",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_whispr",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-7",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -34825,6 +37361,264 @@
     }
   },
   {
+    "unique_id": "char_1024_hbisc2",
+    "name": "濯尘芙蓉",
+    "pinyin": [
+      "zhuo chen fu rong",
+      "zhuochenfurong"
+    ],
+    "profession": "MEDIC",
+    "rarity": 4,
+    "equipments": [],
+    "skill_names": [
+      "攻击力强化·γ型",
+      "抚业之触"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "攻击力强化·γ型",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-15",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "抚业之触",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-7",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-6",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-6",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-7",
+            "quantity": 9
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 18
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "equipments_enabled": false
+    }
+  },
+  {
     "unique_id": "char_148_nearl",
     "name": "临光",
     "pinyin": [
@@ -34833,7 +37627,68 @@
     ],
     "profession": "TANK",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_nearl",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_nearl",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_nearl",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "急救",
       "急救模式"
@@ -35079,7 +37934,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -35091,7 +37946,68 @@
     ],
     "profession": "TANK",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_hmau",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 3
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_hmau",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_hmau",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-4",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "反制治疗",
       "反制医疗模式"
@@ -35337,7 +38253,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -35352,6 +38268,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_red",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -35364,6 +38281,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_red",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_red",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -35628,6 +38587,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_waaifu",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -35640,6 +38600,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_waaifu",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-2",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_waaifu",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -35904,6 +38906,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_kafka",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -35916,6 +38919,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_kafka",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_kafka",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-7",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -36180,6 +39225,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_nothin",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -36192,6 +39238,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_nothin",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-15",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_nothin",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-13",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -37993,6 +41081,264 @@
     }
   },
   {
+    "unique_id": "char_4047_pianst",
+    "name": "车尔尼",
+    "pinyin": [
+      "che er ni",
+      "cheerni"
+    ],
+    "profession": "TANK",
+    "rarity": 4,
+    "equipments": [],
+    "skill_names": [
+      "纷飞十指",
+      "曲惊四座"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "纷飞十指",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 2
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "曲惊四座",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-3",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-3",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 11
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "equipments_enabled": false
+    }
+  },
+  {
     "unique_id": "char_457_blitz",
     "name": "闪击",
     "pinyin": [
@@ -38778,6 +42124,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_aurora",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -38790,6 +42137,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_aurora",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-11",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_aurora",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-6",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -39054,6 +42443,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_prove",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -39066,6 +42456,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_prove",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_prove",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-13",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -39330,6 +42762,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_milu",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -39342,6 +42775,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_milu",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_milu",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -39606,6 +43081,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_cuttle",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -39618,6 +43094,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cuttle",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cuttle",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-3",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -41430,6 +44948,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_glassb",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -41442,6 +44961,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_glassb",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_glassb",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -41706,6 +45267,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_glacus",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -41718,6 +45280,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_glacus",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-3",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_glacus",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-4",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -45078,6 +48682,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_bena",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -45090,6 +48695,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_bena",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_bena",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-7",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -45354,6 +49001,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_kazema",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -45366,6 +49014,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_kazema",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-7",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_kazema",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-11",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -46146,6 +49836,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_grani",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -46158,6 +49849,48 @@
           {
             "resource": "G-4-1",
             "quantity": 40000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_grani",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 20
+          },
+          {
+            "resource": "M-4-4",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 50000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_grani",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 2
+          },
+          {
+            "quantity": 8
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 60000
           }
         ]
       }
@@ -46934,6 +50667,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_fmout",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -46946,6 +50680,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_fmout",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_fmout",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-15",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -47206,6 +50982,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_greyy",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -47218,6 +50995,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_greyy",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_greyy",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -47729,7 +51548,68 @@
     ],
     "profession": "CASTER",
     "rarity": 3,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_indigo",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_indigo",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_indigo",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "灯塔守卫者",
       "光影迷宫"
@@ -47971,7 +51851,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -47986,6 +51866,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_pudd",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -47998,6 +51879,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_pudd",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_pudd",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-3",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -49274,6 +53197,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_yuki",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -49286,6 +53210,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_yuki",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_yuki",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -49800,6 +53766,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_glaze",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -49812,6 +53779,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_glaze",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_glaze",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -50072,6 +54081,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_acdrop",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -50084,6 +54094,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_acdrop",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_acdrop",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -50852,6 +54904,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_vigna",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -50864,6 +54917,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_vigna",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-15",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_vigna",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -51632,6 +55727,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_doberm",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -51644,6 +55740,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_doberm",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_doberm",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -51904,6 +56042,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_gyuki",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -51916,6 +56055,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_gyuki",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_gyuki",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -52176,6 +56357,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_peacok",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -52188,6 +56370,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_peacok",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_peacok",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -53210,6 +57434,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_cutter",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -53222,6 +57447,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cutter",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-3",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_cutter",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -53990,6 +58257,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_gravel",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -54002,6 +58270,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_gravel",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_gravel",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -54262,6 +58572,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_strong",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -54274,6 +58585,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_strong",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_strong",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -55550,6 +59903,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_flower",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -55562,6 +59916,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_flower",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_flower",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -55822,6 +60218,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_finlpp",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -55834,6 +60231,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_finlpp",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_finlpp",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -57107,7 +61546,68 @@
     ],
     "profession": "TANK",
     "rarity": 3,
-    "equipments": [],
+    "equipments": [
+      {
+        "equipment_id": "uniequip_002_sunbr",
+        "equipment_level": "1",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 4
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sunbr",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_sunbr",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          }
+        ]
+      }
+    ],
     "skill_names": [
       "备用军粮",
       "食粮烹制"
@@ -57349,7 +61849,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "equipments_enabled": false
+      "equipments_enabled": true
     }
   },
   {
@@ -57618,6 +62118,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_deepcl",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -57630,6 +62131,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_deepcl",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_deepcl",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -57890,6 +62433,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_skgoat",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -57902,6 +62446,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_skgoat",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_skgoat",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }
@@ -58162,6 +62748,7 @@
     "equipments": [
       {
         "equipment_id": "uniequip_002_podego",
+        "equipment_level": "1",
         "materials": [
           {
             "resource": "W-5-1",
@@ -58174,6 +62761,48 @@
           {
             "resource": "G-4-1",
             "quantity": 20000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_podego",
+        "equipment_level": "2",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 15
+          },
+          {
+            "resource": "M-3-5",
+            "quantity": 5
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 25000
+          }
+        ]
+      },
+      {
+        "equipment_id": "uniequip_002_podego",
+        "equipment_level": "3",
+        "materials": [
+          {
+            "resource": "W-5-1",
+            "quantity": 1
+          },
+          {
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-10",
+            "quantity": 6
+          },
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
           }
         ]
       }

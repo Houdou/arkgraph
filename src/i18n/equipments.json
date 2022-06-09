@@ -804,5 +804,75 @@
       "enabled": true,
       "name": "厚重的经卷"
     }
+  },
+  "uniequip_002_ebnhlz": {
+    "char_id": "char_4046_ebnhlz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石骰子收纳盒"
+    }
+  },
+  "uniequip_002_iris": {
+    "char_id": "char_338_iris",
+    "zh_CN": {
+      "enabled": true,
+      "name": "梦之城堡立体书"
+    }
+  },
+  "uniequip_002_indigo": {
+    "char_id": "char_469_indigo",
+    "zh_CN": {
+      "enabled": true,
+      "name": "法杖保养套装"
+    }
+  },
+  "uniequip_002_demkni": {
+    "char_id": "char_202_demkni",
+    "zh_CN": {
+      "enabled": true,
+      "name": "闲置的拳击手套"
+    }
+  },
+  "uniequip_002_blemsh": {
+    "char_id": "char_423_blemsh",
+    "zh_CN": {
+      "enabled": true,
+      "name": "工匠团的回响"
+    }
+  },
+  "uniequip_002_nearl": {
+    "char_id": "char_148_nearl",
+    "zh_CN": {
+      "enabled": true,
+      "name": "改良骑士盾牌"
+    }
+  },
+  "uniequip_002_hmau": {
+    "char_id": "char_226_hmau",
+    "zh_CN": {
+      "enabled": true,
+      "name": "八点档情景剧录像带"
+    }
+  },
+  "uniequip_002_sunbr": {
+    "char_id": "char_196_sunbr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "蜜糖馅饼礼包"
+    }
+  },
+  "uniequip_003_pasngr": {
+    "char_id": "char_472_pasngr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "王权金币"
+    }
+  },
+  "uniequip_003_skadi": {
+    "char_id": "char_263_skadi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "往日残梦"
+    }
   }
 }

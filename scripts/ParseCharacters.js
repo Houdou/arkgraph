@@ -86,21 +86,24 @@ const parseCharacter = (character, unique_id) => {
 			quantity: requirement.count,
 		})),
 	})).splice(1);
-	operator.equipments = Object.entries(unique_equipments)
+	operator.equipments = [].concat(
+		...Object.entries(unique_equipments)
 		.filter(([equipment_id, equipData]) => equipData.charId === unique_id && equipData.itemCost)
 		.map(([equipment_id, equipData]) => {
 			const {
 				itemCost,
 			} = equipData;
 
-			return {
+			return Object.entries(itemCost).map(([equipment_level, equip_level_cost]) => ({
 				equipment_id,
-				materials: itemCost.map(requirement => ({
+				equipment_level,
+				materials: equip_level_cost.map(requirement => ({
 					resource: MapItem[requirement.id],
 					quantity: requirement.count,
 				})),
-			};
-		});
+			}));
+		})
+	);
 
 	operator.meta = {
 		max_elite_rank: operator.elites.length,
