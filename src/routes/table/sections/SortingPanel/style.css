@@ -1,10 +1,11 @@
 .wrapper {
   position: absolute;
+  top: 132px;
   background: linear-gradient(to bottom, #15849f, transparent);
   width: 491px;
   height: 54px;
   opacity: 0;
-  transition: transform 0.45s ease, opacity 0.6s ease;
+  transition: transform 0.45s ease, opacity 0.3s ease;
 }
 
 .buttons {
@@ -45,4 +46,10 @@
   padding: 4px;
   min-width: 30px;
   min-height: 30px;
+}
+
+@media screen and (max-width: 540px) {
+	.wrapper {
+		top: 112px;
+	}
 }

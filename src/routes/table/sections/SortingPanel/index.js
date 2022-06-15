@@ -2,7 +2,6 @@ import React from 'preact';
 import { useRef, useEffect } from 'preact/hooks';
 import cn from 'classnames';
 
-import style from '../../style';
 import panel_style from './style';
 
 let debounce = -1;
@@ -41,7 +40,6 @@ const ArkSortingPanel = ({
 	return (
 		<div
 			class={cn(
-				style.row_header,
 				panel_style.wrapper
 			)}
 			style={{
