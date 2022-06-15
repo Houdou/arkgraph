@@ -22,6 +22,7 @@ const ArkInputCell = (props) => {
 					style[props.header_level],
 					{
 						[style.header]: props.header,
+						[style.selected]: props.selected,
 					}
 				)
 			}

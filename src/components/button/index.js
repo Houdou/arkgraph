@@ -9,6 +9,7 @@ const ArkCell = (props) => (
 				style.button,
 				{
 					[style.header]: props.header,
+					[style.selected]: props.selected,
 					[style.empty]: !props.content,
 				}
 			)

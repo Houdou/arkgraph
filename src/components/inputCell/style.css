@@ -41,3 +41,7 @@
 		min-width: 60px;
 	}
 }
+
+.cell.selected {
+	background-color: #104050;
+}

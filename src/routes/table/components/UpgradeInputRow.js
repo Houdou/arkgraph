@@ -27,7 +27,7 @@ const BUTTON_STYLE_MAPPING = {
 	},
 	[FULFILLMENT_STATUS.UNSATISFIED]: {
 		opacity: 0.2,
-		background: 'usnet',
+		background: 'unset',
 	},
 };
 
@@ -51,6 +51,7 @@ const ArkUpgradeInputRow = ({
 			current,
 			target,
 			hidden,
+			selected,
 			requirements,
 		},
 		setOperatorId,
@@ -58,6 +59,7 @@ const ArkUpgradeInputRow = ({
 		setCurrent,
 		setTarget,
 		setHidden,
+		setSelected,
 	} = useRecord(init_record);
 
 	const operatorInputRef = useRef(null);
@@ -182,6 +184,24 @@ const ArkUpgradeInputRow = ({
 		/>
 	);
 
+	const SelectButton = (props) => (
+		<ArkCell halfwidth>
+			<ArkButton
+				onClick={() => {
+					update(record_index, setSelected(!selected));
+				}}
+			>
+				<img src="../../../assets/icons/select.png" alt="tick" style={{
+					height: '20px',
+					borderRadius: '2px',
+					background: selected ? '#00b0d1' : '#cecece',
+					opacity: selected ? 0.8 : 0.2
+				}}
+				/>
+			</ArkButton>
+		</ArkCell>
+	);
+
 	const RemoveButton = (props) => (
 		<ArkCell halfwidth>
 			<ArkButton onClick={() => remove(record_index)}>
@@ -231,6 +251,7 @@ const ArkUpgradeInputRow = ({
 		<ArkRow
 			cells={
 				[
+					SelectButton,
 					RemoveButton,
 					CompleteButton,
 					VisibilityButton,
@@ -251,6 +272,7 @@ const ArkUpgradeInputRow = ({
 						})),
 				]
 			}
+			selected={selected}
 			resources_filter={resources_filter}
 		/>
 	);

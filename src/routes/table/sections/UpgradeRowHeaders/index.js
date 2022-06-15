@@ -68,6 +68,7 @@ const ArkUpgradeRowHeaders = ({
 						{ content: '', halfwidth: true },
 						{ content: '', halfwidth: true },
 						{ content: '', halfwidth: true },
+						{ content: '', halfwidth: true },
 						{ content: '', force_no_shrink: true },
 						{ content: '', force_no_shrink: true },
 						{ content: '' },
@@ -78,6 +79,7 @@ const ArkUpgradeRowHeaders = ({
 			<ArkRow
 				cells={
 					[
+						{ content: '', halfwidth: true },
 						{ content: '', halfwidth: true },
 						{ content: '', halfwidth: true },
 						{ content: '', halfwidth: true },
@@ -102,7 +104,7 @@ const ArkUpgradeRowHeaders = ({
 					<ArkUpgradeInputRow
 						ir={ir}
 						showExtendedData={config.showExtendedData}
-						key={`${record.operator_id}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
+						key={`${record.operator_id}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${record.selected}_${index}`}
 						record={record}
 						record_index={index}
 						update={updateRow}

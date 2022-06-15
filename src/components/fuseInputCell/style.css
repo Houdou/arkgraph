@@ -34,3 +34,7 @@
   bottom: 4px;
   background-color: #EEE;
 }
+
+.cell.selected {
+	background-color: #104050;
+}

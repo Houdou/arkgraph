@@ -45,6 +45,7 @@ const ArkTableHeader = ({
 		<ArkRow
 			cells={
 				[
+					{ content: ir('table-header-select', ''), halfwidth: true, header_level: 'T1' },
 					{ content: ir('table-header-remove', ''), halfwidth: true, header_level: 'T1' },
 					{ content: ir('table-header-finish', ''), halfwidth: true, header_level: 'T1' },
 					{ content: ir('table-header-hide', ''), halfwidth: true, header_level: 'T1' },

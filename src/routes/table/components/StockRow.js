@@ -3,6 +3,7 @@ import React from 'preact';
 import ArkInputCell from '../../../components/inputCell';
 import ArkRow from '../../../components/row';
 import ArkCell from '../../../components/cell';
+import ArkButton from '../../../components/button';
 
 import { EXP, EXP_TAPES } from '../../../models/Resources';
 
@@ -50,6 +51,7 @@ const ArkStockRow = ({
 		<ArkRow
 			cells={
 				[
+					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },

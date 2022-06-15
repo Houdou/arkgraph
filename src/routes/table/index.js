@@ -12,6 +12,7 @@ import ArkShortageRow from './components/ShortageRow';
 import ArkFocusMaterials from './sections/FocusMaterials';
 import ArkFilterSettings from './sections/FilterSettings';
 import ArkUpgradeRowHeaders from './sections/UpgradeRowHeaders';
+import ArkSortingPanel from './sections/SortingPanel';
 
 import sumRequirements from '../../models/sumRequirements';
 import sumShortage from '../../models/sumShortage';
@@ -19,6 +20,7 @@ import checkFulFillment from '../../models/checkFulFillment';
 import { MONEY, PURCHASE_CREDIT, EXP, MOD_TOKENS, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 
 const header_list = [
+	{ name: '选择' },
 	{ name: '移除' },
 	{ name: '完成' },
 	{ name: '隐藏' },
@@ -55,6 +57,7 @@ const ArkTable = ({
 		completeRow,
 		removeRow,
 		sortRecords,
+		moveRecords,
 		setStockItem,
 		adjustStockItem,
 		toggleFocusMaterial,
@@ -69,17 +72,20 @@ const ArkTable = ({
 		load();
 	}, []);
 
-	const summary = useMemo(() => sumRequirements(records, stock, compound_materials), [records, stock, compound_materials]);
+	const summary = useMemo(
+		() => sumRequirements(records, stock, compound_materials),
+		[records.filter(record => !record.hidden).length, records.filter(record => record.selected).length, stock, compound_materials]
+	);
 	const shortage = sumShortage(stock, summary, compound_materials, ir);
 
 	const fulfillment_statuses = useMemo(() => checkFulFillment({
 		records,
 		stock,
 		compound_materials,
-	}), [records, stock, compound_materials]);
+	}), [records.filter(record => !record.hidden).length,  records.filter(record => record.selected).length, stock, compound_materials]);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
-	const header_skip = 7;
+	const header_skip = 8;
 
 	const {
 		showFilter,
@@ -149,11 +155,12 @@ const ArkTable = ({
 						<ArkUpgradeInputRow
 							ir={ir}
 							showExtendedData={config.showExtendedData}
-							key={`${record.operator_id}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${index}`}
+							key={`${record.operator_id}_${record.attribute}_${record.current}_${record.target}_${record.hidden}_${record.selected}_${index}`}
 							record={record}
 							record_index={index}
 							update={updateRow}
 							remove={removeRow}
+							move={moveRecords}
 							complete={completeRow}
 							fulfillment_status={fulfillment_statuses[index]}
 							{...filter_props}
@@ -175,6 +182,7 @@ const ArkTable = ({
 							addEmptyRow={addEmptyRow}
 							updateRow={updateRow}
 							removeRow={removeRow}
+							moveRecords={moveRecords}
 							completeRow={completeRow}
 							fulfillment_statuses={fulfillment_statuses}
 							summary={summary}
@@ -201,6 +209,22 @@ const ArkTable = ({
 				summary={summary}
 				shortage={shortage}
 				drops={drops}
+			/>
+			<ArkSortingPanel
+				ir={ir}
+				config={config}
+				records={records}
+				addLastRow={addLastRow}
+				addEmptyRow={addEmptyRow}
+				updateRow={updateRow}
+				removeRow={removeRow}
+				moveRecords={moveRecords}
+				completeRow={completeRow}
+				fulfillment_statuses={fulfillment_statuses}
+				summary={summary}
+				toggleHiddenAll={toggleHiddenAll}
+				sortRecords={sortRecords}
+				{...filter_props}
 			/>
 			{
 				showFilter && (

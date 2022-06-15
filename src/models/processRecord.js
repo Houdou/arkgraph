@@ -5,7 +5,7 @@ import sumLevelUpRequirement from './sumLevelUpRequirement';
 
 const clampRange = (value, min, max) => Math.max(Math.min(value || 0, max), min);
 
-const processRecord = ({ operator_id, attribute, current, target, hidden },
+const processRecord = ({ operator_id, attribute, current, target, hidden, selected },
 	allow_same_level = false
 ) => {
 	const operator = OPERATORS.find(o => o.unique_id === operator_id);
@@ -160,6 +160,7 @@ const processRecord = ({ operator_id, attribute, current, target, hidden },
 		current,
 		target,
 		hidden,
+		selected,
 		requirements,
 	};
 };

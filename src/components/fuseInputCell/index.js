@@ -127,6 +127,7 @@ const ArkFuseInputCell = (props) => (
 				style[props.header_level],
 				{
 					[style.header]: props.header,
+					[style.selected]: props.selected,
 				},
 				{
 					[props.custom_class]: props.custom_class,

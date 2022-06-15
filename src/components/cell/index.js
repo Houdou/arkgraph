@@ -16,6 +16,7 @@ const ArkCell = (props) => (
 					[style.stretch]: props.stretch,
 					[style.fullwidth]: props.fullwidth,
 					[style.halfwidth]: props.halfwidth,
+					[style.selected]: props.selected,
 					[style.is_focus_material]: props.is_focus_material,
 					[style.dim]: props.dim,
 					[style.long_text]: props.long_text,

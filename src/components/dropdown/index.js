@@ -11,6 +11,7 @@ const ArkDropdownCell = (props) => (
 				style[props.header_level],
 				{
 					[style.header]: props.header,
+					[style.selected]: props.selected,
 					[style.long_text]: (props.render_map[props.value] || '').length > 5,
 				}
 			)

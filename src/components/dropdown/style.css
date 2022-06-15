@@ -38,3 +38,7 @@
   position: absolute;
   right: 6px;
 }
+
+.cell.selected {
+	background-color: #104050;
+}

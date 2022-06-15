@@ -122,6 +122,9 @@
 :global(.row:not(.disable_hover):hover) .cell {
 	background-color: #4C4C4C;
 }
+:global(.row:not(.disable_hover)) .cell.selected {
+	background-color: #104050;
+}
 
 @media screen and (max-width: 600px) {
 	.cell.icons_header {

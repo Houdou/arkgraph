@@ -84,8 +84,9 @@ const ArkSummaryRow = ({
 				[
 					{ content: '', halfwidth: true },
 					{ content: '', halfwidth: true },
-					// { content: '', halfwidth: true },
+					{ content: '', halfwidth: true },
 					AllVisibilityButton,
+					// SortingButton,
 					// SortByNameButton,
 					// SortByAttributeButton,
 					{ content: '', force_no_shrink: true },

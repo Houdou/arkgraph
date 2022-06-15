@@ -4,7 +4,15 @@ import processRecord from './processRecord';
 
 const useRecord = (init_values) => {
 	const init_record = Object.assign(
-		{ operator_id: null, attribute: null, current: 0, target: 1, requirements: [], hidden: false },
+		{
+			operator_id: null,
+			attribute: null,
+			current: 0,
+			target: 1,
+			requirements: [],
+			hidden: false,
+			selected: false
+		},
 		init_values,
 		{ requirements: processRecord(init_values).requirements }
 	);
@@ -36,6 +44,10 @@ const useRecord = (init_values) => {
 		...record,
 		hidden: Boolean(hidden),
 	});
+	const setSelected = (selected) => setRecord({
+		...record,
+		selected: Boolean(selected),
+	});
 
 	return {
 		record,
@@ -44,6 +56,7 @@ const useRecord = (init_values) => {
 		setCurrent,
 		setTarget,
 		setHidden,
+		setSelected,
 	};
 };
 
