@@ -51,6 +51,11 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+			<p>2022-06-16</p>
+			<b>增加了排序功能！</b><br/>
+			但是我发现数据多了的话，性能不太行了，之后看能不能优化一下<br/>
+			天坑+1<br/>
+			<br/>
 			{
 				announcement_data
 					.filter(row => row.server.includes(config.locale))
