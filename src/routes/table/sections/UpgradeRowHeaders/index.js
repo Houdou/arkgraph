@@ -44,16 +44,11 @@ const ArkUpgradeRowHeaders = ({
 				}
 			}, 100);
 		};
-		if (headerRef && headerRef.current) {
-			const should_hide = window.scrollX <= 400;
-			headerRef.current.style.opacity = should_hide ? 0 : 1;
-			headerRef.current.style.pointerEvents = should_hide ? 'none' : 'initial';
-			headerRef.current.style.transform = `translateX(${window.scrollX}px)`;
-		}
-		window.onscroll = handleScroll;
+		window.addEventListener('scroll', handleScroll);
+		handleScroll();
 
 		return () => {
-			window.onscroll = null;
+			window.removeEventListener('scroll', handleScroll);
 		};
 	}, [config.table_row_header]);
 

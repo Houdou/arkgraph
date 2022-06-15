@@ -101,6 +101,57 @@ const reducer = (state, action) => {
 			};
 			break;
 		}
+		case 'data.moveRows': {
+			let sorted_records = [...state.records];
+			const selected_records = state.records.filter(r => r.selected);
+			const unselected_records = state.records.filter(r => !r.selected);
+			if(selected_records.length === 0 || unselected_records.length === 0) {
+				break;
+			}
+
+			const first_selected_index = state.records.findIndex(record => record.selected);
+			const last_selected_index = state.records.findLastIndex(record => record.selected);
+			const all_selection_grouped = selected_records.length <= 1 || Boolean(first_selected_index + selected_records.length - 1 === last_selected_index);
+
+			switch (action.payload.type) {
+				case 'to_first':
+					sorted_records = [].concat(selected_records, unselected_records);
+					break;
+				case 'to_last':
+					sorted_records = [].concat(unselected_records, selected_records);
+					break;
+				case 'up':
+					sorted_records = [
+						...state.records.filter((r, i) => i < first_selected_index - (all_selection_grouped ? 1 : 0) && !r.selected),
+						...selected_records,
+						...state.records.filter((r, i) => (i >= first_selected_index - (all_selection_grouped ? 1 : 0) && !r.selected)),
+					];
+					break;
+				case 'down':
+					sorted_records = [
+						...state.records.filter((r, i) => i < last_selected_index + (all_selection_grouped ? 2 : 1) && !r.selected),
+						...selected_records,
+						...state.records.filter((r, i) => i >= last_selected_index + (all_selection_grouped ? 2 : 1) && !r.selected),
+					];
+					break;
+				default:
+					break;
+			}
+
+			newState = {
+				...state,
+				records: sorted_records,
+			};
+			break;
+		}
+		case 'data.clearSelection': {
+			const records = [...state.records];
+			newState = {
+				...state,
+				records: records.map(record => ({...record, selected: false})),
+			};
+			break;
+		}
 		case 'data.sortRecords': {
 			const records = [...state.records];
 			const sorted_records = records.sort(action.payload.sorting_func);
@@ -401,6 +452,22 @@ const useData = () => {
 		});
 	};
 
+	const moveRows = (type) => {
+		dispatch({
+			type: 'data.moveRows',
+			payload: {
+				type,
+			},
+		});
+	};
+
+	const clearSelection = () => {
+		dispatch({
+			type: 'data.clearSelection',
+			payload: {},
+		});
+	};
+
 	const sortRecords = (sorting_func) => {
 		dispatch({
 			type: 'data.sortRecords',
@@ -465,6 +532,8 @@ const useData = () => {
 		toggleHiddenAll,
 		completeRow,
 		removeRow,
+		moveRows,
+		clearSelection,
 		sortRecords,
 		setStockItem,
 		adjustStockItem,

@@ -56,8 +56,9 @@ const ArkTable = ({
 		toggleHiddenAll,
 		completeRow,
 		removeRow,
+		moveRows,
+		clearSelection,
 		sortRecords,
-		moveRecords,
 		setStockItem,
 		adjustStockItem,
 		toggleFocusMaterial,
@@ -82,7 +83,7 @@ const ArkTable = ({
 		records,
 		stock,
 		compound_materials,
-	}), [records.filter(record => !record.hidden).length,  records.filter(record => record.selected).length, stock, compound_materials]);
+	}), [records, stock, compound_materials]);
 
 	const presented_materials = Object.keys(summary).filter(id => Boolean(summary[id]));
 	const header_skip = 8;
@@ -160,7 +161,6 @@ const ArkTable = ({
 							record_index={index}
 							update={updateRow}
 							remove={removeRow}
-							move={moveRecords}
 							complete={completeRow}
 							fulfillment_status={fulfillment_statuses[index]}
 							{...filter_props}
@@ -182,7 +182,6 @@ const ArkTable = ({
 							addEmptyRow={addEmptyRow}
 							updateRow={updateRow}
 							removeRow={removeRow}
-							moveRecords={moveRecords}
 							completeRow={completeRow}
 							fulfillment_statuses={fulfillment_statuses}
 							summary={summary}
@@ -214,16 +213,8 @@ const ArkTable = ({
 				ir={ir}
 				config={config}
 				records={records}
-				addLastRow={addLastRow}
-				addEmptyRow={addEmptyRow}
-				updateRow={updateRow}
-				removeRow={removeRow}
-				moveRecords={moveRecords}
-				completeRow={completeRow}
-				fulfillment_statuses={fulfillment_statuses}
-				summary={summary}
-				toggleHiddenAll={toggleHiddenAll}
-				sortRecords={sortRecords}
+				moveRows={moveRows}
+				clearSelection={clearSelection}
 				{...filter_props}
 			/>
 			{

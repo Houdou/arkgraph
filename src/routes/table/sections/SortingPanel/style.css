@@ -1,7 +1,10 @@
 .wrapper {
+  position: absolute;
   background: linear-gradient(to bottom, #15849f, transparent);
   width: 491px;
   height: 54px;
+  opacity: 0;
+  transition: transform 0.45s ease, opacity 0.6s ease;
 }
 
 .buttons {
@@ -17,7 +20,6 @@
 .button {
 	padding: 8px 16px;
 	margin-right: 10px;
-	color: #BBB;
 	border-radius: 1px;
 
 	font-size: 11px;
@@ -29,17 +31,14 @@
 	white-space: nowrap;
 	align-items: center;
 	user-select: none;
-	background: #666;
-	box-shadow: 0px 3px 3px 0 #33333333;
 	transition: background 0.6s ease, color 0.6s ease;
+
+  background: #111;
+  box-shadow: 0px 3px 4px 0 #33333366;
+  color: #EEE;
 }
 .button:last-of-type {
 	margin-right: 0;
-}
-.button.enable {
-	background: #111;
-	box-shadow: 0px 3px 4px 0 #33333366;
-	color: #EEE;
 }
 
 .image_button {
