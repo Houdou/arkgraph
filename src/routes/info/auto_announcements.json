@@ -1,6 +1,20 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2022-06-30",
+    "type": "new_operators",
+    "new_operators": [
+      "char_206_gnosis",
+      "char_4013_kjera",
+      "char_422_aurora"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2022-06-09",
@@ -113,19 +127,6 @@
     "new_operators": [
       "char_377_gdglow",
       "char_492_quercu"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2022-01-25",
-    "type": "new_operators",
-    "new_operators": [
-      "char_2023_ling",
-      "char_322_lmlee",
-      "char_476_blkngt",
-      "char_1021_kroos2"
     ]
   }
 ]
