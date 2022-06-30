@@ -2990,5 +2990,67 @@
       "name": "",
       "alias": []
     }
+  },
+  "W-5-2": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "数据增补条",
+      "alias": [
+        "shu ju zeng bu tiao",
+        "shujuzengbutiao"
+      ],
+      "sortId": 90003
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "W-5-3": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "数据增补仪",
+      "alias": [
+        "shu ju zeng bu yi",
+        "shujuzengbuyi"
+      ],
+      "sortId": 90002
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
   }
 }

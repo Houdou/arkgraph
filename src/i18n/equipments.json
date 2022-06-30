@@ -387,7 +387,7 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "﻿隠密行動用工具バッグ"
+      "name": "隠密行動用工具バッグ"
     },
     "ko_KR": {
       "enabled": true,
@@ -457,6 +457,18 @@
   },
   "uniequip_002_chen": {
     "char_id": "char_010_chen",
+    "en_US": {
+      "enabled": true,
+      "name": "Rhodes Island Standard Combat Sword"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロドス制式刀剣"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로도스 아일랜드 제식검"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "罗德岛制式剑"
@@ -464,6 +476,18 @@
   },
   "uniequip_002_tachak": {
     "char_id": "char_459_tachak",
+    "en_US": {
+      "enabled": true,
+      "name": "Machinegun Rack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "LMG用銃架"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "LMG 거치대"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "轻机枪枪架"
@@ -471,6 +495,18 @@
   },
   "uniequip_002_bibeak": {
     "char_id": "char_252_bibeak",
+    "en_US": {
+      "enabled": true,
+      "name": "A Well-Made Shirt"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "仕立ての良いシャツ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "웰메이드 셔츠"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "做工优良的衬衣"
@@ -478,6 +514,18 @@
   },
   "uniequip_002_cutter": {
     "char_id": "char_301_cutter",
+    "en_US": {
+      "enabled": true,
+      "name": "Replaceable Tool Set"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "刃部交換式刀剣セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "교체형 도검세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "可替换刀具套装"
@@ -485,6 +533,18 @@
   },
   "uniequip_002_bpipe": {
     "char_id": "char_222_bpipe",
+    "en_US": {
+      "enabled": true,
+      "name": "Piledriver Spear Magazine"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "破城矛マガジン"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "캐슬브레이커 탄창"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "破城矛弹夹"
@@ -492,6 +552,18 @@
   },
   "uniequip_002_grani": {
     "char_id": "char_220_grani",
+    "en_US": {
+      "enabled": true,
+      "name": "Cavalry Policeman Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "騎馬警察装備セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기마경찰 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "骑警套装"
@@ -499,6 +571,18 @@
   },
   "uniequip_002_wildmn": {
     "char_id": "char_496_wildmn",
+    "en_US": {
+      "enabled": true,
+      "name": "Spear Replacement Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ランススペアセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비용 랜스 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "长枪替补套装"
@@ -506,6 +590,18 @@
   },
   "uniequip_002_sddrag": {
     "char_id": "char_261_sddrag",
+    "en_US": {
+      "enabled": true,
+      "name": "Spear Clean Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "槍用クリーニングセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "무기 클리닝 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "枪刃清洁套装"
@@ -513,6 +609,18 @@
   },
   "uniequip_002_vigna": {
     "char_id": "char_290_vigna",
+    "en_US": {
+      "enabled": true,
+      "name": "The Greatrock"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ザ・グレイトロック"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "위대한 로큰롤"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "伟大的摇滚"

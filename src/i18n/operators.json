@@ -6342,6 +6342,52 @@
     "code": "corroserum",
     "code_name": "Corroserum"
   },
+  "char_4013_kjera": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kjera",
+      "skills": [
+        "ATK Up γ",
+        "Unrestrained Heart"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "イェラ",
+      "skills": [
+        "攻撃力強化γ",
+        "心意のままに"
+      ],
+      "alias": [
+        "いぇら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "쉐라",
+      "skills": [
+        "공격 강화γ",
+        "마음 가는 대로"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "耶拉",
+      "skills": [
+        "攻击力强化·γ型",
+        "心随意动"
+      ],
+      "alias": [
+        "ye la",
+        "yela"
+      ],
+      "appellation": "Kjera"
+    },
+    "code": "kjera",
+    "code_name": "Kjera"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -7684,6 +7730,52 @@
     },
     "code": "ashlock",
     "code_name": "Ashlock"
+  },
+  "char_422_aurora": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aurora",
+      "skills": [
+        "Homeland Protector",
+        "Artificial Snowfall"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "オーロラ",
+      "skills": [
+        "故郷の守り人",
+        "人工降雪"
+      ],
+      "alias": [
+        "おーろら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오로라",
+      "skills": [
+        "터전 고수",
+        "인공 강설"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "极光",
+      "skills": [
+        "固守家园",
+        "人工降雪"
+      ],
+      "alias": [
+        "ji guang",
+        "jiguang"
+      ],
+      "appellation": "Aurora"
+    },
+    "code": "aurora",
+    "code_name": "Aurora"
   },
   "char_145_prove": {
     "en_US": {
@@ -9866,6 +9958,56 @@
     },
     "code": "carnelian",
     "code_name": "Carnelian"
+  },
+  "char_206_gnosis": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gnosis",
+      "skills": [
+        "High-Speed Cogitation",
+        "Zero-Point Burst",
+        "Hypothermia"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ノーシス",
+      "skills": [
+        "思考加速",
+        "ゼロバースト",
+        "ハイポサーミア"
+      ],
+      "alias": [
+        "のーしす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "노시스",
+      "skills": [
+        "빠른 사고",
+        "영도 폭발",
+        "저체온증"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "灵知",
+      "skills": [
+        "高速思考",
+        "零度爆发",
+        "失温症"
+      ],
+      "alias": [
+        "ling zhi",
+        "lingzhi"
+      ],
+      "appellation": "Gnosis"
+    },
+    "code": "gnosis",
+    "code_name": "Gnosis"
   },
   "char_291_aglina": {
     "en_US": {
@@ -14869,6 +15011,48 @@
     "code": "knight crest",
     "code_name": "Knight Trophy"
   },
+  "trap_050_blizzard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Blizzard",
+      "skills": [
+        "Blizzard"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "猛吹雪",
+      "skills": [
+        "猛吹雪"
+      ],
+      "alias": [
+        "猛吹雪"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "눈보라",
+      "skills": [
+        "눈보라"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "暴风雪",
+      "skills": [
+        "暴风雪"
+      ],
+      "alias": [
+        "bao feng xue",
+        "baofengxue"
+      ],
+      "appellation": "Blizzard"
+    },
+    "code": "blizzard",
+    "code_name": "Blizzard"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -15409,23 +15593,6 @@
     "code": null,
     "code_name": "Kroos the Keen Glint"
   },
-  "char_4013_kjera": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "耶拉",
-      "skills": [
-        "攻击力强化·γ型",
-        "心随意动"
-      ],
-      "alias": [
-        "ye la",
-        "yela"
-      ],
-      "appellation": "Kjera"
-    },
-    "code": null,
-    "code_name": "Kjera"
-  },
   "char_4040_rockr": {
     "zh_CN": {
       "enabled": true,
@@ -15493,23 +15660,6 @@
     },
     "code": null,
     "code_name": "Czerny"
-  },
-  "char_422_aurora": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "极光",
-      "skills": [
-        "固守家园",
-        "人工降雪"
-      ],
-      "alias": [
-        "ji guang",
-        "jiguang"
-      ],
-      "appellation": "Aurora"
-    },
-    "code": null,
-    "code_name": "Aurora"
   },
   "char_4043_erato": {
     "zh_CN": {
@@ -15683,24 +15833,6 @@
     },
     "code": null,
     "code_name": "Ebenholz"
-  },
-  "char_206_gnosis": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "灵知",
-      "skills": [
-        "高速思考",
-        "零度爆发",
-        "失温症"
-      ],
-      "alias": [
-        "ling zhi",
-        "lingzhi"
-      ],
-      "appellation": "Gnosis"
-    },
-    "code": null,
-    "code_name": "Gnosis"
   },
   "char_2023_ling": {
     "zh_CN": {
@@ -15932,22 +16064,6 @@
     },
     "code": null,
     "code_name": "Old Day Remnants"
-  },
-  "trap_050_blizzard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "暴风雪",
-      "skills": [
-        "暴风雪"
-      ],
-      "alias": [
-        "bao feng xue",
-        "baofengxue"
-      ],
-      "appellation": "Blizzard"
-    },
-    "code": null,
-    "code_name": "Blizzard"
   },
   "trap_051_vultres": {
     "zh_CN": {
