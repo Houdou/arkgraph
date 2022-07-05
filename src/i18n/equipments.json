@@ -982,5 +982,110 @@
       "enabled": true,
       "name": "往日残梦"
     }
+  },
+  "uniequip_002_jesica": {
+    "char_id": "char_235_jesica",
+    "zh_CN": {
+      "enabled": true,
+      "name": "杰西卡的订单"
+    }
+  },
+  "uniequip_002_shotst": {
+    "char_id": "char_126_shotst",
+    "zh_CN": {
+      "enabled": true,
+      "name": "猎刀"
+    }
+  },
+  "uniequip_002_clour": {
+    "char_id": "char_190_clour",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“不落”"
+    }
+  },
+  "uniequip_002_mm": {
+    "char_id": "char_133_mm",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新手侦探礼包"
+    }
+  },
+  "uniequip_002_bluep": {
+    "char_id": "char_129_bluep",
+    "zh_CN": {
+      "enabled": true,
+      "name": "标准比色卡"
+    }
+  },
+  "uniequip_002_platnm": {
+    "char_id": "char_204_platnm",
+    "zh_CN": {
+      "enabled": true,
+      "name": "独自旅行套装"
+    }
+  },
+  "uniequip_002_swllow": {
+    "char_id": "char_367_swllow",
+    "zh_CN": {
+      "enabled": true,
+      "name": "母爱的倒影"
+    }
+  },
+  "uniequip_002_aprl": {
+    "char_id": "char_365_aprl",
+    "zh_CN": {
+      "enabled": true,
+      "name": "高保真通讯耳机"
+    }
+  },
+  "uniequip_002_kroos2": {
+    "char_id": "char_1021_kroos2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "真心的话和想冒的险"
+    }
+  },
+  "uniequip_002_angel": {
+    "char_id": "char_103_angel",
+    "zh_CN": {
+      "enabled": true,
+      "name": "能天使的杰作"
+    }
+  },
+  "uniequip_002_archet": {
+    "char_id": "char_332_archet",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“明天的种子”"
+    }
+  },
+  "uniequip_002_ash": {
+    "char_id": "char_456_ash",
+    "zh_CN": {
+      "enabled": true,
+      "name": "破墙榴弹战术收纳包"
+    }
+  },
+  "uniequip_003_mgllan": {
+    "char_id": "char_248_mgllan",
+    "zh_CN": {
+      "enabled": true,
+      "name": "教学用龙腾无人机"
+    }
+  },
+  "uniequip_003_pallas": {
+    "char_id": "char_485_pallas",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“赫里亚之辉”"
+    }
+  },
+  "uniequip_002_halo": {
+    "char_id": "char_135_halo",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未组装的钟表"
+    }
   }
 }

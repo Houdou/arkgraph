@@ -17135,6 +17135,84 @@
       "enabled": true
     }
   },
+  "act19side_st01": {
+    "code": "DV-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_01": {
+    "code": "DV-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_02": {
+    "code": "DV-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_tr01": {
+    "code": "DV-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_03": {
+    "code": "DV-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_04": {
+    "code": "DV-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_05": {
+    "code": "DV-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_06": {
+    "code": "DV-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_07": {
+    "code": "DV-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_08": {
+    "code": "DV-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_st02": {
+    "code": "DV-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_s01": {
+    "code": "DV-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_s02": {
+    "code": "DV-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act18side_st01": {
     "code": "LE-ST-1",
     "zh_CN": {
@@ -17977,6 +18055,12 @@
   },
   "camp_r_10": {
     "code": "卡西米尔",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_11": {
+    "code": "炎国",
     "zh_CN": {
       "enabled": true
     }

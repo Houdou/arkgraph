@@ -15593,6 +15593,23 @@
     "code": null,
     "code_name": "Kroos the Keen Glint"
   },
+  "char_135_halo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "星源",
+      "skills": [
+        "双端导流",
+        "星束交汇"
+      ],
+      "alias": [
+        "xing yuan",
+        "xingyuan"
+      ],
+      "appellation": "Astgenne"
+    },
+    "code": null,
+    "code_name": "Astgenne"
+  },
   "char_4040_rockr": {
     "zh_CN": {
       "enabled": true,
@@ -15664,19 +15681,36 @@
   "char_4043_erato": {
     "zh_CN": {
       "enabled": true,
-      "name": "埃拉托 ",
+      "name": "埃拉托",
       "skills": [
         "安眠旋律",
         "英雄赞歌"
       ],
       "alias": [
-        "ai la tuo  ",
-        "ailatuo "
+        "ai la tuo",
+        "ailatuo"
       ],
       "appellation": "Erato"
     },
     "code": null,
     "code_name": "Erato"
+  },
+  "char_1027_greyy2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "承曦格雷伊",
+      "skills": [
+        "迅捷打击·γ型",
+        "晨曦信标"
+      ],
+      "alias": [
+        "cheng xi ge lei yi",
+        "chengxigeleiyi"
+      ],
+      "appellation": "Greyy the Lightningbearer"
+    },
+    "code": null,
+    "code_name": "Greyy the Lightningbearer"
   },
   "char_433_windft": {
     "zh_CN": {
@@ -15888,6 +15922,24 @@
     "code": null,
     "code_name": "Specter the Unchained"
   },
+  "char_4048_doroth": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "多萝西",
+      "skills": [
+        "危险目标清除",
+        "流沙区域生成",
+        "高速共振排障"
+      ],
+      "alias": [
+        "duo luo xi",
+        "duoluoxi"
+      ],
+      "appellation": "Dorothy"
+    },
+    "code": null,
+    "code_name": "Dorothy"
+  },
   "char_4042_lumen": {
     "zh_CN": {
       "enabled": true,
@@ -16064,6 +16116,24 @@
     },
     "code": null,
     "code_name": "Old Day Remnants"
+  },
+  "token_10025_doroth_recttp": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "共振装置",
+      "skills": [
+        "危险目标清除",
+        "流沙区域生成",
+        "高速共振排障"
+      ],
+      "alias": [
+        "gong zhen zhuang zhi",
+        "gongzhenzhuangzhi"
+      ],
+      "appellation": "Resonator"
+    },
+    "code": null,
+    "code_name": "Resonator"
   },
   "trap_051_vultres": {
     "zh_CN": {
@@ -16397,5 +16467,69 @@
     },
     "code": null,
     "code_name": "Reassignment Transmitter"
+  },
+  "trap_075_bgarmn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-31重型动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-31 zhong xing dong li zhuang jia",
+        "R-31zhongxingdonglizhuangjia"
+      ],
+      "appellation": "R-31 powered heavy armor"
+    },
+    "code": null,
+    "code_name": "R-31 powered heavy armor"
+  },
+  "trap_076_bgarms": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-31a重型动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-31a zhong xing dong li zhuang jia",
+        "R-31azhongxingdonglizhuangjia"
+      ],
+      "appellation": "R-31a powered heavy armor"
+    },
+    "code": null,
+    "code_name": "R-31a powered heavy armor"
+  },
+  "trap_077_rmtarmn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-11突击动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-11 tu ji dong li zhuang jia",
+        "R-11tujidonglizhuangjia"
+      ],
+      "appellation": "R-11 power armor"
+    },
+    "code": null,
+    "code_name": "R-11 power armor"
+  },
+  "trap_078_rmtarms": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-11a突击动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-11a tu ji dong li zhuang jia",
+        "R-11atujidonglizhuangjia"
+      ],
+      "appellation": "R-11a power armor"
+    },
+    "code": null,
+    "code_name": "R-11a power armor"
   }
 }
