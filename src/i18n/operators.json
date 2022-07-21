@@ -7575,6 +7575,52 @@
     "code": "asbestos",
     "code_name": "Asbestos"
   },
+  "char_4025_aprot2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Shalem",
+      "skills": [
+        "Rapid Onslaught",
+        "Carnival of Self-Immolation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シャレム",
+      "skills": [
+        "短期決戦",
+        "群蛇の狂宴"
+      ],
+      "alias": [
+        "しゃれむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "샬렘",
+      "skills": [
+        "속전속결",
+        "희생의 광란"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "暮落",
+      "skills": [
+        "速战速决",
+        "燃命狂欢"
+      ],
+      "alias": [
+        "mu la",
+        "mula"
+      ],
+      "appellation": "Shalem"
+    },
+    "code": "shalem",
+    "code_name": "Shalem"
+  },
   "char_457_blitz": {
     "en_US": {
       "enabled": true,
@@ -8436,6 +8482,52 @@
     },
     "code": "tsukinogi",
     "code_name": "Tsukinogi"
+  },
+  "char_4019_ncdeer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Nine-Colored Deer",
+      "skills": [
+        "Fortune Bringer of the Mortal Realm",
+        "Return to the Immortal Mountain"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "九色鹿",
+      "skills": [
+        "人間降吉",
+        "仙山去遠"
+      ],
+      "alias": [
+        "九色鹿"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "나인컬러드 디어",
+      "skills": [
+        "속세에 내려온 길함",
+        "멀어지는 선산"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "九色鹿",
+      "skills": [
+        "人间降吉",
+        "仙山去远"
+      ],
+      "alias": [
+        "jiu se lu",
+        "jiuselu"
+      ],
+      "appellation": "Nine-Colored Deer"
+    },
+    "code": "nine-colored deer",
+    "code_name": "Nine-Colored Deer"
   },
   "char_215_mantic": {
     "en_US": {
@@ -15053,6 +15145,174 @@
     "code": "blizzard",
     "code_name": "Blizzard"
   },
+  "trap_051_vultres": {
+    "en_US": {
+      "enabled": true,
+      "name": "Unowned Treasure",
+      "skills": [
+        "Alluring Treasures"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "主なき財宝",
+      "skills": [
+        "財宝のいざない"
+      ],
+      "alias": [
+        "主なき財宝"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "주인 없는 재화",
+      "skills": [
+        "보물의 유혹"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "无主的财富",
+      "skills": [
+        "诱人珍宝"
+      ],
+      "alias": [
+        "wu zhu de cai fu",
+        "wuzhudecaifu"
+      ],
+      "appellation": "Unowned Treasure"
+    },
+    "code": "unowned treasure",
+    "code_name": "Unowned Treasure"
+  },
+  "trap_052_slowfd": {
+    "en_US": {
+      "enabled": true,
+      "name": "Broken Fog Machine",
+      "skills": [
+        "High-Pressure Spray"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "壊れたスモークマシン",
+      "skills": [
+        "高圧ガス"
+      ],
+      "alias": [
+        "壊れたすもーくましん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고장난 포그머신",
+      "skills": [
+        "고압 분사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "失修舞台雾机",
+      "skills": [
+        "高压喷射"
+      ],
+      "alias": [
+        "shi xiu wu tai wu ji",
+        "shixiuwutaiwuji"
+      ],
+      "appellation": "Broken Fog Machine"
+    },
+    "code": "broken fog machine",
+    "code_name": "Broken Fog Machine"
+  },
+  "trap_053_airbomb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gas Tank P.",
+      "skills": [
+        "Bang!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ガスボンベ",
+      "skills": [
+        "バン！"
+      ],
+      "alias": [
+        "がすぼんべ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "휴대용 가스통",
+      "skills": [
+        "펑!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携气罐",
+      "skills": [
+        "砰！"
+      ],
+      "alias": [
+        "bian xie qi guan",
+        "bianxieqiguan"
+      ],
+      "appellation": "Gas Tank P."
+    },
+    "code": "gas tank p.",
+    "code_name": "Gas Tank P."
+  },
+  "trap_054_dancdol": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Host's Assistant'",
+      "skills": [
+        "Repertoire Announcement"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「司会アシスタント」",
+      "skills": [
+        "カーテンコール"
+      ],
+      "alias": [
+        "「司会あしすたんと」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'호스트 어시스턴트'",
+      "skills": [
+        "레퍼토리 발표"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“报幕助手”",
+      "skills": [
+        "剧目宣告"
+      ],
+      "alias": [
+        "“ bao mu zhu shou ”",
+        "“baomuzhushou”"
+      ],
+      "appellation": "“Host's Assistant”"
+    },
+    "code": "'host's assistant'",
+    "code_name": "“Host's Assistant”"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -15644,23 +15904,6 @@
     "code": null,
     "code_name": "Hibiscus the Purifier"
   },
-  "char_4025_aprot2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "暮落",
-      "skills": [
-        "速战速决",
-        "燃命狂欢"
-      ],
-      "alias": [
-        "mu la",
-        "mula"
-      ],
-      "appellation": "Shalem"
-    },
-    "code": null,
-    "code_name": "Shalem"
-  },
   "char_4047_pianst": {
     "zh_CN": {
       "enabled": true,
@@ -15745,23 +15988,6 @@
     },
     "code": null,
     "code_name": "Heidi"
-  },
-  "char_4019_ncdeer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "九色鹿",
-      "skills": [
-        "人间降吉",
-        "仙山去远"
-      ],
-      "alias": [
-        "jiu se lu",
-        "jiuselu"
-      ],
-      "appellation": "Nine-Colored Deer"
-    },
-    "code": null,
-    "code_name": "Nine-Colored Deer"
   },
   "char_492_quercu": {
     "zh_CN": {
@@ -16134,70 +16360,6 @@
     },
     "code": null,
     "code_name": "Resonator"
-  },
-  "trap_051_vultres": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "无主的财富",
-      "skills": [
-        "诱人珍宝"
-      ],
-      "alias": [
-        "wu zhu de cai fu",
-        "wuzhudecaifu"
-      ],
-      "appellation": "Unowned Treasure"
-    },
-    "code": null,
-    "code_name": "Unowned Treasure"
-  },
-  "trap_052_slowfd": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "失修舞台雾机",
-      "skills": [
-        "高压喷射"
-      ],
-      "alias": [
-        "shi xiu wu tai wu ji",
-        "shixiuwutaiwuji"
-      ],
-      "appellation": "Broken Fog Machine"
-    },
-    "code": null,
-    "code_name": "Broken Fog Machine"
-  },
-  "trap_053_airbomb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "便携气罐",
-      "skills": [
-        "砰！"
-      ],
-      "alias": [
-        "bian xie qi guan",
-        "bianxieqiguan"
-      ],
-      "appellation": "Gas Tank P."
-    },
-    "code": null,
-    "code_name": "Gas Tank P."
-  },
-  "trap_054_dancdol": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“报幕助手”",
-      "skills": [
-        "剧目宣告"
-      ],
-      "alias": [
-        "“ bao mu zhu shou ”",
-        "“baomuzhushou”"
-      ],
-      "appellation": "“Host's Assistant”"
-    },
-    "code": null,
-    "code_name": "“Host's Assistant”"
   },
   "trap_055_tileblock": {
     "zh_CN": {

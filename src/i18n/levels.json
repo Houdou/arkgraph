@@ -16697,6 +16697,21 @@
       "enabled": true
     }
   },
+  "camp_r_08": {
+    "code": "哥伦比亚",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "easy_09-01": {
     "code": "9-2",
     "zh_CN": {
@@ -17135,6 +17150,102 @@
       "enabled": true
     }
   },
+  "act11mini_01": {
+    "code": "TC-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_01#f#": {
+    "code": "TC-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_02": {
+    "code": "TC-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_02#f#": {
+    "code": "TC-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_03": {
+    "code": "TC-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_03#f#": {
+    "code": "TC-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_04": {
+    "code": "TC-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_04#f#": {
+    "code": "TC-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_05": {
+    "code": "TC-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_05#f#": {
+    "code": "TC-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_06": {
+    "code": "TC-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_06#f#": {
+    "code": "TC-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_07": {
+    "code": "TC-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_07#f#": {
+    "code": "TC-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_08": {
+    "code": "TC-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act11mini_08#f#": {
+    "code": "TC-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act19side_st01": {
     "code": "DV-ST-1",
     "zh_CN": {
@@ -17209,6 +17320,102 @@
   },
   "act19side_s02": {
     "code": "DV-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex01": {
+    "code": "DV-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex01#f#": {
+    "code": "DV-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex02": {
+    "code": "DV-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex02#f#": {
+    "code": "DV-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex03": {
+    "code": "DV-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex03#f#": {
+    "code": "DV-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex04": {
+    "code": "DV-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex04#f#": {
+    "code": "DV-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex05": {
+    "code": "DV-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex05#f#": {
+    "code": "DV-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex06": {
+    "code": "DV-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex06#f#": {
+    "code": "DV-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex07": {
+    "code": "DV-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex07#f#": {
+    "code": "DV-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex08": {
+    "code": "DV-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act19side_ex08#f#": {
+    "code": "DV-EX-8",
     "zh_CN": {
       "enabled": true
     }
@@ -18037,12 +18244,6 @@
   },
   "act15side_ex08#f#": {
     "code": "IW-EX-8",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "camp_r_08": {
-    "code": "哥伦比亚",
     "zh_CN": {
       "enabled": true
     }

@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2022-07-21",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4025_aprot2",
+      "char_4019_ncdeer"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2022-07-05",
@@ -116,18 +129,6 @@
       "char_479_sleach",
       "char_473_mberry",
       "char_484_robrta"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2022-03-15",
-    "type": "new_operators",
-    "new_operators": [
-      "char_300_phenxi",
-      "char_4036_forcer",
-      "char_4016_kazema"
     ]
   }
 ]
