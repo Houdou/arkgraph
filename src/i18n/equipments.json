@@ -628,6 +628,18 @@
   },
   "uniequip_002_nearl2": {
     "char_id": "char_1014_nearl2",
+    "en_US": {
+      "enabled": true,
+      "name": "Blade of Blazing Sun"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブレイジングブレイド"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "눈부신 태양의 칼날"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "耀阳锋刃"
@@ -635,6 +647,18 @@
   },
   "uniequip_002_skadi": {
     "char_id": "char_263_skadi",
+    "en_US": {
+      "enabled": true,
+      "name": "Moist Sword Bag"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "湿ったソードバッグ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "축축한 대검 케이스"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "潮湿的剑袋"
@@ -642,6 +666,18 @@
   },
   "uniequip_002_flameb": {
     "char_id": "char_131_flameb",
+    "en_US": {
+      "enabled": true,
+      "name": "Rusty Broken Blade"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "折れて錆び付いた刀"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "녹슬어 부러진 칼"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "锈损的断刀"
@@ -649,6 +685,18 @@
   },
   "uniequip_002_franka": {
     "char_id": "char_106_franka",
+    "en_US": {
+      "enabled": true,
+      "name": "Cutting-edge Thermite Unit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "刃先テルミットユニット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "첨단 테르밋 유닛"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "尖端铝热单元"
@@ -656,6 +704,18 @@
   },
   "uniequip_002_peacok": {
     "char_id": "char_159_peacok",
+    "en_US": {
+      "enabled": true,
+      "name": "The Fist of Conviction"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "断罪の拳"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "단죄의 주먹"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "断罪之拳"
@@ -663,6 +723,18 @@
   },
   "uniequip_002_gyuki": {
     "char_id": "char_289_gyuki",
+    "en_US": {
+      "enabled": true,
+      "name": "Bamboo Ikebana"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "切竹艶めく生け花"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "대나무 이케바나"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "断竹插花作品"
@@ -670,6 +742,18 @@
   },
   "uniequip_002_nothin": {
     "char_id": "char_455_nothin",
+    "en_US": {
+      "enabled": true,
+      "name": "'Shelter from the Rain'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「檐下聴雨」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'처마 밑에서 비를 듣다'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“檐下听雨”"
@@ -677,6 +761,18 @@
   },
   "uniequip_002_strong": {
     "char_id": "char_272_strong",
+    "en_US": {
+      "enabled": true,
+      "name": "Steel Tool Set"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "無骨な包丁セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "정제 강철 나이프 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "精钢刀具套组"
@@ -684,6 +780,18 @@
   },
   "uniequip_002_lmlee": {
     "char_id": "char_322_lmlee",
+    "en_US": {
+      "enabled": true,
+      "name": "'Wandering'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「無問吉凶」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'길흉불문'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“无问吉凶”"
@@ -691,6 +799,18 @@
   },
   "uniequip_002_ling": {
     "char_id": "char_2023_ling",
+    "en_US": {
+      "enabled": true,
+      "name": "Fond Dream with Poetry"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "詩は短く、夢は長く"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시는 짧고 꿈은 길다"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "诗短梦长"
