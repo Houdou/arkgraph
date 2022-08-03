@@ -5,6 +5,23 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2022-08-04",
+    "type": "new_operators",
+    "new_operators": [
+      "char_377_gdglow",
+      "char_2023_ling",
+      "char_322_lmlee",
+      "char_476_blkngt",
+      "char_1021_kroos2",
+      "char_492_quercu"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2022-07-21",
     "type": "new_operators",
     "new_operators": [
@@ -115,20 +132,6 @@
       "char_4040_rockr",
       "char_4045_heidi",
       "char_4041_chnut"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2022-03-20",
-    "type": "new_operators",
-    "new_operators": [
-      "char_479_sleach",
-      "char_473_mberry",
-      "char_484_robrta"
     ]
   }
 ]

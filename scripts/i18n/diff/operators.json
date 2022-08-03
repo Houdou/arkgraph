@@ -4243,6 +4243,52 @@
     "code": "elysium",
     "code_name": "Elysium"
   },
+  "char_476_blkngt": {
+    "en_US": {
+      "enabled": true,
+      "name": "Blacknight",
+      "skills": [
+        "Drowsy",
+        "Peaceful Slumber"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブラックナイト",
+      "skills": [
+        "うたた寝",
+        "深き眠り"
+      ],
+      "alias": [
+        "ぶらっくないと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "블랙나이트",
+      "skills": [
+        "비몽사몽",
+        "숙면"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "夜半",
+      "skills": [
+        "半醒",
+        "安眠"
+      ],
+      "alias": [
+        "ye ban",
+        "yeban"
+      ],
+      "appellation": "Blacknight"
+    },
+    "code": "blacknight",
+    "code_name": "Blacknight"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -5470,6 +5516,52 @@
     },
     "code": "april",
     "code_name": "April"
+  },
+  "char_1021_kroos2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kroos the Keen Glint",
+      "skills": [
+        "Traceless",
+        "Silencer"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "寒芒クルース",
+      "skills": [
+        "無痕",
+        "矢継ぎ早"
+      ],
+      "alias": [
+        "寒芒くるーす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "크루스 더 킨 글린트",
+      "skills": [
+        "무흔",
+        "봉후"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "寒芒克洛丝",
+      "skills": [
+        "无痕",
+        "封喉"
+      ],
+      "alias": [
+        "han mang ke luo si",
+        "hanmangkeluosi"
+      ],
+      "appellation": "Kroos the Keen Glint"
+    },
+    "code": "kroos the keen glint",
+    "code_name": "Kroos the Keen Glint"
   },
   "char_219_meteo": {
     "en_US": {
@@ -8529,6 +8621,52 @@
     "code": "nine-colored deer",
     "code_name": "Nine-Colored Deer"
   },
+  "char_492_quercu": {
+    "en_US": {
+      "enabled": true,
+      "name": "Quercus",
+      "skills": [
+        "Earth's Benevolence",
+        "Echo of Life"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "クエルクス",
+      "skills": [
+        "大地の慈悲",
+        "生命の木霊"
+      ],
+      "alias": [
+        "くえるくす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "퀘르쿠스",
+      "skills": [
+        "대지의 자비",
+        "생령의 울림"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "夏栎",
+      "skills": [
+        "大地的慈悲",
+        "生灵的回响"
+      ],
+      "alias": [
+        "xia li",
+        "xiali"
+      ],
+      "appellation": "Quercus"
+    },
+    "code": "quercus",
+    "code_name": "Quercus"
+  },
   "char_215_mantic": {
     "en_US": {
       "enabled": true,
@@ -10051,6 +10189,56 @@
     "code": "carnelian",
     "code_name": "Carnelian"
   },
+  "char_377_gdglow": {
+    "en_US": {
+      "enabled": true,
+      "name": "Goldenglow",
+      "skills": [
+        "Scattering Sparks",
+        "Surging Current",
+        "Crystalline Shine"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ゴールデングロー",
+      "skills": [
+        "スパーキング",
+        "インパルスカレント",
+        "ゴールデングロー"
+      ],
+      "alias": [
+        "ごーるでんぐろー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "골든글로우",
+      "skills": [
+        "불꽃 스파크",
+        "일렁이는 전류",
+        "맑고 깨끗한 반짝임"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "澄闪",
+      "skills": [
+        "火花四溅",
+        "电流翻涌",
+        "澄净闪耀"
+      ],
+      "alias": [
+        "cheng shan",
+        "chengshan"
+      ],
+      "appellation": "Goldenglow"
+    },
+    "code": "goldenglow",
+    "code_name": "Goldenglow"
+  },
   "char_206_gnosis": {
     "en_US": {
       "enabled": true,
@@ -10331,6 +10519,56 @@
     "code": "skadi the corrupting heart",
     "code_name": "Skadi the Corrupting Heart"
   },
+  "char_2023_ling": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ling",
+      "skills": [
+        "Sips of Wine",
+        "Amidst Pleasant Melodies",
+        "To Remain Oneself"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "リィン",
+      "skills": [
+        "重ねて酒を進み",
+        "笑いて瑟を鼓せ",
+        "寧ろ吾をなさん"
+      ],
+      "alias": [
+        "りぃん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "링",
+      "skills": [
+        "다시 술을 권하다",
+        "웃으며 슬을 켜다",
+        "나 자신이 되다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "令",
+      "skills": [
+        "重进酒",
+        "笑鸣瑟",
+        "宁作吾"
+      ],
+      "alias": [
+        "ling",
+        "ling"
+      ],
+      "appellation": "Ling"
+    },
+    "code": "ling",
+    "code_name": "Ling"
+  },
   "char_250_phatom": {
     "en_US": {
       "enabled": true,
@@ -10390,6 +10628,56 @@
     },
     "code": "phantom",
     "code_name": "Phantom"
+  },
+  "char_322_lmlee": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lee",
+      "skills": [
+        "Stern Admonishment",
+        "Exorcise Evil",
+        "Honored Guest"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "リー",
+      "skills": [
+        "邪気退散",
+        "辟邪除災",
+        "千客万来"
+      ],
+      "alias": [
+        "りー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "리",
+      "skills": [
+        "일벌백계",
+        "축귀벽사",
+        "귀빈내방"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "老鲤",
+      "skills": [
+        "小惩大诫",
+        "驱凶辟邪",
+        "贵客盈门"
+      ],
+      "alias": [
+        "lao li",
+        "laoli"
+      ],
+      "appellation": "Lee"
+    },
+    "code": "lee",
+    "code_name": "Lee"
   },
   "char_400_weedy": {
     "en_US": {
@@ -12892,6 +13180,202 @@
     "code": "'blazing sun'",
     "code_name": "Blazing Sun"
   },
+  "token_10020_ling_soul1": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Tranquility'",
+      "skills": [
+        "Sips of Wine",
+        "Sips of Wine",
+        "Sips of Wine"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「清平」",
+      "skills": [
+        "重ねて酒を進み",
+        "重ねて酒を進み",
+        "重ねて酒を進み"
+      ],
+      "alias": [
+        "「清平」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'칭핑'",
+      "skills": [
+        "다시 술을 권하다",
+        "다시 술을 권하다",
+        "다시 술을 권하다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“清平”",
+      "skills": [
+        "重进酒",
+        "重进酒",
+        "重进酒"
+      ],
+      "alias": [
+        "“ qing ping ”",
+        "“qingping”"
+      ],
+      "appellation": "Tranquility"
+    },
+    "code": "'tranquility'",
+    "code_name": "Tranquility"
+  },
+  "token_10020_ling_soul2": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Peripateticism'",
+      "skills": [
+        "Amidst Pleasant Melodies",
+        "Amidst Pleasant Melodies",
+        "Amidst Pleasant Melodies"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「逍遥」",
+      "skills": [
+        "笑いて瑟を鼓せ",
+        "笑いて瑟を鼓せ",
+        "笑いて瑟を鼓せ"
+      ],
+      "alias": [
+        "「逍遥」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'샤오야오'",
+      "skills": [
+        "웃으며 슬을 켜다",
+        "웃으며 슬을 켜다",
+        "웃으며 슬을 켜다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“逍遥”",
+      "skills": [
+        "笑鸣瑟",
+        "笑鸣瑟",
+        "笑鸣瑟"
+      ],
+      "alias": [
+        "“ xiao yao ”",
+        "“xiaoyao”"
+      ],
+      "appellation": "Peripateticism"
+    },
+    "code": "'peripateticism'",
+    "code_name": "Peripateticism"
+  },
+  "token_10020_ling_soul3": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Thunderer'",
+      "skills": [
+        "To Remain Oneself",
+        "To Remain Oneself",
+        "To Remain Oneself"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「弦驚」",
+      "skills": [
+        "寧ろ吾をなさん",
+        "寧ろ吾をなさん",
+        "寧ろ吾をなさん"
+      ],
+      "alias": [
+        "「弦驚」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'시엔징'",
+      "skills": [
+        "나 자신이 되다",
+        "나 자신이 되다",
+        "나 자신이 되다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“弦惊”",
+      "skills": [
+        "宁作吾",
+        "宁作吾",
+        "宁作吾"
+      ],
+      "alias": [
+        "“ xian jing ”",
+        "“xianjing”"
+      ],
+      "appellation": "Thunderer"
+    },
+    "code": "'thunderer'",
+    "code_name": "Thunderer"
+  },
+  "token_10021_blkngt_hypnos": {
+    "en_US": {
+      "enabled": true,
+      "name": "Slumberfoot",
+      "skills": [
+        "Dream Eater",
+        "Dream Eater"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "眠獣",
+      "skills": [
+        "夢喰い",
+        "夢喰い"
+      ],
+      "alias": [
+        "眠獣"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "슬럼버풋",
+      "skills": [
+        "식몽",
+        "식몽"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "眠兽",
+      "skills": [
+        "食梦",
+        "食梦"
+      ],
+      "alias": [
+        "mian shou",
+        "mianshou"
+      ],
+      "appellation": "Hypnos"
+    },
+    "code": "slumberfoot",
+    "code_name": "Hypnos"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -15313,6 +15797,48 @@
     "code": "'host's assistant'",
     "code_name": "“Host's Assistant”"
   },
+  "trap_055_tileblock": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sealed Floor",
+      "skills": [
+        "Deployment Forbidden"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "封じられた地面",
+      "skills": [
+        "配置不可"
+      ],
+      "alias": [
+        "封じられた地面"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "봉인된 지면",
+      "skills": [
+        "배치 불가"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "封印的地面",
+      "skills": [
+        "不可部署"
+      ],
+      "alias": [
+        "feng yin de di mian",
+        "fengyindedimian"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": "sealed floor",
+    "code_name": "Sealed Floor"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -15748,6 +16274,40 @@
     "code": "skadi",
     "code_name": "Skadi"
   },
+  "trap_056_sfsuifire": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dantian",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "丹田",
+      "skills": [],
+      "alias": [
+        "丹田"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "단전",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "丹田",
+      "skills": [],
+      "alias": [
+        "dan tian",
+        "dantian"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": "dantian",
+    "code_name": "Sealed Floor"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -15818,40 +16378,6 @@
     },
     "code": null,
     "code_name": "Chestnut"
-  },
-  "char_476_blkngt": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "夜半",
-      "skills": [
-        "半醒",
-        "安眠"
-      ],
-      "alias": [
-        "ye ban",
-        "yeban"
-      ],
-      "appellation": "Blacknight"
-    },
-    "code": null,
-    "code_name": "Blacknight"
-  },
-  "char_1021_kroos2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "寒芒克洛丝",
-      "skills": [
-        "无痕",
-        "封喉"
-      ],
-      "alias": [
-        "han mang ke luo si",
-        "hanmangkeluosi"
-      ],
-      "appellation": "Kroos the Keen Glint"
-    },
-    "code": null,
-    "code_name": "Kroos the Keen Glint"
   },
   "char_135_halo": {
     "zh_CN": {
@@ -15989,23 +16515,6 @@
     "code": null,
     "code_name": "Heidi"
   },
-  "char_492_quercu": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "夏栎",
-      "skills": [
-        "大地的慈悲",
-        "生灵的回响"
-      ],
-      "alias": [
-        "xia li",
-        "xiali"
-      ],
-      "appellation": "Quercus"
-    },
-    "code": null,
-    "code_name": "Quercus"
-  },
   "char_4036_forcer": {
     "zh_CN": {
       "enabled": true,
@@ -16058,24 +16567,6 @@
     "code": null,
     "code_name": "Fiammetta"
   },
-  "char_377_gdglow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "澄闪",
-      "skills": [
-        "火花四溅",
-        "电流翻涌",
-        "澄净闪耀"
-      ],
-      "alias": [
-        "cheng shan",
-        "chengshan"
-      ],
-      "appellation": "Goldenglow"
-    },
-    "code": null,
-    "code_name": "Goldenglow"
-  },
   "char_4046_ebnhlz": {
     "zh_CN": {
       "enabled": true,
@@ -16093,42 +16584,6 @@
     },
     "code": null,
     "code_name": "Ebenholz"
-  },
-  "char_2023_ling": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "令",
-      "skills": [
-        "重进酒",
-        "笑鸣瑟",
-        "宁作吾"
-      ],
-      "alias": [
-        "ling",
-        "ling"
-      ],
-      "appellation": "Ling"
-    },
-    "code": null,
-    "code_name": "Ling"
-  },
-  "char_322_lmlee": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "老鲤",
-      "skills": [
-        "小惩大诫",
-        "驱凶辟邪",
-        "贵客盈门"
-      ],
-      "alias": [
-        "lao li",
-        "laoli"
-      ],
-      "appellation": "Lee"
-    },
-    "code": null,
-    "code_name": "Lee"
   },
   "char_1023_ghost2": {
     "zh_CN": {
@@ -16220,77 +16675,6 @@
     "code": null,
     "code_name": "Irene"
   },
-  "token_10020_ling_soul1": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“清平”",
-      "skills": [
-        "重进酒",
-        "重进酒",
-        "重进酒"
-      ],
-      "alias": [
-        "“ qing ping ”",
-        "“qingping”"
-      ],
-      "appellation": "Tranquility"
-    },
-    "code": null,
-    "code_name": "Tranquility"
-  },
-  "token_10020_ling_soul2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“逍遥”",
-      "skills": [
-        "笑鸣瑟",
-        "笑鸣瑟",
-        "笑鸣瑟"
-      ],
-      "alias": [
-        "“ xiao yao ”",
-        "“xiaoyao”"
-      ],
-      "appellation": "Peripateticism"
-    },
-    "code": null,
-    "code_name": "Peripateticism"
-  },
-  "token_10020_ling_soul3": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“弦惊”",
-      "skills": [
-        "宁作吾",
-        "宁作吾",
-        "宁作吾"
-      ],
-      "alias": [
-        "“ xian jing ”",
-        "“xianjing”"
-      ],
-      "appellation": "Thunderer"
-    },
-    "code": null,
-    "code_name": "Thunderer"
-  },
-  "token_10021_blkngt_hypnos": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "眠兽",
-      "skills": [
-        "食梦",
-        "食梦"
-      ],
-      "alias": [
-        "mian shou",
-        "mianshou"
-      ],
-      "appellation": "Hypnos"
-    },
-    "code": null,
-    "code_name": "Hypnos"
-  },
   "token_10022_kazema_shadow": {
     "zh_CN": {
       "enabled": true,
@@ -16360,36 +16744,6 @@
     },
     "code": null,
     "code_name": "Resonator"
-  },
-  "trap_055_tileblock": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "封印的地面",
-      "skills": [
-        "不可部署"
-      ],
-      "alias": [
-        "feng yin de di mian",
-        "fengyindedimian"
-      ],
-      "appellation": "Sealed Floor"
-    },
-    "code": null,
-    "code_name": "Sealed Floor"
-  },
-  "trap_056_sfsuifire": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "丹田",
-      "skills": [],
-      "alias": [
-        "dan tian",
-        "dantian"
-      ],
-      "appellation": "Sealed Floor"
-    },
-    "code": null,
-    "code_name": "Sealed Floor"
   },
   "trap_057_wpnsts": {
     "zh_CN": {
