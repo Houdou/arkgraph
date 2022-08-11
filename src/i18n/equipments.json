@@ -1207,5 +1207,82 @@
       "enabled": true,
       "name": "未组装的钟表"
     }
+  },
+  "uniequip_002_glady": {
+    "char_id": "char_474_glady",
+    "zh_CN": {
+      "enabled": true,
+      "name": "执政官手镜"
+    }
+  },
+  "uniequip_002_snsant": {
+    "char_id": "char_383_snsant",
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪雉的宝贝存钱罐"
+    }
+  },
+  "uniequip_002_slchan": {
+    "char_id": "char_173_slchan",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“凌绝顶”"
+    }
+  },
+  "uniequip_002_rope": {
+    "char_id": "char_236_rope",
+    "zh_CN": {
+      "enabled": true,
+      "name": "铁皮首饰盒"
+    }
+  },
+  "uniequip_002_bgsnow": {
+    "char_id": "char_4055_bgsnow",
+    "zh_CN": {
+      "enabled": true,
+      "name": "打字机色带"
+    }
+  },
+  "uniequip_002_mizuki": {
+    "char_id": "char_437_mizuki",
+    "zh_CN": {
+      "enabled": true,
+      "name": "使者之约"
+    }
+  },
+  "uniequip_002_mantic": {
+    "char_id": "char_215_mantic",
+    "zh_CN": {
+      "enabled": true,
+      "name": "训练用尾部防护套装"
+    }
+  },
+  "uniequip_002_kirara": {
+    "char_id": "char_478_kirara",
+    "zh_CN": {
+      "enabled": true,
+      "name": "《闹闹生存挑战3 联机版》"
+    }
+  },
+  "uniequip_002_ethan": {
+    "char_id": "char_355_ethan",
+    "zh_CN": {
+      "enabled": true,
+      "name": "超级喷漆套装"
+    }
+  },
+  "uniequip_003_ghost2": {
+    "char_id": "char_1023_ghost2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未竟之美"
+    }
+  },
+  "uniequip_003_fartth": {
+    "char_id": "char_430_fartth",
+    "zh_CN": {
+      "enabled": true,
+      "name": "支持者来信"
+    }
   }
 }

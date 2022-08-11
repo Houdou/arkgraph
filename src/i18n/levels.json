@@ -14582,6 +14582,84 @@
       "enabled": true
     }
   },
+  "act20side_st01": {
+    "code": "IC-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_01": {
+    "code": "IC-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_02": {
+    "code": "IC-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_tr01": {
+    "code": "IC-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_03": {
+    "code": "IC-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_04": {
+    "code": "IC-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_05": {
+    "code": "IC-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_06": {
+    "code": "IC-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_07": {
+    "code": "IC-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_08": {
+    "code": "IC-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_09": {
+    "code": "IC-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_st02": {
+    "code": "IC-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_sp01": {
+    "code": "IC-P-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act11mini_01": {
     "code": "TC-1",
     "zh_CN": {
@@ -15639,6 +15717,54 @@
     }
   },
   "lt_02_08": {
+    "code": "LT-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_01": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_02": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_03": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_04": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_05": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_06": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_07": {
+    "code": "LT-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_03_08": {
     "code": "LT-8",
     "zh_CN": {
       "enabled": true

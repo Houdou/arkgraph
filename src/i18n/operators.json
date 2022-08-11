@@ -16379,6 +16379,23 @@
     "code": null,
     "code_name": "Chestnut"
   },
+  "char_497_ctable": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "晓歌",
+      "skills": [
+        "观火",
+        "浮光"
+      ],
+      "alias": [
+        "xiao ge",
+        "xiaoge"
+      ],
+      "appellation": "Cantabile"
+    },
+    "code": null,
+    "code_name": "Cantabile"
+  },
   "char_135_halo": {
     "zh_CN": {
       "enabled": true,
@@ -16412,6 +16429,23 @@
     },
     "code": null,
     "code_name": "Rockrock"
+  },
+  "char_4054_malist": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "至简",
+      "skills": [
+        "迅捷打击·γ型",
+        "神工意匠"
+      ],
+      "alias": [
+        "zhi jian",
+        "zhijian"
+      ],
+      "appellation": "Minimalist"
+    },
+    "code": null,
+    "code_name": "Minimalist"
   },
   "char_1024_hbisc2": {
     "zh_CN": {
@@ -16549,6 +16583,24 @@
     "code": null,
     "code_name": "Kazemaru"
   },
+  "char_4055_bgsnow": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "鸿雪",
+      "skills": [
+        "抑扬格",
+        "点题",
+        "锐笔速写"
+      ],
+      "alias": [
+        "hong xue",
+        "hongxue"
+      ],
+      "appellation": "Позёмка"
+    },
+    "code": null,
+    "code_name": "Позёмка"
+  },
   "char_300_phenxi": {
     "zh_CN": {
       "enabled": true,
@@ -16675,6 +16727,24 @@
     "code": null,
     "code_name": "Irene"
   },
+  "char_1026_gvial2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "百炼嘉维尔",
+      "skills": [
+        "精准痛击",
+        "链锯强袭",
+        "丛林之魂"
+      ],
+      "alias": [
+        "bai lian jia wei er",
+        "bailianjiaweier"
+      ],
+      "appellation": "Gavial the Invincible"
+    },
+    "code": null,
+    "code_name": "Gavial the Invincible"
+  },
   "token_10022_kazema_shadow": {
     "zh_CN": {
       "enabled": true,
@@ -16744,6 +16814,24 @@
     },
     "code": null,
     "code_name": "Resonator"
+  },
+  "token_10026_bgsnow_subbow": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“打字机”",
+      "skills": [
+        "抑扬格",
+        "点题",
+        "锐笔速写"
+      ],
+      "alias": [
+        "“ da zi ji ”",
+        "“daziji”"
+      ],
+      "appellation": "Typewriters"
+    },
+    "code": null,
+    "code_name": "Typewriters"
   },
   "trap_057_wpnsts": {
     "zh_CN": {
@@ -17047,5 +17135,54 @@
     },
     "code": null,
     "code_name": "R-11a power armor"
+  },
+  "trap_080_garage": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "自走车出发点",
+      "skills": [
+        "自走车出击！",
+        "自走车出击！"
+      ],
+      "alias": [
+        "zi zou che chu fa dian",
+        "zizouchechufadian"
+      ],
+      "appellation": "Starting Point"
+    },
+    "code": null,
+    "code_name": "Starting Point"
+  },
+  "trap_081_turngear": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "自走车单行道",
+      "skills": [
+        "自走车定向！"
+      ],
+      "alias": [
+        "zi zou che dan hang dao",
+        "zizouchedanhangdao"
+      ],
+      "appellation": "One-way Traffic"
+    },
+    "code": null,
+    "code_name": "One-way Traffic"
+  },
+  "trap_085_paras": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "荧光孢子",
+      "skills": [
+        "繁衍"
+      ],
+      "alias": [
+        "ying guang bao zi",
+        "yingguangbaozi"
+      ],
+      "appellation": "Fluorescent Spores"
+    },
+    "code": null,
+    "code_name": "Fluorescent Spores"
   }
 }
