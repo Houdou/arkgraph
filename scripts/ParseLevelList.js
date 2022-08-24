@@ -14,9 +14,11 @@ const ParseLevel = (data) => {
 	const retro_data = retro_stages[data.stageId];
 	const is_perm = Boolean(retro_data);
 
+	const level_data = is_perm ? retro_data : data;
+
 	const level = {
 		level: data.code,
-		energy: is_perm ? retro_data.apCost : data.apCost,
+		energy: level_data.apCost,
 		unique_id: data.stageId,
 		zone_id: data.zoneId,
 		is_perm,
@@ -25,7 +27,7 @@ const ParseLevel = (data) => {
 		extra_drop: [],
 	};
 
-	(is_perm ? retro_data : data).stageDropInfo.displayDetailRewards.forEach(({
+	level_data.stageDropInfo.displayDetailRewards.forEach(({
 		occPercent,
 		id,
 		dropType,
@@ -70,10 +72,24 @@ const ParseLevel = (data) => {
 	return level;
 };
 
-const LEVEL_LIST = [];
+const level_list = [];
 
 Object.entries(stages).forEach(([level_key, level_data]) => {
-	LEVEL_LIST.push(ParseLevel(level_data));
+	const level = ParseLevel(level_data);
+
+	if (!level) {
+		return;
+	}
+
+	if (level.normal_drop.length + level.special_drop.length + level.extra_drop.length === 0) {
+		return;
+	}
+
+	level_list.push(level)
 });
 
-require('fs').writeFileSync(require('path').resolve(__dirname, '../src/models', 'levels.json'), JSON.stringify(LEVEL_LIST, null, 2));
+const sorted_level_list = level_list.sort(
+	(a, b) => b.normal_drop.length - a.normal_drop.length
+);
+
+require('fs').writeFileSync(require('path').resolve(__dirname, '../src/models', 'levels.json'), JSON.stringify(sorted_level_list, null, 2));
