@@ -15839,6 +15839,40 @@
     "code": "sealed floor",
     "code_name": "Sealed Floor"
   },
+  "trap_056_sfsuifire": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dantian",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "丹田",
+      "skills": [],
+      "alias": [
+        "丹田"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "단전",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "丹田",
+      "skills": [],
+      "alias": [
+        "dan tian",
+        "dantian"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": "dantian",
+    "code_name": "Sealed Floor"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -16273,40 +16307,6 @@
     },
     "code": "skadi",
     "code_name": "Skadi"
-  },
-  "trap_056_sfsuifire": {
-    "en_US": {
-      "enabled": true,
-      "name": "Dantian",
-      "skills": [],
-      "alias": []
-    },
-    "ja_JP": {
-      "enabled": true,
-      "name": "丹田",
-      "skills": [],
-      "alias": [
-        "丹田"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "단전",
-      "skills": [],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "丹田",
-      "skills": [],
-      "alias": [
-        "dan tian",
-        "dantian"
-      ],
-      "appellation": "Sealed Floor"
-    },
-    "code": "dantian",
-    "code_name": "Sealed Floor"
   },
   "char_1001_amiya2": {
     "en_US": {
@@ -17184,5 +17184,38 @@
     },
     "code": null,
     "code_name": "Fluorescent Spores"
+  },
+  "trap_090_recodr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "实体程式",
+      "skills": [
+        "实体程式",
+        "实体程式"
+      ],
+      "alias": [
+        "shi ti cheng shi",
+        "shitichengshi"
+      ],
+      "appellation": "Entitative Program"
+    },
+    "code": null,
+    "code_name": "Entitative Program"
+  },
+  "trap_091_brctrl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "实体程式控制",
+      "skills": [
+        "实体程式控制端"
+      ],
+      "alias": [
+        "shi ti cheng shi kong zhi",
+        "shitichengshikongzhi"
+      ],
+      "appellation": "Brctrl"
+    },
+    "code": null,
+    "code_name": "Brctrl"
   }
 }
