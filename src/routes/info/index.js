@@ -33,7 +33,7 @@ const OperatorUpdates = ({
 			new_operators.map(
 				id => (
 					<Fragment>
-					【<a href={`/operator/${getOperatorName({ id, locale })}`}>{getOperatorName({ id, locale })}</a>】
+						【<a href={`/operator/${getOperatorName({ id, locale })}`}>{getOperatorName({ id, locale })}</a>】
 					</Fragment>
 				)
 			)
@@ -51,11 +51,9 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
-			<p>2022-06-16</p>
-			<b>增加了排序功能！</b><br/>
-			但是我发现数据多了的话，性能不太行了，之后看能不能优化一下<br/>
-			天坑+1<br/>
-			<br/>
+			<p>2022-09-08</p>
+			也许<a href="/settings">可以导入ArkILEF(ArkPlanner/企鹅/MAA)仓库数据</a>了<br />
+			<b>测试阶段，强烈建议导入前备份数据</b><br />
 			{
 				announcement_data
 					.filter(row => row.server.includes(config.locale))
@@ -69,9 +67,14 @@ const Info = ({
 						}
 					})
 			}
+			<p>2022-06-16</p>
+			<b>增加了排序功能！</b><br />
+			但是我发现数据多了的话，性能不太行了，之后看能不能优化一下<br />
+			天坑+1<br />
+			<br />
 			<p>2022-06-09</p>
-			增加新材料<br/>
-			支持了多模组及模组等级<br/>
+			增加新材料<br />
+			支持了多模组及模组等级<br />
 			<p>2021-12-19</p>
 			【刷图】和【库存】页面现在支持手动输入数量了~ <br />
 			ArkPlanner 组件现在支持多语言了 <br />
@@ -104,8 +107,8 @@ const Info = ({
 				<h2>{ir('homepage-donation', '捐助')}</h2>
 				{config.locale === 'zh_CN' && (
 					<p>
-					感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
-					服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
+						感谢大家的支持，这计算器的访问量真的超乎我的想象<br />
+						服务器一个月<code>100G</code>流量，已经尽量通过加前端缓存和减少图片使用来减少流量消耗<br />
 						<small>（小声）</small>在下边有打赏/捐助链接0w0，如果大佬们愿意打赏或者捐助一点服务器费用的话，我会非常感激的！
 					</p>
 				)}
@@ -149,27 +152,27 @@ const Info = ({
 					</ul>
 					<p>如果有各种建议或者意见，欢迎到帖子留言，提Issue或微博找我</p>
 					<p>NGA发布帖：<a target="_blank" rel="noreferrer noopener" href="https://bbs.nga.cn/read.php?tid=17417159">链接</a></p>
-		    <p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
-		    <p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+					<p>项目地址：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+					<p>作者： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 				</Fragment>
 			)}
 			{['en_US', 'ko_KR'].includes(config.locale) && (
 				<Fragment>
 					<p>If you have any problem, suggestion, or issue, please fine me at:</p>
 					<p>Reddit: <a target="_blank" rel="noreferrer noopener" href="https://www.reddit.com/r/arknights/comments/f04gg1/planner_material_calculator_tool/">Link</a></p>
-			    <p>Project repository：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
-			    <p>Sina weibo: <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+					<p>Project repository：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+					<p>Sina weibo: <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 				</Fragment>
 			)}
 			{config.locale === 'ja_JP' && (
 				<Fragment>
 					<p>質問や提案があれば、以下の連絡先へ</p>
 					<small>日本語が大体わかりますけど。。。あんまり上手くないです</small>
-			    <p>リポジトリ：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
-			    <p>作者（Weibo）： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
+					<p>リポジトリ：<a target="_blank" rel="noreferrer noopener" href="https://github.com/Houdou/arkgraph">GitHub</a></p>
+					<p>作者（Weibo）： <a target="_blank" rel="noreferrer noopener" href="https://weibo.com/timeleap">@凤瞳</a></p>
 				</Fragment>
 			)}
-	    {config.locale === 'zh_CN' && (
+			{config.locale === 'zh_CN' && (
 				<Fragment>
 					<hr />
 					<h2>使用说明</h2>
@@ -256,7 +259,7 @@ const Info = ({
 					</ul>
 				</Fragment>
 			)}
-	    {config.locale === 'ja_JP' && (
+			{config.locale === 'ja_JP' && (
 				<Fragment>
 					<hr />
 					<h2>使用方法</h2>
