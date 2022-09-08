@@ -1,4 +1,4 @@
-import { MATERIALS } from '../../models/Resources';
+import { RESOURCES } from '../../models/Resources';
 
 const convert = (items) => {
     const stock = {};
@@ -6,9 +6,10 @@ const convert = (items) => {
         const {
             id, have, name
         } = r;
-        const item = MATERIALS.find(m => String(m.unique_id) === String(id) || m.name === name);
+        const item = Object.entries(RESOURCES).find(([id, m]) => String(m.unique_id) === String(id) || m.name === name);
+        console.log(item);
         if (item && have > 0) {
-            stock[item.id] = Number(have);
+            stock[item[1].id] = Number(have);
         }
     });
 
