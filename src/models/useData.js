@@ -4,8 +4,8 @@ import Upgrade from './Upgrade';
 import { RESOURCES, MATERIALS, EXP } from './Resources';
 import processRecord from './processRecord';
 
-export const STORAGE_KEY =  'Towa_ArkTable_Save';
-const STORAGE_VERSION =  '2.3.0';
+export const STORAGE_KEY = 'Towa_ArkTable_Save';
+const STORAGE_VERSION = '2.3.0';
 
 // V1 => V2 migration
 import { findOperatorByName } from './Operators';
@@ -105,7 +105,7 @@ const reducer = (state, action) => {
 			let sorted_records = [...state.records];
 			const selected_records = state.records.filter(r => r.selected);
 			const unselected_records = state.records.filter(r => !r.selected);
-			if(selected_records.length === 0 || unselected_records.length === 0) {
+			if (selected_records.length === 0 || unselected_records.length === 0) {
 				break;
 			}
 
@@ -148,7 +148,7 @@ const reducer = (state, action) => {
 			const records = [...state.records];
 			newState = {
 				...state,
-				records: records.map(record => ({...record, selected: false})),
+				records: records.map(record => ({ ...record, selected: false })),
 			};
 			break;
 		}
@@ -325,7 +325,7 @@ const reducer = (state, action) => {
 					// Patch any => v2.3.0
 					if (loaded.version !== '2.3.0') {
 						loaded.records = loaded.records.map(record => {
-							if(record.attribute === 'ADVANCED_EQUIPMENT_1') {
+							if (record.attribute === 'ADVANCED_EQUIPMENT_1') {
 								return {
 									...record,
 									current: 0,
@@ -395,7 +395,7 @@ const useData = () => {
 
 	const setStockBulk = (stock) => {
 		dispatch({
-			type: 'dat.setStockBuld',
+			type: 'data.setStockBulk',
 			payload: stock,
 		});
 	};

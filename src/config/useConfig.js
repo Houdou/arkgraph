@@ -1,7 +1,7 @@
 import { useReducer } from 'preact/hooks';
 import { storage } from './version.json';
 
-export const STORAGE_KEY =  'Towa_ArkTable_Config';
+export const STORAGE_KEY = 'Towa_ArkTable_Config';
 export const STORAGE_VERSION = storage;
 
 const detectLocale = () => {

@@ -110,6 +110,7 @@ const App = (props) => {
 					setLanguage={setLanguage}
 					state={data.state}
 					load={data.load}
+					setStockBulk={data.setStockBulk}
 				/>
 			</Router>
 		</div>

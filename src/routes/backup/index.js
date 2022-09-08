@@ -10,6 +10,7 @@ const LANG_PREF = 'Towa_ArkTable_Lang';
 import Upgrade from '../../models/Upgrade';
 import sumRequirements from '../../models/sumRequirements';
 import generateArkPlannerData from '../../services/arkplanner/generatePayload';
+import parseArkPlannerData from '../../services/arkplanner/parse';
 
 const ArkSettings = ({
 	ir,
@@ -19,6 +20,7 @@ const ArkSettings = ({
 	toggleShowExtendedData,
 	available_locale,
 	setLanguage,
+	setStockBulk,
 }) => {
 	const code_ref = useRef(null);
 	const [copy_state, setCopyState] = useState(ir('settings-copy_data-copy', 'Copy'));
@@ -27,6 +29,7 @@ const ArkSettings = ({
 
 	const ark_planner_data_ref = useRef(null);
 	const [copy_ark_planner_data_state, setCopyArkPlannerDataState] = useState(ir('settings-copy_data-copy', 'Copy'));
+	const [load_ark_planner_data_state, setLoadArkPlannerDataState] = useState(ir('settings-load_data-load', 'Load'));
 
 	useEffect(() => {
 		load();
@@ -52,7 +55,7 @@ const ArkSettings = ({
 					eventCategory: 'planner',
 					eventAction: 'export',
 				});
-			} catch (err) {}
+			} catch (err) { }
 
 			document.execCommand('copy');
 			setCopyArkPlannerDataState(ir('settings-copy_data-copied', 'Copied'));
@@ -75,6 +78,26 @@ const ArkSettings = ({
 				setLoadState(ir('settings-load_data-failed', 'Failed'));
 			}
 			setTimeout(() => setLoadState(ir('settings-load_data-load', 'Load')), 1000);
+		}
+	};
+	const loadArkPlannerData = (e) => {
+		if (ark_planner_data_ref.current) {
+			let input_value = ark_planner_data_ref.current.value;
+			try {
+				const result = parseArkPlannerData(ark_planner_data_ref.current.value);
+				const new_stock = {
+					...state.stock,
+					...result
+				};
+				setStockBulk(new_stock);
+				setLoadArkPlannerDataState(ir('settings-load_data-success', 'Success'));
+			} catch (err) {
+				ark_planner_data_ref.current.value = input_value;
+				console.error(err);
+				setLoadError(err.details);
+				setLoadArkPlannerDataState(ir('settings-load_data-failed', 'Failed'));
+			}
+			setTimeout(() => setLoadArkPlannerDataState(ir('settings-load_data-load', 'Load')), 1000);
 		}
 	};
 
@@ -107,7 +130,7 @@ const ArkSettings = ({
 									setLanguage(lang);
 								}}
 							>
-								{ name }
+								{name}
 							</div>
 						))
 					}
@@ -175,7 +198,7 @@ const ArkSettings = ({
 										toggleShowExtendedData(!config.showExtendedData);
 									}}
 								>
-									{ ir('settings-extended_data-show', 'Show Extended Data') }
+									{ir('settings-extended_data-show', 'Show Extended Data')}
 								</div>
 							</div>
 							<hr />
@@ -185,8 +208,8 @@ const ArkSettings = ({
 				<h2>{
 					ir('settings-arkplanner-export-prefix', '')
 				}<a target="_blank" rel="noreferrer noopener" href="https://planner.penguin-stats.io/">ArkPlanner</a>{
-					ir('settings-arkplanner-export-suffix', '')
-				}</h2>
+						ir('settings-arkplanner-export-suffix', '')
+					}</h2>
 				<div class={style.data_area}>
 					<textarea
 						ref={ark_planner_data_ref}
@@ -198,6 +221,7 @@ const ArkSettings = ({
 					/>
 					<div class={style.buttons}>
 						<span onClick={e => copyArkPlannerData(e)}>{copy_ark_planner_data_state}</span>
+						<span onClick={e => loadArkPlannerData(e)}>{load_ark_planner_data_state}</span>
 					</div>
 				</div>
 			</div>

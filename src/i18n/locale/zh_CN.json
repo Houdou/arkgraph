@@ -194,11 +194,10 @@
 	"settings-load_data-load": "读取",
 	"settings-load_data-success": "成功",
 	"settings-load_data-failed": "失败",
-	"settings-language-language": "语言",
 	"settings-backup-backup": "数据备份",
 	"settings-backup-clear_data": "双击清除所有数据",
 	"settings-extended_data-extended_data": "未实装数据",
 	"settings-extended_data-show": "显示",
-	"settings-arkplanner-export-prefix": "导出",
+	"settings-arkplanner-export-prefix": "导入导出",
 	"settings-arkplanner-export-suffix": "用数据"
 }

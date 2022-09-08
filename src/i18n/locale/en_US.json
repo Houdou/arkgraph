@@ -194,11 +194,10 @@
 	"settings-load_data-load": "Load",
 	"settings-load_data-success": "Success",
 	"settings-load_data-failed": "Failed",
-	"settings-language-language": "Language",
 	"settings-backup-backup": "Data Backup",
 	"settings-backup-clear_data": "Double click to RESET ALL DATA",
 	"settings-extended_data-extended_data": "Extended Data (Experimental)",
 	"settings-extended_data-show": "Show Extended Data",
-	"settings-arkplanner-export-prefix": "Export data for ",
+	"settings-arkplanner-export-prefix": "Import/Export data for ",
 	"settings-arkplanner-export-suffix": ""
 }
