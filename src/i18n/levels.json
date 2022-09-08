@@ -17402,6 +17402,21 @@
       "enabled": true
     }
   },
+  "camp_r_09": {
+    "code": "维多利亚",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "easy_09-01": {
     "code": "9-2",
     "zh_CN": {
@@ -18004,6 +18019,60 @@
   },
   "act20side_ex08#f#": {
     "code": "IC-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s01": {
+    "code": "IC-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s01#f#": {
+    "code": "IC-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s02": {
+    "code": "IC-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s02#f#": {
+    "code": "IC-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s03": {
+    "code": "IC-S-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s03#f#": {
+    "code": "IC-S-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s04": {
+    "code": "IC-S-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_s04#f#": {
+    "code": "IC-S-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20side_mo01": {
+    "code": "IC-MO-1",
     "zh_CN": {
       "enabled": true
     }
@@ -18920,12 +18989,6 @@
       "enabled": true
     }
   },
-  "camp_r_09": {
-    "code": "维多利亚",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
   "camp_r_10": {
     "code": "卡西米尔",
     "zh_CN": {
@@ -18934,6 +18997,12 @@
   },
   "camp_r_11": {
     "code": "炎国",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_12": {
+    "code": "拉特兰",
     "zh_CN": {
       "enabled": true
     }

@@ -16362,6 +16362,40 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
+  "trap_059_peacokfool": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "コンビクション",
+      "skills": [
+        "断罪モード！"
+      ],
+      "alias": [
+        "こんびくしょん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "컨빅션",
+      "skills": [
+        "단죄 모드!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "断罪者",
+      "skills": [
+        "断罪模式！"
+      ],
+      "alias": [
+        "duan zui zhe",
+        "duanzuizhe"
+      ],
+      "appellation": "Conviction"
+    },
+    "code": null,
+    "code_name": "Conviction"
+  },
   "char_4041_chnut": {
     "zh_CN": {
       "enabled": true,
@@ -16514,6 +16548,23 @@
     },
     "code": null,
     "code_name": "Greyy the Lightningbearer"
+  },
+  "char_4032_provs": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "但书",
+      "skills": [
+        "纠纷起诉",
+        "致胜立论"
+      ],
+      "alias": [
+        "dan shu",
+        "danshu"
+      ],
+      "appellation": "Proviso"
+    },
+    "code": null,
+    "code_name": "Proviso"
   },
   "char_433_windft": {
     "zh_CN": {
@@ -16745,6 +16796,24 @@
     "code": null,
     "code_name": "Gavial the Invincible"
   },
+  "char_4064_mlynar": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "玛恩纳",
+      "skills": [
+        "未声张的怒火",
+        "未宽解的悲哀",
+        "未照耀的荣光"
+      ],
+      "alias": [
+        "ma en na",
+        "maenna"
+      ],
+      "appellation": "Młynar"
+    },
+    "code": null,
+    "code_name": "Młynar"
+  },
   "token_10022_kazema_shadow": {
     "zh_CN": {
       "enabled": true,
@@ -16865,22 +16934,6 @@
     },
     "code": null,
     "code_name": " Citadel Artillery of Londinium"
-  },
-  "trap_059_peacokfool": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "断罪者",
-      "skills": [
-        "断罪模式！"
-      ],
-      "alias": [
-        "duan zui zhe",
-        "duanzuizhe"
-      ],
-      "appellation": "Conviction"
-    },
-    "code": null,
-    "code_name": "Conviction"
   },
   "trap_060_bouncy": {
     "zh_CN": {
