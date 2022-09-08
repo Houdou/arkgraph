@@ -1284,5 +1284,82 @@
       "enabled": true,
       "name": "支持者来信"
     }
+  },
+  "uniequip_002_provs": {
+    "char_id": "char_4032_provs",
+    "zh_CN": {
+      "enabled": true,
+      "name": "黛丝特的毕业礼"
+    }
+  },
+  "uniequip_002_yak": {
+    "char_id": "char_199_yak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "父亲的袍子"
+    }
+  },
+  "uniequip_002_snakek": {
+    "char_id": "char_150_snakek",
+    "zh_CN": {
+      "enabled": true,
+      "name": "超强棒球套装"
+    }
+  },
+  "uniequip_002_bubble": {
+    "char_id": "char_381_bubble",
+    "zh_CN": {
+      "enabled": true,
+      "name": "泡泡闪光必杀剑"
+    }
+  },
+  "uniequip_002_moeshd": {
+    "char_id": "char_201_moeshd",
+    "zh_CN": {
+      "enabled": true,
+      "name": "作战靴"
+    }
+  },
+  "uniequip_002_bison": {
+    "char_id": "char_325_bison",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“一路以来”"
+    }
+  },
+  "uniequip_002_zebra": {
+    "char_id": "char_304_zebra",
+    "zh_CN": {
+      "enabled": true,
+      "name": "人气角色贴纸"
+    }
+  },
+  "uniequip_002_hsguma": {
+    "char_id": "char_136_hsguma",
+    "zh_CN": {
+      "enabled": true,
+      "name": "友人们的赠礼"
+    }
+  },
+  "uniequip_002_nian": {
+    "char_id": "char_2014_nian",
+    "zh_CN": {
+      "enabled": true,
+      "name": "混沌阵列"
+    }
+  },
+  "uniequip_003_ebnhlz": {
+    "char_id": "char_4046_ebnhlz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“乐理阐释者”"
+    }
+  },
+  "uniequip_003_zumama": {
+    "char_id": "char_416_zumama",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“小小的丑东西”"
+    }
   }
 }
