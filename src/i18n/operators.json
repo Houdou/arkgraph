@@ -8823,6 +8823,52 @@
     "code": "feater",
     "code_name": "FEater"
   },
+  "char_4036_forcer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Enforcer",
+      "skills": [
+        "Deterring Shot",
+        "Staggering Shot"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エンフォーサー",
+      "skills": [
+        "デタランスショット",
+        "スタガリングショット"
+      ],
+      "alias": [
+        "えんふぉーさー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "인포서",
+      "skills": [
+        "호신 사격",
+        "폭발 사격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "见行者",
+      "skills": [
+        "护身射击",
+        "惊爆射击"
+      ],
+      "alias": [
+        "jian hang zhe",
+        "jianhangzhe"
+      ],
+      "appellation": "Enforcer"
+    },
+    "code": "enforcer",
+    "code_name": "Enforcer"
+  },
   "char_451_robin": {
     "en_US": {
       "enabled": true,
@@ -8978,6 +9024,52 @@
     },
     "code": "bena",
     "code_name": "Bena"
+  },
+  "char_4016_kazema": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kazemaru",
+      "skills": [
+        "Origami Art - Swift Strike",
+        "Origami Art - Twin Shadows"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カゼマル",
+      "skills": [
+        "紙織・速攻",
+        "紙織・双影"
+      ],
+      "alias": [
+        "かぜまる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "카제마루",
+      "skills": [
+        "종이 공예 속공",
+        "종이 공예 쌍영"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "风丸",
+      "skills": [
+        "纸艺·迅击",
+        "纸艺·双影"
+      ],
+      "alias": [
+        "feng wan",
+        "fengwan"
+      ],
+      "appellation": "Kazemaru"
+    },
+    "code": "kazemaru",
+    "code_name": "Kazemaru"
   },
   "char_103_angel": {
     "en_US": {
@@ -9328,6 +9420,56 @@
     },
     "code": "w",
     "code_name": "W"
+  },
+  "char_300_phenxi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Fiammetta",
+      "skills": [
+        "'Provocate'",
+        "'Paenitete'",
+        "'Reponite'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フィアメッタ",
+      "skills": [
+        "「直視せよ」",
+        "「慚愧せよ」",
+        "「償還せよ」"
+      ],
+      "alias": [
+        "ふぃあめった"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "피아메타",
+      "skills": [
+        "'너는 직면해야 한다'",
+        "'너는 후회해야 한다'",
+        "'너는 갚아야 한다'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "菲亚梅塔",
+      "skills": [
+        "“你须直面”",
+        "“你须愧悔”",
+        "“你须偿还”"
+      ],
+      "alias": [
+        "fei ya mei ta",
+        "feiyameita"
+      ],
+      "appellation": "Fiammetta"
+    },
+    "code": "fiammetta",
+    "code_name": "Fiammetta"
   },
   "char_197_poca": {
     "en_US": {
@@ -13376,6 +13518,52 @@
     "code": "slumberfoot",
     "code_name": "Hypnos"
   },
+  "token_10022_kazema_shadow": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kaminingyo",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "紙人形",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "紙人形"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "종이 인형",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "纸偶",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "zhi ou",
+        "zhiou"
+      ],
+      "appellation": "Kaminingyo"
+    },
+    "code": "kaminingyo",
+    "code_name": "Kaminingyo"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -15873,6 +16061,94 @@
     "code": "dantian",
     "code_name": "Sealed Floor"
   },
+  "trap_057_wpnsts": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Gelato Stop'",
+      "skills": [
+        "Laterano-Style Gelato",
+        "Laterano-Style Gelato"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ジェラート供給所」",
+      "skills": [
+        "ジェラート供給",
+        "ジェラート供給"
+      ],
+      "alias": [
+        "「じぇらーと供給所」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'젤라토 머신'",
+      "skills": [
+        "라테라노식 아이스크림",
+        "라테라노식 아이스크림"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“冰淇淋机”",
+      "skills": [
+        "拉特兰式冰淇淋",
+        "拉特兰式冰淇淋"
+      ],
+      "alias": [
+        "“ bing qi lin ji ”",
+        "“bingqilinji”"
+      ],
+      "appellation": "\"Gelato Stop\""
+    },
+    "code": "'gelato stop'",
+    "code_name": "\"Gelato Stop\""
+  },
+  "trap_059_peacokfool": {
+    "en_US": {
+      "enabled": true,
+      "name": "Conviction",
+      "skills": [
+        "Conviction Mode!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コンビクション",
+      "skills": [
+        "断罪モード！"
+      ],
+      "alias": [
+        "こんびくしょん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "컨빅션",
+      "skills": [
+        "단죄 모드!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "断罪者",
+      "skills": [
+        "断罪模式！"
+      ],
+      "alias": [
+        "duan zui zhe",
+        "duanzuizhe"
+      ],
+      "appellation": "Conviction"
+    },
+    "code": "conviction",
+    "code_name": "Conviction"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -16362,40 +16638,6 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
-  "trap_059_peacokfool": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "コンビクション",
-      "skills": [
-        "断罪モード！"
-      ],
-      "alias": [
-        "こんびくしょん"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "컨빅션",
-      "skills": [
-        "단죄 모드!"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "断罪者",
-      "skills": [
-        "断罪模式！"
-      ],
-      "alias": [
-        "duan zui zhe",
-        "duanzuizhe"
-      ],
-      "appellation": "Conviction"
-    },
-    "code": null,
-    "code_name": "Conviction"
-  },
   "char_4067_lolxh": {
     "zh_CN": {
       "enabled": true,
@@ -16617,40 +16859,6 @@
     "code": null,
     "code_name": "Heidi"
   },
-  "char_4036_forcer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "见行者",
-      "skills": [
-        "护身射击",
-        "惊爆射击"
-      ],
-      "alias": [
-        "jian hang zhe",
-        "jianhangzhe"
-      ],
-      "appellation": "Enforcer"
-    },
-    "code": null,
-    "code_name": "Enforcer"
-  },
-  "char_4016_kazema": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "风丸",
-      "skills": [
-        "纸艺·迅击",
-        "纸艺·双影"
-      ],
-      "alias": [
-        "feng wan",
-        "fengwan"
-      ],
-      "appellation": "Kazemaru"
-    },
-    "code": null,
-    "code_name": "Kazemaru"
-  },
   "char_4055_bgsnow": {
     "zh_CN": {
       "enabled": true,
@@ -16668,24 +16876,6 @@
     },
     "code": null,
     "code_name": "Позёмка"
-  },
-  "char_300_phenxi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "菲亚梅塔",
-      "skills": [
-        "“你须直面”",
-        "“你须愧悔”",
-        "“你须偿还”"
-      ],
-      "alias": [
-        "fei ya mei ta",
-        "feiyameita"
-      ],
-      "appellation": "Fiammetta"
-    },
-    "code": null,
-    "code_name": "Fiammetta"
   },
   "char_4046_ebnhlz": {
     "zh_CN": {
@@ -16831,23 +17021,6 @@
     "code": null,
     "code_name": "Młynar"
   },
-  "token_10022_kazema_shadow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "纸偶",
-      "skills": [
-        "",
-        ""
-      ],
-      "alias": [
-        "zhi ou",
-        "zhiou"
-      ],
-      "appellation": "Kaminingyo"
-    },
-    "code": null,
-    "code_name": "Kaminingyo"
-  },
   "token_10023_windft_wrench": {
     "zh_CN": {
       "enabled": true,
@@ -16918,23 +17091,6 @@
     },
     "code": null,
     "code_name": "Typewriters"
-  },
-  "trap_057_wpnsts": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“冰淇淋机”",
-      "skills": [
-        "拉特兰式冰淇淋",
-        "拉特兰式冰淇淋"
-      ],
-      "alias": [
-        "“ bing qi lin ji ”",
-        "“bingqilinji”"
-      ],
-      "appellation": "\"Gelato Stop\""
-    },
-    "code": null,
-    "code_name": "\"Gelato Stop\""
   },
   "trap_058_gunctrl": {
     "zh_CN": {

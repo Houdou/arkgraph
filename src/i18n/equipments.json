@@ -818,6 +818,18 @@
   },
   "uniequip_002_cqbw": {
     "char_id": "char_113_cqbw",
+    "en_US": {
+      "enabled": true,
+      "name": "Mercenary's Bag"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "傭兵の鞄"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "용병의 자루"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "佣兵的行囊"
@@ -825,6 +837,18 @@
   },
   "uniequip_002_phenxi": {
     "char_id": "char_300_phenxi",
+    "en_US": {
+      "enabled": true,
+      "name": "'Out-Law' Special Ammunition Surplus"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「律外」特殊弾薬配給セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'무법' 특수탄약 배급 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“律外”特种弹药配给组"
@@ -832,6 +856,18 @@
   },
   "uniequip_002_meteo": {
     "char_id": "char_219_meteo",
+    "en_US": {
+      "enabled": true,
+      "name": "Tag of Nameless"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "名無しの認識票"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이름 없는 군번줄"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "无名的身份牌"
@@ -839,6 +875,18 @@
   },
   "uniequip_002_sesa": {
     "char_id": "char_379_sesa",
+    "en_US": {
+      "enabled": true,
+      "name": "'Soul Resonance'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「魂の共鳴」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'영혼의 교감'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“灵魂共鸣”"
@@ -846,6 +894,18 @@
   },
   "uniequip_002_yuki": {
     "char_id": "char_118_yuki",
+    "en_US": {
+      "enabled": true,
+      "name": "Shuriken"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "手裏剣"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수리검"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "手里剑"
@@ -853,6 +913,18 @@
   },
   "uniequip_002_dusk": {
     "char_id": "char_2015_dusk",
+    "en_US": {
+      "enabled": true,
+      "name": "Untitled Scroll"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "無題の巻物"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "무제 화폭"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "无题长卷"
@@ -860,6 +932,18 @@
   },
   "uniequip_002_mostma": {
     "char_id": "char_213_mostma",
+    "en_US": {
+      "enabled": true,
+      "name": "Home of 'Black Lock' and 'White Key'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "錠と鍵の家"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "자물쇠와 열쇠의 집"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "锁与匙之家"
@@ -867,6 +951,18 @@
   },
   "uniequip_002_lava2": {
     "char_id": "char_1011_lava2",
+    "en_US": {
+      "enabled": true,
+      "name": "Sarkaz's Knife"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サルカズの短刀"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "살카즈 나이프"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "萨卡兹的刀"
@@ -874,6 +970,18 @@
   },
   "uniequip_002_skfire": {
     "char_id": "char_166_skfire",
+    "en_US": {
+      "enabled": true,
+      "name": "Fire Retardant Treatment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "防炎処理案"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "화염 방지대책"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "阻燃处理方案"
@@ -881,6 +989,18 @@
   },
   "uniequip_002_lionhd": {
     "char_id": "char_373_lionhd",
+    "en_US": {
+      "enabled": true,
+      "name": "Inheritance and Development"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "伝承と開拓"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전승과 개척"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "传承与开拓"
@@ -888,6 +1008,18 @@
   },
   "uniequip_002_fmout": {
     "char_id": "char_109_fmout",
+    "en_US": {
+      "enabled": true,
+      "name": "Travel Kit for the Fortune-Teller"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "占い師トラベルセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "점술가 여행 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "占卜师旅行套装"
@@ -895,6 +1027,18 @@
   },
   "uniequip_002_greyy": {
     "char_id": "char_253_greyy",
+    "en_US": {
+      "enabled": true,
+      "name": "New Beginning"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "新たな始まり"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "새로운 시작"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "新的开始"
