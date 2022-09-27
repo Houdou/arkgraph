@@ -16638,6 +16638,20 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
+  "char_514_rdfend": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-重装",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - zhong zhuang",
+        "yubeiganyuan-zhongzhuang"
+      ],
+      "appellation": "Reserve (Defender)"
+    },
+    "code": null,
+    "code_name": "Reserve (Defender)"
+  },
   "char_4067_lolxh": {
     "zh_CN": {
       "enabled": true,
@@ -16672,6 +16686,22 @@
     "code": null,
     "code_name": "Chestnut"
   },
+  "char_513_apionr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "郁金香",
+      "skills": [
+        "只余芬芳"
+      ],
+      "alias": [
+        "yu jin xiang",
+        "yujinxiang"
+      ],
+      "appellation": "Tulip"
+    },
+    "code": null,
+    "code_name": "Tulip"
+  },
   "char_497_ctable": {
     "zh_CN": {
       "enabled": true,
@@ -16688,6 +16718,23 @@
     },
     "code": null,
     "code_name": "Cantabile"
+  },
+  "char_4066_highmo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "海沫",
+      "skills": [
+        "回首，断舍",
+        "泡影，殆尽"
+      ],
+      "alias": [
+        "hai mo",
+        "haimo"
+      ],
+      "appellation": "Highmore"
+    },
+    "code": null,
+    "code_name": "Highmore"
   },
   "char_135_halo": {
     "zh_CN": {
@@ -17443,5 +17490,149 @@
     },
     "code": null,
     "code_name": "Brctrl"
+  },
+  "trap_065_normbox": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "宝箱",
+      "skills": [
+        "诱人珍宝"
+      ],
+      "alias": [
+        "bao xiang",
+        "baoxiang"
+      ],
+      "appellation": "Treasure Chest"
+    },
+    "code": null,
+    "code_name": "Treasure Chest"
+  },
+  "trap_066_rarebox": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "尖刺宝箱",
+      "skills": [
+        "更诱人珍宝"
+      ],
+      "alias": [
+        "jian ci bao xiang",
+        "jiancibaoxiang"
+      ],
+      "appellation": "Spike Treasure Chest"
+    },
+    "code": null,
+    "code_name": "Spike Treasure Chest"
+  },
+  "trap_068_badbox": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "箱形恐鱼",
+      "skills": [
+        "极诱人珍宝"
+      ],
+      "alias": [
+        "xiang xing kong yu",
+        "xiangxingkongyu"
+      ],
+      "appellation": "Chest Seaborn"
+    },
+    "code": null,
+    "code_name": "Chest Seaborn"
+  },
+  "trap_083_bunker": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "掩体",
+      "skills": [
+        "障碍物"
+      ],
+      "alias": [
+        "yan ti",
+        "yanti"
+      ],
+      "appellation": "Barrier"
+    },
+    "code": null,
+    "code_name": "Barrier"
+  },
+  "trap_084_aidkit": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "急救包",
+      "skills": [
+        "急救"
+      ],
+      "alias": [
+        "ji jiu bao",
+        "jijiubao"
+      ],
+      "appellation": "First-aid Kit"
+    },
+    "code": null,
+    "code_name": "First-aid Kit"
+  },
+  "trap_079_allydonq": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "猎潮的骑士",
+      "skills": [
+        "冲锋"
+      ],
+      "alias": [
+        "lie chao de qi shi",
+        "liechaodeqishi"
+      ],
+      "appellation": "The Tide-hunt Knight"
+    },
+    "code": null,
+    "code_name": "The Tide-hunt Knight"
+  },
+  "trap_067_dice": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "骰子",
+      "skills": [
+        "掷骰"
+      ],
+      "alias": [
+        "tou zi",
+        "touzi"
+      ],
+      "appellation": "Dice"
+    },
+    "code": null,
+    "code_name": "Dice"
+  },
+  "trap_088_dice2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "8面骰子",
+      "skills": [
+        "掷骰"
+      ],
+      "alias": [
+        "8 mian tou zi",
+        "8miantouzi"
+      ],
+      "appellation": "Eight-sided Dice"
+    },
+    "code": null,
+    "code_name": "Eight-sided Dice"
+  },
+  "trap_089_dice3": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "12面骰子",
+      "skills": [
+        "掷骰"
+      ],
+      "alias": [
+        "12 mian tou zi",
+        "12miantouzi"
+      ],
+      "appellation": "Twelve-sided Dice"
+    },
+    "code": null,
+    "code_name": "Twelve-sided Dice"
   }
 }

@@ -11726,7 +11726,7 @@
     "level": "NL-1",
     "energy": 9,
     "unique_id": "act13side_01",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -11766,7 +11766,7 @@
     "level": "NL-2",
     "energy": 9,
     "unique_id": "act13side_02",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -11806,7 +11806,7 @@
     "level": "NL-3",
     "energy": 9,
     "unique_id": "act13side_03",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -11846,7 +11846,7 @@
     "level": "NL-4",
     "energy": 12,
     "unique_id": "act13side_04",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -11886,7 +11886,7 @@
     "level": "NL-5",
     "energy": 12,
     "unique_id": "act13side_05",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -11934,7 +11934,7 @@
     "level": "NL-6",
     "energy": 15,
     "unique_id": "act13side_06",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -11974,7 +11974,7 @@
     "level": "NL-7",
     "energy": 15,
     "unique_id": "act13side_07",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -12022,7 +12022,7 @@
     "level": "NL-8",
     "energy": 18,
     "unique_id": "act13side_08",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -12079,7 +12079,7 @@
     "level": "NL-9",
     "energy": 18,
     "unique_id": "act13side_09",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -12132,7 +12132,7 @@
     "level": "NL-10",
     "energy": 18,
     "unique_id": "act13side_10",
-    "zone_id": "act13side_zone1",
+    "zone_id": "act13sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {

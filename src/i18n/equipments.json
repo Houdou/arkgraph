@@ -1505,5 +1505,82 @@
       "enabled": true,
       "name": "“小小的丑东西”"
     }
+  },
+  "uniequip_002_kalts": {
+    "char_id": "char_003_kalts",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mon2tr"
+    }
+  },
+  "uniequip_002_shining": {
+    "char_id": "char_147_shining",
+    "zh_CN": {
+      "enabled": true,
+      "name": "干枯剑鞘"
+    }
+  },
+  "uniequip_002_tuye": {
+    "char_id": "char_402_tuye",
+    "zh_CN": {
+      "enabled": true,
+      "name": "集水装置"
+    }
+  },
+  "uniequip_002_folnic": {
+    "char_id": "char_345_folnic",
+    "zh_CN": {
+      "enabled": true,
+      "name": "母亲的领巾"
+    }
+  },
+  "uniequip_002_bldsk": {
+    "char_id": "char_171_bldsk",
+    "zh_CN": {
+      "enabled": true,
+      "name": "应急储备"
+    }
+  },
+  "uniequip_002_silent": {
+    "char_id": "char_108_silent",
+    "zh_CN": {
+      "enabled": true,
+      "name": "紧急防卫程序"
+    }
+  },
+  "uniequip_002_susuro": {
+    "char_id": "char_298_susuro",
+    "zh_CN": {
+      "enabled": true,
+      "name": "医不自治"
+    }
+  },
+  "uniequip_002_ccheal": {
+    "char_id": "char_187_ccheal",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“请遵医嘱”"
+    }
+  },
+  "uniequip_002_myrrh": {
+    "char_id": "char_117_myrrh",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“生命的短暂”"
+    }
+  },
+  "uniequip_003_dusk": {
+    "char_id": "char_2015_dusk",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“终夜无寐”"
+    }
+  },
+  "uniequip_003_aglina": {
+    "char_id": "char_291_aglina",
+    "zh_CN": {
+      "enabled": true,
+      "name": "实验用反重力模块"
+    }
   }
 }
