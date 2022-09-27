@@ -1,6 +1,18 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2022-09-27",
+    "type": "new_operators",
+    "new_operators": [
+      "char_513_apionr",
+      "char_4066_highmo",
+      "char_514_rdfend"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -113,16 +125,6 @@
       "char_4046_ebnhlz",
       "char_1024_hbisc2",
       "char_4047_pianst"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2022-05-19",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4043_erato"
     ]
   }
 ]
