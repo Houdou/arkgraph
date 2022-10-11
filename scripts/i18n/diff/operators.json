@@ -16652,6 +16652,23 @@
     "code": null,
     "code_name": "Reserve (Defender)"
   },
+  "char_4062_totter": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "铅踝",
+      "skills": [
+        "贯日",
+        "破虹"
+      ],
+      "alias": [
+        "qian huai",
+        "qianhuai"
+      ],
+      "appellation": "Totter"
+    },
+    "code": null,
+    "code_name": "Totter"
+  },
   "char_4067_lolxh": {
     "zh_CN": {
       "enabled": true,
@@ -16718,6 +16735,23 @@
     },
     "code": null,
     "code_name": "Cantabile"
+  },
+  "char_157_dagda": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "达格达",
+      "skills": [
+        "反制技巧",
+        "精准捕杀"
+      ],
+      "alias": [
+        "da ge da",
+        "dageda"
+      ],
+      "appellation": "Dagda"
+    },
+    "code": null,
+    "code_name": "Dagda"
   },
   "char_4066_highmo": {
     "zh_CN": {
@@ -16803,6 +16837,23 @@
     },
     "code": null,
     "code_name": "Hibiscus the Purifier"
+  },
+  "char_4071_peper": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "明椒",
+      "skills": [
+        "掩护作战·γ型",
+        "同伴意识"
+      ],
+      "alias": [
+        "ming jiao",
+        "mingjiao"
+      ],
+      "appellation": "Paprika"
+    },
+    "code": null,
+    "code_name": "Paprika"
   },
   "char_4047_pianst": {
     "zh_CN": {
@@ -16941,6 +16992,24 @@
     },
     "code": null,
     "code_name": "Ebenholz"
+  },
+  "char_4072_ironmn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "白铁",
+      "skills": [
+        "极致火力",
+        "高效补给",
+        "铁钳号·原型机"
+      ],
+      "alias": [
+        "bai tie",
+        "baitie"
+      ],
+      "appellation": "Stainless"
+    },
+    "code": null,
+    "code_name": "Stainless"
   },
   "char_1023_ghost2": {
     "zh_CN": {
@@ -17138,6 +17207,60 @@
     },
     "code": null,
     "code_name": "Typewriters"
+  },
+  "token_10027_ironmn_pile1": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "白铁™多功能平台",
+      "skills": [
+        "极致火力",
+        "极致火力",
+        "极致火力"
+      ],
+      "alias": [
+        "bai tie ™ duo gong neng ping tai",
+        "baitie™duogongnengpingtai"
+      ],
+      "appellation": "Stainless™ Multifunctional platform"
+    },
+    "code": null,
+    "code_name": "Stainless™ Multifunctional platform"
+  },
+  "token_10027_ironmn_pile2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "白铁™多功能平台",
+      "skills": [
+        "高效补给",
+        "高效补给",
+        "高效补给"
+      ],
+      "alias": [
+        "bai tie ™ duo gong neng ping tai",
+        "baitie™duogongnengpingtai"
+      ],
+      "appellation": "Stainless™ Multifunctional platform"
+    },
+    "code": null,
+    "code_name": "Stainless™ Multifunctional platform"
+  },
+  "token_10027_ironmn_pile3": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "铁钳号·原型机",
+      "skills": [
+        "铁钳号·原型机",
+        "铁钳号·原型机",
+        "铁钳号·原型机"
+      ],
+      "alias": [
+        "tie qian hao · yuan xing ji",
+        "tieqianhao·yuanxingji"
+      ],
+      "appellation": "Prototype of Feist's Metal Crab"
+    },
+    "code": null,
+    "code_name": "Prototype of Feist's Metal Crab"
   },
   "trap_058_gunctrl": {
     "zh_CN": {
@@ -17634,5 +17757,86 @@
     },
     "code": null,
     "code_name": "Twelve-sided Dice"
+  },
+  "trap_093_tbattbc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "钳兽壳粉",
+      "skills": [
+        "钳兽壳粉"
+      ],
+      "alias": [
+        "qian shou ke fen",
+        "qianshoukefen"
+      ],
+      "appellation": "Gloompincer Shell Meal"
+    },
+    "code": null,
+    "code_name": "Gloompincer Shell Meal"
+  },
+  "trap_094_tbpsnc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "高效泡打粉",
+      "skills": [
+        "高效泡打粉"
+      ],
+      "alias": [
+        "gao xiao pao da fen",
+        "gaoxiaopaodafen"
+      ],
+      "appellation": "Efficient Baking Powder"
+    },
+    "code": null,
+    "code_name": "Efficient Baking Powder"
+  },
+  "trap_095_tbsmmc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "芳香精油",
+      "skills": [
+        "芳香精油"
+      ],
+      "alias": [
+        "fang xiang jing you",
+        "fangxiangjingyou"
+      ],
+      "appellation": "Fragrant Essential Oil"
+    },
+    "code": null,
+    "code_name": "Fragrant Essential Oil"
+  },
+  "trap_086_larva": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“汲营枯枝” ",
+      "skills": [
+        "汲营枯枝"
+      ],
+      "alias": [
+        "“ ji ying ku zhi ” ",
+        "“jiyingkuzhi” "
+      ],
+      "appellation": "\"Twigs that crave\""
+    },
+    "code": null,
+    "code_name": "\"Twigs that crave\""
+  },
+  "trap_087_allady": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿勒黛的卫护",
+      "skills": [
+        "阿勒黛的卫护",
+        "阿勒黛的卫护"
+      ],
+      "alias": [
+        "a le dai de wei hu",
+        "aledaideweihu"
+      ],
+      "appellation": "Allerdale bewards"
+    },
+    "code": null,
+    "code_name": "Allerdale bewards"
   }
 }
