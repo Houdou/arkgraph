@@ -55,6 +55,8 @@ const Info = ({
 			<p>2022-10-16</p>
 			更新了11章的新材料<br />
 			这次更新漏了看材料部分，实在抱歉<br />
+			增加了韩语翻译 <br />
+			Thanks to the contributons from @178619 !<br />
 			<br />
 			<p>2022-09-08</p>
 			也许<a href="/settings">可以导入ArkILEF(ArkPlanner/企鹅/MAA)仓库数据</a>了<br />
@@ -85,7 +87,7 @@ const Info = ({
 			ArkPlanner 组件现在支持多语言了 <br />
 			调整了日语翻译 <br />
 			以上诸多改动都来自 @red8ya 的贡献，非常感谢！<br />
-			Huge thanks to the all the contributons from @red8ya! <br />
+			Huge thanks to the all the contributons from @red8ya ! <br />
 			<br />
 			<p>2021-09-17</p>
 			增加了新材料<br />
