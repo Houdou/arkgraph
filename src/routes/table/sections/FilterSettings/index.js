@@ -38,6 +38,7 @@ const resource_filter_options = [
 			{ value: 'crystal', render: 'material_grouping_options-type-crystal' },
 			{ value: 'solvent', render: 'material_grouping_options-type-solvent' },
 			{ value: 'cuttingfluid', render: 'material_grouping_options-type-cuttingfluid' },
+			{ value: 'salt', render: 'material_grouping_options-type-salt' },
 			{ value: 'skill', render: 'material_grouping_options-type-skill' },
 			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],

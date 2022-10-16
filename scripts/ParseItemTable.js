@@ -44,6 +44,7 @@ const ParseItem = (data) => {
 	const item = {
 		id: MapItem[data.itemId],
 		source,
+		sort_id: data.sortId
 	};
 
 
@@ -62,7 +63,7 @@ const materials_base = require('./materials_base.json');
 const materials_full = materials_base.map(mat => ({
 	...mat,
 	...materials_dict[mat.id],
-}));
+})).sort((a, b) => a.sort_id - b.sort_id);
 
 // require('fs').writeFileSync(require('path').resolve(__dirname, '../', 'materials.json'), JSON.stringify(materials_full, null, 2));
 

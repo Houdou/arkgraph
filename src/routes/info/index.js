@@ -51,6 +51,11 @@ const Info = ({
 			<h3 class={style.mobile_title}>明日方舟 | 干员培养表 <small>v{STORAGE_VERSION}</small></h3>
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
+
+			<p>2022-10-16</p>
+			更新了11章的新材料<br />
+			这次更新漏了看材料部分，实在抱歉<br />
+			<br />
 			<p>2022-09-08</p>
 			也许<a href="/settings">可以导入ArkILEF(ArkPlanner/企鹅/MAA)仓库数据</a>了<br />
 			<b>测试阶段，强烈建议导入前备份数据</b><br />

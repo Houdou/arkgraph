@@ -2,6 +2,7 @@
   background-color: #333;
   color: #EEE;
 }
+
 .grey {
   background-color: #666;
   color: #EEE;
@@ -57,17 +58,20 @@
   background: linear-gradient(to right, #666 75%, #999 88%, #CCC 100%);
 }
 
-.setting_options, .setting_buttons {
+.setting_options,
+.setting_buttons {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .setting_buttons {
   justify-content: flex-end;
 }
 
-.setting_option, .setting_button {
+.setting_option,
+.setting_button {
   font-size: 12px;
   min-width: 76px;
   height: 28px;
@@ -83,9 +87,11 @@
   position: relative;
   overflow: hidden;
 }
+
 .setting_option span {
   z-index: 999;
 }
+
 .setting_option_hidden {
   opacity: 0;
 }
@@ -104,22 +110,27 @@
 }
 
 .setting_option_tier_T1.setting_option_tier:after {
-	background-color: #9F9FA2;
+  background-color: #9F9FA2;
 }
+
 .setting_option_tier_T2.setting_option_tier:after {
-	background-color: #DADC39;
+  background-color: #DADC39;
 }
+
 .setting_option_tier_T3.setting_option_tier:after {
-	background-color: #16AFF0;
+  background-color: #16AFF0;
 }
+
 .setting_option_tier_T4.setting_option_tier:after {
-	background-color: #D3C3D4;
+  background-color: #D3C3D4;
 }
+
 .setting_option_tier_T5.setting_option_tier:after {
-	background-color: #FCC90E;
+  background-color: #FCC90E;
 }
+
 .setting_option_tier_T6.setting_option_tier:after {
-	background-color: #FFF2BE;
+  background-color: #FFF2BE;
 }
 
 .setting_option_type:after {
@@ -137,66 +148,91 @@
 .setting_option_type_stone.setting_option_type:after {
   background-image: url('/assets/materials/M-4-1.png');
 }
+
 .setting_option_type_device.setting_option_type:after {
   background-image: url('/assets/materials/M-4-2.png');
 }
+
 .setting_option_type_ester.setting_option_type:after {
   background-image: url('/assets/materials/M-4-3.png');
 }
+
 .setting_option_type_sugar.setting_option_type:after {
   background-image: url('/assets/materials/M-4-4.png');
 }
+
 .setting_option_type_iron.setting_option_type:after {
   background-image: url('/assets/materials/M-4-5.png');
 }
+
 .setting_option_type_ketone.setting_option_type:after {
   background-image: url('/assets/materials/M-4-6.png');
 }
+
 .setting_option_type_alcohol.setting_option_type:after {
   background-image: url('/assets/materials/M-4-7.png');
 }
+
 .setting_option_type_manganese.setting_option_type:after {
   background-image: url('/assets/materials/M-4-8.png');
 }
+
 .setting_option_type_grind.setting_option_type:after {
   background-image: url('/assets/materials/M-4-9.png');
 }
+
 .setting_option_type_rma.setting_option_type:after {
   background-image: url('/assets/materials/M-4-10.png');
 }
+
 .setting_option_type_gel.setting_option_type:after {
   background-image: url('/assets/materials/M-4-11.png');
 }
+
 .setting_option_type_alloy.setting_option_type:after {
   background-image: url('/assets/materials/M-4-12.png');
 }
+
 .setting_option_type_crystal.setting_option_type:after {
   background-image: url('/assets/materials/M-4-13.png');
 }
+
 .setting_option_type_solvent.setting_option_type:after {
   background-image: url('/assets/materials/M-4-14.png');
 }
+
 .setting_option_type_cuttingfluid.setting_option_type:after {
   background-image: url('/assets/materials/M-4-15.png');
 }
+
+.setting_option_type_salt.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-16.png');
+}
+
 .setting_option_type_rare.setting_option_type:after {
   background-image: url('/assets/materials/M-5-1.png');
 }
+
 .setting_option_type_chip.setting_option_type:after {
   background-image: url('/assets/materials/C-5-1.png');
 }
+
 .setting_option_type_money.setting_option_type:after {
   background-image: url('/assets/materials/G-4-1.png');
 }
+
 .setting_option_type_exp.setting_option_type:after {
   background-image: url('/assets/materials/EO-4-1.png');
 }
+
 .setting_option_type_tape.setting_option_type:after {
   background-image: url('/assets/materials/E-5-1.png');
 }
+
 .setting_option_type_skill.setting_option_type:after {
   background-image: url('/assets/materials/S-4-1.png');
 }
+
 .setting_option_type_others.setting_option_type:after {
   background-image: url('/assets/materials/G-4-1.png');
 }
@@ -207,6 +243,7 @@
   padding-bottom: 4px;
   margin-bottom: 6px;
 }
+
 .setting_option_active.setting_option_type:after {
   opacity: 0.6;
 }
@@ -218,13 +255,16 @@
   text-align: center;
   justify-content: center;
 }
+
 .setting_button_close {
   background-color: #333;
   margin-right: 8px;
 }
+
 .setting_button_confirm {
   background-color: #0076A8;
 }
+
 .setting_button:last-child {
   margin-right: 0;
 }
@@ -235,7 +275,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .setting_option, .setting_button {
+
+  .setting_option,
+  .setting_button {
     height: 36px;
     max-height: 36px;
   }
