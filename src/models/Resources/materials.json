@@ -49,12 +49,27 @@
     "name": "晶体电子单元",
     "pinyin": "jing ti dian zi dan yuan",
     "tier": "T5",
-    "type": "crystal",
+    "type": "rare",
     "source": {},
     "formula": {
       "M-4-13": 1,
       "M-4-11": 2,
       "M-4-12": 1,
+      "G-4-1": 400
+    }
+  },
+  {
+    "id": "M-5-5",
+    "unique_id": 30155,
+    "name": "烧结核凝晶",
+    "pinyin": "shao jie he ning jing",
+    "tier": "T5",
+    "type": "rare",
+    "source": {},
+    "formula": {
+      "M-4-16": 1,
+      "M-4-15": 1,
+      "M-4-14": 2,
       "G-4-1": 400
     }
   },
@@ -852,6 +867,38 @@
       "9-6": "小概率",
       "10-17": "中概率",
       "11-16": "小概率"
+    },
+    "formula": {}
+  },
+  {
+    "id": "M-4-16",
+    "unique_id": 31064,
+    "name": "转质盐聚块",
+    "pinyin": "zhuan zhi yan ju kuai",
+    "tier": "T4",
+    "type": "salt",
+    "source": {
+      "11-3": "罕见",
+      "11-15": "罕见"
+    },
+    "formula": {
+      "M-3-16": 1,
+      "M-3-14": 1,
+      "M-3-4": 1,
+      "G-4-1": 300
+    }
+  },
+  {
+    "id": "M-3-16",
+    "unique_id": 31063,
+    "name": "转质盐组",
+    "pinyin": "zhuan zhi yan zu",
+    "tier": "T3",
+    "type": "salt",
+    "source": {
+      "11-3": "小概率",
+      "11-15": "小概率",
+      "S9-2": "小概率"
     },
     "formula": {}
   }

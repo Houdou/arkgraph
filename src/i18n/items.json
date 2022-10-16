@@ -2552,6 +2552,37 @@
       "sortId": 100040
     }
   },
+  "M-5-5": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "烧结核凝晶",
+      "alias": [
+        "shao jie he ning jing",
+        "shaojieheningjing"
+      ],
+      "sortId": 100001
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
   "M-3-11": {
     "en_US": {
       "enabled": true,
@@ -2911,6 +2942,68 @@
         "qiexiaoyuanye"
       ],
       "sortId": 100008
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-3-16": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "转质盐组",
+      "alias": [
+        "zhuan zhi yan zu",
+        "zhuanzhiyanzu"
+      ],
+      "sortId": 100007
+    },
+    "zh_TW": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    }
+  },
+  "M-4-16": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "转质盐聚块",
+      "alias": [
+        "zhuan zhi yan ju kuai",
+        "zhuanzhiyanjukuai"
+      ],
+      "sortId": 100006
     },
     "zh_TW": {
       "enabled": false,
