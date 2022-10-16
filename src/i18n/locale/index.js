@@ -2,6 +2,7 @@ import template from './template';
 import zhCN from './zh_CN';
 import enUs from './en_US';
 import jaJP from './ja_JP';
+import koKR from './ko_KR';
 
 export default {
 	template,
@@ -9,7 +10,7 @@ export default {
 	zh_TW: zhCN,
 	en_US: enUs,
 	ja_JP: jaJP,
-	ko_KR: enUs,
+	ko_KR: koKR,
 };
 
 const locale = {
@@ -17,7 +18,7 @@ const locale = {
 	zh_TW: '繁體中文',
 	en_US: 'English',
 	ja_JP: '日本語 [β]',
-	ko_KR: '한국어 [Incomplete]',
+	ko_KR: '한국어 [β]',
 };
 
 export {
