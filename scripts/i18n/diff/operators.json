@@ -3216,6 +3216,52 @@
     "code": "purestream",
     "code_name": "Purestream"
   },
+  "char_4041_chnut": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chestnut",
+      "skills": [
+        "Little by Little",
+        "Rising Earth"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チェストナッツ",
+      "skills": [
+        "積土成山",
+        "厚土の脈動"
+      ],
+      "alias": [
+        "ちぇすとなっつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "체스트넛",
+      "skills": [
+        "적미성저",
+        "후토분출"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "褐果",
+      "skills": [
+        "积微成著",
+        "厚土迸发"
+      ],
+      "alias": [
+        "he guo",
+        "heguo"
+      ],
+      "appellation": "Chestnut"
+    },
+    "code": "chestnut",
+    "code_name": "Chestnut"
+  },
   "char_199_yak": {
     "en_US": {
       "enabled": true,
@@ -6480,6 +6526,52 @@
     "code": "kjera",
     "code_name": "Kjera"
   },
+  "char_4040_rockr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rockrock",
+      "skills": [
+        "Tactical Chant γ",
+        "Willing Burden"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロックロック",
+      "skills": [
+        "戦術詠唱γ",
+        "軛を背負う"
+      ],
+      "alias": [
+        "ろっくろっく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "락락",
+      "skills": [
+        "전술영창γ",
+        "스스로 진 멍에"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "洛洛",
+      "skills": [
+        "战术咏唱·γ型",
+        "自负此轭"
+      ],
+      "alias": [
+        "luo luo",
+        "luoluo"
+      ],
+      "appellation": "Rockrock"
+    },
+    "code": "rockrock",
+    "code_name": "Rockrock"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -8519,6 +8611,52 @@
     },
     "code": "sora",
     "code_name": "Sora"
+  },
+  "char_4045_heidi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Heidi",
+      "skills": [
+        "Tale of Fiction: A Warrior's Anger",
+        "Tale of Fiction: Rust"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハイディ",
+      "skills": [
+        "架空の物語・怒れる者",
+        "架空の物語・錆びた城"
+      ],
+      "alias": [
+        "はいでぃ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "하이디",
+      "skills": [
+        "픽션-분노한 병사",
+        "픽션-녹슨 도시"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "海蒂",
+      "skills": [
+        "虚构故事·怒士",
+        "虚构故事·锈城"
+      ],
+      "alias": [
+        "hai di",
+        "haidi"
+      ],
+      "appellation": "Heidi"
+    },
+    "code": "heidi",
+    "code_name": "Heidi"
   },
   "char_343_tknogi": {
     "en_US": {
@@ -11570,6 +11708,56 @@
     },
     "code": "eunectes",
     "code_name": "Eunectes"
+  },
+  "char_4039_horn": {
+    "en_US": {
+      "enabled": true,
+      "name": "Horn",
+      "skills": [
+        "Flare Grenade",
+        "Tempest Command",
+        "Ultimate Line of Defense"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ホルン",
+      "skills": [
+        "照明榴弾",
+        "テンペストオーダー",
+        "死地戦線"
+      ],
+      "alias": [
+        "ほるん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "혼",
+      "skills": [
+        "조명 유탄",
+        "폭풍의 호령",
+        "최종 방어선"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "号角",
+      "skills": [
+        "照明榴弹",
+        "暴风号令",
+        "终极防线"
+      ],
+      "alias": [
+        "hao jiao",
+        "haojiao"
+      ],
+      "appellation": "Horn"
+    },
+    "code": "horn",
+    "code_name": "Horn"
   },
   "char_264_f12yin": {
     "en_US": {
@@ -16107,6 +16295,48 @@
     "code": "'gelato stop'",
     "code_name": "\"Gelato Stop\""
   },
+  "trap_058_gunctrl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Londinium Secondary Defense Artillery",
+      "skills": [
+        "Open Fire"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロンディニウム都市防衛副砲",
+      "skills": [
+        "発射"
+      ],
+      "alias": [
+        "ろんでぃにうむ都市防衛副砲"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "런디니움 수성 부포",
+      "skills": [
+        "포격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "伦蒂尼姆城防副炮",
+      "skills": [
+        "开火"
+      ],
+      "alias": [
+        "lun di ni mu cheng fang fu pao",
+        "lundinimuchengfangfupao"
+      ],
+      "appellation": " Citadel Artillery of Londinium"
+    },
+    "code": "londinium secondary defense artillery",
+    "code_name": " Citadel Artillery of Londinium"
+  },
   "trap_059_peacokfool": {
     "en_US": {
       "enabled": true,
@@ -16686,23 +16916,6 @@
     "code": null,
     "code_name": "Luo Xiaohei"
   },
-  "char_4041_chnut": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "褐果",
-      "skills": [
-        "积微成著",
-        "厚土迸发"
-      ],
-      "alias": [
-        "he guo",
-        "heguo"
-      ],
-      "appellation": "Chestnut"
-    },
-    "code": null,
-    "code_name": "Chestnut"
-  },
   "char_513_apionr": {
     "zh_CN": {
       "enabled": true,
@@ -16786,23 +16999,6 @@
     },
     "code": null,
     "code_name": "Astgenne"
-  },
-  "char_4040_rockr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "洛洛",
-      "skills": [
-        "战术咏唱·γ型",
-        "自负此轭"
-      ],
-      "alias": [
-        "luo luo",
-        "luoluo"
-      ],
-      "appellation": "Rockrock"
-    },
-    "code": null,
-    "code_name": "Rockrock"
   },
   "char_4054_malist": {
     "zh_CN": {
@@ -16940,23 +17136,6 @@
     "code": null,
     "code_name": "Windflit"
   },
-  "char_4045_heidi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "海蒂",
-      "skills": [
-        "虚构故事·怒士",
-        "虚构故事·锈城"
-      ],
-      "alias": [
-        "hai di",
-        "haidi"
-      ],
-      "appellation": "Heidi"
-    },
-    "code": null,
-    "code_name": "Heidi"
-  },
   "char_4055_bgsnow": {
     "zh_CN": {
       "enabled": true,
@@ -17064,24 +17243,6 @@
     },
     "code": null,
     "code_name": "Lumen"
-  },
-  "char_4039_horn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "号角",
-      "skills": [
-        "照明榴弹",
-        "暴风号令",
-        "终极防线"
-      ],
-      "alias": [
-        "hao jiao",
-        "haojiao"
-      ],
-      "appellation": "Horn"
-    },
-    "code": null,
-    "code_name": "Horn"
   },
   "char_4009_irene": {
     "zh_CN": {
@@ -17261,22 +17422,6 @@
     },
     "code": null,
     "code_name": "Prototype of Feist's Metal Crab"
-  },
-  "trap_058_gunctrl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "伦蒂尼姆城防副炮",
-      "skills": [
-        "开火"
-      ],
-      "alias": [
-        "lun di ni mu cheng fang fu pao",
-        "lundinimuchengfangfupao"
-      ],
-      "appellation": " Citadel Artillery of Londinium"
-    },
-    "code": null,
-    "code_name": " Citadel Artillery of Londinium"
   },
   "trap_060_bouncy": {
     "zh_CN": {
