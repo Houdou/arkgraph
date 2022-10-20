@@ -1046,6 +1046,18 @@
   },
   "uniequip_002_shwaz": {
     "char_id": "char_340_shwaz",
+    "en_US": {
+      "enabled": true,
+      "name": "Customized Crossbow Accessory Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "特注クロスボウ部品セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "커스텀 석궁 부품 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "定制弩配件套装"
@@ -1053,6 +1065,18 @@
   },
   "uniequip_002_prove": {
     "char_id": "char_145_prove",
+    "en_US": {
+      "enabled": true,
+      "name": "Tail-Care Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "尻尾ケアセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "꼬리 관리 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "尾巴养护套装"
@@ -1060,6 +1084,18 @@
   },
   "uniequip_002_acdrop": {
     "char_id": "char_366_acdrop",
+    "en_US": {
+      "enabled": true,
+      "name": "'Freedom, Onion Rings, and Me'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「自由とオニオンリングとボク」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '자유, 양파링과 나'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“自由、洋葱圈和我”"
@@ -1067,6 +1103,18 @@
   },
   "uniequip_002_lisa": {
     "char_id": "char_358_lisa",
+    "en_US": {
+      "enabled": true,
+      "name": "Pocket Omamori"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "懐中の御守り"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가슴에 품은 부적"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "怀中御守"
@@ -1074,6 +1122,18 @@
   },
   "uniequip_002_aglina": {
     "char_id": "char_291_aglina",
+    "en_US": {
+      "enabled": true,
+      "name": "Gravity Calibration Module"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "重力校正モジュール"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "중력 교정 모듈"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "重力校准模块"
@@ -1081,6 +1141,18 @@
   },
   "uniequip_002_glacus": {
     "char_id": "char_326_glacus",
+    "en_US": {
+      "enabled": true,
+      "name": "Powered Exoskeleton"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パワードスーツ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "외골격 장비"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "外骨骼装备"
@@ -1088,6 +1160,18 @@
   },
   "uniequip_002_glassb": {
     "char_id": "char_195_glassb",
+    "en_US": {
+      "enabled": true,
+      "name": "Reading Notes"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "読書メモ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "독서 노트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "读书笔记"
@@ -1095,6 +1179,18 @@
   },
   "uniequip_002_podego": {
     "char_id": "char_258_podego",
+    "en_US": {
+      "enabled": true,
+      "name": "'Amaranthine Nursery'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「枯れない苗圃」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '시들지 않는 모밭'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“不谢的苗圃”"
@@ -1102,6 +1198,18 @@
   },
   "uniequip_002_skgoat": {
     "char_id": "char_183_skgoat",
+    "en_US": {
+      "enabled": true,
+      "name": "Application Forms, To Be Confirmed"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "確認待ちの申請書"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "확인 대기 신청서"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "待确认的申请表"
