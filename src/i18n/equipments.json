@@ -1690,5 +1690,89 @@
       "enabled": true,
       "name": "实验用反重力模块"
     }
+  },
+  "uniequip_002_siege": {
+    "char_id": "char_112_siege",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“糖果盒”"
+    }
+  },
+  "uniequip_002_saga": {
+    "char_id": "char_362_saga",
+    "zh_CN": {
+      "enabled": true,
+      "name": "身向云泥"
+    }
+  },
+  "uniequip_002_flamtl": {
+    "char_id": "char_420_flamtl",
+    "zh_CN": {
+      "enabled": true,
+      "name": "红松的起点"
+    }
+  },
+  "uniequip_002_texas": {
+    "char_id": "char_102_texas",
+    "zh_CN": {
+      "enabled": true,
+      "name": "外勤私人补给包"
+    }
+  },
+  "uniequip_002_chiave": {
+    "char_id": "char_349_chiave",
+    "zh_CN": {
+      "enabled": true,
+      "name": "自制千斤顶"
+    }
+  },
+  "uniequip_002_blackd": {
+    "char_id": "char_198_blackd",
+    "zh_CN": {
+      "enabled": true,
+      "name": "耐低温通讯设备"
+    }
+  },
+  "uniequip_002_scave": {
+    "char_id": "char_149_scave",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“专属餐具”"
+    }
+  },
+  "uniequip_002_headbr": {
+    "char_id": "char_115_headbr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "冬将军的毕业礼物"
+    }
+  },
+  "uniequip_002_texas2": {
+    "char_id": "char_1028_texas2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "蓝莓与黑巧"
+    }
+  },
+  "uniequip_002_lunacu": {
+    "char_id": "char_4014_lunacu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“移动的窝”"
+    }
+  },
+  "uniequip_003_shwaz": {
+    "char_id": "char_340_shwaz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "老剃刀"
+    }
+  },
+  "uniequip_003_hsguma": {
+    "char_id": "char_136_hsguma",
+    "zh_CN": {
+      "enabled": true,
+      "name": "护身符"
+    }
   }
 }

@@ -3228,13 +3228,13 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "チェストナッツ",
+      "name": "チェストナット",
       "skills": [
         "積土成山",
         "厚土の脈動"
       ],
       "alias": [
-        "ちぇすとなっつ"
+        "ちぇすとなっと"
       ]
     },
     "ko_KR": {
@@ -16916,6 +16916,23 @@
     "code": null,
     "code_name": "Luo Xiaohei"
   },
+  "char_4063_quartz": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "石英",
+      "skills": [
+        "攻击力强化·β型",
+        "全力相搏"
+      ],
+      "alias": [
+        "shi ying",
+        "shiying"
+      ],
+      "appellation": "Quartz"
+    },
+    "code": null,
+    "code_name": "Quartz"
+  },
   "char_513_apionr": {
     "zh_CN": {
       "enabled": true,
@@ -16982,6 +16999,23 @@
     },
     "code": null,
     "code_name": "Highmore"
+  },
+  "char_466_qanik": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪绒",
+      "skills": [
+        "冻风",
+        "坠雪"
+      ],
+      "alias": [
+        "xue rong",
+        "xuerong"
+      ],
+      "appellation": "Qanipalaat"
+    },
+    "code": null,
+    "code_name": "Qanipalaat"
   },
   "char_135_halo": {
     "zh_CN": {
@@ -17067,6 +17101,23 @@
     },
     "code": null,
     "code_name": "Czerny"
+  },
+  "char_4014_lunacu": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "子月",
+      "skills": [
+        "狩猎时刻",
+        "伏击之影"
+      ],
+      "alias": [
+        "zi yue",
+        "ziyue"
+      ],
+      "appellation": "Lunacub"
+    },
+    "code": null,
+    "code_name": "Lunacub"
   },
   "char_4043_erato": {
     "zh_CN": {
@@ -17154,6 +17205,24 @@
     "code": null,
     "code_name": "Позёмка"
   },
+  "char_427_vigil": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "伺夜",
+      "skills": [
+        "领袖的呼唤",
+        "领袖的馈赠",
+        "领袖的尊严"
+      ],
+      "alias": [
+        "si ye",
+        "siye"
+      ],
+      "appellation": "Vigil"
+    },
+    "code": null,
+    "code_name": "Vigil"
+  },
   "char_4046_ebnhlz": {
     "zh_CN": {
       "enabled": true,
@@ -17189,6 +17258,24 @@
     },
     "code": null,
     "code_name": "Stainless"
+  },
+  "char_1028_texas2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "缄默德克萨斯",
+      "skills": [
+        "细雨无声",
+        "阵雨连绵",
+        "剑雨滂沱"
+      ],
+      "alias": [
+        "jian mo de ke sa si",
+        "jianmodekesasi"
+      ],
+      "appellation": "Texas the Omertosa"
+    },
+    "code": null,
+    "code_name": "Texas the Omertosa"
   },
   "char_1023_ghost2": {
     "zh_CN": {
@@ -17243,6 +17330,24 @@
     },
     "code": null,
     "code_name": "Lumen"
+  },
+  "char_4065_judge": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "斥罪",
+      "skills": [
+        "一锤定音",
+        "坚心苦修",
+        "披荆斩棘"
+      ],
+      "alias": [
+        "chi zui",
+        "chizui"
+      ],
+      "appellation": "Penance"
+    },
+    "code": null,
+    "code_name": "Penance"
   },
   "char_4009_irene": {
     "zh_CN": {
@@ -17422,6 +17527,24 @@
     },
     "code": null,
     "code_name": "Prototype of Feist's Metal Crab"
+  },
+  "token_10028_vigil_wolf": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "狼群",
+      "skills": [
+        "狼群",
+        "狼群",
+        "狼群"
+      ],
+      "alias": [
+        "lang qun",
+        "langqun"
+      ],
+      "appellation": "Vigil"
+    },
+    "code": null,
+    "code_name": "Vigil"
   },
   "trap_060_bouncy": {
     "zh_CN": {
@@ -17983,5 +18106,21 @@
     },
     "code": null,
     "code_name": "Allerdale bewards"
+  },
+  "trap_092_vgctrl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "复仇黑手",
+      "skills": [
+        "复仇黑手"
+      ],
+      "alias": [
+        "fu chou hei shou",
+        "fuchouheishou"
+      ],
+      "appellation": "Vendetta"
+    },
+    "code": null,
+    "code_name": "Vendetta"
   }
 }
