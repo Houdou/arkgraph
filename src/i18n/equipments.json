@@ -1217,6 +1217,18 @@
   },
   "uniequip_002_ghost2": {
     "char_id": "char_1023_ghost2",
+    "en_US": {
+      "enabled": true,
+      "name": "'Vinyl Record' Box"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「レコード」収納箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '음반' 수집 상자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“唱片”收藏箱"
@@ -1224,6 +1236,18 @@
   },
   "uniequip_002_bena": {
     "char_id": "char_369_bena",
+    "en_US": {
+      "enabled": true,
+      "name": "The Jeffreys Collection of Fairytales New and Old, Hardback Edition"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "『ジェフリー今昔童話集』ハードカバー版"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "《제프리 고금 동화집》 양장본"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "《乔弗瑞古今童话集》精装本"
@@ -1231,6 +1255,18 @@
   },
   "uniequip_002_kazema": {
     "char_id": "char_4016_kazema",
+    "en_US": {
+      "enabled": true,
+      "name": "An Old Thing"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "お古"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오래된 물건"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "旧物"
@@ -1238,6 +1274,18 @@
   },
   "uniequip_002_lumen": {
     "char_id": "char_4042_lumen",
+    "en_US": {
+      "enabled": true,
+      "name": "Spyglass"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "純銅製望遠鏡"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "순동 단안망원경"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "纯铜单筒望远镜"
@@ -1245,6 +1293,18 @@
   },
   "uniequip_002_ceylon": {
     "char_id": "char_348_ceylon",
+    "en_US": {
+      "enabled": true,
+      "name": "Field Research Equipment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フィールドワークセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "야외 답사 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "野外考察套装"
@@ -1252,6 +1312,18 @@
   },
   "uniequip_002_whispr": {
     "char_id": "char_436_whispr",
+    "en_US": {
+      "enabled": true,
+      "name": "A Quaint First-Aid Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "使い込まれた救急箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고풍스러운 구급상자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "古朴的急救箱"
@@ -1259,6 +1331,18 @@
   },
   "uniequip_002_finlpp": {
     "char_id": "char_385_finlpp",
+    "en_US": {
+      "enabled": true,
+      "name": "'The River's Lingering Charm'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「江河の唄」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '강의 노래'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“江河之韵”"
@@ -1266,6 +1350,18 @@
   },
   "uniequip_002_zumama": {
     "char_id": "char_416_zumama",
+    "en_US": {
+      "enabled": true,
+      "name": "Zumama's Tool Box"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ズゥママの工具箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "주마마 공구 상자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "祖玛玛的工具箱"
@@ -1273,6 +1369,18 @@
   },
   "uniequip_002_aurora": {
     "char_id": "char_422_aurora",
+    "en_US": {
+      "enabled": true,
+      "name": "Shield Photography Module"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "盾用撮影モジュール"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방패용 촬영 모듈"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "盾用摄制模块"
@@ -1280,6 +1388,18 @@
   },
   "uniequip_002_irene": {
     "char_id": "char_4009_irene",
+    "en_US": {
+      "enabled": true,
+      "name": "Liber Sacer"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "分厚い経典"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "두껍고 무거운 경전"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "厚重的经卷"

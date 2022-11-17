@@ -8557,6 +8557,52 @@
     "code": "glaucus",
     "code_name": "Glaucus"
   },
+  "char_433_windft": {
+    "en_US": {
+      "enabled": true,
+      "name": "Windflit",
+      "skills": [
+        "Machine Rapport",
+        "Energy Rapport"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウインドフリット",
+      "skills": [
+        "この身で築かす",
+        "この身を源とす"
+      ],
+      "alias": [
+        "ういんどふりっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "윈드플릿",
+      "skills": [
+        "이 몸을 만들어",
+        "이 몸을 근원으로"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "掠风",
+      "skills": [
+        "此身为筑",
+        "此身为源"
+      ],
+      "alias": [
+        "lve feng",
+        "lvefeng"
+      ],
+      "appellation": "Windflit"
+    },
+    "code": "windflit",
+    "code_name": "Windflit"
+  },
   "char_101_sora": {
     "en_US": {
       "enabled": true,
@@ -11179,6 +11225,56 @@
     "code": "mizuki",
     "code_name": "Mizuki"
   },
+  "char_1023_ghost2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Specter the Unchained",
+      "skills": [
+        "The Skill to Survive",
+        "The Thirst to Survive",
+        "The Pressure to Survive"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "帰溟スペクター",
+      "skills": [
+        "生存の技巧",
+        "生への渇望",
+        "生からの重圧"
+      ],
+      "alias": [
+        "帰溟すぺくたー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스펙터 디 언체인드",
+      "skills": [
+        "생존의 기술",
+        "생존의 열망",
+        "생존의 중압"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "归溟幽灵鲨",
+      "skills": [
+        "生存的技巧",
+        "生存的渴望",
+        "生存的重压"
+      ],
+      "alias": [
+        "gui ming you ling sha",
+        "guimingyoulingsha"
+      ],
+      "appellation": "Specter the Unchained"
+    },
+    "code": "specter the unchained",
+    "code_name": "Specter the Unchained"
+  },
   "char_147_shining": {
     "en_US": {
       "enabled": true,
@@ -11348,6 +11444,56 @@
     },
     "code": "kal'tsit",
     "code_name": "Kal'tsit"
+  },
+  "char_4042_lumen": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lumen",
+      "skills": [
+        "In Drizzle, Privation",
+        "In Downpour, Grace",
+        "This Lantern Undying"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ルーメン",
+      "skills": [
+        "恵みの慈雨",
+        "清めの沛雨",
+        "不滅の灯火"
+      ],
+      "alias": [
+        "るーめん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "루멘",
+      "skills": [
+        "가랑비",
+        "장맛비",
+        "꺼지지 않는 등불"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "流明",
+      "skills": [
+        "沐雨",
+        "沛霖",
+        "灯火不灭"
+      ],
+      "alias": [
+        "liu ming",
+        "liuming"
+      ],
+      "appellation": "Lumen"
+    },
+    "code": "lumen",
+    "code_name": "Lumen"
   },
   "char_136_hsguma": {
     "en_US": {
@@ -11998,6 +12144,56 @@
     },
     "code": "ch'en",
     "code_name": "Ch'en"
+  },
+  "char_4009_irene": {
+    "en_US": {
+      "enabled": true,
+      "name": "Irene",
+      "skills": [
+        "Gust",
+        "Shattertide",
+        "Judgment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アイリーニ",
+      "skills": [
+        "舞風",
+        "裂潮",
+        "判決"
+      ],
+      "alias": [
+        "あいりーに"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아이린",
+      "skills": [
+        "불어오는 바람",
+        "갈라지는 파도",
+        "판결"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "艾丽妮",
+      "skills": [
+        "起风",
+        "裂潮",
+        "判决"
+      ],
+      "alias": [
+        "ai li ni",
+        "ailini"
+      ],
+      "appellation": "Irene"
+    },
+    "code": "irene",
+    "code_name": "Irene"
   },
   "char_017_huang": {
     "en_US": {
@@ -13751,6 +13947,52 @@
     },
     "code": "kaminingyo",
     "code_name": "Kaminingyo"
+  },
+  "token_10023_windft_wrench": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reliable Battery",
+      "skills": [
+        "Reliable Battery",
+        "Reliable Battery"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "高信頼性バッテリー",
+      "skills": [
+        "高信頼性バッテリー",
+        "高信頼性バッテリー"
+      ],
+      "alias": [
+        "高信頼性ばってりー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "안정적인 배터리",
+      "skills": [
+        "안정적인 배터리",
+        "안정적인 배터리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可靠电池",
+      "skills": [
+        "可靠电池",
+        "可靠电池"
+      ],
+      "alias": [
+        "ke kao dian chi",
+        "kekaodianchi"
+      ],
+      "appellation": "Reliable Battery"
+    },
+    "code": "reliable battery",
+    "code_name": "Reliable Battery"
   },
   "trap_001_crate": {
     "en_US": {
@@ -16379,6 +16621,98 @@
     "code": "conviction",
     "code_name": "Conviction"
   },
+  "trap_060_bouncy": {
+    "en_US": {
+      "enabled": true,
+      "name": "Hand of the Saint",
+      "skills": [
+        "Hand of the Saint",
+        "Hand of the Saint - Purification",
+        "Hand of the Saint - Patrol"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "聖徒の手",
+      "skills": [
+        "聖徒の御手",
+        "聖徒の御手・清掃モード",
+        "聖徒の御手・巡回モード"
+      ],
+      "alias": [
+        "聖徒の手"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "성도의 손",
+      "skills": [
+        "성도의 손",
+        "성도의 손 - 정리 모드",
+        "성도의 손 - 순회 모드"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣徒之手",
+      "skills": [
+        "圣徒之手",
+        "圣徒之手·清理模式",
+        "圣徒之手·巡回模式"
+      ],
+      "alias": [
+        "sheng tu zhi shou",
+        "shengtuzhishou"
+      ],
+      "appellation": "Hand of Saint"
+    },
+    "code": "hand of the saint",
+    "code_name": "Hand of Saint"
+  },
+  "trap_061_creep": {
+    "en_US": {
+      "enabled": true,
+      "name": "Nethersea Brand",
+      "skills": [
+        "Nethersea Brand"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "溟痕",
+      "skills": [
+        "溟痕"
+      ],
+      "alias": [
+        "溟痕"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "명흔",
+      "skills": [
+        "명흔"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "溟痕",
+      "skills": [
+        "溟痕"
+      ],
+      "alias": [
+        "ming hen",
+        "minghen"
+      ],
+      "appellation": "Sealed Floor"
+    },
+    "code": "nethersea brand",
+    "code_name": "Sealed Floor"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -17170,23 +17504,6 @@
     "code": null,
     "code_name": "Proviso"
   },
-  "char_433_windft": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "掠风",
-      "skills": [
-        "此身为筑",
-        "此身为源"
-      ],
-      "alias": [
-        "lve feng",
-        "lvefeng"
-      ],
-      "appellation": "Windflit"
-    },
-    "code": null,
-    "code_name": "Windflit"
-  },
   "char_4055_bgsnow": {
     "zh_CN": {
       "enabled": true,
@@ -17277,24 +17594,6 @@
     "code": null,
     "code_name": "Texas the Omertosa"
   },
-  "char_1023_ghost2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "归溟幽灵鲨",
-      "skills": [
-        "生存的技巧",
-        "生存的渴望",
-        "生存的重压"
-      ],
-      "alias": [
-        "gui ming you ling sha",
-        "guimingyoulingsha"
-      ],
-      "appellation": "Specter the Unchained"
-    },
-    "code": null,
-    "code_name": "Specter the Unchained"
-  },
   "char_4048_doroth": {
     "zh_CN": {
       "enabled": true,
@@ -17313,24 +17612,6 @@
     "code": null,
     "code_name": "Dorothy"
   },
-  "char_4042_lumen": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "流明",
-      "skills": [
-        "沐雨",
-        "沛霖",
-        "灯火不灭"
-      ],
-      "alias": [
-        "liu ming",
-        "liuming"
-      ],
-      "appellation": "Lumen"
-    },
-    "code": null,
-    "code_name": "Lumen"
-  },
   "char_4065_judge": {
     "zh_CN": {
       "enabled": true,
@@ -17348,24 +17629,6 @@
     },
     "code": null,
     "code_name": "Penance"
-  },
-  "char_4009_irene": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "艾丽妮",
-      "skills": [
-        "起风",
-        "裂潮",
-        "判决"
-      ],
-      "alias": [
-        "ai li ni",
-        "ailini"
-      ],
-      "appellation": "Irene"
-    },
-    "code": null,
-    "code_name": "Irene"
   },
   "char_1026_gvial2": {
     "zh_CN": {
@@ -17402,23 +17665,6 @@
     },
     "code": null,
     "code_name": "Młynar"
-  },
-  "token_10023_windft_wrench": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "可靠电池",
-      "skills": [
-        "可靠电池",
-        "可靠电池"
-      ],
-      "alias": [
-        "ke kao dian chi",
-        "kekaodianchi"
-      ],
-      "appellation": "Reliable Battery"
-    },
-    "code": null,
-    "code_name": "Reliable Battery"
   },
   "token_10024_ebnhlz_rcube": {
     "zh_CN": {
@@ -17545,40 +17791,6 @@
     },
     "code": null,
     "code_name": "Vigil"
-  },
-  "trap_060_bouncy": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "圣徒之手",
-      "skills": [
-        "圣徒之手",
-        "圣徒之手·清理模式",
-        "圣徒之手·巡回模式"
-      ],
-      "alias": [
-        "sheng tu zhi shou",
-        "shengtuzhishou"
-      ],
-      "appellation": "Hand of Saint"
-    },
-    "code": null,
-    "code_name": "Hand of Saint"
-  },
-  "trap_061_creep": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "溟痕",
-      "skills": [
-        "溟痕"
-      ],
-      "alias": [
-        "ming hen",
-        "minghen"
-      ],
-      "appellation": "Sealed Floor"
-    },
-    "code": null,
-    "code_name": "Sealed Floor"
   },
   "trap_062_magicstart": {
     "zh_CN": {
