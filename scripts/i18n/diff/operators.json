@@ -8227,6 +8227,52 @@
     "code": "toddifons",
     "code_name": "Toddifons"
   },
+  "char_4043_erato": {
+    "en_US": {
+      "enabled": true,
+      "name": "Erato ",
+      "skills": [
+        "Lullaby's Meter",
+        "Heroes' Paean"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エラト ",
+      "skills": [
+        "安眠のメローディア",
+        "英雄へのイムヌス"
+      ],
+      "alias": [
+        "えらと "
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에라토",
+      "skills": [
+        "단잠의 멜로디",
+        "영웅의 찬가"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "埃拉托",
+      "skills": [
+        "安眠旋律",
+        "英雄赞歌"
+      ],
+      "alias": [
+        "ai la tuo",
+        "ailatuo"
+      ],
+      "appellation": "Erato"
+    },
+    "code": "erato ",
+    "code_name": "Erato"
+  },
   "char_173_slchan": {
     "en_US": {
       "enabled": true,
@@ -17300,6 +17346,23 @@
     "code": null,
     "code_name": "Cantabile"
   },
+  "char_4017_puzzle": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "谜图",
+      "skills": [
+        "关键线索",
+        "疑点追踪"
+      ],
+      "alias": [
+        "mi tu",
+        "mitu"
+      ],
+      "appellation": "Puzzle"
+    },
+    "code": null,
+    "code_name": "Puzzle"
+  },
   "char_157_dagda": {
     "zh_CN": {
       "enabled": true,
@@ -17367,6 +17430,23 @@
     },
     "code": null,
     "code_name": "Astgenne"
+  },
+  "char_297_hamoni": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "和弦",
+      "skills": [
+        "轻巧舞步",
+        "沉溺之灾"
+      ],
+      "alias": [
+        "he xian",
+        "hexian"
+      ],
+      "appellation": "Harmonie"
+    },
+    "code": null,
+    "code_name": "Harmonie"
   },
   "char_4054_malist": {
     "zh_CN": {
@@ -17452,23 +17532,6 @@
     },
     "code": null,
     "code_name": "Lunacub"
-  },
-  "char_4043_erato": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "埃拉托",
-      "skills": [
-        "安眠旋律",
-        "英雄赞歌"
-      ],
-      "alias": [
-        "ai la tuo",
-        "ailatuo"
-      ],
-      "appellation": "Erato"
-    },
-    "code": null,
-    "code_name": "Erato"
   },
   "char_1027_greyy2": {
     "zh_CN": {
@@ -17611,6 +17674,24 @@
     },
     "code": null,
     "code_name": "Dorothy"
+  },
+  "char_1020_reed2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "焰影苇草",
+      "skills": [
+        "迅捷打击·γ型",
+        "枯荣共息",
+        "生命火种"
+      ],
+      "alias": [
+        "yan ying wei cao",
+        "yanyingweicao"
+      ],
+      "appellation": "Reed The Flame Shadow"
+    },
+    "code": null,
+    "code_name": "Reed The Flame Shadow"
   },
   "char_4065_judge": {
     "zh_CN": {
@@ -18334,5 +18415,261 @@
     },
     "code": null,
     "code_name": "Vendetta"
+  },
+  "trap_098_mire": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "沼泽控制",
+      "skills": [
+        "沼泽控制"
+      ],
+      "alias": [
+        "zhao ze kong zhi",
+        "zhaozekongzhi"
+      ],
+      "appellation": "Mire Controller"
+    },
+    "code": null,
+    "code_name": "Mire Controller"
+  },
+  "trap_104_dplant": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "改性植物激素",
+      "skills": [
+        "抑制生长"
+      ],
+      "alias": [
+        "gai xing zhi wu ji su",
+        "gaixingzhiwujisu"
+      ],
+      "appellation": "Modified Phytohormone"
+    },
+    "code": null,
+    "code_name": "Modified Phytohormone"
+  },
+  "trap_700_cdabyss": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿戈尔示波器",
+      "skills": [
+        "阿戈尔示波器"
+      ],
+      "alias": [
+        "a ge er shi bo qi",
+        "ageershiboqi"
+      ],
+      "appellation": "Ægirian Oscilloscope"
+    },
+    "code": null,
+    "code_name": "Ægirian Oscilloscope"
+  },
+  "trap_701_cdabyssa": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿戈尔示波器",
+      "skills": [
+        "阿戈尔示波器"
+      ],
+      "alias": [
+        "a ge er shi bo qi",
+        "ageershiboqi"
+      ],
+      "appellation": "Ægirian Oscilloscope"
+    },
+    "code": null,
+    "code_name": "Ægirian Oscilloscope"
+  },
+  "trap_702_cdabyssb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿戈尔示波器",
+      "skills": [
+        "阿戈尔示波器"
+      ],
+      "alias": [
+        "a ge er shi bo qi",
+        "ageershiboqi"
+      ],
+      "appellation": "Ægirian Oscilloscope"
+    },
+    "code": null,
+    "code_name": "Ægirian Oscilloscope"
+  },
+  "trap_703_cdcredit": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "自适应补给元件",
+      "skills": [
+        "自适应补给"
+      ],
+      "alias": [
+        "zi shi ying bu gei yuan jian",
+        "zishiyingbugeiyuanjian"
+      ],
+      "appellation": "Multi-purpose Supply Device"
+    },
+    "code": null,
+    "code_name": "Multi-purpose Supply Device"
+  },
+  "trap_704_cdcredita": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "自适应补给元件",
+      "skills": [
+        "自适应补给"
+      ],
+      "alias": [
+        "zi shi ying bu gei yuan jian",
+        "zishiyingbugeiyuanjian"
+      ],
+      "appellation": "Multi-purpose Supply Device"
+    },
+    "code": null,
+    "code_name": "Multi-purpose Supply Device"
+  },
+  "trap_705_cdcreditb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "自适应补给元件",
+      "skills": [
+        "自适应补给"
+      ],
+      "alias": [
+        "zi shi ying bu gei yuan jian",
+        "zishiyingbugeiyuanjian"
+      ],
+      "appellation": "Multi-purpose Supply Device"
+    },
+    "code": null,
+    "code_name": "Multi-purpose Supply Device"
+  },
+  "trap_706_cdshield": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "镀膜装置导能阀",
+      "skills": [
+        "镀膜"
+      ],
+      "alias": [
+        "du mo zhuang zhi dao neng fa",
+        "dumozhuangzhidaonengfa"
+      ],
+      "appellation": "Coating Device Conducting Valve"
+    },
+    "code": null,
+    "code_name": "Coating Device Conducting Valve"
+  },
+  "trap_707_cdshielda": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "重整导能组件",
+      "skills": [
+        "重整导能"
+      ],
+      "alias": [
+        "zhong zheng dao neng zu jian",
+        "zhongzhengdaonengzujian"
+      ],
+      "appellation": "Redeployment Conducting Component"
+    },
+    "code": null,
+    "code_name": "Redeployment Conducting Component"
+  },
+  "trap_708_cdshieldb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "镀膜装置导能阀",
+      "skills": [
+        "镀膜"
+      ],
+      "alias": [
+        "du mo zhuang zhi dao neng fa",
+        "dumozhuangzhidaonengfa"
+      ],
+      "appellation": "Coating Device Conducting Valve"
+    },
+    "code": null,
+    "code_name": "Coating Device Conducting Valve"
+  },
+  "trap_709_cdbeacon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "丛林用示踪信标",
+      "skills": [
+        "示踪信标"
+      ],
+      "alias": [
+        "cong lin yong shi zong xin biao",
+        "conglinyongshizongxinbiao"
+      ],
+      "appellation": "Eunectes' Beacon"
+    },
+    "code": null,
+    "code_name": "Eunectes' Beacon"
+  },
+  "trap_710_cdbeacona": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阻断波长",
+      "skills": [
+        "阻断波长"
+      ],
+      "alias": [
+        "zu duan bo chang",
+        "zuduanbochang"
+      ],
+      "appellation": "Intercepting Wavelength"
+    },
+    "code": null,
+    "code_name": "Intercepting Wavelength"
+  },
+  "trap_711_cdbeaconb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "干扰波长",
+      "skills": [
+        "干扰波长"
+      ],
+      "alias": [
+        "gan rao bo chang",
+        "ganraobochang"
+      ],
+      "appellation": "Interfering Wavelength"
+    },
+    "code": null,
+    "code_name": "Interfering Wavelength"
+  },
+  "trap_712_cdhvrk": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "超重绝缘水泥",
+      "skills": [
+        "超重，绝缘"
+      ],
+      "alias": [
+        "chao zhong jue yuan shui ni",
+        "chaozhongjueyuanshuini"
+      ],
+      "appellation": "Overweight Insulating Cement"
+    },
+    "code": null,
+    "code_name": "Overweight Insulating Cement"
+  },
+  "trap_713_cdflsb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "劣质闪光弹",
+      "skills": [
+        "劣质闪光弹"
+      ],
+      "alias": [
+        "lie zhi shan guang dan",
+        "liezhishanguangdan"
+      ],
+      "appellation": "Defective Stun Grenade"
+    },
+    "code": null,
+    "code_name": "Defective Stun Grenade"
   }
 }

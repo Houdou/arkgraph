@@ -5,6 +5,30 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2022-12-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4043_erato"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2022-12-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1020_reed2",
+      "char_4017_puzzle",
+      "char_297_hamoni"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2022-11-17",
     "type": "new_operators",
     "new_operators": [
@@ -102,36 +126,6 @@
     "new_operators": [
       "char_4064_mlynar",
       "char_4032_provs"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2022-08-11",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4055_bgsnow",
-      "char_1026_gvial2",
-      "char_497_ctable",
-      "char_4054_malist"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2022-08-04",
-    "type": "new_operators",
-    "new_operators": [
-      "char_377_gdglow",
-      "char_2023_ling",
-      "char_322_lmlee",
-      "char_476_blkngt",
-      "char_1021_kroos2",
-      "char_492_quercu"
     ]
   }
 ]
