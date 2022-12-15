@@ -1894,5 +1894,75 @@
       "enabled": true,
       "name": "护身符"
     }
+  },
+  "uniequip_002_poca": {
+    "char_id": "char_197_poca",
+    "zh_CN": {
+      "enabled": true,
+      "name": "攻城器械训练装置"
+    }
+  },
+  "uniequip_002_totter": {
+    "char_id": "char_4062_totter",
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪花球"
+    }
+  },
+  "uniequip_002_toddi": {
+    "char_id": "char_363_toddi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "弩箭调试箱"
+    }
+  },
+  "uniequip_002_erato": {
+    "char_id": "char_4043_erato",
+    "zh_CN": {
+      "enabled": true,
+      "name": "改弦更张"
+    }
+  },
+  "uniequip_002_helage": {
+    "char_id": "char_188_helage",
+    "zh_CN": {
+      "enabled": true,
+      "name": "藏锋"
+    }
+  },
+  "uniequip_002_akafyu": {
+    "char_id": "char_475_akafyu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "武将甲胄"
+    }
+  },
+  "uniequip_002_utage": {
+    "char_id": "char_337_utage",
+    "zh_CN": {
+      "enabled": true,
+      "name": "翻盖手机"
+    }
+  },
+  "uniequip_002_hamoni": {
+    "char_id": "char_297_hamoni",
+    "zh_CN": {
+      "enabled": true,
+      "name": "情报人员资料夹"
+    }
+  },
+  "uniequip_003_archet": {
+    "char_id": "char_332_archet",
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧日重现"
+    }
+  },
+  "uniequip_003_mizuki": {
+    "char_id": "char_437_mizuki",
+    "zh_CN": {
+      "enabled": true,
+      "name": "深蓝之籽"
+    }
   }
 }

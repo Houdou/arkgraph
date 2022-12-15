@@ -19826,6 +19826,84 @@
       "enabled": true
     }
   },
+  "act22side_st01": {
+    "code": "FC-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_tr01": {
+    "code": "FC-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_01": {
+    "code": "FC-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_02": {
+    "code": "FC-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_03": {
+    "code": "FC-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_04": {
+    "code": "FC-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_tr02": {
+    "code": "FC-TR-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_05": {
+    "code": "FC-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_06": {
+    "code": "FC-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_07": {
+    "code": "FC-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_st02": {
+    "code": "FC-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_08": {
+    "code": "FC-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act22side_st03": {
+    "code": "FC-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act21side_st01": {
     "code": "IS-ST-1",
     "zh_CN": {
@@ -21154,6 +21232,150 @@
   },
   "lt_tr_03": {
     "code": "TR-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_01": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_02": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_03": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_04": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_05": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_06": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_01_ex": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_02_ex": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_03_ex": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_04_ex": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_05_ex": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_05_06_ex": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_01": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_02": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_03": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_04": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_05": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_06": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_01_ex": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_02_ex": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_03_ex": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_04_ex": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_05_ex": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_06_06_ex": {
+    "code": "LT-6",
     "zh_CN": {
       "enabled": true
     }
