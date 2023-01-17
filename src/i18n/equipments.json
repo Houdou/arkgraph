@@ -1407,6 +1407,18 @@
   },
   "uniequip_002_ebnhlz": {
     "char_id": "char_4046_ebnhlz",
+    "en_US": {
+      "enabled": true,
+      "name": "Originium Dice Case"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "源石ダイス収納箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오리지늄 주사위 수납함"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "源石骰子收纳盒"
@@ -1414,6 +1426,18 @@
   },
   "uniequip_002_iris": {
     "char_id": "char_338_iris",
+    "en_US": {
+      "enabled": true,
+      "name": "Castle Pop-Up Book"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "夢のお城の飛び出す絵本"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "꿈의 성 팝업북"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "梦之城堡立体书"
@@ -1421,6 +1445,18 @@
   },
   "uniequip_002_indigo": {
     "char_id": "char_469_indigo",
+    "en_US": {
+      "enabled": true,
+      "name": "Staff Maintenance Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "杖のお手入れセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아츠 유닛 관리 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "法杖保养套装"
@@ -1428,6 +1464,18 @@
   },
   "uniequip_002_demkni": {
     "char_id": "char_202_demkni",
+    "en_US": {
+      "enabled": true,
+      "name": "Unused Boxing Gloves"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "仕舞い込まれたグローブ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방치된 복싱 글러브"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "闲置的拳击手套"
@@ -1435,6 +1483,18 @@
   },
   "uniequip_002_blemsh": {
     "char_id": "char_423_blemsh",
+    "en_US": {
+      "enabled": true,
+      "name": "Echo of Craftsman's Guild"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "職人団の槌音"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "장인들의 메아리"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "工匠团的回响"
@@ -1442,6 +1502,18 @@
   },
   "uniequip_002_nearl": {
     "char_id": "char_148_nearl",
+    "en_US": {
+      "enabled": true,
+      "name": "Improved Knight Shield"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "改良型の騎士用盾"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "개량된 기사 방패"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "改良骑士盾牌"
@@ -1449,6 +1521,18 @@
   },
   "uniequip_002_hmau": {
     "char_id": "char_226_hmau",
+    "en_US": {
+      "enabled": true,
+      "name": "Popular Sitcom Tapes"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "八時台メロドラマのDVD"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "8시 시트콤 녹화 비디오"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "八点档情景剧录像带"
@@ -1456,6 +1540,18 @@
   },
   "uniequip_002_sunbr": {
     "char_id": "char_196_sunbr",
+    "en_US": {
+      "enabled": true,
+      "name": "Медовые Пряники"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "はちみつパイの詰め合わせ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "허니 파이 선물 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "蜜糖馅饼礼包"
@@ -1463,6 +1559,18 @@
   },
   "uniequip_003_pasngr": {
     "char_id": "char_472_pasngr",
+    "en_US": {
+      "enabled": true,
+      "name": "Gold of Crowns"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "王権の金貨"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "왕권의 금화"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "王权金币"
@@ -1470,9 +1578,230 @@
   },
   "uniequip_003_skadi": {
     "char_id": "char_263_skadi",
+    "en_US": {
+      "enabled": true,
+      "name": "No Ending to This Dream"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "在りし日の夢の名残"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지난 날의 불완전한 꿈"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "往日残梦"
+    }
+  },
+  "uniequip_002_glady": {
+    "char_id": "char_474_glady",
+    "en_US": {
+      "enabled": true,
+      "name": "Consul's Handmirror"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "執政官の手鏡"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "집정관의 손거울"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "执政官手镜"
+    }
+  },
+  "uniequip_002_snsant": {
+    "char_id": "char_383_snsant",
+    "en_US": {
+      "enabled": true,
+      "name": "Snowsant's Precious Money Bank"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スノーズントの大事な貯金箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스노우상트의 보물 저금통"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪雉的宝贝存钱罐"
+    }
+  },
+  "uniequip_002_slchan": {
+    "char_id": "char_173_slchan",
+    "en_US": {
+      "enabled": true,
+      "name": "'Reach the Top'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「頂上への到達」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'정상 정복'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“凌绝顶”"
+    }
+  },
+  "uniequip_002_rope": {
+    "char_id": "char_236_rope",
+    "en_US": {
+      "enabled": true,
+      "name": "Tin Casket"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブリキのジュエリーボックス"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "깡통 장신구 케이스"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "铁皮首饰盒"
+    }
+  },
+  "uniequip_002_bgsnow": {
+    "char_id": "char_4055_bgsnow",
+    "en_US": {
+      "enabled": true,
+      "name": "Typewriter Ribbon"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "インクリボン"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "타자기 리본"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "打字机色带"
+    }
+  },
+  "uniequip_002_mizuki": {
+    "char_id": "char_437_mizuki",
+    "en_US": {
+      "enabled": true,
+      "name": "Entreaty of the Herald"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "使者の盟約"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사도의 약속"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "使者之约"
+    }
+  },
+  "uniequip_002_mantic": {
+    "char_id": "char_215_mantic",
+    "en_US": {
+      "enabled": true,
+      "name": "Tail-Protection Training Tool"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "訓練用尻尾保護セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "훈련용 꼬리 보호 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "训练用尾部防护套装"
+    }
+  },
+  "uniequip_002_kirara": {
+    "char_id": "char_478_kirara",
+    "en_US": {
+      "enabled": true,
+      "name": "We Will Survive 3 Online"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ウィー・ウィル・サバイブ3　ONLINE」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "《우당탕탕 서바이벌 챌린지 3 온라인》"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "《闹闹生存挑战3 联机版》"
+    }
+  },
+  "uniequip_002_ethan": {
+    "char_id": "char_355_ethan",
+    "en_US": {
+      "enabled": true,
+      "name": "Super Spray Paint Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スーパースプレーセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "슈퍼 스프레이 페인트 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "超级喷漆套装"
+    }
+  },
+  "uniequip_003_ghost2": {
+    "char_id": "char_1023_ghost2",
+    "en_US": {
+      "enabled": true,
+      "name": "The Beauty in the Incomplete"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "至らずの美しさ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미완성의 아름다움"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "未竟之美"
+    }
+  },
+  "uniequip_003_fartth": {
+    "char_id": "char_430_fartth",
+    "en_US": {
+      "enabled": true,
+      "name": "Fan Letters"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ファンレター"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "팬으로부터 온 편지"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "支持者来信"
     }
   },
   "uniequip_002_jesica": {
@@ -1578,83 +1907,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "未组装的钟表"
-    }
-  },
-  "uniequip_002_glady": {
-    "char_id": "char_474_glady",
-    "zh_CN": {
-      "enabled": true,
-      "name": "执政官手镜"
-    }
-  },
-  "uniequip_002_snsant": {
-    "char_id": "char_383_snsant",
-    "zh_CN": {
-      "enabled": true,
-      "name": "雪雉的宝贝存钱罐"
-    }
-  },
-  "uniequip_002_slchan": {
-    "char_id": "char_173_slchan",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“凌绝顶”"
-    }
-  },
-  "uniequip_002_rope": {
-    "char_id": "char_236_rope",
-    "zh_CN": {
-      "enabled": true,
-      "name": "铁皮首饰盒"
-    }
-  },
-  "uniequip_002_bgsnow": {
-    "char_id": "char_4055_bgsnow",
-    "zh_CN": {
-      "enabled": true,
-      "name": "打字机色带"
-    }
-  },
-  "uniequip_002_mizuki": {
-    "char_id": "char_437_mizuki",
-    "zh_CN": {
-      "enabled": true,
-      "name": "使者之约"
-    }
-  },
-  "uniequip_002_mantic": {
-    "char_id": "char_215_mantic",
-    "zh_CN": {
-      "enabled": true,
-      "name": "训练用尾部防护套装"
-    }
-  },
-  "uniequip_002_kirara": {
-    "char_id": "char_478_kirara",
-    "zh_CN": {
-      "enabled": true,
-      "name": "《闹闹生存挑战3 联机版》"
-    }
-  },
-  "uniequip_002_ethan": {
-    "char_id": "char_355_ethan",
-    "zh_CN": {
-      "enabled": true,
-      "name": "超级喷漆套装"
-    }
-  },
-  "uniequip_003_ghost2": {
-    "char_id": "char_1023_ghost2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "未竟之美"
-    }
-  },
-  "uniequip_003_fartth": {
-    "char_id": "char_430_fartth",
-    "zh_CN": {
-      "enabled": true,
-      "name": "支持者来信"
     }
   },
   "uniequip_002_provs": {
@@ -1963,6 +2215,83 @@
     "zh_CN": {
       "enabled": true,
       "name": "深蓝之籽"
+    }
+  },
+  "uniequip_002_amgoat": {
+    "char_id": "char_180_amgoat",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“错过的声音”"
+    }
+  },
+  "uniequip_002_cerber": {
+    "char_id": "char_2013_cerber",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“很干的面包”"
+    }
+  },
+  "uniequip_002_absin": {
+    "char_id": "char_405_absin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“监护者”单兵通讯单元"
+    }
+  },
+  "uniequip_002_nights": {
+    "char_id": "char_141_nights",
+    "zh_CN": {
+      "enabled": true,
+      "name": "女巫的帽子"
+    }
+  },
+  "uniequip_002_qanik": {
+    "char_id": "char_466_qanik",
+    "zh_CN": {
+      "enabled": true,
+      "name": "自制登山杖"
+    }
+  },
+  "uniequip_002_nightm": {
+    "char_id": "char_164_nightm",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“两生花”"
+    }
+  },
+  "uniequip_002_tomimi": {
+    "char_id": "char_411_tomimi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "损坏的尾尾佳"
+    }
+  },
+  "uniequip_002_amiya": {
+    "char_id": "char_002_amiya",
+    "zh_CN": {
+      "enabled": true,
+      "name": "DWDB-221E"
+    }
+  },
+  "uniequip_002_bdhkgt": {
+    "char_id": "char_4078_bdhkgt",
+    "zh_CN": {
+      "enabled": true,
+      "name": "小石头"
+    }
+  },
+  "uniequip_003_lumen": {
+    "char_id": "char_4042_lumen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“幸运”"
+    }
+  },
+  "uniequip_003_demkni": {
+    "char_id": "char_202_demkni",
+    "zh_CN": {
+      "enabled": true,
+      "name": "科技新星"
     }
   }
 }
