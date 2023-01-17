@@ -4335,6 +4335,52 @@
     "code": "blacknight",
     "code_name": "Blacknight"
   },
+  "char_497_ctable": {
+    "en_US": {
+      "enabled": true,
+      "name": "Cantabile",
+      "skills": [
+        "Penetrating Gaze",
+        "Specular Reflection"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カンタービレ",
+      "skills": [
+        "洞見",
+        "水光"
+      ],
+      "alias": [
+        "かんたーびれ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "칸타빌레",
+      "skills": [
+        "관화",
+        "부광"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "晓歌",
+      "skills": [
+        "观火",
+        "浮光"
+      ],
+      "alias": [
+        "xiao ge",
+        "xiaoge"
+      ],
+      "appellation": "Cantabile"
+    },
+    "code": "cantabile",
+    "code_name": "Cantabile"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -6572,6 +6618,52 @@
     "code": "rockrock",
     "code_name": "Rockrock"
   },
+  "char_4054_malist": {
+    "en_US": {
+      "enabled": true,
+      "name": "Minimalist",
+      "skills": [
+        "Swift Strike γ",
+        "Prodigious Craftsmanship"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミニマリスト",
+      "skills": [
+        "迅速攻撃γ",
+        "マスターピース"
+      ],
+      "alias": [
+        "みにまりすと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미니멀리스트",
+      "skills": [
+        "신속공격γ",
+        "신의 경지"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "至简",
+      "skills": [
+        "迅捷打击·γ型",
+        "神工意匠"
+      ],
+      "alias": [
+        "zhi jian",
+        "zhijian"
+      ],
+      "appellation": "Minimalist"
+    },
+    "code": "minimalist",
+    "code_name": "Minimalist"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -7153,6 +7245,52 @@
     },
     "code": "honeyberry",
     "code_name": "Honeyberry"
+  },
+  "char_1024_hbisc2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Hibiscus the Purifier",
+      "skills": [
+        "ATK Up γ",
+        "Nurturing Touch"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "濯塵ハイビスカス",
+      "skills": [
+        "攻撃力強化γ",
+        "業の救済"
+      ],
+      "alias": [
+        "濯塵はいびすかす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "히비스커스 더 퓨리파이어",
+      "skills": [
+        "공격 강화γ",
+        "어루만짐"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "濯尘芙蓉",
+      "skills": [
+        "攻击力强化·γ型",
+        "抚业之触"
+      ],
+      "alias": [
+        "zhuo chen fu rong",
+        "zhuochenfurong"
+      ],
+      "appellation": "Hibiscus the Purifier"
+    },
+    "code": "hibiscus the purifier",
+    "code_name": "Hibiscus the Purifier"
   },
   "char_148_nearl": {
     "en_US": {
@@ -7805,6 +7943,52 @@
     "code": "shalem",
     "code_name": "Shalem"
   },
+  "char_4047_pianst": {
+    "en_US": {
+      "enabled": true,
+      "name": "Czerny",
+      "skills": [
+        "Fingerfertigkeit",
+        "Meisterwerk"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ツェルニー",
+      "skills": [
+        "超絶技巧",
+        "万雷の喝采"
+      ],
+      "alias": [
+        "つぇるにー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "체르니",
+      "skills": [
+        "흩날리는 손가락",
+        "청중 압도"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "车尔尼",
+      "skills": [
+        "纷飞十指",
+        "曲惊四座"
+      ],
+      "alias": [
+        "che er ni",
+        "cheerni"
+      ],
+      "appellation": "Czerny"
+    },
+    "code": "czerny",
+    "code_name": "Czerny"
+  },
   "char_457_blitz": {
     "en_US": {
       "enabled": true,
@@ -8230,7 +8414,7 @@
   "char_4043_erato": {
     "en_US": {
       "enabled": true,
-      "name": "Erato ",
+      "name": "Erato",
       "skills": [
         "Lullaby's Meter",
         "Heroes' Paean"
@@ -8239,13 +8423,13 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "エラト ",
+      "name": "エラト",
       "skills": [
         "安眠のメローディア",
         "英雄へのイムヌス"
       ],
       "alias": [
-        "えらと "
+        "えらと"
       ]
     },
     "ko_KR": {
@@ -8270,7 +8454,7 @@
       ],
       "appellation": "Erato"
     },
-    "code": "erato ",
+    "code": "erato",
     "code_name": "Erato"
   },
   "char_173_slchan": {
@@ -9541,6 +9725,56 @@
     "code": "schwarz",
     "code_name": "Schwarz"
   },
+  "char_4055_bgsnow": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pozëmka",
+      "skills": [
+        "Iamb",
+        "Précis",
+        "Opprobrium"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パゼオンカ",
+      "skills": [
+        "イアンボス",
+        "リフレイン",
+        "レザーシャープペン"
+      ],
+      "alias": [
+        "ぱぜおんか"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파죰카",
+      "skills": [
+        "약강격",
+        "요약",
+        "날카로운 스케치"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "鸿雪",
+      "skills": [
+        "抑扬格",
+        "点题",
+        "锐笔速写"
+      ],
+      "alias": [
+        "hong xue",
+        "hongxue"
+      ],
+      "appellation": "Позёмка"
+    },
+    "code": "pozëmka",
+    "code_name": "Позёмка"
+  },
   "char_430_fartth": {
     "en_US": {
       "enabled": true,
@@ -10610,6 +10844,56 @@
     },
     "code": "goldenglow",
     "code_name": "Goldenglow"
+  },
+  "char_4046_ebnhlz": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ebenholz",
+      "skills": [
+        "Quickening Presto",
+        "Desolate Echoes",
+        "Sound of Silence"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エーベンホルツ",
+      "skills": [
+        "アッチェレランド",
+        "旧日の残響",
+        "無響の声"
+      ],
+      "alias": [
+        "えーべんほるつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에벤홀츠",
+      "skills": [
+        "급속 변주",
+        "황량한 메아리",
+        "침묵의 소리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "黑键",
+      "skills": [
+        "渐快急板",
+        "荒芜回响",
+        "寂静之声"
+      ],
+      "alias": [
+        "hei jian",
+        "heijian"
+      ],
+      "appellation": "Ebenholz"
+    },
+    "code": "ebenholz",
+    "code_name": "Ebenholz"
   },
   "char_206_gnosis": {
     "en_US": {
@@ -12300,6 +12584,56 @@
     },
     "code": "blaze",
     "code_name": "Blaze"
+  },
+  "char_1026_gvial2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gavial the Invincible",
+      "skills": [
+        "Precise Thrashing",
+        "Chainsaw Assault",
+        "Soul of the Jungle"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "百錬ガヴィル",
+      "skills": [
+        "ピンポイントヒット",
+        "ブレイクラッシュ",
+        "ジャングルソウル"
+      ],
+      "alias": [
+        "百錬がゔぃる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가비알 디 인빈서블",
+      "skills": [
+        "정밀 통격",
+        "체인톱 강습",
+        "정글의 영혼"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "百炼嘉维尔",
+      "skills": [
+        "精准痛击",
+        "链锯强袭",
+        "丛林之魂"
+      ],
+      "alias": [
+        "bai lian jia wei er",
+        "bailianjiaweier"
+      ],
+      "appellation": "Gavial the Invincible"
+    },
+    "code": "gavial the invincible",
+    "code_name": "Gavial the Invincible"
   },
   "char_350_surtr": {
     "en_US": {
@@ -14039,6 +14373,106 @@
     },
     "code": "reliable battery",
     "code_name": "Reliable Battery"
+  },
+  "token_10024_ebnhlz_rcube": {
+    "en_US": {
+      "enabled": true,
+      "name": "Remnants of Days Past",
+      "skills": [
+        "",
+        "Flashback",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "過去の残像",
+      "skills": [
+        "",
+        "フラッシュバック",
+        ""
+      ],
+      "alias": [
+        "過去の残像"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지난날의 잔상",
+      "skills": [
+        "",
+        "플래시백",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧日残影",
+      "skills": [
+        "",
+        "闪回",
+        ""
+      ],
+      "alias": [
+        "jiu ri can ying",
+        "jiuricanying"
+      ],
+      "appellation": "Old Day Remnants"
+    },
+    "code": "remnants of days past",
+    "code_name": "Old Day Remnants"
+  },
+  "token_10026_bgsnow_subbow": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Typewriter'",
+      "skills": [
+        "Iamb",
+        "Précis",
+        "Opprobrium"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「タイプライター」",
+      "skills": [
+        "イアンボス",
+        "リフレイン",
+        "レザーシャープペン"
+      ],
+      "alias": [
+        "「たいぷらいたー」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'타자기'",
+      "skills": [
+        "약강격",
+        "요약",
+        "날카로운 스케치"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“打字机”",
+      "skills": [
+        "抑扬格",
+        "点题",
+        "锐笔速写"
+      ],
+      "alias": [
+        "“ da zi ji ”",
+        "“daziji”"
+      ],
+      "appellation": "Typewriters"
+    },
+    "code": "'typewriter'",
+    "code_name": "Typewriters"
   },
   "trap_001_crate": {
     "en_US": {
@@ -16680,14 +17114,14 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "聖徒の手",
+      "name": "聖徒の御手",
       "skills": [
         "聖徒の御手",
         "聖徒の御手・清掃モード",
         "聖徒の御手・巡回モード"
       ],
       "alias": [
-        "聖徒の手"
+        "聖徒の御手"
       ]
     },
     "ko_KR": {
@@ -16758,6 +17192,628 @@
     },
     "code": "nethersea brand",
     "code_name": "Sealed Floor"
+  },
+  "trap_062_magicstart": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Tuba'",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「チューバ」",
+      "skills": [],
+      "alias": [
+        "「ちゅーば」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'튜바'",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“低音号”",
+      "skills": [],
+      "alias": [
+        "“ di yin hao ”",
+        "“diyinhao”"
+      ],
+      "appellation": "\"Tuba\""
+    },
+    "code": "'tuba'",
+    "code_name": "\"Tuba\""
+  },
+  "trap_063_magicturn": {
+    "en_US": {
+      "enabled": true,
+      "name": "L-7 'Whisperer'",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "L-7「ウィスパラー」",
+      "skills": [],
+      "alias": [
+        "L-7「うぃすぱらー」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "L-7 '반향벽'",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "L-7 “回音壁”",
+      "skills": [],
+      "alias": [
+        "L-7 “ hui yin bi ”",
+        "L-7 “huiyinbi”"
+      ],
+      "appellation": "L-7 \"Whisperer\""
+    },
+    "code": "l-7 'whisperer'",
+    "code_name": "L-7 \"Whisperer\""
+  },
+  "trap_064_magiccircle": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Resonator'",
+      "skills": [
+        "Tuning"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「レゾネーター」",
+      "skills": [
+        "チューニング"
+      ],
+      "alias": [
+        "「れぞねーたー」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'공명기'",
+      "skills": [
+        "조화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“谐振器”",
+      "skills": [
+        "调谐"
+      ],
+      "alias": [
+        "“ xie zhen qi ”",
+        "“xiezhenqi”"
+      ],
+      "appellation": "\"Resonator\""
+    },
+    "code": "'resonator'",
+    "code_name": "\"Resonator\""
+  },
+  "trap_069_buffcard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Equipment Activation Valve",
+      "skills": [
+        "Upgrade"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "装備起動用バルブ",
+      "skills": [
+        "強化"
+      ],
+      "alias": [
+        "装備起動用ばるぶ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "장비 활성화 밸브",
+      "skills": [
+        "격상"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战备激活阀",
+      "skills": [
+        "升格"
+      ],
+      "alias": [
+        "zhan bei ji huo fa",
+        "zhanbeijihuofa"
+      ],
+      "appellation": "Equipment Activation Valve"
+    },
+    "code": "equipment activation valve",
+    "code_name": "Equipment Activation Valve"
+  },
+  "trap_070_supplycard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Preparation Area Transmitter",
+      "skills": [
+        "Dispatch"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "準備エリア送信機",
+      "skills": [
+        "派遣"
+      ],
+      "alias": [
+        "準備えりあ送信機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "준비 구역 송신기",
+      "skills": [
+        "파견"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备区发讯器",
+      "skills": [
+        "新遣"
+      ],
+      "alias": [
+        "yu bei qu fa xun qi",
+        "yubeiqufaxunqi"
+      ],
+      "appellation": "Preparation Area Transmitter"
+    },
+    "code": "preparation area transmitter",
+    "code_name": "Preparation Area Transmitter"
+  },
+  "trap_071_recyclecard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Recall Box",
+      "skills": [
+        "Withdraw"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "緊急召還情報ボックス",
+      "skills": [
+        "温存"
+      ],
+      "alias": [
+        "緊急召還情報ぼっくす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "긴급 리콜 박스",
+      "skills": [
+        "재정비"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "紧急召回情报箱",
+      "skills": [
+        "蓄锐"
+      ],
+      "alias": [
+        "jin ji zhao hui qing bao xiang",
+        "jinjizhaohuiqingbaoxiang"
+      ],
+      "appellation": "Emergency Recall Box"
+    },
+    "code": "emergency recall box",
+    "code_name": "Emergency Recall Box"
+  },
+  "trap_072_revivecard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Recuperation Area Transmitter",
+      "skills": [
+        "Recall"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "休憩エリア送信機",
+      "skills": [
+        "召還"
+      ],
+      "alias": [
+        "休憩えりあ送信機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "정비 구역 송신기",
+      "skills": [
+        "리콜"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "休整区发讯器",
+      "skills": [
+        "回召"
+      ],
+      "alias": [
+        "xiu zheng qu fa xun qi",
+        "xiuzhengqufaxunqi"
+      ],
+      "appellation": "Recuperation Area Transmitter"
+    },
+    "code": "recuperation area transmitter",
+    "code_name": "Recuperation Area Transmitter"
+  },
+  "trap_073_btauntcard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Contaminated Mineral",
+      "skills": [
+        "Crystallize"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "汚染晶石",
+      "skills": [
+        "晶化"
+      ],
+      "alias": [
+        "汚染晶石"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오염된 광물",
+      "skills": [
+        "결정화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "污染晶石",
+      "skills": [
+        "晶化"
+      ],
+      "alias": [
+        "wu ran jing shi",
+        "wuranjingshi"
+      ],
+      "appellation": "Contaminated Mineral"
+    },
+    "code": "contaminated mineral",
+    "code_name": "Contaminated Mineral"
+  },
+  "trap_074_bbombcard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Heat Cluster",
+      "skills": [
+        "Explode"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "集熱晶洞",
+      "skills": [
+        "爆発"
+      ],
+      "alias": [
+        "集熱晶洞"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "열 클러스터",
+      "skills": [
+        "폭발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "聚热晶簇",
+      "skills": [
+        "爆炸"
+      ],
+      "alias": [
+        "ju re jing cu",
+        "jurejingcu"
+      ],
+      "appellation": "Heat Cluster"
+    },
+    "code": "heat cluster",
+    "code_name": "Heat Cluster"
+  },
+  "trap_082_salecard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reassignment Transmitter",
+      "skills": [
+        "Retreat"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "再配置送信機",
+      "skills": [
+        "撤去"
+      ],
+      "alias": [
+        "再配置送信機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "재파견 송신기",
+      "skills": [
+        "차출"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "改派发讯器",
+      "skills": [
+        "临调"
+      ],
+      "alias": [
+        "gai pai fa xun qi",
+        "gaipaifaxunqi"
+      ],
+      "appellation": "Reassignment Transmitter"
+    },
+    "code": "reassignment transmitter",
+    "code_name": "Reassignment Transmitter"
+  },
+  "trap_080_garage": {
+    "en_US": {
+      "enabled": true,
+      "name": "Self-Driving Cart Launchpoint",
+      "skills": [
+        "Self-Driving Cart, Forward!",
+        "Self-Driving Cart, Forward!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "セルカースターター",
+      "skills": [
+        "セルカー発進！",
+        "セルカー発進！"
+      ],
+      "alias": [
+        "せるかーすたーたー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "자율차 출발점",
+      "skills": [
+        "자율차 출격!",
+        "자율차 출격!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "自走车出发点",
+      "skills": [
+        "自走车出击！",
+        "自走车出击！"
+      ],
+      "alias": [
+        "zi zou che chu fa dian",
+        "zizouchechufadian"
+      ],
+      "appellation": "Starting Point"
+    },
+    "code": "self-driving cart launchpoint",
+    "code_name": "Starting Point"
+  },
+  "trap_081_turngear": {
+    "en_US": {
+      "enabled": true,
+      "name": "Self-Driving Cart One-Way Road",
+      "skills": [
+        "Self-Driving Cart, This Way!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ターンテーブル",
+      "skills": [
+        "方向転換！"
+      ],
+      "alias": [
+        "たーんてーぶる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "자율차 트랙",
+      "skills": [
+        "자율차 선회!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "自走车单行道",
+      "skills": [
+        "自走车定向！"
+      ],
+      "alias": [
+        "zi zou che dan hang dao",
+        "zizouchedanhangdao"
+      ],
+      "appellation": "One-way Traffic"
+    },
+    "code": "self-driving cart one-way road",
+    "code_name": "One-way Traffic"
+  },
+  "trap_085_paras": {
+    "en_US": {
+      "enabled": true,
+      "name": "Fluorescent Spores",
+      "skills": [
+        "Propagate"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "蛍光胞子",
+      "skills": [
+        "繁殖"
+      ],
+      "alias": [
+        "蛍光胞子"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "형광 포자",
+      "skills": [
+        "번식"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "荧光孢子",
+      "skills": [
+        "繁衍"
+      ],
+      "alias": [
+        "ying guang bao zi",
+        "yingguangbaozi"
+      ],
+      "appellation": "Fluorescent Spores"
+    },
+    "code": "fluorescent spores",
+    "code_name": "Fluorescent Spores"
+  },
+  "trap_090_recodr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Entitative Program",
+      "skills": [
+        "Entitative Program",
+        "Entitative Program"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "実体プログラム",
+      "skills": [
+        "実体プログラム",
+        "実体プログラム"
+      ],
+      "alias": [
+        "実体ぷろぐらむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "실체화 모듈",
+      "skills": [
+        "실체화 모듈",
+        "실체화 모듈"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "实体程式",
+      "skills": [
+        "实体程式",
+        "实体程式"
+      ],
+      "alias": [
+        "shi ti cheng shi",
+        "shitichengshi"
+      ],
+      "appellation": "Entitative Program"
+    },
+    "code": "entitative program",
+    "code_name": "Entitative Program"
+  },
+  "trap_091_brctrl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Entitative Program Controller",
+      "skills": [
+        "Entitative Program Controller"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "実体プログラム制御",
+      "skills": [
+        "実体プログラム制御端末"
+      ],
+      "alias": [
+        "実体ぷろぐらむ制御"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "실체화 모듈 제어",
+      "skills": [
+        "실체화 모듈 제어"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "实体程式控制",
+      "skills": [
+        "实体程式控制端"
+      ],
+      "alias": [
+        "shi ti cheng shi kong zhi",
+        "shitichengshikongzhi"
+      ],
+      "appellation": "Brctrl"
+    },
+    "code": "entitative program controller",
+    "code_name": "Brctrl"
   },
   "char_230_savage": {
     "en_US": {
@@ -17329,23 +18385,6 @@
     "code": null,
     "code_name": "Tulip"
   },
-  "char_497_ctable": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "晓歌",
-      "skills": [
-        "观火",
-        "浮光"
-      ],
-      "alias": [
-        "xiao ge",
-        "xiaoge"
-      ],
-      "appellation": "Cantabile"
-    },
-    "code": null,
-    "code_name": "Cantabile"
-  },
   "char_4017_puzzle": {
     "zh_CN": {
       "enabled": true,
@@ -17396,6 +18435,23 @@
     },
     "code": null,
     "code_name": "Highmore"
+  },
+  "char_4078_bdhkgt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "截云",
+      "skills": [
+        "探前路",
+        "掷旧尘"
+      ],
+      "alias": [
+        "jie yun",
+        "jieyun"
+      ],
+      "appellation": "Jieyun"
+    },
+    "code": null,
+    "code_name": "Jieyun"
   },
   "char_466_qanik": {
     "zh_CN": {
@@ -17448,40 +18504,6 @@
     "code": null,
     "code_name": "Harmonie"
   },
-  "char_4054_malist": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "至简",
-      "skills": [
-        "迅捷打击·γ型",
-        "神工意匠"
-      ],
-      "alias": [
-        "zhi jian",
-        "zhijian"
-      ],
-      "appellation": "Minimalist"
-    },
-    "code": null,
-    "code_name": "Minimalist"
-  },
-  "char_1024_hbisc2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "濯尘芙蓉",
-      "skills": [
-        "攻击力强化·γ型",
-        "抚业之触"
-      ],
-      "alias": [
-        "zhuo chen fu rong",
-        "zhuochenfurong"
-      ],
-      "appellation": "Hibiscus the Purifier"
-    },
-    "code": null,
-    "code_name": "Hibiscus the Purifier"
-  },
   "char_4071_peper": {
     "zh_CN": {
       "enabled": true,
@@ -17499,22 +18521,22 @@
     "code": null,
     "code_name": "Paprika"
   },
-  "char_4047_pianst": {
+  "char_493_firwhl": {
     "zh_CN": {
       "enabled": true,
-      "name": "车尔尼",
+      "name": "火哨",
       "skills": [
-        "纷飞十指",
-        "曲惊四座"
+        "野火",
+        "焦土"
       ],
       "alias": [
-        "che er ni",
-        "cheerni"
+        "huo shao",
+        "huoshao"
       ],
-      "appellation": "Czerny"
+      "appellation": "Firewhistle"
     },
     "code": null,
-    "code_name": "Czerny"
+    "code_name": "Firewhistle"
   },
   "char_4014_lunacu": {
     "zh_CN": {
@@ -17567,24 +18589,6 @@
     "code": null,
     "code_name": "Proviso"
   },
-  "char_4055_bgsnow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "鸿雪",
-      "skills": [
-        "抑扬格",
-        "点题",
-        "锐笔速写"
-      ],
-      "alias": [
-        "hong xue",
-        "hongxue"
-      ],
-      "appellation": "Позёмка"
-    },
-    "code": null,
-    "code_name": "Позёмка"
-  },
   "char_427_vigil": {
     "zh_CN": {
       "enabled": true,
@@ -17603,23 +18607,23 @@
     "code": null,
     "code_name": "Vigil"
   },
-  "char_4046_ebnhlz": {
+  "char_4080_lin": {
     "zh_CN": {
       "enabled": true,
-      "name": "黑键",
+      "name": "林",
       "skills": [
-        "渐快急板",
-        "荒芜回响",
-        "寂静之声"
+        "玲珑",
+        "荫庇",
+        "流光乍裂"
       ],
       "alias": [
-        "hei jian",
-        "heijian"
+        "lin",
+        "lin"
       ],
-      "appellation": "Ebenholz"
+      "appellation": "Lin"
     },
     "code": null,
-    "code_name": "Ebenholz"
+    "code_name": "Lin"
   },
   "char_4072_ironmn": {
     "zh_CN": {
@@ -17711,23 +18715,23 @@
     "code": null,
     "code_name": "Penance"
   },
-  "char_1026_gvial2": {
+  "char_2024_chyue": {
     "zh_CN": {
       "enabled": true,
-      "name": "百炼嘉维尔",
+      "name": "重岳",
       "skills": [
-        "精准痛击",
-        "链锯强袭",
-        "丛林之魂"
+        "冲盈",
+        "拂尘",
+        "我无"
       ],
       "alias": [
-        "bai lian jia wei er",
-        "bailianjiaweier"
+        "zhong yue",
+        "zhongyue"
       ],
-      "appellation": "Gavial the Invincible"
+      "appellation": "Chongyue"
     },
     "code": null,
-    "code_name": "Gavial the Invincible"
+    "code_name": "Chongyue"
   },
   "char_4064_mlynar": {
     "zh_CN": {
@@ -17747,24 +18751,6 @@
     "code": null,
     "code_name": "Młynar"
   },
-  "token_10024_ebnhlz_rcube": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "旧日残影",
-      "skills": [
-        "",
-        "闪回",
-        ""
-      ],
-      "alias": [
-        "jiu ri can ying",
-        "jiuricanying"
-      ],
-      "appellation": "Old Day Remnants"
-    },
-    "code": null,
-    "code_name": "Old Day Remnants"
-  },
   "token_10025_doroth_recttp": {
     "zh_CN": {
       "enabled": true,
@@ -17782,24 +18768,6 @@
     },
     "code": null,
     "code_name": "Resonator"
-  },
-  "token_10026_bgsnow_subbow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“打字机”",
-      "skills": [
-        "抑扬格",
-        "点题",
-        "锐笔速写"
-      ],
-      "alias": [
-        "“ da zi ji ”",
-        "“daziji”"
-      ],
-      "appellation": "Typewriters"
-    },
-    "code": null,
-    "code_name": "Typewriters"
   },
   "token_10027_ironmn_pile1": {
     "zh_CN": {
@@ -17873,162 +18841,6 @@
     "code": null,
     "code_name": "Vigil"
   },
-  "trap_062_magicstart": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“低音号”",
-      "skills": [],
-      "alias": [
-        "“ di yin hao ”",
-        "“diyinhao”"
-      ],
-      "appellation": "\"Tuba\""
-    },
-    "code": null,
-    "code_name": "\"Tuba\""
-  },
-  "trap_063_magicturn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "L-7 “回音壁”",
-      "skills": [],
-      "alias": [
-        "L-7 “ hui yin bi ”",
-        "L-7 “huiyinbi”"
-      ],
-      "appellation": "L-7 \"Whisperer\""
-    },
-    "code": null,
-    "code_name": "L-7 \"Whisperer\""
-  },
-  "trap_064_magiccircle": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“谐振器”",
-      "skills": [
-        "调谐"
-      ],
-      "alias": [
-        "“ xie zhen qi ”",
-        "“xiezhenqi”"
-      ],
-      "appellation": "\"Resonator\""
-    },
-    "code": null,
-    "code_name": "\"Resonator\""
-  },
-  "trap_069_buffcard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战备激活阀",
-      "skills": [
-        "升格"
-      ],
-      "alias": [
-        "zhan bei ji huo fa",
-        "zhanbeijihuofa"
-      ],
-      "appellation": "Equipment Activation Valve"
-    },
-    "code": null,
-    "code_name": "Equipment Activation Valve"
-  },
-  "trap_070_supplycard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备区发讯器",
-      "skills": [
-        "新遣"
-      ],
-      "alias": [
-        "yu bei qu fa xun qi",
-        "yubeiqufaxunqi"
-      ],
-      "appellation": "Preparation Area Transmitter"
-    },
-    "code": null,
-    "code_name": "Preparation Area Transmitter"
-  },
-  "trap_071_recyclecard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "紧急召回情报箱",
-      "skills": [
-        "蓄锐"
-      ],
-      "alias": [
-        "jin ji zhao hui qing bao xiang",
-        "jinjizhaohuiqingbaoxiang"
-      ],
-      "appellation": "Emergency Recall Box"
-    },
-    "code": null,
-    "code_name": "Emergency Recall Box"
-  },
-  "trap_072_revivecard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "休整区发讯器",
-      "skills": [
-        "回召"
-      ],
-      "alias": [
-        "xiu zheng qu fa xun qi",
-        "xiuzhengqufaxunqi"
-      ],
-      "appellation": "Recuperation Area Transmitter"
-    },
-    "code": null,
-    "code_name": "Recuperation Area Transmitter"
-  },
-  "trap_073_btauntcard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "污染晶石",
-      "skills": [
-        "晶化"
-      ],
-      "alias": [
-        "wu ran jing shi",
-        "wuranjingshi"
-      ],
-      "appellation": "Contaminated Mineral"
-    },
-    "code": null,
-    "code_name": "Contaminated Mineral"
-  },
-  "trap_074_bbombcard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "聚热晶簇",
-      "skills": [
-        "爆炸"
-      ],
-      "alias": [
-        "ju re jing cu",
-        "jurejingcu"
-      ],
-      "appellation": "Heat Cluster"
-    },
-    "code": null,
-    "code_name": "Heat Cluster"
-  },
-  "trap_082_salecard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "改派发讯器",
-      "skills": [
-        "临调"
-      ],
-      "alias": [
-        "gai pai fa xun qi",
-        "gaipaifaxunqi"
-      ],
-      "appellation": "Reassignment Transmitter"
-    },
-    "code": null,
-    "code_name": "Reassignment Transmitter"
-  },
   "trap_075_bgarmn": {
     "zh_CN": {
       "enabled": true,
@@ -18092,88 +18904,6 @@
     },
     "code": null,
     "code_name": "R-11a power armor"
-  },
-  "trap_080_garage": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "自走车出发点",
-      "skills": [
-        "自走车出击！",
-        "自走车出击！"
-      ],
-      "alias": [
-        "zi zou che chu fa dian",
-        "zizouchechufadian"
-      ],
-      "appellation": "Starting Point"
-    },
-    "code": null,
-    "code_name": "Starting Point"
-  },
-  "trap_081_turngear": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "自走车单行道",
-      "skills": [
-        "自走车定向！"
-      ],
-      "alias": [
-        "zi zou che dan hang dao",
-        "zizouchedanhangdao"
-      ],
-      "appellation": "One-way Traffic"
-    },
-    "code": null,
-    "code_name": "One-way Traffic"
-  },
-  "trap_085_paras": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "荧光孢子",
-      "skills": [
-        "繁衍"
-      ],
-      "alias": [
-        "ying guang bao zi",
-        "yingguangbaozi"
-      ],
-      "appellation": "Fluorescent Spores"
-    },
-    "code": null,
-    "code_name": "Fluorescent Spores"
-  },
-  "trap_090_recodr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "实体程式",
-      "skills": [
-        "实体程式",
-        "实体程式"
-      ],
-      "alias": [
-        "shi ti cheng shi",
-        "shitichengshi"
-      ],
-      "appellation": "Entitative Program"
-    },
-    "code": null,
-    "code_name": "Entitative Program"
-  },
-  "trap_091_brctrl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "实体程式控制",
-      "skills": [
-        "实体程式控制端"
-      ],
-      "alias": [
-        "shi ti cheng shi kong zhi",
-        "shitichengshikongzhi"
-      ],
-      "appellation": "Brctrl"
-    },
-    "code": null,
-    "code_name": "Brctrl"
   },
   "trap_065_normbox": {
     "zh_CN": {
@@ -18426,6 +19156,48 @@
       "alias": [
         "zhao ze kong zhi",
         "zhaozekongzhi"
+      ],
+      "appellation": "Mire Controller"
+    },
+    "code": null,
+    "code_name": "Mire Controller"
+  },
+  "trap_096_gflag": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "山海密语仪",
+      "skills": [],
+      "alias": [
+        "shan hai mi yu yi",
+        "shanhaimiyuyi"
+      ],
+      "appellation": "Cryptographic Transmitter"
+    },
+    "code": null,
+    "code_name": "Cryptographic Transmitter"
+  },
+  "trap_097_hstone": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "城防路障",
+      "skills": [],
+      "alias": [
+        "cheng fang lu zhang",
+        "chengfangluzhang"
+      ],
+      "appellation": "Defence Roadblock"
+    },
+    "code": null,
+    "code_name": "Defence Roadblock"
+  },
+  "trap_103_ymdgct": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "地形增伤控制",
+      "skills": [],
+      "alias": [
+        "di xing zeng shang kong zhi",
+        "dixingzengshangkongzhi"
       ],
       "appellation": "Mire Controller"
     },
