@@ -1,6 +1,17 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2023-02-14",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4082_qiubai",
+      "char_4083_chimes"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -122,20 +133,6 @@
       "char_513_apionr",
       "char_4066_highmo",
       "char_514_rdfend"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2022-09-16",
-    "type": "new_operators",
-    "new_operators": [
-      "char_300_phenxi",
-      "char_4036_forcer",
-      "char_4016_kazema"
     ]
   }
 ]
