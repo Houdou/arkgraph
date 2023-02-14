@@ -22746,6 +22746,329 @@
     }
   },
   {
+    "unique_id": "char_4082_qiubai",
+    "name": "仇白",
+    "pinyin": [
+      "chou bai",
+      "choubai"
+    ],
+    "profession": "WARRIOR",
+    "rarity": 5,
+    "equipments": [],
+    "skill_names": [
+      "留羽",
+      "承影",
+      "问雪"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-15",
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "留羽",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-10",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "承影",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-7",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-5",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "问雪",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-2",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 7
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-8",
+            "quantity": 6
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "max_equipments": 0
+    }
+  },
+  {
     "unique_id": "char_010_chen",
     "name": "陈",
     "pinyin": [
@@ -32506,6 +32829,264 @@
           {
             "resource": "M-3-11",
             "quantity": 12
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_4083_chimes",
+    "name": "铎铃",
+    "pinyin": [
+      "duo ling",
+      "duoling"
+    ],
+    "profession": "WARRIOR",
+    "rarity": 4,
+    "equipments": [],
+    "skill_names": [
+      "攻击力强化·γ型",
+      "乡心无改"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "攻击力强化·γ型",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-1",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "乡心无改",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-8",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-15",
+            "quantity": 7
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 16
           }
         ]
       }
