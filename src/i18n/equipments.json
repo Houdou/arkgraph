@@ -2293,5 +2293,75 @@
       "enabled": true,
       "name": "科技新星"
     }
+  },
+  "uniequip_002_weedy": {
+    "char_id": "char_400_weedy",
+    "zh_CN": {
+      "enabled": true,
+      "name": "仿生海龙改型"
+    }
+  },
+  "uniequip_002_forcer": {
+    "char_id": "char_4036_forcer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "可执行的幻想"
+    }
+  },
+  "uniequip_002_panda": {
+    "char_id": "char_241_panda",
+    "zh_CN": {
+      "enabled": true,
+      "name": "尚蜀风味自制辣酱"
+    }
+  },
+  "uniequip_002_sqrrel": {
+    "char_id": "char_277_sqrrel",
+    "zh_CN": {
+      "enabled": true,
+      "name": "客制化防火服"
+    }
+  },
+  "uniequip_002_ifrit": {
+    "char_id": "char_134_ifrit",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“同熔”"
+    }
+  },
+  "uniequip_002_serum": {
+    "char_id": "char_489_serum",
+    "zh_CN": {
+      "enabled": true,
+      "name": "无可抹消"
+    }
+  },
+  "uniequip_002_yato2": {
+    "char_id": "char_1029_yato2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "训练用木桩"
+    }
+  },
+  "uniequip_002_noirc2": {
+    "char_id": "char_1030_noirc2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "黑角的随身笔记"
+    }
+  },
+  "uniequip_003_shining": {
+    "char_id": "char_147_shining",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“使徒”"
+    }
+  },
+  "uniequip_003_siege": {
+    "char_id": "char_112_siege",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“初诺”"
+    }
   }
 }

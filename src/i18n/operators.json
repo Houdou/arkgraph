@@ -18304,6 +18304,20 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
+  "char_4077_palico": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "泰拉大陆调查团",
+      "skills": [],
+      "alias": [
+        "tai la da lu tiao cha tuan",
+        "tailadalutiaochatuan"
+      ],
+      "appellation": "Terra Research Commission"
+    },
+    "code": null,
+    "code_name": "Terra Research Commission"
+  },
   "char_514_rdfend": {
     "zh_CN": {
       "enabled": true,
@@ -18435,6 +18449,23 @@
     },
     "code": null,
     "code_name": "Wind Chimes"
+  },
+  "char_1030_noirc2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "火龙S黑角",
+      "skills": [
+        "居合拔刀气刃斩",
+        "气刃兜割"
+      ],
+      "alias": [
+        "huo long S hei jiao",
+        "huolongSheijiao"
+      ],
+      "appellation": "Rathalos S Noir Corne"
+    },
+    "code": null,
+    "code_name": "Rathalos S Noir Corne"
   },
   "char_4066_highmo": {
     "zh_CN": {
@@ -18677,6 +18708,24 @@
     },
     "code": null,
     "code_name": "Texas the Omertosa"
+  },
+  "char_1029_yato2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "麒麟X夜刀",
+      "skills": [
+        "鬼人化",
+        "乱舞",
+        "空中回旋乱舞"
+      ],
+      "alias": [
+        "qi lin X ye dao",
+        "qilinXyedao"
+      ],
+      "appellation": "Kirin X Yato"
+    },
+    "code": null,
+    "code_name": "Kirin X Yato"
   },
   "char_4048_doroth": {
     "zh_CN": {
@@ -19238,6 +19287,86 @@
     },
     "code": null,
     "code_name": "Mire Controller"
+  },
+  "trap_099_mhflsb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "眩光手雷",
+      "skills": [
+        "眩光手雷"
+      ],
+      "alias": [
+        "xuan guang shou lei",
+        "xuanguangshoulei"
+      ],
+      "appellation": "Flash Grenade"
+    },
+    "code": null,
+    "code_name": "Flash Grenade"
+  },
+  "trap_100_mhlbmb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "高能源石爆桶",
+      "skills": [
+        "高能源石爆桶"
+      ],
+      "alias": [
+        "gao neng yuan shi bao tong",
+        "gaonengyuanshibaotong"
+      ],
+      "appellation": "Originium Barrel Bomb"
+    },
+    "code": null,
+    "code_name": "Originium Barrel Bomb"
+  },
+  "trap_101_mhshok": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "高压脉冲诡雷",
+      "skills": [
+        "高压脉冲诡雷"
+      ],
+      "alias": [
+        "gao ya mai chong gui lei",
+        "gaoyamaichongguilei"
+      ],
+      "appellation": "High-voltage Shock Trap"
+    },
+    "code": null,
+    "code_name": "High-voltage Shock Trap"
+  },
+  "trap_102_mhwrbg": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "滞空牵引无人机",
+      "skills": [
+        "滞空牵引无人机"
+      ],
+      "alias": [
+        "zhi kong qian yin wu ren ji",
+        "zhikongqianyinwurenji"
+      ],
+      "appellation": "Wiredrone"
+    },
+    "code": null,
+    "code_name": "Wiredrone"
+  },
+  "trap_105_mhwrct": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "滞空牵引无人机",
+      "skills": [
+        "滞空牵引无人机"
+      ],
+      "alias": [
+        "zhi kong qian yin wu ren ji",
+        "zhikongqianyinwurenji"
+      ],
+      "appellation": "Wiredrone"
+    },
+    "code": null,
+    "code_name": "Wiredrone"
   },
   "trap_104_dplant": {
     "zh_CN": {
