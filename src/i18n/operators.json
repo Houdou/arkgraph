@@ -743,6 +743,40 @@
     "code": "beagle",
     "code_name": "Beagle"
   },
+  "char_514_rdfend": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Defender",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-重装",
+      "skills": [],
+      "alias": [
+        "予備隊員-重装"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 디펜더",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-重装",
+      "skills": [],
+      "alias": [
+        "yu bei gan yuan - zhong zhuang",
+        "yubeiganyuan-zhongzhuang"
+      ],
+      "appellation": "Reserve (Defender)"
+    },
+    "code": "reserve operator - defender",
+    "code_name": "Reserve (Defender)"
+  },
   "char_284_spot": {
     "en_US": {
       "enabled": true,
@@ -2784,6 +2818,52 @@
     },
     "code": "arene",
     "code_name": "Arene"
+  },
+  "char_4067_lolxh": {
+    "en_US": {
+      "enabled": true,
+      "name": "Luo Xiaohei",
+      "skills": [
+        "Tail Afterimage",
+        "Broken Blade"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "羅小黒",
+      "skills": [
+        "変化自在",
+        "金属操作"
+      ],
+      "alias": [
+        "羅小黒"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "나소흑",
+      "skills": [
+        "꼬리의 잔상",
+        "부러진 칼날"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗小黑",
+      "skills": [
+        "掠光尾影",
+        "碎金为刃"
+      ],
+      "alias": [
+        "luo xiao hei",
+        "luoxiaohei"
+      ],
+      "appellation": "Luo Xiaohei"
+    },
+    "code": "luo xiaohei",
+    "code_name": "Luo Xiaohei"
   },
   "char_237_gravel": {
     "en_US": {
@@ -6205,6 +6285,52 @@
     "code": "leizi",
     "code_name": "Leizi"
   },
+  "char_135_halo": {
+    "en_US": {
+      "enabled": true,
+      "name": "Astgenne",
+      "skills": [
+        "Double Diversion",
+        "Starlight Intersection"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アステジーニ",
+      "skills": [
+        "ボルテージダブラー",
+        "アストラルバースト"
+      ],
+      "alias": [
+        "あすてじーに"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아스트젠",
+      "skills": [
+        "양단 유도",
+        "별무리 집결"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "星源",
+      "skills": [
+        "双端导流",
+        "星束交汇"
+      ],
+      "alias": [
+        "xing yuan",
+        "xingyuan"
+      ],
+      "appellation": "Astgenne"
+    },
+    "code": "astgenne",
+    "code_name": "Astgenne"
+  },
   "char_344_beewax": {
     "en_US": {
       "enabled": true,
@@ -8457,6 +8583,52 @@
     "code": "erato",
     "code_name": "Erato"
   },
+  "char_1027_greyy2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Greyy the Lightningbearer",
+      "skills": [
+        "Swift Strike γ",
+        "Beacon of Dawn"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "承曦グレイ",
+      "skills": [
+        "迅速攻撃γ",
+        "明けの明星"
+      ],
+      "alias": [
+        "承曦ぐれい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그레이 더 라이트닝베어러",
+      "skills": [
+        "신속공격γ",
+        "햇살의 지표"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "承曦格雷伊",
+      "skills": [
+        "迅捷打击·γ型",
+        "晨曦信标"
+      ],
+      "alias": [
+        "cheng xi ge lei yi",
+        "chengxigeleiyi"
+      ],
+      "appellation": "Greyy the Lightningbearer"
+    },
+    "code": "greyy the lightningbearer",
+    "code_name": "Greyy the Lightningbearer"
+  },
   "char_173_slchan": {
     "en_US": {
       "enabled": true,
@@ -8786,6 +8958,52 @@
     },
     "code": "glaucus",
     "code_name": "Glaucus"
+  },
+  "char_4032_provs": {
+    "en_US": {
+      "enabled": true,
+      "name": "Proviso",
+      "skills": [
+        "Dispute Litigation",
+        "Prevailing Argument"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "プロヴァイゾ",
+      "skills": [
+        "訴訟提起",
+        "論理展開"
+      ],
+      "alias": [
+        "ぷろゔぁいぞ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "프로바이조",
+      "skills": [
+        "분쟁 소송",
+        "승소 입론"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "但书",
+      "skills": [
+        "纠纷起诉",
+        "致胜立论"
+      ],
+      "alias": [
+        "dan shu",
+        "danshu"
+      ],
+      "appellation": "Proviso"
+    },
+    "code": "proviso",
+    "code_name": "Proviso"
   },
   "char_433_windft": {
     "en_US": {
@@ -11605,6 +11823,56 @@
     "code": "specter the unchained",
     "code_name": "Specter the Unchained"
   },
+  "char_4048_doroth": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dorothy",
+      "skills": [
+        "Dangerous Entity Removal",
+        "Quicksand Generation",
+        "High-speed Resonating Troubleshooter"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ドロシー",
+      "skills": [
+        "脅威排除",
+        "流砂生成",
+        "高周波共振"
+      ],
+      "alias": [
+        "どろしー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "도로시",
+      "skills": [
+        "위험 목표 제거",
+        "유사 지형 생성",
+        "고속 공진 제거"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "多萝西",
+      "skills": [
+        "危险目标清除",
+        "流沙区域生成",
+        "高速共振排障"
+      ],
+      "alias": [
+        "duo luo xi",
+        "duoluoxi"
+      ],
+      "appellation": "Dorothy"
+    },
+    "code": "dorothy",
+    "code_name": "Dorothy"
+  },
   "char_147_shining": {
     "en_US": {
       "enabled": true,
@@ -12854,6 +13122,56 @@
     },
     "code": "nearl the radiant knight",
     "code_name": "Nearl the Radiant Knight"
+  },
+  "char_4064_mlynar": {
+    "en_US": {
+      "enabled": true,
+      "name": "Młynar",
+      "skills": [
+        "Unvoiced Anger",
+        "Unresolved Sorrow",
+        "Unbrilliant Glory"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ムリナール",
+      "skills": [
+        "秘めたる怒り",
+        "癒えぬ悲しみ",
+        "輝かざる栄光"
+      ],
+      "alias": [
+        "むりなーる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "무에나",
+      "skills": [
+        "표출하지 않은 분노",
+        "해소하지 않은 슬픔",
+        "눈부시지 않은 영광"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "玛恩纳",
+      "skills": [
+        "未声张的怒火",
+        "未宽解的悲哀",
+        "未照耀的荣光"
+      ],
+      "alias": [
+        "ma en na",
+        "maenna"
+      ],
+      "appellation": "Młynar"
+    },
+    "code": "młynar",
+    "code_name": "Młynar"
   },
   "token_10000_silent_healrb": {
     "en_US": {
@@ -14423,6 +14741,56 @@
     },
     "code": "remnants of days past",
     "code_name": "Old Day Remnants"
+  },
+  "token_10025_doroth_recttp": {
+    "en_US": {
+      "enabled": true,
+      "name": "Resonator",
+      "skills": [
+        "Dangerous Entity Removal",
+        "Quicksand Generation",
+        "High-speed Resonating Troubleshooter"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "共振装置",
+      "skills": [
+        "脅威排除",
+        "流砂生成",
+        "高周波共振"
+      ],
+      "alias": [
+        "共振装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공진 장치",
+      "skills": [
+        "위험 목표 제거",
+        "유사 지형 생성",
+        "고속 공진 제거"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "共振装置",
+      "skills": [
+        "危险目标清除",
+        "流沙区域生成",
+        "高速共振排障"
+      ],
+      "alias": [
+        "gong zhen zhuang zhi",
+        "gongzhenzhuangzhi"
+      ],
+      "appellation": "Resonator"
+    },
+    "code": "resonator",
+    "code_name": "Resonator"
   },
   "token_10026_bgsnow_subbow": {
     "en_US": {
@@ -17597,6 +17965,174 @@
     "code": "reassignment transmitter",
     "code_name": "Reassignment Transmitter"
   },
+  "trap_075_bgarmn": {
+    "en_US": {
+      "enabled": true,
+      "name": "R-31 Heavy Power Armor",
+      "skills": [
+        "Research Success"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "R-31大型パワードスーツ",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-31大型ぱわーどすーつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "R-31 중형 동력 기갑",
+      "skills": [
+        "연구 성공"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-31重型动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-31 zhong xing dong li zhuang jia",
+        "R-31zhongxingdonglizhuangjia"
+      ],
+      "appellation": "R-31 powered heavy armor"
+    },
+    "code": "r-31 heavy power armor",
+    "code_name": "R-31 powered heavy armor"
+  },
+  "trap_076_bgarms": {
+    "en_US": {
+      "enabled": true,
+      "name": "R-31a Heavy Power Armor",
+      "skills": [
+        "Research Success"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "R-31a大型パワードスーツ",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-31a大型ぱわーどすーつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "R-31a 중형 동력 기갑",
+      "skills": [
+        "연구 성공"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-31a重型动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-31a zhong xing dong li zhuang jia",
+        "R-31azhongxingdonglizhuangjia"
+      ],
+      "appellation": "R-31a powered heavy armor"
+    },
+    "code": "r-31a heavy power armor",
+    "code_name": "R-31a powered heavy armor"
+  },
+  "trap_077_rmtarmn": {
+    "en_US": {
+      "enabled": true,
+      "name": "R-11 Assault Power Armor",
+      "skills": [
+        "Research Success"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "R-11突撃型パワードスーツ",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-11突撃型ぱわーどすーつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "R-11 돌격 동력 기갑",
+      "skills": [
+        "연구 성공"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-11突击动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-11 tu ji dong li zhuang jia",
+        "R-11tujidonglizhuangjia"
+      ],
+      "appellation": "R-11 power armor"
+    },
+    "code": "r-11 assault power armor",
+    "code_name": "R-11 power armor"
+  },
+  "trap_078_rmtarms": {
+    "en_US": {
+      "enabled": true,
+      "name": "R-11a Assault Power Armor",
+      "skills": [
+        "Research Success"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "R-11a突撃型パワードスーツ",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-11a突撃型ぱわーどすーつ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "R-11a 돌격 동력 기갑",
+      "skills": [
+        "연구 성공"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-11a突击动力装甲",
+      "skills": [
+        "研究成功"
+      ],
+      "alias": [
+        "R-11a tu ji dong li zhuang jia",
+        "R-11atujidonglizhuangjia"
+      ],
+      "appellation": "R-11a power armor"
+    },
+    "code": "r-11a assault power armor",
+    "code_name": "R-11a power armor"
+  },
   "trap_080_garage": {
     "en_US": {
       "enabled": true,
@@ -18318,19 +18854,19 @@
     "code": null,
     "code_name": "Terra Research Commission"
   },
-  "char_514_rdfend": {
+  "char_4091_ulika": {
     "zh_CN": {
       "enabled": true,
-      "name": "预备干员-重装",
+      "name": "U-Official",
       "skills": [],
       "alias": [
-        "yu bei gan yuan - zhong zhuang",
-        "yubeiganyuan-zhongzhuang"
+        "U-Official",
+        "U-Official"
       ],
-      "appellation": "Reserve (Defender)"
+      "appellation": "U-Official"
     },
     "code": null,
-    "code_name": "Reserve (Defender)"
+    "code_name": "U-Official"
   },
   "char_4062_totter": {
     "zh_CN": {
@@ -18349,23 +18885,6 @@
     "code": null,
     "code_name": "Totter"
   },
-  "char_4067_lolxh": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "罗小黑",
-      "skills": [
-        "掠光尾影",
-        "碎金为刃"
-      ],
-      "alias": [
-        "luo xiao hei",
-        "luoxiaohei"
-      ],
-      "appellation": "Luo Xiaohei"
-    },
-    "code": null,
-    "code_name": "Luo Xiaohei"
-  },
   "char_4063_quartz": {
     "zh_CN": {
       "enabled": true,
@@ -18382,6 +18901,23 @@
     },
     "code": null,
     "code_name": "Quartz"
+  },
+  "char_491_humus": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "休谟斯",
+      "skills": [
+        "固废切割",
+        "高效处理"
+      ],
+      "alias": [
+        "xiu mo si",
+        "xiumosi"
+      ],
+      "appellation": "Humus"
+    },
+    "code": null,
+    "code_name": "Humus"
   },
   "char_513_apionr": {
     "zh_CN": {
@@ -18415,6 +18951,23 @@
     },
     "code": null,
     "code_name": "Puzzle"
+  },
+  "char_154_morgan": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "摩根",
+      "skills": [
+        "街头好手",
+        "无畏招架"
+      ],
+      "alias": [
+        "mo gen",
+        "mogen"
+      ],
+      "appellation": "Morgan"
+    },
+    "code": null,
+    "code_name": "Morgan"
   },
   "char_157_dagda": {
     "zh_CN": {
@@ -18518,23 +19071,6 @@
     "code": null,
     "code_name": "Qanipalaat"
   },
-  "char_135_halo": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "星源",
-      "skills": [
-        "双端导流",
-        "星束交汇"
-      ],
-      "alias": [
-        "xing yuan",
-        "xingyuan"
-      ],
-      "appellation": "Astgenne"
-    },
-    "code": null,
-    "code_name": "Astgenne"
-  },
   "char_297_hamoni": {
     "zh_CN": {
       "enabled": true,
@@ -18586,6 +19122,23 @@
     "code": null,
     "code_name": "Firewhistle"
   },
+  "char_464_cement": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "洋灰",
+      "skills": [
+        "突破矿层",
+        "结构加固"
+      ],
+      "alias": [
+        "yang hui",
+        "yanghui"
+      ],
+      "appellation": "Cement"
+    },
+    "code": null,
+    "code_name": "Cement"
+  },
   "char_4014_lunacu": {
     "zh_CN": {
       "enabled": true,
@@ -18602,40 +19155,6 @@
     },
     "code": null,
     "code_name": "Lunacub"
-  },
-  "char_1027_greyy2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "承曦格雷伊",
-      "skills": [
-        "迅捷打击·γ型",
-        "晨曦信标"
-      ],
-      "alias": [
-        "cheng xi ge lei yi",
-        "chengxigeleiyi"
-      ],
-      "appellation": "Greyy the Lightningbearer"
-    },
-    "code": null,
-    "code_name": "Greyy the Lightningbearer"
-  },
-  "char_4032_provs": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "但书",
-      "skills": [
-        "纠纷起诉",
-        "致胜立论"
-      ],
-      "alias": [
-        "dan shu",
-        "danshu"
-      ],
-      "appellation": "Proviso"
-    },
-    "code": null,
-    "code_name": "Proviso"
   },
   "char_427_vigil": {
     "zh_CN": {
@@ -18654,6 +19173,24 @@
     },
     "code": null,
     "code_name": "Vigil"
+  },
+  "char_4087_ines": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "伊内丝",
+      "skills": [
+        "淬影突袭",
+        "暗夜无明",
+        "独影归途"
+      ],
+      "alias": [
+        "yi nei si",
+        "yineisi"
+      ],
+      "appellation": "Ines"
+    },
+    "code": null,
+    "code_name": "Ines"
   },
   "char_4080_lin": {
     "zh_CN": {
@@ -18727,24 +19264,6 @@
     "code": null,
     "code_name": "Kirin X Yato"
   },
-  "char_4048_doroth": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "多萝西",
-      "skills": [
-        "危险目标清除",
-        "流沙区域生成",
-        "高速共振排障"
-      ],
-      "alias": [
-        "duo luo xi",
-        "duoluoxi"
-      ],
-      "appellation": "Dorothy"
-    },
-    "code": null,
-    "code_name": "Dorothy"
-  },
   "char_1020_reed2": {
     "zh_CN": {
       "enabled": true,
@@ -18817,42 +19336,6 @@
     "code": null,
     "code_name": "Qiubai"
   },
-  "char_4064_mlynar": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "玛恩纳",
-      "skills": [
-        "未声张的怒火",
-        "未宽解的悲哀",
-        "未照耀的荣光"
-      ],
-      "alias": [
-        "ma en na",
-        "maenna"
-      ],
-      "appellation": "Młynar"
-    },
-    "code": null,
-    "code_name": "Młynar"
-  },
-  "token_10025_doroth_recttp": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "共振装置",
-      "skills": [
-        "危险目标清除",
-        "流沙区域生成",
-        "高速共振排障"
-      ],
-      "alias": [
-        "gong zhen zhuang zhi",
-        "gongzhenzhuangzhi"
-      ],
-      "appellation": "Resonator"
-    },
-    "code": null,
-    "code_name": "Resonator"
-  },
   "token_10027_ironmn_pile1": {
     "zh_CN": {
       "enabled": true,
@@ -18924,70 +19407,6 @@
     },
     "code": null,
     "code_name": "Vigil"
-  },
-  "trap_075_bgarmn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "R-31重型动力装甲",
-      "skills": [
-        "研究成功"
-      ],
-      "alias": [
-        "R-31 zhong xing dong li zhuang jia",
-        "R-31zhongxingdonglizhuangjia"
-      ],
-      "appellation": "R-31 powered heavy armor"
-    },
-    "code": null,
-    "code_name": "R-31 powered heavy armor"
-  },
-  "trap_076_bgarms": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "R-31a重型动力装甲",
-      "skills": [
-        "研究成功"
-      ],
-      "alias": [
-        "R-31a zhong xing dong li zhuang jia",
-        "R-31azhongxingdonglizhuangjia"
-      ],
-      "appellation": "R-31a powered heavy armor"
-    },
-    "code": null,
-    "code_name": "R-31a powered heavy armor"
-  },
-  "trap_077_rmtarmn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "R-11突击动力装甲",
-      "skills": [
-        "研究成功"
-      ],
-      "alias": [
-        "R-11 tu ji dong li zhuang jia",
-        "R-11tujidonglizhuangjia"
-      ],
-      "appellation": "R-11 power armor"
-    },
-    "code": null,
-    "code_name": "R-11 power armor"
-  },
-  "trap_078_rmtarms": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "R-11a突击动力装甲",
-      "skills": [
-        "研究成功"
-      ],
-      "alias": [
-        "R-11a tu ji dong li zhuang jia",
-        "R-11atujidonglizhuangjia"
-      ],
-      "appellation": "R-11a power armor"
-    },
-    "code": null,
-    "code_name": "R-11a power armor"
   },
   "trap_065_normbox": {
     "zh_CN": {
@@ -20202,5 +20621,37 @@
     },
     "code": null,
     "code_name": "Seasoned Hunter"
+  },
+  "trap_116_stdurk": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“过去的我”",
+      "skills": [
+        "“咔嚓！”"
+      ],
+      "alias": [
+        "“ guo qu de wo ”",
+        "“guoqudewo”"
+      ],
+      "appellation": "\"My Past Self\""
+    },
+    "code": null,
+    "code_name": "\"My Past Self\""
+  },
+  "trap_111_wdfarm": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "街头应急储备",
+      "skills": [
+        "补给"
+      ],
+      "alias": [
+        "jie tou ying ji chu bei",
+        "jietouyingjichubei"
+      ],
+      "appellation": "Street Emergency Supplies"
+    },
+    "code": null,
+    "code_name": "Street Emergency Supplies"
   }
 }

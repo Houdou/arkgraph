@@ -1595,6 +1595,291 @@
       "name": "往日残梦"
     }
   },
+  "uniequip_002_jesica": {
+    "char_id": "char_235_jesica",
+    "en_US": {
+      "enabled": true,
+      "name": "Jessica's Order"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジェシカの発注書"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "제시카의 주문서"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "杰西卡的订单"
+    }
+  },
+  "uniequip_002_shotst": {
+    "char_id": "char_126_shotst",
+    "en_US": {
+      "enabled": true,
+      "name": "Hunter's Knife"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハンティングナイフ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사냥용 칼"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "猎刀"
+    }
+  },
+  "uniequip_002_clour": {
+    "char_id": "char_190_clour",
+    "en_US": {
+      "enabled": true,
+      "name": "'Still Alive'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「不落」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'지지 않는 깃발'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“不落”"
+    }
+  },
+  "uniequip_002_mm": {
+    "char_id": "char_133_mm",
+    "en_US": {
+      "enabled": true,
+      "name": "Novice Detective's Gift Bag"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "新米探偵セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "초보 탐정 선물 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "新手侦探礼包"
+    }
+  },
+  "uniequip_002_bluep": {
+    "char_id": "char_129_bluep",
+    "en_US": {
+      "enabled": true,
+      "name": "Standard Color Chart"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "標準カラーチャート"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "표준 컬러 차트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "标准比色卡"
+    }
+  },
+  "uniequip_002_platnm": {
+    "char_id": "char_204_platnm",
+    "en_US": {
+      "enabled": true,
+      "name": "Solo Travel Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "一人旅セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "솔로 여행 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "独自旅行套装"
+    }
+  },
+  "uniequip_002_swllow": {
+    "char_id": "char_367_swllow",
+    "en_US": {
+      "enabled": true,
+      "name": "Reflection of a Mother's Love"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "母の愛の倒景"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모성애의 반영"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "母爱的倒影"
+    }
+  },
+  "uniequip_002_aprl": {
+    "char_id": "char_365_aprl",
+    "en_US": {
+      "enabled": true,
+      "name": "Hi-Fi Headset"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハイファイヘッドホン"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "하이파이 통신용 이어폰"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "高保真通讯耳机"
+    }
+  },
+  "uniequip_002_kroos2": {
+    "char_id": "char_1021_kroos2",
+    "en_US": {
+      "enabled": true,
+      "name": "Truth or Dare"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "真実か挑戦か"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "트루스 앤드 데어"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "真心的话和想冒的险"
+    }
+  },
+  "uniequip_002_angel": {
+    "char_id": "char_103_angel",
+    "en_US": {
+      "enabled": true,
+      "name": "Exusiai's Surprise"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エクシアの傑作"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "엑시아의 걸작"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "能天使的杰作"
+    }
+  },
+  "uniequip_002_archet": {
+    "char_id": "char_332_archet",
+    "en_US": {
+      "enabled": true,
+      "name": "'Seeds of Tomorrow'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「明日の種」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'내일의 씨앗'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“明天的种子”"
+    }
+  },
+  "uniequip_002_ash": {
+    "char_id": "char_456_ash",
+    "en_US": {
+      "enabled": true,
+      "name": "Tactical Breaching Round Pack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦術榴弾バッグ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "장갑탄 전술 파우치"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "破墙榴弹战术收纳包"
+    }
+  },
+  "uniequip_003_mgllan": {
+    "char_id": "char_248_mgllan",
+    "en_US": {
+      "enabled": true,
+      "name": "Instructional Soaring Dragon Drone"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "教育用ドローン・DDF"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "교육용 드래곤플라이 드론"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "教学用龙腾无人机"
+    }
+  },
+  "uniequip_003_pallas": {
+    "char_id": "char_485_pallas",
+    "en_US": {
+      "enabled": true,
+      "name": "'Light of Heria'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ヘリアの輝き」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'헬리아의 빛'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“赫里亚之辉”"
+    }
+  },
+  "uniequip_002_halo": {
+    "char_id": "char_135_halo",
+    "en_US": {
+      "enabled": true,
+      "name": "Unassembled Clock"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "未完成の時計"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미완성 시계"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "未组装的钟表"
+    }
+  },
   "uniequip_002_glady": {
     "char_id": "char_474_glady",
     "en_US": {
@@ -1804,113 +2089,20 @@
       "name": "支持者来信"
     }
   },
-  "uniequip_002_jesica": {
-    "char_id": "char_235_jesica",
-    "zh_CN": {
-      "enabled": true,
-      "name": "杰西卡的订单"
-    }
-  },
-  "uniequip_002_shotst": {
-    "char_id": "char_126_shotst",
-    "zh_CN": {
-      "enabled": true,
-      "name": "猎刀"
-    }
-  },
-  "uniequip_002_clour": {
-    "char_id": "char_190_clour",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“不落”"
-    }
-  },
-  "uniequip_002_mm": {
-    "char_id": "char_133_mm",
-    "zh_CN": {
-      "enabled": true,
-      "name": "新手侦探礼包"
-    }
-  },
-  "uniequip_002_bluep": {
-    "char_id": "char_129_bluep",
-    "zh_CN": {
-      "enabled": true,
-      "name": "标准比色卡"
-    }
-  },
-  "uniequip_002_platnm": {
-    "char_id": "char_204_platnm",
-    "zh_CN": {
-      "enabled": true,
-      "name": "独自旅行套装"
-    }
-  },
-  "uniequip_002_swllow": {
-    "char_id": "char_367_swllow",
-    "zh_CN": {
-      "enabled": true,
-      "name": "母爱的倒影"
-    }
-  },
-  "uniequip_002_aprl": {
-    "char_id": "char_365_aprl",
-    "zh_CN": {
-      "enabled": true,
-      "name": "高保真通讯耳机"
-    }
-  },
-  "uniequip_002_kroos2": {
-    "char_id": "char_1021_kroos2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "真心的话和想冒的险"
-    }
-  },
-  "uniequip_002_angel": {
-    "char_id": "char_103_angel",
-    "zh_CN": {
-      "enabled": true,
-      "name": "能天使的杰作"
-    }
-  },
-  "uniequip_002_archet": {
-    "char_id": "char_332_archet",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“明天的种子”"
-    }
-  },
-  "uniequip_002_ash": {
-    "char_id": "char_456_ash",
-    "zh_CN": {
-      "enabled": true,
-      "name": "破墙榴弹战术收纳包"
-    }
-  },
-  "uniequip_003_mgllan": {
-    "char_id": "char_248_mgllan",
-    "zh_CN": {
-      "enabled": true,
-      "name": "教学用龙腾无人机"
-    }
-  },
-  "uniequip_003_pallas": {
-    "char_id": "char_485_pallas",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“赫里亚之辉”"
-    }
-  },
-  "uniequip_002_halo": {
-    "char_id": "char_135_halo",
-    "zh_CN": {
-      "enabled": true,
-      "name": "未组装的钟表"
-    }
-  },
   "uniequip_002_provs": {
     "char_id": "char_4032_provs",
+    "en_US": {
+      "enabled": true,
+      "name": "Deszcz's Graduate Memento"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "デーシュットの卒業祝い"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "데슈치의 졸업 선물"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "黛丝特的毕业礼"
@@ -1918,6 +2110,18 @@
   },
   "uniequip_002_yak": {
     "char_id": "char_199_yak",
+    "en_US": {
+      "enabled": true,
+      "name": "Father's Robe"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "父のローブ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아버지의 로브"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "父亲的袍子"
@@ -1925,6 +2129,18 @@
   },
   "uniequip_002_snakek": {
     "char_id": "char_150_snakek",
+    "en_US": {
+      "enabled": true,
+      "name": "Super Baseball Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スーパーベースボールセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "초강력 야구 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "超强棒球套装"
@@ -1932,6 +2148,18 @@
   },
   "uniequip_002_bubble": {
     "char_id": "char_381_bubble",
+    "en_US": {
+      "enabled": true,
+      "name": "Bubble's Shining Sword"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "バブルのブレイジングソード"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "버블의 번쩍이는 필살검"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "泡泡闪光必杀剑"
@@ -1939,6 +2167,18 @@
   },
   "uniequip_002_moeshd": {
     "char_id": "char_201_moeshd",
+    "en_US": {
+      "enabled": true,
+      "name": "Combat Boots"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミリタリーブーツ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전투화"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "作战靴"
@@ -1946,6 +2186,18 @@
   },
   "uniequip_002_bison": {
     "char_id": "char_325_bison",
+    "en_US": {
+      "enabled": true,
+      "name": "'The Journey Thus Far'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「これまでの旅路」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'지금까지'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“一路以来”"
@@ -1953,6 +2205,18 @@
   },
   "uniequip_002_zebra": {
     "char_id": "char_304_zebra",
+    "en_US": {
+      "enabled": true,
+      "name": "Stickers of a Popular Character"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "人気キャラのステッカー"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "인기 캐릭터 스티커"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "人气角色贴纸"
@@ -1960,6 +2224,18 @@
   },
   "uniequip_002_hsguma": {
     "char_id": "char_136_hsguma",
+    "en_US": {
+      "enabled": true,
+      "name": "Gifts From Friends"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "友人たちからのプレゼント"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "친구들의 선물"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "友人们的赠礼"
@@ -1967,6 +2243,18 @@
   },
   "uniequip_002_nian": {
     "char_id": "char_2014_nian",
+    "en_US": {
+      "enabled": true,
+      "name": "The Array of Chaos"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "混沌の隊列"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "혼돈의 진열"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "混沌阵列"
@@ -1974,6 +2262,18 @@
   },
   "uniequip_003_ebnhlz": {
     "char_id": "char_4046_ebnhlz",
+    "en_US": {
+      "enabled": true,
+      "name": "'Theory Expositor'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「楽理解釈者」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'음악이론 해설자'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“乐理阐释者”"
@@ -1981,6 +2281,18 @@
   },
   "uniequip_003_zumama": {
     "char_id": "char_416_zumama",
+    "en_US": {
+      "enabled": true,
+      "name": "'The Little Ugly Thing'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「リトルアグリー」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'작고 못생긴 것'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“小小的丑东西”"
@@ -2362,6 +2674,83 @@
     "zh_CN": {
       "enabled": true,
       "name": "“初诺”"
+    }
+  },
+  "uniequip_002_billro": {
+    "char_id": "char_426_billro",
+    "zh_CN": {
+      "enabled": true,
+      "name": "风信子与匕首"
+    }
+  },
+  "uniequip_002_lin": {
+    "char_id": "char_4080_lin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“七窍玲珑”"
+    }
+  },
+  "uniequip_002_mint": {
+    "char_id": "char_388_mint",
+    "zh_CN": {
+      "enabled": true,
+      "name": "注意力保持装置"
+    }
+  },
+  "uniequip_002_beewax": {
+    "char_id": "char_344_beewax",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“司祭的祝福”"
+    }
+  },
+  "uniequip_002_doroth": {
+    "char_id": "char_4048_doroth",
+    "zh_CN": {
+      "enabled": true,
+      "name": "童话书"
+    }
+  },
+  "uniequip_002_robin": {
+    "char_id": "char_451_robin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "限量版年历"
+    }
+  },
+  "uniequip_002_rfrost": {
+    "char_id": "char_458_rfrost",
+    "zh_CN": {
+      "enabled": true,
+      "name": "机械式陷阱压力板"
+    }
+  },
+  "uniequip_002_cement": {
+    "char_id": "char_464_cement",
+    "zh_CN": {
+      "enabled": true,
+      "name": "工程记录仪"
+    }
+  },
+  "uniequip_002_morgan": {
+    "char_id": "char_154_morgan",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“钢铁之心”"
+    }
+  },
+  "uniequip_003_nian": {
+    "char_id": "char_2014_nian",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“请勿叩门”"
+    }
+  },
+  "uniequip_003_cerber": {
+    "char_id": "char_2013_cerber",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“我打的刀”"
     }
   }
 }
