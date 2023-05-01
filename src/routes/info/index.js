@@ -52,17 +52,6 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 
-			<p>2022-10-20</p>
-			修复了部分数据错误<br />
-			<p>2022-10-16</p>
-			更新了11章的新材料<br />
-			这次更新漏了看材料部分，实在抱歉<br />
-			增加了韩语翻译 <br />
-			Thanks to the contributons from @178619 !<br />
-			<br />
-			<p>2022-09-08</p>
-			也许<a href="/settings">可以导入ArkILEF(ArkPlanner/企鹅/MAA)仓库数据</a>了<br />
-			<b>测试阶段，强烈建议导入前备份数据</b><br />
 			{
 				announcement_data
 					.filter(row => row.server.includes(config.locale))
@@ -76,6 +65,20 @@ const Info = ({
 						}
 					})
 			}
+			<p>2023-05-01</p>
+			由于 YJ 更换了数据格式，本项目更新需要等待其他大佬更新数据源<br />
+			<br />
+			<p>2022-10-20</p>
+			修复了部分数据错误<br />
+			<p>2022-10-16</p>
+			更新了11章的新材料<br />
+			这次更新漏了看材料部分，实在抱歉<br />
+			增加了韩语翻译 <br />
+			Thanks to the contributons from @178619 !<br />
+			<br />
+			<p>2022-09-08</p>
+			也许<a href="/settings">可以导入ArkILEF(ArkPlanner/企鹅/MAA)仓库数据</a>了<br />
+			<b>测试阶段，强烈建议导入前备份数据</b><br />
 			<p>2022-06-16</p>
 			<b>增加了排序功能！</b><br />
 			但是我发现数据多了的话，性能不太行了，之后看能不能优化一下<br />
