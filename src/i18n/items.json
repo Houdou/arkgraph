@@ -2554,19 +2554,24 @@
   },
   "M-5-5": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Nucleic Crystal Sinter",
+      "alias": [],
+      "sortId": 100001
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "焼結核凝晶",
+      "alias": [
+        "焼結核凝晶"
+      ],
+      "sortId": 100001
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "핵결정체 소결물",
+      "alias": [],
+      "sortId": 100001
     },
     "zh_CN": {
       "enabled": true,
@@ -2951,19 +2956,24 @@
   },
   "M-3-16": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Transmuted Salt",
+      "alias": [],
+      "sortId": 100007
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "転化塩",
+      "alias": [
+        "転化塩"
+      ],
+      "sortId": 100007
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "합성 소금 번들",
+      "alias": [],
+      "sortId": 100007
     },
     "zh_CN": {
       "enabled": true,
@@ -2982,19 +2992,24 @@
   },
   "M-4-16": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Transmuted Salt Agglomerate",
+      "alias": [],
+      "sortId": 100006
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "上級転化塩",
+      "alias": [
+        "上級転化塩"
+      ],
+      "sortId": 100006
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "합성 소금 팩",
+      "alias": [],
+      "sortId": 100006
     },
     "zh_CN": {
       "enabled": true,

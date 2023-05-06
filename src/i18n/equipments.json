@@ -2752,5 +2752,68 @@
       "enabled": true,
       "name": "“我打的刀”"
     }
+  },
+  "uniequip_002_gnosis": {
+    "char_id": "char_206_gnosis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“誓言”"
+    }
+  },
+  "uniequip_002_slbell": {
+    "char_id": "char_174_slbell",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“续针”"
+    }
+  },
+  "uniequip_002_vodfox": {
+    "char_id": "char_254_vodfox",
+    "zh_CN": {
+      "enabled": true,
+      "name": "布艺苹果"
+    }
+  },
+  "uniequip_002_rosmon": {
+    "char_id": "char_391_rosmon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“记事”"
+    }
+  },
+  "uniequip_002_greyy2": {
+    "char_id": "char_1027_greyy2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新型电控设备技术原型"
+    }
+  },
+  "uniequip_002_heyak": {
+    "char_id": "char_4027_heyak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“图书馆”"
+    }
+  },
+  "uniequip_002_melnte": {
+    "char_id": "char_4006_melnte",
+    "zh_CN": {
+      "enabled": true,
+      "name": "香薰耳坠"
+    }
+  },
+  "uniequip_003_cqbw": {
+    "char_id": "char_113_cqbw",
+    "zh_CN": {
+      "enabled": true,
+      "name": "刺棱钝刃"
+    }
+  },
+  "uniequip_003_kalts": {
+    "char_id": "char_003_kalts",
+    "zh_CN": {
+      "enabled": true,
+      "name": "医者"
+    }
   }
 }
