@@ -2592,6 +2592,70 @@
             }
           ]
         }
+      ],
+      [
+        {
+          "equipment_id": "uniequip_003_cqbw",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_cqbw",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-2",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_cqbw",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-4",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
       ]
     ],
     "skill_names": [
@@ -2904,7 +2968,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 1
+      "max_equipments": 2
     }
   },
   {
@@ -3692,7 +3756,72 @@
     ],
     "profession": "SNIPER",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_rosmon",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-4",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_rosmon",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_rosmon",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
+      ]
+    ],
     "skill_names": [
       "思维膨大",
       "末梢阻断",
@@ -4003,7 +4132,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 0
+      "max_equipments": 1
     }
   },
   {
@@ -6592,6 +6721,329 @@
     }
   },
   {
+    "unique_id": "char_249_mlyss",
+    "name": "缪尔赛思",
+    "pinyin": [
+      "mou er sai si",
+      "mouersaisi"
+    ],
+    "profession": "PIONEER",
+    "rarity": 5,
+    "equipments": [],
+    "skill_names": [
+      "渐进性润化",
+      "生态耦合",
+      "浅层非熵适应"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-3",
+            "quantity": 6
+          },
+          {
+            "resource": "M-1-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-3-1",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "渐进性润化",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-9",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "生态耦合",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-3",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 10
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-5",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "浅层非熵适应",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-1",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 7
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 10
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-4-9",
+            "quantity": 5
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "max_equipments": 0
+    }
+  },
+  {
     "unique_id": "char_4087_ines",
     "name": "伊内丝",
     "pinyin": [
@@ -8528,6 +8980,394 @@
       "max_elite_rank": 2,
       "max_master_skills": 3,
       "max_equipments": 2
+    }
+  },
+  {
+    "unique_id": "char_4027_heyak",
+    "name": "霍尔海雅",
+    "pinyin": [
+      "huo er hai ya",
+      "huoerhaiya"
+    ],
+    "profession": "CASTER",
+    "rarity": 5,
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_heyak",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_heyak",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-2",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_heyak",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
+      ]
+    ],
+    "skill_names": [
+      "但为求索",
+      "群星逶迤",
+      "博览者的狂语"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-5",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "但为求索",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-10",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "群星逶迤",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-16",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "博览者的狂语",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-8",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-5",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 6
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-5",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-4-16",
+            "quantity": 7
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "max_equipments": 1
     }
   },
   {
@@ -10994,7 +11834,72 @@
     ],
     "profession": "SUPPORT",
     "rarity": 5,
-    "equipments": [],
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_gnosis",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_gnosis",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_gnosis",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-2",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
+      ]
+    ],
     "skill_names": [
       "高速思考",
       "零度爆发",
@@ -11305,7 +12210,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 0
+      "max_equipments": 1
     }
   },
   {
@@ -12913,6 +13818,329 @@
           {
             "resource": "M-4-9",
             "quantity": 5
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_1031_slent2",
+    "name": "淬羽赫默",
+    "pinyin": [
+      "cui yu he mo",
+      "cuiyuhemo"
+    ],
+    "profession": "SUPPORT",
+    "rarity": 5,
+    "equipments": [],
+    "skill_names": [
+      "进取之心",
+      "俯瞰视界",
+      "无畏者协议"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-6",
+            "quantity": 6
+          },
+          {
+            "resource": "M-1-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 7
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-3",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "进取之心",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-13",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-5",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "俯瞰视界",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-9",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-14",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "无畏者协议",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 6
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-7",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 7
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-7",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-10",
+            "quantity": 6
           }
         ]
       }
@@ -18490,6 +19718,70 @@
             }
           ]
         }
+      ],
+      [
+        {
+          "equipment_id": "uniequip_003_kalts",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-4",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_kalts",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_kalts",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-2",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
       ]
     ],
     "skill_names": [
@@ -18802,7 +20094,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 1
+      "max_equipments": 2
     }
   },
   {
@@ -56042,6 +57334,329 @@
     }
   },
   {
+    "unique_id": "char_4006_melnte",
+    "name": "玫拉",
+    "pinyin": [
+      "mei la",
+      "meila"
+    ],
+    "profession": "SNIPER",
+    "rarity": 4,
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_melnte",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "M-4-7",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 40000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_melnte",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 20
+            },
+            {
+              "resource": "M-4-1",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 50000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_melnte",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 8
+            },
+            {
+              "resource": "M-4-6",
+              "quantity": 5
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 60000
+            }
+          ]
+        }
+      ]
+    ],
+    "skill_names": [
+      "饱和脉冲",
+      "临界爆发"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-5",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-11",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-3",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "饱和脉冲",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-7",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "临界爆发",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-3",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-2",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 3
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-4",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-14",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 15
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "max_equipments": 1
+    }
+  },
+  {
     "unique_id": "char_158_milu",
     "name": "守林人",
     "pinyin": [
@@ -57665,7 +59280,72 @@
     ],
     "profession": "SNIPER",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_greyy2",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "M-4-2",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 40000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_greyy2",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 20
+            },
+            {
+              "resource": "M-4-4",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 50000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_greyy2",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 8
+            },
+            {
+              "resource": "M-4-8",
+              "quantity": 5
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 60000
+            }
+          ]
+        }
+      ]
+    ],
     "skill_names": [
       "迅捷打击·γ型",
       "晨曦信标"
@@ -57911,7 +59591,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "max_equipments": 0
+      "max_equipments": 1
     }
   },
   {
@@ -58569,7 +60249,72 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_slbell",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "M-4-5",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 40000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_slbell",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 20
+            },
+            {
+              "resource": "M-4-2",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 50000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_slbell",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 8
+            },
+            {
+              "resource": "M-4-8",
+              "quantity": 5
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 60000
+            }
+          ]
+        }
+      ]
+    ],
     "skill_names": [
       "传音回响",
       "自然震慑"
@@ -58815,7 +60560,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "max_equipments": 0
+      "max_equipments": 1
     }
   },
   {
@@ -58827,7 +60572,72 @@
     ],
     "profession": "SUPPORT",
     "rarity": 4,
-    "equipments": [],
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_vodfox",
+          "equipment_level": "1",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "M-4-6",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 40000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_vodfox",
+          "equipment_level": "2",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 20
+            },
+            {
+              "resource": "M-4-15",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 50000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_vodfox",
+          "equipment_level": "3",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 8
+            },
+            {
+              "resource": "M-4-13",
+              "quantity": 5
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 60000
+            }
+          ]
+        }
+      ]
+    ],
     "skill_names": [
       "病入膏肓",
       "诅咒娃娃"
@@ -59073,7 +60883,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 2,
-      "max_equipments": 0
+      "max_equipments": 1
     }
   },
   {
@@ -65079,264 +66889,6 @@
       "max_elite_rank": 2,
       "max_master_skills": 2,
       "max_equipments": 1
-    }
-  },
-  {
-    "unique_id": "char_1001_amiya2",
-    "name": "升变阿米娅",
-    "pinyin": [
-      "sheng bian a mi ya",
-      "shengbianamiya"
-    ],
-    "profession": "WARRIOR",
-    "rarity": 4,
-    "equipments": [],
-    "skill_names": [
-      "影霄·奔夜",
-      "影霄·绝影"
-    ],
-    "skills": [
-      {
-        "level": 1,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "materials": [
-          {
-            "resource": "S-2-1",
-            "quantity": 4
-          },
-          {
-            "resource": "M-1-2",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 3,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-1",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 4,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-2-4",
-            "quantity": 5
-          }
-        ]
-      },
-      {
-        "level": 5,
-        "materials": [
-          {
-            "resource": "S-3-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-6",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "level": 6,
-        "materials": [
-          {
-            "resource": "S-4-1",
-            "quantity": 6
-          },
-          {
-            "resource": "M-3-2",
-            "quantity": 2
-          },
-          {
-            "resource": "M-3-4",
-            "quantity": 3
-          }
-        ]
-      }
-    ],
-    "master_skills": [
-      {
-        "name": "影霄·奔夜",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-13",
-                "quantity": 4
-              },
-              {
-                "resource": "M-3-11",
-                "quantity": 4
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-12",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-10",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-4",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-7",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "影霄·绝影",
-        "upgrades": [
-          {
-            "level": 0,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 5
-              },
-              {
-                "resource": "M-4-6",
-                "quantity": 4
-              },
-              {
-                "resource": "M-3-11",
-                "quantity": 4
-              }
-            ]
-          },
-          {
-            "level": 1,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 6
-              },
-              {
-                "resource": "M-4-13",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-11",
-                "quantity": 5
-              }
-            ]
-          },
-          {
-            "level": 2,
-            "materials": [
-              {
-                "resource": "S-4-1",
-                "quantity": 10
-              },
-              {
-                "resource": "M-5-4",
-                "quantity": 4
-              },
-              {
-                "resource": "M-4-2",
-                "quantity": 4
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "elites": [
-      {
-        "rank": 1,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 20000
-          },
-          {
-            "resource": "C-3-5",
-            "quantity": 3
-          },
-          {
-            "resource": "M-2-2",
-            "quantity": 4
-          },
-          {
-            "resource": "M-2-5",
-            "quantity": 4
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "materials": [
-          {
-            "resource": "G-4-1",
-            "quantity": 120000
-          },
-          {
-            "resource": "C-5-5",
-            "quantity": 3
-          },
-          {
-            "resource": "M-4-1",
-            "quantity": 10
-          },
-          {
-            "resource": "M-3-7",
-            "quantity": 10
-          }
-        ]
-      }
-    ],
-    "meta": {
-      "max_elite_rank": 2,
-      "max_master_skills": 2,
-      "max_equipments": 0
     }
   },
   {
@@ -83551,6 +85103,5149 @@
     "meta": {
       "max_elite_rank": 1,
       "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_502_nblade",
+    "name": "夜刀",
+    "pinyin": [
+      "ye dao",
+      "yedao"
+    ],
+    "profession": "PIONEER",
+    "rarity": 1,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_500_noirc",
+    "name": "黑角",
+    "pinyin": [
+      "hei jiao",
+      "heijiao"
+    ],
+    "profession": "TANK",
+    "rarity": 1,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_503_rang",
+    "name": "巡林者",
+    "pinyin": [
+      "xun lin zhe",
+      "xunlinzhe"
+    ],
+    "profession": "SNIPER",
+    "rarity": 1,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_501_durin",
+    "name": "杜林",
+    "pinyin": [
+      "du lin",
+      "dulin"
+    ],
+    "profession": "CASTER",
+    "rarity": 1,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_009_12fce",
+    "name": "12F",
+    "pinyin": [
+      "12F",
+      "12F"
+    ],
+    "profession": "CASTER",
+    "rarity": 1,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_285_medic2",
+    "name": "Lancet-2",
+    "pinyin": [
+      "Lancet-2",
+      "Lancet-2"
+    ],
+    "profession": "MEDIC",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_286_cast3",
+    "name": "Castle-3",
+    "pinyin": [
+      "Castle-3",
+      "Castle-3"
+    ],
+    "profession": "WARRIOR",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_376_therex",
+    "name": "THRM-EX",
+    "pinyin": [
+      "THRM-EX",
+      "THRM-EX"
+    ],
+    "profession": "SPECIAL",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_4000_jnight",
+    "name": "正义骑士号",
+    "pinyin": [
+      "zheng yi qi shi hao",
+      "zhengyiqishihao"
+    ],
+    "profession": "SNIPER",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_4077_palico",
+    "name": "泰拉大陆调查团",
+    "pinyin": [
+      "tai la da lu tiao cha tuan",
+      "tailadalutiaochatuan"
+    ],
+    "profession": "SNIPER",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_4091_ulika",
+    "name": "U-Official",
+    "pinyin": [
+      "U-Official",
+      "U-Official"
+    ],
+    "profession": "SUPPORT",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_001_crate",
+    "name": "障碍物",
+    "pinyin": [
+      "zhang ai wu",
+      "zhangaiwu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阻挡路线"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阻挡路线",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_002_emp",
+    "name": "震撼装置",
+    "pinyin": [
+      "zhen han zhuang zhi",
+      "zhenhanzhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "EMP爆炸"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "EMP爆炸",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_003_gate",
+    "name": "闸门",
+    "pinyin": [
+      "zha men",
+      "zhamen"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "关闭闸门"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "关闭闸门",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_005_sensor",
+    "name": "侦测器",
+    "pinyin": [
+      "zhen ce qi",
+      "zhenceqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "反隐"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "反隐",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_006_antidr",
+    "name": "干扰装置",
+    "pinyin": [
+      "gan rao zhuang zhi",
+      "ganraozhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "无人机干扰"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "无人机干扰",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_007_ballis",
+    "name": "弩炮",
+    "pinyin": [
+      "nu pao",
+      "nupao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "发射弩箭"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "发射弩箭",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_008_farm",
+    "name": "指挥终端",
+    "pinyin": [
+      "zhi hui zhong duan",
+      "zhihuizhongduan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "启动！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "启动！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_009_battery",
+    "name": "便携式补给站",
+    "pinyin": [
+      "bian xie shi bu gei zhan",
+      "bianxieshibugeizhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_010_frosts",
+    "name": "源石冰晶",
+    "pinyin": [
+      "yuan shi bing jing",
+      "yuanshibingjing"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "寒潮"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "寒潮",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_011_ore",
+    "name": "源石祭坛",
+    "pinyin": [
+      "yuan shi ji tan",
+      "yuanshijitan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "脉冲波"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "脉冲波",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_012_mine",
+    "name": "干扰地雷",
+    "pinyin": [
+      "gan rao di lei",
+      "ganraodilei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "触爆"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "触爆",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_013_blower",
+    "name": "源石流发生装置",
+    "pinyin": [
+      "yuan shi liu fa sheng zhuang zhi",
+      "yuanshiliufashengzhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "气流"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "气流",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_014_tower",
+    "name": "L-44\"留声机\"",
+    "pinyin": [
+      "L-44\" liu sheng ji \"",
+      "L-44\"liushengji\""
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "法术传输协议"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "法术传输协议",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_015_tree",
+    "name": "巨蕈",
+    "pinyin": [
+      "ju xun",
+      "juxun"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "天然隐蔽"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "天然隐蔽",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_016_peon",
+    "name": "罗德岛临时雇员",
+    "pinyin": [
+      "luo de dao lin shi gu yuan",
+      "luodedaolinshiguyuan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_018_bomb",
+    "name": "轰隆隆先生",
+    "pinyin": [
+      "hong long long xian sheng",
+      "honglonglongxiansheng"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "坏脾气"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "坏脾气",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_019_electric",
+    "name": "梅什科线圈",
+    "pinyin": [
+      "mei shi ke xian quan",
+      "meishikexianquan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "通电！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "通电！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_020_roadblock",
+    "name": "道路障碍物",
+    "pinyin": [
+      "dao lu zhang ai wu",
+      "daoluzhangaiwu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "道路阻塞"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "道路阻塞",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_021_flame",
+    "name": "能量聚合体",
+    "pinyin": [
+      "neng liang ju he ti",
+      "nengliangjuheti"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "能量结晶"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "能量结晶",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_022_frosts_friend",
+    "name": "霜星的源石冰晶",
+    "pinyin": [
+      "shuang xing de yuan shi bing jing",
+      "shuangxingdeyuanshibingjing"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "寒潮"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "寒潮",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_023_ore_friend",
+    "name": "爱国者的源石祭坛",
+    "pinyin": [
+      "ai guo zhe de yuan shi ji tan",
+      "aiguozhedeyuanshijitan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "脉冲波"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "脉冲波",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_024_npcsld",
+    "name": "盾卫",
+    "pinyin": [
+      "dun wei",
+      "dunwei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "列阵！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "列阵！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_025_prison",
+    "name": "禁锢装置",
+    "pinyin": [
+      "jin gu zhuang zhi",
+      "jinguzhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "启动禁锢！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "启动禁锢！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_026_inverter",
+    "name": "改良型二踢脚",
+    "pinyin": [
+      "gai liang xing er ti jiao",
+      "gailiangxingertijiao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "撼动现实"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "撼动现实",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_027_stone",
+    "name": "碎石",
+    "pinyin": [
+      "sui shi",
+      "suishi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阻挡路线"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阻挡路线",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_028_cannon",
+    "name": "脉冲防御模组",
+    "pinyin": [
+      "mai chong fang yu mo zu",
+      "maichongfangyumozu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "脉冲束流",
+      "脉冲束流"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "脉冲束流",
+        "upgrades": []
+      },
+      {
+        "name": "脉冲束流",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_029_poison",
+    "name": "催泪瓦斯控制阀",
+    "pinyin": [
+      "cui lei wa si kong zhi fa",
+      "cuileiwasikongzhifa"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "关闭阀门",
+      "开启阀门"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "关闭阀门",
+        "upgrades": []
+      },
+      {
+        "name": "开启阀门",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_030_factory",
+    "name": "无人机工厂",
+    "pinyin": [
+      "wu ren ji gong chang",
+      "wurenjigongchang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "生产线",
+      "生产线"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "生产线",
+        "upgrades": []
+      },
+      {
+        "name": "生产线",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_031_sleep",
+    "name": "雪雉的安全起重机",
+    "pinyin": [
+      "xue zhi de an quan qi zhong ji",
+      "xuezhideanquanqizhongji"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "救援绳索"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "救援绳索",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_032_mound",
+    "name": "土石结构",
+    "pinyin": [
+      "tu shi jie gou",
+      "tushijiegou"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "风沙掩体"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "风沙掩体",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_033_sbomb",
+    "name": "高能源石炸弹",
+    "pinyin": [
+      "gao neng yuan shi zha dan",
+      "gaonengyuanshizhadan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "起爆"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "起爆",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_034_machst",
+    "name": "加固装置",
+    "pinyin": [
+      "jia gu zhuang zhi",
+      "jiaguzhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "强化加固"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "强化加固",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_035_emperor",
+    "name": "大帝",
+    "pinyin": [
+      "da di",
+      "dadi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "Punchline"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "Punchline",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_036_storm",
+    "name": "沙尘暴",
+    "pinyin": [
+      "sha chen bao",
+      "shachenbao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "沙尘暴"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "沙尘暴",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_037_airsup",
+    "name": "可移动战术机库",
+    "pinyin": [
+      "ke yi dong zhan shu ji ku",
+      "keyidongzhanshujiku"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "派遣空援"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "派遣空援",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_038_dsbell",
+    "name": "应急救治设施",
+    "pinyin": [
+      "ying ji jiu zhi she shi",
+      "yingjijiuzhisheshi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "应急治疗协议"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "应急治疗协议",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_039_dstnta",
+    "name": "子代",
+    "pinyin": [
+      "zi dai",
+      "zidai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "摄食"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "摄食",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_040_canoe",
+    "name": "特制水上平台",
+    "pinyin": [
+      "te zhi shui shang ping tai",
+      "tezhishuishangpingtai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "放置平台",
+      "放置平台"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "放置平台",
+        "upgrades": []
+      },
+      {
+        "name": "放置平台",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_041_fcanon",
+    "name": "风筝",
+    "pinyin": [
+      "feng zheng",
+      "fengzheng"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "开炮！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "开炮！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_042_tidectrl",
+    "name": "涨潮控制",
+    "pinyin": [
+      "zhang chao kong zhi",
+      "zhangchaokongzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "小幅涨潮",
+      "大幅涨潮",
+      "深水"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "小幅涨潮",
+        "upgrades": []
+      },
+      {
+        "name": "大幅涨潮",
+        "upgrades": []
+      },
+      {
+        "name": "深水",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 3,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_043_dupilr",
+    "name": "破碎支柱",
+    "pinyin": [
+      "po sui zhi zhu",
+      "posuizhizhu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "支柱坍塌"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "支柱坍塌",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_044_duruin",
+    "name": "战场废墟",
+    "pinyin": [
+      "zhan chang fei xu",
+      "zhanchangfeixu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阻挡路线"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阻挡路线",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_045_dublst",
+    "name": "爆破装置",
+    "pinyin": [
+      "bao po zhuang zhi",
+      "baopozhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "爆破"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "爆破",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_046_oxygen",
+    "name": "防水蚀镀膜装置",
+    "pinyin": [
+      "fang shui shi du mo zhuang zhi",
+      "fangshuishidumozhuangzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "防水蚀镀膜装置"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "防水蚀镀膜装置",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_048_neonlamp",
+    "name": "城市霓虹",
+    "pinyin": [
+      "cheng shi ni hong",
+      "chengshinihong"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "文明的光芒"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "文明的光芒",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_049_candle",
+    "name": "骑士之徽",
+    "pinyin": [
+      "qi shi zhi hui",
+      "qishizhihui"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "骑士的荣耀"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "骑士的荣耀",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_050_blizzard",
+    "name": "暴风雪",
+    "pinyin": [
+      "bao feng xue",
+      "baofengxue"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "暴风雪"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "暴风雪",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_051_vultres",
+    "name": "无主的财富",
+    "pinyin": [
+      "wu zhu de cai fu",
+      "wuzhudecaifu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "诱人珍宝"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "诱人珍宝",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_052_slowfd",
+    "name": "失修舞台雾机",
+    "pinyin": [
+      "shi xiu wu tai wu ji",
+      "shixiuwutaiwuji"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "高压喷射"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "高压喷射",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_053_airbomb",
+    "name": "便携气罐",
+    "pinyin": [
+      "bian xie qi guan",
+      "bianxieqiguan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "砰！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "砰！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_054_dancdol",
+    "name": "“报幕助手”",
+    "pinyin": [
+      "“ bao mu zhu shou ”",
+      "“baomuzhushou”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "剧目宣告"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "剧目宣告",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_055_tileblock",
+    "name": "封印的地面",
+    "pinyin": [
+      "feng yin de di mian",
+      "fengyindedimian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "不可部署"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "不可部署",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_056_sfsuifire",
+    "name": "丹田",
+    "pinyin": [
+      "dan tian",
+      "dantian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_057_wpnsts",
+    "name": "“冰淇淋机”",
+    "pinyin": [
+      "“ bing qi lin ji ”",
+      "“bingqilinji”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "拉特兰式冰淇淋",
+      "拉特兰式冰淇淋"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "拉特兰式冰淇淋",
+        "upgrades": []
+      },
+      {
+        "name": "拉特兰式冰淇淋",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_058_gunctrl",
+    "name": "伦蒂尼姆城防副炮",
+    "pinyin": [
+      "lun di ni mu cheng fang fu pao",
+      "lundinimuchengfangfupao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "开火"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "开火",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_059_peacokfool",
+    "name": "断罪者",
+    "pinyin": [
+      "duan zui zhe",
+      "duanzuizhe"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "断罪模式！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "断罪模式！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_060_bouncy",
+    "name": "圣徒之手",
+    "pinyin": [
+      "sheng tu zhi shou",
+      "shengtuzhishou"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "圣徒之手",
+      "圣徒之手·清理模式",
+      "圣徒之手·巡回模式"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "圣徒之手",
+        "upgrades": []
+      },
+      {
+        "name": "圣徒之手·清理模式",
+        "upgrades": []
+      },
+      {
+        "name": "圣徒之手·巡回模式",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 3,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_061_creep",
+    "name": "溟痕",
+    "pinyin": [
+      "ming hen",
+      "minghen"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "溟痕"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "溟痕",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_062_magicstart",
+    "name": "“低音号”",
+    "pinyin": [
+      "“ di yin hao ”",
+      "“diyinhao”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_063_magicturn",
+    "name": "L-7 “回音壁”",
+    "pinyin": [
+      "L-7 “ hui yin bi ”",
+      "L-7 “huiyinbi”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_064_magiccircle",
+    "name": "“谐振器”",
+    "pinyin": [
+      "“ xie zhen qi ”",
+      "“xiezhenqi”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "调谐"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "调谐",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_069_buffcard",
+    "name": "战备激活阀",
+    "pinyin": [
+      "zhan bei ji huo fa",
+      "zhanbeijihuofa"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "升格"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "升格",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_070_supplycard",
+    "name": "预备区发讯器",
+    "pinyin": [
+      "yu bei qu fa xun qi",
+      "yubeiqufaxunqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "新遣"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "新遣",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_071_recyclecard",
+    "name": "紧急召回情报箱",
+    "pinyin": [
+      "jin ji zhao hui qing bao xiang",
+      "jinjizhaohuiqingbaoxiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "蓄锐"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "蓄锐",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_072_revivecard",
+    "name": "休整区发讯器",
+    "pinyin": [
+      "xiu zheng qu fa xun qi",
+      "xiuzhengqufaxunqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "回召"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "回召",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_073_btauntcard",
+    "name": "污染晶石",
+    "pinyin": [
+      "wu ran jing shi",
+      "wuranjingshi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "晶化"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "晶化",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_074_bbombcard",
+    "name": "聚热晶簇",
+    "pinyin": [
+      "ju re jing cu",
+      "jurejingcu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "爆炸"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "爆炸",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_082_salecard",
+    "name": "改派发讯器",
+    "pinyin": [
+      "gai pai fa xun qi",
+      "gaipaifaxunqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "临调"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "临调",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_075_bgarmn",
+    "name": "R-31重型动力装甲",
+    "pinyin": [
+      "R-31 zhong xing dong li zhuang jia",
+      "R-31zhongxingdonglizhuangjia"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "研究成功"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "研究成功",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_076_bgarms",
+    "name": "R-31a重型动力装甲",
+    "pinyin": [
+      "R-31a zhong xing dong li zhuang jia",
+      "R-31azhongxingdonglizhuangjia"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "研究成功"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "研究成功",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_077_rmtarmn",
+    "name": "R-11突击动力装甲",
+    "pinyin": [
+      "R-11 tu ji dong li zhuang jia",
+      "R-11tujidonglizhuangjia"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "研究成功"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "研究成功",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_078_rmtarms",
+    "name": "R-11a突击动力装甲",
+    "pinyin": [
+      "R-11a tu ji dong li zhuang jia",
+      "R-11atujidonglizhuangjia"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "研究成功"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "研究成功",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_080_garage",
+    "name": "自走车出发点",
+    "pinyin": [
+      "zi zou che chu fa dian",
+      "zizouchechufadian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "自走车出击！",
+      "自走车出击！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "自走车出击！",
+        "upgrades": []
+      },
+      {
+        "name": "自走车出击！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_081_turngear",
+    "name": "自走车单行道",
+    "pinyin": [
+      "zi zou che dan hang dao",
+      "zizouchedanhangdao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "自走车定向！"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "自走车定向！",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_085_paras",
+    "name": "荧光孢子",
+    "pinyin": [
+      "ying guang bao zi",
+      "yingguangbaozi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "繁衍"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "繁衍",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_090_recodr",
+    "name": "实体程式",
+    "pinyin": [
+      "shi ti cheng shi",
+      "shitichengshi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "实体程式",
+      "实体程式"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "实体程式",
+        "upgrades": []
+      },
+      {
+        "name": "实体程式",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_091_brctrl",
+    "name": "实体程式控制",
+    "pinyin": [
+      "shi ti cheng shi kong zhi",
+      "shitichengshikongzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "实体程式控制端"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "实体程式控制端",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_065_normbox",
+    "name": "宝箱",
+    "pinyin": [
+      "bao xiang",
+      "baoxiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "诱人珍宝"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "诱人珍宝",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_066_rarebox",
+    "name": "尖刺宝箱",
+    "pinyin": [
+      "jian ci bao xiang",
+      "jiancibaoxiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "更诱人珍宝"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "更诱人珍宝",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_068_badbox",
+    "name": "箱形恐鱼",
+    "pinyin": [
+      "xiang xing kong yu",
+      "xiangxingkongyu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "极诱人珍宝"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "极诱人珍宝",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_083_bunker",
+    "name": "掩体",
+    "pinyin": [
+      "yan ti",
+      "yanti"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "障碍物"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "障碍物",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_084_aidkit",
+    "name": "急救包",
+    "pinyin": [
+      "ji jiu bao",
+      "jijiubao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "急救"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "急救",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_067_dice",
+    "name": "骰子",
+    "pinyin": [
+      "tou zi",
+      "touzi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "掷骰"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "掷骰",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_088_dice2",
+    "name": "8面骰子",
+    "pinyin": [
+      "8 mian tou zi",
+      "8miantouzi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "掷骰"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "掷骰",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_089_dice3",
+    "name": "12面骰子",
+    "pinyin": [
+      "12 mian tou zi",
+      "12miantouzi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "掷骰"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "掷骰",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_093_tbattbc",
+    "name": "钳兽壳粉",
+    "pinyin": [
+      "qian shou ke fen",
+      "qianshoukefen"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "钳兽壳粉"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "钳兽壳粉",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_094_tbpsnc",
+    "name": "高效泡打粉",
+    "pinyin": [
+      "gao xiao pao da fen",
+      "gaoxiaopaodafen"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "高效泡打粉"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "高效泡打粉",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_095_tbsmmc",
+    "name": "芳香精油",
+    "pinyin": [
+      "fang xiang jing you",
+      "fangxiangjingyou"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "芳香精油"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "芳香精油",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_086_larva",
+    "name": "“汲营枯枝” ",
+    "pinyin": [
+      "“ ji ying ku zhi ” ",
+      "“jiyingkuzhi” "
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "汲营枯枝"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "汲营枯枝",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_087_allady",
+    "name": "阿勒黛的卫护",
+    "pinyin": [
+      "a le dai de wei hu",
+      "aledaideweihu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阿勒黛的卫护",
+      "阿勒黛的卫护"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阿勒黛的卫护",
+        "upgrades": []
+      },
+      {
+        "name": "阿勒黛的卫护",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_092_vgctrl",
+    "name": "复仇黑手",
+    "pinyin": [
+      "fu chou hei shou",
+      "fuchouheishou"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "复仇黑手"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "复仇黑手",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_098_mire",
+    "name": "沼泽控制",
+    "pinyin": [
+      "zhao ze kong zhi",
+      "zhaozekongzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "沼泽控制"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "沼泽控制",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_096_gflag",
+    "name": "山海密语仪",
+    "pinyin": [
+      "shan hai mi yu yi",
+      "shanhaimiyuyi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_097_hstone",
+    "name": "城防路障",
+    "pinyin": [
+      "cheng fang lu zhang",
+      "chengfangluzhang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_103_ymdgct",
+    "name": "地形增伤控制",
+    "pinyin": [
+      "di xing zeng shang kong zhi",
+      "dixingzengshangkongzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [],
+    "skills": [],
+    "master_skills": [],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 0,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_099_mhflsb",
+    "name": "眩光手雷",
+    "pinyin": [
+      "xuan guang shou lei",
+      "xuanguangshoulei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "眩光手雷"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "眩光手雷",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_100_mhlbmb",
+    "name": "高能源石爆桶",
+    "pinyin": [
+      "gao neng yuan shi bao tong",
+      "gaonengyuanshibaotong"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "高能源石爆桶"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "高能源石爆桶",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_101_mhshok",
+    "name": "高压脉冲诡雷",
+    "pinyin": [
+      "gao ya mai chong gui lei",
+      "gaoyamaichongguilei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "高压脉冲诡雷"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "高压脉冲诡雷",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_102_mhwrbg",
+    "name": "滞空牵引无人机",
+    "pinyin": [
+      "zhi kong qian yin wu ren ji",
+      "zhikongqianyinwurenji"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "滞空牵引无人机"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "滞空牵引无人机",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_105_mhwrct",
+    "name": "滞空牵引无人机",
+    "pinyin": [
+      "zhi kong qian yin wu ren ji",
+      "zhikongqianyinwurenji"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "滞空牵引无人机"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "滞空牵引无人机",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_104_dplant",
+    "name": "改性植物激素",
+    "pinyin": [
+      "gai xing zhi wu ji su",
+      "gaixingzhiwujisu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "抑制生长"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "抑制生长",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_700_cdabyss",
+    "name": "阿戈尔示波器",
+    "pinyin": [
+      "a ge er shi bo qi",
+      "ageershiboqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阿戈尔示波器"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阿戈尔示波器",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_701_cdabyssa",
+    "name": "阿戈尔示波器",
+    "pinyin": [
+      "a ge er shi bo qi",
+      "ageershiboqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阿戈尔示波器"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阿戈尔示波器",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_702_cdabyssb",
+    "name": "阿戈尔示波器",
+    "pinyin": [
+      "a ge er shi bo qi",
+      "ageershiboqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阿戈尔示波器"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阿戈尔示波器",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_703_cdcredit",
+    "name": "自适应补给元件",
+    "pinyin": [
+      "zi shi ying bu gei yuan jian",
+      "zishiyingbugeiyuanjian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "自适应补给"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "自适应补给",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_704_cdcredita",
+    "name": "自适应补给元件",
+    "pinyin": [
+      "zi shi ying bu gei yuan jian",
+      "zishiyingbugeiyuanjian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "自适应补给"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "自适应补给",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_705_cdcreditb",
+    "name": "自适应补给元件",
+    "pinyin": [
+      "zi shi ying bu gei yuan jian",
+      "zishiyingbugeiyuanjian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "自适应补给"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "自适应补给",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_706_cdshield",
+    "name": "镀膜装置导能阀",
+    "pinyin": [
+      "du mo zhuang zhi dao neng fa",
+      "dumozhuangzhidaonengfa"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "镀膜"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "镀膜",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_707_cdshielda",
+    "name": "重整导能组件",
+    "pinyin": [
+      "zhong zheng dao neng zu jian",
+      "zhongzhengdaonengzujian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "重整导能"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "重整导能",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_708_cdshieldb",
+    "name": "镀膜装置导能阀",
+    "pinyin": [
+      "du mo zhuang zhi dao neng fa",
+      "dumozhuangzhidaonengfa"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "镀膜"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "镀膜",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_709_cdbeacon",
+    "name": "丛林用示踪信标",
+    "pinyin": [
+      "cong lin yong shi zong xin biao",
+      "conglinyongshizongxinbiao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "示踪信标"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "示踪信标",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_710_cdbeacona",
+    "name": "阻断波长",
+    "pinyin": [
+      "zu duan bo chang",
+      "zuduanbochang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阻断波长"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "阻断波长",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_711_cdbeaconb",
+    "name": "干扰波长",
+    "pinyin": [
+      "gan rao bo chang",
+      "ganraobochang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "干扰波长"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "干扰波长",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_712_cdhvrk",
+    "name": "超重绝缘水泥",
+    "pinyin": [
+      "chao zhong jue yuan shui ni",
+      "chaozhongjueyuanshuini"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "超重，绝缘"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "超重，绝缘",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_713_cdflsb",
+    "name": "劣质闪光弹",
+    "pinyin": [
+      "lie zhi shan guang dan",
+      "liezhishanguangdan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "劣质闪光弹"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "劣质闪光弹",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_400_xbfarm",
+    "name": "便携式种植槽",
+    "pinyin": [
+      "bian xie shi zhong zhi cao",
+      "bianxieshizhongzhicao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "稻谷种植"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "稻谷种植",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_404_xbfortress",
+    "name": "坚固筑台",
+    "pinyin": [
+      "jian gu zhu tai",
+      "jianguzhutai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "搭建高台"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "搭建高台",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_405_xbroadblock",
+    "name": "都市风壁障",
+    "pinyin": [
+      "du shi feng bi zhang",
+      "dushifengbizhang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "阻断道路"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "阻断道路",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_406_xboverwatch",
+    "name": "监控塔",
+    "pinyin": [
+      "jian kong ta",
+      "jiankongta"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "监控"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "监控",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_408_xbbase",
+    "name": "基地",
+    "pinyin": [
+      "ji di",
+      "jidi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "能源设备"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "能源设备",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_409_xbwood",
+    "name": "杂木林",
+    "pinyin": [
+      "za mu lin",
+      "zamulin"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "可供开采"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "可供开采",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_410_xbstone",
+    "name": "巨大岩石",
+    "pinyin": [
+      "ju da yan shi",
+      "judayanshi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "可供开采"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "可供开采",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_411_xbiron",
+    "name": "奇异矿脉",
+    "pinyin": [
+      "qi yi kuang mai",
+      "qiyikuangmai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "可供开采"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "可供开采",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_412_redtower",
+    "name": "移动战塔",
+    "pinyin": [
+      "yi dong zhan ta",
+      "yidongzhanta"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "敌方人员运送"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "敌方人员运送",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_413_hiddenstone",
+    "name": "遗迹残骸",
+    "pinyin": [
+      "yi ji can hai",
+      "yijicanhai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "可被击破"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "可被击破",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_414_vegetation",
+    "name": "灌木丛",
+    "pinyin": [
+      "guan mu cong",
+      "guanmucong"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "可供开采"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "可供开采",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_416_gtreasure",
+    "name": "埋没金属箱",
+    "pinyin": [
+      "mai mei jin shu xiang",
+      "maimeijinshuxiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "可被击破"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "可被击破",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_422_streasure",
+    "name": "宝刺金属箱",
+    "pinyin": [
+      "bao ci jin shu xiang",
+      "baocijinshuxiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "宝刺伤人"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "宝刺伤人",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_423_bondtw",
+    "name": "缚网发射台",
+    "pinyin": [
+      "fu wang fa she tai",
+      "fuwangfashetai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "发射缚网"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "发射缚网",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_424_pushtw",
+    "name": "喷拒器",
+    "pinyin": [
+      "pen ju qi",
+      "penjuqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "气体爆喷"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "气体爆喷",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_425_xbwall",
+    "name": "防御工事",
+    "pinyin": [
+      "fang yu gong shi",
+      "fangyugongshi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "防御支撑"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "防御支撑",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_426_xbmrcl",
+    "name": "模块演算设施",
+    "pinyin": [
+      "mo kuai yan suan she shi",
+      "mokuaiyansuansheshi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "演算"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "演算",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_427_xbprsh",
+    "name": "资源规划站",
+    "pinyin": [
+      "zi yuan gui hua zhan",
+      "ziyuanguihuazhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "资源规划"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "资源规划",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_428_xblrsh",
+    "name": "备勤激活站",
+    "pinyin": [
+      "bei qin ji huo zhan",
+      "beiqinjihuozhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "人员状态改善"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "人员状态改善",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_429_xbescp",
+    "name": "跨地块通讯站",
+    "pinyin": [
+      "kua di kuai tong xun zhan",
+      "kuadikuaitongxunzhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "建立通讯"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "建立通讯",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_430_wdescp",
+    "name": "逃脱点",
+    "pinyin": [
+      "tao tuo dian",
+      "taotuodian"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "建立通讯"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "建立通讯",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_431_xbgldn",
+    "name": "冶铸台",
+    "pinyin": [
+      "ye zhu tai",
+      "yezhutai"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "冶铸"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "冶铸",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_401_xbfato",
+    "name": "采集实习站",
+    "pinyin": [
+      "cai ji shi xi zhan",
+      "caijishixizhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "采集"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "采集",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_438_xbfato2",
+    "name": "采集专员站",
+    "pinyin": [
+      "cai ji zhuan yuan zhan",
+      "caijizhuanyuanzhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "采集"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "采集",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_439_xbfato3",
+    "name": "采集主任站",
+    "pinyin": [
+      "cai ji zhu ren zhan",
+      "caijizhurenzhan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "采集"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "采集",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_403_wfactory",
+    "name": "蟹蟹抽水泵",
+    "pinyin": [
+      "xie xie chou shui beng",
+      "xiexiechoushuibeng"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "抽水"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "抽水",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_417_shielder",
+    "name": "护盾遥控器",
+    "pinyin": [
+      "hu dun yao kong qi",
+      "hudunyaokongqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "护盾提供"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "护盾提供",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_418_smokebomb",
+    "name": "安眠迷香",
+    "pinyin": [
+      "an mian mi xiang",
+      "anmianmixiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "释放迷香"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "释放迷香",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_419_enhancer",
+    "name": "醒神秘药",
+    "pinyin": [
+      "xing shen mi yao",
+      "xingshenmiyao"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "释放秘药"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "释放秘药",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_420_umbrella",
+    "name": "反侦察藏匿机",
+    "pinyin": [
+      "fan zhen cha cang ni ji",
+      "fanzhenchacangniji"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "协助隐藏"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "协助隐藏",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_421_repairman",
+    "name": "应急修理车",
+    "pinyin": [
+      "ying ji xiu li che",
+      "yingjixiuliche"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "修理"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "修理",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_415_trademan",
+    "name": "联络员",
+    "pinyin": [
+      "lian luo yuan",
+      "lianluoyuan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "触发对话"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "触发对话",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_432_oldisin",
+    "name": "老伊辛",
+    "pinyin": [
+      "lao yi xin",
+      "laoyixin"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "触发对话"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "触发对话",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_433_sandsdr",
+    "name": "“沙卒”",
+    "pinyin": [
+      "“ sha zu ”",
+      "“shazu”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "触发对话",
+      "触发对话"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "触发对话",
+        "upgrades": []
+      },
+      {
+        "name": "触发对话",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 2,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_434_klmantc",
+    "name": "曼提柯杀手",
+    "pinyin": [
+      "man ti ke sha shou",
+      "mantikeshashou"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "触发对话",
+      "触发对话",
+      "触发对话"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "触发对话",
+        "upgrades": []
+      },
+      {
+        "name": "触发对话",
+        "upgrades": []
+      },
+      {
+        "name": "触发对话",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 3,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_435_trsrhuntr",
+    "name": "寻宝人",
+    "pinyin": [
+      "xun bao ren",
+      "xunbaoren"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "触发对话"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "触发对话",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_437_poachr",
+    "name": "老练猎手",
+    "pinyin": [
+      "lao lian lie shou",
+      "laolianlieshou"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "盗猎食材"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "盗猎食材",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_116_stdurk",
+    "name": "“过去的我”",
+    "pinyin": [
+      "“ guo qu de wo ”",
+      "“guoqudewo”"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "“咔嚓！”"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      },
+      {
+        "level": 3,
+        "materials": []
+      },
+      {
+        "level": 4,
+        "materials": []
+      },
+      {
+        "level": 5,
+        "materials": []
+      },
+      {
+        "level": 6,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "“咔嚓！”",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": []
+          }
+        ]
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_111_wdfarm",
+    "name": "街头应急储备",
+    "pinyin": [
+      "jie tou ying ji chu bei",
+      "jietouyingjichubei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "补给"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "补给",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_112_crsbow",
+    "name": "解雇者清债程序",
+    "pinyin": [
+      "jie gu zhe qing zhai cheng xu",
+      "jieguzheqingzhaichengxu"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "清债程序"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "清债程序",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_113_snflwr",
+    "name": "全自动划账器",
+    "pinyin": [
+      "quan zi dong hua zhang qi",
+      "quanzidonghuazhangqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "全自动划账"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "全自动划账",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_114_smkbmb",
+    "name": "爆裂毒气罐",
+    "pinyin": [
+      "bao lie du qi guan",
+      "baolieduqiguan"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "爆裂"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "爆裂",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_115_gasctrl",
+    "name": "毒雾塔控制",
+    "pinyin": [
+      "du wu ta kong zhi",
+      "duwutakongzhi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "毒雾控制"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "毒雾控制",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_121_gractrl",
+    "name": "重力",
+    "pinyin": [
+      "zhong li",
+      "zhongli"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "重力生成"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "重力生成",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_714_cdaltar",
+    "name": "能量扰动放大器",
+    "pinyin": [
+      "neng liang rao dong fang da qi",
+      "nengliangraodongfangdaqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "能量扰动"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "能量扰动",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_715_cdaltara",
+    "name": "能量扰动放大器",
+    "pinyin": [
+      "neng liang rao dong fang da qi",
+      "nengliangraodongfangdaqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "能量扰动"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "能量扰动",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_716_cdaltarb",
+    "name": "能量扰动放大器",
+    "pinyin": [
+      "neng liang rao dong fang da qi",
+      "nengliangraodongfangdaqi"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "能量扰动"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "能量扰动",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_717_cddiff",
+    "name": "战术装备整理箱",
+    "pinyin": [
+      "zhan shu zhuang bei zheng li xiang",
+      "zhanshuzhuangbeizhenglixiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "战术装备整理"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "战术装备整理",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_718_cddiffa",
+    "name": "战术装备整理箱",
+    "pinyin": [
+      "zhan shu zhuang bei zheng li xiang",
+      "zhanshuzhuangbeizhenglixiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "战术装备整理"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "战术装备整理",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_719_cddiffb",
+    "name": "战术装备整理箱",
+    "pinyin": [
+      "zhan shu zhuang bei zheng li xiang",
+      "zhanshuzhuangbeizhenglixiang"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "战术装备整理"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "战术装备整理",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_720_cdheal",
+    "name": "便携式医疗设备",
+    "pinyin": [
+      "bian xie shi yi liao she bei",
+      "bianxieshiyiliaoshebei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "便携式医疗设备"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "便携式医疗设备",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_721_cdheala",
+    "name": "便携式医疗设备",
+    "pinyin": [
+      "bian xie shi yi liao she bei",
+      "bianxieshiyiliaoshebei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "便携式医疗设备"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "便携式医疗设备",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "trap_722_cdhealb",
+    "name": "便携式医疗设备",
+    "pinyin": [
+      "bian xie shi yi liao she bei",
+      "bianxieshiyiliaoshebei"
+    ],
+    "profession": "TRAP",
+    "rarity": 0,
+    "equipments": [],
+    "skill_names": [
+      "便携式医疗设备"
+    ],
+    "skills": [],
+    "master_skills": [
+      {
+        "name": "便携式医疗设备",
+        "upgrades": []
+      }
+    ],
+    "elites": [],
+    "meta": {
+      "max_elite_rank": 0,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
+    "unique_id": "char_1001_amiya2",
+    "name": "升变阿米娅",
+    "pinyin": [
+      "sheng bian a mi ya",
+      "shengbianamiya"
+    ],
+    "profession": "WARRIOR",
+    "rarity": 4,
+    "equipments": [],
+    "skill_names": [
+      "影霄·奔夜",
+      "影霄·绝影"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-2",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 2
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 3
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "影霄·奔夜",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-7",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "影霄·绝影",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-2",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-5",
+            "quantity": 3
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-5",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-1",
+            "quantity": 10
+          },
+          {
+            "resource": "M-3-7",
+            "quantity": 10
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
       "max_equipments": 0
     }
   }

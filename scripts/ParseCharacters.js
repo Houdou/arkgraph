@@ -6,6 +6,22 @@ const skills = require('./excels/skill_table.json');
 const MapItem = require('./mapping.json');
 const game_data = require('./excels/gamedata_const.json');
 
+const TIERS = {
+	TIER_1: 0,
+	TIER_2: 1,
+	TIER_3: 2,
+	TIER_4: 3,
+	TIER_5: 4,
+	TIER_6: 5,
+};
+
+const mapRarity = rarity => TIERS[rarity] || 0;
+
+const DEPLOY_FLAGS = {
+	MELEE: 1 << 0,
+	RANGED: 1 << 1,
+};
+
 const all_characters = [
 	...Object.entries(characters),
 	...Object.entries(patch_characters.patchChars).map(
@@ -28,7 +44,7 @@ const all_characters = [
 const parseCharacter = (character, unique_id) => {
 	if (
 		character.rarity < 2 ||
-    character.profession === 'TOKEN'
+		character.profession === 'TOKEN'
 	) {
 		return null;
 	}
@@ -36,15 +52,24 @@ const parseCharacter = (character, unique_id) => {
 	const operator_pinyin = [].concat(...pinyin(character.name, {
 		style: pinyin.STYLE_NORMAL,
 	}));
+
+	const {
+		name,
+		profession,
+		rarity: rarity_enum
+	} = character;
+
+	const rarity = String(rarity_enum).startsWith("TIER_") ? mapRarity(rarity_enum) : rarity_enum
+
 	const operator = {
 		unique_id,
-		name: character.name,
+		name,
 		pinyin: [
 			operator_pinyin.join(' '),
 			operator_pinyin.join(''),
 		],
-		profession: character.profession,
-		rarity: character.rarity,
+		profession,
+		rarity,
 		equipments: [],
 	};
 
@@ -78,7 +103,7 @@ const parseCharacter = (character, unique_id) => {
 		materials: evolveCost && [
 			{
 				id: '4001',
-				count: game_data.evolveGoldCost[character.rarity][index - 1],
+				count: game_data.evolveGoldCost[rarity][index - 1],
 			},
 			...evolveCost,
 		].map(requirement => ({
@@ -113,7 +138,7 @@ const parseCharacter = (character, unique_id) => {
 };
 
 const OPERATORS = all_characters
-	.sort((a, b) => b[1].rarity - a[1].rarity)
+	.sort((a, b) => mapRarity(b[1].rarity) - mapRarity(a[1].rarity))
 	.map(([id, value], index) => parseCharacter(value, id))
 	.filter(Boolean);
 
