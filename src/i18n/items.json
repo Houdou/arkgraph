@@ -28,12 +28,6 @@
         "jichuzuozhanjilu"
       ],
       "sortId": 70004
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "基礎作戰記錄",
-      "alias": [],
-      "sortId": 70004
     }
   },
   "E-3-1": {
@@ -64,12 +58,6 @@
         "chu ji zuo zhan ji lu",
         "chujizuozhanjilu"
       ],
-      "sortId": 70003
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "初級作戰記錄",
-      "alias": [],
       "sortId": 70003
     }
   },
@@ -102,12 +90,6 @@
         "zhongjizuozhanjilu"
       ],
       "sortId": 70002
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "中級作戰記錄",
-      "alias": [],
-      "sortId": 70002
     }
   },
   "E-5-1": {
@@ -138,12 +120,6 @@
         "gao ji zuo zhan ji lu",
         "gaojizuozhanjilu"
       ],
-      "sortId": 70001
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "高級作戰記錄",
-      "alias": [],
       "sortId": 70001
     }
   },
@@ -176,12 +152,6 @@
         "xianfengxinpian"
       ],
       "sortId": 400018
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "先鋒晶片",
-      "alias": [],
-      "sortId": 400018
     }
   },
   "C-4-1": {
@@ -212,12 +182,6 @@
         "xian feng xin pian zu",
         "xianfengxinpianzu"
       ],
-      "sortId": 400010
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "先鋒晶片組",
-      "alias": [],
       "sortId": 400010
     }
   },
@@ -250,12 +214,6 @@
         "xianfengshuangxinpian"
       ],
       "sortId": 400002
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "先鋒雙晶片",
-      "alias": [],
-      "sortId": 400002
     }
   },
   "C-3-2": {
@@ -286,12 +244,6 @@
         "jin wei xin pian",
         "jinweixinpian"
       ],
-      "sortId": 400019
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "近衛晶片",
-      "alias": [],
       "sortId": 400019
     }
   },
@@ -324,12 +276,6 @@
         "jinweixinpianzu"
       ],
       "sortId": 400011
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "近衛晶片組",
-      "alias": [],
-      "sortId": 400011
     }
   },
   "C-5-2": {
@@ -360,12 +306,6 @@
         "jin wei shuang xin pian",
         "jinweishuangxinpian"
       ],
-      "sortId": 400003
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "近衛雙晶片",
-      "alias": [],
       "sortId": 400003
     }
   },
@@ -398,12 +338,6 @@
         "zhongzhuangxinpian"
       ],
       "sortId": 400020
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "重裝晶片",
-      "alias": [],
-      "sortId": 400020
     }
   },
   "C-4-3": {
@@ -434,12 +368,6 @@
         "zhong zhuang xin pian zu",
         "zhongzhuangxinpianzu"
       ],
-      "sortId": 400012
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "重裝晶片組",
-      "alias": [],
       "sortId": 400012
     }
   },
@@ -472,12 +400,6 @@
         "zhongzhuangshuangxinpian"
       ],
       "sortId": 400004
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "重裝雙晶片",
-      "alias": [],
-      "sortId": 400004
     }
   },
   "C-3-4": {
@@ -508,12 +430,6 @@
         "ju ji xin pian",
         "jujixinpian"
       ],
-      "sortId": 400021
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "狙擊晶片",
-      "alias": [],
       "sortId": 400021
     }
   },
@@ -546,12 +462,6 @@
         "jujixinpianzu"
       ],
       "sortId": 400013
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "狙擊晶片組",
-      "alias": [],
-      "sortId": 400013
     }
   },
   "C-5-4": {
@@ -582,12 +492,6 @@
         "ju ji shuang xin pian",
         "jujishuangxinpian"
       ],
-      "sortId": 400005
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "狙擊雙晶片",
-      "alias": [],
       "sortId": 400005
     }
   },
@@ -620,12 +524,6 @@
         "shushixinpian"
       ],
       "sortId": 400022
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "術師晶片",
-      "alias": [],
-      "sortId": 400022
     }
   },
   "C-4-5": {
@@ -656,12 +554,6 @@
         "shu shi xin pian zu",
         "shushixinpianzu"
       ],
-      "sortId": 400014
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "術師晶片組",
-      "alias": [],
       "sortId": 400014
     }
   },
@@ -694,12 +586,6 @@
         "shushishuangxinpian"
       ],
       "sortId": 400006
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "術師雙晶片",
-      "alias": [],
-      "sortId": 400006
     }
   },
   "C-3-6": {
@@ -730,12 +616,6 @@
         "yi liao xin pian",
         "yiliaoxinpian"
       ],
-      "sortId": 400023
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "醫療晶片",
-      "alias": [],
       "sortId": 400023
     }
   },
@@ -768,12 +648,6 @@
         "yiliaoxinpianzu"
       ],
       "sortId": 400015
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "醫療晶片組",
-      "alias": [],
-      "sortId": 400015
     }
   },
   "C-5-6": {
@@ -804,12 +678,6 @@
         "yi liao shuang xin pian",
         "yiliaoshuangxinpian"
       ],
-      "sortId": 400007
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "醫療雙晶片",
-      "alias": [],
       "sortId": 400007
     }
   },
@@ -842,12 +710,6 @@
         "fuzhuxinpian"
       ],
       "sortId": 400024
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "輔助晶片",
-      "alias": [],
-      "sortId": 400024
     }
   },
   "C-4-7": {
@@ -878,12 +740,6 @@
         "fu zhu xin pian zu",
         "fuzhuxinpianzu"
       ],
-      "sortId": 400016
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "輔助晶片組",
-      "alias": [],
       "sortId": 400016
     }
   },
@@ -916,12 +772,6 @@
         "fuzhushuangxinpian"
       ],
       "sortId": 400008
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "輔助雙晶片",
-      "alias": [],
-      "sortId": 400008
     }
   },
   "C-3-8": {
@@ -952,12 +802,6 @@
         "te zhong xin pian",
         "tezhongxinpian"
       ],
-      "sortId": 400025
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "特種晶片",
-      "alias": [],
       "sortId": 400025
     }
   },
@@ -990,12 +834,6 @@
         "tezhongxinpianzu"
       ],
       "sortId": 400017
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "特種晶片組",
-      "alias": [],
-      "sortId": 400017
     }
   },
   "C-5-8": {
@@ -1026,12 +864,6 @@
         "te zhong shuang xin pian",
         "tezhongshuangxinpian"
       ],
-      "sortId": 400009
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "特種雙晶片",
-      "alias": [],
       "sortId": 400009
     }
   },
@@ -1064,12 +896,6 @@
         "jiqiaogaiyao·juan1"
       ],
       "sortId": 80003
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "技巧概要·卷1",
-      "alias": [],
-      "sortId": 80003
     }
   },
   "S-3-1": {
@@ -1100,12 +926,6 @@
         "ji qiao gai yao · juan 2",
         "jiqiaogaiyao·juan2"
       ],
-      "sortId": 80002
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "技巧概要·卷2",
-      "alias": [],
       "sortId": 80002
     }
   },
@@ -1138,12 +958,6 @@
         "jiqiaogaiyao·juan3"
       ],
       "sortId": 80001
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "技巧概要·卷3",
-      "alias": [],
-      "sortId": 80001
     }
   },
   "G-4-1": {
@@ -1174,12 +988,6 @@
         "long men bi",
         "longmenbi"
       ],
-      "sortId": 10004
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "龍門幣",
-      "alias": [],
       "sortId": 10004
     }
   },
@@ -1212,12 +1020,6 @@
         "caigoupingzheng"
       ],
       "sortId": 10008
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "採購憑證",
-      "alias": [],
-      "sortId": 10008
     }
   },
   "M-1-1": {
@@ -1249,12 +1051,6 @@
         "yuanyan"
       ],
       "sortId": 100029
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "源岩",
-      "alias": [],
-      "sortId": 100015
     }
   },
   "M-2-1": {
@@ -1286,12 +1082,6 @@
         "guyuanyan"
       ],
       "sortId": 100028
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "固源岩",
-      "alias": [],
-      "sortId": 100014
     }
   },
   "M-3-1": {
@@ -1323,12 +1113,6 @@
         "guyuanyanzu"
       ],
       "sortId": 100027
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "固源岩組",
-      "alias": [],
-      "sortId": 100013
     }
   },
   "M-4-1": {
@@ -1360,12 +1144,6 @@
         "tichunyuanyan"
       ],
       "sortId": 100026
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "提純源岩",
-      "alias": [],
-      "sortId": 100012
     }
   },
   "M-1-4": {
@@ -1397,12 +1175,6 @@
         "daitang"
       ],
       "sortId": 100041
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "代糖",
-      "alias": [],
-      "sortId": 100027
     }
   },
   "M-2-4": {
@@ -1434,12 +1206,6 @@
         "tang"
       ],
       "sortId": 100040
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "糖",
-      "alias": [],
-      "sortId": 100026
     }
   },
   "M-3-4": {
@@ -1471,12 +1237,6 @@
         "tangzu"
       ],
       "sortId": 100039
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "糖組",
-      "alias": [],
-      "sortId": 100025
     }
   },
   "M-4-4": {
@@ -1508,12 +1268,6 @@
         "tangjukuai"
       ],
       "sortId": 100038
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "糖聚塊",
-      "alias": [],
-      "sortId": 100024
     }
   },
   "M-1-3": {
@@ -1545,12 +1299,6 @@
         "zhiyuanliao"
       ],
       "sortId": 100037
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "酯原料",
-      "alias": [],
-      "sortId": 100023
     }
   },
   "M-2-3": {
@@ -1582,12 +1330,6 @@
         "jusuanzhi"
       ],
       "sortId": 100036
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "聚酸酯",
-      "alias": [],
-      "sortId": 100022
     }
   },
   "M-3-3": {
@@ -1619,12 +1361,6 @@
         "jusuanzhizu"
       ],
       "sortId": 100035
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "聚酸酯組",
-      "alias": [],
-      "sortId": 100021
     }
   },
   "M-4-3": {
@@ -1656,12 +1392,6 @@
         "jusuanzhikuai"
       ],
       "sortId": 100034
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "聚酸酯塊",
-      "alias": [],
-      "sortId": 100020
     }
   },
   "M-1-5": {
@@ -1693,12 +1423,6 @@
         "yitiesuipian"
       ],
       "sortId": 100045
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "異鐵碎片",
-      "alias": [],
-      "sortId": 100031
     }
   },
   "M-2-5": {
@@ -1730,12 +1454,6 @@
         "yitie"
       ],
       "sortId": 100044
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "異鐵",
-      "alias": [],
-      "sortId": 100030
     }
   },
   "M-3-5": {
@@ -1767,12 +1485,6 @@
         "yitiezu"
       ],
       "sortId": 100043
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "異鐵組",
-      "alias": [],
-      "sortId": 100029
     }
   },
   "M-4-5": {
@@ -1804,12 +1516,6 @@
         "yitiekuai"
       ],
       "sortId": 100042
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "異鐵塊",
-      "alias": [],
-      "sortId": 100028
     }
   },
   "M-1-6": {
@@ -1841,12 +1547,6 @@
         "shuangtong"
       ],
       "sortId": 100049
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "雙酮",
-      "alias": [],
-      "sortId": 100035
     }
   },
   "M-2-6": {
@@ -1878,12 +1578,6 @@
         "tongningji"
       ],
       "sortId": 100048
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "酮凝集",
-      "alias": [],
-      "sortId": 100034
     }
   },
   "M-3-6": {
@@ -1915,12 +1609,6 @@
         "tongningjizu"
       ],
       "sortId": 100047
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "酮凝集組",
-      "alias": [],
-      "sortId": 100033
     }
   },
   "M-4-6": {
@@ -1952,12 +1640,6 @@
         "tongzhenlie"
       ],
       "sortId": 100046
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "酮陣列",
-      "alias": [],
-      "sortId": 100032
     }
   },
   "M-1-2": {
@@ -1989,12 +1671,6 @@
         "posunzhuangzhi"
       ],
       "sortId": 100033
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "破損裝置",
-      "alias": [],
-      "sortId": 100019
     }
   },
   "M-2-2": {
@@ -2026,12 +1702,6 @@
         "zhuangzhi"
       ],
       "sortId": 100032
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "裝置",
-      "alias": [],
-      "sortId": 100018
     }
   },
   "M-3-2": {
@@ -2063,12 +1733,6 @@
         "quanxinzhuangzhi"
       ],
       "sortId": 100031
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "全新裝置",
-      "alias": [],
-      "sortId": 100017
     }
   },
   "M-4-2": {
@@ -2100,12 +1764,6 @@
         "gailiangzhuangzhi"
       ],
       "sortId": 100030
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "改量裝置",
-      "alias": [],
-      "sortId": 100016
     }
   },
   "M-3-7": {
@@ -2137,12 +1795,6 @@
         "niuzhuanchun"
       ],
       "sortId": 100019
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "扭轉醇",
-      "alias": [],
-      "sortId": 100005
     }
   },
   "M-4-7": {
@@ -2174,12 +1826,6 @@
         "baimachun"
       ],
       "sortId": 100018
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "白馬醇",
-      "alias": [],
-      "sortId": 100004
     }
   },
   "M-3-8": {
@@ -2211,12 +1857,6 @@
         "qingmengkuang"
       ],
       "sortId": 100021
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "輕錳礦",
-      "alias": [],
-      "sortId": 100007
     }
   },
   "M-4-8": {
@@ -2248,12 +1888,6 @@
         "sanshuimengkuang"
       ],
       "sortId": 100020
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "三水錳礦",
-      "alias": [],
-      "sortId": 100006
     }
   },
   "M-3-9": {
@@ -2285,12 +1919,6 @@
         "yanmoshi"
       ],
       "sortId": 100023
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "研磨石",
-      "alias": [],
-      "sortId": 100009
     }
   },
   "M-4-9": {
@@ -2322,12 +1950,6 @@
         "wushuiyanmoshi"
       ],
       "sortId": 100022
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "五水研磨石",
-      "alias": [],
-      "sortId": 100008
     }
   },
   "M-3-10": {
@@ -2359,12 +1981,6 @@
         "RMA70-12"
       ],
       "sortId": 100025
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "RMA70-12",
-      "alias": [],
-      "sortId": 100011
     }
   },
   "M-4-10": {
@@ -2396,12 +2012,6 @@
         "RMA70-24"
       ],
       "sortId": 100024
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "RMA70-24",
-      "alias": [],
-      "sortId": 100010
     }
   },
   "M-5-3": {
@@ -2433,12 +2043,6 @@
         "juheji"
       ],
       "sortId": 100005
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "聚合劑",
-      "alias": [],
-      "sortId": 100003
     }
   },
   "M-5-2": {
@@ -2470,12 +2074,6 @@
         "shuangjinamipian"
       ],
       "sortId": 100004
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "雙極納米片",
-      "alias": [],
-      "sortId": 100002
     }
   },
   "M-5-1": {
@@ -2507,12 +2105,6 @@
         "D32gang"
       ],
       "sortId": 100003
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "D32鋼",
-      "alias": [],
-      "sortId": 100001
     }
   },
   "M-5-4": {
@@ -2544,12 +2136,6 @@
         "jingtidianzidanyuan"
       ],
       "sortId": 100002
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "晶體電子單元",
-      "alias": [],
-      "sortId": 100040
     }
   },
   "M-5-5": {
@@ -2581,11 +2167,6 @@
         "shaojieheningjing"
       ],
       "sortId": 100001
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "M-3-11": {
@@ -2617,12 +2198,6 @@
         "ningjiao"
       ],
       "sortId": 100017
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "凝膠",
-      "alias": [],
-      "sortId": 100037
     }
   },
   "M-4-11": {
@@ -2654,12 +2229,6 @@
         "juheningjiao"
       ],
       "sortId": 100016
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "聚合凝膠",
-      "alias": [],
-      "sortId": 100036
     }
   },
   "M-3-12": {
@@ -2691,12 +2260,6 @@
         "chihejin"
       ],
       "sortId": 100015
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "熾合金",
-      "alias": [],
-      "sortId": 100039
     }
   },
   "M-4-12": {
@@ -2728,12 +2291,6 @@
         "chihejinkuai"
       ],
       "sortId": 100014
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "熾合金塊",
-      "alias": [],
-      "sortId": 100038
     }
   },
   "M-3-13": {
@@ -2765,12 +2322,6 @@
         "jingtiyuanjian"
       ],
       "sortId": 100013
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "晶體元件",
-      "alias": [],
-      "sortId": 100042
     }
   },
   "M-4-13": {
@@ -2802,12 +2353,6 @@
         "jingtidianlu"
       ],
       "sortId": 100012
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "晶體電路",
-      "alias": [],
-      "sortId": 100041
     }
   },
   "M-3-14": {
@@ -2839,11 +2384,6 @@
         "banziranrongji"
       ],
       "sortId": 100011
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "M-4-14": {
@@ -2875,11 +2415,6 @@
         "jinglianrongji"
       ],
       "sortId": 100010
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "M-3-15": {
@@ -2911,11 +2446,6 @@
         "huaheqiexiaoye"
       ],
       "sortId": 100009
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "M-4-15": {
@@ -2947,11 +2477,6 @@
         "qiexiaoyuanye"
       ],
       "sortId": 100008
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "M-3-16": {
@@ -2983,11 +2508,6 @@
         "zhuanzhiyanzu"
       ],
       "sortId": 100007
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "M-4-16": {
@@ -3019,11 +2539,6 @@
         "zhuanzhiyanjukuai"
       ],
       "sortId": 100006
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "O-4-1": {
@@ -3054,12 +2569,6 @@
         "xin pian zhu ji",
         "xinpianzhuji"
       ],
-      "sortId": 400001
-    },
-    "zh_TW": {
-      "enabled": true,
-      "name": "晶片助劑",
-      "alias": [],
       "sortId": 400001
     }
   },
@@ -3092,11 +2601,6 @@
         "mozushujukuai"
       ],
       "sortId": 90001
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "W-5-2": {
@@ -3128,11 +2632,6 @@
         "shujuzengbutiao"
       ],
       "sortId": 90003
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   },
   "W-5-3": {
@@ -3164,11 +2663,6 @@
         "shujuzengbuyi"
       ],
       "sortId": 90002
-    },
-    "zh_TW": {
-      "enabled": false,
-      "name": "",
-      "alias": []
     }
   }
 }

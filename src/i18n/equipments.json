@@ -2300,6 +2300,18 @@
   },
   "uniequip_002_kalts": {
     "char_id": "char_003_kalts",
+    "en_US": {
+      "enabled": true,
+      "name": "Mon2tr"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Mon2tr"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Mon2tr"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Mon2tr"
@@ -2307,6 +2319,18 @@
   },
   "uniequip_002_shining": {
     "char_id": "char_147_shining",
+    "en_US": {
+      "enabled": true,
+      "name": "Withered Scabbard"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "枯れた鞘"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "바싹 마른 검집"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "干枯剑鞘"
@@ -2314,6 +2338,18 @@
   },
   "uniequip_002_tuye": {
     "char_id": "char_402_tuye",
+    "en_US": {
+      "enabled": true,
+      "name": "Water Still Device"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "集水装置"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "집수 장치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "集水装置"
@@ -2321,6 +2357,18 @@
   },
   "uniequip_002_folnic": {
     "char_id": "char_345_folnic",
+    "en_US": {
+      "enabled": true,
+      "name": "Mother's Cravat"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "母のネッカチーフ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "어머니의 스카프"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "母亲的领巾"
@@ -2328,6 +2376,18 @@
   },
   "uniequip_002_bldsk": {
     "char_id": "char_171_bldsk",
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Reserves"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "緊急用予備血液"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "응급 비축"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "应急储备"
@@ -2335,6 +2395,18 @@
   },
   "uniequip_002_silent": {
     "char_id": "char_108_silent",
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Self-Defense Procedures"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "緊急防衛プログラム"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "긴급 방어 프로그램"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "紧急防卫程序"
@@ -2342,6 +2414,18 @@
   },
   "uniequip_002_susuro": {
     "char_id": "char_298_susuro",
+    "en_US": {
+      "enabled": true,
+      "name": "...Who Heals Not Herself"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "医者の不養生"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "의불자치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "医不自治"
@@ -2349,6 +2433,18 @@
   },
   "uniequip_002_ccheal": {
     "char_id": "char_187_ccheal",
+    "en_US": {
+      "enabled": true,
+      "name": "'Follow Your Doctor's Orders'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「医者の言うことは聞くべし」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'의사의 지시'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“请遵医嘱”"
@@ -2356,6 +2452,18 @@
   },
   "uniequip_002_myrrh": {
     "char_id": "char_117_myrrh",
+    "en_US": {
+      "enabled": true,
+      "name": "'Brevity of Life'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「命の儚さ」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'생명의 덧없음'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“生命的短暂”"
@@ -2363,6 +2471,18 @@
   },
   "uniequip_003_dusk": {
     "char_id": "char_2015_dusk",
+    "en_US": {
+      "enabled": true,
+      "name": "'All Told, A Sleepless Night'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「終夜寐ねられず」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'잠들지 못하는 밤'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“终夜无寐”"
@@ -2370,6 +2490,18 @@
   },
   "uniequip_003_aglina": {
     "char_id": "char_291_aglina",
+    "en_US": {
+      "enabled": true,
+      "name": "Experimental Anti-Gravity Module"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "実験用反重力モジュール"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "실험용 반중력 모듈"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "实验用反重力模块"
@@ -2377,6 +2509,18 @@
   },
   "uniequip_002_siege": {
     "char_id": "char_112_siege",
+    "en_US": {
+      "enabled": true,
+      "name": "'Candy Box'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「キャンディーボックス」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'캔디 박스'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“糖果盒”"
@@ -2384,6 +2528,18 @@
   },
   "uniequip_002_saga": {
     "char_id": "char_362_saga",
+    "en_US": {
+      "enabled": true,
+      "name": "Walk The World"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "身は雲泥に向かふ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "몸가짐의 차이"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "身向云泥"
@@ -2391,6 +2547,18 @@
   },
   "uniequip_002_flamtl": {
     "char_id": "char_420_flamtl",
+    "en_US": {
+      "enabled": true,
+      "name": "The Origins of Pinus Sylvestris"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レッドパインの原点"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "피누스 실베스트리스의 출발점"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "红松的起点"
@@ -2398,6 +2566,18 @@
   },
   "uniequip_002_texas": {
     "char_id": "char_102_texas",
+    "en_US": {
+      "enabled": true,
+      "name": "Private Field Supply Package"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "外勤用プライベート補給パック"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "외근용 개인 보급 팩"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "外勤私人补给包"
@@ -2405,6 +2585,18 @@
   },
   "uniequip_002_chiave": {
     "char_id": "char_349_chiave",
+    "en_US": {
+      "enabled": true,
+      "name": "Homemade Jack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "手作りのジャッキ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "핸드메이드 잭"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "自制千斤顶"
@@ -2412,6 +2604,18 @@
   },
   "uniequip_002_blackd": {
     "char_id": "char_198_blackd",
+    "en_US": {
+      "enabled": true,
+      "name": "Low Temperature Resistant Communication Equipment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "寒冷地仕様通信機"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "내한성 통신 설비"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "耐低温通讯设备"
@@ -2419,6 +2623,18 @@
   },
   "uniequip_002_scave": {
     "char_id": "char_149_scave",
+    "en_US": {
+      "enabled": true,
+      "name": "'Designer Dinnerware'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「専用食器セット」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'전용 식기'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“专属餐具”"
@@ -2426,6 +2642,18 @@
   },
   "uniequip_002_headbr": {
     "char_id": "char_115_headbr",
+    "en_US": {
+      "enabled": true,
+      "name": "A Graduation Gift for Генерал Мороз"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "冬将軍の卒業記念品"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "동장군의 졸업 선물"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "冬将军的毕业礼物"
@@ -2433,6 +2661,18 @@
   },
   "uniequip_002_texas2": {
     "char_id": "char_1028_texas2",
+    "en_US": {
+      "enabled": true,
+      "name": "Blueberry & Dark Chocolate"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブルーベリーとビターチョコ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "블루베리와 다크초콜릿"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "蓝莓与黑巧"
@@ -2440,6 +2680,18 @@
   },
   "uniequip_002_lunacu": {
     "char_id": "char_4014_lunacu",
+    "en_US": {
+      "enabled": true,
+      "name": "'A Hidey-Hole That Moves'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "移動式の「巣」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'이동식 보금자리'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“移动的窝”"
@@ -2447,6 +2699,18 @@
   },
   "uniequip_003_shwaz": {
     "char_id": "char_340_shwaz",
+    "en_US": {
+      "enabled": true,
+      "name": "Old Razor"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "古い剃刀"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오래된 면도칼"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "老剃刀"
@@ -2454,6 +2718,18 @@
   },
   "uniequip_003_hsguma": {
     "char_id": "char_136_hsguma",
+    "en_US": {
+      "enabled": true,
+      "name": "Amulet"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "お守り"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "호신 부적"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "护身符"
