@@ -169,6 +169,26 @@ const ArkSettings = ({
 						window.location.reload();
 					}}
 				>{ir('settings-backup-clear_data', 'Double click to RESET ALL DATA')}</div>
+				<div
+					class={style.clear_data}
+					onDblClick={e => {
+						e.preventDefault();
+						window.localStorage.setItem(LANG_PREF, config.locale);
+						window.localStorage.removeItem(CONFIG_STORAGE_KEY);
+						try {
+							const save_json = window.localStorage.getItem(SAVE_STORAGE_KEY);
+							const save = JSON.parse(save_json);
+							const reset_stock_save = {
+								...save,
+								stock: {}
+							};
+							window.localStorage.setItem(SAVE_STORAGE_KEY, JSON.stringify(reset_stock_save))
+						} catch(err) {
+							console.error(err)
+						}
+						window.location.reload();
+					}}
+				>{ir('settings-backup-clear_stock', 'Double click to RESET STOCK ONLY')}</div>
 				<hr style={{ 'margin-top': '24px' }} />
 				{
 					config.locale !== 'zh_CN' && (
