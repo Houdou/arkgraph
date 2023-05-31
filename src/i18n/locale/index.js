@@ -15,7 +15,7 @@ export default {
 
 const locale = {
 	zh_CN: '中文',
-	zh_TW: '繁體中文',
+	// zh_TW: '繁體中文',
 	en_US: 'English',
 	ja_JP: '日本語 [β]',
 	ko_KR: '한국어 [β]',

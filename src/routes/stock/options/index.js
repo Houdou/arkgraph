@@ -71,7 +71,7 @@ LANG.forEach(locale => {
 		const material_i18n = item_i18n[e.id];
 		return {
 			...e,
-			sortId: material_i18n && material_i18n[locale].sortId || 999999999,
+			sortId: material_i18n && material_i18n[locale] && material_i18n[locale].sortId || 999999999,
 		};
 	}).sort((a, b) => a.sortId - b.sortId);
 	sorted_material_list_by_locale[locale] = sorted_material_list;
