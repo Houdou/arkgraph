@@ -18178,6 +18178,23 @@
     "code": null,
     "code_name": "Rathalos S Noir Corne"
   },
+  "char_498_inside": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "隐现",
+      "skills": [
+        "“不惹麻烦”",
+        "“解决麻烦”"
+      ],
+      "alias": [
+        "yin xian",
+        "yinxian"
+      ],
+      "appellation": "Insider"
+    },
+    "code": null,
+    "code_name": "Insider"
+  },
   "char_4078_bdhkgt": {
     "zh_CN": {
       "enabled": true,
@@ -18262,6 +18279,23 @@
     },
     "code": null,
     "code_name": "Melanite"
+  },
+  "char_4015_spuria": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "空构",
+      "skills": [
+        "见机行事",
+        "临场铳械改装"
+      ],
+      "alias": [
+        "kong gou",
+        "konggou"
+      ],
+      "appellation": "Spuria"
+    },
+    "code": null,
+    "code_name": "Spuria"
   },
   "char_249_mlyss": {
     "zh_CN": {
@@ -18424,6 +18458,24 @@
     },
     "code": null,
     "code_name": "Qiubai"
+  },
+  "char_1032_excu2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣约送葬人",
+      "skills": [
+        "遗嘱执行",
+        "近身铳斗",
+        "圣约决裁"
+      ],
+      "alias": [
+        "sheng yue song zang ren",
+        "shengyuesongzangren"
+      ],
+      "appellation": "Executor the Ex Foedere"
+    },
+    "code": null,
+    "code_name": "Executor the Ex Foedere"
   },
   "token_10029_slent2_protrb": {
     "zh_CN": {
@@ -19449,6 +19501,70 @@
     },
     "code": null,
     "code_name": "\"My Past Self\""
+  },
+  "trap_117_ltstat": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣像",
+      "skills": [
+        "祈祷"
+      ],
+      "alias": [
+        "sheng xiang",
+        "shengxiang"
+      ],
+      "appellation": "Holy Statue"
+    },
+    "code": null,
+    "code_name": "Holy Statue"
+  },
+  "trap_118_rockfl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "塌落的墙垣",
+      "skills": [
+        "塌落"
+      ],
+      "alias": [
+        "ta la de qiang yuan",
+        "taladeqiangyuan"
+      ],
+      "appellation": "Failing Masonry"
+    },
+    "code": null,
+    "code_name": "Failing Masonry"
+  },
+  "trap_119_rdrepair": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "备用木材",
+      "skills": [
+        "修复步道"
+      ],
+      "alias": [
+        "bei yong mu cai",
+        "beiyongmucai"
+      ],
+      "appellation": "Spare Timber"
+    },
+    "code": null,
+    "code_name": "Spare Timber"
+  },
+  "trap_120_rdblock": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "破旧的木篱",
+      "skills": [
+        "阻拦"
+      ],
+      "alias": [
+        "po jiu de mu li",
+        "pojiudemuli"
+      ],
+      "appellation": "Shabby Fence"
+    },
+    "code": null,
+    "code_name": "Shabby Fence"
   },
   "trap_111_wdfarm": {
     "zh_CN": {
