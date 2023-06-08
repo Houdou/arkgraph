@@ -3091,5 +3091,61 @@
       "enabled": true,
       "name": "医者"
     }
+  },
+  "uniequip_002_ironmn": {
+    "char_id": "char_4072_ironmn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "铁钳号·爬行者"
+    }
+  },
+  "uniequip_002_windft": {
+    "char_id": "char_433_windft",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“灵机一动”"
+    }
+  },
+  "uniequip_002_robrta": {
+    "char_id": "char_484_robrta",
+    "zh_CN": {
+      "enabled": true,
+      "name": "半自动造型工具套组"
+    }
+  },
+  "uniequip_002_haak": {
+    "char_id": "char_225_haak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "什锦果味医用箱"
+    }
+  },
+  "uniequip_002_spuria": {
+    "char_id": "char_4015_spuria",
+    "zh_CN": {
+      "enabled": true,
+      "name": "无人机喷涂套装"
+    }
+  },
+  "uniequip_002_inside": {
+    "char_id": "char_498_inside",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“最初的惊喜”"
+    }
+  },
+  "uniequip_003_blemsh": {
+    "char_id": "char_423_blemsh",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“长骑”"
+    }
+  },
+  "uniequip_003_flamtl": {
+    "char_id": "char_420_flamtl",
+    "zh_CN": {
+      "enabled": true,
+      "name": "她们的未来"
+    }
   }
 }
