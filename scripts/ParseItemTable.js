@@ -35,7 +35,7 @@ const ParseItem = (data) => {
 		occPer,
 	}) => {
 		const stage_code = stages[stageId].code;
-		if (!stageId.startsWith('main') && !stageId.startsWith('sub')) {
+		if (!stageId.startsWith('main') && !stageId.startsWith('sub') && !stageId.startsWith('easy') && !stageId.startsWith('tough')) {
 			return;
 		}
 		source[stage_code] = DropTypeMapping[occPer];

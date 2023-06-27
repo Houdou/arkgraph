@@ -10,6 +10,26 @@ const MapOcc = {
 	4: '罕见',
 };
 
+const DROP_TYPES = {
+	"NONE": 0,
+	"ONCE": 1,
+	"NORMAL": 2,
+	"SPECIAL": 3,
+	"ADDITIONAL": 4,
+	"APRETURN": 5,
+	"DIAMOND_MATERIAL": 6,
+	"FUNITURE_DROP": 7,
+	"COMPLETE": 8,
+	"CHARM_DROP": 9,
+	"OVERRIDE_DROP": 10,
+	"ITEM_RETURN": 11,
+}
+
+const MapDropType = dropType => {
+	if (Object.keys(DROP_TYPES).includes(dropType)) return DROP_TYPES[dropType];
+	return dropType;
+}
+
 const ParseLevel = (data) => {
 	const retro_data = retro_stages[data.stageId];
 	const is_perm = Boolean(retro_data);
@@ -30,8 +50,10 @@ const ParseLevel = (data) => {
 	level_data.stageDropInfo.displayDetailRewards.forEach(({
 		occPercent,
 		id,
-		dropType,
+		dropType: dropTypeRaw,
 	}) => {
+		const dropType = MapDropType(dropTypeRaw)
+
 		if (!MapItem[id]) { // Not supported
 			return;
 		}
