@@ -3147,5 +3147,54 @@
       "enabled": true,
       "name": "她们的未来"
     }
+  },
+  "uniequip_002_sntlla": {
+    "char_id": "char_341_sntlla",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“冰焰”"
+    }
+  },
+  "uniequip_002_elysm": {
+    "char_id": "char_401_elysm",
+    "zh_CN": {
+      "enabled": true,
+      "name": "应急通讯指南"
+    }
+  },
+  "uniequip_002_sleach": {
+    "char_id": "char_479_sleach",
+    "zh_CN": {
+      "enabled": true,
+      "name": "牧人的歌"
+    }
+  },
+  "uniequip_002_myrtle": {
+    "char_id": "char_151_myrtle",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“私人收藏”"
+    }
+  },
+  "uniequip_002_typhon": {
+    "char_id": "char_2012_typhon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "自然的包容"
+    }
+  },
+  "uniequip_003_helage": {
+    "char_id": "char_188_helage",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“热的雪”"
+    }
+  },
+  "uniequip_003_phatom": {
+    "char_id": "char_250_phatom",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“如影随形”"
+    }
   }
 }
