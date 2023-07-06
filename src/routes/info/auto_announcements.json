@@ -3,6 +3,17 @@
     "server": [
       "zh_CN"
     ],
+    "date": "2023-07-06",
+    "type": "new_operators",
+    "new_operators": [
+      "char_2012_typhon",
+      "char_341_sntlla"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
     "date": "2023-06-08",
     "type": "new_operators",
     "new_operators": [
@@ -121,24 +132,6 @@
     "new_operators": [
       "char_4082_qiubai",
       "char_4083_chimes"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2023-01-17",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4055_bgsnow",
-      "char_4046_ebnhlz",
-      "char_1026_gvial2",
-      "char_497_ctable",
-      "char_4054_malist",
-      "char_1024_hbisc2",
-      "char_4047_pianst"
     ]
   }
 ]

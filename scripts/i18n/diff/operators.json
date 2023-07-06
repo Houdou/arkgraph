@@ -18212,6 +18212,23 @@
     "code": null,
     "code_name": "Jieyun"
   },
+  "char_341_sntlla": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "寒檀",
+      "skills": [
+        "迅捷打击·γ型",
+        "“女巫之泪”"
+      ],
+      "alias": [
+        "han tan",
+        "hantan"
+      ],
+      "appellation": "Santalla"
+    },
+    "code": null,
+    "code_name": "Santalla"
+  },
   "char_297_hamoni": {
     "zh_CN": {
       "enabled": true,
@@ -18296,6 +18313,24 @@
     },
     "code": null,
     "code_name": "Spuria"
+  },
+  "char_2012_typhon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "提丰",
+      "skills": [
+        "迅捷打击·γ型",
+        "冰原秩序",
+        "“永恒狩猎”"
+      ],
+      "alias": [
+        "ti feng",
+        "tifeng"
+      ],
+      "appellation": "Typhon"
+    },
+    "code": null,
+    "code_name": "Typhon"
   },
   "char_249_mlyss": {
     "zh_CN": {
