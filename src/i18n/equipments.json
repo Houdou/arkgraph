@@ -1759,7 +1759,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "트루스 앤드 데어"
+      "name": "트루스 오 데어"
     },
     "zh_CN": {
       "enabled": true,
@@ -2737,6 +2737,14 @@
   },
   "uniequip_002_poca": {
     "char_id": "char_197_poca",
+    "ja_JP": {
+      "enabled": true,
+      "name": "訓練用攻城兵器"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공성기계 훈련장치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "攻城器械训练装置"
@@ -2744,6 +2752,14 @@
   },
   "uniequip_002_totter": {
     "char_id": "char_4062_totter",
+    "ja_JP": {
+      "enabled": true,
+      "name": "スノードーム"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스노우볼"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "雪花球"
@@ -2751,6 +2767,14 @@
   },
   "uniequip_002_toddi": {
     "char_id": "char_363_toddi",
+    "ja_JP": {
+      "enabled": true,
+      "name": "弩矢の調整箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "화살 테스트 상자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "弩箭调试箱"
@@ -2758,6 +2782,14 @@
   },
   "uniequip_002_erato": {
     "char_id": "char_4043_erato",
+    "ja_JP": {
+      "enabled": true,
+      "name": "調弦工具箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "개현경장"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "改弦更张"
@@ -2765,6 +2797,14 @@
   },
   "uniequip_002_helage": {
     "char_id": "char_188_helage",
+    "ja_JP": {
+      "enabled": true,
+      "name": "蔵鋒"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "드러내지 않은 칼"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "藏锋"
@@ -2772,6 +2812,14 @@
   },
   "uniequip_002_akafyu": {
     "char_id": "char_475_akafyu",
+    "ja_JP": {
+      "enabled": true,
+      "name": "武将の甲冑"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "무장의 갑주"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "武将甲胄"
@@ -2779,6 +2827,14 @@
   },
   "uniequip_002_utage": {
     "char_id": "char_337_utage",
+    "ja_JP": {
+      "enabled": true,
+      "name": "デコったガラケー"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "폴더폰"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "翻盖手机"
@@ -2786,6 +2842,14 @@
   },
   "uniequip_002_hamoni": {
     "char_id": "char_297_hamoni",
+    "ja_JP": {
+      "enabled": true,
+      "name": "諜報員ファイル"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "정보원 자료 파일"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "情报人员资料夹"
@@ -2793,6 +2857,14 @@
   },
   "uniequip_003_archet": {
     "char_id": "char_332_archet",
+    "ja_JP": {
+      "enabled": true,
+      "name": "過ぎた日々の再訪"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "옛날의 재현"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "旧日重现"
@@ -2800,6 +2872,14 @@
   },
   "uniequip_003_mizuki": {
     "char_id": "char_437_mizuki",
+    "ja_JP": {
+      "enabled": true,
+      "name": "紺碧の種"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "검푸른 씨앗"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "深蓝之籽"
