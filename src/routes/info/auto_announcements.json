@@ -1,6 +1,46 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2023-08-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4080_lin",
+      "char_2024_chyue",
+      "char_4078_bdhkgt",
+      "char_493_firwhl"
+    ]
+  },
+  {
+    "server": [
+      "en_US"
+    ],
+    "date": "2023-08-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1020_reed2",
+      "char_4017_puzzle",
+      "char_297_hamoni"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2023-08-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1033_swire2",
+      "char_1016_agoat2",
+      "char_488_buildr",
+      "char_4106_bryota"
+    ]
+  },
+  {
+    "server": [
       "ja_JP",
       "ko_KR"
     ],
@@ -87,51 +127,6 @@
       "char_157_dagda",
       "char_4071_peper",
       "char_4062_totter"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2023-05-06",
-    "type": "new_operators",
-    "new_operators": [
-      "char_249_mlyss",
-      "char_4027_heyak",
-      "char_1031_slent2",
-      "char_4006_melnte"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2023-04-06",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4048_doroth",
-      "char_4064_mlynar",
-      "char_135_halo",
-      "char_1027_greyy2",
-      "char_4032_provs",
-      "char_4067_lolxh",
-      "char_514_rdfend"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2023-04-06",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4087_ines",
-      "char_154_morgan",
-      "char_464_cement",
-      "char_491_humus",
-      "char_4091_ulika"
     ]
   }
 ]

@@ -3953,6 +3953,52 @@
     "code": "cantabile",
     "code_name": "Cantabile"
   },
+  "char_4017_puzzle": {
+    "en_US": {
+      "enabled": true,
+      "name": "Puzzle",
+      "skills": [
+        "Key Clue",
+        "Follow a Lead"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パズル",
+      "skills": [
+        "証拠追跡",
+        "徹底追及"
+      ],
+      "alias": [
+        "ぱずる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "퍼즐",
+      "skills": [
+        "결정적인 단서",
+        "의문점 추적"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "谜图",
+      "skills": [
+        "关键线索",
+        "疑点追踪"
+      ],
+      "alias": [
+        "mi tu",
+        "mitu"
+      ],
+      "appellation": "Puzzle"
+    },
+    "code": "puzzle",
+    "code_name": "Puzzle"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -5233,6 +5279,52 @@
     "code": "sesa",
     "code_name": "Sesa"
   },
+  "char_4078_bdhkgt": {
+    "en_US": {
+      "enabled": true,
+      "name": "Jieyun",
+      "skills": [
+        "Seeking a Path",
+        "Dust of Days Past"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジエユン",
+      "skills": [
+        "前路を調べ",
+        "旧塵を擲つ"
+      ],
+      "alias": [
+        "じえゆん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지에윈",
+      "skills": [
+        "앞길 탐색",
+        "과거의 먼지"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "截云",
+      "skills": [
+        "探前路",
+        "掷旧尘"
+      ],
+      "alias": [
+        "jie yun",
+        "jieyun"
+      ],
+      "appellation": "Jieyun"
+    },
+    "code": "jieyun",
+    "code_name": "Jieyun"
+  },
   "char_279_excu": {
     "en_US": {
       "enabled": true,
@@ -5876,6 +5968,52 @@
     },
     "code": "iris",
     "code_name": "Iris"
+  },
+  "char_297_hamoni": {
+    "en_US": {
+      "enabled": true,
+      "name": "Harmonie",
+      "skills": [
+        "Lithe Steps",
+        "A Disastrous Drowning"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハーモニー",
+      "skills": [
+        "舞は軽やかに",
+        "耽溺の結末"
+      ],
+      "alias": [
+        "はーもにー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아르모니",
+      "skills": [
+        "경쾌한 스텝",
+        "침닉의 재난"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "和弦",
+      "skills": [
+        "轻巧舞步",
+        "沉溺之灾"
+      ],
+      "alias": [
+        "he xian",
+        "hexian"
+      ],
+      "appellation": "Harmonie"
+    },
+    "code": "harmonie",
+    "code_name": "Harmonie"
   },
   "char_1011_lava2": {
     "en_US": {
@@ -7436,6 +7574,52 @@
     },
     "code": "ashlock",
     "code_name": "Ashlock"
+  },
+  "char_493_firwhl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Firewhistle",
+      "skills": [
+        "Wildfire",
+        "Scorched Earth"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ファイヤーホイッスル",
+      "skills": [
+        "ワイルドファイア",
+        "バーングラウンド"
+      ],
+      "alias": [
+        "ふぁいやーほいっする"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파이어휘슬",
+      "skills": [
+        "들불",
+        "초토"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "火哨",
+      "skills": [
+        "野火",
+        "焦土"
+      ],
+      "alias": [
+        "huo shao",
+        "huoshao"
+      ],
+      "appellation": "Firewhistle"
+    },
+    "code": "firewhistle",
+    "code_name": "Firewhistle"
   },
   "char_422_aurora": {
     "en_US": {
@@ -9971,6 +10155,56 @@
     "code": "carnelian",
     "code_name": "Carnelian"
   },
+  "char_4080_lin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lin",
+      "skills": [
+        "Elegance",
+        "Shelter",
+        "Riving Lighttails"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "リン",
+      "skills": [
+        "玲瓏",
+        "木陰",
+        "流光炸裂"
+      ],
+      "alias": [
+        "りん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "린",
+      "skills": [
+        "영롱",
+        "비호",
+        "유광 작렬"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "林",
+      "skills": [
+        "玲珑",
+        "荫庇",
+        "流光乍裂"
+      ],
+      "alias": [
+        "lin",
+        "lin"
+      ],
+      "appellation": "Lin"
+    },
+    "code": "lin",
+    "code_name": "Lin"
+  },
   "char_377_gdglow": {
     "en_US": {
       "enabled": true,
@@ -11071,6 +11305,56 @@
     "code": "lumen",
     "code_name": "Lumen"
   },
+  "char_1020_reed2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reed the Flame Shadow",
+      "skills": [
+        "Swift Strike γ",
+        "Wither and Thrive",
+        "Ember of Life"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "焔影リード",
+      "skills": [
+        "迅速攻撃γ",
+        "盛衰を共に",
+        "命の火種"
+      ],
+      "alias": [
+        "焔影りーど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "리드 더 플레임 섀도우",
+      "skills": [
+        "신속공격γ",
+        "번성과 쇠약",
+        "생명의 불씨"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "焰影苇草",
+      "skills": [
+        "迅捷打击·γ型",
+        "枯荣共息",
+        "生命火种"
+      ],
+      "alias": [
+        "yan ying wei cao",
+        "yanyingweicao"
+      ],
+      "appellation": "Reed The Flame Shadow"
+    },
+    "code": "reed the flame shadow",
+    "code_name": "Reed The Flame Shadow"
+  },
   "char_136_hsguma": {
     "en_US": {
       "enabled": true,
@@ -11520,6 +11804,56 @@
     },
     "code": "mountain",
     "code_name": "Mountain"
+  },
+  "char_2024_chyue": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chongyue",
+      "skills": [
+        "Abundant",
+        "Whisk",
+        "Anatta"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チョンユエ",
+      "skills": [
+        "満盈",
+        "払塵",
+        "我無"
+      ],
+      "alias": [
+        "ちょんゆえ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "총웨",
+      "skills": [
+        "가득 차오르다",
+        "먼지를 털어내다",
+        "나는 '무'일지어다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "重岳",
+      "skills": [
+        "冲盈",
+        "拂尘",
+        "我无"
+      ],
+      "alias": [
+        "zhong yue",
+        "zhongyue"
+      ],
+      "appellation": "Chongyue"
+    },
+    "code": "chongyue",
+    "code_name": "Chongyue"
   },
   "char_172_svrash": {
     "en_US": {
@@ -12829,14 +13163,14 @@
     },
     "zh_CN": {
       "enabled": true,
-      "name": "\"夹子\"",
+      "name": "“夹子”",
       "skills": [
         "束缚“夹子”",
         "弹射“夹子”"
       ],
       "alias": [
-        "\" jia zi \"",
-        "\"jiazi\""
+        "“ jia zi ”",
+        "“jiazi”"
       ],
       "appellation": "\"Clip\" Charge"
     },
@@ -12924,15 +13258,15 @@
     },
     "zh_CN": {
       "enabled": true,
-      "name": "\"小自在\"",
+      "name": "“小自在”",
       "skills": [
         "",
         "",
         ""
       ],
       "alias": [
-        "\" xiao zi zai \"",
-        "\"xiaozizai\""
+        "“ xiao zi zai ”",
+        "“xiaozizai”"
       ],
       "appellation": "Little Instinct"
     },
@@ -13120,7 +13454,7 @@
       "skills": [
         "",
         "",
-        "\"耀阳\""
+        "“耀阳”"
       ],
       "alias": [
         "“ yao yang ”",
@@ -18005,6 +18339,780 @@
     "code": "vengeful mafioso",
     "code_name": "Vendetta"
   },
+  "trap_098_mire": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mire Control",
+      "skills": [
+        "Mire Control"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "沼地制御",
+      "skills": [
+        "沼地制御"
+      ],
+      "alias": [
+        "沼地制御"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "늪지대 제어",
+      "skills": [
+        "늪지대 제어"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沼泽控制",
+      "skills": [
+        "沼泽控制"
+      ],
+      "alias": [
+        "zhao ze kong zhi",
+        "zhaozekongzhi"
+      ],
+      "appellation": "Mire Controller"
+    },
+    "code": "mire control",
+    "code_name": "Mire Controller"
+  },
+  "trap_096_gflag": {
+    "en_US": {
+      "enabled": true,
+      "name": "Shanhaizhong Cipher Machine",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "山海密令柱",
+      "skills": [],
+      "alias": [
+        "山海密令柱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "산해중 송신기",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "山海密语仪",
+      "skills": [],
+      "alias": [
+        "shan hai mi yu yi",
+        "shanhaimiyuyi"
+      ],
+      "appellation": "Cryptographic Transmitter"
+    },
+    "code": "shanhaizhong cipher machine",
+    "code_name": "Cryptographic Transmitter"
+  },
+  "trap_097_hstone": {
+    "en_US": {
+      "enabled": true,
+      "name": "Roadblocks",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "都市防衛柵",
+      "skills": [],
+      "alias": [
+        "都市防衛柵"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방호벽 바리케이드",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "城防路障",
+      "skills": [],
+      "alias": [
+        "cheng fang lu zhang",
+        "chengfangluzhang"
+      ],
+      "appellation": "Defence Roadblock"
+    },
+    "code": "roadblocks",
+    "code_name": "Defence Roadblock"
+  },
+  "trap_103_ymdgct": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mire Controller",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "地形ダメージ制御",
+      "skills": [],
+      "alias": [
+        "地形だめーじ制御"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지형 대미지 제어",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "地形增伤控制",
+      "skills": [],
+      "alias": [
+        "di xing zeng shang kong zhi",
+        "dixingzengshangkongzhi"
+      ],
+      "appellation": "Mire Controller"
+    },
+    "code": "mire controller",
+    "code_name": "Mire Controller"
+  },
+  "trap_104_dplant": {
+    "en_US": {
+      "enabled": true,
+      "name": "Modified Phytohormone",
+      "skills": [
+        "Suppress Growth"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "改良型植物ホルモン",
+      "skills": [
+        "成長抑制"
+      ],
+      "alias": [
+        "改良型植物ほるもん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "개질 식물호르몬",
+      "skills": [
+        "성장 억제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "改性植物激素",
+      "skills": [
+        "抑制生长"
+      ],
+      "alias": [
+        "gai xing zhi wu ji su",
+        "gaixingzhiwujisu"
+      ],
+      "appellation": "Modified Phytohormone"
+    },
+    "code": "modified phytohormone",
+    "code_name": "Modified Phytohormone"
+  },
+  "trap_700_cdabyss": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ægirian Oscilloscope",
+      "skills": [
+        "Ægirian Oscilloscope"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エーギル式振波計",
+      "skills": [
+        "エーギル式振波計"
+      ],
+      "alias": [
+        "えーぎる式振波計"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에기르 오실로스코프",
+      "skills": [
+        "에기르 오실로스코프"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿戈尔示波器",
+      "skills": [
+        "阿戈尔示波器"
+      ],
+      "alias": [
+        "a ge er shi bo qi",
+        "ageershiboqi"
+      ],
+      "appellation": "Ægirian Oscilloscope"
+    },
+    "code": "ægirian oscilloscope",
+    "code_name": "Ægirian Oscilloscope"
+  },
+  "trap_701_cdabyssa": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ægirian Oscilloscope",
+      "skills": [
+        "Ægirian Oscilloscope"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エーギル式振波計",
+      "skills": [
+        "エーギル式振波計"
+      ],
+      "alias": [
+        "えーぎる式振波計"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에기르 오실로스코프",
+      "skills": [
+        "에기르 오실로스코프"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿戈尔示波器",
+      "skills": [
+        "阿戈尔示波器"
+      ],
+      "alias": [
+        "a ge er shi bo qi",
+        "ageershiboqi"
+      ],
+      "appellation": "Ægirian Oscilloscope"
+    },
+    "code": "ægirian oscilloscope",
+    "code_name": "Ægirian Oscilloscope"
+  },
+  "trap_702_cdabyssb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ægirian Oscilloscope",
+      "skills": [
+        "Ægirian Oscilloscope"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エーギル式振波計",
+      "skills": [
+        "エーギル式振波計"
+      ],
+      "alias": [
+        "えーぎる式振波計"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에기르 오실로스코프",
+      "skills": [
+        "에기르 오실로스코프"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿戈尔示波器",
+      "skills": [
+        "阿戈尔示波器"
+      ],
+      "alias": [
+        "a ge er shi bo qi",
+        "ageershiboqi"
+      ],
+      "appellation": "Ægirian Oscilloscope"
+    },
+    "code": "ægirian oscilloscope",
+    "code_name": "Ægirian Oscilloscope"
+  },
+  "trap_703_cdcredit": {
+    "en_US": {
+      "enabled": true,
+      "name": "Adaptive Supply Component",
+      "skills": [
+        "Adaptive Supply"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "多機能補給デバイス",
+      "skills": [
+        "多機能補給"
+      ],
+      "alias": [
+        "多機能補給でばいす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "다목적 공급장치",
+      "skills": [
+        "다목적 공급"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "自适应补给元件",
+      "skills": [
+        "自适应补给"
+      ],
+      "alias": [
+        "zi shi ying bu gei yuan jian",
+        "zishiyingbugeiyuanjian"
+      ],
+      "appellation": "Multi-purpose Supply Device"
+    },
+    "code": "adaptive supply component",
+    "code_name": "Multi-purpose Supply Device"
+  },
+  "trap_704_cdcredita": {
+    "en_US": {
+      "enabled": true,
+      "name": "Adaptive Supply Component",
+      "skills": [
+        "Adaptive Supply"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "多機能補給デバイス",
+      "skills": [
+        "多機能補給"
+      ],
+      "alias": [
+        "多機能補給でばいす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "다목적 공급장치",
+      "skills": [
+        "다목적 공급"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "自适应补给元件",
+      "skills": [
+        "自适应补给"
+      ],
+      "alias": [
+        "zi shi ying bu gei yuan jian",
+        "zishiyingbugeiyuanjian"
+      ],
+      "appellation": "Multi-purpose Supply Device"
+    },
+    "code": "adaptive supply component",
+    "code_name": "Multi-purpose Supply Device"
+  },
+  "trap_705_cdcreditb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Adaptive Supply Component",
+      "skills": [
+        "Adaptive Supply"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "多機能補給デバイス",
+      "skills": [
+        "多機能補給"
+      ],
+      "alias": [
+        "多機能補給でばいす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "다목적 공급장치",
+      "skills": [
+        "다목적 공급"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "自适应补给元件",
+      "skills": [
+        "自适应补给"
+      ],
+      "alias": [
+        "zi shi ying bu gei yuan jian",
+        "zishiyingbugeiyuanjian"
+      ],
+      "appellation": "Multi-purpose Supply Device"
+    },
+    "code": "adaptive supply component",
+    "code_name": "Multi-purpose Supply Device"
+  },
+  "trap_706_cdshield": {
+    "en_US": {
+      "enabled": true,
+      "name": "Coating Device Conduction Valve",
+      "skills": [
+        "Coating"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コーティングデバイス",
+      "skills": [
+        "コーティング"
+      ],
+      "alias": [
+        "こーてぃんぐでばいす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "코팅 장치 전도 밸브",
+      "skills": [
+        "코팅"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "镀膜装置导能阀",
+      "skills": [
+        "镀膜"
+      ],
+      "alias": [
+        "du mo zhuang zhi dao neng fa",
+        "dumozhuangzhidaonengfa"
+      ],
+      "appellation": "Coating Device Conducting Valve"
+    },
+    "code": "coating device conduction valve",
+    "code_name": "Coating Device Conducting Valve"
+  },
+  "trap_707_cdshielda": {
+    "en_US": {
+      "enabled": true,
+      "name": "Redeployment Conduction Component",
+      "skills": [
+        "Redeployment Conduction"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "再稼働コンポーネント",
+      "skills": [
+        "再稼働"
+      ],
+      "alias": [
+        "再稼働こんぽーねんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에너지 재정비 유닛",
+      "skills": [
+        "재배치 전도"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "重整导能组件",
+      "skills": [
+        "重整导能"
+      ],
+      "alias": [
+        "zhong zheng dao neng zu jian",
+        "zhongzhengdaonengzujian"
+      ],
+      "appellation": "Redeployment Conducting Component"
+    },
+    "code": "redeployment conduction component",
+    "code_name": "Redeployment Conducting Component"
+  },
+  "trap_708_cdshieldb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Coating Device Conduction Valve",
+      "skills": [
+        "Coating"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コーティングデバイス",
+      "skills": [
+        "コーティング"
+      ],
+      "alias": [
+        "こーてぃんぐでばいす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "코팅 장치 전도 밸브",
+      "skills": [
+        "코팅"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "镀膜装置导能阀",
+      "skills": [
+        "镀膜"
+      ],
+      "alias": [
+        "du mo zhuang zhi dao neng fa",
+        "dumozhuangzhidaonengfa"
+      ],
+      "appellation": "Coating Device Conducting Valve"
+    },
+    "code": "coating device conduction valve",
+    "code_name": "Coating Device Conducting Valve"
+  },
+  "trap_709_cdbeacon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Eunectes' Beacon",
+      "skills": [
+        "Tracer Beacon"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ジャングル用追跡ビーコン",
+      "skills": [
+        "追跡ビーコン"
+      ],
+      "alias": [
+        "じゃんぐる用追跡びーこん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "정글용 추적 비콘",
+      "skills": [
+        "추적 비콘"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "丛林用示踪信标",
+      "skills": [
+        "示踪信标"
+      ],
+      "alias": [
+        "cong lin yong shi zong xin biao",
+        "conglinyongshizongxinbiao"
+      ],
+      "appellation": "Eunectes' Beacon"
+    },
+    "code": "eunectes' beacon",
+    "code_name": "Eunectes' Beacon"
+  },
+  "trap_710_cdbeacona": {
+    "en_US": {
+      "enabled": true,
+      "name": "Block Wavelength",
+      "skills": [
+        "Block Wavelength"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "遮断電波",
+      "skills": [
+        "遮断電波"
+      ],
+      "alias": [
+        "遮断電波"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "차단 파장",
+      "skills": [
+        "차단 파장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阻断波长",
+      "skills": [
+        "阻断波长"
+      ],
+      "alias": [
+        "zu duan bo chang",
+        "zuduanbochang"
+      ],
+      "appellation": "Intercepting Wavelength"
+    },
+    "code": "block wavelength",
+    "code_name": "Intercepting Wavelength"
+  },
+  "trap_711_cdbeaconb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Jam Wavelength",
+      "skills": [
+        "Jam Wavelength"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "妨害電波",
+      "skills": [
+        "妨害電波"
+      ],
+      "alias": [
+        "妨害電波"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "간섭 파장",
+      "skills": [
+        "간섭 파장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "干扰波长",
+      "skills": [
+        "干扰波长"
+      ],
+      "alias": [
+        "gan rao bo chang",
+        "ganraobochang"
+      ],
+      "appellation": "Interfering Wavelength"
+    },
+    "code": "jam wavelength",
+    "code_name": "Interfering Wavelength"
+  },
+  "trap_712_cdhvrk": {
+    "en_US": {
+      "enabled": true,
+      "name": "Heavy Insulated Concrete",
+      "skills": [
+        "Heavy, Insulated"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "超過重絶縁セメント",
+      "skills": [
+        "超過重・絶縁"
+      ],
+      "alias": [
+        "超過重絶縁せめんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "과중 단열 시멘트",
+      "skills": [
+        "과중, 단열"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "超重绝缘水泥",
+      "skills": [
+        "超重，绝缘"
+      ],
+      "alias": [
+        "chao zhong jue yuan shui ni",
+        "chaozhongjueyuanshuini"
+      ],
+      "appellation": "Overweight Insulating Cement"
+    },
+    "code": "heavy insulated concrete",
+    "code_name": "Overweight Insulating Cement"
+  },
+  "trap_713_cdflsb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Shoddy Flashbang",
+      "skills": [
+        "Shoddy Flashbang"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "粗悪なスタングレネード",
+      "skills": [
+        "粗悪なスタングレネード"
+      ],
+      "alias": [
+        "粗悪なすたんぐれねーど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "불량 섬광탄",
+      "skills": [
+        "불량 섬광탄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "劣质闪光弹",
+      "skills": [
+        "劣质闪光弹"
+      ],
+      "alias": [
+        "lie zhi shan guang dan",
+        "liezhishanguangdan"
+      ],
+      "appellation": "Defective Stun Grenade"
+    },
+    "code": "shoddy flashbang",
+    "code_name": "Defective Stun Grenade"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -18050,664 +19158,6 @@
     },
     "code": "promoted amiya",
     "code_name": "Amiya"
-  },
-  "char_4017_puzzle": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "パズル",
-      "skills": [
-        "証拠追跡",
-        "徹底追及"
-      ],
-      "alias": [
-        "ぱずる"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "퍼즐",
-      "skills": [
-        "결정적인 단서",
-        "의문점 추적"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "谜图",
-      "skills": [
-        "关键线索",
-        "疑点追踪"
-      ],
-      "alias": [
-        "mi tu",
-        "mitu"
-      ],
-      "appellation": "Puzzle"
-    },
-    "code": null,
-    "code_name": "Puzzle"
-  },
-  "char_297_hamoni": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "ハーモニー",
-      "skills": [
-        "舞は軽やかに",
-        "耽溺の結末"
-      ],
-      "alias": [
-        "はーもにー"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "아르모니",
-      "skills": [
-        "경쾌한 스텝",
-        "침닉의 재난"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "和弦",
-      "skills": [
-        "轻巧舞步",
-        "沉溺之灾"
-      ],
-      "alias": [
-        "he xian",
-        "hexian"
-      ],
-      "appellation": "Harmonie"
-    },
-    "code": null,
-    "code_name": "Harmonie"
-  },
-  "char_1020_reed2": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "焔影リード",
-      "skills": [
-        "迅速攻撃γ",
-        "盛衰を共に",
-        "命の火種"
-      ],
-      "alias": [
-        "焔影りーど"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "리드 더 플레임 섀도우",
-      "skills": [
-        "신속공격γ",
-        "번성과 쇠약",
-        "생명의 불씨"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "焰影苇草",
-      "skills": [
-        "迅捷打击·γ型",
-        "枯荣共息",
-        "生命火种"
-      ],
-      "alias": [
-        "yan ying wei cao",
-        "yanyingweicao"
-      ],
-      "appellation": "Reed The Flame Shadow"
-    },
-    "code": null,
-    "code_name": "Reed The Flame Shadow"
-  },
-  "trap_098_mire": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "沼地制御",
-      "skills": [
-        "沼地制御"
-      ],
-      "alias": [
-        "沼地制御"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "늪지대 제어",
-      "skills": [
-        "늪지대 제어"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "沼泽控制",
-      "skills": [
-        "沼泽控制"
-      ],
-      "alias": [
-        "zhao ze kong zhi",
-        "zhaozekongzhi"
-      ],
-      "appellation": "Mire Controller"
-    },
-    "code": null,
-    "code_name": "Mire Controller"
-  },
-  "trap_104_dplant": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "改良型植物ホルモン",
-      "skills": [
-        "成長抑制"
-      ],
-      "alias": [
-        "改良型植物ほるもん"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "개질 식물호르몬",
-      "skills": [
-        "성장 억제"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "改性植物激素",
-      "skills": [
-        "抑制生长"
-      ],
-      "alias": [
-        "gai xing zhi wu ji su",
-        "gaixingzhiwujisu"
-      ],
-      "appellation": "Modified Phytohormone"
-    },
-    "code": null,
-    "code_name": "Modified Phytohormone"
-  },
-  "trap_700_cdabyss": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "エーギル式振波計",
-      "skills": [
-        "エーギル式振波計"
-      ],
-      "alias": [
-        "えーぎる式振波計"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "에기르 오실로스코프",
-      "skills": [
-        "에기르 오실로스코프"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿戈尔示波器",
-      "skills": [
-        "阿戈尔示波器"
-      ],
-      "alias": [
-        "a ge er shi bo qi",
-        "ageershiboqi"
-      ],
-      "appellation": "Ægirian Oscilloscope"
-    },
-    "code": null,
-    "code_name": "Ægirian Oscilloscope"
-  },
-  "trap_701_cdabyssa": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "エーギル式振波計",
-      "skills": [
-        "エーギル式振波計"
-      ],
-      "alias": [
-        "えーぎる式振波計"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "에기르 오실로스코프",
-      "skills": [
-        "에기르 오실로스코프"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿戈尔示波器",
-      "skills": [
-        "阿戈尔示波器"
-      ],
-      "alias": [
-        "a ge er shi bo qi",
-        "ageershiboqi"
-      ],
-      "appellation": "Ægirian Oscilloscope"
-    },
-    "code": null,
-    "code_name": "Ægirian Oscilloscope"
-  },
-  "trap_702_cdabyssb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "エーギル式振波計",
-      "skills": [
-        "エーギル式振波計"
-      ],
-      "alias": [
-        "えーぎる式振波計"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "에기르 오실로스코프",
-      "skills": [
-        "에기르 오실로스코프"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿戈尔示波器",
-      "skills": [
-        "阿戈尔示波器"
-      ],
-      "alias": [
-        "a ge er shi bo qi",
-        "ageershiboqi"
-      ],
-      "appellation": "Ægirian Oscilloscope"
-    },
-    "code": null,
-    "code_name": "Ægirian Oscilloscope"
-  },
-  "trap_703_cdcredit": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "多機能補給デバイス",
-      "skills": [
-        "多機能補給"
-      ],
-      "alias": [
-        "多機能補給でばいす"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "다목적 공급장치",
-      "skills": [
-        "다목적 공급"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "自适应补给元件",
-      "skills": [
-        "自适应补给"
-      ],
-      "alias": [
-        "zi shi ying bu gei yuan jian",
-        "zishiyingbugeiyuanjian"
-      ],
-      "appellation": "Multi-purpose Supply Device"
-    },
-    "code": null,
-    "code_name": "Multi-purpose Supply Device"
-  },
-  "trap_704_cdcredita": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "多機能補給デバイス",
-      "skills": [
-        "多機能補給"
-      ],
-      "alias": [
-        "多機能補給でばいす"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "다목적 공급장치",
-      "skills": [
-        "다목적 공급"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "自适应补给元件",
-      "skills": [
-        "自适应补给"
-      ],
-      "alias": [
-        "zi shi ying bu gei yuan jian",
-        "zishiyingbugeiyuanjian"
-      ],
-      "appellation": "Multi-purpose Supply Device"
-    },
-    "code": null,
-    "code_name": "Multi-purpose Supply Device"
-  },
-  "trap_705_cdcreditb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "多機能補給デバイス",
-      "skills": [
-        "多機能補給"
-      ],
-      "alias": [
-        "多機能補給でばいす"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "다목적 공급장치",
-      "skills": [
-        "다목적 공급"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "自适应补给元件",
-      "skills": [
-        "自适应补给"
-      ],
-      "alias": [
-        "zi shi ying bu gei yuan jian",
-        "zishiyingbugeiyuanjian"
-      ],
-      "appellation": "Multi-purpose Supply Device"
-    },
-    "code": null,
-    "code_name": "Multi-purpose Supply Device"
-  },
-  "trap_706_cdshield": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "コーティングデバイス",
-      "skills": [
-        "コーティング"
-      ],
-      "alias": [
-        "こーてぃんぐでばいす"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "코팅 장치 전도 밸브",
-      "skills": [
-        "코팅"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "镀膜装置导能阀",
-      "skills": [
-        "镀膜"
-      ],
-      "alias": [
-        "du mo zhuang zhi dao neng fa",
-        "dumozhuangzhidaonengfa"
-      ],
-      "appellation": "Coating Device Conducting Valve"
-    },
-    "code": null,
-    "code_name": "Coating Device Conducting Valve"
-  },
-  "trap_707_cdshielda": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "再稼働コンポーネント",
-      "skills": [
-        "再稼働"
-      ],
-      "alias": [
-        "再稼働こんぽーねんと"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "에너지 재정비 유닛",
-      "skills": [
-        "재배치 전도"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "重整导能组件",
-      "skills": [
-        "重整导能"
-      ],
-      "alias": [
-        "zhong zheng dao neng zu jian",
-        "zhongzhengdaonengzujian"
-      ],
-      "appellation": "Redeployment Conducting Component"
-    },
-    "code": null,
-    "code_name": "Redeployment Conducting Component"
-  },
-  "trap_708_cdshieldb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "コーティングデバイス",
-      "skills": [
-        "コーティング"
-      ],
-      "alias": [
-        "こーてぃんぐでばいす"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "코팅 장치 전도 밸브",
-      "skills": [
-        "코팅"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "镀膜装置导能阀",
-      "skills": [
-        "镀膜"
-      ],
-      "alias": [
-        "du mo zhuang zhi dao neng fa",
-        "dumozhuangzhidaonengfa"
-      ],
-      "appellation": "Coating Device Conducting Valve"
-    },
-    "code": null,
-    "code_name": "Coating Device Conducting Valve"
-  },
-  "trap_709_cdbeacon": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "ジャングル用追跡ビーコン",
-      "skills": [
-        "追跡ビーコン"
-      ],
-      "alias": [
-        "じゃんぐる用追跡びーこん"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "정글용 추적 비콘",
-      "skills": [
-        "추적 비콘"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "丛林用示踪信标",
-      "skills": [
-        "示踪信标"
-      ],
-      "alias": [
-        "cong lin yong shi zong xin biao",
-        "conglinyongshizongxinbiao"
-      ],
-      "appellation": "Eunectes' Beacon"
-    },
-    "code": null,
-    "code_name": "Eunectes' Beacon"
-  },
-  "trap_710_cdbeacona": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "遮断電波",
-      "skills": [
-        "遮断電波"
-      ],
-      "alias": [
-        "遮断電波"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "차단 파장",
-      "skills": [
-        "차단 파장"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "阻断波长",
-      "skills": [
-        "阻断波长"
-      ],
-      "alias": [
-        "zu duan bo chang",
-        "zuduanbochang"
-      ],
-      "appellation": "Intercepting Wavelength"
-    },
-    "code": null,
-    "code_name": "Intercepting Wavelength"
-  },
-  "trap_711_cdbeaconb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "妨害電波",
-      "skills": [
-        "妨害電波"
-      ],
-      "alias": [
-        "妨害電波"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "간섭 파장",
-      "skills": [
-        "간섭 파장"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "干扰波长",
-      "skills": [
-        "干扰波长"
-      ],
-      "alias": [
-        "gan rao bo chang",
-        "ganraobochang"
-      ],
-      "appellation": "Interfering Wavelength"
-    },
-    "code": null,
-    "code_name": "Interfering Wavelength"
-  },
-  "trap_712_cdhvrk": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "超過重絶縁セメント",
-      "skills": [
-        "超過重・絶縁"
-      ],
-      "alias": [
-        "超過重絶縁せめんと"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "과중 단열 시멘트",
-      "skills": [
-        "과중, 단열"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "超重绝缘水泥",
-      "skills": [
-        "超重，绝缘"
-      ],
-      "alias": [
-        "chao zhong jue yuan shui ni",
-        "chaozhongjueyuanshuini"
-      ],
-      "appellation": "Overweight Insulating Cement"
-    },
-    "code": null,
-    "code_name": "Overweight Insulating Cement"
-  },
-  "trap_713_cdflsb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "粗悪なスタングレネード",
-      "skills": [
-        "粗悪なスタングレネード"
-      ],
-      "alias": [
-        "粗悪なすたんぐれねーど"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "불량 섬광탄",
-      "skills": [
-        "불량 섬광탄"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "劣质闪光弹",
-      "skills": [
-        "劣质闪光弹"
-      ],
-      "alias": [
-        "lie zhi shan guang dan",
-        "liezhishanguangdan"
-      ],
-      "appellation": "Defective Stun Grenade"
-    },
-    "code": null,
-    "code_name": "Defective Stun Grenade"
   },
   "char_4077_palico": {
     "zh_CN": {
@@ -18767,6 +19217,40 @@
     },
     "code": null,
     "code_name": "Humus"
+  },
+  "char_488_buildr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "青枳",
+      "skills": [
+        "冲锋号令·γ型",
+        "工程者之愿"
+      ],
+      "alias": [
+        "qing zhi",
+        "qingzhi"
+      ],
+      "appellation": "Poncirus"
+    },
+    "code": null,
+    "code_name": "Poncirus"
+  },
+  "char_4106_bryota": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "苍苔",
+      "skills": [
+        "强力击·β型",
+        "土石的恒心"
+      ],
+      "alias": [
+        "cang tai",
+        "cangtai"
+      ],
+      "appellation": "Bryophyta"
+    },
+    "code": null,
+    "code_name": "Bryophyta"
   },
   "char_154_morgan": {
     "zh_CN": {
@@ -18836,23 +19320,6 @@
     "code": null,
     "code_name": "Insider"
   },
-  "char_4078_bdhkgt": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "截云",
-      "skills": [
-        "探前路",
-        "掷旧尘"
-      ],
-      "alias": [
-        "jie yun",
-        "jieyun"
-      ],
-      "appellation": "Jieyun"
-    },
-    "code": null,
-    "code_name": "Jieyun"
-  },
   "char_341_sntlla": {
     "zh_CN": {
       "enabled": true,
@@ -18869,23 +19336,6 @@
     },
     "code": null,
     "code_name": "Santalla"
-  },
-  "char_493_firwhl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "火哨",
-      "skills": [
-        "野火",
-        "焦土"
-      ],
-      "alias": [
-        "huo shao",
-        "huoshao"
-      ],
-      "appellation": "Firewhistle"
-    },
-    "code": null,
-    "code_name": "Firewhistle"
   },
   "char_464_cement": {
     "zh_CN": {
@@ -19027,24 +19477,6 @@
     "code": null,
     "code_name": "Ho'olheyak"
   },
-  "char_4080_lin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "林",
-      "skills": [
-        "玲珑",
-        "荫庇",
-        "流光乍裂"
-      ],
-      "alias": [
-        "lin",
-        "lin"
-      ],
-      "appellation": "Lin"
-    },
-    "code": null,
-    "code_name": "Lin"
-  },
   "char_1031_slent2": {
     "zh_CN": {
       "enabled": true,
@@ -19081,23 +19513,41 @@
     "code": null,
     "code_name": "Kirin X Yato"
   },
-  "char_2024_chyue": {
+  "char_1033_swire2": {
     "zh_CN": {
       "enabled": true,
-      "name": "重岳",
+      "name": "琳琅诗怀雅",
       "skills": [
-        "冲盈",
-        "拂尘",
-        "我无"
+        "仗义疏财",
+        "“见面礼”",
+        "千金一掷"
       ],
       "alias": [
-        "zhong yue",
-        "zhongyue"
+        "lin lang shi huai ya",
+        "linlangshihuaiya"
       ],
-      "appellation": "Chongyue"
+      "appellation": "Swire the Elegant Wit"
     },
     "code": null,
-    "code_name": "Chongyue"
+    "code_name": "Swire the Elegant Wit"
+  },
+  "char_1016_agoat2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "纯烬艾雅法拉",
+      "skills": [
+        "无声润物",
+        "云霭荫佑",
+        "火山回响"
+      ],
+      "alias": [
+        "chun jin ai ya fa la",
+        "chunjinaiyafala"
+      ],
+      "appellation": "Eyjafjalla the Hvít Aska"
+    },
+    "code": null,
+    "code_name": "Eyjafjalla the Hvít Aska"
   },
   "char_4082_qiubai": {
     "zh_CN": {
@@ -19171,47 +19621,23 @@
     "code": null,
     "code_name": "Flowing Shape"
   },
-  "trap_096_gflag": {
+  "token_10031_swire2_gdtrap": {
     "zh_CN": {
       "enabled": true,
-      "name": "山海密语仪",
-      "skills": [],
-      "alias": [
-        "shan hai mi yu yi",
-        "shanhaimiyuyi"
+      "name": "香槟炸弹",
+      "skills": [
+        "",
+        "“见面礼”",
+        ""
       ],
-      "appellation": "Cryptographic Transmitter"
+      "alias": [
+        "xiang bin zha dan",
+        "xiangbinzhadan"
+      ],
+      "appellation": "Champagne Bomb"
     },
     "code": null,
-    "code_name": "Cryptographic Transmitter"
-  },
-  "trap_097_hstone": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "城防路障",
-      "skills": [],
-      "alias": [
-        "cheng fang lu zhang",
-        "chengfangluzhang"
-      ],
-      "appellation": "Defence Roadblock"
-    },
-    "code": null,
-    "code_name": "Defence Roadblock"
-  },
-  "trap_103_ymdgct": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "地形增伤控制",
-      "skills": [],
-      "alias": [
-        "di xing zeng shang kong zhi",
-        "dixingzengshangkongzhi"
-      ],
-      "appellation": "Mire Controller"
-    },
-    "code": null,
-    "code_name": "Mire Controller"
+    "code_name": "Champagne Bomb"
   },
   "trap_099_mhflsb": {
     "zh_CN": {
@@ -20287,5 +20713,37 @@
     },
     "code": null,
     "code_name": "Portable Medical Equipment"
+  },
+  "trap_122_stmpq": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "景观喷泉",
+      "skills": [
+        "景观喷泉"
+      ],
+      "alias": [
+        "jing guan pen quan",
+        "jingguanpenquan"
+      ],
+      "appellation": "Scenery Geyser"
+    },
+    "code": null,
+    "code_name": "Scenery Geyser"
+  },
+  "trap_123_stmbot": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "水汽汽水瓶",
+      "skills": [
+        "水汽汽水瓶"
+      ],
+      "alias": [
+        "shui qi qi shui ping",
+        "shuiqiqishuiping"
+      ],
+      "appellation": "Vapor Case"
+    },
+    "code": null,
+    "code_name": "Vapor Case"
   }
 }
