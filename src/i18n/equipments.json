@@ -3539,5 +3539,54 @@
       "enabled": true,
       "name": "恶地奇异工具套组"
     }
+  },
+  "uniequip_002_ncdeer": {
+    "char_id": "char_4019_ncdeer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“仙药”"
+    }
+  },
+  "uniequip_002_slent2": {
+    "char_id": "char_1031_slent2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "难得清醒"
+    }
+  },
+  "uniequip_002_tknogi": {
+    "char_id": "char_343_tknogi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "胧夜微明"
+    }
+  },
+  "uniequip_002_quercu": {
+    "char_id": "char_492_quercu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "锈枝"
+    }
+  },
+  "uniequip_002_almond": {
+    "char_id": "char_4105_almond",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“毕业设计”"
+    }
+  },
+  "uniequip_003_chen": {
+    "char_id": "char_010_chen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "往昔时光"
+    }
+  },
+  "uniequip_003_saga": {
+    "char_id": "char_362_saga",
+    "zh_CN": {
+      "enabled": true,
+      "name": "何处寻驮？"
+    }
   }
 }

@@ -4455,6 +4455,52 @@
     "code": "ayerscarpe",
     "code_name": "Ayerscarpe"
   },
+  "char_4083_chimes": {
+    "en_US": {
+      "enabled": true,
+      "name": "Wind Chimes",
+      "skills": [
+        "ATK Up γ",
+        "Longing for Home"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウィンドチャイム",
+      "skills": [
+        "攻撃力強化γ",
+        "郷思の念"
+      ],
+      "alias": [
+        "うぃんどちゃいむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "윈드차임스",
+      "skills": [
+        "공격 강화γ",
+        "고향의 그리움"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "铎铃",
+      "skills": [
+        "攻击力强化·γ型",
+        "乡心无改"
+      ],
+      "alias": [
+        "duo ling",
+        "duoling"
+      ],
+      "appellation": "Wind Chimes"
+    },
+    "code": "wind chimes",
+    "code_name": "Wind Chimes"
+  },
   "char_252_bibeak": {
     "en_US": {
       "enabled": true,
@@ -11955,6 +12001,56 @@
     "code": "thorns",
     "code_name": "Thorns"
   },
+  "char_4082_qiubai": {
+    "en_US": {
+      "enabled": true,
+      "name": "Qiubai",
+      "skills": [
+        "Halting Feather",
+        "Holding Shadow",
+        "Questioning Snow"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チューバイ",
+      "skills": [
+        "留羽",
+        "承影",
+        "問雪"
+      ],
+      "alias": [
+        "ちゅーばい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "치우바이",
+      "skills": [
+        "깃털을 남기다",
+        "그림자를 잡다",
+        "눈에 묻다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "仇白",
+      "skills": [
+        "留羽",
+        "承影",
+        "问雪"
+      ],
+      "alias": [
+        "chou bai",
+        "choubai"
+      ],
+      "appellation": "Qiubai"
+    },
+    "code": "qiubai",
+    "code_name": "Qiubai"
+  },
   "char_010_chen": {
     "en_US": {
       "enabled": true,
@@ -19269,23 +19365,6 @@
     "code": null,
     "code_name": "Morgan"
   },
-  "char_4083_chimes": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "铎铃",
-      "skills": [
-        "攻击力强化·γ型",
-        "乡心无改"
-      ],
-      "alias": [
-        "duo ling",
-        "duoling"
-      ],
-      "appellation": "Wind Chimes"
-    },
-    "code": null,
-    "code_name": "Wind Chimes"
-  },
   "char_1030_noirc2": {
     "zh_CN": {
       "enabled": true,
@@ -19371,6 +19450,23 @@
     "code": null,
     "code_name": "Melanite"
   },
+  "char_4104_coldst": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "冰酿",
+      "skills": [
+        "攻击力强化·γ型",
+        "酣醉之夜"
+      ],
+      "alias": [
+        "bing niang",
+        "bingniang"
+      ],
+      "appellation": "Coldshot"
+    },
+    "code": null,
+    "code_name": "Coldshot"
+  },
   "char_4015_spuria": {
     "zh_CN": {
       "enabled": true,
@@ -19387,6 +19483,23 @@
     },
     "code": null,
     "code_name": "Spuria"
+  },
+  "char_4105_almond": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "杏仁",
+      "skills": [
+        "磁力抓取",
+        "强力牵引"
+      ],
+      "alias": [
+        "xing ren",
+        "xingren"
+      ],
+      "appellation": "Almond"
+    },
+    "code": null,
+    "code_name": "Almond"
   },
   "char_4102_threye": {
     "zh_CN": {
@@ -19498,20 +19611,20 @@
   "char_1029_yato2": {
     "zh_CN": {
       "enabled": true,
-      "name": "麒麟X夜刀",
+      "name": "麒麟R夜刀",
       "skills": [
         "鬼人化",
         "乱舞",
         "空中回旋乱舞"
       ],
       "alias": [
-        "qi lin X ye dao",
-        "qilinXyedao"
+        "qi lin R ye dao",
+        "qilinRyedao"
       ],
-      "appellation": "Kirin X Yato"
+      "appellation": "Kirin R Yato"
     },
     "code": null,
-    "code_name": "Kirin X Yato"
+    "code_name": "Kirin R Yato"
   },
   "char_1033_swire2": {
     "zh_CN": {
@@ -19549,23 +19662,23 @@
     "code": null,
     "code_name": "Eyjafjalla the Hvít Aska"
   },
-  "char_4082_qiubai": {
+  "char_1034_jesca2": {
     "zh_CN": {
       "enabled": true,
-      "name": "仇白",
+      "name": "涤火杰西卡",
       "skills": [
-        "留羽",
-        "承影",
-        "问雪"
+        "坚守阵线",
+        "掩蔽护卫",
+        "饱和迸射"
       ],
       "alias": [
-        "chou bai",
-        "choubai"
+        "di huo jie xi ka",
+        "dihuojiexika"
       ],
-      "appellation": "Qiubai"
+      "appellation": "Jessica the Liberated"
     },
     "code": null,
-    "code_name": "Qiubai"
+    "code_name": "Jessica the Liberated"
   },
   "char_1032_excu2": {
     "zh_CN": {
@@ -19638,6 +19751,24 @@
     },
     "code": null,
     "code_name": "Champagne Bomb"
+  },
+  "token_10032_jesca2_jckshd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "机动盾牌",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "ji dong dun pai",
+        "jidongdunpai"
+      ],
+      "appellation": "Mobile personnel shield"
+    },
+    "code": null,
+    "code_name": "Mobile personnel shield"
   },
   "trap_099_mhflsb": {
     "zh_CN": {
@@ -20714,6 +20845,196 @@
     "code": null,
     "code_name": "Portable Medical Equipment"
   },
+  "trap_723_cdcvrt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "溢能回收转化器",
+      "skills": [
+        "溢能回收"
+      ],
+      "alias": [
+        "yi neng hui shou zhuan hua qi",
+        "yinenghuishouzhuanhuaqi"
+      ],
+      "appellation": "Overflow Recovery Converter"
+    },
+    "code": null,
+    "code_name": "Overflow Recovery Converter"
+  },
+  "trap_724_cdcvrta": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "溢能回收转化器",
+      "skills": [
+        "溢能回收"
+      ],
+      "alias": [
+        "yi neng hui shou zhuan hua qi",
+        "yinenghuishouzhuanhuaqi"
+      ],
+      "appellation": "Hyperclock Converter Module"
+    },
+    "code": null,
+    "code_name": "Hyperclock Converter Module"
+  },
+  "trap_725_cdcvrtb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "溢能回收转化器",
+      "skills": [
+        "溢能回收"
+      ],
+      "alias": [
+        "yi neng hui shou zhuan hua qi",
+        "yinenghuishouzhuanhuaqi"
+      ],
+      "appellation": "Concentrator Recoverer Module"
+    },
+    "code": null,
+    "code_name": "Concentrator Recoverer Module"
+  },
+  "trap_726_cdrone": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "战地援护无人机",
+      "skills": [
+        "战地援护"
+      ],
+      "alias": [
+        "zhan di yuan hu wu ren ji",
+        "zhandiyuanhuwurenji"
+      ],
+      "appellation": "Field Supporting Drone"
+    },
+    "code": null,
+    "code_name": "Field Supporting Drone"
+  },
+  "trap_727_cdronea": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "战地援护无人机",
+      "skills": [
+        "战地援护"
+      ],
+      "alias": [
+        "zhan di yuan hu wu ren ji",
+        "zhandiyuanhuwurenji"
+      ],
+      "appellation": "Targeted Renewal Agent"
+    },
+    "code": null,
+    "code_name": "Targeted Renewal Agent"
+  },
+  "trap_728_cdroneb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "战地援护无人机",
+      "skills": [
+        "战地援护"
+      ],
+      "alias": [
+        "zhan di yuan hu wu ren ji",
+        "zhandiyuanhuwurenji"
+      ],
+      "appellation": "Receptor Stimulating Agent"
+    },
+    "code": null,
+    "code_name": "Receptor Stimulating Agent"
+  },
+  "trap_729_cdkzmr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "竞技记录分析仪",
+      "skills": [
+        "竞技记录分析"
+      ],
+      "alias": [
+        "jing ji ji lu fen xi yi",
+        "jingjijilufenxiyi"
+      ],
+      "appellation": "Tournamental Analyzer"
+    },
+    "code": null,
+    "code_name": "Tournamental Analyzer"
+  },
+  "trap_733_cdkzmra": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "竞技记录分析仪",
+      "skills": [
+        "竞技记录分析"
+      ],
+      "alias": [
+        "jing ji ji lu fen xi yi",
+        "jingjijilufenxiyi"
+      ],
+      "appellation": "Complex Arithmetic Component"
+    },
+    "code": null,
+    "code_name": "Complex Arithmetic Component"
+  },
+  "trap_734_cdkzmrb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "竞技记录分析仪",
+      "skills": [
+        "竞技记录分析"
+      ],
+      "alias": [
+        "jing ji ji lu fen xi yi",
+        "jingjijilufenxiyi"
+      ],
+      "appellation": "Data Allocating Component"
+    },
+    "code": null,
+    "code_name": "Data Allocating Component"
+  },
+  "trap_730_truamr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“甜蜜狂搅”",
+      "skills": [
+        "“甜蜜狂搅”"
+      ],
+      "alias": [
+        "“ tian mi kuang jiao ”",
+        "“tianmikuangjiao”"
+      ],
+      "appellation": "\"Supersweetie™ Superblend\""
+    },
+    "code": null,
+    "code_name": "\"Supersweetie™ Superblend\""
+  },
+  "trap_735_platre": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "汲取体",
+      "skills": [],
+      "alias": [
+        "ji qu ti",
+        "jiquti"
+      ],
+      "appellation": "Absorber Limb"
+    },
+    "code": null,
+    "code_name": "Absorber Limb"
+  },
+  "trap_732_ltnova": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "神经再生",
+      "skills": [
+        "神经再生"
+      ],
+      "alias": [
+        "shen jing zai sheng",
+        "shenjingzaisheng"
+      ],
+      "appellation": "Neuronal Revival"
+    },
+    "code": null,
+    "code_name": "Neuronal Revival"
+  },
   "trap_122_stmpq": {
     "zh_CN": {
       "enabled": true,
@@ -20745,5 +21066,21 @@
     },
     "code": null,
     "code_name": "Vapor Case"
+  },
+  "trap_124_eradio": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "废热喷口",
+      "skills": [
+        "喷气散热"
+      ],
+      "alias": [
+        "fei re pen kou",
+        "feirepenkou"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
   }
 }
