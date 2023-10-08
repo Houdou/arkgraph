@@ -3136,6 +3136,18 @@
   },
   "uniequip_002_weedy": {
     "char_id": "char_400_weedy",
+    "en_US": {
+      "enabled": true,
+      "name": "Custom Bionic Seadragon"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "改良型シードラゴン"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시드래곤 개량형"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "仿生海龙改型"
@@ -3143,6 +3155,18 @@
   },
   "uniequip_002_forcer": {
     "char_id": "char_4036_forcer",
+    "en_US": {
+      "enabled": true,
+      "name": "Heaven, Here, Now"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "夢の「執行」計画"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "실행 가능한 환상"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "可执行的幻想"
@@ -3150,6 +3174,18 @@
   },
   "uniequip_002_panda": {
     "char_id": "char_241_panda",
+    "en_US": {
+      "enabled": true,
+      "name": "Shangshu-Style Homemade Chili Sauce"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "尚蜀風手作りラー油"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "직접 만든 상촉 핫소스"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "尚蜀风味自制辣酱"
@@ -3157,6 +3193,18 @@
   },
   "uniequip_002_sqrrel": {
     "char_id": "char_277_sqrrel",
+    "en_US": {
+      "enabled": true,
+      "name": "Customized Firefighting Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "特注の防火服"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "커스터마이징 방화복"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "客制化防火服"
@@ -3164,6 +3212,18 @@
   },
   "uniequip_002_ifrit": {
     "char_id": "char_134_ifrit",
+    "en_US": {
+      "enabled": true,
+      "name": "'Syntexis'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「シンテクシス」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'융합'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“同熔”"
@@ -3171,6 +3231,18 @@
   },
   "uniequip_002_serum": {
     "char_id": "char_489_serum",
+    "en_US": {
+      "enabled": true,
+      "name": "Unerasable"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "消し去れぬもの"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "말소 불가"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "无可抹消"
@@ -3178,6 +3250,18 @@
   },
   "uniequip_002_yato2": {
     "char_id": "char_1029_yato2",
+    "en_US": {
+      "enabled": true,
+      "name": "Training Dummy"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "訓練用の木柱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "훈련용 말뚝"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "训练用木桩"
@@ -3185,6 +3269,18 @@
   },
   "uniequip_002_noirc2": {
     "char_id": "char_1030_noirc2",
+    "en_US": {
+      "enabled": true,
+      "name": "Noir Corne's Personal Notes"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ノイルホーンのメモ帳"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "느와르 코르네의 휴대용 노트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "黑角的随身笔记"
@@ -3192,6 +3288,18 @@
   },
   "uniequip_003_shining": {
     "char_id": "char_147_shining",
+    "en_US": {
+      "enabled": true,
+      "name": "'Followers'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「使徒」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'사도'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“使徒”"
@@ -3199,6 +3307,18 @@
   },
   "uniequip_003_siege": {
     "char_id": "char_112_siege",
+    "en_US": {
+      "enabled": true,
+      "name": "'Thy First Vow'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「誓い」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'첫 승낙'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“初诺”"
@@ -3587,6 +3707,55 @@
     "zh_CN": {
       "enabled": true,
       "name": "何处寻驮？"
+    }
+  },
+  "uniequip_002_horn": {
+    "char_id": "char_4039_horn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“典范之人”"
+    }
+  },
+  "uniequip_002_firwhl": {
+    "char_id": "char_493_firwhl",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“成长的足迹”"
+    }
+  },
+  "uniequip_002_ashlok": {
+    "char_id": "char_431_ashlok",
+    "zh_CN": {
+      "enabled": true,
+      "name": "出门必备套装"
+    }
+  },
+  "uniequip_002_delphn": {
+    "char_id": "char_4110_delphn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "正义黯淡"
+    }
+  },
+  "uniequip_002_vrdant": {
+    "char_id": "char_4107_vrdant",
+    "zh_CN": {
+      "enabled": true,
+      "name": "密林撷萃"
+    }
+  },
+  "uniequip_003_phenxi": {
+    "char_id": "char_300_phenxi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "漫长的旅途"
+    }
+  },
+  "uniequip_004_ebnhlz": {
+    "char_id": "char_4046_ebnhlz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "朽坏传承"
     }
   }
 }

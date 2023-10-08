@@ -135,6 +135,40 @@
     "code": "'justice knight'",
     "code_name": "\"Justice Knight\""
   },
+  "char_4077_palico": {
+    "en_US": {
+      "enabled": true,
+      "name": "Terra Research Commission",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "テラ大陸調査団",
+      "skills": [],
+      "alias": [
+        "てら大陸調査団"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "테라 대륙 조사단",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "泰拉大陆调查团",
+      "skills": [],
+      "alias": [
+        "tai la da lu tiao cha tuan",
+        "tailadalutiaochatuan"
+      ],
+      "appellation": "Terra Research Commission"
+    },
+    "code": "terra research commission",
+    "code_name": "Terra Research Commission"
+  },
   "char_502_nblade": {
     "en_US": {
       "enabled": true,
@@ -4822,6 +4856,52 @@
     },
     "code": "akafuyu",
     "code_name": "Akafuyu"
+  },
+  "char_1030_noirc2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rathalos S Noir Corne",
+      "skills": [
+        "Iai Spirit Slash",
+        "Spirit Helm Breaker"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レウスSノイルホーン",
+      "skills": [
+        "居合抜刀気刃斬り",
+        "気刃兜割り"
+      ],
+      "alias": [
+        "れうすSのいるほーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레우스S 느와르 코르네",
+      "skills": [
+        "앉아발도 기인베기",
+        "기인 투구 깨기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "火龙S黑角",
+      "skills": [
+        "居合拔刀气刃斩",
+        "气刃兜割"
+      ],
+      "alias": [
+        "huo long S hei jiao",
+        "huolongSheijiao"
+      ],
+      "appellation": "Rathalos S Noir Corne"
+    },
+    "code": "rathalos s noir corne",
+    "code_name": "Rathalos S Noir Corne"
   },
   "char_421_crow": {
     "en_US": {
@@ -10800,6 +10880,56 @@
     },
     "code": "texas the omertosa",
     "code_name": "Texas the Omertosa"
+  },
+  "char_1029_yato2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Kirin R Yato",
+      "skills": [
+        "Demon Mode",
+        "Blade Dance",
+        "Midair Spinning Blade Dance"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "キリンRヤトウ",
+      "skills": [
+        "鬼人化",
+        "乱舞",
+        "空中回転乱舞"
+      ],
+      "alias": [
+        "きりんRやとう"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "키린R 야토",
+      "skills": [
+        "귀인화",
+        "난무",
+        "공중 회전난무"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "麒麟R夜刀",
+      "skills": [
+        "鬼人化",
+        "乱舞",
+        "空中回旋乱舞"
+      ],
+      "alias": [
+        "qi lin R ye dao",
+        "qilinRyedao"
+      ],
+      "appellation": "Kirin R Yato"
+    },
+    "code": "kirin r yato",
+    "code_name": "Kirin R Yato"
   },
   "char_322_lmlee": {
     "en_US": {
@@ -17990,7 +18120,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "구급키드",
+      "name": "구급키트",
       "skills": [
         "응급처치"
       ],
@@ -18578,6 +18708,216 @@
     },
     "code": "mire controller",
     "code_name": "Mire Controller"
+  },
+  "trap_099_mhflsb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Flash Grenade",
+      "skills": [
+        "Flash Grenade"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "閃光爆弾",
+      "skills": [
+        "閃光爆弾"
+      ],
+      "alias": [
+        "閃光爆弾"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "섬광 폭탄",
+      "skills": [
+        "섬광 폭탄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "眩光手雷",
+      "skills": [
+        "眩光手雷"
+      ],
+      "alias": [
+        "xuan guang shou lei",
+        "xuanguangshoulei"
+      ],
+      "appellation": "Flash Grenade"
+    },
+    "code": "flash grenade",
+    "code_name": "Flash Grenade"
+  },
+  "trap_100_mhlbmb": {
+    "en_US": {
+      "enabled": true,
+      "name": "High-Energy Originium Barrel Bomb",
+      "skills": [
+        "High-Energy Originium Barrel Bomb"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "源石タル爆弾",
+      "skills": [
+        "源石タル爆弾"
+      ],
+      "alias": [
+        "源石たる爆弾"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오리지늄 폭약통",
+      "skills": [
+        "오리지늄 폭약통"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "高能源石爆桶",
+      "skills": [
+        "高能源石爆桶"
+      ],
+      "alias": [
+        "gao neng yuan shi bao tong",
+        "gaonengyuanshibaotong"
+      ],
+      "appellation": "Originium Barrel Bomb"
+    },
+    "code": "high-energy originium barrel bomb",
+    "code_name": "Originium Barrel Bomb"
+  },
+  "trap_101_mhshok": {
+    "en_US": {
+      "enabled": true,
+      "name": "High-Voltage Shock Trap",
+      "skills": [
+        "High-Voltage Shock Trap"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "高電圧シビレ罠",
+      "skills": [
+        "高電圧シビレ罠"
+      ],
+      "alias": [
+        "高電圧しびれ罠"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고압 펄스 트랩",
+      "skills": [
+        "고압 펄스 트랩"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "高压脉冲诡雷",
+      "skills": [
+        "高压脉冲诡雷"
+      ],
+      "alias": [
+        "gao ya mai chong gui lei",
+        "gaoyamaichongguilei"
+      ],
+      "appellation": "High-voltage Shock Trap"
+    },
+    "code": "high-voltage shock trap",
+    "code_name": "High-voltage Shock Trap"
+  },
+  "trap_102_mhwrbg": {
+    "en_US": {
+      "enabled": true,
+      "name": "Wiredrone",
+      "skills": [
+        "Wiredrone"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "滞空牽引ドローン",
+      "skills": [
+        "滞空牽引ドローン"
+      ],
+      "alias": [
+        "滞空牽引どろーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공중 견인 드론",
+      "skills": [
+        "공중 견인 드론"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "滞空牵引无人机",
+      "skills": [
+        "滞空牵引无人机"
+      ],
+      "alias": [
+        "zhi kong qian yin wu ren ji",
+        "zhikongqianyinwurenji"
+      ],
+      "appellation": "Wiredrone"
+    },
+    "code": "wiredrone",
+    "code_name": "Wiredrone"
+  },
+  "trap_105_mhwrct": {
+    "en_US": {
+      "enabled": true,
+      "name": "Wiredrone",
+      "skills": [
+        "Wiredrone"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "滞空牽引ドローン",
+      "skills": [
+        "滞空牽引ドローン"
+      ],
+      "alias": [
+        "滞空牽引どろーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공중 견인 드론",
+      "skills": [
+        "공중 견인 드론"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "滞空牵引无人机",
+      "skills": [
+        "滞空牵引无人机"
+      ],
+      "alias": [
+        "zhi kong qian yin wu ren ji",
+        "zhikongqianyinwurenji"
+      ],
+      "appellation": "Wiredrone"
+    },
+    "code": "wiredrone",
+    "code_name": "Wiredrone"
   },
   "trap_104_dplant": {
     "en_US": {
@@ -19209,6 +19549,1572 @@
     "code": "shoddy flashbang",
     "code_name": "Defective Stun Grenade"
   },
+  "trap_400_xbfarm": {
+    "en_US": {
+      "enabled": true,
+      "name": "Portable Planting Trough",
+      "skills": [
+        "Plant Rice"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "栽培ポット",
+      "skills": [
+        "田植え"
+      ],
+      "alias": [
+        "栽培ぽっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "간이 재배용기",
+      "skills": [
+        "벼 재배"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携式种植槽",
+      "skills": [
+        "稻谷种植"
+      ],
+      "alias": [
+        "bian xie shi zhong zhi cao",
+        "bianxieshizhongzhicao"
+      ],
+      "appellation": "Portable Planting Trough"
+    },
+    "code": "portable planting trough",
+    "code_name": "Portable Planting Trough"
+  },
+  "trap_404_xbfortress": {
+    "en_US": {
+      "enabled": true,
+      "name": "Firm Platform",
+      "skills": [
+        "Build Tower"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "堅牢な台",
+      "skills": [
+        "高台設置"
+      ],
+      "alias": [
+        "堅牢な台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "견고한 플랫폼",
+      "skills": [
+        "플랫폼 구축"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "坚固筑台",
+      "skills": [
+        "搭建高台"
+      ],
+      "alias": [
+        "jian gu zhu tai",
+        "jianguzhutai"
+      ],
+      "appellation": "Firm Platform"
+    },
+    "code": "firm platform",
+    "code_name": "Firm Platform"
+  },
+  "trap_405_xbroadblock": {
+    "en_US": {
+      "enabled": true,
+      "name": "Urban Style Barrier",
+      "skills": [
+        "Block Road"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "都市様式障壁",
+      "skills": [
+        "道路封鎖"
+      ],
+      "alias": [
+        "都市様式障壁"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "도시용 방벽",
+      "skills": [
+        "도로 차단"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "都市风壁障",
+      "skills": [
+        "阻断道路"
+      ],
+      "alias": [
+        "du shi feng bi zhang",
+        "dushifengbizhang"
+      ],
+      "appellation": "Urban Style Barrier"
+    },
+    "code": "urban style barrier",
+    "code_name": "Urban Style Barrier"
+  },
+  "trap_406_xboverwatch": {
+    "en_US": {
+      "enabled": true,
+      "name": "Monitoring Tower",
+      "skills": [
+        "Monitor"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "監視塔",
+      "skills": [
+        "モニタリング"
+      ],
+      "alias": [
+        "監視塔"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "감시탑",
+      "skills": [
+        "감시"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "监控塔",
+      "skills": [
+        "监控"
+      ],
+      "alias": [
+        "jian kong ta",
+        "jiankongta"
+      ],
+      "appellation": "Monitoring Tower"
+    },
+    "code": "monitoring tower",
+    "code_name": "Monitoring Tower"
+  },
+  "trap_408_xbbase": {
+    "en_US": {
+      "enabled": true,
+      "name": "Base",
+      "skills": [
+        "Energy Facility"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "基地",
+      "skills": [
+        "動力設備"
+      ],
+      "alias": [
+        "基地"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기지",
+      "skills": [
+        "에너지 시설"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "基地",
+      "skills": [
+        "能源设备"
+      ],
+      "alias": [
+        "ji di",
+        "jidi"
+      ],
+      "appellation": "Base"
+    },
+    "code": "base",
+    "code_name": "Base"
+  },
+  "trap_409_xbwood": {
+    "en_US": {
+      "enabled": true,
+      "name": "Thickets",
+      "skills": [
+        "Harvestable"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "雑木林",
+      "skills": [
+        "採掘可能"
+      ],
+      "alias": [
+        "雑木林"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "잡목림",
+      "skills": [
+        "채집 가능"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "杂木林",
+      "skills": [
+        "可供开采"
+      ],
+      "alias": [
+        "za mu lin",
+        "zamulin"
+      ],
+      "appellation": "Thicket"
+    },
+    "code": "thickets",
+    "code_name": "Thicket"
+  },
+  "trap_410_xbstone": {
+    "en_US": {
+      "enabled": true,
+      "name": "Monoliths",
+      "skills": [
+        "Harvestable"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "巨大な岩",
+      "skills": [
+        "採掘可能"
+      ],
+      "alias": [
+        "巨大な岩"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "거대한 암석",
+      "skills": [
+        "채집 가능"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "巨大岩石",
+      "skills": [
+        "可供开采"
+      ],
+      "alias": [
+        "ju da yan shi",
+        "judayanshi"
+      ],
+      "appellation": "Monolith"
+    },
+    "code": "monoliths",
+    "code_name": "Monolith"
+  },
+  "trap_411_xbiron": {
+    "en_US": {
+      "enabled": true,
+      "name": "Strange Ore Vein",
+      "skills": [
+        "Harvestable"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レアな鉱脈",
+      "skills": [
+        "採掘可能"
+      ],
+      "alias": [
+        "れあな鉱脈"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기이한 광맥",
+      "skills": [
+        "채집 가능"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "奇异矿脉",
+      "skills": [
+        "可供开采"
+      ],
+      "alias": [
+        "qi yi kuang mai",
+        "qiyikuangmai"
+      ],
+      "appellation": "Strange Ore Vein"
+    },
+    "code": "strange ore vein",
+    "code_name": "Strange Ore Vein"
+  },
+  "trap_412_redtower": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mobile Battle Tower",
+      "skills": [
+        "Transport Enemy"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "可動式戦術塔",
+      "skills": [
+        "敵部隊運送"
+      ],
+      "alias": [
+        "可動式戦術塔"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동식 전투 탑",
+      "skills": [
+        "적 수송"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "移动战塔",
+      "skills": [
+        "敌方人员运送"
+      ],
+      "alias": [
+        "yi dong zhan ta",
+        "yidongzhanta"
+      ],
+      "appellation": "Mobile Battle Tower"
+    },
+    "code": "mobile battle tower",
+    "code_name": "Mobile Battle Tower"
+  },
+  "trap_413_hiddenstone": {
+    "en_US": {
+      "enabled": true,
+      "name": "Historical Remains",
+      "skills": [
+        "Destructible"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "遺跡の残骸",
+      "skills": [
+        "撃破可能"
+      ],
+      "alias": [
+        "遺跡の残骸"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "유적지 잔해",
+      "skills": [
+        "격파 가능"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "遗迹残骸",
+      "skills": [
+        "可被击破"
+      ],
+      "alias": [
+        "yi ji can hai",
+        "yijicanhai"
+      ],
+      "appellation": "Historical Remains"
+    },
+    "code": "historical remains",
+    "code_name": "Historical Remains"
+  },
+  "trap_414_vegetation": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bush",
+      "skills": [
+        "Harvestable"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "茂み",
+      "skills": [
+        "採掘可能"
+      ],
+      "alias": [
+        "茂み"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "관목림",
+      "skills": [
+        "채집 가능"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "灌木丛",
+      "skills": [
+        "可供开采"
+      ],
+      "alias": [
+        "guan mu cong",
+        "guanmucong"
+      ],
+      "appellation": "Bush"
+    },
+    "code": "bush",
+    "code_name": "Bush"
+  },
+  "trap_416_gtreasure": {
+    "en_US": {
+      "enabled": true,
+      "name": "Buried Metal Chest",
+      "skills": [
+        "Destructible"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "埋もれた金属の箱",
+      "skills": [
+        "撃破可能"
+      ],
+      "alias": [
+        "埋もれた金属の箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파묻힌 금속 상자",
+      "skills": [
+        "격파 가능"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "埋没金属箱",
+      "skills": [
+        "可被击破"
+      ],
+      "alias": [
+        "mai mei jin shu xiang",
+        "maimeijinshuxiang"
+      ],
+      "appellation": "Buried Metal Chest"
+    },
+    "code": "buried metal chest",
+    "code_name": "Buried Metal Chest"
+  },
+  "trap_422_streasure": {
+    "en_US": {
+      "enabled": true,
+      "name": "Thorned Treasure Chest",
+      "skills": [
+        "Dangerous Spike"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "棘の生えた金属の箱",
+      "skills": [
+        "危険な棘"
+      ],
+      "alias": [
+        "棘の生えた金属の箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가시 돋은 보물 상자",
+      "skills": [
+        "위험한 가시"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "宝刺金属箱",
+      "skills": [
+        "宝刺伤人"
+      ],
+      "alias": [
+        "bao ci jin shu xiang",
+        "baocijinshuxiang"
+      ],
+      "appellation": "Thorned Treasure Chest"
+    },
+    "code": "thorned treasure chest",
+    "code_name": "Thorned Treasure Chest"
+  },
+  "trap_423_bondtw": {
+    "en_US": {
+      "enabled": true,
+      "name": "Trap Net Launcher",
+      "skills": [
+        "Fire Net"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "捕縛網発射台",
+      "skills": [
+        "捕縛網発射"
+      ],
+      "alias": [
+        "捕縛網発射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그물 발사대",
+      "skills": [
+        "그물 발사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "缚网发射台",
+      "skills": [
+        "发射缚网"
+      ],
+      "alias": [
+        "fu wang fa she tai",
+        "fuwangfashetai"
+      ],
+      "appellation": "Trap Net Launcher"
+    },
+    "code": "trap net launcher",
+    "code_name": "Trap Net Launcher"
+  },
+  "trap_424_pushtw": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gas Jet Thrower",
+      "skills": [
+        "Air Burst"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "噴射式強制移動機",
+      "skills": [
+        "ガス噴射"
+      ],
+      "alias": [
+        "噴射式強制移動機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가스 분사기",
+      "skills": [
+        "가스 분사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "喷拒器",
+      "skills": [
+        "气体爆喷"
+      ],
+      "alias": [
+        "pen ju qi",
+        "penjuqi"
+      ],
+      "appellation": "Gas Jet Thrower"
+    },
+    "code": "gas jet thrower",
+    "code_name": "Gas Jet Thrower"
+  },
+  "trap_425_xbwall": {
+    "en_US": {
+      "enabled": true,
+      "name": "Fortification",
+      "skills": [
+        "Defensive Support"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "防御施設",
+      "skills": [
+        "防衛の要"
+      ],
+      "alias": [
+        "防御施設"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방어 공사",
+      "skills": [
+        "방어 지원"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "防御工事",
+      "skills": [
+        "防御支撑"
+      ],
+      "alias": [
+        "fang yu gong shi",
+        "fangyugongshi"
+      ],
+      "appellation": "Fortification"
+    },
+    "code": "fortification",
+    "code_name": "Fortification"
+  },
+  "trap_426_xbmrcl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Modular Computing Station",
+      "skills": [
+        "Computation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "モジュラー演算所",
+      "skills": [
+        "演算"
+      ],
+      "alias": [
+        "もじゅらー演算所"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모듈 연산 시설",
+      "skills": [
+        "연산"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "模块演算设施",
+      "skills": [
+        "演算"
+      ],
+      "alias": [
+        "mo kuai yan suan she shi",
+        "mokuaiyansuansheshi"
+      ],
+      "appellation": "Modular Computing Station"
+    },
+    "code": "modular computing station",
+    "code_name": "Modular Computing Station"
+  },
+  "trap_427_xbprsh": {
+    "en_US": {
+      "enabled": true,
+      "name": "Resource Planning Station",
+      "skills": [
+        "Resource Planning"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "資源計画所",
+      "skills": [
+        "資源計画"
+      ],
+      "alias": [
+        "資源計画所"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "자원 계획 스테이션",
+      "skills": [
+        "자원 계획"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "资源规划站",
+      "skills": [
+        "资源规划"
+      ],
+      "alias": [
+        "zi yuan gui hua zhan",
+        "ziyuanguihuazhan"
+      ],
+      "appellation": "Resource Planning Station"
+    },
+    "code": "resource planning station",
+    "code_name": "Resource Planning Station"
+  },
+  "trap_428_xblrsh": {
+    "en_US": {
+      "enabled": true,
+      "name": "Combat Readiness Station",
+      "skills": [
+        "Improve Personnel Status"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦闘計画所",
+      "skills": [
+        "戦闘計画改善"
+      ],
+      "alias": [
+        "戦闘計画所"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전투 준비 스테이션",
+      "skills": [
+        "컨디션 조절"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "备勤激活站",
+      "skills": [
+        "人员状态改善"
+      ],
+      "alias": [
+        "bei qin ji huo zhan",
+        "beiqinjihuozhan"
+      ],
+      "appellation": "Combat Readiness Station"
+    },
+    "code": "combat readiness station",
+    "code_name": "Combat Readiness Station"
+  },
+  "trap_429_xbescp": {
+    "en_US": {
+      "enabled": true,
+      "name": "Transregional Communication Station",
+      "skills": [
+        "Establish Communication"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "越境通信所",
+      "skills": [
+        "通信確立"
+      ],
+      "alias": [
+        "越境通信所"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지역 간 통신기지",
+      "skills": [
+        "통신 설정"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "跨地块通讯站",
+      "skills": [
+        "建立通讯"
+      ],
+      "alias": [
+        "kua di kuai tong xun zhan",
+        "kuadikuaitongxunzhan"
+      ],
+      "appellation": "Transregional Communication Station"
+    },
+    "code": "transregional communication station",
+    "code_name": "Transregional Communication Station"
+  },
+  "trap_430_wdescp": {
+    "en_US": {
+      "enabled": true,
+      "name": "Escape Route",
+      "skills": [
+        "Establish Communication"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "脱出地点",
+      "skills": [
+        "通信確立"
+      ],
+      "alias": [
+        "脱出地点"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "철수 포인트",
+      "skills": [
+        "통신 설정"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "逃脱点",
+      "skills": [
+        "建立通讯"
+      ],
+      "alias": [
+        "tao tuo dian",
+        "taotuodian"
+      ],
+      "appellation": "Escape Route"
+    },
+    "code": "escape route",
+    "code_name": "Escape Route"
+  },
+  "trap_431_xbgldn": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mint",
+      "skills": [
+        "Smelt"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "金床",
+      "skills": [
+        "鍛造"
+      ],
+      "alias": [
+        "金床"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "작업대",
+      "skills": [
+        "제련"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "冶铸台",
+      "skills": [
+        "冶铸"
+      ],
+      "alias": [
+        "ye zhu tai",
+        "yezhutai"
+      ],
+      "appellation": "Mint"
+    },
+    "code": "mint",
+    "code_name": "Mint"
+  },
+  "trap_401_xbfato": {
+    "en_US": {
+      "enabled": true,
+      "name": "Basic Gathering Hub",
+      "skills": [
+        "Gather"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "採取ロボ用基地",
+      "skills": [
+        "採取"
+      ],
+      "alias": [
+        "採取ろぼ用基地"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "초보자용 채집 허브",
+      "skills": [
+        "채집"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "采集实习站",
+      "skills": [
+        "采集"
+      ],
+      "alias": [
+        "cai ji shi xi zhan",
+        "caijishixizhan"
+      ],
+      "appellation": "Basic Harvester Hub"
+    },
+    "code": "basic gathering hub",
+    "code_name": "Basic Harvester Hub"
+  },
+  "trap_438_xbfato2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Advanced Gathering Hub",
+      "skills": [
+        "Gather"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スーパー採取ロボ用基地",
+      "skills": [
+        "採取"
+      ],
+      "alias": [
+        "すーぱー採取ろぼ用基地"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "숙련자용 채집 허브",
+      "skills": [
+        "채집"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "采集专员站",
+      "skills": [
+        "采集"
+      ],
+      "alias": [
+        "cai ji zhuan yuan zhan",
+        "caijizhuanyuanzhan"
+      ],
+      "appellation": "Premium Harvester Hub"
+    },
+    "code": "advanced gathering hub",
+    "code_name": "Premium Harvester Hub"
+  },
+  "trap_439_xbfato3": {
+    "en_US": {
+      "enabled": true,
+      "name": "Executive Gathering Hub",
+      "skills": [
+        "Gather"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハイパー採取ロボ用基地",
+      "skills": [
+        "採取"
+      ],
+      "alias": [
+        "はいぱー採取ろぼ用基地"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전문가용 채집 허브",
+      "skills": [
+        "채집"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "采集主任站",
+      "skills": [
+        "采集"
+      ],
+      "alias": [
+        "cai ji zhu ren zhan",
+        "caijizhurenzhan"
+      ],
+      "appellation": "Executive Harvester Hub"
+    },
+    "code": "executive gathering hub",
+    "code_name": "Executive Harvester Hub"
+  },
+  "trap_403_wfactory": {
+    "en_US": {
+      "enabled": true,
+      "name": "Crabbie Pumpie",
+      "skills": [
+        "Pump Water"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カニカニポンプ",
+      "skills": [
+        "水汲み"
+      ],
+      "alias": [
+        "かにかにぽんぷ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "메탈 크랩 펌프",
+      "skills": [
+        "펌핑"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "蟹蟹抽水泵",
+      "skills": [
+        "抽水"
+      ],
+      "alias": [
+        "xie xie chou shui beng",
+        "xiexiechoushuibeng"
+      ],
+      "appellation": "Crabbie Pumpie"
+    },
+    "code": "crabbie pumpie",
+    "code_name": "Crabbie Pumpie"
+  },
+  "trap_417_shielder": {
+    "en_US": {
+      "enabled": true,
+      "name": "Remote Shield Generator",
+      "skills": [
+        "Provide Shield"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シールドリモコン",
+      "skills": [
+        "シールド付与"
+      ],
+      "alias": [
+        "しーるどりもこん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "실드 컨트롤러",
+      "skills": [
+        "실드 제공"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "护盾遥控器",
+      "skills": [
+        "护盾提供"
+      ],
+      "alias": [
+        "hu dun yao kong qi",
+        "hudunyaokongqi"
+      ],
+      "appellation": "Remote Shield Controller"
+    },
+    "code": "remote shield generator",
+    "code_name": "Remote Shield Controller"
+  },
+  "trap_418_smokebomb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Hypnotic Censer",
+      "skills": [
+        "Release Incense"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "安眠のお香",
+      "skills": [
+        "惑いの香"
+      ],
+      "alias": [
+        "安眠のお香"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수면용 향",
+      "skills": [
+        "수면향 방출"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "安眠迷香",
+      "skills": [
+        "释放迷香"
+      ],
+      "alias": [
+        "an mian mi xiang",
+        "anmianmixiang"
+      ],
+      "appellation": "Hypnotic Censer"
+    },
+    "code": "hypnotic censer",
+    "code_name": "Hypnotic Censer"
+  },
+  "trap_419_enhancer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Refreshing Potion",
+      "skills": [
+        "Release Potion"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "覚醒の秘薬",
+      "skills": [
+        "覚醒の秘薬"
+      ],
+      "alias": [
+        "覚醒の秘薬"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "각성 비약",
+      "skills": [
+        "비약 방출"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "醒神秘药",
+      "skills": [
+        "释放秘药"
+      ],
+      "alias": [
+        "xing shen mi yao",
+        "xingshenmiyao"
+      ],
+      "appellation": "Refreshing Potion"
+    },
+    "code": "refreshing potion",
+    "code_name": "Refreshing Potion"
+  },
+  "trap_420_umbrella": {
+    "en_US": {
+      "enabled": true,
+      "name": "Camouflage Device",
+      "skills": [
+        "Help Hide"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "隠密支援用マシン",
+      "skills": [
+        "迷彩バリア"
+      ],
+      "alias": [
+        "隠密支援用ましん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "대 정찰 위장 장치",
+      "skills": [
+        "숨기기 도움"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "反侦察藏匿机",
+      "skills": [
+        "协助隐藏"
+      ],
+      "alias": [
+        "fan zhen cha cang ni ji",
+        "fanzhenchacangniji"
+      ],
+      "appellation": "Anti-Recon Camouflage Device"
+    },
+    "code": "camouflage device",
+    "code_name": "Anti-Recon Camouflage Device"
+  },
+  "trap_421_repairman": {
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Repair Vehicle",
+      "skills": [
+        "Repair"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "緊急修理車両",
+      "skills": [
+        "修理"
+      ],
+      "alias": [
+        "緊急修理車両"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비상 수리 차량",
+      "skills": [
+        "수리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "应急修理车",
+      "skills": [
+        "修理"
+      ],
+      "alias": [
+        "ying ji xiu li che",
+        "yingjixiuliche"
+      ],
+      "appellation": "Emergency Repair Vehicle"
+    },
+    "code": "emergency repair vehicle",
+    "code_name": "Emergency Repair Vehicle"
+  },
+  "trap_415_trademan": {
+    "en_US": {
+      "enabled": true,
+      "name": "Liaison",
+      "skills": [
+        "Trigger Dialogue"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "連絡員",
+      "skills": [
+        "会話発生"
+      ],
+      "alias": [
+        "連絡員"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "연락원",
+      "skills": [
+        "대화 발동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "联络员",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "lian luo yuan",
+        "lianluoyuan"
+      ],
+      "appellation": "The Liaison"
+    },
+    "code": "liaison",
+    "code_name": "The Liaison"
+  },
+  "trap_432_oldisin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Old Isin",
+      "skills": [
+        "Trigger Dialogue"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "イシン",
+      "skills": [
+        "会話発生"
+      ],
+      "alias": [
+        "いしん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이신",
+      "skills": [
+        "대화 발동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "老伊辛",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "lao yi xin",
+        "laoyixin"
+      ],
+      "appellation": "Old Isin"
+    },
+    "code": "old isin",
+    "code_name": "Old Isin"
+  },
+  "trap_433_sandsdr": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Sand Soldier'",
+      "skills": [
+        "Trigger Dialogue",
+        "Trigger Dialogue"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「サンドソルジャー」",
+      "skills": [
+        "会話発生",
+        "会話発生"
+      ],
+      "alias": [
+        "「さんどそるじゃー」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'샌드솔저'",
+      "skills": [
+        "대화 발동",
+        "대화 발동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“沙卒”",
+      "skills": [
+        "触发对话",
+        "触发对话"
+      ],
+      "alias": [
+        "“ sha zu ”",
+        "“shazu”"
+      ],
+      "appellation": "“Sand Soldier”"
+    },
+    "code": "'sand soldier'",
+    "code_name": "“Sand Soldier”"
+  },
+  "trap_434_klmantc": {
+    "en_US": {
+      "enabled": true,
+      "name": "Manticore Killer",
+      "skills": [
+        "Trigger Dialogue",
+        "Trigger Dialogue",
+        "Trigger Dialogue"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "殺し屋のマンティコア",
+      "skills": [
+        "会話発生",
+        "会話発生",
+        "会話発生"
+      ],
+      "alias": [
+        "殺し屋のまんてぃこあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "맨티코어 킬러",
+      "skills": [
+        "대화 발동",
+        "대화 발동",
+        "대화 발동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "曼提柯杀手",
+      "skills": [
+        "触发对话",
+        "触发对话",
+        "触发对话"
+      ],
+      "alias": [
+        "man ti ke sha shou",
+        "mantikeshashou"
+      ],
+      "appellation": "Manticore Killer"
+    },
+    "code": "manticore killer",
+    "code_name": "Manticore Killer"
+  },
+  "trap_435_trsrhuntr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Treasure Hunter",
+      "skills": [
+        "Trigger Dialogue"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トレジャーハンター",
+      "skills": [
+        "会話発生"
+      ],
+      "alias": [
+        "とれじゃーはんたー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "트레져헌터",
+      "skills": [
+        "대화 발동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "寻宝人",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "xun bao ren",
+        "xunbaoren"
+      ],
+      "appellation": "Treasure Hunter"
+    },
+    "code": "treasure hunter",
+    "code_name": "Treasure Hunter"
+  },
+  "trap_437_poachr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Veteran Hunter",
+      "skills": [
+        "Hunt for Food"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "手練れのハンター",
+      "skills": [
+        "食材どろぼう"
+      ],
+      "alias": [
+        "手練れのはんたー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "노련한 사냥꾼",
+      "skills": [
+        "밀렵"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "老练猎手",
+      "skills": [
+        "盗猎食材"
+      ],
+      "alias": [
+        "lao lian lie shou",
+        "laolianlieshou"
+      ],
+      "appellation": "Seasoned Hunter"
+    },
+    "code": "veteran hunter",
+    "code_name": "Seasoned Hunter"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -19255,20 +21161,6 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
-  "char_4077_palico": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "泰拉大陆调查团",
-      "skills": [],
-      "alias": [
-        "tai la da lu tiao cha tuan",
-        "tailadalutiaochatuan"
-      ],
-      "appellation": "Terra Research Commission"
-    },
-    "code": null,
-    "code_name": "Terra Research Commission"
-  },
   "char_4091_ulika": {
     "zh_CN": {
       "enabled": true,
@@ -19313,6 +21205,23 @@
     },
     "code": null,
     "code_name": "Humus"
+  },
+  "char_4107_vrdant": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "维荻",
+      "skills": [
+        "苍翠屏障",
+        "双刃毒藤"
+      ],
+      "alias": [
+        "wei di",
+        "weidi"
+      ],
+      "appellation": "Verdant"
+    },
+    "code": null,
+    "code_name": "Verdant"
   },
   "char_488_buildr": {
     "zh_CN": {
@@ -19365,23 +21274,6 @@
     "code": null,
     "code_name": "Morgan"
   },
-  "char_1030_noirc2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "火龙S黑角",
-      "skills": [
-        "居合拔刀气刃斩",
-        "气刃兜割"
-      ],
-      "alias": [
-        "huo long S hei jiao",
-        "huolongSheijiao"
-      ],
-      "appellation": "Rathalos S Noir Corne"
-    },
-    "code": null,
-    "code_name": "Rathalos S Noir Corne"
-  },
   "char_498_inside": {
     "zh_CN": {
       "enabled": true,
@@ -19415,6 +21307,40 @@
     },
     "code": null,
     "code_name": "Santalla"
+  },
+  "char_4110_delphn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "戴菲恩",
+      "skills": [
+        "“贯注”",
+        "“抢攻”"
+      ],
+      "alias": [
+        "dai fei en",
+        "daifeien"
+      ],
+      "appellation": "Delphine"
+    },
+    "code": null,
+    "code_name": "Delphine"
+  },
+  "char_494_vendla": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "刺玫",
+      "skills": [
+        "战术咏唱·γ型",
+        "荆藤庇荫"
+      ],
+      "alias": [
+        "ci mei",
+        "cimei"
+      ],
+      "appellation": "Vendela"
+    },
+    "code": null,
+    "code_name": "Vendela"
   },
   "char_464_cement": {
     "zh_CN": {
@@ -19608,24 +21534,6 @@
     "code": null,
     "code_name": "Silence the Paradigmatic"
   },
-  "char_1029_yato2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "麒麟R夜刀",
-      "skills": [
-        "鬼人化",
-        "乱舞",
-        "空中回旋乱舞"
-      ],
-      "alias": [
-        "qi lin R ye dao",
-        "qilinRyedao"
-      ],
-      "appellation": "Kirin R Yato"
-    },
-    "code": null,
-    "code_name": "Kirin R Yato"
-  },
   "char_1033_swire2": {
     "zh_CN": {
       "enabled": true,
@@ -19679,6 +21587,24 @@
     },
     "code": null,
     "code_name": "Jessica the Liberated"
+  },
+  "char_4088_hodrer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "赫德雷",
+      "skills": [
+        "重锋不熄",
+        "余烬重荷",
+        "死境硝烟"
+      ],
+      "alias": [
+        "he de lei",
+        "hedelei"
+      ],
+      "appellation": "Hoederer"
+    },
+    "code": null,
+    "code_name": "Hoederer"
   },
   "char_1032_excu2": {
     "zh_CN": {
@@ -19770,86 +21696,6 @@
     "code": null,
     "code_name": "Mobile personnel shield"
   },
-  "trap_099_mhflsb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "眩光手雷",
-      "skills": [
-        "眩光手雷"
-      ],
-      "alias": [
-        "xuan guang shou lei",
-        "xuanguangshoulei"
-      ],
-      "appellation": "Flash Grenade"
-    },
-    "code": null,
-    "code_name": "Flash Grenade"
-  },
-  "trap_100_mhlbmb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "高能源石爆桶",
-      "skills": [
-        "高能源石爆桶"
-      ],
-      "alias": [
-        "gao neng yuan shi bao tong",
-        "gaonengyuanshibaotong"
-      ],
-      "appellation": "Originium Barrel Bomb"
-    },
-    "code": null,
-    "code_name": "Originium Barrel Bomb"
-  },
-  "trap_101_mhshok": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "高压脉冲诡雷",
-      "skills": [
-        "高压脉冲诡雷"
-      ],
-      "alias": [
-        "gao ya mai chong gui lei",
-        "gaoyamaichongguilei"
-      ],
-      "appellation": "High-voltage Shock Trap"
-    },
-    "code": null,
-    "code_name": "High-voltage Shock Trap"
-  },
-  "trap_102_mhwrbg": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "滞空牵引无人机",
-      "skills": [
-        "滞空牵引无人机"
-      ],
-      "alias": [
-        "zhi kong qian yin wu ren ji",
-        "zhikongqianyinwurenji"
-      ],
-      "appellation": "Wiredrone"
-    },
-    "code": null,
-    "code_name": "Wiredrone"
-  },
-  "trap_105_mhwrct": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "滞空牵引无人机",
-      "skills": [
-        "滞空牵引无人机"
-      ],
-      "alias": [
-        "zhi kong qian yin wu ren ji",
-        "zhikongqianyinwurenji"
-      ],
-      "appellation": "Wiredrone"
-    },
-    "code": null,
-    "code_name": "Wiredrone"
-  },
   "trap_106_smtree": {
     "zh_CN": {
       "enabled": true,
@@ -19929,601 +21775,6 @@
     },
     "code": null,
     "code_name": "Testaceous Vinecreeps"
-  },
-  "trap_400_xbfarm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "便携式种植槽",
-      "skills": [
-        "稻谷种植"
-      ],
-      "alias": [
-        "bian xie shi zhong zhi cao",
-        "bianxieshizhongzhicao"
-      ],
-      "appellation": "Portable Planting Trough"
-    },
-    "code": null,
-    "code_name": "Portable Planting Trough"
-  },
-  "trap_404_xbfortress": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "坚固筑台",
-      "skills": [
-        "搭建高台"
-      ],
-      "alias": [
-        "jian gu zhu tai",
-        "jianguzhutai"
-      ],
-      "appellation": "Firm Platform"
-    },
-    "code": null,
-    "code_name": "Firm Platform"
-  },
-  "trap_405_xbroadblock": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "都市风壁障",
-      "skills": [
-        "阻断道路"
-      ],
-      "alias": [
-        "du shi feng bi zhang",
-        "dushifengbizhang"
-      ],
-      "appellation": "Urban Style Barrier"
-    },
-    "code": null,
-    "code_name": "Urban Style Barrier"
-  },
-  "trap_406_xboverwatch": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "监控塔",
-      "skills": [
-        "监控"
-      ],
-      "alias": [
-        "jian kong ta",
-        "jiankongta"
-      ],
-      "appellation": "Monitoring Tower"
-    },
-    "code": null,
-    "code_name": "Monitoring Tower"
-  },
-  "trap_408_xbbase": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "基地",
-      "skills": [
-        "能源设备"
-      ],
-      "alias": [
-        "ji di",
-        "jidi"
-      ],
-      "appellation": "Base"
-    },
-    "code": null,
-    "code_name": "Base"
-  },
-  "trap_409_xbwood": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "杂木林",
-      "skills": [
-        "可供开采"
-      ],
-      "alias": [
-        "za mu lin",
-        "zamulin"
-      ],
-      "appellation": "Thicket"
-    },
-    "code": null,
-    "code_name": "Thicket"
-  },
-  "trap_410_xbstone": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "巨大岩石",
-      "skills": [
-        "可供开采"
-      ],
-      "alias": [
-        "ju da yan shi",
-        "judayanshi"
-      ],
-      "appellation": "Monolith"
-    },
-    "code": null,
-    "code_name": "Monolith"
-  },
-  "trap_411_xbiron": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "奇异矿脉",
-      "skills": [
-        "可供开采"
-      ],
-      "alias": [
-        "qi yi kuang mai",
-        "qiyikuangmai"
-      ],
-      "appellation": "Strange Ore Vein"
-    },
-    "code": null,
-    "code_name": "Strange Ore Vein"
-  },
-  "trap_412_redtower": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "移动战塔",
-      "skills": [
-        "敌方人员运送"
-      ],
-      "alias": [
-        "yi dong zhan ta",
-        "yidongzhanta"
-      ],
-      "appellation": "Mobile Battle Tower"
-    },
-    "code": null,
-    "code_name": "Mobile Battle Tower"
-  },
-  "trap_413_hiddenstone": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "遗迹残骸",
-      "skills": [
-        "可被击破"
-      ],
-      "alias": [
-        "yi ji can hai",
-        "yijicanhai"
-      ],
-      "appellation": "Historical Remains"
-    },
-    "code": null,
-    "code_name": "Historical Remains"
-  },
-  "trap_414_vegetation": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "灌木丛",
-      "skills": [
-        "可供开采"
-      ],
-      "alias": [
-        "guan mu cong",
-        "guanmucong"
-      ],
-      "appellation": "Bush"
-    },
-    "code": null,
-    "code_name": "Bush"
-  },
-  "trap_416_gtreasure": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "埋没金属箱",
-      "skills": [
-        "可被击破"
-      ],
-      "alias": [
-        "mai mei jin shu xiang",
-        "maimeijinshuxiang"
-      ],
-      "appellation": "Buried Metal Chest"
-    },
-    "code": null,
-    "code_name": "Buried Metal Chest"
-  },
-  "trap_422_streasure": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "宝刺金属箱",
-      "skills": [
-        "宝刺伤人"
-      ],
-      "alias": [
-        "bao ci jin shu xiang",
-        "baocijinshuxiang"
-      ],
-      "appellation": "Thorned Treasure Chest"
-    },
-    "code": null,
-    "code_name": "Thorned Treasure Chest"
-  },
-  "trap_423_bondtw": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "缚网发射台",
-      "skills": [
-        "发射缚网"
-      ],
-      "alias": [
-        "fu wang fa she tai",
-        "fuwangfashetai"
-      ],
-      "appellation": "Trap Net Launcher"
-    },
-    "code": null,
-    "code_name": "Trap Net Launcher"
-  },
-  "trap_424_pushtw": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "喷拒器",
-      "skills": [
-        "气体爆喷"
-      ],
-      "alias": [
-        "pen ju qi",
-        "penjuqi"
-      ],
-      "appellation": "Gas Jet Thrower"
-    },
-    "code": null,
-    "code_name": "Gas Jet Thrower"
-  },
-  "trap_425_xbwall": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "防御工事",
-      "skills": [
-        "防御支撑"
-      ],
-      "alias": [
-        "fang yu gong shi",
-        "fangyugongshi"
-      ],
-      "appellation": "Fortification"
-    },
-    "code": null,
-    "code_name": "Fortification"
-  },
-  "trap_426_xbmrcl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "模块演算设施",
-      "skills": [
-        "演算"
-      ],
-      "alias": [
-        "mo kuai yan suan she shi",
-        "mokuaiyansuansheshi"
-      ],
-      "appellation": "Modular Computing Station"
-    },
-    "code": null,
-    "code_name": "Modular Computing Station"
-  },
-  "trap_427_xbprsh": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "资源规划站",
-      "skills": [
-        "资源规划"
-      ],
-      "alias": [
-        "zi yuan gui hua zhan",
-        "ziyuanguihuazhan"
-      ],
-      "appellation": "Resource Planning Station"
-    },
-    "code": null,
-    "code_name": "Resource Planning Station"
-  },
-  "trap_428_xblrsh": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "备勤激活站",
-      "skills": [
-        "人员状态改善"
-      ],
-      "alias": [
-        "bei qin ji huo zhan",
-        "beiqinjihuozhan"
-      ],
-      "appellation": "Combat Readiness Station"
-    },
-    "code": null,
-    "code_name": "Combat Readiness Station"
-  },
-  "trap_429_xbescp": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "跨地块通讯站",
-      "skills": [
-        "建立通讯"
-      ],
-      "alias": [
-        "kua di kuai tong xun zhan",
-        "kuadikuaitongxunzhan"
-      ],
-      "appellation": "Transregional Communication Station"
-    },
-    "code": null,
-    "code_name": "Transregional Communication Station"
-  },
-  "trap_430_wdescp": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "逃脱点",
-      "skills": [
-        "建立通讯"
-      ],
-      "alias": [
-        "tao tuo dian",
-        "taotuodian"
-      ],
-      "appellation": "Escape Route"
-    },
-    "code": null,
-    "code_name": "Escape Route"
-  },
-  "trap_431_xbgldn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "冶铸台",
-      "skills": [
-        "冶铸"
-      ],
-      "alias": [
-        "ye zhu tai",
-        "yezhutai"
-      ],
-      "appellation": "Mint"
-    },
-    "code": null,
-    "code_name": "Mint"
-  },
-  "trap_401_xbfato": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "采集实习站",
-      "skills": [
-        "采集"
-      ],
-      "alias": [
-        "cai ji shi xi zhan",
-        "caijishixizhan"
-      ],
-      "appellation": "Basic Harvester Hub"
-    },
-    "code": null,
-    "code_name": "Basic Harvester Hub"
-  },
-  "trap_438_xbfato2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "采集专员站",
-      "skills": [
-        "采集"
-      ],
-      "alias": [
-        "cai ji zhuan yuan zhan",
-        "caijizhuanyuanzhan"
-      ],
-      "appellation": "Premium Harvester Hub"
-    },
-    "code": null,
-    "code_name": "Premium Harvester Hub"
-  },
-  "trap_439_xbfato3": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "采集主任站",
-      "skills": [
-        "采集"
-      ],
-      "alias": [
-        "cai ji zhu ren zhan",
-        "caijizhurenzhan"
-      ],
-      "appellation": "Executive Harvester Hub"
-    },
-    "code": null,
-    "code_name": "Executive Harvester Hub"
-  },
-  "trap_403_wfactory": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "蟹蟹抽水泵",
-      "skills": [
-        "抽水"
-      ],
-      "alias": [
-        "xie xie chou shui beng",
-        "xiexiechoushuibeng"
-      ],
-      "appellation": "Crabbie Pumpie"
-    },
-    "code": null,
-    "code_name": "Crabbie Pumpie"
-  },
-  "trap_417_shielder": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "护盾遥控器",
-      "skills": [
-        "护盾提供"
-      ],
-      "alias": [
-        "hu dun yao kong qi",
-        "hudunyaokongqi"
-      ],
-      "appellation": "Remote Shield Controller"
-    },
-    "code": null,
-    "code_name": "Remote Shield Controller"
-  },
-  "trap_418_smokebomb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "安眠迷香",
-      "skills": [
-        "释放迷香"
-      ],
-      "alias": [
-        "an mian mi xiang",
-        "anmianmixiang"
-      ],
-      "appellation": "Hypnotic Censer"
-    },
-    "code": null,
-    "code_name": "Hypnotic Censer"
-  },
-  "trap_419_enhancer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "醒神秘药",
-      "skills": [
-        "释放秘药"
-      ],
-      "alias": [
-        "xing shen mi yao",
-        "xingshenmiyao"
-      ],
-      "appellation": "Refreshing Potion"
-    },
-    "code": null,
-    "code_name": "Refreshing Potion"
-  },
-  "trap_420_umbrella": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "反侦察藏匿机",
-      "skills": [
-        "协助隐藏"
-      ],
-      "alias": [
-        "fan zhen cha cang ni ji",
-        "fanzhenchacangniji"
-      ],
-      "appellation": "Anti-Recon Camouflage Device"
-    },
-    "code": null,
-    "code_name": "Anti-Recon Camouflage Device"
-  },
-  "trap_421_repairman": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "应急修理车",
-      "skills": [
-        "修理"
-      ],
-      "alias": [
-        "ying ji xiu li che",
-        "yingjixiuliche"
-      ],
-      "appellation": "Emergency Repair Vehicle"
-    },
-    "code": null,
-    "code_name": "Emergency Repair Vehicle"
-  },
-  "trap_415_trademan": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "联络员",
-      "skills": [
-        "触发对话"
-      ],
-      "alias": [
-        "lian luo yuan",
-        "lianluoyuan"
-      ],
-      "appellation": "The Liaison"
-    },
-    "code": null,
-    "code_name": "The Liaison"
-  },
-  "trap_432_oldisin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "老伊辛",
-      "skills": [
-        "触发对话"
-      ],
-      "alias": [
-        "lao yi xin",
-        "laoyixin"
-      ],
-      "appellation": "Old Isin"
-    },
-    "code": null,
-    "code_name": "Old Isin"
-  },
-  "trap_433_sandsdr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“沙卒”",
-      "skills": [
-        "触发对话",
-        "触发对话"
-      ],
-      "alias": [
-        "“ sha zu ”",
-        "“shazu”"
-      ],
-      "appellation": "“Sand Soldier”"
-    },
-    "code": null,
-    "code_name": "“Sand Soldier”"
-  },
-  "trap_434_klmantc": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "曼提柯杀手",
-      "skills": [
-        "触发对话",
-        "触发对话",
-        "触发对话"
-      ],
-      "alias": [
-        "man ti ke sha shou",
-        "mantikeshashou"
-      ],
-      "appellation": "Manticore Killer"
-    },
-    "code": null,
-    "code_name": "Manticore Killer"
-  },
-  "trap_435_trsrhuntr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "寻宝人",
-      "skills": [
-        "触发对话"
-      ],
-      "alias": [
-        "xun bao ren",
-        "xunbaoren"
-      ],
-      "appellation": "Treasure Hunter"
-    },
-    "code": null,
-    "code_name": "Treasure Hunter"
-  },
-  "trap_437_poachr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "老练猎手",
-      "skills": [
-        "盗猎食材"
-      ],
-      "alias": [
-        "lao lian lie shou",
-        "laolianlieshou"
-      ],
-      "appellation": "Seasoned Hunter"
-    },
-    "code": null,
-    "code_name": "Seasoned Hunter"
   },
   "trap_116_stdurk": {
     "zh_CN": {
@@ -21082,5 +22333,53 @@
     },
     "code": null,
     "code_name": "Waste Heat Spout"
+  },
+  "trap_125_bonore": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "唤血祭坛",
+      "skills": [
+        "唤血祭坛"
+      ],
+      "alias": [
+        "huan xie ji tan",
+        "huanxiejitan"
+      ],
+      "appellation": "Bloodconvoker Altar"
+    },
+    "code": null,
+    "code_name": "Bloodconvoker Altar"
+  },
+  "trap_126_outset": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "炸弹载荷点",
+      "skills": [
+        "炸弹载荷点"
+      ],
+      "alias": [
+        "zha dan zai he dian",
+        "zhadanzaihedian"
+      ],
+      "appellation": "Explosives Loading Point"
+    },
+    "code": null,
+    "code_name": "Explosives Loading Point"
+  },
+  "trap_127_bldore": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "沥血王座",
+      "skills": [
+        "沥血王座"
+      ],
+      "alias": [
+        "li xie wang zuo",
+        "lixiewangzuo"
+      ],
+      "appellation": "Sanguine Throne"
+    },
+    "code": null,
+    "code_name": "Sanguine Throne"
   }
 }
