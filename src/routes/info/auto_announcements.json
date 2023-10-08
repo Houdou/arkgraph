@@ -5,6 +5,33 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2023-10-08",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1029_yato2",
+      "char_1030_noirc2",
+      "char_4077_palico"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2023-10-08",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4088_hodrer",
+      "char_4110_delphn",
+      "char_494_vendla",
+      "char_4107_vrdant"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2023-09-05",
     "type": "new_operators",
     "new_operators": [
@@ -96,37 +123,6 @@
     "new_operators": [
       "char_2012_typhon",
       "char_341_sntlla"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2023-06-08",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1032_excu2",
-      "char_498_inside",
-      "char_4015_spuria"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2023-05-31",
-    "type": "new_operators",
-    "new_operators": [
-      "char_427_vigil",
-      "char_1028_texas2",
-      "char_4065_judge",
-      "char_513_apionr",
-      "char_4066_highmo",
-      "char_466_qanik",
-      "char_4014_lunacu",
-      "char_4063_quartz"
     ]
   }
 ]
