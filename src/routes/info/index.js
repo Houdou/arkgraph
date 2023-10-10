@@ -52,6 +52,12 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 
+			<p>2023-10-10</p>
+			填了个老坑，干员页面支持添加模组了<br />
+			右键可以设置当前模组等级<br />
+			例如只需要 2->3 的话，左键点3，右键点2即可<br />
+			更新了13章新材料<br />
+			<br />
 			{
 				announcement_data
 					.filter(row => row.server.includes(config.locale))
@@ -65,9 +71,6 @@ const Info = ({
 						}
 					})
 			}
-			<p>2023-10-10</p>
-			更新了13章新材料<br />
-			<br />
 			<p>2023-06-27</p>
 			修复数据格式更新导致的数据映射错误<br />
 			<br />
