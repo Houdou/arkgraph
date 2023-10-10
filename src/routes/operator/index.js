@@ -394,7 +394,7 @@ const ArkOperatorTable = ({
 											class={cn(
 												style.equipment_stage,
 												{
-													[style.long_name]: String(name).length > 6
+													[style.long_name]: String(name).length >= 6
 												}
 											)}
 											onClick={e => setTargetAdvancedEquipment(equipment_index, 0)}
