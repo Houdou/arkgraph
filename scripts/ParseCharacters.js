@@ -117,11 +117,13 @@ const parseCharacter = (character, unique_id) => {
 		.map(([equipment_id, equipData]) => {
 			const {
 				itemCost,
+				typeName2,
 			} = equipData;
 
 			return Object.entries(itemCost).map(([equipment_level, equip_level_cost]) => ({
 				equipment_id,
 				equipment_level,
+				code: typeName2,
 				materials: equip_level_cost.map(requirement => ({
 					resource: MapItem[requirement.id],
 					quantity: requirement.count,

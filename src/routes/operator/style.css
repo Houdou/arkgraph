@@ -95,6 +95,21 @@
   background-color: #111;
 }
 
+.actions .equipment_stage {
+	position: relative;
+}
+.actions .equipment_stage::after {
+	content: attr(data-code);
+	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
+	left: -8px;
+	top: 50%;
+	line-height: 0px;
+	opacity: 0.2;
+	vertical-align: top;
+}
+
 .table, .upgrades, .summary {
 	width: 860px;
 	min-width: 860px;

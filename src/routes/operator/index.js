@@ -26,6 +26,13 @@ const material_order = [
 	MONEY,
 ];
 
+const MapCode = (code) => {
+	switch(code) {
+		case "D": return "Δ";
+		default: return code;
+	}
+}
+
 const ArkOperatorTable = ({
 	ir,
 	config,
@@ -384,13 +391,18 @@ const ArkOperatorTable = ({
 								return (
 									<div class={style.actions}>
 										<span
-											class={cn({
-												[style.long_name]: String(name).length > 6
-											})}
+											class={cn(
+												style.equipment_stage,
+												{
+													[style.long_name]: String(name).length > 6
+												}
+											)}
+											onClick={e => setTargetAdvancedEquipment(equipment_index, 0)}
 											onContextMenu={e => {
 												e.preventDefault();
 												setCurrentAdvancedEquipment(equipment_index, 0);
 											}}
+											data-code={MapCode(stages[0].code)}
 										>{name}</span>
 										{
 											stages.map((stage, stage_index) => {
