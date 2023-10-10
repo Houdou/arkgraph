@@ -209,6 +209,14 @@
   background-image: url('/assets/materials/M-4-16.png');
 }
 
+.setting_option_type_fiber.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-17.png');
+}
+
+.setting_option_type_cyclichc.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-18.png');
+}
+
 .setting_option_type_rare.setting_option_type:after {
   background-image: url('/assets/materials/M-5-1.png');
 }

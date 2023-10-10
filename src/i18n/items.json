@@ -2541,6 +2541,110 @@
       "sortId": 100010
     }
   },
+  "M-3-17": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "褐素纤维",
+      "alias": [
+        "he su xian wei",
+        "hesuxianwei"
+      ],
+      "sortId": 100009
+    }
+  },
+  "M-4-17": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "固化纤维板",
+      "alias": [
+        "gu hua xian wei ban",
+        "guhuaxianweiban"
+      ],
+      "sortId": 100008
+    }
+  },
+  "M-3-18": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "环烃聚质",
+      "alias": [
+        "huan ting ju zhi",
+        "huantingjuzhi"
+      ],
+      "sortId": 100007
+    }
+  },
+  "M-4-18": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "环烃预制体",
+      "alias": [
+        "huan ting yu zhi ti",
+        "huantingyuzhiti"
+      ],
+      "sortId": 100006
+    }
+  },
   "O-4-1": {
     "en_US": {
       "enabled": true,

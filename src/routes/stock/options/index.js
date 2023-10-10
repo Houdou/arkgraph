@@ -45,6 +45,8 @@ const material_grouping_options = {
 			{ value: 'solvent', render: 'material_grouping_options-type-solvent' },
 			{ value: 'cuttingfluid', render: 'material_grouping_options-type-cuttingfluid' },
 			{ value: 'salt', render: 'material_grouping_options-type-salt' },
+			{ value: 'fiber', render: 'material_grouping_options-type-fiber' },
+			{ value: 'cyclichc', render: 'material_grouping_options-type-cyclichc' },
 			{ value: 'skill', render: 'material_grouping_options-type-skill' },
 			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],

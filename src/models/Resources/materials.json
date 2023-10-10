@@ -79,6 +79,68 @@
     "sort_id": 100005
   },
   {
+    "id": "M-4-18",
+    "unique_id": 31084,
+    "name": "环烃预制体",
+    "pinyin": "huan ting yu zhi ti",
+    "tier": "T4",
+    "type": "cychydcb",
+    "source": {
+      "13-15": "罕见"
+    },
+    "formula": {
+      "M-3-18": 1,
+      "M-3-17": 1,
+      "M-3-16": 1,
+      "G-4-1": 300
+    },
+    "sort_id": 100006
+  },
+  {
+    "id": "M-3-18",
+    "unique_id": 31083,
+    "name": "环烃聚质",
+    "pinyin": "huan ting ju zhi",
+    "tier": "T3",
+    "type": "cychydcb",
+    "source": {
+      "13-15": "小概率"
+    },
+    "formula": {},
+    "sort_id": 100007
+  },
+  {
+    "id": "M-4-17",
+    "unique_id": 31074,
+    "name": "固化纤维板",
+    "pinyin": "gu hua xian wei ban",
+    "tier": "T4",
+    "type": "fiber",
+    "source": {
+      "13-5": "罕见"
+    },
+    "formula": {
+      "M-3-17": 1,
+      "M-3-3": 2,
+      "M-3-1": 1,
+      "G-4-1": 300
+    },
+    "sort_id": 100008
+  },
+  {
+    "id": "M-3-17",
+    "unique_id": 31073,
+    "name": "褐素纤维",
+    "pinyin": "he su xian wei",
+    "tier": "T3",
+    "type": "fiber",
+    "source": {
+      "13-5": "小概率"
+    },
+    "formula": {},
+    "sort_id": 100009
+  },
+  {
     "id": "M-4-16",
     "unique_id": 31064,
     "name": "转质盐聚块",
