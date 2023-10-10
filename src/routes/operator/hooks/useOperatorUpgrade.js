@@ -18,6 +18,12 @@ const useOperatorUpgrade = (init_values) => {
 			target_master_skill_2: 0,
 			current_master_skill_3: 0,
 			target_master_skill_3: 0,
+			current_advanced_equipment_1: 0,
+			target_advanced_equipment_1: 0,
+			current_advanced_equipment_2: 0,
+			target_advanced_equipment_2: 0,
+			current_advanced_equipment_3: 0,
+			target_advanced_equipment_3: 0,
 			upgrades: [],
 		},
 		init_values,
@@ -52,6 +58,8 @@ const useOperatorUpgrade = (init_values) => {
 		setTargetMasterSkill_2: value => setAttribute('target_master_skill_2', value),
 		setCurrentMasterSkill_3: value => setAttribute('current_master_skill_3', value),
 		setTargetMasterSkill_3: value => setAttribute('target_master_skill_3', value),
+		setCurrentAdvancedEquipment: (index, value) => setAttribute(`current_advanced_equipment_${index+1}`, value),
+		setTargetAdvancedEquipment: (index, value) => setAttribute(`target_advanced_equipment_${index+1}`, value),
 	};
 };
 

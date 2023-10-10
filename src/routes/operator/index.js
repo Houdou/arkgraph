@@ -13,7 +13,7 @@ import ArkOperatorTableHeader from './components/TableHeader';
 import ArkOperatorInput from './components/OperatorInput';
 
 import { ATTRIBUTES } from '../../models/Attributes';
-import { OPERATORS, findOperatorByName, getOperatorName, getSkillNames } from '../../models/Operators';
+import { OPERATORS, findOperatorByName, getOperatorName, getSkillNames, getEquipmentNames } from '../../models/Operators';
 import { MONEY, EXP_TAPES, MATERIALS, SKILL_BOOKS, CHIPS } from '../../models/Resources';
 import exp from '../../models/exp';
 import useOperatorUpgrade from './hooks/useOperatorUpgrade';
@@ -54,6 +54,8 @@ const ArkOperatorTable = ({
 		setTargetMasterSkill_2,
 		setCurrentMasterSkill_3,
 		setTargetMasterSkill_3,
+		setCurrentAdvancedEquipment,
+		setTargetAdvancedEquipment,
 	} = useOperatorUpgrade(global.operator_upgrade);
 
 	const setOperatorId = (unique_id) => {
@@ -90,6 +92,12 @@ const ArkOperatorTable = ({
 		target_master_skill_2,
 		current_master_skill_3,
 		target_master_skill_3,
+		current_advanced_equipment_1,
+		target_advanced_equipment_1,
+		current_advanced_equipment_2,
+		target_advanced_equipment_2,
+		current_advanced_equipment_3,
+		target_advanced_equipment_3,
 		upgrades,
 	} = operatorUpgrade;
 
@@ -115,7 +123,7 @@ const ArkOperatorTable = ({
 	}, [operator_name_query]);
 
 	const operator = OPERATORS.find(o => o.unique_id === operator_id);
-	const skill_render_map = {};
+	const render_map = {};
 	if (operator) {
 		const skill_names = getSkillNames({
 			id: operator_id,
@@ -123,7 +131,16 @@ const ArkOperatorTable = ({
 			showExtendedData: config.showExtendedData,
 		});
 		skill_names.forEach((skill_name, index) => {
-			skill_render_map[ATTRIBUTES[`MASTER_SKILL_${index+1}`]] = skill_name || null;
+			render_map[ATTRIBUTES[`MASTER_SKILL_${index+1}`]] = skill_name || null;
+		});
+
+		const equipment_names = getEquipmentNames({
+			id: operator_id,
+			locale: config.locale,
+			showExtendedData: config.showExtendedData,
+		});
+		equipment_names.forEach((equipment_name, index) => {
+			render_map[ATTRIBUTES[`ADVANCED_EQUIPMENT_${index+1}`]] = equipment_name || null;
 		});
 	}
 
@@ -198,6 +215,12 @@ const ArkOperatorTable = ({
 			target_master_skill_2: 0,
 			current_master_skill_3: 0,
 			target_master_skill_3: 0,
+			current_advanced_equipment_1: 0,
+			target_advanced_equipment_1: 0,
+			current_advanced_equipment_2: 0,
+			target_advanced_equipment_2: 0,
+			current_advanced_equipment_3: 0,
+			target_advanced_equipment_3: 0,
 			upgrades: [],
 		});
 	};
@@ -279,9 +302,9 @@ const ArkOperatorTable = ({
 									override: unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1) ? '' : null,
 								},
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
-									&& { attribute: current_master_skill_2, setAttribute: setCurrentMasterSkill_2 },
+								&& { attribute: current_master_skill_2, setAttribute: setCurrentMasterSkill_2 },
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
-									&& { attribute: current_master_skill_3, setAttribute: setCurrentMasterSkill_3 },
+								&& { attribute: current_master_skill_3, setAttribute: setCurrentMasterSkill_3 },
 							].filter(Boolean)
 							}
 							tab_index_offset={0}
@@ -298,9 +321,9 @@ const ArkOperatorTable = ({
 									override: unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_1) ? ir('operator-skill-unable_to_upgrade', 'N/A') : null,
 								},
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_2)
-									&& { attribute: target_master_skill_2, setAttribute: setTargetMasterSkill_2 },
+								&& { attribute: target_master_skill_2, setAttribute: setTargetMasterSkill_2 },
 								!unavailable_attributes.includes(ATTRIBUTES.MASTER_SKILL_3)
-									&& { attribute: target_master_skill_3, setAttribute: setTargetMasterSkill_3 },
+								&& { attribute: target_master_skill_3, setAttribute: setTargetMasterSkill_3 },
 							].filter(Boolean)
 							}
 							tab_index_offset={6}
@@ -335,7 +358,7 @@ const ArkOperatorTable = ({
 							)}
 						</div>
 						<div class={style.actions}>
-							<span  />
+							<span />
 							<div
 								class={style.max_attribute}
 								onClick={e => setMinAttribute(1, true)}
@@ -355,6 +378,44 @@ const ArkOperatorTable = ({
 								>{ir('operator-plan-elite_2', 'Elite 2')}</div>
 							)}
 						</div>
+						{
+							operator && operator.meta.max_equipments > 0 && operator.equipments.map((stages, equipment_index) => {
+								const name = render_map[ATTRIBUTES[`ADVANCED_EQUIPMENT_${equipment_index + 1}`]] || `装备${equipment_index +1}`
+								return (
+									<div class={style.actions}>
+										<span
+											class={cn({
+												[style.long_name]: String(name).length > 6
+											})}
+											onContextMenu={e => {
+												e.preventDefault();
+												setCurrentAdvancedEquipment(equipment_index, 0);
+											}}
+										>{name}</span>
+										{
+											stages.map((stage, stage_index) => {
+												return (
+													<div
+														class={cn(
+															style.max_attribute,
+															{
+																[style.active]: stage_index >= operatorUpgrade[`current_advanced_equipment_${equipment_index + 1}`] &&
+																	stage_index < operatorUpgrade[`target_advanced_equipment_${equipment_index + 1}`],
+															}
+														)}
+														onClick={e => setTargetAdvancedEquipment(equipment_index, stage_index + 1)}
+														onContextMenu={e => {
+															e.preventDefault();
+															setCurrentAdvancedEquipment(equipment_index, stage_index + 1);
+														}}
+													>STAGE {stage.equipment_level}</div>
+												)
+											})
+										}
+									</div>
+								)
+							})
+						}
 					</div>
 				</div>
 				<div class={style.section}>
@@ -382,7 +443,7 @@ const ArkOperatorTable = ({
 										ir={ir}
 										key={`${upgrade.operator}_${upgrade.attribute}_${upgrade.current}_${upgrade.target}_${index}`}
 										upgrade={upgrade}
-										skill_render_map={skill_render_map}
+										skill_render_map={render_map}
 										upgrade_index={index}
 										fulfilled={fulfilled_upgrades[index]}
 										{...global_props}

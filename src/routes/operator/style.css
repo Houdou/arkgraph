@@ -76,6 +76,9 @@
 	width: 100px;
 	text-align: center;
 }
+.long_name {
+	font-size: 12px;
+}
 .actions .max_attribute {
   background-color: #333;
 	margin-right: 20px;
@@ -87,7 +90,8 @@
 	font-weight: 400;
 	transition: background-color 0.3s ease;
 }
-.actions .max_attribute:active {
+.actions .max_attribute:active,
+.actions .max_attribute.active {
   background-color: #111;
 }
 

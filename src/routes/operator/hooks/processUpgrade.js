@@ -19,6 +19,12 @@ const processUpgrade = ({
 	target_master_skill_2,
 	current_master_skill_3,
 	target_master_skill_3,
+	current_advanced_equipment_1,
+	target_advanced_equipment_1,
+	current_advanced_equipment_2,
+	target_advanced_equipment_2,
+	current_advanced_equipment_3,
+	target_advanced_equipment_3,
 }) => {
 	const operator = OPERATORS.find(o => o.unique_id === operator_id);
 
@@ -80,6 +86,30 @@ const processUpgrade = ({
 		if (target_all_skill > 4) {
 			target_elite = clampRange(target_elite, 1, operator.meta.max_elite_rank);
 		}
+
+		// Advanced equipment
+		if (operator.meta.max_equipments >= 3) {
+			current_advanced_equipment_3 = clampRange(current_advanced_equipment_3, 0, 3);
+			target_advanced_equipment_3 = clampRange(target_advanced_equipment_3, current_advanced_equipment_3, 3);
+		} else {
+			current_advanced_equipment_3 = 0;
+			target_advanced_equipment_3 = 0;
+		}
+		if (operator.meta.max_equipments >= 2) {
+			current_advanced_equipment_2 = clampRange(current_advanced_equipment_2, 0, 3);
+			target_advanced_equipment_2 = clampRange(target_advanced_equipment_2, current_advanced_equipment_2, 3);
+		} else {
+			current_advanced_equipment_2 = 0;
+			target_advanced_equipment_2 = 0;
+		}
+		if (operator.meta.max_equipments >= 1) {
+			current_advanced_equipment_1 = clampRange(current_advanced_equipment_1, 0, 3);
+			target_advanced_equipment_1 = clampRange(target_advanced_equipment_1, current_advanced_equipment_1, 3);
+		} else {
+			current_advanced_equipment_1 = 0;
+			target_advanced_equipment_1 = 0;
+		}
+		
 
 		// level
 		if (elite_rank_change) {
@@ -165,6 +195,34 @@ const processUpgrade = ({
 				target: master_skill_3 + 1,
 			}));
 		}
+
+		// advanced equipment
+		for (let advanced_equipment_1 = current_advanced_equipment_1; advanced_equipment_1 < target_advanced_equipment_1; advanced_equipment_1++) {
+			upgrades.push(processRecord({
+				operator_id,
+				attribute: ATTRIBUTES.ADVANCED_EQUIPMENT_1,
+				current: advanced_equipment_1,
+				target: advanced_equipment_1 + 1,
+			}));
+		}
+
+		for (let advanced_equipment_2 = current_advanced_equipment_2; advanced_equipment_2 < target_advanced_equipment_2; advanced_equipment_2++) {
+			upgrades.push(processRecord({
+				operator_id,
+				attribute: ATTRIBUTES.ADVANCED_EQUIPMENT_2,
+				current: advanced_equipment_2,
+				target: advanced_equipment_2 + 1,
+			}));
+		}
+
+		for (let advanced_equipment_3 = current_advanced_equipment_3; advanced_equipment_3 < target_advanced_equipment_3; advanced_equipment_3++) {
+			upgrades.push(processRecord({
+				operator_id,
+				attribute: ATTRIBUTES.ADVANCED_EQUIPMENT_3,
+				current: advanced_equipment_3,
+				target: advanced_equipment_3 + 1,
+			}));
+		}
 	}
 	return {
 		operator_id,
@@ -180,6 +238,12 @@ const processUpgrade = ({
 		target_master_skill_2,
 		current_master_skill_3,
 		target_master_skill_3,
+		current_advanced_equipment_1,
+		target_advanced_equipment_1,
+		current_advanced_equipment_2,
+		target_advanced_equipment_2,
+		current_advanced_equipment_3,
+		target_advanced_equipment_3,
 		upgrades,
 	};
 };
