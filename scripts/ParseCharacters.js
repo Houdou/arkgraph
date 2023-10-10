@@ -44,7 +44,8 @@ const all_characters = [
 const parseCharacter = (character, unique_id) => {
 	if (
 		character.rarity < 2 ||
-		character.profession === 'TOKEN'
+		character.profession === 'TOKEN' ||
+		character.profession === 'TRAP'
 	) {
 		return null;
 	}
