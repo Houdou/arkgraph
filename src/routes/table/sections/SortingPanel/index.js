@@ -43,7 +43,8 @@ const ArkSortingPanel = ({
 				panel_style.wrapper
 			)}
 			style={{
-				opacity: selected_count > 0 ? 1 : 0
+				opacity: selected_count > 0 ? 1 : 0,
+				pointerEvents: selected_count > 0 ? 'initial' : 'none'
 			}}
 			ref={headerRef}
 		>

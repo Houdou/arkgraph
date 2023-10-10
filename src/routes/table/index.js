@@ -209,14 +209,18 @@ const ArkTable = ({
 				shortage={shortage}
 				drops={drops}
 			/>
-			<ArkSortingPanel
-				ir={ir}
-				config={config}
-				records={records}
-				moveRows={moveRows}
-				clearSelection={clearSelection}
-				{...filter_props}
-			/>
+			{
+				config.tableRowHeader && records && (
+					<ArkSortingPanel
+						ir={ir}
+						config={config}
+						records={records}
+						moveRows={moveRows}
+						clearSelection={clearSelection}
+						{...filter_props}
+					/>
+				)
+			}
 			{
 				showFilter && (
 					<ArkFilterSettings
