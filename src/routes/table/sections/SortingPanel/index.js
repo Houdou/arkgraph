@@ -23,7 +23,10 @@ const ArkSortingPanel = ({
 
 			debounce = setTimeout(() => {
 				if (headerRef && headerRef.current) {
-					headerRef.current.style.transform = `translate(${window.scrollX}px, ${window.scrollY}px)`;
+					const should_fixed = config.tableRowHeader;
+					headerRef.current.style.transform = should_fixed
+						? `translate(${window.scrollX}px, ${window.scrollY}px)`
+						: `translate(0, ${window.scrollY}px)`;
 				}
 			}, 100);
 		};
@@ -33,7 +36,7 @@ const ArkSortingPanel = ({
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 		};
-	}, []);
+	}, [config.tableRowHeader]);
 
 	const selected_count = records.filter(record => record.selected).length;
 
