@@ -21189,6 +21189,23 @@
     "code": null,
     "code_name": "Friston-3"
   },
+  "char_4100_caper": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "跃跃",
+      "skills": [
+        "强力击·β型",
+        "乐趣加倍"
+      ],
+      "alias": [
+        "yue yue",
+        "yueyue"
+      ],
+      "appellation": "Caper"
+    },
+    "code": null,
+    "code_name": "Caper"
+  },
   "char_491_humus": {
     "zh_CN": {
       "enabled": true,
@@ -21325,6 +21342,23 @@
     "code": null,
     "code_name": "Delphine"
   },
+  "char_499_kaitou": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "折光",
+      "skills": [
+        "镭射穿凿",
+        "热处理变色"
+      ],
+      "alias": [
+        "zhe guang",
+        "zheguang"
+      ],
+      "appellation": "Diamante"
+    },
+    "code": null,
+    "code_name": "Diamante"
+  },
   "char_494_vendla": {
     "zh_CN": {
       "enabled": true,
@@ -21341,6 +21375,23 @@
     },
     "code": null,
     "code_name": "Vendela"
+  },
+  "char_4109_baslin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "深律",
+      "skills": [
+        "急救",
+        "沉音宁神"
+      ],
+      "alias": [
+        "shen lv",
+        "shenlv"
+      ],
+      "appellation": "Bassline"
+    },
+    "code": null,
+    "code_name": "Bassline"
   },
   "char_464_cement": {
     "zh_CN": {
@@ -21534,6 +21585,24 @@
     "code": null,
     "code_name": "Silence the Paradigmatic"
   },
+  "char_245_cello": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "塑心",
+      "skills": [
+        "“黄金的狂喜”",
+        "“安魂的弥撒”",
+        "“自由的探戈”"
+      ],
+      "alias": [
+        "su xin",
+        "suxin"
+      ],
+      "appellation": "Virtuosa"
+    },
+    "code": null,
+    "code_name": "Virtuosa"
+  },
   "char_1033_swire2": {
     "zh_CN": {
       "enabled": true,
@@ -21605,6 +21674,42 @@
     },
     "code": null,
     "code_name": "Hoederer"
+  },
+  "char_4098_vvana": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "薇薇安娜",
+      "skills": [
+        "光影迅捷剑",
+        "烛燃影息",
+        "“明灭”"
+      ],
+      "alias": [
+        "wei wei an na",
+        "weiweianna"
+      ],
+      "appellation": "Viviana"
+    },
+    "code": null,
+    "code_name": "Viviana"
+  },
+  "char_4011_lessng": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "止颂",
+      "skills": [
+        "强力击·γ型",
+        "虔修对决",
+        "苦修破誓"
+      ],
+      "alias": [
+        "zhi song",
+        "zhisong"
+      ],
+      "appellation": "Lessing"
+    },
+    "code": null,
+    "code_name": "Lessing"
   },
   "char_1032_excu2": {
     "zh_CN": {
@@ -22381,5 +22486,149 @@
     },
     "code": null,
     "code_name": "Sanguine Throne"
+  },
+  "trap_128_toolore": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "祭坛式雷达",
+      "skills": [
+        "脉冲波"
+      ],
+      "alias": [
+        "ji tan shi lei da",
+        "jitanshileida"
+      ],
+      "appellation": "Altar-type Radar"
+    },
+    "code": null,
+    "code_name": "Altar-type Radar"
+  },
+  "trap_129_tooltower": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-45便携式“留声机”",
+      "skills": [
+        "法术传输协议"
+      ],
+      "alias": [
+        "R-45 bian xie shi “ liu sheng ji ”",
+        "R-45bianxieshi“liushengji”"
+      ],
+      "appellation": "R-45 Portable \"Gramophone\""
+    },
+    "code": null,
+    "code_name": "R-45 Portable \"Gramophone\""
+  },
+  "trap_130_tooltree": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "景观巨蕈",
+      "skills": [
+        "天然隐蔽"
+      ],
+      "alias": [
+        "jing guan ju xun",
+        "jingguanjuxun"
+      ],
+      "appellation": "Ornamental Giant Mushroom"
+    },
+    "code": null,
+    "code_name": "Ornamental Giant Mushroom"
+  },
+  "trap_131_toolgun": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "战场装置LUD-99X",
+      "skills": [
+        "开火"
+      ],
+      "alias": [
+        "zhan chang zhuang zhi LUD-99X",
+        "zhanchangzhuangzhiLUD-99X"
+      ],
+      "appellation": "Field Device LUD-99X"
+    },
+    "code": null,
+    "code_name": "Field Device LUD-99X"
+  },
+  "trap_132_toolinvert": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“二踢脚”型数据收集装置",
+      "skills": [
+        "撼动现实"
+      ],
+      "alias": [
+        "“ er ti jiao ” xing shu ju shou ji zhuang zhi",
+        "“ertijiao”xingshujushoujizhuangzhi"
+      ],
+      "appellation": "Two-step Firecracker and Data-collector"
+    },
+    "code": null,
+    "code_name": "Two-step Firecracker and Data-collector"
+  },
+  "trap_133_toolgarage": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "勘察用自走车",
+      "skills": [
+        "自走车出击！"
+      ],
+      "alias": [
+        "kan cha yong zi zou che",
+        "kanchayongzizouche"
+      ],
+      "appellation": "Recon Self-Driving Cart"
+    },
+    "code": null,
+    "code_name": "Recon Self-Driving Cart"
+  },
+  "trap_134_condtr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "调谐节点",
+      "skills": [
+        "广域调谐"
+      ],
+      "alias": [
+        "tiao xie jie dian",
+        "tiaoxiejiedian"
+      ],
+      "appellation": "Sigil of Concord"
+    },
+    "code": null,
+    "code_name": "Sigil of Concord"
+  },
+  "trap_135_portlent": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "湮灭之相",
+      "skills": [
+        "湮灭"
+      ],
+      "alias": [
+        "yan mie zhi xiang",
+        "yanmiezhixiang"
+      ],
+      "appellation": "Locus of Annihilation"
+    },
+    "code": null,
+    "code_name": "Locus of Annihilation"
+  },
+  "trap_136_portlexi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "创生之相",
+      "skills": [
+        "创生"
+      ],
+      "alias": [
+        "chuang sheng zhi xiang",
+        "chuangshengzhixiang"
+      ],
+      "appellation": "Locus of Genesis"
+    },
+    "code": null,
+    "code_name": "Locus of Genesis"
   }
 }

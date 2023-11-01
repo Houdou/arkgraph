@@ -1,6 +1,21 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2023-11-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_245_cello",
+      "char_4098_vvana",
+      "char_4011_lessng",
+      "char_499_kaitou",
+      "char_4109_baslin",
+      "char_4100_caper"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -112,17 +127,6 @@
     "type": "new_operators",
     "new_operators": [
       "char_4102_threye"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2023-07-06",
-    "type": "new_operators",
-    "new_operators": [
-      "char_2012_typhon",
-      "char_341_sntlla"
     ]
   }
 ]
