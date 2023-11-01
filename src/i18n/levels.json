@@ -24905,6 +24905,96 @@
       "enabled": true
     }
   },
+  "act29side_st01": {
+    "code": "ZT-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_01": {
+    "code": "ZT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_tr01": {
+    "code": "ZT-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_02": {
+    "code": "ZT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_03": {
+    "code": "ZT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_04": {
+    "code": "ZT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_05": {
+    "code": "ZT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_st02": {
+    "code": "ZT-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_06": {
+    "code": "ZT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_07": {
+    "code": "ZT-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_tr02": {
+    "code": "ZT-TR-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_08": {
+    "code": "ZT-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_09": {
+    "code": "ZT-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_10": {
+    "code": "ZT-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act29side_st03": {
+    "code": "ZT-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act28side_st01": {
     "code": "CV-ST-1",
     "zh_CN": {
@@ -25957,6 +26047,12 @@
   },
   "camp_r_18": {
     "code": "萨尔贡",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_19": {
+    "code": "维多利亚",
     "zh_CN": {
       "enabled": true
     }

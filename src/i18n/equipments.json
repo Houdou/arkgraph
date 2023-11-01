@@ -3757,5 +3757,54 @@
       "enabled": true,
       "name": "朽坏传承"
     }
+  },
+  "uniequip_002_mudrok": {
+    "char_id": "char_311_mudrok",
+    "zh_CN": {
+      "enabled": true,
+      "name": "土石的根系"
+    }
+  },
+  "uniequip_002_judge": {
+    "char_id": "char_4065_judge",
+    "zh_CN": {
+      "enabled": true,
+      "name": "通往未来的荆棘之路"
+    }
+  },
+  "uniequip_002_hpsts": {
+    "char_id": "char_163_hpsts",
+    "zh_CN": {
+      "enabled": true,
+      "name": "锻椎者"
+    }
+  },
+  "uniequip_002_lessng": {
+    "char_id": "char_4011_lessng",
+    "zh_CN": {
+      "enabled": true,
+      "name": "沉锋之束"
+    }
+  },
+  "uniequip_002_baslin": {
+    "char_id": "char_4109_baslin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "受赐玩物"
+    }
+  },
+  "uniequip_003_bpipe": {
+    "char_id": "char_222_bpipe",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“棍棒与口袋”"
+    }
+  },
+  "uniequip_003_nearl2": {
+    "char_id": "char_1014_nearl2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“骑士家族”"
+    }
   }
 }
