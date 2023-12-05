@@ -2565,6 +2565,52 @@
     "code": "quartz",
     "code_name": "Quartz"
   },
+  "char_491_humus": {
+    "en_US": {
+      "enabled": true,
+      "name": "Humus",
+      "skills": [
+        "Solid Waste Cutting",
+        "Efficient Processing"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヒューマス",
+      "skills": [
+        "廃棄物処理",
+        "高効率作業"
+      ],
+      "alias": [
+        "ひゅーます"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "휴머스",
+      "skills": [
+        "고형 폐기물 절단",
+        "고효율 처리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "休谟斯",
+      "skills": [
+        "固废切割",
+        "高效处理"
+      ],
+      "alias": [
+        "xiu mo si",
+        "xiumosi"
+      ],
+      "appellation": "Humus"
+    },
+    "code": "humus",
+    "code_name": "Humus"
+  },
   "char_237_gravel": {
     "en_US": {
       "enabled": true,
@@ -4216,6 +4262,52 @@
     },
     "code": "flamebringer",
     "code_name": "Flamebringer"
+  },
+  "char_154_morgan": {
+    "en_US": {
+      "enabled": true,
+      "name": "Morgan",
+      "skills": [
+        "Professional Street Fighter",
+        "Dauntless Resistance"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "モーガン",
+      "skills": [
+        "ストリートパンク",
+        "大胆不敵"
+      ],
+      "alias": [
+        "もーがん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모건",
+      "skills": [
+        "프로 스트리트 파이터",
+        "불굴의 저항"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "摩根",
+      "skills": [
+        "街头好手",
+        "无畏招架"
+      ],
+      "alias": [
+        "mo gen",
+        "mogen"
+      ],
+      "appellation": "Morgan"
+    },
+    "code": "morgan",
+    "code_name": "Morgan"
   },
   "char_508_aguard": {
     "en_US": {
@@ -7793,6 +7885,52 @@
     "code": "aurora",
     "code_name": "Aurora"
   },
+  "char_464_cement": {
+    "en_US": {
+      "enabled": true,
+      "name": "Cement",
+      "skills": [
+        "Stratum Groundbreaker",
+        "Structural Support"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "セメント",
+      "skills": [
+        "鉱脈突破",
+        "構造強化"
+      ],
+      "alias": [
+        "せめんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시멘트",
+      "skills": [
+        "지층 분쇄",
+        "구조 보강"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "洋灰",
+      "skills": [
+        "突破矿层",
+        "结构加固"
+      ],
+      "alias": [
+        "yang hui",
+        "yanghui"
+      ],
+      "appellation": "Cement"
+    },
+    "code": "cement",
+    "code_name": "Cement"
+  },
   "char_145_prove": {
     "en_US": {
       "enabled": true,
@@ -7838,6 +7976,52 @@
     },
     "code": "provence",
     "code_name": "Provence"
+  },
+  "char_4006_melnte": {
+    "en_US": {
+      "enabled": true,
+      "name": "Melanite",
+      "skills": [
+        "Saturated Pulse",
+        "Critical Burst"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "メラナイト",
+      "skills": [
+        "飽和パルス",
+        "リミテッドバースト"
+      ],
+      "alias": [
+        "めらないと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "멜라나이트",
+      "skills": [
+        "포화 펄스",
+        "임계 폭발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "玫拉",
+      "skills": [
+        "饱和脉冲",
+        "临界爆发"
+      ],
+      "alias": [
+        "mei la",
+        "meila"
+      ],
+      "appellation": "Melanite"
+    },
+    "code": "melanite",
+    "code_name": "Melanite"
   },
   "char_158_milu": {
     "en_US": {
@@ -9931,6 +10115,106 @@
     "code": "vigil",
     "code_name": "Vigil"
   },
+  "char_249_mlyss": {
+    "en_US": {
+      "enabled": true,
+      "name": "Muelsyse",
+      "skills": [
+        "Progressive Moisturization",
+        "Ecological Interaction",
+        "Superficial Regulation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミュルジス",
+      "skills": [
+        "段階的湿潤化",
+        "生態系統結合",
+        "ノンエントロピー適応"
+      ],
+      "alias": [
+        "みゅるじす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "뮤엘시스",
+      "skills": [
+        "점진적 습윤화",
+        "생태학적 상호작용",
+        "표면적 비엔트로피 적응"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "缪尔赛思",
+      "skills": [
+        "渐进性润化",
+        "生态耦合",
+        "浅层非熵适应"
+      ],
+      "alias": [
+        "mou er sai si",
+        "mouersaisi"
+      ],
+      "appellation": "Muelsyse"
+    },
+    "code": "muelsyse",
+    "code_name": "Muelsyse"
+  },
+  "char_4087_ines": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ines",
+      "skills": [
+        "Shadow Raid",
+        "Murky Night",
+        "Solitary Return"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "イネス",
+      "skills": [
+        "影纏う刃",
+        "光亡き闇",
+        "孤影の帰路"
+      ],
+      "alias": [
+        "いねす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이네스",
+      "skills": [
+        "그림자 습격",
+        "어두운 밤",
+        "고독한 귀환"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "伊内丝",
+      "skills": [
+        "淬影突袭",
+        "暗夜无明",
+        "独影归途"
+      ],
+      "alias": [
+        "yi nei si",
+        "yineisi"
+      ],
+      "appellation": "Ines"
+    },
+    "code": "ines",
+    "code_name": "Ines"
+  },
   "char_134_ifrit": {
     "en_US": {
       "enabled": true,
@@ -10130,6 +10414,56 @@
     },
     "code": "ceobe",
     "code_name": "Ceobe"
+  },
+  "char_4027_heyak": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ho'olheyak",
+      "skills": [
+        "In Search of Reason",
+        "Meandering Stars",
+        "Well-Read Ravings"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ホルハイヤ",
+      "skills": [
+        "探求せんがため",
+        "星々のうねり",
+        "博識者の妄言"
+      ],
+      "alias": [
+        "ほるはいや"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오올헤약",
+      "skills": [
+        "탐구를 위해",
+        "굽이쳐 흐르는 별들",
+        "박식한 자의 광언"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "霍尔海雅",
+      "skills": [
+        "但为求索",
+        "群星逶迤",
+        "博览者的狂语"
+      ],
+      "alias": [
+        "huo er hai ya",
+        "huoerhaiya"
+      ],
+      "appellation": "Ho'olheyak"
+    },
+    "code": "ho'olheyak",
+    "code_name": "Ho'olheyak"
   },
   "char_2015_dusk": {
     "en_US": {
@@ -10680,6 +11014,56 @@
     },
     "code": "skadi the corrupting heart",
     "code_name": "Skadi the Corrupting Heart"
+  },
+  "char_1031_slent2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Silence the Paradigmatic",
+      "skills": [
+        "Go-Getter",
+        "Overlooking Vision",
+        "Dreadnought Protocol"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "淬羽サイレンス",
+      "skills": [
+        "止まらぬ歩み",
+        "俯瞰する視点",
+        "先駆者たちの翼"
+      ],
+      "alias": [
+        "淬羽さいれんす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사일런스 더 패러디그매틱",
+      "skills": [
+        "진취심",
+        "부감 시야",
+        "드레드노트 협약"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "淬羽赫默",
+      "skills": [
+        "进取之心",
+        "俯瞰视界",
+        "无畏者协议"
+      ],
+      "alias": [
+        "cui yu he mo",
+        "cuiyuhemo"
+      ],
+      "appellation": "Silence the Paradigmatic"
+    },
+    "code": "silence the paradigmatic",
+    "code_name": "Silence the Paradigmatic"
   },
   "char_2023_ling": {
     "en_US": {
@@ -14329,6 +14713,106 @@
     "code": "wolfpack",
     "code_name": "Vigil"
   },
+  "token_10029_slent2_protrb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Night Banisher",
+      "skills": [
+        "",
+        "Night Banisher",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "夜の灯火",
+      "skills": [
+        "",
+        "夜の灯火",
+        ""
+      ],
+      "alias": [
+        "夜の灯火"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "밤의 등불",
+      "skills": [
+        "",
+        "밤의 등불",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "夜灯",
+      "skills": [
+        "",
+        "夜灯",
+        ""
+      ],
+      "alias": [
+        "ye deng",
+        "yedeng"
+      ],
+      "appellation": "Night Banisher"
+    },
+    "code": "night banisher",
+    "code_name": "Night Banisher"
+  },
+  "token_10030_mlyss_wtrman": {
+    "en_US": {
+      "enabled": true,
+      "name": "Flowing Shape",
+      "skills": [
+        "Flowing Shape",
+        "Flowing Shape",
+        "Flowing Shape"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "うつろう水影",
+      "skills": [
+        "うつろう水影",
+        "うつろう水影",
+        "うつろう水影"
+      ],
+      "alias": [
+        "うつろう水影"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "유동체",
+      "skills": [
+        "유동체",
+        "유동체",
+        "유동체"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "流形",
+      "skills": [
+        "流形",
+        "流形",
+        "流形"
+      ],
+      "alias": [
+        "liu xing",
+        "liuxing"
+      ],
+      "appellation": "Flowing Shape"
+    },
+    "code": "flowing shape",
+    "code_name": "Flowing Shape"
+  },
   "trap_001_crate": {
     "en_US": {
       "enabled": true,
@@ -16300,6 +16784,7 @@
       "enabled": true,
       "name": "暴风雪",
       "skills": [
+        "暴风雪",
         "暴风雪"
       ],
       "alias": [
@@ -17202,7 +17687,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "R-31 중형 동력 기갑",
+      "name": "R-31 중형 기동 장갑",
       "skills": [
         "연구 성공"
       ],
@@ -17244,7 +17729,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "R-31a 중형 동력 기갑",
+      "name": "R-31a 중형 기동 장갑",
       "skills": [
         "연구 성공"
       ],
@@ -17286,7 +17771,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "R-11 돌격 동력 기갑",
+      "name": "R-11 돌격 기동 장갑",
       "skills": [
         "연구 성공"
       ],
@@ -17328,7 +17813,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "R-11a 돌격 동력 기갑",
+      "name": "R-11a 돌격 기동 장갑",
       "skills": [
         "연구 성공"
       ],
@@ -21115,6 +21600,636 @@
     "code": "veteran hunter",
     "code_name": "Seasoned Hunter"
   },
+  "trap_111_wdfarm": {
+    "en_US": {
+      "enabled": true,
+      "name": "Roadside Emergency Reserves",
+      "skills": [
+        "Resupply"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "街の緊急用備蓄",
+      "skills": [
+        "補給"
+      ],
+      "alias": [
+        "街の緊急用備蓄"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "길거리 보급품",
+      "skills": [
+        "보급"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "街头应急储备",
+      "skills": [
+        "补给"
+      ],
+      "alias": [
+        "jie tou ying ji chu bei",
+        "jietouyingjichubei"
+      ],
+      "appellation": "Street Emergency Supplies"
+    },
+    "code": "roadside emergency reserves",
+    "code_name": "Street Emergency Supplies"
+  },
+  "trap_112_crsbow": {
+    "en_US": {
+      "enabled": true,
+      "name": "Post-Firing Debt Relief Program",
+      "skills": [
+        "Debt Relief Program"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "解雇者清算プログラム",
+      "skills": [
+        "清算プログラム"
+      ],
+      "alias": [
+        "解雇者清算ぷろぐらむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "해고자 채무 탕감 프로그램",
+      "skills": [
+        "채무 탕감 프로그램"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "解雇者清债程序",
+      "skills": [
+        "清债程序"
+      ],
+      "alias": [
+        "jie gu zhe qing zhai cheng xu",
+        "jieguzheqingzhaichengxu"
+      ],
+      "appellation": "Liability Clearing Procedures for Discharged Personnel"
+    },
+    "code": "post-firing debt relief program",
+    "code_name": "Liability Clearing Procedures for Discharged Personnel"
+  },
+  "trap_113_snflwr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Full-Auto Debit Machine",
+      "skills": [
+        "Full-Auto Debit"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "全自動送金機",
+      "skills": [
+        "全自動送金"
+      ],
+      "alias": [
+        "全自動送金機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "자동 계좌 이체기",
+      "skills": [
+        "자동 계좌 이체"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "全自动划账器",
+      "skills": [
+        "全自动划账"
+      ],
+      "alias": [
+        "quan zi dong hua zhang qi",
+        "quanzidonghuazhangqi"
+      ],
+      "appellation": "Automatic Account Transfer Device"
+    },
+    "code": "full-auto debit machine",
+    "code_name": "Automatic Account Transfer Device"
+  },
+  "trap_114_smkbmb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rupturing Canister",
+      "skills": [
+        "Rupture"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "毒ガスタンク",
+      "skills": [
+        "爆裂"
+      ],
+      "alias": [
+        "毒がすたんく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "독가스 탱크",
+      "skills": [
+        "파열"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "爆裂毒气罐",
+      "skills": [
+        "爆裂"
+      ],
+      "alias": [
+        "bao lie du qi guan",
+        "baolieduqiguan"
+      ],
+      "appellation": "Burst Poison Gas Tank"
+    },
+    "code": "rupturing canister",
+    "code_name": "Burst Poison Gas Tank"
+  },
+  "trap_115_gasctrl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gas Controller",
+      "skills": [
+        "Poison Mist Control"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "毒霧タワー制御装置",
+      "skills": [
+        "毒霧制御"
+      ],
+      "alias": [
+        "毒霧たわー制御装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "독가스 컨트롤러",
+      "skills": [
+        "독가스 제어"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "毒雾塔控制",
+      "skills": [
+        "毒雾控制"
+      ],
+      "alias": [
+        "du wu ta kong zhi",
+        "duwutakongzhi"
+      ],
+      "appellation": "Gas Controller"
+    },
+    "code": "gas controller",
+    "code_name": "Gas Controller"
+  },
+  "trap_121_gractrl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gravity",
+      "skills": [
+        "Gravity Generation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "重力",
+      "skills": [
+        "重力生成"
+      ],
+      "alias": [
+        "重力"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "중력",
+      "skills": [
+        "중력 생성"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "重力",
+      "skills": [
+        "重力生成"
+      ],
+      "alias": [
+        "zhong li",
+        "zhongli"
+      ],
+      "appellation": "Gravity"
+    },
+    "code": "gravity",
+    "code_name": "Gravity"
+  },
+  "trap_714_cdaltar": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Perturbation Amplifier",
+      "skills": [
+        "Energy Perturbation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エネルギー摂動増幅器",
+      "skills": [
+        "エネルギー妨害"
+      ],
+      "alias": [
+        "えねるぎー摂動増幅器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에너지 교란 증폭기",
+      "skills": [
+        "에너지 교란"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "能量扰动放大器",
+      "skills": [
+        "能量扰动"
+      ],
+      "alias": [
+        "neng liang rao dong fang da qi",
+        "nengliangraodongfangdaqi"
+      ],
+      "appellation": "Energy Perturbation Amplifier"
+    },
+    "code": "energy perturbation amplifier",
+    "code_name": "Energy Perturbation Amplifier"
+  },
+  "trap_715_cdaltara": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Perturbation Amplifier",
+      "skills": [
+        "Energy Perturbation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エネルギー摂動増幅器",
+      "skills": [
+        "エネルギー妨害"
+      ],
+      "alias": [
+        "えねるぎー摂動増幅器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에너지 교란 증폭기",
+      "skills": [
+        "에너지 교란"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "能量扰动放大器",
+      "skills": [
+        "能量扰动"
+      ],
+      "alias": [
+        "neng liang rao dong fang da qi",
+        "nengliangraodongfangdaqi"
+      ],
+      "appellation": "Energy Perturbation Amplifier"
+    },
+    "code": "energy perturbation amplifier",
+    "code_name": "Energy Perturbation Amplifier"
+  },
+  "trap_716_cdaltarb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Perturbation Amplifier",
+      "skills": [
+        "Energy Perturbation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エネルギー摂動増幅器",
+      "skills": [
+        "エネルギー妨害"
+      ],
+      "alias": [
+        "えねるぎー摂動増幅器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에너지 교란 증폭기",
+      "skills": [
+        "에너지 교란"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "能量扰动放大器",
+      "skills": [
+        "能量扰动"
+      ],
+      "alias": [
+        "neng liang rao dong fang da qi",
+        "nengliangraodongfangdaqi"
+      ],
+      "appellation": "Energy Perturbation Amplifier"
+    },
+    "code": "energy perturbation amplifier",
+    "code_name": "Energy Perturbation Amplifier"
+  },
+  "trap_717_cddiff": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tactical Equipment Toolbox",
+      "skills": [
+        "Sort Tactical Equipment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦術装備整理箱",
+      "skills": [
+        "戦術装備整理"
+      ],
+      "alias": [
+        "戦術装備整理箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전술 장비 정리함",
+      "skills": [
+        "전술 장비 정리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战术装备整理箱",
+      "skills": [
+        "战术装备整理"
+      ],
+      "alias": [
+        "zhan shu zhuang bei zheng li xiang",
+        "zhanshuzhuangbeizhenglixiang"
+      ],
+      "appellation": "Tactical Equipment Sortbox"
+    },
+    "code": "tactical equipment toolbox",
+    "code_name": "Tactical Equipment Sortbox"
+  },
+  "trap_718_cddiffa": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tactical Equipment Toolbox",
+      "skills": [
+        "Sort Tactical Equipment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦術装備整理箱",
+      "skills": [
+        "戦術装備整理"
+      ],
+      "alias": [
+        "戦術装備整理箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전술 장비 정리함",
+      "skills": [
+        "전술 장비 정리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战术装备整理箱",
+      "skills": [
+        "战术装备整理"
+      ],
+      "alias": [
+        "zhan shu zhuang bei zheng li xiang",
+        "zhanshuzhuangbeizhenglixiang"
+      ],
+      "appellation": "Tactical Equipment Sortbox"
+    },
+    "code": "tactical equipment toolbox",
+    "code_name": "Tactical Equipment Sortbox"
+  },
+  "trap_719_cddiffb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tactical Equipment Toolbox",
+      "skills": [
+        "Sort Tactical Equipment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦術装備整理箱",
+      "skills": [
+        "戦術装備整理"
+      ],
+      "alias": [
+        "戦術装備整理箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전술 장비 정리함",
+      "skills": [
+        "전술 장비 정리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战术装备整理箱",
+      "skills": [
+        "战术装备整理"
+      ],
+      "alias": [
+        "zhan shu zhuang bei zheng li xiang",
+        "zhanshuzhuangbeizhenglixiang"
+      ],
+      "appellation": "Tactical Equipment Sortbox"
+    },
+    "code": "tactical equipment toolbox",
+    "code_name": "Tactical Equipment Sortbox"
+  },
+  "trap_720_cdheal": {
+    "en_US": {
+      "enabled": true,
+      "name": "Portable First-aid Kit",
+      "skills": [
+        "Portable First-aid Kit"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "携帯式医療設備",
+      "skills": [
+        "携帯式医療設備"
+      ],
+      "alias": [
+        "携帯式医療設備"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동식 의료 설비",
+      "skills": [
+        "이동식 의료 설비"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携式医疗设备",
+      "skills": [
+        "便携式医疗设备"
+      ],
+      "alias": [
+        "bian xie shi yi liao she bei",
+        "bianxieshiyiliaoshebei"
+      ],
+      "appellation": "Portable Medical Equipment"
+    },
+    "code": "portable first-aid kit",
+    "code_name": "Portable Medical Equipment"
+  },
+  "trap_721_cdheala": {
+    "en_US": {
+      "enabled": true,
+      "name": "Portable First-aid Kit",
+      "skills": [
+        "Portable First-aid Kit"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "携帯式医療設備",
+      "skills": [
+        "携帯式医療設備"
+      ],
+      "alias": [
+        "携帯式医療設備"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동식 의료 설비",
+      "skills": [
+        "이동식 의료 설비"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携式医疗设备",
+      "skills": [
+        "便携式医疗设备"
+      ],
+      "alias": [
+        "bian xie shi yi liao she bei",
+        "bianxieshiyiliaoshebei"
+      ],
+      "appellation": "Portable Medical Equipment"
+    },
+    "code": "portable first-aid kit",
+    "code_name": "Portable Medical Equipment"
+  },
+  "trap_722_cdhealb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Portable First-aid Kit",
+      "skills": [
+        "Portable First-aid Kit"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "携帯式医療設備",
+      "skills": [
+        "携帯式医療設備"
+      ],
+      "alias": [
+        "携帯式医療設備"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동식 의료 설비",
+      "skills": [
+        "이동식 의료 설비"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "便携式医疗设备",
+      "skills": [
+        "便携式医疗设备"
+      ],
+      "alias": [
+        "bian xie shi yi liao she bei",
+        "bianxieshiyiliaoshebei"
+      ],
+      "appellation": "Portable Medical Equipment"
+    },
+    "code": "portable first-aid kit",
+    "code_name": "Portable Medical Equipment"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -21206,23 +22321,6 @@
     "code": null,
     "code_name": "Caper"
   },
-  "char_491_humus": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "休谟斯",
-      "skills": [
-        "固废切割",
-        "高效处理"
-      ],
-      "alias": [
-        "xiu mo si",
-        "xiumosi"
-      ],
-      "appellation": "Humus"
-    },
-    "code": null,
-    "code_name": "Humus"
-  },
   "char_4107_vrdant": {
     "zh_CN": {
       "enabled": true,
@@ -21274,22 +22372,22 @@
     "code": null,
     "code_name": "Bryophyta"
   },
-  "char_154_morgan": {
+  "char_194_leto": {
     "zh_CN": {
       "enabled": true,
-      "name": "摩根",
+      "name": "烈夏",
       "skills": [
-        "街头好手",
-        "无畏招架"
+        "迅捷打击·γ型",
+        "一呼百应"
       ],
       "alias": [
-        "mo gen",
-        "mogen"
+        "lie xia",
+        "liexia"
       ],
-      "appellation": "Morgan"
+      "appellation": "Лето"
     },
     "code": null,
-    "code_name": "Morgan"
+    "code_name": "Лето"
   },
   "char_498_inside": {
     "zh_CN": {
@@ -21359,6 +22457,23 @@
     "code": null,
     "code_name": "Diamante"
   },
+  "char_4114_harold": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "哈洛德",
+      "skills": [
+        "治疗强化·γ型",
+        "重症优先"
+      ],
+      "alias": [
+        "ha luo de",
+        "haluode"
+      ],
+      "appellation": "Harold"
+    },
+    "code": null,
+    "code_name": "Harold"
+  },
   "char_494_vendla": {
     "zh_CN": {
       "enabled": true,
@@ -21392,40 +22507,6 @@
     },
     "code": null,
     "code_name": "Bassline"
-  },
-  "char_464_cement": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "洋灰",
-      "skills": [
-        "突破矿层",
-        "结构加固"
-      ],
-      "alias": [
-        "yang hui",
-        "yanghui"
-      ],
-      "appellation": "Cement"
-    },
-    "code": null,
-    "code_name": "Cement"
-  },
-  "char_4006_melnte": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "玫拉",
-      "skills": [
-        "饱和脉冲",
-        "临界爆发"
-      ],
-      "alias": [
-        "mei la",
-        "meila"
-      ],
-      "appellation": "Melanite"
-    },
-    "code": null,
-    "code_name": "Melanite"
   },
   "char_4104_coldst": {
     "zh_CN": {
@@ -21512,78 +22593,6 @@
     },
     "code": null,
     "code_name": "Typhon"
-  },
-  "char_249_mlyss": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "缪尔赛思",
-      "skills": [
-        "渐进性润化",
-        "生态耦合",
-        "浅层非熵适应"
-      ],
-      "alias": [
-        "mou er sai si",
-        "mouersaisi"
-      ],
-      "appellation": "Muelsyse"
-    },
-    "code": null,
-    "code_name": "Muelsyse"
-  },
-  "char_4087_ines": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "伊内丝",
-      "skills": [
-        "淬影突袭",
-        "暗夜无明",
-        "独影归途"
-      ],
-      "alias": [
-        "yi nei si",
-        "yineisi"
-      ],
-      "appellation": "Ines"
-    },
-    "code": null,
-    "code_name": "Ines"
-  },
-  "char_4027_heyak": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "霍尔海雅",
-      "skills": [
-        "但为求索",
-        "群星逶迤",
-        "博览者的狂语"
-      ],
-      "alias": [
-        "huo er hai ya",
-        "huoerhaiya"
-      ],
-      "appellation": "Ho'olheyak"
-    },
-    "code": null,
-    "code_name": "Ho'olheyak"
-  },
-  "char_1031_slent2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "淬羽赫默",
-      "skills": [
-        "进取之心",
-        "俯瞰视界",
-        "无畏者协议"
-      ],
-      "alias": [
-        "cui yu he mo",
-        "cuiyuhemo"
-      ],
-      "appellation": "Silence the Paradigmatic"
-    },
-    "code": null,
-    "code_name": "Silence the Paradigmatic"
   },
   "char_245_cello": {
     "zh_CN": {
@@ -21675,6 +22684,24 @@
     "code": null,
     "code_name": "Hoederer"
   },
+  "char_4116_blkkgt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "锏",
+      "skills": [
+        "纯粹的武力",
+        "无声的嘲笑",
+        "归于宁静"
+      ],
+      "alias": [
+        "jian",
+        "jian"
+      ],
+      "appellation": "Degenbrecher"
+    },
+    "code": null,
+    "code_name": "Degenbrecher"
+  },
   "char_4098_vvana": {
     "zh_CN": {
       "enabled": true,
@@ -21728,42 +22755,6 @@
     },
     "code": null,
     "code_name": "Executor the Ex Foedere"
-  },
-  "token_10029_slent2_protrb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "夜灯",
-      "skills": [
-        "",
-        "夜灯",
-        ""
-      ],
-      "alias": [
-        "ye deng",
-        "yedeng"
-      ],
-      "appellation": "Night Banisher"
-    },
-    "code": null,
-    "code_name": "Night Banisher"
-  },
-  "token_10030_mlyss_wtrman": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "流形",
-      "skills": [
-        "流形",
-        "流形",
-        "流形"
-      ],
-      "alias": [
-        "liu xing",
-        "liuxing"
-      ],
-      "appellation": "Flowing Shape"
-    },
-    "code": null,
-    "code_name": "Flowing Shape"
   },
   "token_10031_swire2_gdtrap": {
     "zh_CN": {
@@ -21960,246 +22951,6 @@
     },
     "code": null,
     "code_name": "Shabby Fence"
-  },
-  "trap_111_wdfarm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "街头应急储备",
-      "skills": [
-        "补给"
-      ],
-      "alias": [
-        "jie tou ying ji chu bei",
-        "jietouyingjichubei"
-      ],
-      "appellation": "Street Emergency Supplies"
-    },
-    "code": null,
-    "code_name": "Street Emergency Supplies"
-  },
-  "trap_112_crsbow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "解雇者清债程序",
-      "skills": [
-        "清债程序"
-      ],
-      "alias": [
-        "jie gu zhe qing zhai cheng xu",
-        "jieguzheqingzhaichengxu"
-      ],
-      "appellation": "Liability Clearing Procedures for Discharged Personnel"
-    },
-    "code": null,
-    "code_name": "Liability Clearing Procedures for Discharged Personnel"
-  },
-  "trap_113_snflwr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "全自动划账器",
-      "skills": [
-        "全自动划账"
-      ],
-      "alias": [
-        "quan zi dong hua zhang qi",
-        "quanzidonghuazhangqi"
-      ],
-      "appellation": "Automatic Account Transfer Device"
-    },
-    "code": null,
-    "code_name": "Automatic Account Transfer Device"
-  },
-  "trap_114_smkbmb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "爆裂毒气罐",
-      "skills": [
-        "爆裂"
-      ],
-      "alias": [
-        "bao lie du qi guan",
-        "baolieduqiguan"
-      ],
-      "appellation": "Burst Poison Gas Tank"
-    },
-    "code": null,
-    "code_name": "Burst Poison Gas Tank"
-  },
-  "trap_115_gasctrl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "毒雾塔控制",
-      "skills": [
-        "毒雾控制"
-      ],
-      "alias": [
-        "du wu ta kong zhi",
-        "duwutakongzhi"
-      ],
-      "appellation": "Gas Controller"
-    },
-    "code": null,
-    "code_name": "Gas Controller"
-  },
-  "trap_121_gractrl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "重力",
-      "skills": [
-        "重力生成"
-      ],
-      "alias": [
-        "zhong li",
-        "zhongli"
-      ],
-      "appellation": "Gravity"
-    },
-    "code": null,
-    "code_name": "Gravity"
-  },
-  "trap_714_cdaltar": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "能量扰动放大器",
-      "skills": [
-        "能量扰动"
-      ],
-      "alias": [
-        "neng liang rao dong fang da qi",
-        "nengliangraodongfangdaqi"
-      ],
-      "appellation": "Energy Perturbation Amplifier"
-    },
-    "code": null,
-    "code_name": "Energy Perturbation Amplifier"
-  },
-  "trap_715_cdaltara": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "能量扰动放大器",
-      "skills": [
-        "能量扰动"
-      ],
-      "alias": [
-        "neng liang rao dong fang da qi",
-        "nengliangraodongfangdaqi"
-      ],
-      "appellation": "Energy Perturbation Amplifier"
-    },
-    "code": null,
-    "code_name": "Energy Perturbation Amplifier"
-  },
-  "trap_716_cdaltarb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "能量扰动放大器",
-      "skills": [
-        "能量扰动"
-      ],
-      "alias": [
-        "neng liang rao dong fang da qi",
-        "nengliangraodongfangdaqi"
-      ],
-      "appellation": "Energy Perturbation Amplifier"
-    },
-    "code": null,
-    "code_name": "Energy Perturbation Amplifier"
-  },
-  "trap_717_cddiff": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战术装备整理箱",
-      "skills": [
-        "战术装备整理"
-      ],
-      "alias": [
-        "zhan shu zhuang bei zheng li xiang",
-        "zhanshuzhuangbeizhenglixiang"
-      ],
-      "appellation": "Tactical Equipment Sortbox"
-    },
-    "code": null,
-    "code_name": "Tactical Equipment Sortbox"
-  },
-  "trap_718_cddiffa": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战术装备整理箱",
-      "skills": [
-        "战术装备整理"
-      ],
-      "alias": [
-        "zhan shu zhuang bei zheng li xiang",
-        "zhanshuzhuangbeizhenglixiang"
-      ],
-      "appellation": "Tactical Equipment Sortbox"
-    },
-    "code": null,
-    "code_name": "Tactical Equipment Sortbox"
-  },
-  "trap_719_cddiffb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战术装备整理箱",
-      "skills": [
-        "战术装备整理"
-      ],
-      "alias": [
-        "zhan shu zhuang bei zheng li xiang",
-        "zhanshuzhuangbeizhenglixiang"
-      ],
-      "appellation": "Tactical Equipment Sortbox"
-    },
-    "code": null,
-    "code_name": "Tactical Equipment Sortbox"
-  },
-  "trap_720_cdheal": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "便携式医疗设备",
-      "skills": [
-        "便携式医疗设备"
-      ],
-      "alias": [
-        "bian xie shi yi liao she bei",
-        "bianxieshiyiliaoshebei"
-      ],
-      "appellation": "Portable Medical Equipment"
-    },
-    "code": null,
-    "code_name": "Portable Medical Equipment"
-  },
-  "trap_721_cdheala": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "便携式医疗设备",
-      "skills": [
-        "便携式医疗设备"
-      ],
-      "alias": [
-        "bian xie shi yi liao she bei",
-        "bianxieshiyiliaoshebei"
-      ],
-      "appellation": "Portable Medical Equipment"
-    },
-    "code": null,
-    "code_name": "Portable Medical Equipment"
-  },
-  "trap_722_cdhealb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "便携式医疗设备",
-      "skills": [
-        "便携式医疗设备"
-      ],
-      "alias": [
-        "bian xie shi yi liao she bei",
-        "bianxieshiyiliaoshebei"
-      ],
-      "appellation": "Portable Medical Equipment"
-    },
-    "code": null,
-    "code_name": "Portable Medical Equipment"
   },
   "trap_723_cdcvrt": {
     "zh_CN": {
@@ -22630,5 +23381,37 @@
     },
     "code": null,
     "code_name": "Locus of Genesis"
+  },
+  "trap_137_winfire": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "紧急供暖器",
+      "skills": [
+        "点燃"
+      ],
+      "alias": [
+        "jin ji gong nuan qi",
+        "jinjigongnuanqi"
+      ],
+      "appellation": "Emergency Brazier"
+    },
+    "code": null,
+    "code_name": "Emergency Brazier"
+  },
+  "trap_138_winstone": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "点火石",
+      "skills": [
+        "紧急点燃"
+      ],
+      "alias": [
+        "dian huo shi",
+        "dianhuoshi"
+      ],
+      "appellation": "Chert"
+    },
+    "code": null,
+    "code_name": "Chert"
   }
 }
