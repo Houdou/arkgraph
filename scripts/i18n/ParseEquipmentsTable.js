@@ -11,8 +11,10 @@ const LANG = [
 const equipments_data = {};
 
 const readTable = (lang) => {
+	const repo = lang === 'zh_CN' ? 'data' : 'data-i18n';
+
 	try {
-		const { equipDict } = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/uniequip_table.json`));
+		const { equipDict } = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/uniequip_table.json`));
 		Object.entries(equipDict)
 			.filter(([key, value]) => value.type !== 'INITIAL')
 			.forEach(([

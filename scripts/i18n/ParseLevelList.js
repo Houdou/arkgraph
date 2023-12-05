@@ -11,7 +11,9 @@ const LANG = [
 const stages_data = {};
 
 const readTable = (lang) => {
-	const { stages } = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/stage_table.json`));
+	const repo = lang === 'zh_CN' ? 'data' : 'data-i18n';
+
+	const { stages } = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/stage_table.json`));
 	Object.entries(stages)
 		.forEach(([
 			key, value,

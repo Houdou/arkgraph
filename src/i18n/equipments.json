@@ -3326,6 +3326,18 @@
   },
   "uniequip_002_billro": {
     "char_id": "char_426_billro",
+    "en_US": {
+      "enabled": true,
+      "name": "Hyacinth and Dagger"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヒヤシンスと短剣"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "히아신스와 비수"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "风信子与匕首"
@@ -3333,6 +3345,18 @@
   },
   "uniequip_002_lin": {
     "char_id": "char_4080_lin",
+    "en_US": {
+      "enabled": true,
+      "name": "'Exquisite Heart'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「聡明怜悧」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'슬기로움'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“七窍玲珑”"
@@ -3340,6 +3364,18 @@
   },
   "uniequip_002_mint": {
     "char_id": "char_388_mint",
+    "en_US": {
+      "enabled": true,
+      "name": "Attention-holding Device"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "集中力維持装置"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "집중력 유지 장치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "注意力保持装置"
@@ -3347,6 +3383,18 @@
   },
   "uniequip_002_beewax": {
     "char_id": "char_344_beewax",
+    "en_US": {
+      "enabled": true,
+      "name": "'Beeswax's Blessing'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「司祭の祝福」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'사제의 축복'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“司祭的祝福”"
@@ -3354,6 +3402,18 @@
   },
   "uniequip_002_doroth": {
     "char_id": "char_4048_doroth",
+    "en_US": {
+      "enabled": true,
+      "name": "Story Book"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "童話の本"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "동화책"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "童话书"
@@ -3361,6 +3421,18 @@
   },
   "uniequip_002_robin": {
     "char_id": "char_451_robin",
+    "en_US": {
+      "enabled": true,
+      "name": "Calendar the Limited Edition"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "限定版カレンダー"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "한정판 달력"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "限量版年历"
@@ -3368,6 +3440,18 @@
   },
   "uniequip_002_rfrost": {
     "char_id": "char_458_rfrost",
+    "en_US": {
+      "enabled": true,
+      "name": "Metallic Spring Loaded Trap"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウェルカムマット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기계식 함정 누름판"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "机械式陷阱压力板"
@@ -3375,6 +3459,18 @@
   },
   "uniequip_002_cement": {
     "char_id": "char_464_cement",
+    "en_US": {
+      "enabled": true,
+      "name": "Engineering Recorder"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "工事レコーダー"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공사 기록기"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "工程记录仪"
@@ -3382,6 +3478,18 @@
   },
   "uniequip_002_morgan": {
     "char_id": "char_154_morgan",
+    "en_US": {
+      "enabled": true,
+      "name": "'Iron Heart'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「アイアンハート」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'강철의 마음'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“钢铁之心”"
@@ -3389,6 +3497,18 @@
   },
   "uniequip_003_nian": {
     "char_id": "char_2014_nian",
+    "en_US": {
+      "enabled": true,
+      "name": "'Don't Disturb'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「扉叩くことなかれ」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'노크 금지'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“请勿叩门”"
@@ -3396,6 +3516,18 @@
   },
   "uniequip_003_cerber": {
     "char_id": "char_2013_cerber",
+    "en_US": {
+      "enabled": true,
+      "name": "'Knife, I Made'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「おいらが打ったナイフ」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'내가 만든 칼'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“我打的刀”"
@@ -3403,6 +3535,18 @@
   },
   "uniequip_002_gnosis": {
     "char_id": "char_206_gnosis",
+    "en_US": {
+      "enabled": true,
+      "name": "'Vow'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「誓言」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'약속'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“誓言”"
@@ -3410,6 +3554,18 @@
   },
   "uniequip_002_slbell": {
     "char_id": "char_174_slbell",
+    "en_US": {
+      "enabled": true,
+      "name": "'Knitting of a Future'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「編み物の続き」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'뜨개질'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“续针”"
@@ -3417,6 +3573,18 @@
   },
   "uniequip_002_vodfox": {
     "char_id": "char_254_vodfox",
+    "en_US": {
+      "enabled": true,
+      "name": "Fabric Apples"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "布製のリンゴ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "봉제 사과"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "布艺苹果"
@@ -3424,6 +3592,18 @@
   },
   "uniequip_002_rosmon": {
     "char_id": "char_391_rosmon",
+    "en_US": {
+      "enabled": true,
+      "name": "'Notes'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「メモ」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'기록'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“记事”"
@@ -3431,6 +3611,18 @@
   },
   "uniequip_002_greyy2": {
     "char_id": "char_1027_greyy2",
+    "en_US": {
+      "enabled": true,
+      "name": "Experimental ECU Prototype"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "新型電子制御装置の試作品"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "신형 전기 설비 기술 프로토타입"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "新型电控设备技术原型"
@@ -3438,6 +3630,18 @@
   },
   "uniequip_002_heyak": {
     "char_id": "char_4027_heyak",
+    "en_US": {
+      "enabled": true,
+      "name": "'Bibliotheca'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「図書館」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'도서관'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“图书馆”"
@@ -3445,6 +3649,18 @@
   },
   "uniequip_002_melnte": {
     "char_id": "char_4006_melnte",
+    "en_US": {
+      "enabled": true,
+      "name": "Fragrance Earrings"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フレグランスイヤリング"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "향기 나는 귀걸이"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "香薰耳坠"
@@ -3452,6 +3668,18 @@
   },
   "uniequip_003_cqbw": {
     "char_id": "char_113_cqbw",
+    "en_US": {
+      "enabled": true,
+      "name": "Lost Dull Knife"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "鈍い刃"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "빠르고 무딘 칼날"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "刺棱钝刃"
@@ -3459,6 +3687,18 @@
   },
   "uniequip_003_kalts": {
     "char_id": "char_003_kalts",
+    "en_US": {
+      "enabled": true,
+      "name": "Panacea"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "医師"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "의사"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "医者"
@@ -3805,6 +4045,97 @@
     "zh_CN": {
       "enabled": true,
       "name": "“骑士家族”"
+    }
+  },
+  "uniequip_002_gdglow": {
+    "char_id": "char_377_gdglow",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“辛劳之翼”"
+    }
+  },
+  "uniequip_002_rockr": {
+    "char_id": "char_4040_rockr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未命名的无人机"
+    }
+  },
+  "uniequip_002_kjera": {
+    "char_id": "char_4013_kjera",
+    "zh_CN": {
+      "enabled": true,
+      "name": "以雪为线"
+    }
+  },
+  "uniequip_002_malist": {
+    "char_id": "char_4054_malist",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“新家园”"
+    }
+  },
+  "uniequip_002_cammou": {
+    "char_id": "char_328_cammou",
+    "zh_CN": {
+      "enabled": true,
+      "name": "大菲林脱敏实验"
+    }
+  },
+  "uniequip_002_blkkgt": {
+    "char_id": "char_4116_blkkgt",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“过往的注脚”"
+    }
+  },
+  "uniequip_002_reed2": {
+    "char_id": "char_1020_reed2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“赠予红龙的花冠”"
+    }
+  },
+  "uniequip_002_hbisc2": {
+    "char_id": "char_1024_hbisc2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "结晶胸花"
+    }
+  },
+  "uniequip_002_vendla": {
+    "char_id": "char_494_vendla",
+    "zh_CN": {
+      "enabled": true,
+      "name": "碎片"
+    }
+  },
+  "uniequip_003_billro": {
+    "char_id": "char_426_billro",
+    "zh_CN": {
+      "enabled": true,
+      "name": "乡音"
+    }
+  },
+  "uniequip_003_weedy": {
+    "char_id": "char_400_weedy",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新型仿生原型"
+    }
+  },
+  "uniequip_003_lisa": {
+    "char_id": "char_358_lisa",
+    "zh_CN": {
+      "enabled": true,
+      "name": "孩子们"
+    }
+  },
+  "uniequip_003_lmlee": {
+    "char_id": "char_322_lmlee",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“但思善恶”"
     }
   }
 }

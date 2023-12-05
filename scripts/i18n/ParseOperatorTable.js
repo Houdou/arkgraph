@@ -13,10 +13,12 @@ const LANG = [
 const operator_data = {};
 
 const readTable = (lang) => {
-	const characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/character_table.json`));
-	const skills = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/skill_table.json`));
+	const repo = lang === 'zh_CN' ? 'data' : 'data-i18n';
+	
+	const characters = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/character_table.json`));
+	const skills = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/skill_table.json`));
 
-	const patch_characters = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/char_patch_table.json`));
+	const patch_characters = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/char_patch_table.json`));
 
 	Object.entries(patch_characters.patchChars).forEach(([unique_id, value]) => {
 		characters[unique_id] = {

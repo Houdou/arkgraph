@@ -25,7 +25,9 @@ Object.entries(ItemMapping).forEach(([key, value]) => {
 });
 
 const readTable = (lang) => {
-	const { items } = require(path.resolve(__dirname, `./data/${lang}/gamedata/excel/item_table.json`));
+	const repo = lang === 'zh_CN' ? 'data' : 'data-i18n';
+
+	const { items } = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/item_table.json`));
 	Object.entries(items)
 		.filter(([unique_id, value]) => ItemMapping[unique_id])
 		.forEach(([unique_id, value]) => {
