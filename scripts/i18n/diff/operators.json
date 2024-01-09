@@ -169,6 +169,40 @@
     "code": "terra research commission",
     "code_name": "Terra Research Commission"
   },
+  "char_4093_frston": {
+    "en_US": {
+      "enabled": true,
+      "name": "Friston-3",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Friston-3",
+      "skills": [],
+      "alias": [
+        "Friston-3"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Friston-3",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Friston-3",
+      "skills": [],
+      "alias": [
+        "Friston-3",
+        "Friston-3"
+      ],
+      "appellation": "Friston-3"
+    },
+    "code": "friston-3",
+    "code_name": "Friston-3"
+  },
   "char_502_nblade": {
     "en_US": {
       "enabled": true,
@@ -5405,6 +5439,52 @@
     "code": "kroos the keen glint",
     "code_name": "Kroos the Keen Glint"
   },
+  "char_498_inside": {
+    "en_US": {
+      "enabled": true,
+      "name": "Insider",
+      "skills": [
+        "'Don't Invite Trouble'",
+        "'Problem Solver'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "インサイダー",
+      "skills": [
+        "「トラブル回避」",
+        "「トラブル解決」"
+      ],
+      "alias": [
+        "いんさいだー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "인사이더",
+      "skills": [
+        "'트러블 차단'",
+        "'트러블 해결'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "隐现",
+      "skills": [
+        "“不惹麻烦”",
+        "“解决麻烦”"
+      ],
+      "alias": [
+        "yin xian",
+        "yinxian"
+      ],
+      "appellation": "Insider"
+    },
+    "code": "insider",
+    "code_name": "Insider"
+  },
   "char_219_meteo": {
     "en_US": {
       "enabled": true,
@@ -8298,6 +8378,52 @@
     },
     "code": "greyy the lightningbearer",
     "code_name": "Greyy the Lightningbearer"
+  },
+  "char_4015_spuria": {
+    "en_US": {
+      "enabled": true,
+      "name": "Spuria",
+      "skills": [
+        "Seize the Moment",
+        "On-the-Fly Weapon Modding"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スプリア",
+      "skills": [
+        "クイックドロウ",
+        "インスタントカスタム"
+      ],
+      "alias": [
+        "すぷりあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스푸리아",
+      "skills": [
+        "임기응변",
+        "즉석 총기 개조"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "空构",
+      "skills": [
+        "见机行事",
+        "临场铳械改装"
+      ],
+      "alias": [
+        "kong gou",
+        "konggou"
+      ],
+      "appellation": "Spuria"
+    },
+    "code": "spuria",
+    "code_name": "Spuria"
   },
   "char_173_slchan": {
     "en_US": {
@@ -12965,6 +13091,56 @@
     "code": "nearl the radiant knight",
     "code_name": "Nearl the Radiant Knight"
   },
+  "char_1032_excu2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Executor the Ex Foedere",
+      "skills": [
+        "Testament Exacted",
+        "Close Combat",
+        "Damnatus Ex Foedere"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "聖約イグゼキュター",
+      "skills": [
+        "遺言の執行",
+        "近接銃術",
+        "聖約の裁き"
+      ],
+      "alias": [
+        "聖約いぐぜきゅたー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이그제큐터 디 엑스 포에데레",
+      "skills": [
+        "유언 집행",
+        "근접 전투",
+        "언약 심판"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣约送葬人",
+      "skills": [
+        "遗嘱执行",
+        "近身铳斗",
+        "圣约决裁"
+      ],
+      "alias": [
+        "sheng yue song zang ren",
+        "shengyuesongzangren"
+      ],
+      "appellation": "Executor the Ex Foedere"
+    },
+    "code": "executor the ex foedere",
+    "code_name": "Executor the Ex Foedere"
+  },
   "char_4064_mlynar": {
     "en_US": {
       "enabled": true,
@@ -14054,7 +14230,7 @@
       "skills": [
         "",
         "",
-        "'눈부신 태양'"
+        "'블레이징 선'"
       ],
       "alias": []
     },
@@ -21600,6 +21776,174 @@
     "code": "veteran hunter",
     "code_name": "Seasoned Hunter"
   },
+  "trap_117_ltstat": {
+    "en_US": {
+      "enabled": true,
+      "name": "Holy Statue",
+      "skills": [
+        "Prayer"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "聖像",
+      "skills": [
+        "祈り"
+      ],
+      "alias": [
+        "聖像"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "성상",
+      "skills": [
+        "기도"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣像",
+      "skills": [
+        "祈祷"
+      ],
+      "alias": [
+        "sheng xiang",
+        "shengxiang"
+      ],
+      "appellation": "Holy Statue"
+    },
+    "code": "holy statue",
+    "code_name": "Holy Statue"
+  },
+  "trap_118_rockfl": {
+    "en_US": {
+      "enabled": true,
+      "name": "Crumbling Masonry",
+      "skills": [
+        "Collapse"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "崩れた壁",
+      "skills": [
+        "崩落"
+      ],
+      "alias": [
+        "崩れた壁"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "무너진 담장",
+      "skills": [
+        "붕괴"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "塌落的墙垣",
+      "skills": [
+        "塌落"
+      ],
+      "alias": [
+        "ta la de qiang yuan",
+        "taladeqiangyuan"
+      ],
+      "appellation": "Failing Masonry"
+    },
+    "code": "crumbling masonry",
+    "code_name": "Failing Masonry"
+  },
+  "trap_119_rdrepair": {
+    "en_US": {
+      "enabled": true,
+      "name": "Spare Timber",
+      "skills": [
+        "Restore Path"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備木材",
+      "skills": [
+        "歩道修復"
+      ],
+      "alias": [
+        "予備木材"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비상용 목재",
+      "skills": [
+        "통로 보수"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "备用木材",
+      "skills": [
+        "修复步道"
+      ],
+      "alias": [
+        "bei yong mu cai",
+        "beiyongmucai"
+      ],
+      "appellation": "Spare Timber"
+    },
+    "code": "spare timber",
+    "code_name": "Spare Timber"
+  },
+  "trap_120_rdblock": {
+    "en_US": {
+      "enabled": true,
+      "name": "Shabby Fence",
+      "skills": [
+        "Intercept"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "朽ちた木の柵",
+      "skills": [
+        "障害物"
+      ],
+      "alias": [
+        "朽ちた木の柵"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "낡은 울타리",
+      "skills": [
+        "차단"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "破旧的木篱",
+      "skills": [
+        "阻拦"
+      ],
+      "alias": [
+        "po jiu de mu li",
+        "pojiudemuli"
+      ],
+      "appellation": "Shabby Fence"
+    },
+    "code": "shabby fence",
+    "code_name": "Shabby Fence"
+  },
   "trap_111_wdfarm": {
     "en_US": {
       "enabled": true,
@@ -22290,20 +22634,6 @@
     "code": null,
     "code_name": "U-Official"
   },
-  "char_4093_frston": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Friston-3",
-      "skills": [],
-      "alias": [
-        "Friston-3",
-        "Friston-3"
-      ],
-      "appellation": "Friston-3"
-    },
-    "code": null,
-    "code_name": "Friston-3"
-  },
   "char_4100_caper": {
     "zh_CN": {
       "enabled": true,
@@ -22389,23 +22719,6 @@
     "code": null,
     "code_name": "Лето"
   },
-  "char_498_inside": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "隐现",
-      "skills": [
-        "“不惹麻烦”",
-        "“解决麻烦”"
-      ],
-      "alias": [
-        "yin xian",
-        "yinxian"
-      ],
-      "appellation": "Insider"
-    },
-    "code": null,
-    "code_name": "Insider"
-  },
   "char_341_sntlla": {
     "zh_CN": {
       "enabled": true,
@@ -22456,6 +22769,23 @@
     },
     "code": null,
     "code_name": "Diamante"
+  },
+  "char_4081_warmy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "温米",
+      "skills": [
+        "炎炎火焰",
+        "滔滔热流"
+      ],
+      "alias": [
+        "wen mi",
+        "wenmi"
+      ],
+      "appellation": "Warmy"
+    },
+    "code": null,
+    "code_name": "Warmy"
   },
   "char_4114_harold": {
     "zh_CN": {
@@ -22525,23 +22855,6 @@
     "code": null,
     "code_name": "Coldshot"
   },
-  "char_4015_spuria": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "空构",
-      "skills": [
-        "见机行事",
-        "临场铳械改装"
-      ],
-      "alias": [
-        "kong gou",
-        "konggou"
-      ],
-      "appellation": "Spuria"
-    },
-    "code": null,
-    "code_name": "Spuria"
-  },
   "char_4105_almond": {
     "zh_CN": {
       "enabled": true,
@@ -22593,6 +22906,24 @@
     },
     "code": null,
     "code_name": "Typhon"
+  },
+  "char_4117_ray": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱伊",
+      "skills": [
+        "脱身矢",
+        "广域警觉",
+        "“得见光芒”"
+      ],
+      "alias": [
+        "lai yi",
+        "laiyi"
+      ],
+      "appellation": "Ray"
+    },
+    "code": null,
+    "code_name": "Ray"
   },
   "char_245_cello": {
     "zh_CN": {
@@ -22738,24 +23069,6 @@
     "code": null,
     "code_name": "Lessing"
   },
-  "char_1032_excu2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "圣约送葬人",
-      "skills": [
-        "遗嘱执行",
-        "近身铳斗",
-        "圣约决裁"
-      ],
-      "alias": [
-        "sheng yue song zang ren",
-        "shengyuesongzangren"
-      ],
-      "appellation": "Executor the Ex Foedere"
-    },
-    "code": null,
-    "code_name": "Executor the Ex Foedere"
-  },
   "token_10031_swire2_gdtrap": {
     "zh_CN": {
       "enabled": true,
@@ -22791,6 +23104,24 @@
     },
     "code": null,
     "code_name": "Mobile personnel shield"
+  },
+  "token_10034_ray_sndbst": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙地兽",
+      "skills": [
+        "",
+        "广域警觉",
+        ""
+      ],
+      "alias": [
+        "sha di shou",
+        "shadishou"
+      ],
+      "appellation": "Sandbeast"
+    },
+    "code": null,
+    "code_name": "Sandbeast"
   },
   "trap_106_smtree": {
     "zh_CN": {
@@ -22887,70 +23218,6 @@
     },
     "code": null,
     "code_name": "\"My Past Self\""
-  },
-  "trap_117_ltstat": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "圣像",
-      "skills": [
-        "祈祷"
-      ],
-      "alias": [
-        "sheng xiang",
-        "shengxiang"
-      ],
-      "appellation": "Holy Statue"
-    },
-    "code": null,
-    "code_name": "Holy Statue"
-  },
-  "trap_118_rockfl": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "塌落的墙垣",
-      "skills": [
-        "塌落"
-      ],
-      "alias": [
-        "ta la de qiang yuan",
-        "taladeqiangyuan"
-      ],
-      "appellation": "Failing Masonry"
-    },
-    "code": null,
-    "code_name": "Failing Masonry"
-  },
-  "trap_119_rdrepair": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "备用木材",
-      "skills": [
-        "修复步道"
-      ],
-      "alias": [
-        "bei yong mu cai",
-        "beiyongmucai"
-      ],
-      "appellation": "Spare Timber"
-    },
-    "code": null,
-    "code_name": "Spare Timber"
-  },
-  "trap_120_rdblock": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "破旧的木篱",
-      "skills": [
-        "阻拦"
-      ],
-      "alias": [
-        "po jiu de mu li",
-        "pojiudemuli"
-      ],
-      "appellation": "Shabby Fence"
-    },
-    "code": null,
-    "code_name": "Shabby Fence"
   },
   "trap_723_cdcvrt": {
     "zh_CN": {
@@ -23413,5 +23680,165 @@
     },
     "code": null,
     "code_name": "Chert"
+  },
+  "trap_736_mercha": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": null,
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_737_merchaa": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": null,
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_738_merchab": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": null,
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_739_sniper": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": null,
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_740_snipera": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": null,
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_741_sniperb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": null,
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_742_gasbot": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": null,
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_743_gasbota": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": null,
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_744_gasbotb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": null,
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_745_beer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“蜜酿万岁！”",
+      "skills": [
+        "“蜜酿万岁！”"
+      ],
+      "alias": [
+        "“ mi niang wan sui ！”",
+        "“miniangwansui！”"
+      ],
+      "appellation": "\"Mead! Need more mead!\""
+    },
+    "code": null,
+    "code_name": "\"Mead! Need more mead!\""
   }
 }
