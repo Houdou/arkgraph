@@ -3706,6 +3706,18 @@
   },
   "uniequip_002_ironmn": {
     "char_id": "char_4072_ironmn",
+    "en_US": {
+      "enabled": true,
+      "name": "FMC-Crawler"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "鉄鉗号・クローラー"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "글룸핀서호 - 크롤러"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "铁钳号·爬行者"
@@ -3713,6 +3725,18 @@
   },
   "uniequip_002_windft": {
     "char_id": "char_433_windft",
+    "en_US": {
+      "enabled": true,
+      "name": "'A Bright Idea Occurs'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「思い付き」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '임기응변'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“灵机一动”"
@@ -3720,6 +3744,18 @@
   },
   "uniequip_002_robrta": {
     "char_id": "char_484_robrta",
+    "en_US": {
+      "enabled": true,
+      "name": "Semi-Auto Stylist Toolkit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "半自動メイクアップセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "반자동 스타일링 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "半自动造型工具套组"
@@ -3727,6 +3763,18 @@
   },
   "uniequip_002_haak": {
     "char_id": "char_225_haak",
+    "en_US": {
+      "enabled": true,
+      "name": "Mixed-Fruit Medical Caddy"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フルーツ味の救急箱"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모듬 과일맛 의료 상자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "什锦果味医用箱"
@@ -3734,6 +3782,18 @@
   },
   "uniequip_002_spuria": {
     "char_id": "char_4015_spuria",
+    "en_US": {
+      "enabled": true,
+      "name": "Drone Spraying Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ドローン塗装キット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "드론 스프레이 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "无人机喷涂套装"
@@ -3741,6 +3801,18 @@
   },
   "uniequip_002_inside": {
     "char_id": "char_498_inside",
+    "en_US": {
+      "enabled": true,
+      "name": "'The First Surprise'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「最初のサプライズ」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '최초의 기쁨'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“最初的惊喜”"
@@ -3748,6 +3820,18 @@
   },
   "uniequip_003_blemsh": {
     "char_id": "char_423_blemsh",
+    "en_US": {
+      "enabled": true,
+      "name": "'Knight Primus'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「首席騎士」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '기사장'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“长骑”"
@@ -3755,9 +3839,97 @@
   },
   "uniequip_003_flamtl": {
     "char_id": "char_420_flamtl",
+    "en_US": {
+      "enabled": true,
+      "name": "Their Future"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "彼女たちの未来"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그녀들의 미래"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "她们的未来"
+    }
+  },
+  "uniequip_002_excu2": {
+    "char_id": "char_1032_excu2",
+    "en_US": {
+      "enabled": true,
+      "name": "Unanswered"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "回答を求めて"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "답을 기다리며"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "待解答"
+    }
+  },
+  "uniequip_002_crow": {
+    "char_id": "char_421_crow",
+    "en_US": {
+      "enabled": true,
+      "name": "Aqua Blue Dawn"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "水色の夜明け"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에메랄드빛 여명"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "水蓝色黎明"
+    }
+  },
+  "uniequip_002_highmo": {
+    "char_id": "char_4066_highmo",
+    "en_US": {
+      "enabled": true,
+      "name": "'Weighing Anchor'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「船出」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '항해'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“启航”"
+    }
+  },
+  "uniequip_002_humus": {
+    "char_id": "char_491_humus",
+    "en_US": {
+      "enabled": true,
+      "name": "Badlands Exotic Toolkit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "悪地向け奇天烈工具セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "불모지의 이상한 공구 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "恶地奇异工具套组"
     }
   },
   "uniequip_002_sntlla": {
@@ -3870,34 +4042,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "“金币辉煌”"
-    }
-  },
-  "uniequip_002_excu2": {
-    "char_id": "char_1032_excu2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "待解答"
-    }
-  },
-  "uniequip_002_crow": {
-    "char_id": "char_421_crow",
-    "zh_CN": {
-      "enabled": true,
-      "name": "水蓝色黎明"
-    }
-  },
-  "uniequip_002_highmo": {
-    "char_id": "char_4066_highmo",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“启航”"
-    }
-  },
-  "uniequip_002_humus": {
-    "char_id": "char_491_humus",
-    "zh_CN": {
-      "enabled": true,
-      "name": "恶地奇异工具套组"
     }
   },
   "uniequip_002_ncdeer": {

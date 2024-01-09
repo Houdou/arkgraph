@@ -8759,6 +8759,441 @@
       "enabled": true
     }
   },
+  "act26side_st01": {
+    "code": "HE-ST-1",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_tr01": {
+    "code": "HE-TR-1",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_01": {
+    "code": "HE-1",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_02": {
+    "code": "HE-2",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_03": {
+    "code": "HE-3",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_tr02": {
+    "code": "HE-TR-2",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_04": {
+    "code": "HE-4",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_05": {
+    "code": "HE-5",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_06": {
+    "code": "HE-6",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_st02": {
+    "code": "HE-ST-2",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_07": {
+    "code": "HE-7",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_08": {
+    "code": "HE-8",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_st03": {
+    "code": "HE-ST-3",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex01": {
+    "code": "HE-EX-1",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex01#f#": {
+    "code": "HE-EX-1",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex02": {
+    "code": "HE-EX-2",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex02#f#": {
+    "code": "HE-EX-2",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex03": {
+    "code": "HE-EX-3",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex03#f#": {
+    "code": "HE-EX-3",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex04": {
+    "code": "HE-EX-4",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex04#f#": {
+    "code": "HE-EX-4",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex05": {
+    "code": "HE-EX-5",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex05#f#": {
+    "code": "HE-EX-5",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex06": {
+    "code": "HE-EX-6",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex06#f#": {
+    "code": "HE-EX-6",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex07": {
+    "code": "HE-EX-7",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex07#f#": {
+    "code": "HE-EX-7",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex08": {
+    "code": "HE-EX-8",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act26side_ex08#f#": {
+    "code": "HE-EX-8",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act25side_st01": {
     "code": "CW-ST-1",
     "en_US": {
@@ -24824,6 +25259,21 @@
       "enabled": true
     }
   },
+  "camp_r_17": {
+    "code": "维多利亚",
+    "en_US": {
+      "enabled": true
+    },
+    "ja_JP": {
+      "enabled": true
+    },
+    "ko_KR": {
+      "enabled": true
+    },
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "lt_tr_01": {
     "code": "TR-1",
     "en_US": {
@@ -26459,6 +26909,114 @@
       "enabled": true
     }
   },
+  "act16mini_01": {
+    "code": "TG-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_01#f#": {
+    "code": "TG-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_02": {
+    "code": "TG-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_02#f#": {
+    "code": "TG-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_03": {
+    "code": "TG-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_03#f#": {
+    "code": "TG-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_04": {
+    "code": "TG-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_04#f#": {
+    "code": "TG-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_05": {
+    "code": "TG-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_05#f#": {
+    "code": "TG-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_06": {
+    "code": "TG-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_06#f#": {
+    "code": "TG-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_07": {
+    "code": "TG-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_07#f#": {
+    "code": "TG-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_08": {
+    "code": "TG-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_08#f#": {
+    "code": "TG-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_s01": {
+    "code": "TG-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act16mini_s02": {
+    "code": "TG-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act30side_st01": {
     "code": "RS-ST-1",
     "zh_CN": {
@@ -26527,6 +27085,102 @@
   },
   "act30side_st03": {
     "code": "RS-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex01": {
+    "code": "RS-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex01#f#": {
+    "code": "RS-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex02": {
+    "code": "RS-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex02#f#": {
+    "code": "RS-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex03": {
+    "code": "RS-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex03#f#": {
+    "code": "RS-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex04": {
+    "code": "RS-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex04#f#": {
+    "code": "RS-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex05": {
+    "code": "RS-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex05#f#": {
+    "code": "RS-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex06": {
+    "code": "RS-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex06#f#": {
+    "code": "RS-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex07": {
+    "code": "RS-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex07#f#": {
+    "code": "RS-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex08": {
+    "code": "RS-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act30side_ex08#f#": {
+    "code": "RS-EX-8",
     "zh_CN": {
       "enabled": true
     }
@@ -27389,186 +28043,6 @@
       "enabled": true
     }
   },
-  "act26side_st01": {
-    "code": "HE-ST-1",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_tr01": {
-    "code": "HE-TR-1",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_01": {
-    "code": "HE-1",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_02": {
-    "code": "HE-2",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_03": {
-    "code": "HE-3",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_tr02": {
-    "code": "HE-TR-2",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_04": {
-    "code": "HE-4",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_05": {
-    "code": "HE-5",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_06": {
-    "code": "HE-6",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_st02": {
-    "code": "HE-ST-2",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_07": {
-    "code": "HE-7",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_08": {
-    "code": "HE-8",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_st03": {
-    "code": "HE-ST-3",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex01": {
-    "code": "HE-EX-1",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex01#f#": {
-    "code": "HE-EX-1",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex02": {
-    "code": "HE-EX-2",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex02#f#": {
-    "code": "HE-EX-2",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex03": {
-    "code": "HE-EX-3",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex03#f#": {
-    "code": "HE-EX-3",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex04": {
-    "code": "HE-EX-4",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex04#f#": {
-    "code": "HE-EX-4",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex05": {
-    "code": "HE-EX-5",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex05#f#": {
-    "code": "HE-EX-5",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex06": {
-    "code": "HE-EX-6",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex06#f#": {
-    "code": "HE-EX-6",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex07": {
-    "code": "HE-EX-7",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex07#f#": {
-    "code": "HE-EX-7",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex08": {
-    "code": "HE-EX-8",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act26side_ex08#f#": {
-    "code": "HE-EX-8",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "camp_r_17": {
-    "code": "维多利亚",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
   "camp_r_18": {
     "code": "萨尔贡",
     "zh_CN": {
@@ -27577,6 +28051,12 @@
   },
   "camp_r_19": {
     "code": "维多利亚",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_20": {
+    "code": "炎国",
     "zh_CN": {
       "enabled": true
     }
@@ -27720,6 +28200,150 @@
     }
   },
   "lt_10_06_ex": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_01": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_02": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_03": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_04": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_05": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_06": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_01_ex": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_02_ex": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_03_ex": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_04_ex": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_05_ex": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_11_06_ex": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_01": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_02": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_03": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_04": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_05": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_06": {
+    "code": "LT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_01_ex": {
+    "code": "LT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_02_ex": {
+    "code": "LT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_03_ex": {
+    "code": "LT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_04_ex": {
+    "code": "LT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_05_ex": {
+    "code": "LT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "lt_12_06_ex": {
     "code": "LT-6",
     "zh_CN": {
       "enabled": true
