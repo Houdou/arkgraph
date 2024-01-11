@@ -33,11 +33,6 @@ const processUpgrade = ({
 		// Elite rank
 		current_elite = clampRange(current_elite, 0, operator.meta.max_elite_rank);
 		target_elite = clampRange(target_elite, current_elite, operator.meta.max_elite_rank);
-		const elite_rank_change = target_elite !== current_elite;
-
-		// Level
-		current_level = clampRange(current_level, 1, exp.maxLevel[operator.rarity][current_elite]);
-		target_level = clampRange(target_level, elite_rank_change ? 1 : current_level, exp.maxLevel[operator.rarity][target_elite]);
 
 		// Skill level
 		current_all_skill = clampRange(current_all_skill, 1, 7);
@@ -109,7 +104,12 @@ const processUpgrade = ({
 			current_advanced_equipment_1 = 0;
 			target_advanced_equipment_1 = 0;
 		}
-		
+
+		const elite_rank_change = target_elite !== current_elite;
+
+		// Level
+		current_level = clampRange(current_level, 1, exp.maxLevel[operator.rarity][current_elite]);
+		target_level = clampRange(target_level, elite_rank_change ? 1 : current_level, exp.maxLevel[operator.rarity][target_elite]);
 
 		// level
 		if (elite_rank_change) {
