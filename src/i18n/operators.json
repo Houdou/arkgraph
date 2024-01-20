@@ -3795,6 +3795,52 @@
     "code": "chiave",
     "code_name": "Chiave"
   },
+  "char_488_buildr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Poncirus",
+      "skills": [
+        "Charge γ",
+        "Engineer's Wish"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ポンシラス",
+      "skills": [
+        "突撃指令γ",
+        "建築家の願い"
+      ],
+      "alias": [
+        "ぽんしらす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "폰사이러스",
+      "skills": [
+        "돌격지령γ",
+        "공사자의 소원"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "青枳",
+      "skills": [
+        "冲锋号令·γ型",
+        "工程者之愿"
+      ],
+      "alias": [
+        "qing zhi",
+        "qingzhi"
+      ],
+      "appellation": "Poncirus"
+    },
+    "code": "poncirus",
+    "code_name": "Poncirus"
+  },
   "char_513_apionr": {
     "en_US": {
       "enabled": true,
@@ -4204,6 +4250,52 @@
     },
     "code": "whislash",
     "code_name": "Whislash"
+  },
+  "char_4106_bryota": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bryophyta",
+      "skills": [
+        "Power Strike β",
+        "Earthen Tenacity"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブライオファイタ",
+      "skills": [
+        "強撃β",
+        "岩石の根気"
+      ],
+      "alias": [
+        "ぶらいおふぁいた"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "브라이오피타",
+      "skills": [
+        "강타β",
+        "흙과 바위의 뚝심"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "苍苔",
+      "skills": [
+        "强力击·β型",
+        "土石的恒心"
+      ],
+      "alias": [
+        "cang tai",
+        "cangtai"
+      ],
+      "appellation": "Bryophyta"
+    },
+    "code": "bryophyta",
+    "code_name": "Bryophyta"
   },
   "char_106_franka": {
     "en_US": {
@@ -11491,6 +11583,56 @@
     "code": "lee",
     "code_name": "Lee"
   },
+  "char_1033_swire2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Swire the Elegant Wit",
+      "skills": [
+        "Loyalty and Generosity",
+        "'Courtesy Gift'",
+        "Lavish and Prodigal"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "琳琅スワイヤー",
+      "skills": [
+        "資金援助",
+        "「おもてなし」",
+        "千金一擲"
+      ],
+      "alias": [
+        "琳琅すわいやー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스와이어 디 엘리건트 위트",
+      "skills": [
+        "재물보다 의리",
+        "'웰컴 드링크'",
+        "거금 쾌척"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "琳琅诗怀雅",
+      "skills": [
+        "仗义疏财",
+        "“见面礼”",
+        "千金一掷"
+      ],
+      "alias": [
+        "lin lang shi huai ya",
+        "linlangshihuaiya"
+      ],
+      "appellation": "Swire the Elegant Wit"
+    },
+    "code": "swire the elegant wit",
+    "code_name": "Swire the Elegant Wit"
+  },
   "char_400_weedy": {
     "en_US": {
       "enabled": true,
@@ -11990,6 +12132,56 @@
     },
     "code": "lumen",
     "code_name": "Lumen"
+  },
+  "char_1016_agoat2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Eyjafjalla the Hvít Aska",
+      "skills": [
+        "Soundless Sustenance",
+        "Cloudmist Shelter",
+        "Volcanic Echoes"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "純燼エイヤフィヤトラ",
+      "skills": [
+        "無垢なる恵み",
+        "雲煙の庇護",
+        "ヴォルケーノ・エコー"
+      ],
+      "alias": [
+        "純燼えいやふぃやとら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "에이야퍄들라 더 크비트 아스카",
+      "skills": [
+        "소리 없는 윤택",
+        "구름 안개의 보우",
+        "화산의 메아리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "纯烬艾雅法拉",
+      "skills": [
+        "无声润物",
+        "云霭荫佑",
+        "火山回响"
+      ],
+      "alias": [
+        "chun jin ai ya fa la",
+        "chunjinaiyafala"
+      ],
+      "appellation": "Eyjafjalla the Hvít Aska"
+    },
+    "code": "eyjafjalla the hvít aska",
+    "code_name": "Eyjafjalla the Hvít Aska"
   },
   "char_1020_reed2": {
     "en_US": {
@@ -14988,6 +15180,56 @@
     },
     "code": "flowing shape",
     "code_name": "Flowing Shape"
+  },
+  "token_10031_swire2_gdtrap": {
+    "en_US": {
+      "enabled": true,
+      "name": "Champagne Bomb",
+      "skills": [
+        "",
+        "'Courtesy Gift'",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シャンパン爆弾",
+      "skills": [
+        "",
+        "「おもてなし」",
+        ""
+      ],
+      "alias": [
+        "しゃんぱん爆弾"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "샴페인 폭탄",
+      "skills": [
+        "",
+        "'웰컴 드링크'",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "香槟炸弹",
+      "skills": [
+        "",
+        "“见面礼”",
+        ""
+      ],
+      "alias": [
+        "xiang bin zha dan",
+        "xiangbinzhadan"
+      ],
+      "appellation": "Champagne Bomb"
+    },
+    "code": "champagne bomb",
+    "code_name": "Champagne Bomb"
   },
   "trap_001_crate": {
     "en_US": {
@@ -22574,6 +22816,90 @@
     "code": "portable first-aid kit",
     "code_name": "Portable Medical Equipment"
   },
+  "trap_122_stmpq": {
+    "en_US": {
+      "enabled": true,
+      "name": "Decorative Geyser",
+      "skills": [
+        "Decorative Geyser"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "景観噴水",
+      "skills": [
+        "景観噴水"
+      ],
+      "alias": [
+        "景観噴水"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "분수대",
+      "skills": [
+        "분수대"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "景观喷泉",
+      "skills": [
+        "景观喷泉"
+      ],
+      "alias": [
+        "jing guan pen quan",
+        "jingguanpenquan"
+      ],
+      "appellation": "Scenery Geyser"
+    },
+    "code": "decorative geyser",
+    "code_name": "Scenery Geyser"
+  },
+  "trap_123_stmbot": {
+    "en_US": {
+      "enabled": true,
+      "name": "Steam Soda Bottle",
+      "skills": [
+        "Steam Soda Bottle"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スチームサイダー",
+      "skills": [
+        "スチームサイダー"
+      ],
+      "alias": [
+        "すちーむさいだー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "증기 사이다",
+      "skills": [
+        "증기 사이다"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "水汽汽水瓶",
+      "skills": [
+        "水汽汽水瓶"
+      ],
+      "alias": [
+        "shui qi qi shui ping",
+        "shuiqiqishuiping"
+      ],
+      "appellation": "Vapor Case"
+    },
+    "code": "steam soda bottle",
+    "code_name": "Vapor Case"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -22667,40 +22993,6 @@
     },
     "code": null,
     "code_name": "Verdant"
-  },
-  "char_488_buildr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "青枳",
-      "skills": [
-        "冲锋号令·γ型",
-        "工程者之愿"
-      ],
-      "alias": [
-        "qing zhi",
-        "qingzhi"
-      ],
-      "appellation": "Poncirus"
-    },
-    "code": null,
-    "code_name": "Poncirus"
-  },
-  "char_4106_bryota": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "苍苔",
-      "skills": [
-        "强力击·β型",
-        "土石的恒心"
-      ],
-      "alias": [
-        "cang tai",
-        "cangtai"
-      ],
-      "appellation": "Bryophyta"
-    },
-    "code": null,
-    "code_name": "Bryophyta"
   },
   "char_194_leto": {
     "zh_CN": {
@@ -22943,42 +23235,6 @@
     "code": null,
     "code_name": "Virtuosa"
   },
-  "char_1033_swire2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "琳琅诗怀雅",
-      "skills": [
-        "仗义疏财",
-        "“见面礼”",
-        "千金一掷"
-      ],
-      "alias": [
-        "lin lang shi huai ya",
-        "linlangshihuaiya"
-      ],
-      "appellation": "Swire the Elegant Wit"
-    },
-    "code": null,
-    "code_name": "Swire the Elegant Wit"
-  },
-  "char_1016_agoat2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "纯烬艾雅法拉",
-      "skills": [
-        "无声润物",
-        "云霭荫佑",
-        "火山回响"
-      ],
-      "alias": [
-        "chun jin ai ya fa la",
-        "chunjinaiyafala"
-      ],
-      "appellation": "Eyjafjalla the Hvít Aska"
-    },
-    "code": null,
-    "code_name": "Eyjafjalla the Hvít Aska"
-  },
   "char_1034_jesca2": {
     "zh_CN": {
       "enabled": true,
@@ -23068,24 +23324,6 @@
     },
     "code": null,
     "code_name": "Lessing"
-  },
-  "token_10031_swire2_gdtrap": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "香槟炸弹",
-      "skills": [
-        "",
-        "“见面礼”",
-        ""
-      ],
-      "alias": [
-        "xiang bin zha dan",
-        "xiangbinzhadan"
-      ],
-      "appellation": "Champagne Bomb"
-    },
-    "code": null,
-    "code_name": "Champagne Bomb"
   },
   "token_10032_jesca2_jckshd": {
     "zh_CN": {
@@ -23408,38 +23646,6 @@
     },
     "code": null,
     "code_name": "Neuronal Revival"
-  },
-  "trap_122_stmpq": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "景观喷泉",
-      "skills": [
-        "景观喷泉"
-      ],
-      "alias": [
-        "jing guan pen quan",
-        "jingguanpenquan"
-      ],
-      "appellation": "Scenery Geyser"
-    },
-    "code": null,
-    "code_name": "Scenery Geyser"
-  },
-  "trap_123_stmbot": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "水汽汽水瓶",
-      "skills": [
-        "水汽汽水瓶"
-      ],
-      "alias": [
-        "shui qi qi shui ping",
-        "shuiqiqishuiping"
-      ],
-      "appellation": "Vapor Case"
-    },
-    "code": null,
-    "code_name": "Vapor Case"
   },
   "trap_124_eradio": {
     "zh_CN": {

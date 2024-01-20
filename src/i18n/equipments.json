@@ -3856,6 +3856,177 @@
       "name": "她们的未来"
     }
   },
+  "uniequip_002_huang": {
+    "char_id": "char_017_huang",
+    "en_US": {
+      "enabled": true,
+      "name": "Overloaded Weapons, Overheated Heart"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "熱く燃える心臓と武器"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "과부하된 무기와 과열된 심장"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "过载的武器与过热的心脏"
+    }
+  },
+  "uniequip_002_gvial2": {
+    "char_id": "char_1026_gvial2",
+    "en_US": {
+      "enabled": true,
+      "name": "The Binding of Gavial"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ガヴィルの受難"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가비알의 괴로움"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "嘉维尔的折磨"
+    }
+  },
+  "uniequip_002_broca": {
+    "char_id": "char_356_broca",
+    "en_US": {
+      "enabled": true,
+      "name": "'Buddies'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「兄弟」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '형제'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“兄弟”"
+    }
+  },
+  "uniequip_002_ghost": {
+    "char_id": "char_143_ghost",
+    "en_US": {
+      "enabled": true,
+      "name": "Dim Candlelight"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "幽々たる蝋燭の灯り"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "흐릿한 촛불"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "幽明烛光"
+    }
+  },
+  "uniequip_002_savage": {
+    "char_id": "char_230_savage",
+    "en_US": {
+      "enabled": true,
+      "name": "Hit the Road"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "果たされざる旅"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "끝나지 않은 여정"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "未竟的旅程"
+    }
+  },
+  "uniequip_002_estell": {
+    "char_id": "char_127_estell",
+    "en_US": {
+      "enabled": true,
+      "name": "Farewell Gifts from the Wildlands"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "荒野の餞別"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "황야의 작별 선물"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "荒野地的饯别礼"
+    }
+  },
+  "uniequip_002_buildr": {
+    "char_id": "char_488_buildr",
+    "en_US": {
+      "enabled": true,
+      "name": "The Morning Star of the Homeseeker"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "故郷を示す明星"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고향을 찾는 자의 샛별"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "寻乡人的启明星"
+    }
+  },
+  "uniequip_002_bryota": {
+    "char_id": "char_4106_bryota",
+    "en_US": {
+      "enabled": true,
+      "name": "Sobremesa"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "食後のお楽しみ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "식후 시간"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "餐后好时光"
+    }
+  },
+  "uniequip_002_swire2": {
+    "char_id": "char_1033_swire2",
+    "en_US": {
+      "enabled": true,
+      "name": "'Be Resplendent and Outstanding'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「輝かしきメダル」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": " '금화휘황'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“金币辉煌”"
+    }
+  },
   "uniequip_002_excu2": {
     "char_id": "char_1032_excu2",
     "en_US": {
@@ -3979,69 +4150,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "“如影随形”"
-    }
-  },
-  "uniequip_002_huang": {
-    "char_id": "char_017_huang",
-    "zh_CN": {
-      "enabled": true,
-      "name": "过载的武器与过热的心脏"
-    }
-  },
-  "uniequip_002_gvial2": {
-    "char_id": "char_1026_gvial2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "嘉维尔的折磨"
-    }
-  },
-  "uniequip_002_broca": {
-    "char_id": "char_356_broca",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“兄弟”"
-    }
-  },
-  "uniequip_002_ghost": {
-    "char_id": "char_143_ghost",
-    "zh_CN": {
-      "enabled": true,
-      "name": "幽明烛光"
-    }
-  },
-  "uniequip_002_savage": {
-    "char_id": "char_230_savage",
-    "zh_CN": {
-      "enabled": true,
-      "name": "未竟的旅程"
-    }
-  },
-  "uniequip_002_estell": {
-    "char_id": "char_127_estell",
-    "zh_CN": {
-      "enabled": true,
-      "name": "荒野地的饯别礼"
-    }
-  },
-  "uniequip_002_buildr": {
-    "char_id": "char_488_buildr",
-    "zh_CN": {
-      "enabled": true,
-      "name": "寻乡人的启明星"
-    }
-  },
-  "uniequip_002_bryota": {
-    "char_id": "char_4106_bryota",
-    "zh_CN": {
-      "enabled": true,
-      "name": "餐后好时光"
-    }
-  },
-  "uniequip_002_swire2": {
-    "char_id": "char_1033_swire2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“金币辉煌”"
     }
   },
   "uniequip_002_ncdeer": {
