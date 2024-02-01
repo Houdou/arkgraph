@@ -27554,6 +27554,240 @@
       "enabled": true
     }
   },
+  "act31side_st01": {
+    "code": "HS-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_01": {
+    "code": "HS-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_tr01": {
+    "code": "HS-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_02": {
+    "code": "HS-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_03": {
+    "code": "HS-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_04": {
+    "code": "HS-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_tr02": {
+    "code": "HS-TR-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_05": {
+    "code": "HS-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_st02": {
+    "code": "HS-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_06": {
+    "code": "HS-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_07": {
+    "code": "HS-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_08": {
+    "code": "HS-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_09": {
+    "code": "HS-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_st03": {
+    "code": "HS-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex01": {
+    "code": "HS-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex01#f#": {
+    "code": "HS-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex02": {
+    "code": "HS-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex02#f#": {
+    "code": "HS-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex03": {
+    "code": "HS-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex03#f#": {
+    "code": "HS-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex04": {
+    "code": "HS-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex04#f#": {
+    "code": "HS-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex05": {
+    "code": "HS-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex05#f#": {
+    "code": "HS-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex06": {
+    "code": "HS-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex06#f#": {
+    "code": "HS-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex07": {
+    "code": "HS-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex07#f#": {
+    "code": "HS-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex08": {
+    "code": "HS-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_ex08#f#": {
+    "code": "HS-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s01": {
+    "code": "HS-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s01#f#": {
+    "code": "HS-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s02": {
+    "code": "HS-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s02#f#": {
+    "code": "HS-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s03": {
+    "code": "HS-S-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s03#f#": {
+    "code": "HS-S-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s04": {
+    "code": "HS-S-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_s04#f#": {
+    "code": "HS-S-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act31side_mo01": {
+    "code": "HS-MO-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act16mini_01": {
     "code": "TG-1",
     "zh_CN": {

@@ -21405,13 +21405,13 @@
     },
     "zh_CN": {
       "enabled": true,
-      "name": "采集实习站",
+      "name": "木材采集站",
       "skills": [
         "采集"
       ],
       "alias": [
-        "cai ji shi xi zhan",
-        "caijishixizhan"
+        "mu cai cai ji zhan",
+        "mucaicaijizhan"
       ],
       "appellation": "Basic Harvester Hub"
     },
@@ -21447,13 +21447,13 @@
     },
     "zh_CN": {
       "enabled": true,
-      "name": "采集专员站",
+      "name": "石材采集站",
       "skills": [
         "采集"
       ],
       "alias": [
-        "cai ji zhuan yuan zhan",
-        "caijizhuanyuanzhan"
+        "shi cai cai ji zhan",
+        "shicaicaijizhan"
       ],
       "appellation": "Premium Harvester Hub"
     },
@@ -21489,13 +21489,13 @@
     },
     "zh_CN": {
       "enabled": true,
-      "name": "采集主任站",
+      "name": "铁矿采集站",
       "skills": [
         "采集"
       ],
       "alias": [
-        "cai ji zhu ren zhan",
-        "caijizhurenzhan"
+        "tie kuang cai ji zhan",
+        "tiekuangcaijizhan"
       ],
       "appellation": "Executive Harvester Hub"
     },
@@ -21785,6 +21785,7 @@
       "enabled": true,
       "name": "联络员",
       "skills": [
+        "触发对话",
         "触发对话"
       ],
       "alias": [
@@ -21965,6 +21966,7 @@
       "enabled": true,
       "name": "寻宝人",
       "skills": [
+        "触发对话",
         "触发对话"
       ],
       "alias": [
@@ -22994,6 +22996,40 @@
     "code": null,
     "code_name": "Verdant"
   },
+  "char_4023_rfalcn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "红隼",
+      "skills": [
+        "冲锋号令·γ型",
+        "醉刃乱舞"
+      ],
+      "alias": [
+        "hong sun",
+        "hongsun"
+      ],
+      "appellation": "Kestrel"
+    },
+    "code": null,
+    "code_name": "Kestrel"
+  },
+  "char_4119_wanqin": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "万顷",
+      "skills": [
+        "支援号令·γ型",
+        "应东风"
+      ],
+      "alias": [
+        "wan qing",
+        "wanqing"
+      ],
+      "appellation": "Wanqing"
+    },
+    "code": null,
+    "code_name": "Wanqing"
+  },
   "char_194_leto": {
     "zh_CN": {
       "enabled": true,
@@ -23164,6 +23200,23 @@
     "code": null,
     "code_name": "Almond"
   },
+  "char_4122_grabds": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "小满",
+      "skills": [
+        "竹笛飞声",
+        "乡音沉沉"
+      ],
+      "alias": [
+        "xiao man",
+        "xiaoman"
+      ],
+      "appellation": "Grain Buds"
+    },
+    "code": null,
+    "code_name": "Grain Buds"
+  },
   "char_4102_threye": {
     "zh_CN": {
       "enabled": true,
@@ -23234,6 +23287,24 @@
     },
     "code": null,
     "code_name": "Virtuosa"
+  },
+  "char_2025_shu": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "黍",
+      "skills": [
+        "化被草木",
+        "嘉禾盈仓",
+        "离离枯荣"
+      ],
+      "alias": [
+        "shu",
+        "shu"
+      ],
+      "appellation": "Shu"
+    },
+    "code": null,
+    "code_name": "Shu"
   },
   "char_1034_jesca2": {
     "zh_CN": {
@@ -23306,6 +23377,24 @@
     },
     "code": null,
     "code_name": "Viviana"
+  },
+  "char_4121_zuole": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "左乐",
+      "skills": [
+        "破虏",
+        "行险",
+        "佑序有炎"
+      ],
+      "alias": [
+        "zuo le",
+        "zuole"
+      ],
+      "appellation": "Zuo Le"
+    },
+    "code": null,
+    "code_name": "Zuo Le"
   },
   "char_4011_lessng": {
     "zh_CN": {
@@ -24046,5 +24135,727 @@
     },
     "code": null,
     "code_name": "\"Mead! Need more mead!\""
+  },
+  "trap_139_dhtl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阻流阀",
+      "skills": [
+        "阻流",
+        "阻流"
+      ],
+      "alias": [
+        "zu liu fa",
+        "zuliufa"
+      ],
+      "appellation": "Throttle Valve"
+    },
+    "code": null,
+    "code_name": "Throttle Valve"
+  },
+  "trap_140_dhsb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "泵站",
+      "skills": [
+        "泵水"
+      ],
+      "alias": [
+        "beng zhan",
+        "bengzhan"
+      ],
+      "appellation": "Pump Station"
+    },
+    "code": null,
+    "code_name": "Pump Station"
+  },
+  "trap_146_dhdcr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "天桩",
+      "skills": [
+        "生成"
+      ],
+      "alias": [
+        "tian zhuang",
+        "tianzhuang"
+      ],
+      "appellation": "Sky Pole"
+    },
+    "code": null,
+    "code_name": "Sky Pole"
+  },
+  "trap_440_xbalis": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "简易弩台",
+      "skills": [
+        "发射"
+      ],
+      "alias": [
+        "jian yi nu tai",
+        "jianyinutai"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_441_xbmgbird": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "喙中奇物",
+      "skills": [
+        "“赠礼”"
+      ],
+      "alias": [
+        "hui zhong qi wu",
+        "huizhongqiwu"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_442_xbtrap": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "流沙黯坑",
+      "skills": [
+        "陷阱"
+      ],
+      "alias": [
+        "liu sha an keng",
+        "liushaankeng"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_443_xbtent": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "作战中心",
+      "skills": [
+        "援护"
+      ],
+      "alias": [
+        "zuo zhan zhong xin",
+        "zuozhanzhongxin"
+      ],
+      "appellation": "Command Center"
+    },
+    "code": null,
+    "code_name": "Command Center"
+  },
+  "trap_444_xbexbi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“纪念”",
+      "skills": [
+        "纪念"
+      ],
+      "alias": [
+        "“ ji nian ”",
+        "“jinian”"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_445_xbfence": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "兽栏",
+      "skills": [
+        "畜养"
+      ],
+      "alias": [
+        "shou lan",
+        "shoulan"
+      ],
+      "appellation": "Corral"
+    },
+    "code": null,
+    "code_name": "Corral"
+  },
+  "trap_446_xbfdtion": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "风沙营垒",
+      "skills": [
+        "中枢核心"
+      ],
+      "alias": [
+        "feng sha ying lei",
+        "fengshayinglei"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_447_xbmcv": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "旷野房车\n",
+      "skills": [
+        "引擎核心"
+      ],
+      "alias": [
+        "kuang ye fang che \n",
+        "kuangyefangche\n"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_448_xbmire": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "污浊泥沼",
+      "skills": [
+        "侵蚀"
+      ],
+      "alias": [
+        "wu zhuo ni zhao",
+        "wuzhuonizhao"
+      ],
+      "appellation": "Mire"
+    },
+    "code": null,
+    "code_name": "Mire"
+  },
+  "trap_449_xbspgun": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "烟雾发射台",
+      "skills": [
+        "喷射！"
+      ],
+      "alias": [
+        "yan wu fa she tai",
+        "yanwufashetai"
+      ],
+      "appellation": "Smoke Launcher"
+    },
+    "code": null,
+    "code_name": "Smoke Launcher"
+  },
+  "trap_450_xbdrill": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "澄亮采集站",
+      "skills": [
+        "采集"
+      ],
+      "alias": [
+        "cheng liang cai ji zhan",
+        "chengliangcaijizhan"
+      ],
+      "appellation": "Extracting Harvester Hub"
+    },
+    "code": null,
+    "code_name": "Extracting Harvester Hub"
+  },
+  "trap_451_xbflare": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "荧光棒",
+      "skills": [
+        "临时照明"
+      ],
+      "alias": [
+        "ying guang bang",
+        "yingguangbang"
+      ],
+      "appellation": "Glow Stick"
+    },
+    "code": null,
+    "code_name": "Glow Stick"
+  },
+  "trap_452_xbcage": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "捕猎笼",
+      "skills": [
+        "捕获"
+      ],
+      "alias": [
+        "bu lie long",
+        "bulielong"
+      ],
+      "appellation": "Beast Trap"
+    },
+    "code": null,
+    "code_name": "Beast Trap"
+  },
+  "trap_453_xbbee": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "寻宝仪",
+      "skills": [
+        "扫描"
+      ],
+      "alias": [
+        "xun bao yi",
+        "xunbaoyi"
+      ],
+      "appellation": "Prospector"
+    },
+    "code": null,
+    "code_name": "Prospector"
+  },
+  "trap_454_xbember": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "激励剂",
+      "skills": [
+        "激励"
+      ],
+      "alias": [
+        "ji li ji",
+        "jiliji"
+      ],
+      "appellation": "Restanding Potion"
+    },
+    "code": null,
+    "code_name": "Restanding Potion"
+  },
+  "trap_455_xbistorm": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "冰爆罐",
+      "skills": [
+        "冰爆！"
+      ],
+      "alias": [
+        "bing bao guan",
+        "bingbaoguan"
+      ],
+      "appellation": "Ice Bomb"
+    },
+    "code": null,
+    "code_name": "Ice Bomb"
+  },
+  "trap_456_xbfarmm": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "种植箱集群\n",
+      "skills": [
+        "种植"
+      ],
+      "alias": [
+        "zhong zhi xiang ji qun \n",
+        "zhongzhixiangjiqun\n"
+      ],
+      "appellation": "Planting Box Group"
+    },
+    "code": null,
+    "code_name": "Planting Box Group"
+  },
+  "trap_457_xbfort": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "高台工事",
+      "skills": [
+        "部署"
+      ],
+      "alias": [
+        "gao tai gong shi",
+        "gaotaigongshi"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_458_xbbarir": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "反应壁障",
+      "skills": [
+        "阻挡"
+      ],
+      "alias": [
+        "fan ying bi zhang",
+        "fanyingbizhang"
+      ],
+      "appellation": "Reactive Barrier"
+    },
+    "code": null,
+    "code_name": "Reactive Barrier"
+  },
+  "trap_459_xblight": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "监视哨站",
+      "skills": [
+        "瞭望"
+      ],
+      "alias": [
+        "jian shi shao zhan",
+        "jianshishaozhan"
+      ],
+      "appellation": "Scout Tower"
+    },
+    "code": null,
+    "code_name": "Scout Tower"
+  },
+  "trap_460_xbdiam": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "澄亮矿脉",
+      "skills": [
+        "可采集"
+      ],
+      "alias": [
+        "cheng liang kuang mai",
+        "chengliangkuangmai"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_461_xbhydr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "机关石门",
+      "skills": [
+        "锁钥"
+      ],
+      "alias": [
+        "ji guan shi men",
+        "jiguanshimen"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_462_xbsighta": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "灵动清泉",
+      "skills": [
+        "喷涌"
+      ],
+      "alias": [
+        "ling dong qing quan",
+        "lingdongqingquan"
+      ],
+      "appellation": "Fountain"
+    },
+    "code": null,
+    "code_name": "Fountain"
+  },
+  "trap_463_xbsightb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "静谧盆栽",
+      "skills": [
+        "摇摆"
+      ],
+      "alias": [
+        "jing mi pen zai",
+        "jingmipenzai"
+      ],
+      "appellation": "Potting"
+    },
+    "code": null,
+    "code_name": "Potting"
+  },
+  "trap_464_xbsightc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "休闲长椅",
+      "skills": [
+        "矗立"
+      ],
+      "alias": [
+        "xiu xian chang yi",
+        "xiuxianchangyi"
+      ],
+      "appellation": "Bench"
+    },
+    "code": null,
+    "code_name": "Bench"
+  },
+  "trap_465_xbstation": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "号令点",
+      "skills": [
+        "号令"
+      ],
+      "alias": [
+        "hao ling dian",
+        "haolingdian"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_466_tzumama": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "森蚺",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "sen ran",
+        "senran"
+      ],
+      "appellation": "Eunectes"
+    },
+    "code": null,
+    "code_name": "Eunectes"
+  },
+  "trap_467_ttuye": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "图耶",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "tu ye",
+        "tuye"
+      ],
+      "appellation": "Tuye"
+    },
+    "code": null,
+    "code_name": "Tuye"
+  },
+  "trap_468_tpriest": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "大祭司",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "da ji si",
+        "dajisi"
+      ],
+      "appellation": "High Priest"
+    },
+    "code": null,
+    "code_name": "High Priest"
+  },
+  "trap_469_tpasngr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "异客",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "yi ke",
+        "yike"
+      ],
+      "appellation": "Passenger"
+    },
+    "code": null,
+    "code_name": "Passenger"
+  },
+  "trap_470_tmantic": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "狮蝎",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "shi xie",
+        "shixie"
+      ],
+      "appellation": "Manticore"
+    },
+    "code": null,
+    "code_name": "Manticore"
+  },
+  "trap_471_tegmaus": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "佩佩",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "pei pei",
+        "peipei"
+      ],
+      "appellation": "Pepe"
+    },
+    "code": null,
+    "code_name": "Pepe"
+  },
+  "trap_472_tfalco": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "红隼",
+      "skills": [
+        "触发对话",
+        "触发对话"
+      ],
+      "alias": [
+        "hong sun",
+        "hongsun"
+      ],
+      "appellation": "Kestrel"
+    },
+    "code": null,
+    "code_name": "Kestrel"
+  },
+  "trap_473_trmedic": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗德岛工作人员",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "luo de dao gong zuo ren yuan",
+        "luodedaogongzuorenyuan"
+      ],
+      "appellation": "Medic"
+    },
+    "code": null,
+    "code_name": "Medic"
+  },
+  "trap_474_mailbox": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "信使邮筒",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "xin shi you tong",
+        "xinshiyoutong"
+      ],
+      "appellation": "Mail Box"
+    },
+    "code": null,
+    "code_name": "Mail Box"
+  },
+  "trap_475_xbcbag": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "猎获笼",
+      "skills": [
+        "释放猎获"
+      ],
+      "alias": [
+        "lie huo long",
+        "liehuolong"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_476_mscskt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "讯息匣",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "xun xi xia",
+        "xunxixia"
+      ],
+      "appellation": "Message Casket"
+    },
+    "code": null,
+    "code_name": "Message Casket"
+  },
+  "trap_477_xbspps": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "失衡异香",
+      "skills": [
+        "点燃"
+      ],
+      "alias": [
+        "shi heng yi xiang",
+        "shihengyixiang"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": null,
+    "code_name": "Waste Heat Spout"
+  },
+  "trap_478_xbcanoe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "特制水上平台",
+      "skills": [
+        "放置平台"
+      ],
+      "alias": [
+        "te zhi shui shang ping tai",
+        "tezhishuishangpingtai"
+      ],
+      "appellation": "TinyBoat"
+    },
+    "code": null,
+    "code_name": "TinyBoat"
+  },
+  "trap_479_xbbillb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "告示牌",
+      "skills": [
+        "触发对话"
+      ],
+      "alias": [
+        "gao shi pai",
+        "gaoshipai"
+      ],
+      "appellation": "Billboard"
+    },
+    "code": null,
+    "code_name": "Billboard"
+  },
+  "trap_480_roadblockxb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "道路障碍物",
+      "skills": [
+        "道路阻塞"
+      ],
+      "alias": [
+        "dao lu zhang ai wu",
+        "daoluzhangaiwu"
+      ],
+      "appellation": "Roads Obstacles"
+    },
+    "code": null,
+    "code_name": "Roads Obstacles"
+  },
+  "trap_481_gtreasureb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "埋没金属箱",
+      "skills": [
+        "可被击破"
+      ],
+      "alias": [
+        "mai mei jin shu xiang",
+        "maimeijinshuxiang"
+      ],
+      "appellation": "Buried Metal Chest"
+    },
+    "code": null,
+    "code_name": "Buried Metal Chest"
   }
 }

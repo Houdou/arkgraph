@@ -4389,5 +4389,89 @@
       "enabled": true,
       "name": "“但思善恶”"
     }
+  },
+  "uniequip_002_chyue": {
+    "char_id": "char_2024_chyue",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“自晦及明”"
+    }
+  },
+  "uniequip_002_shu": {
+    "char_id": "char_2025_shu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“钦天司时”"
+    }
+  },
+  "uniequip_002_zuole": {
+    "char_id": "char_4121_zuole",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“岂苦夜长”"
+    }
+  },
+  "uniequip_002_grabds": {
+    "char_id": "char_4122_grabds",
+    "zh_CN": {
+      "enabled": true,
+      "name": "在田野上"
+    }
+  },
+  "uniequip_002_wanqin": {
+    "char_id": "char_4119_wanqin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "牵风"
+    }
+  },
+  "uniequip_002_f12yin": {
+    "char_id": "char_264_f12yin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“自由的代价”"
+    }
+  },
+  "uniequip_002_dagda": {
+    "char_id": "char_157_dagda",
+    "zh_CN": {
+      "enabled": true,
+      "name": "后街圆盾"
+    }
+  },
+  "uniequip_002_tiger": {
+    "char_id": "char_155_tiger",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“汉娜的脱臼复位套装”"
+    }
+  },
+  "uniequip_002_flint": {
+    "char_id": "char_415_flint",
+    "zh_CN": {
+      "enabled": true,
+      "name": "这些花朵的含义"
+    }
+  },
+  "uniequip_002_jaksel": {
+    "char_id": "char_347_jaksel",
+    "zh_CN": {
+      "enabled": true,
+      "name": "D32钢椅"
+    }
+  },
+  "uniequip_002_brownb": {
+    "char_id": "char_137_brownb",
+    "zh_CN": {
+      "enabled": true,
+      "name": "咬紧牙关"
+    }
+  },
+  "uniequip_002_rfalcn": {
+    "char_id": "char_4023_rfalcn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "威吓者"
+    }
   }
 }
