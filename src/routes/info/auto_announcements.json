@@ -1,6 +1,20 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2024-02-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_2025_shu",
+      "char_4121_zuole",
+      "char_4023_rfalcn",
+      "char_4119_wanqin",
+      "char_4122_grabds"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -124,18 +138,6 @@
     "new_operators": [
       "char_4082_qiubai",
       "char_4083_chimes"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2023-09-05",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1034_jesca2",
-      "char_4104_coldst",
-      "char_4105_almond"
     ]
   }
 ]
