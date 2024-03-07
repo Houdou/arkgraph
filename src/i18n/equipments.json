@@ -3856,6 +3856,139 @@
       "name": "她们的未来"
     }
   },
+  "uniequip_002_sntlla": {
+    "char_id": "char_341_sntlla",
+    "en_US": {
+      "enabled": true,
+      "name": "Ice Brazier"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「アイス・ブレイジャー」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'빙염'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“冰焰”"
+    }
+  },
+  "uniequip_002_elysm": {
+    "char_id": "char_401_elysm",
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Callbook"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "応急通信マニュアル"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "긴급 통신 매뉴얼"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "应急通讯指南"
+    }
+  },
+  "uniequip_002_sleach": {
+    "char_id": "char_479_sleach",
+    "en_US": {
+      "enabled": true,
+      "name": "Pastoral"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "牧童の歌"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "목동의 노래"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "牧人的歌"
+    }
+  },
+  "uniequip_002_myrtle": {
+    "char_id": "char_151_myrtle",
+    "en_US": {
+      "enabled": true,
+      "name": "Private Collections"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「コレクション」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'개인소장'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“私人收藏”"
+    }
+  },
+  "uniequip_002_typhon": {
+    "char_id": "char_2012_typhon",
+    "en_US": {
+      "enabled": true,
+      "name": "Ammadikshu"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "自然の容認"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "자연의 포용"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "自然的包容"
+    }
+  },
+  "uniequip_003_helage": {
+    "char_id": "char_188_helage",
+    "en_US": {
+      "enabled": true,
+      "name": "'Горячий снег'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「熱い雪」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'뜨거운 눈'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“热的雪”"
+    }
+  },
+  "uniequip_003_phatom": {
+    "char_id": "char_250_phatom",
+    "en_US": {
+      "enabled": true,
+      "name": "'Think of Me'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「影のように」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'그림자처럼'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“如影随形”"
+    }
+  },
   "uniequip_002_huang": {
     "char_id": "char_017_huang",
     "en_US": {
@@ -4101,55 +4234,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "恶地奇异工具套组"
-    }
-  },
-  "uniequip_002_sntlla": {
-    "char_id": "char_341_sntlla",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“冰焰”"
-    }
-  },
-  "uniequip_002_elysm": {
-    "char_id": "char_401_elysm",
-    "zh_CN": {
-      "enabled": true,
-      "name": "应急通讯指南"
-    }
-  },
-  "uniequip_002_sleach": {
-    "char_id": "char_479_sleach",
-    "zh_CN": {
-      "enabled": true,
-      "name": "牧人的歌"
-    }
-  },
-  "uniequip_002_myrtle": {
-    "char_id": "char_151_myrtle",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“私人收藏”"
-    }
-  },
-  "uniequip_002_typhon": {
-    "char_id": "char_2012_typhon",
-    "zh_CN": {
-      "enabled": true,
-      "name": "自然的包容"
-    }
-  },
-  "uniequip_003_helage": {
-    "char_id": "char_188_helage",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“热的雪”"
-    }
-  },
-  "uniequip_003_phatom": {
-    "char_id": "char_250_phatom",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“如影随形”"
     }
   },
   "uniequip_002_ncdeer": {
@@ -4472,6 +4556,62 @@
     "zh_CN": {
       "enabled": true,
       "name": "威吓者"
+    }
+  },
+  "uniequip_002_jesca2": {
+    "char_id": "char_1034_jesca2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“私家英雄”"
+    }
+  },
+  "uniequip_002_liskam": {
+    "char_id": "char_107_liskam",
+    "zh_CN": {
+      "enabled": true,
+      "name": "震撼存储"
+    }
+  },
+  "uniequip_002_blitz": {
+    "char_id": "char_457_blitz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "战术盾牌维护油"
+    }
+  },
+  "uniequip_002_ela": {
+    "char_id": "char_4123_ela",
+    "zh_CN": {
+      "enabled": true,
+      "name": "社会期望背包"
+    }
+  },
+  "uniequip_002_fuze": {
+    "char_id": "char_4126_fuze",
+    "zh_CN": {
+      "enabled": true,
+      "name": "副语言符号展示系统"
+    }
+  },
+  "uniequip_002_iana": {
+    "char_id": "char_4124_iana",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“遥远陌生的世界”"
+    }
+  },
+  "uniequip_002_rdoc": {
+    "char_id": "char_4125_rdoc",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“第三种力量”"
+    }
+  },
+  "uniequip_003_ash": {
+    "char_id": "char_456_ash",
+    "zh_CN": {
+      "enabled": true,
+      "name": "刺针式合金爆破弹"
     }
   }
 }
