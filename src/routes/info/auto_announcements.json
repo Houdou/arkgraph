@@ -1,6 +1,33 @@
 [
   {
     "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
+    "date": "2024-03-07",
+    "type": "new_operators",
+    "new_operators": [
+      "char_2012_typhon",
+      "char_341_sntlla",
+      "char_4102_threye"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2024-03-07",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4123_ela",
+      "char_4125_rdoc",
+      "char_4126_fuze",
+      "char_4124_iana"
+    ]
+  },
+  {
+    "server": [
       "zh_CN"
     ],
     "date": "2024-02-01",
@@ -112,32 +139,6 @@
       "char_1029_yato2",
       "char_1030_noirc2",
       "char_4077_palico"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2023-10-08",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4088_hodrer",
-      "char_4110_delphn",
-      "char_494_vendla",
-      "char_4107_vrdant"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2023-09-05",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4082_qiubai",
-      "char_4083_chimes"
     ]
   }
 ]

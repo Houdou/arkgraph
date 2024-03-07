@@ -6267,6 +6267,52 @@
     "code": "leonhardt",
     "code_name": "Leonhardt"
   },
+  "char_341_sntlla": {
+    "en_US": {
+      "enabled": true,
+      "name": "Santalla",
+      "skills": [
+        "Swift Strike γ",
+        "'Witch's Tears'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サンタラ",
+      "skills": [
+        "迅速攻撃γ",
+        "「魔女の涙」"
+      ],
+      "alias": [
+        "さんたら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "산탈라",
+      "skills": [
+        "신속공격γ",
+        "'마녀의 눈물'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "寒檀",
+      "skills": [
+        "迅捷打击·γ型",
+        "“女巫之泪”"
+      ],
+      "alias": [
+        "han tan",
+        "hantan"
+      ],
+      "appellation": "Santalla"
+    },
+    "code": "santalla",
+    "code_name": "Santalla"
+  },
   "char_388_mint": {
     "en_US": {
       "enabled": true,
@@ -9049,7 +9095,7 @@
       "name": "나인컬러드 디어",
       "skills": [
         "속세에 내려온 길함",
-        "멀어지는 선산"
+        "멀어져가는 선산"
       ],
       "alias": []
     },
@@ -9114,6 +9160,52 @@
     },
     "code": "quercus",
     "code_name": "Quercus"
+  },
+  "char_4102_threye": {
+    "en_US": {
+      "enabled": true,
+      "name": "Valarqvin",
+      "skills": [
+        "Before All I See Collapses",
+        "After All I See Has Withered"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヴァラルクビン",
+      "skills": [
+        "崩壊を視しとき",
+        "枯朽を視たりて"
+      ],
+      "alias": [
+        "ゔぁらるくびん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "발라크빈",
+      "skills": [
+        "붕괴 전을 예견",
+        "마른 후를 예견"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "凛视",
+      "skills": [
+        "我见崩毁之前",
+        "我见枯朽之后"
+      ],
+      "alias": [
+        "lin shi",
+        "linshi"
+      ],
+      "appellation": "Valarqvin"
+    },
+    "code": "valarqvin",
+    "code_name": "Valarqvin"
   },
   "char_215_mantic": {
     "en_US": {
@@ -9932,6 +10024,56 @@
     },
     "code": "rosa",
     "code_name": "Роса"
+  },
+  "char_2012_typhon": {
+    "en_US": {
+      "enabled": true,
+      "name": "Typhon",
+      "skills": [
+        "Swift Strike γ",
+        "Order of the Icefield",
+        "'Eternal Hunt'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ティフォン",
+      "skills": [
+        "迅速攻撃γ",
+        "氷原の掟",
+        "「永久なる狩猟」"
+      ],
+      "alias": [
+        "てぃふぉん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "티폰",
+      "skills": [
+        "신속공격γ",
+        "빙원의 질서",
+        "'영원한 사냥'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "提丰",
+      "skills": [
+        "迅捷打击·γ型",
+        "冰原秩序",
+        "“永恒狩猎”"
+      ],
+      "alias": [
+        "ti feng",
+        "tifeng"
+      ],
+      "appellation": "Typhon"
+    },
+    "code": "typhon",
+    "code_name": "Typhon"
   },
   "char_391_rosmon": {
     "en_US": {
@@ -19864,6 +20006,216 @@
     "code": "modified phytohormone",
     "code_name": "Modified Phytohormone"
   },
+  "trap_106_smtree": {
+    "en_US": {
+      "enabled": true,
+      "name": "Silvernwhite Bulwark",
+      "skills": [
+        "Block Deployment"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "積雪の銀樹",
+      "skills": [
+        "配置妨害"
+      ],
+      "alias": [
+        "積雪の銀樹"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "은백의 적설",
+      "skills": [
+        "배치 불가"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "积雪银凇 ",
+      "skills": [
+        "阻止部署"
+      ],
+      "alias": [
+        "ji xue yin song  ",
+        "jixueyinsong "
+      ],
+      "appellation": "Silvernwhite Bulwark"
+    },
+    "code": "silvernwhite bulwark",
+    "code_name": "Silvernwhite Bulwark"
+  },
+  "trap_107_smpow": {
+    "en_US": {
+      "enabled": true,
+      "name": "Dimensional Anchoring Pylon",
+      "skills": [
+        "Activate"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "空間安定化設備",
+      "skills": [
+        "起動"
+      ],
+      "alias": [
+        "空間安定化設備"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "공간 안정 시설",
+      "skills": [
+        "가동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "空间稳定设施",
+      "skills": [
+        "启动"
+      ],
+      "alias": [
+        "kong jian wen ding she shi",
+        "kongjianwendingsheshi"
+      ],
+      "appellation": "Dimensional Anchoring Pylon"
+    },
+    "code": "dimensional anchoring pylon",
+    "code_name": "Dimensional Anchoring Pylon"
+  },
+  "trap_108_smbox": {
+    "en_US": {
+      "enabled": true,
+      "name": "Treasure Chest",
+      "skills": [
+        "Alluring Treasures"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "宝箱",
+      "skills": [
+        "財宝のいざない"
+      ],
+      "alias": [
+        "宝箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "보물 상자",
+      "skills": [
+        "보물의 유혹"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "宝箱",
+      "skills": [
+        "诱人珍宝"
+      ],
+      "alias": [
+        "bao xiang",
+        "baoxiang"
+      ],
+      "appellation": "Treasure Chest"
+    },
+    "code": "treasure chest",
+    "code_name": "Treasure Chest"
+  },
+  "trap_109_smrbox": {
+    "en_US": {
+      "enabled": true,
+      "name": "Spiked Treasure Chest",
+      "skills": [
+        "Spiky Treasures"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トゲトゲ宝箱",
+      "skills": [
+        "財宝に刺あり"
+      ],
+      "alias": [
+        "とげとげ宝箱"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가시 돋은 보물 상자",
+      "skills": [
+        "가시 돋은 보물"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "尖刺宝箱",
+      "skills": [
+        "刺人珍宝"
+      ],
+      "alias": [
+        "jian ci bao xiang",
+        "jiancibaoxiang"
+      ],
+      "appellation": "Spike Treasure Chest"
+    },
+    "code": "spiked treasure chest",
+    "code_name": "Spike Treasure Chest"
+  },
+  "trap_110_smbbox": {
+    "en_US": {
+      "enabled": true,
+      "name": "Testaceous Vinecreeps",
+      "skills": [
+        "Alluring Treasures?"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "巨殻のツル",
+      "skills": [
+        "財宝？の誘惑"
+      ],
+      "alias": [
+        "巨殻のつる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "상자 넝쿨",
+      "skills": [
+        "보물의 유혹?"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "巨壳藤蔓",
+      "skills": [
+        "诱人珍宝？"
+      ],
+      "alias": [
+        "ju ke teng man",
+        "juketengman"
+      ],
+      "appellation": "Testaceous Vinecreeps"
+    },
+    "code": "testaceous vinecreeps",
+    "code_name": "Testaceous Vinecreeps"
+  },
   "trap_700_cdabyss": {
     "en_US": {
       "enabled": true,
@@ -22818,6 +23170,502 @@
     "code": "portable first-aid kit",
     "code_name": "Portable Medical Equipment"
   },
+  "trap_723_cdcvrt": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Overflow Converter",
+      "skills": [
+        "Energy Overflow Recovery"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "オーバーフロー変換機",
+      "skills": [
+        "オーバーフロー・リカバリー"
+      ],
+      "alias": [
+        "おーばーふろー変換機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오버플로우 컨버터",
+      "skills": [
+        "오버플로우"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "溢能回收转化器",
+      "skills": [
+        "溢能回收"
+      ],
+      "alias": [
+        "yi neng hui shou zhuan hua qi",
+        "yinenghuishouzhuanhuaqi"
+      ],
+      "appellation": "Overflow Recovery Converter"
+    },
+    "code": "energy overflow converter",
+    "code_name": "Overflow Recovery Converter"
+  },
+  "trap_724_cdcvrta": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Overflow Converter",
+      "skills": [
+        "Energy Overflow Recovery"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "オーバーフロー変換機",
+      "skills": [
+        "オーバーフロー・リカバリー"
+      ],
+      "alias": [
+        "おーばーふろー変換機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오버플로우 컨버터",
+      "skills": [
+        "오버플로우"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "溢能回收转化器",
+      "skills": [
+        "溢能回收"
+      ],
+      "alias": [
+        "yi neng hui shou zhuan hua qi",
+        "yinenghuishouzhuanhuaqi"
+      ],
+      "appellation": "Hyperclock Converter Module"
+    },
+    "code": "energy overflow converter",
+    "code_name": "Hyperclock Converter Module"
+  },
+  "trap_725_cdcvrtb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Energy Overflow Converter",
+      "skills": [
+        "Energy Overflow Recovery"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "オーバーフロー変換機",
+      "skills": [
+        "オーバーフロー・リカバリー"
+      ],
+      "alias": [
+        "おーばーふろー変換機"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오버플로우 컨버터",
+      "skills": [
+        "오버플로우"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "溢能回收转化器",
+      "skills": [
+        "溢能回收"
+      ],
+      "alias": [
+        "yi neng hui shou zhuan hua qi",
+        "yinenghuishouzhuanhuaqi"
+      ],
+      "appellation": "Concentrator Recoverer Module"
+    },
+    "code": "energy overflow converter",
+    "code_name": "Concentrator Recoverer Module"
+  },
+  "trap_726_cdrone": {
+    "en_US": {
+      "enabled": true,
+      "name": "Field Support Drone",
+      "skills": [
+        "Field Support"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦場サポートドローン",
+      "skills": [
+        "戦地支援"
+      ],
+      "alias": [
+        "戦場さぽーとどろーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전장 지원 드론",
+      "skills": [
+        "전장 지원"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战地援护无人机",
+      "skills": [
+        "战地援护"
+      ],
+      "alias": [
+        "zhan di yuan hu wu ren ji",
+        "zhandiyuanhuwurenji"
+      ],
+      "appellation": "Field Supporting Drone"
+    },
+    "code": "field support drone",
+    "code_name": "Field Supporting Drone"
+  },
+  "trap_727_cdronea": {
+    "en_US": {
+      "enabled": true,
+      "name": "Field Support Drone",
+      "skills": [
+        "Field Support"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦場サポートドローン",
+      "skills": [
+        "戦地支援"
+      ],
+      "alias": [
+        "戦場さぽーとどろーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전장 지원 드론",
+      "skills": [
+        "전장 지원"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战地援护无人机",
+      "skills": [
+        "战地援护"
+      ],
+      "alias": [
+        "zhan di yuan hu wu ren ji",
+        "zhandiyuanhuwurenji"
+      ],
+      "appellation": "Targeted Renewal Agent"
+    },
+    "code": "field support drone",
+    "code_name": "Targeted Renewal Agent"
+  },
+  "trap_728_cdroneb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Field Support Drone",
+      "skills": [
+        "Field Support"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "戦場サポートドローン",
+      "skills": [
+        "戦地支援"
+      ],
+      "alias": [
+        "戦場さぽーとどろーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전장 지원 드론",
+      "skills": [
+        "전장 지원"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战地援护无人机",
+      "skills": [
+        "战地援护"
+      ],
+      "alias": [
+        "zhan di yuan hu wu ren ji",
+        "zhandiyuanhuwurenji"
+      ],
+      "appellation": "Receptor Stimulating Agent"
+    },
+    "code": "field support drone",
+    "code_name": "Receptor Stimulating Agent"
+  },
+  "trap_729_cdkzmr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Competition Records Analyzer",
+      "skills": [
+        "Competition Records Analysis"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "競技記録アナライザー",
+      "skills": [
+        "競技記録アナライズ"
+      ],
+      "alias": [
+        "競技記録あならいざー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "경기 기록 분석기",
+      "skills": [
+        "경기 기록 분석"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "竞技记录分析仪",
+      "skills": [
+        "竞技记录分析"
+      ],
+      "alias": [
+        "jing ji ji lu fen xi yi",
+        "jingjijilufenxiyi"
+      ],
+      "appellation": "Tournamental Analyzer"
+    },
+    "code": "competition records analyzer",
+    "code_name": "Tournamental Analyzer"
+  },
+  "trap_733_cdkzmra": {
+    "en_US": {
+      "enabled": true,
+      "name": "Competition Records Analyzer",
+      "skills": [
+        "Competition Records Analysis"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "競技記録アナライザー",
+      "skills": [
+        "競技記録アナライズ"
+      ],
+      "alias": [
+        "競技記録あならいざー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "경기 기록 분석기",
+      "skills": [
+        "경기 기록 분석"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "竞技记录分析仪",
+      "skills": [
+        "竞技记录分析"
+      ],
+      "alias": [
+        "jing ji ji lu fen xi yi",
+        "jingjijilufenxiyi"
+      ],
+      "appellation": "Complex Arithmetic Component"
+    },
+    "code": "competition records analyzer",
+    "code_name": "Complex Arithmetic Component"
+  },
+  "trap_734_cdkzmrb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Competition Records Analyzer",
+      "skills": [
+        "Competition Records Analysis"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "競技記録アナライザー",
+      "skills": [
+        "競技記録アナライズ"
+      ],
+      "alias": [
+        "競技記録あならいざー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "경기 기록 분석기",
+      "skills": [
+        "경기 기록 분석"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "竞技记录分析仪",
+      "skills": [
+        "竞技记录分析"
+      ],
+      "alias": [
+        "jing ji ji lu fen xi yi",
+        "jingjijilufenxiyi"
+      ],
+      "appellation": "Data Allocating Component"
+    },
+    "code": "competition records analyzer",
+    "code_name": "Data Allocating Component"
+  },
+  "trap_730_truamr": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Supersweetie Superblend'",
+      "skills": [
+        "'Supersweetie Superblend'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「スイート・スーパーブレンド」",
+      "skills": [
+        "「スーパーブレンド」"
+      ],
+      "alias": [
+        "「すいーと・すーぱーぶれんど」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'달콤한 교란'",
+      "skills": [
+        "'달콤한 교란'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“甜蜜狂搅”",
+      "skills": [
+        "“甜蜜狂搅”"
+      ],
+      "alias": [
+        "“ tian mi kuang jiao ”",
+        "“tianmikuangjiao”"
+      ],
+      "appellation": "\"Supersweetie™ Superblend\""
+    },
+    "code": "'supersweetie superblend'",
+    "code_name": "\"Supersweetie™ Superblend\""
+  },
+  "trap_735_platre": {
+    "en_US": {
+      "enabled": true,
+      "name": "Absorber",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "渇望の触手",
+      "skills": [],
+      "alias": [
+        "渇望の触手"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "흡수체",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "汲取体",
+      "skills": [],
+      "alias": [
+        "ji qu ti",
+        "jiquti"
+      ],
+      "appellation": "Absorber Limb"
+    },
+    "code": "absorber",
+    "code_name": "Absorber Limb"
+  },
+  "trap_732_ltnova": {
+    "en_US": {
+      "enabled": true,
+      "name": "Neuronal Revival",
+      "skills": [
+        "Neuronal Revival"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "神経再生",
+      "skills": [
+        "神経再生"
+      ],
+      "alias": [
+        "神経再生"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "신경 재생",
+      "skills": [
+        "신경 재생"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "神经再生",
+      "skills": [
+        "神经再生"
+      ],
+      "alias": [
+        "shen jing zai sheng",
+        "shenjingzaisheng"
+      ],
+      "appellation": "Neuronal Revival"
+    },
+    "code": "neuronal revival",
+    "code_name": "Neuronal Revival"
+  },
   "trap_122_stmpq": {
     "en_US": {
       "enabled": true,
@@ -22901,6 +23749,48 @@
     },
     "code": "steam soda bottle",
     "code_name": "Vapor Case"
+  },
+  "trap_124_eradio": {
+    "en_US": {
+      "enabled": true,
+      "name": "Waste Heat Vent",
+      "skills": [
+        "Jet Cooling"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "廃熱噴出口",
+      "skills": [
+        "蒸気放出"
+      ],
+      "alias": [
+        "廃熱噴出口"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "폐열 분출구",
+      "skills": [
+        "열기 방출"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "废热喷口",
+      "skills": [
+        "喷气散热"
+      ],
+      "alias": [
+        "fei re pen kou",
+        "feirepenkou"
+      ],
+      "appellation": "Waste Heat Spout"
+    },
+    "code": "waste heat vent",
+    "code_name": "Waste Heat Spout"
   },
   "char_1001_amiya2": {
     "en_US": {
@@ -23030,6 +23920,23 @@
     "code": null,
     "code_name": "Wanqing"
   },
+  "char_4125_rdoc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "医生",
+      "skills": [
+        "以暴制暴",
+        "激素手枪"
+      ],
+      "alias": [
+        "yi sheng",
+        "yisheng"
+      ],
+      "appellation": "Doc"
+    },
+    "code": null,
+    "code_name": "Doc"
+  },
   "char_194_leto": {
     "zh_CN": {
       "enabled": true,
@@ -23047,22 +23954,22 @@
     "code": null,
     "code_name": "Лето"
   },
-  "char_341_sntlla": {
+  "char_4126_fuze": {
     "zh_CN": {
       "enabled": true,
-      "name": "寒檀",
+      "name": "导火索",
       "skills": [
-        "迅捷打击·γ型",
-        "“女巫之泪”"
+        "火力侦察",
+        "霰射炸药"
       ],
       "alias": [
-        "han tan",
-        "hantan"
+        "dao huo suo",
+        "daohuosuo"
       ],
-      "appellation": "Santalla"
+      "appellation": "Fuze"
     },
     "code": null,
-    "code_name": "Santalla"
+    "code_name": "Fuze"
   },
   "char_4110_delphn": {
     "zh_CN": {
@@ -23217,40 +24124,22 @@
     "code": null,
     "code_name": "Grain Buds"
   },
-  "char_4102_threye": {
+  "char_4124_iana": {
     "zh_CN": {
       "enabled": true,
-      "name": "凛视",
+      "name": "双月",
       "skills": [
-        "我见崩毁之前",
-        "我见枯朽之后"
+        "幻影诡雷",
+        "全知者的战术"
       ],
       "alias": [
-        "lin shi",
-        "linshi"
+        "shuang yue",
+        "shuangyue"
       ],
-      "appellation": "Valarqvin"
+      "appellation": "Iana"
     },
     "code": null,
-    "code_name": "Valarqvin"
-  },
-  "char_2012_typhon": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "提丰",
-      "skills": [
-        "迅捷打击·γ型",
-        "冰原秩序",
-        "“永恒狩猎”"
-      ],
-      "alias": [
-        "ti feng",
-        "tifeng"
-      ],
-      "appellation": "Typhon"
-    },
-    "code": null,
-    "code_name": "Typhon"
+    "code_name": "Iana"
   },
   "char_4117_ray": {
     "zh_CN": {
@@ -23287,6 +24176,24 @@
     },
     "code": null,
     "code_name": "Virtuosa"
+  },
+  "char_4123_ela": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "艾拉",
+      "skills": [
+        "眩目阻滞",
+        "震荡坚守",
+        "“博萨克风暴”"
+      ],
+      "alias": [
+        "ai la",
+        "aila"
+      ],
+      "appellation": "Ela"
+    },
+    "code": null,
+    "code_name": "Ela"
   },
   "char_2025_shu": {
     "zh_CN": {
@@ -23450,85 +24357,23 @@
     "code": null,
     "code_name": "Sandbeast"
   },
-  "trap_106_smtree": {
+  "token_10033_ela_grzmot": {
     "zh_CN": {
       "enabled": true,
-      "name": "积雪银凇 ",
+      "name": "雷鸣地雷",
       "skills": [
-        "阻止部署"
+        "眩目阻滞",
+        "震荡坚守",
+        "“博萨克风暴”"
       ],
       "alias": [
-        "ji xue yin song  ",
-        "jixueyinsong "
+        "lei ming di lei",
+        "leimingdilei"
       ],
-      "appellation": "Silvernwhite Bulwark"
+      "appellation": "GRZMOT Mine"
     },
     "code": null,
-    "code_name": "Silvernwhite Bulwark"
-  },
-  "trap_107_smpow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "空间稳定设施",
-      "skills": [
-        "启动"
-      ],
-      "alias": [
-        "kong jian wen ding she shi",
-        "kongjianwendingsheshi"
-      ],
-      "appellation": "Dimensional Anchoring Pylon"
-    },
-    "code": null,
-    "code_name": "Dimensional Anchoring Pylon"
-  },
-  "trap_108_smbox": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "宝箱",
-      "skills": [
-        "诱人珍宝"
-      ],
-      "alias": [
-        "bao xiang",
-        "baoxiang"
-      ],
-      "appellation": "Treasure Chest"
-    },
-    "code": null,
-    "code_name": "Treasure Chest"
-  },
-  "trap_109_smrbox": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "尖刺宝箱",
-      "skills": [
-        "刺人珍宝"
-      ],
-      "alias": [
-        "jian ci bao xiang",
-        "jiancibaoxiang"
-      ],
-      "appellation": "Spike Treasure Chest"
-    },
-    "code": null,
-    "code_name": "Spike Treasure Chest"
-  },
-  "trap_110_smbbox": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "巨壳藤蔓",
-      "skills": [
-        "诱人珍宝？"
-      ],
-      "alias": [
-        "ju ke teng man",
-        "juketengman"
-      ],
-      "appellation": "Testaceous Vinecreeps"
-    },
-    "code": null,
-    "code_name": "Testaceous Vinecreeps"
+    "code_name": "GRZMOT Mine"
   },
   "trap_116_stdurk": {
     "zh_CN": {
@@ -23545,212 +24390,6 @@
     },
     "code": null,
     "code_name": "\"My Past Self\""
-  },
-  "trap_723_cdcvrt": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "溢能回收转化器",
-      "skills": [
-        "溢能回收"
-      ],
-      "alias": [
-        "yi neng hui shou zhuan hua qi",
-        "yinenghuishouzhuanhuaqi"
-      ],
-      "appellation": "Overflow Recovery Converter"
-    },
-    "code": null,
-    "code_name": "Overflow Recovery Converter"
-  },
-  "trap_724_cdcvrta": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "溢能回收转化器",
-      "skills": [
-        "溢能回收"
-      ],
-      "alias": [
-        "yi neng hui shou zhuan hua qi",
-        "yinenghuishouzhuanhuaqi"
-      ],
-      "appellation": "Hyperclock Converter Module"
-    },
-    "code": null,
-    "code_name": "Hyperclock Converter Module"
-  },
-  "trap_725_cdcvrtb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "溢能回收转化器",
-      "skills": [
-        "溢能回收"
-      ],
-      "alias": [
-        "yi neng hui shou zhuan hua qi",
-        "yinenghuishouzhuanhuaqi"
-      ],
-      "appellation": "Concentrator Recoverer Module"
-    },
-    "code": null,
-    "code_name": "Concentrator Recoverer Module"
-  },
-  "trap_726_cdrone": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战地援护无人机",
-      "skills": [
-        "战地援护"
-      ],
-      "alias": [
-        "zhan di yuan hu wu ren ji",
-        "zhandiyuanhuwurenji"
-      ],
-      "appellation": "Field Supporting Drone"
-    },
-    "code": null,
-    "code_name": "Field Supporting Drone"
-  },
-  "trap_727_cdronea": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战地援护无人机",
-      "skills": [
-        "战地援护"
-      ],
-      "alias": [
-        "zhan di yuan hu wu ren ji",
-        "zhandiyuanhuwurenji"
-      ],
-      "appellation": "Targeted Renewal Agent"
-    },
-    "code": null,
-    "code_name": "Targeted Renewal Agent"
-  },
-  "trap_728_cdroneb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战地援护无人机",
-      "skills": [
-        "战地援护"
-      ],
-      "alias": [
-        "zhan di yuan hu wu ren ji",
-        "zhandiyuanhuwurenji"
-      ],
-      "appellation": "Receptor Stimulating Agent"
-    },
-    "code": null,
-    "code_name": "Receptor Stimulating Agent"
-  },
-  "trap_729_cdkzmr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "竞技记录分析仪",
-      "skills": [
-        "竞技记录分析"
-      ],
-      "alias": [
-        "jing ji ji lu fen xi yi",
-        "jingjijilufenxiyi"
-      ],
-      "appellation": "Tournamental Analyzer"
-    },
-    "code": null,
-    "code_name": "Tournamental Analyzer"
-  },
-  "trap_733_cdkzmra": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "竞技记录分析仪",
-      "skills": [
-        "竞技记录分析"
-      ],
-      "alias": [
-        "jing ji ji lu fen xi yi",
-        "jingjijilufenxiyi"
-      ],
-      "appellation": "Complex Arithmetic Component"
-    },
-    "code": null,
-    "code_name": "Complex Arithmetic Component"
-  },
-  "trap_734_cdkzmrb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "竞技记录分析仪",
-      "skills": [
-        "竞技记录分析"
-      ],
-      "alias": [
-        "jing ji ji lu fen xi yi",
-        "jingjijilufenxiyi"
-      ],
-      "appellation": "Data Allocating Component"
-    },
-    "code": null,
-    "code_name": "Data Allocating Component"
-  },
-  "trap_730_truamr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“甜蜜狂搅”",
-      "skills": [
-        "“甜蜜狂搅”"
-      ],
-      "alias": [
-        "“ tian mi kuang jiao ”",
-        "“tianmikuangjiao”"
-      ],
-      "appellation": "\"Supersweetie™ Superblend\""
-    },
-    "code": null,
-    "code_name": "\"Supersweetie™ Superblend\""
-  },
-  "trap_735_platre": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "汲取体",
-      "skills": [],
-      "alias": [
-        "ji qu ti",
-        "jiquti"
-      ],
-      "appellation": "Absorber Limb"
-    },
-    "code": null,
-    "code_name": "Absorber Limb"
-  },
-  "trap_732_ltnova": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "神经再生",
-      "skills": [
-        "神经再生"
-      ],
-      "alias": [
-        "shen jing zai sheng",
-        "shenjingzaisheng"
-      ],
-      "appellation": "Neuronal Revival"
-    },
-    "code": null,
-    "code_name": "Neuronal Revival"
-  },
-  "trap_124_eradio": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "废热喷口",
-      "skills": [
-        "喷气散热"
-      ],
-      "alias": [
-        "fei re pen kou",
-        "feirepenkou"
-      ],
-      "appellation": "Waste Heat Spout"
-    },
-    "code": null,
-    "code_name": "Waste Heat Spout"
   },
   "trap_125_bonore": {
     "zh_CN": {
@@ -24857,5 +25496,81 @@
     },
     "code": null,
     "code_name": "Buried Metal Chest"
+  },
+  "trap_141_sheltr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "封阻物",
+      "skills": [],
+      "alias": [
+        "feng zu wu",
+        "fengzuwu"
+      ],
+      "appellation": "Barricade"
+    },
+    "code": null,
+    "code_name": "Barricade"
+  },
+  "trap_142_barrel": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石爆炸物",
+      "skills": [],
+      "alias": [
+        "yuan shi bao zha wu",
+        "yuanshibaozhawu"
+      ],
+      "appellation": "Originium Explosive"
+    },
+    "code": null,
+    "code_name": "Originium Explosive"
+  },
+  "trap_143_rnfcar": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "封阻加固装置",
+      "skills": [
+        "加固"
+      ],
+      "alias": [
+        "feng zu jia gu zhuang zhi",
+        "fengzujiaguzhuangzhi"
+      ],
+      "appellation": "Barricade Reinforcer"
+    },
+    "code": null,
+    "code_name": "Barricade Reinforcer"
+  },
+  "trap_144_ads": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "临时掩护装置",
+      "skills": [
+        "掩护"
+      ],
+      "alias": [
+        "lin shi yan hu zhuang zhi",
+        "linshiyanhuzhuangzhi"
+      ],
+      "appellation": "Temporary Fortification"
+    },
+    "code": null,
+    "code_name": "Temporary Fortification"
+  },
+  "trap_145_edd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "诡雷布设装置",
+      "skills": [
+        "布雷"
+      ],
+      "alias": [
+        "gui lei bu she zhuang zhi",
+        "guileibushezhuangzhi"
+      ],
+      "appellation": "Trap Mine Thrower"
+    },
+    "code": null,
+    "code_name": "Trap Mine Thrower"
   }
 }
