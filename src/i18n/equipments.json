@@ -4238,6 +4238,18 @@
   },
   "uniequip_002_ncdeer": {
     "char_id": "char_4019_ncdeer",
+    "en_US": {
+      "enabled": true,
+      "name": "'Elixir'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「仙薬」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'선약'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“仙药”"
@@ -4245,6 +4257,18 @@
   },
   "uniequip_002_slent2": {
     "char_id": "char_1031_slent2",
+    "en_US": {
+      "enabled": true,
+      "name": "Hard to Keep Awake"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "明晰な思考の助け"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모처럼 맑은 정신"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "难得清醒"
@@ -4252,6 +4276,18 @@
   },
   "uniequip_002_tknogi": {
     "char_id": "char_343_tknogi",
+    "en_US": {
+      "enabled": true,
+      "name": "Rouya Bimei"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "朧夜の灯り"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "몽롱한 밤"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "胧夜微明"
@@ -4259,6 +4295,18 @@
   },
   "uniequip_002_quercu": {
     "char_id": "char_492_quercu",
+    "en_US": {
+      "enabled": true,
+      "name": "Rusty Stick"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "錆びついた枝"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "녹슨 가지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "锈枝"
@@ -4266,6 +4314,18 @@
   },
   "uniequip_002_almond": {
     "char_id": "char_4105_almond",
+    "en_US": {
+      "enabled": true,
+      "name": "'Capstone Project'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「卒業制作」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'졸업설계'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“毕业设计”"
@@ -4273,6 +4333,18 @@
   },
   "uniequip_003_chen": {
     "char_id": "char_010_chen",
+    "en_US": {
+      "enabled": true,
+      "name": "Good Old School Days"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "過ぎ去った日々"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "옛 시절"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "往昔时光"
@@ -4280,6 +4352,18 @@
   },
   "uniequip_003_saga": {
     "char_id": "char_362_saga",
+    "en_US": {
+      "enabled": true,
+      "name": "Where to Find the Burdenbeast?"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "何処にか駄獣を尋ねん"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "버든비스트는 어디에?"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "何处寻驮？"
@@ -4612,6 +4696,62 @@
     "zh_CN": {
       "enabled": true,
       "name": "刺针式合金爆破弹"
+    }
+  },
+  "uniequip_002_mlyss": {
+    "char_id": "char_249_mlyss",
+    "zh_CN": {
+      "enabled": true,
+      "name": "梳妆流形"
+    }
+  },
+  "uniequip_002_vigil": {
+    "char_id": "char_427_vigil",
+    "zh_CN": {
+      "enabled": true,
+      "name": "叙拉古式入门礼"
+    }
+  },
+  "uniequip_002_blkngt": {
+    "char_id": "char_476_blkngt",
+    "zh_CN": {
+      "enabled": true,
+      "name": "星星与瞌睡虫"
+    }
+  },
+  "uniequip_002_bstalk": {
+    "char_id": "char_452_bstalk",
+    "zh_CN": {
+      "enabled": true,
+      "name": "钳钳自助餐"
+    }
+  },
+  "uniequip_002_ascln": {
+    "char_id": "char_4132_ascln",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“无形，无情”"
+    }
+  },
+  "uniequip_002_aroma": {
+    "char_id": "char_446_aroma",
+    "zh_CN": {
+      "enabled": true,
+      "name": "柠檬味的童年"
+    }
+  },
+  "uniequip_002_luton": {
+    "char_id": "char_4130_luton",
+    "zh_CN": {
+      "enabled": true,
+      "name": "生还的人与物"
+    }
+  },
+  "uniequip_003_heyak": {
+    "char_id": "char_4027_heyak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "羽蛇的时间博物馆"
     }
   }
 }

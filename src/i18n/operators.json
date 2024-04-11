@@ -169,6 +169,40 @@
     "code": "terra research commission",
     "code_name": "Terra Research Commission"
   },
+  "char_4091_ulika": {
+    "en_US": {
+      "enabled": true,
+      "name": "U-Official",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "U-Official",
+      "skills": [],
+      "alias": [
+        "U-Official"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "U-Official",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "U-Official",
+      "skills": [],
+      "alias": [
+        "U-Official",
+        "U-Official"
+      ],
+      "appellation": "U-Official"
+    },
+    "code": "u-official",
+    "code_name": "U-Official"
+  },
   "char_4093_frston": {
     "en_US": {
       "enabled": true,
@@ -8517,6 +8551,52 @@
     "code": "greyy the lightningbearer",
     "code_name": "Greyy the Lightningbearer"
   },
+  "char_4104_coldst": {
+    "en_US": {
+      "enabled": true,
+      "name": "Coldshot",
+      "skills": [
+        "ATK Up γ",
+        "Party Night"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コールドショット",
+      "skills": [
+        "攻撃力強化γ",
+        "夜に酔いしれて"
+      ],
+      "alias": [
+        "こーるどしょっと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "콜드샷",
+      "skills": [
+        "공격 강화γ",
+        "파티 나이트"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "冰酿",
+      "skills": [
+        "攻击力强化·γ型",
+        "酣醉之夜"
+      ],
+      "alias": [
+        "bing niang",
+        "bingniang"
+      ],
+      "appellation": "Coldshot"
+    },
+    "code": "coldshot",
+    "code_name": "Coldshot"
+  },
   "char_4015_spuria": {
     "en_US": {
       "enabled": true,
@@ -8654,6 +8734,52 @@
     },
     "code": "snowsant",
     "code_name": "Snowsant"
+  },
+  "char_4105_almond": {
+    "en_US": {
+      "enabled": true,
+      "name": "Almond",
+      "skills": [
+        "Magnetic Grab",
+        "Power Traction"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アーモンド",
+      "skills": [
+        "マグネットキャッチャー",
+        "ハイパートラクション"
+      ],
+      "alias": [
+        "あーもんど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아몬드",
+      "skills": [
+        "마그네틱 그랩",
+        "파워 트렉션"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "杏仁",
+      "skills": [
+        "磁力抓取",
+        "强力牵引"
+      ],
+      "alias": [
+        "xing ren",
+        "xingren"
+      ],
+      "appellation": "Almond"
+    },
+    "code": "almond",
+    "code_name": "Almond"
   },
   "char_174_slbell": {
     "en_US": {
@@ -12775,6 +12901,56 @@
     "code": "horn",
     "code_name": "Horn"
   },
+  "char_1034_jesca2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Jessica the Liberated",
+      "skills": [
+        "Hold the Line",
+        "Covered Defense",
+        "Saturation Burst"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "滌火ジェシカ",
+      "skills": [
+        "戦線維持",
+        "掩護弾幕",
+        "飽和射撃"
+      ],
+      "alias": [
+        "滌火じぇしか"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "제시카 더 리버레이티드",
+      "skills": [
+        "전선 고수",
+        "엄폐 호위",
+        "집중 사격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "涤火杰西卡",
+      "skills": [
+        "坚守阵线",
+        "掩蔽护卫",
+        "饱和迸射"
+      ],
+      "alias": [
+        "di huo jie xi ka",
+        "dihuojiexika"
+      ],
+      "appellation": "Jessica the Liberated"
+    },
+    "code": "jessica the liberated",
+    "code_name": "Jessica the Liberated"
+  },
   "char_264_f12yin": {
     "en_US": {
       "enabled": true,
@@ -15372,6 +15548,56 @@
     },
     "code": "champagne bomb",
     "code_name": "Champagne Bomb"
+  },
+  "token_10032_jesca2_jckshd": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mobile Riot Shield",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "機動防盾",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "機動防盾"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기동 방패",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "机动盾牌",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "ji dong dun pai",
+        "jidongdunpai"
+      ],
+      "appellation": "Mobile personnel shield"
+    },
+    "code": "mobile riot shield",
+    "code_name": "Mobile personnel shield"
   },
   "trap_001_crate": {
     "en_US": {
@@ -22372,6 +22598,48 @@
     "code": "veteran hunter",
     "code_name": "Seasoned Hunter"
   },
+  "trap_116_stdurk": {
+    "en_US": {
+      "enabled": true,
+      "name": "'My Past Self'",
+      "skills": [
+        "'Snap!'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「過去の自分」",
+      "skills": [
+        "｢カシャッ！｣"
+      ],
+      "alias": [
+        "「過去の自分」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'과거의 나'",
+      "skills": [
+        "“찰칵!”"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“过去的我”",
+      "skills": [
+        "“咔嚓！”"
+      ],
+      "alias": [
+        "“ guo qu de wo ”",
+        "“guoqudewo”"
+      ],
+      "appellation": "\"My Past Self\""
+    },
+    "code": "'my past self'",
+    "code_name": "\"My Past Self\""
+  },
   "trap_117_ltstat": {
     "en_US": {
       "enabled": true,
@@ -23838,20 +24106,6 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
-  "char_4091_ulika": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "U-Official",
-      "skills": [],
-      "alias": [
-        "U-Official",
-        "U-Official"
-      ],
-      "appellation": "U-Official"
-    },
-    "code": null,
-    "code_name": "U-Official"
-  },
   "char_4100_caper": {
     "zh_CN": {
       "enabled": true,
@@ -23868,6 +24122,23 @@
     },
     "code": null,
     "code_name": "Caper"
+  },
+  "char_4130_luton": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "露托",
+      "skills": [
+        "强力击·β型",
+        "强磁防卫"
+      ],
+      "alias": [
+        "lou tuo",
+        "loutuo"
+      ],
+      "appellation": "Lutonada"
+    },
+    "code": null,
+    "code_name": "Lutonada"
   },
   "char_4107_vrdant": {
     "zh_CN": {
@@ -23971,6 +24242,23 @@
     "code": null,
     "code_name": "Fuze"
   },
+  "char_4131_odda": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "奥达",
+      "skills": [
+        "火花溅射",
+        "锻锤之力"
+      ],
+      "alias": [
+        "ao da",
+        "aoda"
+      ],
+      "appellation": "Odda"
+    },
+    "code": null,
+    "code_name": "Odda"
+  },
   "char_4110_delphn": {
     "zh_CN": {
       "enabled": true,
@@ -23987,6 +24275,23 @@
     },
     "code": null,
     "code_name": "Delphine"
+  },
+  "char_446_aroma": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿罗玛",
+      "skills": [
+        "强效清洁",
+        "小心地滑"
+      ],
+      "alias": [
+        "a luo ma",
+        "aluoma"
+      ],
+      "appellation": "Aroma"
+    },
+    "code": null,
+    "code_name": "Aroma"
   },
   "char_499_kaitou": {
     "zh_CN": {
@@ -24073,40 +24378,6 @@
     "code": null,
     "code_name": "Bassline"
   },
-  "char_4104_coldst": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "冰酿",
-      "skills": [
-        "攻击力强化·γ型",
-        "酣醉之夜"
-      ],
-      "alias": [
-        "bing niang",
-        "bingniang"
-      ],
-      "appellation": "Coldshot"
-    },
-    "code": null,
-    "code_name": "Coldshot"
-  },
-  "char_4105_almond": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "杏仁",
-      "skills": [
-        "磁力抓取",
-        "强力牵引"
-      ],
-      "alias": [
-        "xing ren",
-        "xingren"
-      ],
-      "appellation": "Almond"
-    },
-    "code": null,
-    "code_name": "Almond"
-  },
   "char_4122_grabds": {
     "zh_CN": {
       "enabled": true,
@@ -24177,6 +24448,24 @@
     "code": null,
     "code_name": "Virtuosa"
   },
+  "char_4132_ascln": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿斯卡纶",
+      "skills": [
+        "追袭",
+        "恩赐",
+        "降临"
+      ],
+      "alias": [
+        "a si ka lun",
+        "asikalun"
+      ],
+      "appellation": "Ascalon"
+    },
+    "code": null,
+    "code_name": "Ascalon"
+  },
   "char_4123_ela": {
     "zh_CN": {
       "enabled": true,
@@ -24212,24 +24501,6 @@
     },
     "code": null,
     "code_name": "Shu"
-  },
-  "char_1034_jesca2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "涤火杰西卡",
-      "skills": [
-        "坚守阵线",
-        "掩蔽护卫",
-        "饱和迸射"
-      ],
-      "alias": [
-        "di huo jie xi ka",
-        "dihuojiexika"
-      ],
-      "appellation": "Jessica the Liberated"
-    },
-    "code": null,
-    "code_name": "Jessica the Liberated"
   },
   "char_4088_hodrer": {
     "zh_CN": {
@@ -24321,24 +24592,6 @@
     "code": null,
     "code_name": "Lessing"
   },
-  "token_10032_jesca2_jckshd": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "机动盾牌",
-      "skills": [
-        "",
-        "",
-        ""
-      ],
-      "alias": [
-        "ji dong dun pai",
-        "jidongdunpai"
-      ],
-      "appellation": "Mobile personnel shield"
-    },
-    "code": null,
-    "code_name": "Mobile personnel shield"
-  },
   "token_10034_ray_sndbst": {
     "zh_CN": {
       "enabled": true,
@@ -24374,22 +24627,6 @@
     },
     "code": null,
     "code_name": "GRZMOT Mine"
-  },
-  "trap_116_stdurk": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“过去的我”",
-      "skills": [
-        "“咔嚓！”"
-      ],
-      "alias": [
-        "“ guo qu de wo ”",
-        "“guoqudewo”"
-      ],
-      "appellation": "\"My Past Self\""
-    },
-    "code": null,
-    "code_name": "\"My Past Self\""
   },
   "trap_125_bonore": {
     "zh_CN": {
@@ -24758,6 +24995,182 @@
     },
     "code": null,
     "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_746_cdrhine": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "尖端研究成果共享终端",
+      "skills": [
+        "共享发现"
+      ],
+      "alias": [
+        "jian duan yan jiu cheng guo gong xiang zhong duan",
+        "jianduanyanjiuchengguogongxiangzhongduan"
+      ],
+      "appellation": "State-of-the-art Findings Distribution Terminal"
+    },
+    "code": null,
+    "code_name": "State-of-the-art Findings Distribution Terminal"
+  },
+  "trap_747_cdrhinea": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "尖端研究成果共享终端",
+      "skills": [
+        "共享发现"
+      ],
+      "alias": [
+        "jian duan yan jiu cheng guo gong xiang zhong duan",
+        "jianduanyanjiuchengguogongxiangzhongduan"
+      ],
+      "appellation": "State-of-the-art Findings Distribution Terminal"
+    },
+    "code": null,
+    "code_name": "State-of-the-art Findings Distribution Terminal"
+  },
+  "trap_748_cdrhineb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "尖端研究成果共享终端",
+      "skills": [
+        "共享发现"
+      ],
+      "alias": [
+        "jian duan yan jiu cheng guo gong xiang zhong duan",
+        "jianduanyanjiuchengguogongxiangzhongduan"
+      ],
+      "appellation": "State-of-the-art Findings Distribution Terminal"
+    },
+    "code": null,
+    "code_name": "State-of-the-art Findings Distribution Terminal"
+  },
+  "trap_749_cd1punch": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "声波记录扩音器",
+      "skills": [
+        "灌录"
+      ],
+      "alias": [
+        "sheng bo ji lu kuo yin qi",
+        "shengbojilukuoyinqi"
+      ],
+      "appellation": "Sound Recording Amplifier"
+    },
+    "code": null,
+    "code_name": "Sound Recording Amplifier"
+  },
+  "trap_750_cd1puncha": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "声波记录扩音器",
+      "skills": [
+        "灌录"
+      ],
+      "alias": [
+        "sheng bo ji lu kuo yin qi",
+        "shengbojilukuoyinqi"
+      ],
+      "appellation": "Sound Recording Amplifier"
+    },
+    "code": null,
+    "code_name": "Sound Recording Amplifier"
+  },
+  "trap_751_cd1punchb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "声波记录扩音器",
+      "skills": [
+        "灌录"
+      ],
+      "alias": [
+        "sheng bo ji lu kuo yin qi",
+        "shengbojilukuoyinqi"
+      ],
+      "appellation": "Sound Recording Amplifier"
+    },
+    "code": null,
+    "code_name": "Sound Recording Amplifier"
+  },
+  "trap_752_cdcaster": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "法术调和能量场",
+      "skills": [
+        "能量调和"
+      ],
+      "alias": [
+        "fa shu tiao he neng liang chang",
+        "fashutiaohenengliangchang"
+      ],
+      "appellation": "Arts Resonant Energy Field"
+    },
+    "code": null,
+    "code_name": "Arts Resonant Energy Field"
+  },
+  "trap_753_cdcastera": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "法术调和能量场",
+      "skills": [
+        "能量调和"
+      ],
+      "alias": [
+        "fa shu tiao he neng liang chang",
+        "fashutiaohenengliangchang"
+      ],
+      "appellation": "Arts Resonant Energy Field"
+    },
+    "code": null,
+    "code_name": "Arts Resonant Energy Field"
+  },
+  "trap_754_cdcasterb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "法术调和能量场",
+      "skills": [
+        "能量调和"
+      ],
+      "alias": [
+        "fa shu tiao he neng liang chang",
+        "fashutiaohenengliangchang"
+      ],
+      "appellation": "Arts Resonant Energy Field"
+    },
+    "code": null,
+    "code_name": "Arts Resonant Energy Field"
+  },
+  "trap_755_cdsoul": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "啸叫音响",
+      "skills": [
+        ""
+      ],
+      "alias": [
+        "xiao jiao yin xiang",
+        "xiaojiaoyinxiang"
+      ],
+      "appellation": "Squeaking Sound"
+    },
+    "code": null,
+    "code_name": "Squeaking Sound"
+  },
+  "trap_756_cdnest": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“黏黏的赠品”",
+      "skills": [
+        "“黏黏的赠品”"
+      ],
+      "alias": [
+        "“ nian nian de zeng pin ”",
+        "“nianniandezengpin”"
+      ],
+      "appellation": "\"Sticky Giveaways\""
+    },
+    "code": null,
+    "code_name": "\"Sticky Giveaways\""
   },
   "trap_745_beer": {
     "zh_CN": {
@@ -25572,5 +25985,53 @@
     },
     "code": null,
     "code_name": "Trap Mine Thrower"
+  },
+  "trap_163_foolcrate": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "障碍物",
+      "skills": [
+        "阻挡路线"
+      ],
+      "alias": [
+        "zhang ai wu",
+        "zhangaiwu"
+      ],
+      "appellation": "Crate"
+    },
+    "code": null,
+    "code_name": "Crate"
+  },
+  "trap_147_spblls": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "巫术弩炮",
+      "skills": [
+        "巫术弩炮"
+      ],
+      "alias": [
+        "wu shu nu pao",
+        "wushunupao"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_148_amblls": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "幽影门扉",
+      "skills": [
+        "幽影门扉"
+      ],
+      "alias": [
+        "you ying men fei",
+        "youyingmenfei"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
   }
 }

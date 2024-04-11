@@ -1387,7 +1387,7 @@
     "level": "OD-1",
     "energy": 12,
     "unique_id": "act17d0_01",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -1416,7 +1416,7 @@
     "level": "OD-2",
     "energy": 12,
     "unique_id": "act17d0_02",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -2710,7 +2710,7 @@
     "level": "OD-3",
     "energy": 12,
     "unique_id": "act17d0_03",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -2727,7 +2727,7 @@
     "level": "OD-4",
     "energy": 12,
     "unique_id": "act17d0_04",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -2744,7 +2744,7 @@
     "level": "OD-5",
     "energy": 12,
     "unique_id": "act17d0_05",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -2761,7 +2761,7 @@
     "level": "OD-6",
     "energy": 12,
     "unique_id": "act17d0_06",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -16520,6 +16520,339 @@
     "extra_drop": []
   },
   {
+    "level": "BB-1",
+    "energy": 9,
+    "unique_id": "act33side_01",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-2-3"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-2",
+    "energy": 9,
+    "unique_id": "act33side_02",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-2-6"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-3",
+    "energy": 12,
+    "unique_id": "act33side_03",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "E-3-1"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-4",
+    "energy": 12,
+    "unique_id": "act33side_04",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-1-5"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-6",
+    "energy": 21,
+    "unique_id": "act33side_06",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-3-1"
+      }
+    ],
+    "special_drop": [
+      {
+        "resource": "M-4-1"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-7",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-11",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-7",
+    "energy": 21,
+    "unique_id": "act33side_07",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-3-5"
+      }
+    ],
+    "special_drop": [
+      {
+        "resource": "M-4-5"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-12",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-8",
+    "energy": 21,
+    "unique_id": "act33side_08",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-3-11"
+      }
+    ],
+    "special_drop": [
+      {
+        "resource": "M-4-11"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-9",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-13",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-10",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
     "level": "CR-6",
     "energy": 21,
     "unique_id": "act32side_06",
@@ -24825,7 +25158,7 @@
     "level": "OD-7",
     "energy": 18,
     "unique_id": "act17d0_07",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -24839,7 +25172,7 @@
     "level": "OD-8",
     "energy": 18,
     "unique_id": "act17d0_08",
-    "zone_id": "act17d0_zone1",
+    "zone_id": "act1r6sre_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -30982,6 +31315,41 @@
       },
       {
         "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "BB-5",
+    "energy": 12,
+    "unique_id": "act33side_05",
+    "zone_id": "act33side_zone1",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
         "probability": "小概率"
       }
     ]
