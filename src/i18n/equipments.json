@@ -1094,7 +1094,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '자유, 양파링과 나'"
+      "name": "'자유, 양파링과 나'"
     },
     "zh_CN": {
       "enabled": true,
@@ -1189,7 +1189,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '시들지 않는 모밭'"
+      "name": "'시들지 않는 모밭'"
     },
     "zh_CN": {
       "enabled": true,
@@ -1227,7 +1227,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '음반' 수집 상자"
+      "name": "'음반' 수집 상자"
     },
     "zh_CN": {
       "enabled": true,
@@ -1341,7 +1341,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '강의 노래'"
+      "name": "'강의 노래'"
     },
     "zh_CN": {
       "enabled": true,
@@ -3811,7 +3811,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '최초의 기쁨'"
+      "name": "'최초의 기쁨'"
     },
     "zh_CN": {
       "enabled": true,
@@ -3830,7 +3830,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '기사장'"
+      "name": "'기사장'"
     },
     "zh_CN": {
       "enabled": true,
@@ -4039,7 +4039,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '형제'"
+      "name": "'형제'"
     },
     "zh_CN": {
       "enabled": true,
@@ -4210,7 +4210,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": " '항해'"
+      "name": "'항해'"
     },
     "zh_CN": {
       "enabled": true,
@@ -4371,6 +4371,18 @@
   },
   "uniequip_002_horn": {
     "char_id": "char_4039_horn",
+    "en_US": {
+      "enabled": true,
+      "name": "Exemplars"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「模範たる人」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'모범적인 사람'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“典范之人”"
@@ -4378,6 +4390,18 @@
   },
   "uniequip_002_firwhl": {
     "char_id": "char_493_firwhl",
+    "en_US": {
+      "enabled": true,
+      "name": "'Footprints Growing'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「成長の足跡」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'성장의 발자취'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“成长的足迹”"
@@ -4385,6 +4409,18 @@
   },
   "uniequip_002_ashlok": {
     "char_id": "char_431_ashlok",
+    "en_US": {
+      "enabled": true,
+      "name": "Outdoor Essential Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "外出必需品セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "외출 필수 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "出门必备套装"
@@ -4392,6 +4428,18 @@
   },
   "uniequip_002_delphn": {
     "char_id": "char_4110_delphn",
+    "en_US": {
+      "enabled": true,
+      "name": "Gloomy Justice"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ほの暗い正義"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "암담한 정의"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "正义黯淡"
@@ -4399,6 +4447,18 @@
   },
   "uniequip_002_vrdant": {
     "char_id": "char_4107_vrdant",
+    "en_US": {
+      "enabled": true,
+      "name": "Trophies from the Jungle"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "密林での収穫"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "정글에서 온 전리품"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "密林撷萃"
@@ -4406,6 +4466,18 @@
   },
   "uniequip_003_phenxi": {
     "char_id": "char_300_phenxi",
+    "en_US": {
+      "enabled": true,
+      "name": "A Long Journey"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "長い旅路"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "기나긴 여정"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "漫长的旅途"
@@ -4413,6 +4485,18 @@
   },
   "uniequip_004_ebnhlz": {
     "char_id": "char_4046_ebnhlz",
+    "en_US": {
+      "enabled": true,
+      "name": "Lineage of Decay"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "朽ちた伝承"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "부패의 전승"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "朽坏传承"
@@ -4420,6 +4504,18 @@
   },
   "uniequip_002_mudrok": {
     "char_id": "char_311_mudrok",
+    "en_US": {
+      "enabled": true,
+      "name": "Spreading Roots of Soil and Stone"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "土石の根"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "흙과 돌의 뿌리"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "土石的根系"
@@ -4427,6 +4523,18 @@
   },
   "uniequip_002_judge": {
     "char_id": "char_4065_judge",
+    "en_US": {
+      "enabled": true,
+      "name": "The Thorny Road That Continues"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "未来へと続く茨道"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "계속되는 가시밭길"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "通往未来的荆棘之路"
@@ -4434,6 +4542,18 @@
   },
   "uniequip_002_hpsts": {
     "char_id": "char_163_hpsts",
+    "en_US": {
+      "enabled": true,
+      "name": "The Shaper"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "椎鍛者"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "더 셰이퍼"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "锻椎者"
@@ -4441,6 +4561,18 @@
   },
   "uniequip_002_lessng": {
     "char_id": "char_4011_lessng",
+    "en_US": {
+      "enabled": true,
+      "name": "Blade Seal"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "重き剣の束縛"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "봉인된 칼날"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "沉锋之束"
@@ -4448,6 +4580,18 @@
   },
   "uniequip_002_baslin": {
     "char_id": "char_4109_baslin",
+    "en_US": {
+      "enabled": true,
+      "name": "Bestowed Trinket"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "下賜されたおもちゃ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "하사받은 장난감"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "受赐玩物"
@@ -4455,6 +4599,18 @@
   },
   "uniequip_003_bpipe": {
     "char_id": "char_222_bpipe",
+    "en_US": {
+      "enabled": true,
+      "name": "Stick and Sack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「棒と袋」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'막대기와 자루'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“棍棒与口袋”"
@@ -4462,6 +4618,18 @@
   },
   "uniequip_003_nearl2": {
     "char_id": "char_1014_nearl2",
+    "en_US": {
+      "enabled": true,
+      "name": "'A Knightly House'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「騎士の一族」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'기사 가문'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“骑士家族”"
@@ -4752,6 +4920,90 @@
     "zh_CN": {
       "enabled": true,
       "name": "羽蛇的时间博物馆"
+    }
+  },
+  "uniequip_002_svrash": {
+    "char_id": "char_172_svrash",
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪境羽兽护理套组"
+    }
+  },
+  "uniequip_002_thorns": {
+    "char_id": "char_293_thorns",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“盐与沙”"
+    }
+  },
+  "uniequip_002_qiubai": {
+    "char_id": "char_4082_qiubai",
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪浸过的斗笠"
+    }
+  },
+  "uniequip_002_whitew": {
+    "char_id": "char_140_whitew",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“幼狼的牙齿”"
+    }
+  },
+  "uniequip_002_leto": {
+    "char_id": "char_194_leto",
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧衣服"
+    }
+  },
+  "uniequip_002_ayer": {
+    "char_id": "char_294_ayer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "荒野便携提神剂"
+    }
+  },
+  "uniequip_002_spikes": {
+    "char_id": "char_271_spikes",
+    "zh_CN": {
+      "enabled": true,
+      "name": "芳汀之书"
+    }
+  },
+  "uniequip_002_frostl": {
+    "char_id": "char_193_frostl",
+    "zh_CN": {
+      "enabled": true,
+      "name": "不歇律动"
+    }
+  },
+  "uniequip_002_lolxh": {
+    "char_id": "char_4067_lolxh",
+    "zh_CN": {
+      "enabled": true,
+      "name": "毛线球"
+    }
+  },
+  "uniequip_002_fang2": {
+    "char_id": "char_1036_fang2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "一往无前"
+    }
+  },
+  "uniequip_002_logos": {
+    "char_id": "char_4133_logos",
+    "zh_CN": {
+      "enabled": true,
+      "name": "来自河谷的笔盒"
+    }
+  },
+  "uniequip_002_wisdel": {
+    "char_id": "char_1035_wisdel",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“祖宗发射器”"
     }
   }
 }

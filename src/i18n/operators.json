@@ -1897,6 +1897,52 @@
     "code": "totter",
     "code_name": "Totter"
   },
+  "char_4100_caper": {
+    "en_US": {
+      "enabled": true,
+      "name": "Caper",
+      "skills": [
+        "Power Strike β",
+        "Double the Fun"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ケイパー",
+      "skills": [
+        "強撃β",
+        "ハピネス200％！"
+      ],
+      "alias": [
+        "けいぱー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "케이퍼",
+      "skills": [
+        "강타β",
+        "두 배의 즐거움"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "跃跃",
+      "skills": [
+        "强力击·β型",
+        "乐趣加倍"
+      ],
+      "alias": [
+        "yue yue",
+        "yueyue"
+      ],
+      "appellation": "Caper"
+    },
+    "code": "caper",
+    "code_name": "Caper"
+  },
   "char_198_blackd": {
     "en_US": {
       "enabled": true,
@@ -3598,6 +3644,52 @@
     },
     "code": "shaw",
     "code_name": "Shaw"
+  },
+  "char_4107_vrdant": {
+    "en_US": {
+      "enabled": true,
+      "name": "Verdant",
+      "skills": [
+        "Verdant Barrier",
+        "Double-edged Poison Ivy"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヴァーダント",
+      "skills": [
+        "蒼翠の鎧",
+        "藤の毒刃"
+      ],
+      "alias": [
+        "ゔぁーだんと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "버던트",
+      "skills": [
+        "청록의 장벽",
+        "양날의 독넝쿨"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "维荻",
+      "skills": [
+        "苍翠屏障",
+        "双刃毒藤"
+      ],
+      "alias": [
+        "wei di",
+        "weidi"
+      ],
+      "appellation": "Verdant"
+    },
+    "code": "verdant",
+    "code_name": "Verdant"
   },
   "char_128_plosis": {
     "en_US": {
@@ -6485,6 +6577,52 @@
     "code": "harmonie",
     "code_name": "Harmonie"
   },
+  "char_4110_delphn": {
+    "en_US": {
+      "enabled": true,
+      "name": "Delphine",
+      "skills": [
+        "'Concentration'",
+        "'Preemptive Strike'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "デルフィーン",
+      "skills": [
+        "「集中」",
+        "「制圧」"
+      ],
+      "alias": [
+        "でるふぃーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "델핀",
+      "skills": [
+        "'집중'",
+        "'선공'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "戴菲恩",
+      "skills": [
+        "“贯注”",
+        "“抢攻”"
+      ],
+      "alias": [
+        "dai fei en",
+        "daifeien"
+      ],
+      "appellation": "Delphine"
+    },
+    "code": "delphine",
+    "code_name": "Delphine"
+  },
   "char_1011_lava2": {
     "en_US": {
       "enabled": true,
@@ -6714,6 +6852,52 @@
     },
     "code": "minimalist",
     "code_name": "Minimalist"
+  },
+  "char_499_kaitou": {
+    "en_US": {
+      "enabled": true,
+      "name": "Diamante",
+      "skills": [
+        "Laser Cutter",
+        "Heat Treatment Discoloration"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ディアマンテ",
+      "skills": [
+        "レーザードリリング",
+        "ヒートエンハンスメント"
+      ],
+      "alias": [
+        "でぃあまんて"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "디아만테",
+      "skills": [
+        "레이저 관통",
+        "열처리 변색"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "折光",
+      "skills": [
+        "镭射穿凿",
+        "热处理变色"
+      ],
+      "alias": [
+        "zhe guang",
+        "zheguang"
+      ],
+      "appellation": "Diamante"
+    },
+    "code": "diamante",
+    "code_name": "Diamante"
   },
   "char_242_otter": {
     "en_US": {
@@ -7263,6 +7447,52 @@
     "code": "hibiscus the purifier",
     "code_name": "Hibiscus the Purifier"
   },
+  "char_494_vendla": {
+    "en_US": {
+      "enabled": true,
+      "name": "Vendela",
+      "skills": [
+        "Tactical Chant γ",
+        "Umbrage of Thorns"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヴァンデラ",
+      "skills": [
+        "戦術詠唱γ",
+        "茨の庇護"
+      ],
+      "alias": [
+        "ゔぁんでら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "벤델라",
+      "skills": [
+        "전술영창γ",
+        "가시덤불의 보우"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "刺玫",
+      "skills": [
+        "战术咏唱·γ型",
+        "荆藤庇荫"
+      ],
+      "alias": [
+        "ci mei",
+        "cimei"
+      ],
+      "appellation": "Vendela"
+    },
+    "code": "vendela",
+    "code_name": "Vendela"
+  },
   "char_4071_peper": {
     "en_US": {
       "enabled": true,
@@ -7400,6 +7630,52 @@
     },
     "code": "hung",
     "code_name": "Hung"
+  },
+  "char_4109_baslin": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bassline",
+      "skills": [
+        "First Aid",
+        "Calming Bass"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ベースライン",
+      "skills": [
+        "応急処置",
+        "低音の調べ"
+      ],
+      "alias": [
+        "べーすらいん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "베이스라인",
+      "skills": [
+        "응급처치",
+        "차분한 베이스"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "深律",
+      "skills": [
+        "急救",
+        "沉音宁神"
+      ],
+      "alias": [
+        "shen lv",
+        "shenlv"
+      ],
+      "appellation": "Bassline"
+    },
+    "code": "bassline",
+    "code_name": "Bassline"
   },
   "char_144_red": {
     "en_US": {
@@ -11651,6 +11927,56 @@
     "code": "stainless",
     "code_name": "Stainless"
   },
+  "char_245_cello": {
+    "en_US": {
+      "enabled": true,
+      "name": "Virtuosa",
+      "skills": [
+        "'Golden Ecstasy'",
+        "'Requiem Mass'",
+        "'Liberal Tango'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヴィルトゥオーサ",
+      "skills": [
+        "「黄金のエクスタシー」",
+        "「鎮魂のミサ」",
+        "「自由のタンゴ」"
+      ],
+      "alias": [
+        "ゔぃるとぅおーさ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비르투오사",
+      "skills": [
+        "'골든 엑스터시'",
+        "'레퀴엠 매스'",
+        "'리버럴 탱고'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "塑心",
+      "skills": [
+        "“黄金的狂喜”",
+        "“安魂的弥撒”",
+        "“自由的探戈”"
+      ],
+      "alias": [
+        "su xin",
+        "suxin"
+      ],
+      "appellation": "Virtuosa"
+    },
+    "code": "virtuosa",
+    "code_name": "Virtuosa"
+  },
   "char_250_phatom": {
     "en_US": {
       "enabled": true,
@@ -13201,6 +13527,56 @@
     "code": "qiubai",
     "code_name": "Qiubai"
   },
+  "char_4088_hodrer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Hoederer",
+      "skills": [
+        "Unquenchable Front",
+        "Burden of Cinder and Ash",
+        "Fog of War Upon Death's Door"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "へドリー",
+      "skills": [
+        "消えぬ炎刃",
+        "重たき余燼",
+        "死地の硝煙"
+      ],
+      "alias": [
+        "へどりー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "외드레르",
+      "skills": [
+        "꺼지지 않는 칼날의 불",
+        "잿불의 중임",
+        "죽음의 연기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "赫德雷",
+      "skills": [
+        "重锋不熄",
+        "余烬重荷",
+        "死境硝烟"
+      ],
+      "alias": [
+        "he de lei",
+        "hedelei"
+      ],
+      "appellation": "Hoederer"
+    },
+    "code": "hoederer",
+    "code_name": "Hoederer"
+  },
   "char_010_chen": {
     "en_US": {
       "enabled": true,
@@ -13451,6 +13827,56 @@
     "code": "surtr",
     "code_name": "Surtr"
   },
+  "char_4098_vvana": {
+    "en_US": {
+      "enabled": true,
+      "name": "Viviana",
+      "skills": [
+        "Blade of Fleeting Shadows",
+        "Shadowed by Candlelight",
+        "'Flicker'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ヴィヴィアナ",
+      "skills": [
+        "光影穿つ剣",
+        "影払う燭火",
+        "「明滅」"
+      ],
+      "alias": [
+        "ゔぃゔぃあな"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비비아나",
+      "skills": [
+        "찰나의 그림자 칼날",
+        "촛불의 그림자",
+        "'명멸'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "薇薇安娜",
+      "skills": [
+        "光影迅捷剑",
+        "烛燃影息",
+        "“明灭”"
+      ],
+      "alias": [
+        "wei wei an na",
+        "weiweianna"
+      ],
+      "appellation": "Viviana"
+    },
+    "code": "viviana",
+    "code_name": "Viviana"
+  },
   "char_188_helage": {
     "en_US": {
       "enabled": true,
@@ -13600,6 +14026,56 @@
     },
     "code": "nearl the radiant knight",
     "code_name": "Nearl the Radiant Knight"
+  },
+  "char_4011_lessng": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lessing",
+      "skills": [
+        "Power Strike γ",
+        "Clash of the Faithful",
+        "Oathbreaker"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レッシング",
+      "skills": [
+        "強撃γ",
+        "苦行の縛り",
+        "誓いの破棄"
+      ],
+      "alias": [
+        "れっしんぐ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레싱",
+      "skills": [
+        "강타γ",
+        "신념의 충돌",
+        "서약 파기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "止颂",
+      "skills": [
+        "强力击·γ型",
+        "虔修对决",
+        "苦修破誓"
+      ],
+      "alias": [
+        "zhi song",
+        "zhisong"
+      ],
+      "appellation": "Lessing"
+    },
+    "code": "lessing",
+    "code_name": "Lessing"
   },
   "char_1032_excu2": {
     "en_US": {
@@ -14740,7 +15216,7 @@
       "skills": [
         "",
         "",
-        "'블레이징 선'"
+        "눈 부신 태양'"
       ],
       "alias": []
     },
@@ -24060,6 +24536,258 @@
     "code": "waste heat vent",
     "code_name": "Waste Heat Spout"
   },
+  "trap_125_bonore": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bloodcalling Altar",
+      "skills": [
+        "Bloodcalling Altar"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "血の祭壇",
+      "skills": [
+        "血の祭壇"
+      ],
+      "alias": [
+        "血の祭壇"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "피의 제단",
+      "skills": [
+        "피의 제단"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "唤血祭坛",
+      "skills": [
+        "唤血祭坛"
+      ],
+      "alias": [
+        "huan xie ji tan",
+        "huanxiejitan"
+      ],
+      "appellation": "Bloodconvoker Altar"
+    },
+    "code": "bloodcalling altar",
+    "code_name": "Bloodconvoker Altar"
+  },
+  "trap_126_outset": {
+    "en_US": {
+      "enabled": true,
+      "name": "Bomb Loading Point",
+      "skills": [
+        "Bomb Loading Point"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "爆弾装填点",
+      "skills": [
+        "爆弾積込み地点"
+      ],
+      "alias": [
+        "爆弾装填点"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "폭탄 적재 지점",
+      "skills": [
+        "폭탄 적재 지점"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "炸弹载荷点",
+      "skills": [
+        "炸弹载荷点"
+      ],
+      "alias": [
+        "zha dan zai he dian",
+        "zhadanzaihedian"
+      ],
+      "appellation": "Explosives Loading Point"
+    },
+    "code": "bomb loading point",
+    "code_name": "Explosives Loading Point"
+  },
+  "trap_127_bldore": {
+    "en_US": {
+      "enabled": true,
+      "name": "Throne of Blood",
+      "skills": [
+        "Throne of Blood"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "血誓の王座",
+      "skills": [
+        "血誓の王座"
+      ],
+      "alias": [
+        "血誓の王座"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "생귀나르의 왕좌",
+      "skills": [
+        "생귀나르의 왕좌"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沥血王座",
+      "skills": [
+        "沥血王座"
+      ],
+      "alias": [
+        "li xie wang zuo",
+        "lixiewangzuo"
+      ],
+      "appellation": "Sanguine Throne"
+    },
+    "code": "throne of blood",
+    "code_name": "Sanguine Throne"
+  },
+  "trap_134_condtr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tuning Node",
+      "skills": [
+        "Area Tuning"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "調律器",
+      "skills": [
+        "﻿広域調律"
+      ],
+      "alias": [
+        "調律器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "조화 장치",
+      "skills": [
+        "광역 조화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "调谐节点",
+      "skills": [
+        "广域调谐"
+      ],
+      "alias": [
+        "tiao xie jie dian",
+        "tiaoxiejiedian"
+      ],
+      "appellation": "Sigil of Concord"
+    },
+    "code": "tuning node",
+    "code_name": "Sigil of Concord"
+  },
+  "trap_135_portlent": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aspect of Annihilation",
+      "skills": [
+        "Annihilation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "湮滅の相",
+      "skills": [
+        "湮滅"
+      ],
+      "alias": [
+        "湮滅の相"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파멸의 상",
+      "skills": [
+        "파멸"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "湮灭之相",
+      "skills": [
+        "湮灭"
+      ],
+      "alias": [
+        "yan mie zhi xiang",
+        "yanmiezhixiang"
+      ],
+      "appellation": "Locus of Annihilation"
+    },
+    "code": "aspect of annihilation",
+    "code_name": "Locus of Annihilation"
+  },
+  "trap_136_portlexi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aspect of Creation",
+      "skills": [
+        "Creation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "創生の相",
+      "skills": [
+        "創生"
+      ],
+      "alias": [
+        "創生の相"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "창조의 상",
+      "skills": [
+        "창조"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "创生之相",
+      "skills": [
+        "创生"
+      ],
+      "alias": [
+        "chuang sheng zhi xiang",
+        "chuangshengzhixiang"
+      ],
+      "appellation": "Locus of Genesis"
+    },
+    "code": "aspect of creation",
+    "code_name": "Locus of Genesis"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -24106,22 +24834,19 @@
     "code": "promoted amiya",
     "code_name": "Amiya"
   },
-  "char_4100_caper": {
+  "char_4136_phonor": {
     "zh_CN": {
       "enabled": true,
-      "name": "跃跃",
-      "skills": [
-        "强力击·β型",
-        "乐趣加倍"
-      ],
+      "name": "PhonoR-0",
+      "skills": [],
       "alias": [
-        "yue yue",
-        "yueyue"
+        "PhonoR-0",
+        "PhonoR-0"
       ],
-      "appellation": "Caper"
+      "appellation": "PhonoR-0"
     },
     "code": null,
-    "code_name": "Caper"
+    "code_name": "PhonoR-0"
   },
   "char_4130_luton": {
     "zh_CN": {
@@ -24140,23 +24865,6 @@
     "code": null,
     "code_name": "Lutonada"
   },
-  "char_4107_vrdant": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "维荻",
-      "skills": [
-        "苍翠屏障",
-        "双刃毒藤"
-      ],
-      "alias": [
-        "wei di",
-        "weidi"
-      ],
-      "appellation": "Verdant"
-    },
-    "code": null,
-    "code_name": "Verdant"
-  },
   "char_4023_rfalcn": {
     "zh_CN": {
       "enabled": true,
@@ -24173,6 +24881,23 @@
     },
     "code": null,
     "code_name": "Kestrel"
+  },
+  "char_1036_fang2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "历阵锐枪芬",
+      "skills": [
+        "贯敌刺枪",
+        "执守阵线"
+      ],
+      "alias": [
+        "li zhen rui qiang fen",
+        "lizhenruiqiangfen"
+      ],
+      "appellation": "Fang the Fire-sharpened"
+    },
+    "code": null,
+    "code_name": "Fang the Fire-sharpened"
   },
   "char_4119_wanqin": {
     "zh_CN": {
@@ -24259,23 +24984,6 @@
     "code": null,
     "code_name": "Odda"
   },
-  "char_4110_delphn": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "戴菲恩",
-      "skills": [
-        "“贯注”",
-        "“抢攻”"
-      ],
-      "alias": [
-        "dai fei en",
-        "daifeien"
-      ],
-      "appellation": "Delphine"
-    },
-    "code": null,
-    "code_name": "Delphine"
-  },
   "char_446_aroma": {
     "zh_CN": {
       "enabled": true,
@@ -24292,23 +25000,6 @@
     },
     "code": null,
     "code_name": "Aroma"
-  },
-  "char_499_kaitou": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "折光",
-      "skills": [
-        "镭射穿凿",
-        "热处理变色"
-      ],
-      "alias": [
-        "zhe guang",
-        "zheguang"
-      ],
-      "appellation": "Diamante"
-    },
-    "code": null,
-    "code_name": "Diamante"
   },
   "char_4081_warmy": {
     "zh_CN": {
@@ -24344,40 +25035,6 @@
     "code": null,
     "code_name": "Harold"
   },
-  "char_494_vendla": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "刺玫",
-      "skills": [
-        "战术咏唱·γ型",
-        "荆藤庇荫"
-      ],
-      "alias": [
-        "ci mei",
-        "cimei"
-      ],
-      "appellation": "Vendela"
-    },
-    "code": null,
-    "code_name": "Vendela"
-  },
-  "char_4109_baslin": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "深律",
-      "skills": [
-        "急救",
-        "沉音宁神"
-      ],
-      "alias": [
-        "shen lv",
-        "shenlv"
-      ],
-      "appellation": "Bassline"
-    },
-    "code": null,
-    "code_name": "Bassline"
-  },
   "char_4122_grabds": {
     "zh_CN": {
       "enabled": true,
@@ -24412,6 +25069,24 @@
     "code": null,
     "code_name": "Iana"
   },
+  "char_1035_wisdel": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "维什戴尔",
+      "skills": [
+        "定点清算",
+        "饱和复仇",
+        "爆裂黎明"
+      ],
+      "alias": [
+        "wei shi dai er",
+        "weishidaier"
+      ],
+      "appellation": "Wiš'adel"
+    },
+    "code": null,
+    "code_name": "Wiš'adel"
+  },
   "char_4117_ray": {
     "zh_CN": {
       "enabled": true,
@@ -24430,23 +25105,41 @@
     "code": null,
     "code_name": "Ray"
   },
-  "char_245_cello": {
+  "char_4133_logos": {
     "zh_CN": {
       "enabled": true,
-      "name": "塑心",
+      "name": "逻各斯",
       "skills": [
-        "“黄金的狂喜”",
-        "“安魂的弥撒”",
-        "“自由的探戈”"
+        "殁亡",
+        "提喻",
+        "延异视阈"
       ],
       "alias": [
-        "su xin",
-        "suxin"
+        "luo ge si",
+        "luogesi"
       ],
-      "appellation": "Virtuosa"
+      "appellation": "Logos"
     },
     "code": null,
-    "code_name": "Virtuosa"
+    "code_name": "Logos"
+  },
+  "char_4134_cetsyr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "魔王",
+      "skills": [
+        "往昔萦绕身旁",
+        "明日渺远不及",
+        "编织重构现世"
+      ],
+      "alias": [
+        "mo wang",
+        "mowang"
+      ],
+      "appellation": "Civilight Eterna"
+    },
+    "code": null,
+    "code_name": "Civilight Eterna"
   },
   "char_4132_ascln": {
     "zh_CN": {
@@ -24502,24 +25195,6 @@
     "code": null,
     "code_name": "Shu"
   },
-  "char_4088_hodrer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "赫德雷",
-      "skills": [
-        "重锋不熄",
-        "余烬重荷",
-        "死境硝烟"
-      ],
-      "alias": [
-        "he de lei",
-        "hedelei"
-      ],
-      "appellation": "Hoederer"
-    },
-    "code": null,
-    "code_name": "Hoederer"
-  },
   "char_4116_blkkgt": {
     "zh_CN": {
       "enabled": true,
@@ -24538,24 +25213,6 @@
     "code": null,
     "code_name": "Degenbrecher"
   },
-  "char_4098_vvana": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "薇薇安娜",
-      "skills": [
-        "光影迅捷剑",
-        "烛燃影息",
-        "“明灭”"
-      ],
-      "alias": [
-        "wei wei an na",
-        "weiweianna"
-      ],
-      "appellation": "Viviana"
-    },
-    "code": null,
-    "code_name": "Viviana"
-  },
   "char_4121_zuole": {
     "zh_CN": {
       "enabled": true,
@@ -24573,24 +25230,6 @@
     },
     "code": null,
     "code_name": "Zuo Le"
-  },
-  "char_4011_lessng": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "止颂",
-      "skills": [
-        "强力击·γ型",
-        "虔修对决",
-        "苦修破誓"
-      ],
-      "alias": [
-        "zhi song",
-        "zhisong"
-      ],
-      "appellation": "Lessing"
-    },
-    "code": null,
-    "code_name": "Lessing"
   },
   "token_10034_ray_sndbst": {
     "zh_CN": {
@@ -24628,53 +25267,23 @@
     "code": null,
     "code_name": "GRZMOT Mine"
   },
-  "trap_125_bonore": {
+  "token_10035_wisdel_wward": {
     "zh_CN": {
       "enabled": true,
-      "name": "唤血祭坛",
+      "name": "魂灵之影",
       "skills": [
-        "唤血祭坛"
+        "魂灵之影",
+        "魂灵之影",
+        "魂灵之影"
       ],
       "alias": [
-        "huan xie ji tan",
-        "huanxiejitan"
+        "hun ling zhi ying",
+        "hunlingzhiying"
       ],
-      "appellation": "Bloodconvoker Altar"
+      "appellation": "Shadow of Revenant"
     },
     "code": null,
-    "code_name": "Bloodconvoker Altar"
-  },
-  "trap_126_outset": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "炸弹载荷点",
-      "skills": [
-        "炸弹载荷点"
-      ],
-      "alias": [
-        "zha dan zai he dian",
-        "zhadanzaihedian"
-      ],
-      "appellation": "Explosives Loading Point"
-    },
-    "code": null,
-    "code_name": "Explosives Loading Point"
-  },
-  "trap_127_bldore": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "沥血王座",
-      "skills": [
-        "沥血王座"
-      ],
-      "alias": [
-        "li xie wang zuo",
-        "lixiewangzuo"
-      ],
-      "appellation": "Sanguine Throne"
-    },
-    "code": null,
-    "code_name": "Sanguine Throne"
+    "code_name": "Shadow of Revenant"
   },
   "trap_128_toolore": {
     "zh_CN": {
@@ -24771,54 +25380,6 @@
     },
     "code": null,
     "code_name": "Recon Self-Driving Cart"
-  },
-  "trap_134_condtr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "调谐节点",
-      "skills": [
-        "广域调谐"
-      ],
-      "alias": [
-        "tiao xie jie dian",
-        "tiaoxiejiedian"
-      ],
-      "appellation": "Sigil of Concord"
-    },
-    "code": null,
-    "code_name": "Sigil of Concord"
-  },
-  "trap_135_portlent": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "湮灭之相",
-      "skills": [
-        "湮灭"
-      ],
-      "alias": [
-        "yan mie zhi xiang",
-        "yanmiezhixiang"
-      ],
-      "appellation": "Locus of Annihilation"
-    },
-    "code": null,
-    "code_name": "Locus of Annihilation"
-  },
-  "trap_136_portlexi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "创生之相",
-      "skills": [
-        "创生"
-      ],
-      "alias": [
-        "chuang sheng zhi xiang",
-        "chuangshengzhixiang"
-      ],
-      "appellation": "Locus of Genesis"
-    },
-    "code": null,
-    "code_name": "Locus of Genesis"
   },
   "trap_137_winfire": {
     "zh_CN": {
@@ -25910,6 +26471,87 @@
     "code": null,
     "code_name": "Buried Metal Chest"
   },
+  "trap_482_xbblure": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "源石虫引诱器",
+      "skills": [
+        "引诱",
+        "引诱",
+        "引诱"
+      ],
+      "alias": [
+        "yuan shi chong yin you qi",
+        "yuanshichongyinyouqi"
+      ],
+      "appellation": "Originium Slug Trap"
+    },
+    "code": null,
+    "code_name": "Originium Slug Trap"
+  },
+  "trap_483_xbtrophy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "“源石虫之心”",
+      "skills": [
+        "“跳动”"
+      ],
+      "alias": [
+        "“ yuan shi chong zhi xin ”",
+        "“yuanshichongzhixin”"
+      ],
+      "appellation": "\"Heart of Originium Slug\""
+    },
+    "code": null,
+    "code_name": "\"Heart of Originium Slug\""
+  },
+  "trap_484_xbcp": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "检查点",
+      "skills": [
+        "检查点"
+      ],
+      "alias": [
+        "jian cha dian",
+        "jianchadian"
+      ],
+      "appellation": "Check Point"
+    },
+    "code": null,
+    "code_name": "Check Point"
+  },
+  "trap_485_xbrandprop": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "随机道具盒",
+      "skills": [
+        "发道具",
+        "发道具"
+      ],
+      "alias": [
+        "sui ji dao ju he",
+        "suijidaojuhe"
+      ],
+      "appellation": "Random Item Box"
+    },
+    "code": null,
+    "code_name": "Random Item Box"
+  },
+  "trap_486_xbspd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "加速块",
+      "skills": [],
+      "alias": [
+        "jia su kuai",
+        "jiasukuai"
+      ],
+      "appellation": "Speed Up Tile"
+    },
+    "code": null,
+    "code_name": "Speed Up Tile"
+  },
   "trap_141_sheltr": {
     "zh_CN": {
       "enabled": true,
@@ -26033,5 +26675,118 @@
     },
     "code": null,
     "code_name": null
+  },
+  "trap_158_lrsteam": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "查尔斯·林奇",
+      "skills": [
+        "誓死"
+      ],
+      "alias": [
+        "cha er si · lin qi",
+        "chaersi·linqi"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_159_lrcore": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "核心增幅器",
+      "skills": [
+        "灵魂激荡"
+      ],
+      "alias": [
+        "he xin zeng fu qi",
+        "hexinzengfuqi"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_160_lrlgun": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "洪流束激发器",
+      "skills": [
+        "灵魂激荡"
+      ],
+      "alias": [
+        "hong liu shu ji fa qi",
+        "hongliushujifaqi"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_161_lrcage": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "枯朽祭坛",
+      "skills": [
+        "召唤信标"
+      ],
+      "alias": [
+        "ku xiu ji tan",
+        "kuxiujitan"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_162_lrctrl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "十四章机制控制器",
+      "skills": [
+        "源石污染区"
+      ],
+      "alias": [
+        "shi si zhang ji zhi kong zhi qi",
+        "shisizhangjizhikongzhiqi"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_164_lrsiege": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "振奋荣光",
+      "skills": [
+        "振奋荣光"
+      ],
+      "alias": [
+        "zhen fen rong guang",
+        "zhenfenrongguang"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "char_1037_amiya3": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "升变阿米娅",
+      "skills": [
+        "哀恸共情",
+        "慈悲愿景"
+      ],
+      "alias": [
+        "sheng bian a mi ya",
+        "shengbianamiya"
+      ],
+      "appellation": "Amiya"
+    },
+    "code": null,
+    "code_name": "Amiya"
   }
 }

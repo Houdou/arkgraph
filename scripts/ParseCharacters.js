@@ -30,7 +30,13 @@ const all_characters = [
 				case 'char_1001_amiya2': {
 					return [unique_id, {
 						...char,
-						name: `升变${char.name}`,
+						name: `升变${char.name}近卫`,
+					}];
+				}
+				case 'char_1037_amiya3': {
+					return [unique_id, {
+						...char,
+						name: `升变${char.name}医疗`,
 					}];
 				}
 			}

@@ -2543,19 +2543,24 @@
   },
   "M-3-17": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Fuscous Fiber",
+      "alias": [],
+      "sortId": 100009
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "褐素繊維",
+      "alias": [
+        "褐素繊維"
+      ],
+      "sortId": 100009
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "퓨신 섬유",
+      "alias": [],
+      "sortId": 100009
     },
     "zh_CN": {
       "enabled": true,
@@ -2569,19 +2574,24 @@
   },
   "M-4-17": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Solidified Fiber Board",
+      "alias": [],
+      "sortId": 100008
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "硬化ファイバー基板",
+      "alias": [
+        "硬化ふぁいばー基板"
+      ],
+      "sortId": 100008
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "경화 섬유판",
+      "alias": [],
+      "sortId": 100008
     },
     "zh_CN": {
       "enabled": true,
@@ -2595,19 +2605,24 @@
   },
   "M-3-18": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Aggregate Cyclicene",
+      "alias": [],
+      "sortId": 100007
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "炭化水素ポリマー",
+      "alias": [
+        "炭化水素ぽりまー"
+      ],
+      "sortId": 100007
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "고리탄화수소 응집질",
+      "alias": [],
+      "sortId": 100007
     },
     "zh_CN": {
       "enabled": true,
@@ -2621,19 +2636,24 @@
   },
   "M-4-18": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Cyclicene Prefab",
+      "alias": [],
+      "sortId": 100006
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "プレハブ式炭化水素",
+      "alias": [
+        "ぷれはぶ式炭化水素"
+      ],
+      "sortId": 100006
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "고리탄화수소 프리폼",
+      "alias": [],
+      "sortId": 100006
     },
     "zh_CN": {
       "enabled": true,
