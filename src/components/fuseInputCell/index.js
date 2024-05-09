@@ -119,6 +119,11 @@ export const search = (query, lang) => {
 	return null;
 };
 
+export const searchAll = (query, lang) => {
+	const results = (fuse_i18n[lang] || fuse_i18n.zh_CN).search(query);
+	return results;
+};
+
 const ArkFuseInputCell = (props) => (
 	<div
 		class={
@@ -145,6 +150,7 @@ const ArkFuseInputCell = (props) => (
 				if (match) {
 					props.onChange && props.onChange(match);
 				}
+				props.onChangeRaw && props.onChangeRaw(query);
 			}}
 			onClick={e => {
 				props.onClick && props.onClick(e);

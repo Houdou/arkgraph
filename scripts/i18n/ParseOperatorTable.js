@@ -10,6 +10,49 @@ const LANG = [
 	// 'zh_TW',
 ];
 
+const profession_map = {
+	"zh_CN": {
+		"PIONEER": "先锋",
+		"WARRIOR": "近卫",
+		"TANK": "重装",
+		"SNIPER": "狙击",
+		"CASTER": "术师",
+		"MEDIC": "医疗",
+		"SUPPORT": "辅助",
+		"SPECIAL": "特种",
+	},
+	"en_US": {
+		"PIONEER": "Pioneer",
+		"WARRIOR": "Warrior",
+		"TANK": "Tank",
+		"SNIPER": "Sniper",
+		"CASTER": "Caster",
+		"MEDIC": "Medic",
+		"SUPPORT": "Support",
+		"SPECIAL": "Special",
+	},
+	"ja_JP": {
+		"PIONEER": "先鋒",
+		"WARRIOR": "前衛",
+		"TANK": "重装",
+		"SNIPER": "狙撃",
+		"CASTER": "術師",
+		"MEDIC": "医療",
+		"SUPPORT": "補助",
+		"SPECIAL": "特殊",
+	},
+	"ko_KR": {
+		"PIONEER": "뱅가드",
+		"WARRIOR": "가드",
+		"TANK": "디펜더",
+		"SNIPER": "스나이퍼",
+		"CASTER": "캐스터",
+		"MEDIC": "메딕",
+		"SUPPORT": "서포터",
+		"SPECIAL": "스페셜리스트",
+	},
+}
+
 const operator_data = {};
 
 const readTable = (lang) => {
@@ -26,12 +69,12 @@ const readTable = (lang) => {
 			name: (() => {
 				switch (lang) {
 					case 'zh_CN':
-						return `升变${value.name}`;
+						return `升变${value.name}${profession_map[lang][value.profession]}`;
 					case 'ja_JP':
-						return `昇格${value.name}`;
+						return `昇格${value.name}${profession_map[lang][value.profession]}`;
 					case 'en_US':
 					case 'ko_KR':
-						return `Promoted ${value.name}`;
+						return `Promoted ${value.name} ${profession_map['en_US'][value.profession]}`;
 				}
 			})(),
 		};

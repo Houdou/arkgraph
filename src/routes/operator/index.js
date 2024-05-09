@@ -1,4 +1,4 @@
-import React from 'preact';
+import React, { Fragment } from 'preact';
 import { useState, useEffect } from 'preact/hooks';
 import style from './style';
 import cn from 'classnames';
@@ -32,6 +32,12 @@ const MapCode = (code) => {
 		default: return code;
 	}
 }
+
+const AmiyaPromoList = [
+	"char_002_amiya",
+	"char_1001_amiya2",
+	"char_1037_amiya3"
+]
 
 const ArkOperatorTable = ({
 	ir,
@@ -116,6 +122,7 @@ const ArkOperatorTable = ({
 			setAddAllText_raw(init_add_all_text);
 		}, 1500);
 	};
+	const [result_list, setResultList] = useState([]);
 
 	useEffect(() => {
 		load();
@@ -278,7 +285,41 @@ const ArkOperatorTable = ({
 							})
 						}
 						setOperatorId={setOperatorId}
+						setQueryList={setResultList}
 					/>
+					<Fragment>
+						{
+							operator && AmiyaPromoList.includes(operator_id) && (
+								AmiyaPromoList.filter(id => id !== operator_id).map(id => {
+									const name = getOperatorName({
+										id,
+										locale: config.locale,
+										showExtendedData: config.showExtendedData,
+									});
+									return (
+										<Link
+											class={cn(
+												style.search_alternative,
+												{
+													[style.promoted_amiya]: id !== 'char_002_amiya'
+												},
+											)}
+											onClick={() => setOperatorId(id)}
+										>
+											{name}
+										</Link>
+									)
+								})
+							)
+						}
+						{
+							result_list && result_list.filter((_, i) => i < 5).map(({ unique_id, name }) => {
+								return (
+									<Link class={style.search_alternative} onClick={() => setOperatorId(unique_id)}>{name} </Link>
+								)
+							})
+						}
+					</Fragment>
 				</div>
 				<div class={style.section}>
 					<div class={style.section_header}>

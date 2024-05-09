@@ -24791,7 +24791,7 @@
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
-      "name": "Promoted Amiya",
+      "name": "Promoted Amiya Warrior",
       "skills": [
         "Ying Xiao - Fleeting Night",
         "Ying Xiao - Shadowless"
@@ -24800,18 +24800,18 @@
     },
     "ja_JP": {
       "enabled": true,
-      "name": "昇格アーミヤ",
+      "name": "昇格アーミヤ前衛",
       "skills": [
         "影霄・奔夜",
         "影霄・絶影"
       ],
       "alias": [
-        "昇格あーみや"
+        "昇格あーみや前衛"
       ]
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Promoted 아미야",
+      "name": "Promoted 아미야 Warrior",
       "skills": [
         "영소·분야",
         "영소·절영"
@@ -24820,18 +24820,18 @@
     },
     "zh_CN": {
       "enabled": true,
-      "name": "升变阿米娅",
+      "name": "升变阿米娅近卫",
       "skills": [
         "影霄·奔夜",
         "影霄·绝影"
       ],
       "alias": [
-        "sheng bian a mi ya",
-        "shengbianamiya"
+        "sheng bian a mi ya jin wei",
+        "shengbianamiyajinwei"
       ],
       "appellation": "Amiya"
     },
-    "code": "promoted amiya",
+    "code": "promoted amiya warrior",
     "code_name": "Amiya"
   },
   "char_4136_phonor": {
@@ -26775,14 +26775,14 @@
   "char_1037_amiya3": {
     "zh_CN": {
       "enabled": true,
-      "name": "升变阿米娅",
+      "name": "升变阿米娅医疗",
       "skills": [
         "哀恸共情",
         "慈悲愿景"
       ],
       "alias": [
-        "sheng bian a mi ya",
-        "shengbianamiya"
+        "sheng bian a mi ya yi liao",
+        "shengbianamiyayiliao"
       ],
       "appellation": "Amiya"
     },
