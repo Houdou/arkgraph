@@ -5005,5 +5005,61 @@
       "enabled": true,
       "name": "“祖宗发射器”"
     }
+  },
+  "uniequip_002_amiya3": {
+    "char_id": "char_002_amiya",
+    "zh_CN": {
+      "enabled": true,
+      "name": "带有灼痕的裙子"
+    }
+  },
+  "uniequip_002_coldst": {
+    "char_id": "char_4104_coldst",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“桀骜”"
+    }
+  },
+  "uniequip_003_judge": {
+    "char_id": "char_4065_judge",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“无罪”"
+    }
+  },
+  "uniequip_003_glady": {
+    "char_id": "char_474_glady",
+    "zh_CN": {
+      "enabled": true,
+      "name": "淡金坠饰"
+    }
+  },
+  "uniequip_002_haini": {
+    "char_id": "char_4079_haini",
+    "zh_CN": {
+      "enabled": true,
+      "name": "多功能测绘仪-改良版"
+    }
+  },
+  "uniequip_002_ray": {
+    "char_id": "char_4117_ray",
+    "zh_CN": {
+      "enabled": true,
+      "name": "《跳舞的月光》"
+    }
+  },
+  "uniequip_002_udflow": {
+    "char_id": "char_4137_udflow",
+    "zh_CN": {
+      "enabled": true,
+      "name": "基于咖啡的神经活性剂"
+    }
+  },
+  "uniequip_003_ifrit": {
+    "char_id": "char_134_ifrit",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“热成形记忆”"
+    }
   }
 }

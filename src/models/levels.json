@@ -1,5 +1,63 @@
 [
   {
+    "level": "BP-1",
+    "energy": 9,
+    "unique_id": "act34side_01",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-1-3"
+      },
+      {
+        "resource": "M-1-2"
+      },
+      {
+        "resource": "M-1-5"
+      },
+      {
+        "resource": "M-1-6"
+      },
+      {
+        "resource": "M-1-4"
+      },
+      {
+        "resource": "M-1-1"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "BP-2",
+    "energy": 9,
+    "unique_id": "act34side_02",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-1-3"
+      },
+      {
+        "resource": "M-1-2"
+      },
+      {
+        "resource": "M-1-5"
+      },
+      {
+        "resource": "M-1-6"
+      },
+      {
+        "resource": "M-1-4"
+      },
+      {
+        "resource": "M-1-1"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "CR-1",
     "energy": 9,
     "unique_id": "act32side_01",
@@ -700,93 +758,6 @@
     "energy": 12,
     "unique_id": "act15mini_04",
     "zone_id": "act15mini_zone1",
-    "is_perm": false,
-    "normal_drop": [
-      {
-        "resource": "M-1-3"
-      },
-      {
-        "resource": "M-1-2"
-      },
-      {
-        "resource": "M-1-5"
-      },
-      {
-        "resource": "M-1-6"
-      },
-      {
-        "resource": "M-1-4"
-      },
-      {
-        "resource": "M-1-1"
-      }
-    ],
-    "special_drop": [],
-    "extra_drop": []
-  },
-  {
-    "level": "HE-1",
-    "energy": 9,
-    "unique_id": "act26side_01",
-    "zone_id": "act26side_zone1",
-    "is_perm": false,
-    "normal_drop": [
-      {
-        "resource": "M-1-3"
-      },
-      {
-        "resource": "M-1-2"
-      },
-      {
-        "resource": "M-1-5"
-      },
-      {
-        "resource": "M-1-6"
-      },
-      {
-        "resource": "M-1-4"
-      },
-      {
-        "resource": "M-1-1"
-      }
-    ],
-    "special_drop": [],
-    "extra_drop": []
-  },
-  {
-    "level": "HE-2",
-    "energy": 9,
-    "unique_id": "act26side_02",
-    "zone_id": "act26side_zone1",
-    "is_perm": false,
-    "normal_drop": [
-      {
-        "resource": "M-1-3"
-      },
-      {
-        "resource": "M-1-2"
-      },
-      {
-        "resource": "M-1-5"
-      },
-      {
-        "resource": "M-1-6"
-      },
-      {
-        "resource": "M-1-4"
-      },
-      {
-        "resource": "M-1-1"
-      }
-    ],
-    "special_drop": [],
-    "extra_drop": []
-  },
-  {
-    "level": "HE-3",
-    "energy": 9,
-    "unique_id": "act26side_03",
-    "zone_id": "act26side_zone1",
     "is_perm": false,
     "normal_drop": [
       {
@@ -2276,6 +2247,40 @@
     "extra_drop": []
   },
   {
+    "level": "BP-3",
+    "energy": 12,
+    "unique_id": "act34side_03",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-2-5"
+      },
+      {
+        "resource": "M-2-6"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "BP-4",
+    "energy": 12,
+    "unique_id": "act34side_04",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-2-1"
+      },
+      {
+        "resource": "M-2-3"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "CR-3",
     "energy": 12,
     "unique_id": "act32side_03",
@@ -2525,40 +2530,6 @@
       },
       {
         "resource": "M-2-5"
-      }
-    ],
-    "special_drop": [],
-    "extra_drop": []
-  },
-  {
-    "level": "HE-4",
-    "energy": 12,
-    "unique_id": "act26side_04",
-    "zone_id": "act26side_zone1",
-    "is_perm": false,
-    "normal_drop": [
-      {
-        "resource": "M-2-3"
-      },
-      {
-        "resource": "M-2-6"
-      }
-    ],
-    "special_drop": [],
-    "extra_drop": []
-  },
-  {
-    "level": "HE-5",
-    "energy": 12,
-    "unique_id": "act26side_05",
-    "zone_id": "act26side_zone1",
-    "is_perm": false,
-    "normal_drop": [
-      {
-        "resource": "M-2-4"
-      },
-      {
-        "resource": "M-2-2"
       }
     ],
     "special_drop": [],
@@ -18600,6 +18571,48 @@
     "extra_drop": []
   },
   {
+    "level": "BP-5",
+    "energy": 21,
+    "unique_id": "act34side_05",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-3-13"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "BP-6",
+    "energy": 21,
+    "unique_id": "act34side_06",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-3-4"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "BP-7",
+    "energy": 21,
+    "unique_id": "act34side_07",
+    "zone_id": "act34side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-3-7"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "BB-1",
     "energy": 9,
     "unique_id": "act33side_01",
@@ -19581,52 +19594,343 @@
     ]
   },
   {
+    "level": "HE-1",
+    "energy": 9,
+    "unique_id": "act26side_01",
+    "zone_id": "act26side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-2-4"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "HE-2",
+    "energy": 9,
+    "unique_id": "act26side_02",
+    "zone_id": "act26side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-2-5"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "HE-3",
+    "energy": 9,
+    "unique_id": "act26side_03",
+    "zone_id": "act26side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-2-2"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
+    "level": "HE-5",
+    "energy": 12,
+    "unique_id": "act26side_05",
+    "zone_id": "act26side_zone1",
+    "is_perm": true,
+    "normal_drop": [
+      {
+        "resource": "M-1-3"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
     "level": "HE-6",
     "energy": 21,
     "unique_id": "act26side_06",
     "zone_id": "act26side_zone1",
-    "is_perm": false,
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-1"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-1"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-7",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-11",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "HE-7",
     "energy": 21,
     "unique_id": "act26side_07",
     "zone_id": "act26side_zone1",
-    "is_perm": false,
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-11"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-11"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-3-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-4",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-5",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-8",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-12",
+        "probability": "小概率"
+      },
+      {
+        "resource": "E-4-1",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "HE-8",
     "energy": 21,
     "unique_id": "act26side_08",
     "zone_id": "act26side_zone1",
-    "is_perm": false,
+    "is_perm": true,
     "normal_drop": [
       {
         "resource": "M-3-10"
       }
     ],
-    "special_drop": [],
-    "extra_drop": []
+    "special_drop": [
+      {
+        "resource": "M-4-10"
+      }
+    ],
+    "extra_drop": [
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-6",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-9",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-13",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-3-10",
+        "probability": "小概率"
+      }
+    ]
   },
   {
     "level": "CW-1",
     "energy": 9,
     "unique_id": "act25side_01",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19665,7 +19969,7 @@
     "level": "CW-2",
     "energy": 9,
     "unique_id": "act25side_02",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19704,7 +20008,7 @@
     "level": "CW-3",
     "energy": 9,
     "unique_id": "act25side_03",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19743,7 +20047,7 @@
     "level": "CW-5",
     "energy": 12,
     "unique_id": "act25side_05",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19790,7 +20094,7 @@
     "level": "CW-6",
     "energy": 12,
     "unique_id": "act25side_06",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19829,7 +20133,7 @@
     "level": "CW-7",
     "energy": 21,
     "unique_id": "act25side_07",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19876,7 +20180,7 @@
     "level": "CW-8",
     "energy": 21,
     "unique_id": "act25side_08",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19927,7 +20231,7 @@
     "level": "CW-9",
     "energy": 21,
     "unique_id": "act25side_09",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -19990,7 +20294,7 @@
     "level": "CW-10",
     "energy": 21,
     "unique_id": "act25side_10",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -33435,10 +33739,45 @@
     ]
   },
   {
+    "level": "HE-4",
+    "energy": 12,
+    "unique_id": "act26side_04",
+    "zone_id": "act26side_zone1",
+    "is_perm": true,
+    "normal_drop": [],
+    "special_drop": [],
+    "extra_drop": [
+      {
+        "resource": "M-1-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-1-2",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-1",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-3",
+        "probability": "小概率"
+      },
+      {
+        "resource": "M-2-2",
+        "probability": "小概率"
+      }
+    ]
+  },
+  {
     "level": "CW-4",
     "energy": 12,
     "unique_id": "act25side_04",
-    "zone_id": "act25side_zone1",
+    "zone_id": "act25sre_zone1",
     "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
