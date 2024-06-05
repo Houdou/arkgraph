@@ -25035,6 +25035,40 @@
     "code": null,
     "code_name": "Harold"
   },
+  "char_4137_udflow": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "深巡",
+      "skills": [
+        "侵袭破坏应对",
+        "行动能力剥夺"
+      ],
+      "alias": [
+        "shen xun",
+        "shenxun"
+      ],
+      "appellation": "Underflow"
+    },
+    "code": null,
+    "code_name": "Underflow"
+  },
+  "char_4079_haini": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "海霓",
+      "skills": [
+        "迷惑性洋流图",
+        "阻滞性显色剂"
+      ],
+      "alias": [
+        "hai ni",
+        "haini"
+      ],
+      "appellation": "Lucilla"
+    },
+    "code": null,
+    "code_name": "Lucilla"
+  },
   "char_4122_grabds": {
     "zh_CN": {
       "enabled": true,
@@ -25195,6 +25229,24 @@
     "code": null,
     "code_name": "Shu"
   },
+  "char_4145_ulpia": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "乌尔比安",
+      "skills": [
+        "必须促成的接触",
+        "必须维系的界限",
+        "必须开辟的通路"
+      ],
+      "alias": [
+        "wu er bi an",
+        "wuerbian"
+      ],
+      "appellation": "Ulpianus"
+    },
+    "code": null,
+    "code_name": "Ulpianus"
+  },
   "char_4116_blkkgt": {
     "zh_CN": {
       "enabled": true,
@@ -25284,6 +25336,24 @@
     },
     "code": null,
     "code_name": "Shadow of Revenant"
+  },
+  "token_10039_ulpia_block": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "从不混淆的方向",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "cong bu hun xiao de fang xiang",
+        "congbuhunxiaodefangxiang"
+      ],
+      "appellation": "Undeviating Course"
+    },
+    "code": null,
+    "code_name": "Undeviating Course"
   },
   "trap_128_toolore": {
     "zh_CN": {
@@ -26676,6 +26746,130 @@
     "code": null,
     "code_name": null
   },
+  "trap_151_muruinw": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "折叠式堡垒模块",
+      "skills": [
+        "模块维护"
+      ],
+      "alias": [
+        "zhe die shi bao lei mo kuai",
+        "zhedieshibaoleimokuai"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_152_muruino": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "折叠式辅助器械",
+      "skills": [
+        "器械维护"
+      ],
+      "alias": [
+        "zhe die shi fu zhu qi xie",
+        "zhedieshifuzhuqixie"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_154_mugtps": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "阵地屏障",
+      "skills": [],
+      "alias": [
+        "zhen di ping zhang",
+        "zhendipingzhang"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_165_muftbl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "足球",
+      "skills": [
+        "重新发球！"
+      ],
+      "alias": [
+        "zu qiu",
+        "zuqiu"
+      ],
+      "appellation": "football"
+    },
+    "code": null,
+    "code_name": "football"
+  },
+  "trap_166_muwork": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "折叠设施维护员",
+      "skills": [],
+      "alias": [
+        "zhe die she shi wei hu yuan",
+        "zhediesheshiweihuyuan"
+      ],
+      "appellation": "foldable facility maintainer"
+    },
+    "code": null,
+    "code_name": "foldable facility maintainer"
+  },
+  "trap_167_muruinf": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "折叠式维护车",
+      "skills": [
+        "维护员"
+      ],
+      "alias": [
+        "zhe die shi wei hu che",
+        "zhedieshiweihuche"
+      ],
+      "appellation": "infield groomer"
+    },
+    "code": null,
+    "code_name": "infield groomer"
+  },
+  "trap_169_muruinb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "折叠式后勤站",
+      "skills": [
+        "后勤维护"
+      ],
+      "alias": [
+        "zhe die shi hou qin zhan",
+        "zhedieshihouqinzhan"
+      ],
+      "appellation": "supply station"
+    },
+    "code": null,
+    "code_name": "supply station"
+  },
+  "trap_179_muctrl": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "促融共竞控制",
+      "skills": [
+        "促融共竞控制"
+      ],
+      "alias": [
+        "cu rong gong jing kong zhi",
+        "curonggongjingkongzhi"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
   "trap_158_lrsteam": {
     "zh_CN": {
       "enabled": true,
@@ -26766,6 +26960,68 @@
       "alias": [
         "zhen fen rong guang",
         "zhenfenrongguang"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_155_aegiret": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "航道信标",
+      "skills": [
+        "信标激活"
+      ],
+      "alias": [
+        "hang dao xin biao",
+        "hangdaoxinbiao"
+      ],
+      "appellation": "Beacon"
+    },
+    "code": null,
+    "code_name": "Beacon"
+  },
+  "trap_156_dsshell": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "赘生甲壳",
+      "skills": [
+        "赘生甲壳"
+      ],
+      "alias": [
+        "zhui sheng jia ke",
+        "zhuishengjiake"
+      ],
+      "appellation": "Neoplastic Shell"
+    },
+    "code": null,
+    "code_name": "Neoplastic Shell"
+  },
+  "trap_157_bounc2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "小帮手",
+      "skills": [
+        "工程钻具"
+      ],
+      "alias": [
+        "xiao bang shou",
+        "xiaobangshou"
+      ],
+      "appellation": "\"Little Handy\""
+    },
+    "code": null,
+    "code_name": "\"Little Handy\""
+  },
+  "trap_180_dsblock": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "封印的地面",
+      "skills": [],
+      "alias": [
+        "feng yin de di mian",
+        "fengyindedimian"
       ],
       "appellation": ""
     },

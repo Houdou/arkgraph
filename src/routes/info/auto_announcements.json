@@ -1,6 +1,18 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2024-06-05",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4145_ulpia",
+      "char_4137_udflow",
+      "char_4079_haini"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -132,17 +144,6 @@
       "char_498_inside",
       "char_4015_spuria",
       "char_4093_frston"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2024-01-09",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4117_ray",
-      "char_4081_warmy"
     ]
   }
 ]
