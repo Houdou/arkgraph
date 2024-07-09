@@ -430,7 +430,7 @@
       "enabled": true,
       "name": "팽",
       "skills": [
-        "돌격지령α"
+        "돌격 지령 α"
       ],
       "alias": []
     },
@@ -548,7 +548,7 @@
       "enabled": true,
       "name": "플룸",
       "skills": [
-        "신속공격α"
+        "신속 공격 α"
       ],
       "alias": []
     },
@@ -590,7 +590,7 @@
       "enabled": true,
       "name": "멜란사",
       "skills": [
-        "공격 강화α"
+        "공격 강화 α"
       ],
       "alias": []
     },
@@ -632,7 +632,7 @@
       "enabled": true,
       "name": "포푸카",
       "skills": [
-        "공격 강화α"
+        "공격 강화 α"
       ],
       "alias": []
     },
@@ -674,7 +674,7 @@
       "enabled": true,
       "name": "카디건",
       "skills": [
-        "HP회복α"
+        "HP 회복 α"
       ],
       "alias": []
     },
@@ -716,7 +716,7 @@
       "enabled": true,
       "name": "비글",
       "skills": [
-        "방어 강화α"
+        "방어 강화 α"
       ],
       "alias": []
     },
@@ -876,7 +876,7 @@
       "enabled": true,
       "name": "아드나키엘",
       "skills": [
-        "공격 강화α"
+        "공격 강화 α"
       ],
       "alias": []
     },
@@ -952,7 +952,7 @@
       "enabled": true,
       "name": "라바",
       "skills": [
-        "전술영창α"
+        "전술 영창 α"
       ],
       "alias": []
     },
@@ -994,7 +994,7 @@
       "enabled": true,
       "name": "히비스커스",
       "skills": [
-        "치료 강화α"
+        "치료 강화 α"
       ],
       "alias": []
     },
@@ -1112,7 +1112,7 @@
       "enabled": true,
       "name": "스튜어드",
       "skills": [
-        "강타α"
+        "강타 α"
       ],
       "alias": []
     },
@@ -1188,7 +1188,7 @@
       "enabled": true,
       "name": "오키드",
       "skills": [
-        "신속공격α"
+        "신속 공격 α"
       ],
       "alias": []
     },
@@ -1232,7 +1232,7 @@
       "enabled": true,
       "name": "헤이즈",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "붉은 눈동자"
       ],
       "alias": []
@@ -1278,7 +1278,7 @@
       "enabled": true,
       "name": "기타노",
       "skills": [
-        "전술영창β",
+        "전술 영창 β",
         "운명"
       ],
       "alias": []
@@ -1324,7 +1324,7 @@
       "enabled": true,
       "name": "그레이",
       "skills": [
-        "전술영창β",
+        "전술 영창 β",
         "정전기 방출"
       ],
       "alias": []
@@ -1370,7 +1370,7 @@
       "enabled": true,
       "name": "클릭",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "동기화 색적 공격"
       ],
       "alias": []
@@ -1462,7 +1462,7 @@
       "enabled": true,
       "name": "푸딩",
       "skills": [
-        "전술영창β",
+        "전술 영창 β",
         "전류 확산"
       ],
       "alias": []
@@ -1508,7 +1508,7 @@
       "enabled": true,
       "name": "제시카",
       "skills": [
-        "강타β",
+        "강타 β",
         "연막 전개"
       ],
       "alias": []
@@ -1600,7 +1600,7 @@
       "enabled": true,
       "name": "버메일",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "더블 샷"
       ],
       "alias": []
@@ -1922,7 +1922,7 @@
       "enabled": true,
       "name": "케이퍼",
       "skills": [
-        "강타β",
+        "강타 β",
         "두 배의 즐거움"
       ],
       "alias": []
@@ -1968,7 +1968,7 @@
       "enabled": true,
       "name": "쿠리어",
       "skills": [
-        "돌격지령β",
+        "돌격 지령 β",
         "돌격지령-방어"
       ],
       "alias": []
@@ -2014,7 +2014,7 @@
       "enabled": true,
       "name": "스캐빈저",
       "skills": [
-        "돌격지령β",
+        "돌격 지령 β",
         "돌격지령-공격"
       ],
       "alias": []
@@ -2060,7 +2060,7 @@
       "enabled": true,
       "name": "비그나",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "해머온"
       ],
       "alias": []
@@ -2106,7 +2106,7 @@
       "enabled": true,
       "name": "머틀",
       "skills": [
-        "지원지령β",
+        "지원 지령 β",
         "치유의 날개"
       ],
       "alias": []
@@ -2198,7 +2198,7 @@
       "enabled": true,
       "name": "도베르만",
       "skills": [
-        "강타β",
+        "강타 β",
         "채찍질"
       ],
       "alias": []
@@ -2244,7 +2244,7 @@
       "enabled": true,
       "name": "마토이마루",
       "skills": [
-        "HP회복β",
+        "HP 회복 β",
         "악귀의 힘"
       ],
       "alias": []
@@ -2382,7 +2382,7 @@
       "enabled": true,
       "name": "에스텔",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "결사돌격"
       ],
       "alias": []
@@ -2658,7 +2658,7 @@
       "enabled": true,
       "name": "쿼츠",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "전면 충돌"
       ],
       "alias": []
@@ -2980,7 +2980,7 @@
       "enabled": true,
       "name": "수수로",
       "skills": [
-        "치료 강화β",
+        "치료 강화 β",
         "심화 치료"
       ],
       "alias": []
@@ -3026,7 +3026,7 @@
       "enabled": true,
       "name": "퍼퓨머",
       "skills": [
-        "치료 강화β",
+        "치료 강화 β",
         "블렌딩"
       ],
       "alias": []
@@ -3210,7 +3210,7 @@
       "enabled": true,
       "name": "쿠오라",
       "skills": [
-        "방어 강화β",
+        "방어 강화 β",
         "쉘 디펜스"
       ],
       "alias": []
@@ -3256,7 +3256,7 @@
       "enabled": true,
       "name": "버블",
       "skills": [
-        "방어 강화β",
+        "방어 강화 β",
         "얻어맞기"
       ],
       "alias": []
@@ -3348,7 +3348,7 @@
       "enabled": true,
       "name": "듀나",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "방패 반격"
       ],
       "alias": []
@@ -3440,7 +3440,7 @@
       "enabled": true,
       "name": "어스스피릿",
       "skills": [
-        "공격 강화β",
+        "공격 강화 β",
         "모래 늪"
       ],
       "alias": []
@@ -3716,7 +3716,7 @@
       "enabled": true,
       "name": "프틸롭시스",
       "skills": [
-        "치료 강화γ",
+        "치료 강화 γ",
         "엔도르핀"
       ],
       "alias": []
@@ -3808,7 +3808,7 @@
       "enabled": true,
       "name": "지마",
       "skills": [
-        "돌격지령γ",
+        "돌격 지령 γ",
         "우르수스의 포효"
       ],
       "alias": []
@@ -3854,7 +3854,7 @@
       "enabled": true,
       "name": "텍사스",
       "skills": [
-        "돌격지령γ",
+        "돌격 지령 γ",
         "검의 비"
       ],
       "alias": []
@@ -3900,7 +3900,7 @@
       "enabled": true,
       "name": "키아베",
       "skills": [
-        "돌격지령γ",
+        "돌격 지령 γ",
         "플레임 필링"
       ],
       "alias": []
@@ -3946,7 +3946,7 @@
       "enabled": true,
       "name": "폰사이러스",
       "skills": [
-        "돌격지령γ",
+        "돌격 지령 γ",
         "공사자의 소원"
       ],
       "alias": []
@@ -4034,7 +4034,7 @@
       "enabled": true,
       "name": "리드",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "생령의 불꽃"
       ],
       "alias": []
@@ -4126,7 +4126,7 @@
       "enabled": true,
       "name": "엘리시움",
       "skills": [
-        "지원지령γ",
+        "지원 지령 γ",
         "경청"
       ],
       "alias": []
@@ -4402,7 +4402,7 @@
       "enabled": true,
       "name": "브라이오피타",
       "skills": [
-        "강타β",
+        "강타 β",
         "흙과 바위의 뚝심"
       ],
       "alias": []
@@ -4448,7 +4448,7 @@
       "enabled": true,
       "name": "프란카",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "예리함의 극치"
       ],
       "alias": []
@@ -4833,6 +4833,52 @@
     "code": "ayerscarpe",
     "code_name": "Ayerscarpe"
   },
+  "char_194_leto": {
+    "en_US": {
+      "enabled": true,
+      "name": "Leto",
+      "skills": [
+        "Swift Strike γ",
+        "Answer the Call"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "リェータ",
+      "skills": [
+        "迅速攻撃γ",
+        "夏将軍の号令"
+      ],
+      "alias": [
+        "りぇーた"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레토",
+      "skills": [
+        "신속 공격 γ",
+        "일호백응"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "烈夏",
+      "skills": [
+        "迅捷打击·γ型",
+        "一呼百应"
+      ],
+      "alias": [
+        "lie xia",
+        "liexia"
+      ],
+      "appellation": "Лето"
+    },
+    "code": "leto",
+    "code_name": "Лето"
+  },
   "char_4083_chimes": {
     "en_US": {
       "enabled": true,
@@ -4858,7 +4904,7 @@
       "enabled": true,
       "name": "윈드차임스",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "고향의 그리움"
       ],
       "alias": []
@@ -4996,7 +5042,7 @@
       "enabled": true,
       "name": "스펙터",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "육참골단"
       ],
       "alias": []
@@ -5134,7 +5180,7 @@
       "enabled": true,
       "name": "시데로카",
       "skills": [
-        "HP회복γ",
+        "HP 회복 γ",
         "파도 가르기"
       ],
       "alias": []
@@ -5456,7 +5502,7 @@
       "enabled": true,
       "name": "플래티넘",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "페가수스의 눈"
       ],
       "alias": []
@@ -5774,7 +5820,7 @@
       "enabled": true,
       "name": "세사",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "딜레이 진탕 부품"
       ],
       "alias": []
@@ -5912,7 +5958,7 @@
       "enabled": true,
       "name": "아오스타",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "그림자 못"
       ],
       "alias": []
@@ -5960,7 +6006,7 @@
       "enabled": true,
       "name": "아미야",
       "skills": [
-        "전술영창γ",
+        "전술 영창 γ",
         "스피릿 버스트",
         "키메라"
       ],
@@ -6146,7 +6192,7 @@
       "enabled": true,
       "name": "스카이파이어",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "메테오 플레임"
       ],
       "alias": []
@@ -6234,7 +6280,7 @@
       "enabled": true,
       "name": "레이즈",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "초뢰"
       ],
       "alias": []
@@ -6372,7 +6418,7 @@
       "enabled": true,
       "name": "레온하르트",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "해체와 폭파"
       ],
       "alias": []
@@ -6418,7 +6464,7 @@
       "enabled": true,
       "name": "산탈라",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "'마녀의 눈물'"
       ],
       "alias": []
@@ -6740,7 +6786,7 @@
       "enabled": true,
       "name": "쉐라",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "마음 가는 대로"
       ],
       "alias": []
@@ -6786,7 +6832,7 @@
       "enabled": true,
       "name": "락락",
       "skills": [
-        "전술영창γ",
+        "전술 영창 γ",
         "스스로 진 멍에"
       ],
       "alias": []
@@ -6832,7 +6878,7 @@
       "enabled": true,
       "name": "미니멀리스트",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "신의 경지"
       ],
       "alias": []
@@ -7016,7 +7062,7 @@
       "enabled": true,
       "name": "사일런스",
       "skills": [
-        "치료 강화γ",
+        "치료 강화 γ",
         "치료 드론"
       ],
       "alias": []
@@ -7401,6 +7447,52 @@
     "code": "honeyberry",
     "code_name": "Honeyberry"
   },
+  "char_4114_harold": {
+    "en_US": {
+      "enabled": true,
+      "name": "Harold",
+      "skills": [
+        "Healing Up γ",
+        "Triage"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハロルド",
+      "skills": [
+        "回復力強化γ",
+        "重体優先"
+      ],
+      "alias": [
+        "はろるど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "해럴드",
+      "skills": [
+        "치료 강화 γ",
+        "중증 우선"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "哈洛德",
+      "skills": [
+        "治疗强化·γ型",
+        "重症优先"
+      ],
+      "alias": [
+        "ha luo de",
+        "haluode"
+      ],
+      "appellation": "Harold"
+    },
+    "code": "harold",
+    "code_name": "Harold"
+  },
   "char_1024_hbisc2": {
     "en_US": {
       "enabled": true,
@@ -7426,7 +7518,7 @@
       "enabled": true,
       "name": "히비스커스 더 퓨리파이어",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "어루만짐"
       ],
       "alias": []
@@ -7472,7 +7564,7 @@
       "enabled": true,
       "name": "벤델라",
       "skills": [
-        "전술영창γ",
+        "전술 영창 γ",
         "가시덤불의 보우"
       ],
       "alias": []
@@ -7518,7 +7610,7 @@
       "enabled": true,
       "name": "파프리카",
       "skills": [
-        "엄호 작전γ",
+        "엄호 작전 γ",
         "동료 의식"
       ],
       "alias": []
@@ -7978,7 +8070,7 @@
       "enabled": true,
       "name": "바이슨",
       "skills": [
-        "방어 강화γ",
+        "방어 강화 γ",
         "방어선 강화"
       ],
       "alias": []
@@ -8300,7 +8392,7 @@
       "enabled": true,
       "name": "애쉬락",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "집중 폭격"
       ],
       "alias": []
@@ -8622,7 +8714,7 @@
       "enabled": true,
       "name": "안드레아나",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "차단 사격 전술"
       ],
       "alias": []
@@ -8806,7 +8898,7 @@
       "enabled": true,
       "name": "그레이 더 라이트닝베어러",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "햇살의 지표"
       ],
       "alias": []
@@ -8852,7 +8944,7 @@
       "enabled": true,
       "name": "콜드샷",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "파티 나이트"
       ],
       "alias": []
@@ -10254,7 +10346,7 @@
       "enabled": true,
       "name": "파투스",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "동맹 지원",
         "페더샤인 애로우"
       ],
@@ -10404,7 +10496,7 @@
       "enabled": true,
       "name": "로사",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "분열 사격",
         "눈사태 사격"
       ],
@@ -10454,7 +10546,7 @@
       "enabled": true,
       "name": "티폰",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "빙원의 질서",
         "'영원한 사냥'"
       ],
@@ -10604,7 +10696,7 @@
       "enabled": true,
       "name": "시즈",
       "skills": [
-        "돌격지령γ",
+        "돌격 지령 γ",
         "점핑 해머",
         "스컬 크래시"
       ],
@@ -10654,7 +10746,7 @@
       "enabled": true,
       "name": "백파이프",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "고효율 충격",
         "클로즈드 볼트 연발"
       ],
@@ -10704,7 +10796,7 @@
       "enabled": true,
       "name": "사가",
       "skills": [
-        "돌격지령γ",
+        "돌격 지령 γ",
         "제악",
         "격노의 눈"
       ],
@@ -10754,7 +10846,7 @@
       "enabled": true,
       "name": "사일라흐",
       "skills": [
-        "지원지령γ",
+        "지원 지령 γ",
         "신앙의 전승",
         "찬란한 깃발"
       ],
@@ -11054,7 +11146,7 @@
       "enabled": true,
       "name": "모스티마",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "혼돈의 시간의 자물쇠",
         "질서의 시간의 열쇠"
       ],
@@ -12305,7 +12397,7 @@
       "name": "아",
       "skills": [
         "쾌속사격",
-        "폭발제γ",
+        "폭발제 γ",
         "폭발제 (두리안맛) "
       ],
       "alias": []
@@ -12604,7 +12696,7 @@
       "enabled": true,
       "name": "나이팅게일",
       "skills": [
-        "치료 강화γ",
+        "치료 강화 γ",
         "아츠 실드",
         "성역"
       ],
@@ -12804,7 +12896,7 @@
       "enabled": true,
       "name": "리드 더 플레임 섀도우",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "번성과 쇠약",
         "생명의 불씨"
       ],
@@ -13054,7 +13146,7 @@
       "enabled": true,
       "name": "머드락",
       "skills": [
-        "방어 강화γ",
+        "방어 강화 γ",
         "바위를 깨는 망치",
         "더러운 대지의 핏줄"
       ],
@@ -13404,7 +13496,7 @@
       "enabled": true,
       "name": "실버애쉬",
       "skills": [
-        "강타γ",
+        "강타 γ",
         "히라 생존 법칙",
         "진은참"
       ],
@@ -13454,7 +13546,7 @@
       "enabled": true,
       "name": "쏜즈",
       "skills": [
-        "공격 강화γ",
+        "공격 강화 γ",
         "호신용 가시",
         "데스트레자"
       ],
@@ -13677,6 +13769,56 @@
     "code": "irene",
     "code_name": "Irene"
   },
+  "char_4116_blkkgt": {
+    "en_US": {
+      "enabled": true,
+      "name": "Degenbrecher",
+      "skills": [
+        "Pure Force",
+        "Silent Derision",
+        "Return To Silence"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "デーゲンブレヒャー",
+      "skills": [
+        "純粋なる力",
+        "声なき嘲笑",
+        "静寂に帰す"
+      ],
+      "alias": [
+        "でーげんぶれひゃー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "데겐블레허",
+      "skills": [
+        "순수한 무력",
+        "침묵의 비웃음",
+        "조용한 마무리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "锏",
+      "skills": [
+        "纯粹的武力",
+        "无声的嘲笑",
+        "归于宁静"
+      ],
+      "alias": [
+        "jian",
+        "jian"
+      ],
+      "appellation": "Degenbrecher"
+    },
+    "code": "degenbrecher",
+    "code_name": "Degenbrecher"
+  },
   "char_017_huang": {
     "en_US": {
       "enabled": true,
@@ -13704,7 +13846,7 @@
       "enabled": true,
       "name": "블레이즈",
       "skills": [
-        "강타γ",
+        "강타 γ",
         "전기톱 연장 모듈",
         "끓어오르는 폭발"
       ],
@@ -14054,7 +14196,7 @@
       "enabled": true,
       "name": "레싱",
       "skills": [
-        "강타γ",
+        "강타 γ",
         "신념의 충돌",
         "서약 파기"
       ],
@@ -18020,6 +18162,7 @@
       "enabled": true,
       "name": "Blizzard",
       "skills": [
+        "Blizzard",
         "Blizzard"
       ],
       "alias": []
@@ -18028,6 +18171,7 @@
       "enabled": true,
       "name": "猛吹雪",
       "skills": [
+        "猛吹雪",
         "猛吹雪"
       ],
       "alias": [
@@ -18038,6 +18182,7 @@
       "enabled": true,
       "name": "눈보라",
       "skills": [
+        "눈보라",
         "눈보라"
       ],
       "alias": []
@@ -19339,7 +19484,7 @@
       "enabled": true,
       "name": "새비지",
       "skills": [
-        "강타β",
+        "강타 β",
         "정밀 타격"
       ],
       "alias": []
@@ -19383,7 +19528,7 @@
       "enabled": true,
       "name": "캐터펄트",
       "skills": [
-        "폭발범위확대α"
+        "폭발범위확대 α"
       ],
       "alias": []
     },
@@ -19425,7 +19570,7 @@
       "enabled": true,
       "name": "미드나이트",
       "skills": [
-        "무기 인챈트α"
+        "무기 인챈트 α"
       ],
       "alias": []
     },
@@ -19607,7 +19752,7 @@
       "enabled": true,
       "name": "그라니",
       "skills": [
-        "방어 강화γ",
+        "방어 강화 γ",
         "임전무퇴!"
       ],
       "alias": []
@@ -19655,7 +19800,7 @@
       "enabled": true,
       "name": "스카디",
       "skills": [
-        "신속공격γ",
+        "신속 공격 γ",
         "파도타기",
         "파도의 만가"
       ],
@@ -24557,9 +24702,9 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "피의 제단",
+      "name": "피의 부름 제단",
       "skills": [
-        "피의 제단"
+        "피의 부름 제단"
       ],
       "alias": []
     },
@@ -24661,6 +24806,258 @@
     },
     "code": "throne of blood",
     "code_name": "Sanguine Throne"
+  },
+  "trap_128_toolore": {
+    "en_US": {
+      "enabled": true,
+      "name": "Altar-type Radar",
+      "skills": [
+        "Pulse Wave"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "祭壇式レーダー",
+      "skills": [
+        "源石衝撃波"
+      ],
+      "alias": [
+        "祭壇式れーだー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "제단식 레이더",
+      "skills": [
+        "충격파"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "祭坛式雷达",
+      "skills": [
+        "脉冲波"
+      ],
+      "alias": [
+        "ji tan shi lei da",
+        "jitanshileida"
+      ],
+      "appellation": "Altar-type Radar"
+    },
+    "code": "altar-type radar",
+    "code_name": "Altar-type Radar"
+  },
+  "trap_129_tooltower": {
+    "en_US": {
+      "enabled": true,
+      "name": "R-45 Portable 'Gramophone'",
+      "skills": [
+        "Arts Transfer Protocol"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "R-45ポータブル「蓄音機」",
+      "skills": [
+        "アーツ転送プロトコル"
+      ],
+      "alias": [
+        "R-45ぽーたぶる「蓄音機」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "R-45 휴대용 '축음기'",
+      "skills": [
+        "아츠 전송 프로토콜"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "R-45便携式“留声机”",
+      "skills": [
+        "法术传输协议"
+      ],
+      "alias": [
+        "R-45 bian xie shi “ liu sheng ji ”",
+        "R-45bianxieshi“liushengji”"
+      ],
+      "appellation": "R-45 Portable \"Gramophone\""
+    },
+    "code": "r-45 portable 'gramophone'",
+    "code_name": "R-45 Portable \"Gramophone\""
+  },
+  "trap_130_tooltree": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ornamental Giant Mushroom",
+      "skills": [
+        "Natural Camouflage"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "鑑賞用おばけ茸",
+      "skills": [
+        "きのこガード"
+      ],
+      "alias": [
+        "鑑賞用おばけ茸"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "관상용 거대버섯",
+      "skills": [
+        "천연 은폐"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "景观巨蕈",
+      "skills": [
+        "天然隐蔽"
+      ],
+      "alias": [
+        "jing guan ju xun",
+        "jingguanjuxun"
+      ],
+      "appellation": "Ornamental Giant Mushroom"
+    },
+    "code": "ornamental giant mushroom",
+    "code_name": "Ornamental Giant Mushroom"
+  },
+  "trap_131_toolgun": {
+    "en_US": {
+      "enabled": true,
+      "name": "Field Device LUD-99X",
+      "skills": [
+        "Open Fire"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フィールドデバイスLUD-99X",
+      "skills": [
+        "発射"
+      ],
+      "alias": [
+        "ふぃーるどでばいすLUD-99X"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전투 장치 LUD-99X",
+      "skills": [
+        "포격"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "战场装置LUD-99X",
+      "skills": [
+        "开火"
+      ],
+      "alias": [
+        "zhan chang zhuang zhi LUD-99X",
+        "zhanchangzhuangzhiLUD-99X"
+      ],
+      "appellation": "Field Device LUD-99X"
+    },
+    "code": "field device lud-99x",
+    "code_name": "Field Device LUD-99X"
+  },
+  "trap_132_toolinvert": {
+    "en_US": {
+      "enabled": true,
+      "name": "Two-step Firecracker and Data-collector",
+      "skills": [
+        "Warping Reality"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "爆竹型データ収集装置",
+      "skills": [
+        "事象震動"
+      ],
+      "alias": [
+        "爆竹型でーた収集装置"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'양자폭죽' 데이터 수집 장치",
+      "skills": [
+        "현실 뒤흔들기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“二踢脚”型数据收集装置",
+      "skills": [
+        "撼动现实"
+      ],
+      "alias": [
+        "“ er ti jiao ” xing shu ju shou ji zhuang zhi",
+        "“ertijiao”xingshujushoujizhuangzhi"
+      ],
+      "appellation": "Two-step Firecracker and Data-collector"
+    },
+    "code": "two-step firecracker and data-collector",
+    "code_name": "Two-step Firecracker and Data-collector"
+  },
+  "trap_133_toolgarage": {
+    "en_US": {
+      "enabled": true,
+      "name": "Self-Driving Recon Cart",
+      "skills": [
+        "Self-Driving Cart, Forward!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "自走式探査車",
+      "skills": [
+        "セルカー発進！"
+      ],
+      "alias": [
+        "自走式探査車"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "탐사용 자율차",
+      "skills": [
+        "자율차 출격!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "勘察用自走车",
+      "skills": [
+        "自走车出击！"
+      ],
+      "alias": [
+        "kan cha yong zi zou che",
+        "kanchayongzizouche"
+      ],
+      "appellation": "Recon Self-Driving Cart"
+    },
+    "code": "self-driving recon cart",
+    "code_name": "Recon Self-Driving Cart"
   },
   "trap_134_condtr": {
     "en_US": {
@@ -24788,6 +25185,90 @@
     "code": "aspect of creation",
     "code_name": "Locus of Genesis"
   },
+  "trap_137_winfire": {
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Heater",
+      "skills": [
+        "Ignite"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "非常用ストーブ",
+      "skills": [
+        "着火"
+      ],
+      "alias": [
+        "非常用すとーぶ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비상 난방기",
+      "skills": [
+        "점화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "紧急供暖器",
+      "skills": [
+        "点燃"
+      ],
+      "alias": [
+        "jin ji gong nuan qi",
+        "jinjigongnuanqi"
+      ],
+      "appellation": "Emergency Brazier"
+    },
+    "code": "emergency heater",
+    "code_name": "Emergency Brazier"
+  },
+  "trap_138_winstone": {
+    "en_US": {
+      "enabled": true,
+      "name": "Flint",
+      "skills": [
+        "Emergency Ignition"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "火打ち石",
+      "skills": [
+        "緊急着火"
+      ],
+      "alias": [
+        "火打ち石"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "부싯돌",
+      "skills": [
+        "긴급 점화"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "点火石",
+      "skills": [
+        "紧急点燃"
+      ],
+      "alias": [
+        "dian huo shi",
+        "dianhuoshi"
+      ],
+      "appellation": "Chert"
+    },
+    "code": "flint",
+    "code_name": "Chert"
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -24833,6 +25314,463 @@
     },
     "code": "promoted amiya warrior",
     "code_name": "Amiya"
+  },
+  "char_4081_warmy": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウォーミー",
+      "skills": [
+        "ぱちぱち火花",
+        "めらめら焔"
+      ],
+      "alias": [
+        "うぉーみー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "워미",
+      "skills": [
+        "버닝 플레임",
+        "스코칭 스트림"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "温米",
+      "skills": [
+        "炎炎火焰",
+        "滔滔热流"
+      ],
+      "alias": [
+        "wen mi",
+        "wenmi"
+      ],
+      "appellation": "Warmy"
+    },
+    "code": null,
+    "code_name": "Warmy"
+  },
+  "char_4117_ray": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "レイ",
+      "skills": [
+        "スラストショット",
+        "広域警戒",
+        "「求めた光」"
+      ],
+      "alias": [
+        "れい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레이",
+      "skills": [
+        "쏜살",
+        "광역 경계",
+        "'빛을 보았다'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱伊",
+      "skills": [
+        "脱身矢",
+        "广域警觉",
+        "“得见光芒”"
+      ],
+      "alias": [
+        "lai yi",
+        "laiyi"
+      ],
+      "appellation": "Ray"
+    },
+    "code": null,
+    "code_name": "Ray"
+  },
+  "token_10034_ray_sndbst": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "サンドビースト",
+      "skills": [
+        "",
+        "広域警戒",
+        ""
+      ],
+      "alias": [
+        "さんどびーすと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "샌드비스트",
+      "skills": [
+        "",
+        "광역 경계",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙地兽",
+      "skills": [
+        "",
+        "广域警觉",
+        ""
+      ],
+      "alias": [
+        "sha di shou",
+        "shadishou"
+      ],
+      "appellation": "Sandbeast"
+    },
+    "code": null,
+    "code_name": "Sandbeast"
+  },
+  "trap_736_mercha": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "充電式前線用スピーカー",
+      "skills": [
+        "戦地の激励"
+      ],
+      "alias": [
+        "充電式前線用すぴーかー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "충전식 독전용 스피커",
+      "skills": [
+        "전장 독려"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": null,
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_737_merchaa": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "充電式前線用スピーカー",
+      "skills": [
+        "戦地の激励"
+      ],
+      "alias": [
+        "充電式前線用すぴーかー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "충전식 독전용 스피커",
+      "skills": [
+        "전장 독려"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": null,
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_738_merchab": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "充電式前線用スピーカー",
+      "skills": [
+        "戦地の激励"
+      ],
+      "alias": [
+        "充電式前線用すぴーかー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "충전식 독전용 스피커",
+      "skills": [
+        "전장 독려"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": null,
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_739_sniper": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "高性能空域制御器",
+      "skills": [
+        "空域支配"
+      ],
+      "alias": [
+        "高性能空域制御器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스마트 영공 제어기",
+      "skills": [
+        "영공 통제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": null,
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_740_snipera": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "高性能空域制御器",
+      "skills": [
+        "空域支配"
+      ],
+      "alias": [
+        "高性能空域制御器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스마트 영공 제어기",
+      "skills": [
+        "영공 통제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": null,
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_741_sniperb": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "高性能空域制御器",
+      "skills": [
+        "空域支配"
+      ],
+      "alias": [
+        "高性能空域制御器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스마트 영공 제어기",
+      "skills": [
+        "영공 통제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": null,
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_742_gasbot": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "急速冷却噴射台",
+      "skills": [
+        "即時冷却"
+      ],
+      "alias": [
+        "急速冷却噴射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "급랭 스프레이 발사대",
+      "skills": [
+        "급속 냉각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": null,
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_743_gasbota": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "急速冷却噴射台",
+      "skills": [
+        "即時冷却"
+      ],
+      "alias": [
+        "急速冷却噴射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "급랭 스프레이 발사대",
+      "skills": [
+        "급속 냉각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": null,
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_744_gasbotb": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "急速冷却噴射台",
+      "skills": [
+        "即時冷却"
+      ],
+      "alias": [
+        "急速冷却噴射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "급랭 스프레이 발사대",
+      "skills": [
+        "급속 냉각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": null,
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_745_beer": {
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ミード万歳！」",
+      "skills": [
+        "「ミード万歳！」"
+      ],
+      "alias": [
+        "「みーど万歳！」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "“벌꿀주 만세!”",
+      "skills": [
+        "“벌꿀주 만세!”"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“蜜酿万岁！”",
+      "skills": [
+        "“蜜酿万岁！”"
+      ],
+      "alias": [
+        "“ mi niang wan sui ！”",
+        "“miniangwansui！”"
+      ],
+      "appellation": "\"Mead! Need more mead!\""
+    },
+    "code": null,
+    "code_name": "\"Mead! Need more mead!\""
   },
   "char_4136_phonor": {
     "zh_CN": {
@@ -24916,6 +25854,23 @@
     "code": null,
     "code_name": "Wanqing"
   },
+  "char_4147_mitm": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "渡桥",
+      "skills": [
+        "遥控解体",
+        "承压功率"
+      ],
+      "alias": [
+        "du qiao",
+        "duqiao"
+      ],
+      "appellation": "Mitm"
+    },
+    "code": null,
+    "code_name": "Mitm"
+  },
   "char_4125_rdoc": {
     "zh_CN": {
       "enabled": true,
@@ -24932,23 +25887,6 @@
     },
     "code": null,
     "code_name": "Doc"
-  },
-  "char_194_leto": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "烈夏",
-      "skills": [
-        "迅捷打击·γ型",
-        "一呼百应"
-      ],
-      "alias": [
-        "lie xia",
-        "liexia"
-      ],
-      "appellation": "Лето"
-    },
-    "code": null,
-    "code_name": "Лето"
   },
   "char_4126_fuze": {
     "zh_CN": {
@@ -25000,40 +25938,6 @@
     },
     "code": null,
     "code_name": "Aroma"
-  },
-  "char_4081_warmy": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "温米",
-      "skills": [
-        "炎炎火焰",
-        "滔滔热流"
-      ],
-      "alias": [
-        "wen mi",
-        "wenmi"
-      ],
-      "appellation": "Warmy"
-    },
-    "code": null,
-    "code_name": "Warmy"
-  },
-  "char_4114_harold": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "哈洛德",
-      "skills": [
-        "治疗强化·γ型",
-        "重症优先"
-      ],
-      "alias": [
-        "ha luo de",
-        "haluode"
-      ],
-      "appellation": "Harold"
-    },
-    "code": null,
-    "code_name": "Harold"
   },
   "char_4137_udflow": {
     "zh_CN": {
@@ -25121,24 +26025,6 @@
     "code": null,
     "code_name": "Wiš'adel"
   },
-  "char_4117_ray": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "莱伊",
-      "skills": [
-        "脱身矢",
-        "广域警觉",
-        "“得见光芒”"
-      ],
-      "alias": [
-        "lai yi",
-        "laiyi"
-      ],
-      "appellation": "Ray"
-    },
-    "code": null,
-    "code_name": "Ray"
-  },
   "char_4133_logos": {
     "zh_CN": {
       "enabled": true,
@@ -25156,6 +26042,24 @@
     },
     "code": null,
     "code_name": "Logos"
+  },
+  "char_4146_nymph": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "妮芙",
+      "skills": [
+        "笞心击",
+        "怵然震爆",
+        "心防溃决"
+      ],
+      "alias": [
+        "ni fu",
+        "nifu"
+      ],
+      "appellation": "Nymph"
+    },
+    "code": null,
+    "code_name": "Nymph"
   },
   "char_4134_cetsyr": {
     "zh_CN": {
@@ -25247,24 +26151,6 @@
     "code": null,
     "code_name": "Ulpianus"
   },
-  "char_4116_blkkgt": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "锏",
-      "skills": [
-        "纯粹的武力",
-        "无声的嘲笑",
-        "归于宁静"
-      ],
-      "alias": [
-        "jian",
-        "jian"
-      ],
-      "appellation": "Degenbrecher"
-    },
-    "code": null,
-    "code_name": "Degenbrecher"
-  },
   "char_4121_zuole": {
     "zh_CN": {
       "enabled": true,
@@ -25282,24 +26168,6 @@
     },
     "code": null,
     "code_name": "Zuo Le"
-  },
-  "token_10034_ray_sndbst": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "沙地兽",
-      "skills": [
-        "",
-        "广域警觉",
-        ""
-      ],
-      "alias": [
-        "sha di shou",
-        "shadishou"
-      ],
-      "appellation": "Sandbeast"
-    },
-    "code": null,
-    "code_name": "Sandbeast"
   },
   "token_10033_ela_grzmot": {
     "zh_CN": {
@@ -25355,277 +26223,22 @@
     "code": null,
     "code_name": "Undeviating Course"
   },
-  "trap_128_toolore": {
+  "token_10037_mitm_trshrb": {
     "zh_CN": {
       "enabled": true,
-      "name": "祭坛式雷达",
+      "name": "樱桃三号",
       "skills": [
-        "脉冲波"
+        "废品战车",
+        "废品战车"
       ],
       "alias": [
-        "ji tan shi lei da",
-        "jitanshileida"
+        "ying tao san hao",
+        "yingtaosanhao"
       ],
-      "appellation": "Altar-type Radar"
+      "appellation": "Cherry-3"
     },
     "code": null,
-    "code_name": "Altar-type Radar"
-  },
-  "trap_129_tooltower": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "R-45便携式“留声机”",
-      "skills": [
-        "法术传输协议"
-      ],
-      "alias": [
-        "R-45 bian xie shi “ liu sheng ji ”",
-        "R-45bianxieshi“liushengji”"
-      ],
-      "appellation": "R-45 Portable \"Gramophone\""
-    },
-    "code": null,
-    "code_name": "R-45 Portable \"Gramophone\""
-  },
-  "trap_130_tooltree": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "景观巨蕈",
-      "skills": [
-        "天然隐蔽"
-      ],
-      "alias": [
-        "jing guan ju xun",
-        "jingguanjuxun"
-      ],
-      "appellation": "Ornamental Giant Mushroom"
-    },
-    "code": null,
-    "code_name": "Ornamental Giant Mushroom"
-  },
-  "trap_131_toolgun": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "战场装置LUD-99X",
-      "skills": [
-        "开火"
-      ],
-      "alias": [
-        "zhan chang zhuang zhi LUD-99X",
-        "zhanchangzhuangzhiLUD-99X"
-      ],
-      "appellation": "Field Device LUD-99X"
-    },
-    "code": null,
-    "code_name": "Field Device LUD-99X"
-  },
-  "trap_132_toolinvert": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“二踢脚”型数据收集装置",
-      "skills": [
-        "撼动现实"
-      ],
-      "alias": [
-        "“ er ti jiao ” xing shu ju shou ji zhuang zhi",
-        "“ertijiao”xingshujushoujizhuangzhi"
-      ],
-      "appellation": "Two-step Firecracker and Data-collector"
-    },
-    "code": null,
-    "code_name": "Two-step Firecracker and Data-collector"
-  },
-  "trap_133_toolgarage": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "勘察用自走车",
-      "skills": [
-        "自走车出击！"
-      ],
-      "alias": [
-        "kan cha yong zi zou che",
-        "kanchayongzizouche"
-      ],
-      "appellation": "Recon Self-Driving Cart"
-    },
-    "code": null,
-    "code_name": "Recon Self-Driving Cart"
-  },
-  "trap_137_winfire": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "紧急供暖器",
-      "skills": [
-        "点燃"
-      ],
-      "alias": [
-        "jin ji gong nuan qi",
-        "jinjigongnuanqi"
-      ],
-      "appellation": "Emergency Brazier"
-    },
-    "code": null,
-    "code_name": "Emergency Brazier"
-  },
-  "trap_138_winstone": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "点火石",
-      "skills": [
-        "紧急点燃"
-      ],
-      "alias": [
-        "dian huo shi",
-        "dianhuoshi"
-      ],
-      "appellation": "Chert"
-    },
-    "code": null,
-    "code_name": "Chert"
-  },
-  "trap_736_mercha": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "可充能督战音响",
-      "skills": [
-        "战地鼓舞"
-      ],
-      "alias": [
-        "ke chong neng du zhan yin xiang",
-        "kechongnengduzhanyinxiang"
-      ],
-      "appellation": "Chargeable Supervisory Speaker"
-    },
-    "code": null,
-    "code_name": "Chargeable Supervisory Speaker"
-  },
-  "trap_737_merchaa": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "可充能督战音响",
-      "skills": [
-        "战地鼓舞"
-      ],
-      "alias": [
-        "ke chong neng du zhan yin xiang",
-        "kechongnengduzhanyinxiang"
-      ],
-      "appellation": "Chargeable Supervisory Speaker"
-    },
-    "code": null,
-    "code_name": "Chargeable Supervisory Speaker"
-  },
-  "trap_738_merchab": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "可充能督战音响",
-      "skills": [
-        "战地鼓舞"
-      ],
-      "alias": [
-        "ke chong neng du zhan yin xiang",
-        "kechongnengduzhanyinxiang"
-      ],
-      "appellation": "Chargeable Supervisory Speaker"
-    },
-    "code": null,
-    "code_name": "Chargeable Supervisory Speaker"
-  },
-  "trap_739_sniper": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "智能空域控制机",
-      "skills": [
-        "空域控制"
-      ],
-      "alias": [
-        "zhi neng kong yu kong zhi ji",
-        "zhinengkongyukongzhiji"
-      ],
-      "appellation": "Smart Airspace Controller"
-    },
-    "code": null,
-    "code_name": "Smart Airspace Controller"
-  },
-  "trap_740_snipera": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "智能空域控制机",
-      "skills": [
-        "空域控制"
-      ],
-      "alias": [
-        "zhi neng kong yu kong zhi ji",
-        "zhinengkongyukongzhiji"
-      ],
-      "appellation": "Smart Airspace Controller"
-    },
-    "code": null,
-    "code_name": "Smart Airspace Controller"
-  },
-  "trap_741_sniperb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "智能空域控制机",
-      "skills": [
-        "空域控制"
-      ],
-      "alias": [
-        "zhi neng kong yu kong zhi ji",
-        "zhinengkongyukongzhiji"
-      ],
-      "appellation": "Smart Airspace Controller"
-    },
-    "code": null,
-    "code_name": "Smart Airspace Controller"
-  },
-  "trap_742_gasbot": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "速冷喷雾发射台",
-      "skills": [
-        "速效制冷"
-      ],
-      "alias": [
-        "su leng pen wu fa she tai",
-        "sulengpenwufashetai"
-      ],
-      "appellation": "Quick-freezing Sprayer Platform"
-    },
-    "code": null,
-    "code_name": "Quick-freezing Sprayer Platform"
-  },
-  "trap_743_gasbota": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "速冷喷雾发射台",
-      "skills": [
-        "速效制冷"
-      ],
-      "alias": [
-        "su leng pen wu fa she tai",
-        "sulengpenwufashetai"
-      ],
-      "appellation": "Quick-freezing Sprayer Platform"
-    },
-    "code": null,
-    "code_name": "Quick-freezing Sprayer Platform"
-  },
-  "trap_744_gasbotb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "速冷喷雾发射台",
-      "skills": [
-        "速效制冷"
-      ],
-      "alias": [
-        "su leng pen wu fa she tai",
-        "sulengpenwufashetai"
-      ],
-      "appellation": "Quick-freezing Sprayer Platform"
-    },
-    "code": null,
-    "code_name": "Quick-freezing Sprayer Platform"
+    "code_name": "Cherry-3"
   },
   "trap_746_cdrhine": {
     "zh_CN": {
@@ -25802,22 +26415,6 @@
     },
     "code": null,
     "code_name": "\"Sticky Giveaways\""
-  },
-  "trap_745_beer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "“蜜酿万岁！”",
-      "skills": [
-        "“蜜酿万岁！”"
-      ],
-      "alias": [
-        "“ mi niang wan sui ！”",
-        "“miniangwansui！”"
-      ],
-      "appellation": "\"Mead! Need more mead!\""
-    },
-    "code": null,
-    "code_name": "\"Mead! Need more mead!\""
   },
   "trap_139_dhtl": {
     "zh_CN": {

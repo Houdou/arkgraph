@@ -4637,6 +4637,18 @@
   },
   "uniequip_002_gdglow": {
     "char_id": "char_377_gdglow",
+    "en_US": {
+      "enabled": true,
+      "name": "'Industrious Wings'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「努力の翼」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'노력의 날개'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“辛劳之翼”"
@@ -4644,6 +4656,18 @@
   },
   "uniequip_002_rockr": {
     "char_id": "char_4040_rockr",
+    "en_US": {
+      "enabled": true,
+      "name": "Unnamed Drone"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "名付けされていないドローン"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이름 짓지 않은 드론"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "未命名的无人机"
@@ -4651,6 +4675,18 @@
   },
   "uniequip_002_kjera": {
     "char_id": "char_4013_kjera",
+    "en_US": {
+      "enabled": true,
+      "name": "In the Woolen of Snow"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "雪を紡いで"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "눈을 라인으로 삼아"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "以雪为线"
@@ -4658,6 +4694,18 @@
   },
   "uniequip_002_malist": {
     "char_id": "char_4054_malist",
+    "en_US": {
+      "enabled": true,
+      "name": "'New Home'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「新しいふるさと」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'새 터전'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“新家园”"
@@ -4665,6 +4713,18 @@
   },
   "uniequip_002_cammou": {
     "char_id": "char_328_cammou",
+    "en_US": {
+      "enabled": true,
+      "name": "Big Feline Desensitization Experiment"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "大型フェリーン克服実験"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "대형 필라인 공포증 탈출 실험"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "大菲林脱敏实验"
@@ -4672,6 +4732,18 @@
   },
   "uniequip_002_blkkgt": {
     "char_id": "char_4116_blkkgt",
+    "en_US": {
+      "enabled": true,
+      "name": "'Footnotes of the Past'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「過去の注釈」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'과거에 대한 각주'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“过往的注脚”"
@@ -4679,6 +4751,18 @@
   },
   "uniequip_002_reed2": {
     "char_id": "char_1020_reed2",
+    "en_US": {
+      "enabled": true,
+      "name": "'A Floral Garland to the Red Dragon'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「赤き龍に贈る冠」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'붉은 용에게 주는 화관'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“赠予红龙的花冠”"
@@ -4686,6 +4770,18 @@
   },
   "uniequip_002_hbisc2": {
     "char_id": "char_1024_hbisc2",
+    "en_US": {
+      "enabled": true,
+      "name": "Crystal Corsage"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "結晶のブローチ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "결정 브로치"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "结晶胸花"
@@ -4693,6 +4789,18 @@
   },
   "uniequip_002_vendla": {
     "char_id": "char_494_vendla",
+    "en_US": {
+      "enabled": true,
+      "name": "Broken Rose"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "砕かれた薔薇"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파편"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "碎片"
@@ -4700,6 +4808,18 @@
   },
   "uniequip_003_billro": {
     "char_id": "char_426_billro",
+    "en_US": {
+      "enabled": true,
+      "name": "Always Have Your Back"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "故郷の音"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고향의 소리"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "乡音"
@@ -4707,6 +4827,18 @@
   },
   "uniequip_003_weedy": {
     "char_id": "char_400_weedy",
+    "en_US": {
+      "enabled": true,
+      "name": "New Bionic Prototype"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "新型バイオ装置プロトタイプ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "신형 바이오닉 프로토타입"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "新型仿生原型"
@@ -4714,6 +4846,18 @@
   },
   "uniequip_003_lisa": {
     "char_id": "char_358_lisa",
+    "en_US": {
+      "enabled": true,
+      "name": "Children of Terra"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "子供たち"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아이들"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "孩子们"
@@ -4721,6 +4865,18 @@
   },
   "uniequip_003_lmlee": {
     "char_id": "char_322_lmlee",
+    "en_US": {
+      "enabled": true,
+      "name": "'Distinguisher'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ただ善悪を思う」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'단사선악'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“但思善恶”"
@@ -5060,6 +5216,55 @@
     "zh_CN": {
       "enabled": true,
       "name": "“热成形记忆”"
+    }
+  },
+  "uniequip_002_chen2": {
+    "char_id": "char_1013_chen2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙滩战斗套装"
+    }
+  },
+  "uniequip_002_aosta": {
+    "char_id": "char_346_aosta",
+    "zh_CN": {
+      "enabled": true,
+      "name": "逃亡路上的应急小包"
+    }
+  },
+  "uniequip_002_excu": {
+    "char_id": "char_279_excu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "执行者随身包"
+    }
+  },
+  "uniequip_002_pinecn": {
+    "char_id": "char_440_pinecn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "移动电箱"
+    }
+  },
+  "uniequip_002_mitm": {
+    "char_id": "char_4147_mitm",
+    "zh_CN": {
+      "enabled": true,
+      "name": "内敛锋芒"
+    }
+  },
+  "uniequip_003_mostma": {
+    "char_id": "char_213_mostma",
+    "zh_CN": {
+      "enabled": true,
+      "name": "资深万国信使定制斗篷"
+    }
+  },
+  "uniequip_003_swire2": {
+    "char_id": "char_1033_swire2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "诗怀雅的龙门美食指南"
     }
   }
 }
