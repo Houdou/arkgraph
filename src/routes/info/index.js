@@ -52,6 +52,9 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 
+			<p>2024-07-15</p>
+			修复一个数据导入id识别的bug<br />
+
 			<p>2024-05-09</p>
 			修复了医疗阿米娅无法正确识别的问题<br />
 			<a href={`./operator/${getOperatorName({ id: "char_002_amiya", locale: config.locale })}`} title="Added quick links to promoted amiya. Credits to lhclbt/Endfield_Font">

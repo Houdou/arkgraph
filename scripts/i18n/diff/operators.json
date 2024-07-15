@@ -6945,6 +6945,52 @@
     "code": "diamante",
     "code_name": "Diamante"
   },
+  "char_4081_warmy": {
+    "en_US": {
+      "enabled": true,
+      "name": "Warmy",
+      "skills": [
+        "Burning Flames",
+        "Scorching Stream"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウォーミー",
+      "skills": [
+        "ぱちぱち火花",
+        "めらめら焔"
+      ],
+      "alias": [
+        "うぉーみー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "워미",
+      "skills": [
+        "버닝 플레임",
+        "스코칭 스트림"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "温米",
+      "skills": [
+        "炎炎火焰",
+        "滔滔热流"
+      ],
+      "alias": [
+        "wen mi",
+        "wenmi"
+      ],
+      "appellation": "Warmy"
+    },
+    "code": "warmy",
+    "code_name": "Warmy"
+  },
   "char_242_otter": {
     "en_US": {
       "enabled": true,
@@ -10668,6 +10714,56 @@
     },
     "code": "ch'en the holungday",
     "code_name": "Ch'en the Holungday"
+  },
+  "char_4117_ray": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ray",
+      "skills": [
+        "Parting Shot",
+        "Area Overwatch",
+        "'See the Light'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レイ",
+      "skills": [
+        "スラストショット",
+        "広域警戒",
+        "「求めた光」"
+      ],
+      "alias": [
+        "れい"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레이",
+      "skills": [
+        "쏜살",
+        "광역 경계",
+        "'빛을 보았다'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱伊",
+      "skills": [
+        "脱身矢",
+        "广域警觉",
+        "“得见光芒”"
+      ],
+      "alias": [
+        "lai yi",
+        "laiyi"
+      ],
+      "appellation": "Ray"
+    },
+    "code": "ray",
+    "code_name": "Ray"
   },
   "char_112_siege": {
     "en_US": {
@@ -16216,6 +16312,56 @@
     },
     "code": "mobile riot shield",
     "code_name": "Mobile personnel shield"
+  },
+  "token_10034_ray_sndbst": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sandbeast",
+      "skills": [
+        "",
+        "Area Overwatch",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サンドビースト",
+      "skills": [
+        "",
+        "広域警戒",
+        ""
+      ],
+      "alias": [
+        "さんどびーすと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "샌드비스트",
+      "skills": [
+        "",
+        "광역 경계",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙地兽",
+      "skills": [
+        "",
+        "广域警觉",
+        ""
+      ],
+      "alias": [
+        "sha di shou",
+        "shadishou"
+      ],
+      "appellation": "Sandbeast"
+    },
+    "code": "sandbeast",
+    "code_name": "Sandbeast"
   },
   "trap_001_crate": {
     "en_US": {
@@ -25269,6 +25415,426 @@
     "code": "flint",
     "code_name": "Chert"
   },
+  "trap_736_mercha": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chargeable Supervisory Speaker",
+      "skills": [
+        "Battlefield Inspiration"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "充電式前線用スピーカー",
+      "skills": [
+        "戦地の激励"
+      ],
+      "alias": [
+        "充電式前線用すぴーかー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "충전식 독전용 스피커",
+      "skills": [
+        "전장 독려"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": "chargeable supervisory speaker",
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_737_merchaa": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chargeable Supervisory Speaker",
+      "skills": [
+        "Battlefield Inspiration"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "充電式前線用スピーカー",
+      "skills": [
+        "戦地の激励"
+      ],
+      "alias": [
+        "充電式前線用すぴーかー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "충전식 독전용 스피커",
+      "skills": [
+        "전장 독려"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": "chargeable supervisory speaker",
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_738_merchab": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chargeable Supervisory Speaker",
+      "skills": [
+        "Battlefield Inspiration"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "充電式前線用スピーカー",
+      "skills": [
+        "戦地の激励"
+      ],
+      "alias": [
+        "充電式前線用すぴーかー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "충전식 독전용 스피커",
+      "skills": [
+        "전장 독려"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "可充能督战音响",
+      "skills": [
+        "战地鼓舞"
+      ],
+      "alias": [
+        "ke chong neng du zhan yin xiang",
+        "kechongnengduzhanyinxiang"
+      ],
+      "appellation": "Chargeable Supervisory Speaker"
+    },
+    "code": "chargeable supervisory speaker",
+    "code_name": "Chargeable Supervisory Speaker"
+  },
+  "trap_739_sniper": {
+    "en_US": {
+      "enabled": true,
+      "name": "Smart Airspace Controller",
+      "skills": [
+        "Airspace Control"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "高性能空域制御器",
+      "skills": [
+        "空域支配"
+      ],
+      "alias": [
+        "高性能空域制御器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스마트 영공 제어기",
+      "skills": [
+        "영공 통제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": "smart airspace controller",
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_740_snipera": {
+    "en_US": {
+      "enabled": true,
+      "name": "Smart Airspace Controller",
+      "skills": [
+        "Airspace Control"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "高性能空域制御器",
+      "skills": [
+        "空域支配"
+      ],
+      "alias": [
+        "高性能空域制御器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스마트 영공 제어기",
+      "skills": [
+        "영공 통제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": "smart airspace controller",
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_741_sniperb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Smart Airspace Controller",
+      "skills": [
+        "Airspace Control"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "高性能空域制御器",
+      "skills": [
+        "空域支配"
+      ],
+      "alias": [
+        "高性能空域制御器"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스마트 영공 제어기",
+      "skills": [
+        "영공 통제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "智能空域控制机",
+      "skills": [
+        "空域控制"
+      ],
+      "alias": [
+        "zhi neng kong yu kong zhi ji",
+        "zhinengkongyukongzhiji"
+      ],
+      "appellation": "Smart Airspace Controller"
+    },
+    "code": "smart airspace controller",
+    "code_name": "Smart Airspace Controller"
+  },
+  "trap_742_gasbot": {
+    "en_US": {
+      "enabled": true,
+      "name": "Quick-freezing Sprayer Platform",
+      "skills": [
+        "Quick Cooling"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "急速冷却噴射台",
+      "skills": [
+        "即時冷却"
+      ],
+      "alias": [
+        "急速冷却噴射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "급랭 스프레이 발사대",
+      "skills": [
+        "급속 냉각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": "quick-freezing sprayer platform",
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_743_gasbota": {
+    "en_US": {
+      "enabled": true,
+      "name": "Quick-freezing Sprayer Platform",
+      "skills": [
+        "Quick Cooling"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "急速冷却噴射台",
+      "skills": [
+        "即時冷却"
+      ],
+      "alias": [
+        "急速冷却噴射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "급랭 스프레이 발사대",
+      "skills": [
+        "급속 냉각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": "quick-freezing sprayer platform",
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_744_gasbotb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Quick-freezing Sprayer Platform",
+      "skills": [
+        "Quick Cooling"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "急速冷却噴射台",
+      "skills": [
+        "即時冷却"
+      ],
+      "alias": [
+        "急速冷却噴射台"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "급랭 스프레이 발사대",
+      "skills": [
+        "급속 냉각"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "速冷喷雾发射台",
+      "skills": [
+        "速效制冷"
+      ],
+      "alias": [
+        "su leng pen wu fa she tai",
+        "sulengpenwufashetai"
+      ],
+      "appellation": "Quick-freezing Sprayer Platform"
+    },
+    "code": "quick-freezing sprayer platform",
+    "code_name": "Quick-freezing Sprayer Platform"
+  },
+  "trap_745_beer": {
+    "en_US": {
+      "enabled": true,
+      "name": "'Long Live Mead!'",
+      "skills": [
+        "'Long Live Mead!'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ミード万歳！」",
+      "skills": [
+        "「ミード万歳！」"
+      ],
+      "alias": [
+        "「みーど万歳！」"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "“벌꿀주 만세!”",
+      "skills": [
+        "“벌꿀주 만세!”"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“蜜酿万岁！”",
+      "skills": [
+        "“蜜酿万岁！”"
+      ],
+      "alias": [
+        "“ mi niang wan sui ！”",
+        "“miniangwansui！”"
+      ],
+      "appellation": "\"Mead! Need more mead!\""
+    },
+    "code": "'long live mead!'",
+    "code_name": "\"Mead! Need more mead!\""
+  },
   "char_1001_amiya2": {
     "en_US": {
       "enabled": true,
@@ -25314,463 +25880,6 @@
     },
     "code": "promoted amiya warrior",
     "code_name": "Amiya"
-  },
-  "char_4081_warmy": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "ウォーミー",
-      "skills": [
-        "ぱちぱち火花",
-        "めらめら焔"
-      ],
-      "alias": [
-        "うぉーみー"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "워미",
-      "skills": [
-        "버닝 플레임",
-        "스코칭 스트림"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "温米",
-      "skills": [
-        "炎炎火焰",
-        "滔滔热流"
-      ],
-      "alias": [
-        "wen mi",
-        "wenmi"
-      ],
-      "appellation": "Warmy"
-    },
-    "code": null,
-    "code_name": "Warmy"
-  },
-  "char_4117_ray": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "レイ",
-      "skills": [
-        "スラストショット",
-        "広域警戒",
-        "「求めた光」"
-      ],
-      "alias": [
-        "れい"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "레이",
-      "skills": [
-        "쏜살",
-        "광역 경계",
-        "'빛을 보았다'"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "莱伊",
-      "skills": [
-        "脱身矢",
-        "广域警觉",
-        "“得见光芒”"
-      ],
-      "alias": [
-        "lai yi",
-        "laiyi"
-      ],
-      "appellation": "Ray"
-    },
-    "code": null,
-    "code_name": "Ray"
-  },
-  "token_10034_ray_sndbst": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "サンドビースト",
-      "skills": [
-        "",
-        "広域警戒",
-        ""
-      ],
-      "alias": [
-        "さんどびーすと"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "샌드비스트",
-      "skills": [
-        "",
-        "광역 경계",
-        ""
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "沙地兽",
-      "skills": [
-        "",
-        "广域警觉",
-        ""
-      ],
-      "alias": [
-        "sha di shou",
-        "shadishou"
-      ],
-      "appellation": "Sandbeast"
-    },
-    "code": null,
-    "code_name": "Sandbeast"
-  },
-  "trap_736_mercha": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "充電式前線用スピーカー",
-      "skills": [
-        "戦地の激励"
-      ],
-      "alias": [
-        "充電式前線用すぴーかー"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "충전식 독전용 스피커",
-      "skills": [
-        "전장 독려"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "可充能督战音响",
-      "skills": [
-        "战地鼓舞"
-      ],
-      "alias": [
-        "ke chong neng du zhan yin xiang",
-        "kechongnengduzhanyinxiang"
-      ],
-      "appellation": "Chargeable Supervisory Speaker"
-    },
-    "code": null,
-    "code_name": "Chargeable Supervisory Speaker"
-  },
-  "trap_737_merchaa": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "充電式前線用スピーカー",
-      "skills": [
-        "戦地の激励"
-      ],
-      "alias": [
-        "充電式前線用すぴーかー"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "충전식 독전용 스피커",
-      "skills": [
-        "전장 독려"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "可充能督战音响",
-      "skills": [
-        "战地鼓舞"
-      ],
-      "alias": [
-        "ke chong neng du zhan yin xiang",
-        "kechongnengduzhanyinxiang"
-      ],
-      "appellation": "Chargeable Supervisory Speaker"
-    },
-    "code": null,
-    "code_name": "Chargeable Supervisory Speaker"
-  },
-  "trap_738_merchab": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "充電式前線用スピーカー",
-      "skills": [
-        "戦地の激励"
-      ],
-      "alias": [
-        "充電式前線用すぴーかー"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "충전식 독전용 스피커",
-      "skills": [
-        "전장 독려"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "可充能督战音响",
-      "skills": [
-        "战地鼓舞"
-      ],
-      "alias": [
-        "ke chong neng du zhan yin xiang",
-        "kechongnengduzhanyinxiang"
-      ],
-      "appellation": "Chargeable Supervisory Speaker"
-    },
-    "code": null,
-    "code_name": "Chargeable Supervisory Speaker"
-  },
-  "trap_739_sniper": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "高性能空域制御器",
-      "skills": [
-        "空域支配"
-      ],
-      "alias": [
-        "高性能空域制御器"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "스마트 영공 제어기",
-      "skills": [
-        "영공 통제"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "智能空域控制机",
-      "skills": [
-        "空域控制"
-      ],
-      "alias": [
-        "zhi neng kong yu kong zhi ji",
-        "zhinengkongyukongzhiji"
-      ],
-      "appellation": "Smart Airspace Controller"
-    },
-    "code": null,
-    "code_name": "Smart Airspace Controller"
-  },
-  "trap_740_snipera": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "高性能空域制御器",
-      "skills": [
-        "空域支配"
-      ],
-      "alias": [
-        "高性能空域制御器"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "스마트 영공 제어기",
-      "skills": [
-        "영공 통제"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "智能空域控制机",
-      "skills": [
-        "空域控制"
-      ],
-      "alias": [
-        "zhi neng kong yu kong zhi ji",
-        "zhinengkongyukongzhiji"
-      ],
-      "appellation": "Smart Airspace Controller"
-    },
-    "code": null,
-    "code_name": "Smart Airspace Controller"
-  },
-  "trap_741_sniperb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "高性能空域制御器",
-      "skills": [
-        "空域支配"
-      ],
-      "alias": [
-        "高性能空域制御器"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "스마트 영공 제어기",
-      "skills": [
-        "영공 통제"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "智能空域控制机",
-      "skills": [
-        "空域控制"
-      ],
-      "alias": [
-        "zhi neng kong yu kong zhi ji",
-        "zhinengkongyukongzhiji"
-      ],
-      "appellation": "Smart Airspace Controller"
-    },
-    "code": null,
-    "code_name": "Smart Airspace Controller"
-  },
-  "trap_742_gasbot": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "急速冷却噴射台",
-      "skills": [
-        "即時冷却"
-      ],
-      "alias": [
-        "急速冷却噴射台"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "급랭 스프레이 발사대",
-      "skills": [
-        "급속 냉각"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "速冷喷雾发射台",
-      "skills": [
-        "速效制冷"
-      ],
-      "alias": [
-        "su leng pen wu fa she tai",
-        "sulengpenwufashetai"
-      ],
-      "appellation": "Quick-freezing Sprayer Platform"
-    },
-    "code": null,
-    "code_name": "Quick-freezing Sprayer Platform"
-  },
-  "trap_743_gasbota": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "急速冷却噴射台",
-      "skills": [
-        "即時冷却"
-      ],
-      "alias": [
-        "急速冷却噴射台"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "급랭 스프레이 발사대",
-      "skills": [
-        "급속 냉각"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "速冷喷雾发射台",
-      "skills": [
-        "速效制冷"
-      ],
-      "alias": [
-        "su leng pen wu fa she tai",
-        "sulengpenwufashetai"
-      ],
-      "appellation": "Quick-freezing Sprayer Platform"
-    },
-    "code": null,
-    "code_name": "Quick-freezing Sprayer Platform"
-  },
-  "trap_744_gasbotb": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "急速冷却噴射台",
-      "skills": [
-        "即時冷却"
-      ],
-      "alias": [
-        "急速冷却噴射台"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "급랭 스프레이 발사대",
-      "skills": [
-        "급속 냉각"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "速冷喷雾发射台",
-      "skills": [
-        "速效制冷"
-      ],
-      "alias": [
-        "su leng pen wu fa she tai",
-        "sulengpenwufashetai"
-      ],
-      "appellation": "Quick-freezing Sprayer Platform"
-    },
-    "code": null,
-    "code_name": "Quick-freezing Sprayer Platform"
-  },
-  "trap_745_beer": {
-    "ja_JP": {
-      "enabled": true,
-      "name": "「ミード万歳！」",
-      "skills": [
-        "「ミード万歳！」"
-      ],
-      "alias": [
-        "「みーど万歳！」"
-      ]
-    },
-    "ko_KR": {
-      "enabled": true,
-      "name": "“벌꿀주 만세!”",
-      "skills": [
-        "“벌꿀주 만세!”"
-      ],
-      "alias": []
-    },
-    "zh_CN": {
-      "enabled": true,
-      "name": "“蜜酿万岁！”",
-      "skills": [
-        "“蜜酿万岁！”"
-      ],
-      "alias": [
-        "“ mi niang wan sui ！”",
-        "“miniangwansui！”"
-      ],
-      "appellation": "\"Mead! Need more mead!\""
-    },
-    "code": null,
-    "code_name": "\"Mead! Need more mead!\""
   },
   "char_4136_phonor": {
     "zh_CN": {

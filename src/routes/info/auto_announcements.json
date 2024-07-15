@@ -1,6 +1,17 @@
 [
   {
     "server": [
+      "en_US"
+    ],
+    "date": "2024-07-15",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4117_ray",
+      "char_4081_warmy"
+    ]
+  },
+  {
+    "server": [
       "ja_JP",
       "ko_KR"
     ],
@@ -124,19 +135,6 @@
       "char_2012_typhon",
       "char_341_sntlla",
       "char_4102_threye"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2024-03-07",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4123_ela",
-      "char_4125_rdoc",
-      "char_4126_fuze",
-      "char_4124_iana"
     ]
   }
 ]
