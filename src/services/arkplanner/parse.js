@@ -6,8 +6,9 @@ const convert = (items) => {
         const {
             id, have, name
         } = r;
-        const item = Object.entries(RESOURCES).find(([id, m]) => String(m.unique_id) === String(id) || m.name === name);
-        console.log(item);
+        const item = Object.entries(RESOURCES).find(
+            ([rid, m]) => String(m.unique_id) === String(id) || m.name === name || rid === String(id)
+        );
         if (item && have > 0) {
             stock[item[1].id] = Number(have);
         }
