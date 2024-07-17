@@ -1,6 +1,16 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2024-07-17",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4151_tinman"
+    ]
+  },
+  {
+    "server": [
       "en_US"
     ],
     "date": "2024-07-15",
@@ -121,20 +131,6 @@
       "char_4131_odda",
       "char_446_aroma",
       "char_4130_luton"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2024-03-07",
-    "type": "new_operators",
-    "new_operators": [
-      "char_2012_typhon",
-      "char_341_sntlla",
-      "char_4102_threye"
     ]
   }
 ]
