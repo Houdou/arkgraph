@@ -26116,6 +26116,23 @@
     "code": null,
     "code_name": "Iana"
   },
+  "char_4151_tinman": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "锡人",
+      "skills": [
+        "“老科利”",
+        "“大拉里”"
+      ],
+      "alias": [
+        "xi ren",
+        "xiren"
+      ],
+      "appellation": "Tin Man"
+    },
+    "code": null,
+    "code_name": "Tin Man"
+  },
   "char_1035_wisdel": {
     "zh_CN": {
       "enabled": true,
@@ -27728,6 +27745,159 @@
       "alias": [
         "feng yin de di mian",
         "fengyindedimian"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_757_skzbox": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "宝箱",
+      "skills": [
+        "诱人珍宝"
+      ],
+      "alias": [
+        "bao xiang",
+        "baoxiang"
+      ],
+      "appellation": "Treasure Chest"
+    },
+    "code": null,
+    "code_name": "Treasure Chest"
+  },
+  "trap_758_skzmbx": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "停滞巧械",
+      "skills": [
+        "诱人珍宝？"
+      ],
+      "alias": [
+        "ting zhi qiao xie",
+        "tingzhiqiaoxie"
+      ],
+      "appellation": "Idle Exquisicart"
+    },
+    "code": null,
+    "code_name": "Idle Exquisicart"
+  },
+  "trap_759_skzwyx": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "垂死羽兽",
+      "skills": [
+        "更诱人珍宝"
+      ],
+      "alias": [
+        "chui si yu shou",
+        "chuisiyushou"
+      ],
+      "appellation": "Dying Fowlbeast"
+    },
+    "code": null,
+    "code_name": "Dying Fowlbeast"
+  },
+  "trap_760_skztzs": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "年代之刺",
+      "skills": [],
+      "alias": [
+        "nian dai zhi ci",
+        "niandaizhici"
+      ],
+      "appellation": "Spines of Age"
+    },
+    "code": null,
+    "code_name": "Spines of Age"
+  },
+  "trap_761_skzthx": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "尊主的残影",
+      "skills": [],
+      "alias": [
+        "zun zhu de can ying",
+        "zunzhudecanying"
+      ],
+      "appellation": "Master's Shade"
+    },
+    "code": null,
+    "code_name": "Master's Shade"
+  },
+  "trap_762_skztxy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "特蕾西娅，黑冠圣贤",
+      "skills": [
+        "意志震荡"
+      ],
+      "alias": [
+        "te lei xi ya ， hei guan sheng xian",
+        "teleixiya，heiguanshengxian"
+      ],
+      "appellation": "Theresa, Black-crowned Loremistress"
+    },
+    "code": null,
+    "code_name": "Theresa, Black-crowned Loremistress"
+  },
+  "trap_763_skzddd": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣卫坚盾",
+      "skills": [],
+      "alias": [
+        "sheng wei jian dun",
+        "shengweijiandun"
+      ],
+      "appellation": "Scutum"
+    },
+    "code": null,
+    "code_name": "Scutum"
+  },
+  "trap_764_skzshp": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "驮兽旅行家",
+      "skills": [],
+      "alias": [
+        "tuo shou lv hang jia",
+        "tuoshoulvhangjia"
+      ],
+      "appellation": "Burden Tourist"
+    },
+    "code": null,
+    "code_name": "Burden Tourist"
+  },
+  "trap_766_duelwal": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "狭路相逢",
+      "skills": [
+        "狭路相逢"
+      ],
+      "alias": [
+        "xia lu xiang feng",
+        "xialuxiangfeng"
+      ],
+      "appellation": ""
+    },
+    "code": null,
+    "code_name": null
+  },
+  "trap_767_duelcdt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "狭路相逢",
+      "skills": [
+        "狭路相逢",
+        "狭路相逢"
+      ],
+      "alias": [
+        "xia lu xiang feng",
+        "xialuxiangfeng"
       ],
       "appellation": ""
     },
