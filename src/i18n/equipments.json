@@ -4884,6 +4884,18 @@
   },
   "uniequip_002_chyue": {
     "char_id": "char_2024_chyue",
+    "en_US": {
+      "enabled": true,
+      "name": "'When to Wake Up'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「自晦及明」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'어둠에서부터 빛까지'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“自晦及明”"
@@ -4891,6 +4903,18 @@
   },
   "uniequip_002_shu": {
     "char_id": "char_2025_shu",
+    "en_US": {
+      "enabled": true,
+      "name": "On Architecture of Time"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「欽天司時」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'시간 제정에 관해'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“钦天司时”"
@@ -4898,6 +4922,18 @@
   },
   "uniequip_002_zuole": {
     "char_id": "char_4121_zuole",
+    "en_US": {
+      "enabled": true,
+      "name": "'You Night, Be Fleeting'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「豈に夜の長きに苦しまんや」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'어찌 밤이 길다 하리'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“岂苦夜长”"
@@ -4905,6 +4941,18 @@
   },
   "uniequip_002_grabds": {
     "char_id": "char_4122_grabds",
+    "en_US": {
+      "enabled": true,
+      "name": "On the Field"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "田野にて"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "들판에서"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "在田野上"
@@ -4912,6 +4960,18 @@
   },
   "uniequip_002_wanqin": {
     "char_id": "char_4119_wanqin",
+    "en_US": {
+      "enabled": true,
+      "name": "With My Wind"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "風を引き連れて"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "바람과 함께"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "牵风"
@@ -4919,6 +4979,18 @@
   },
   "uniequip_002_f12yin": {
     "char_id": "char_264_f12yin",
+    "en_US": {
+      "enabled": true,
+      "name": "'Price of Freedom'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「自由の代償」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'자유의 대가'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“自由的代价”"
@@ -4926,6 +4998,18 @@
   },
   "uniequip_002_dagda": {
     "char_id": "char_157_dagda",
+    "en_US": {
+      "enabled": true,
+      "name": "Backstreet Shield"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "裏通りのラウンドシールド"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "뒷골목 방패"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "后街圆盾"
@@ -4933,6 +5017,18 @@
   },
   "uniequip_002_tiger": {
     "char_id": "char_155_tiger",
+    "en_US": {
+      "enabled": true,
+      "name": "'Hannah's Dislocation Rehabilitation Set'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ハンナの脱臼手当セット」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'한나의 탈구 재활 세트'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“汉娜的脱臼复位套装”"
@@ -4940,6 +5036,18 @@
   },
   "uniequip_002_flint": {
     "char_id": "char_415_flint",
+    "en_US": {
+      "enabled": true,
+      "name": "Meaning of Flowers"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "花が意味するもの"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "꽃의 의미"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "这些花朵的含义"
@@ -4947,6 +5055,18 @@
   },
   "uniequip_002_jaksel": {
     "char_id": "char_347_jaksel",
+    "en_US": {
+      "enabled": true,
+      "name": "D32 Steel Chair"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "D32鋼の椅子"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "D32강 의자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "D32钢椅"
@@ -4954,6 +5074,18 @@
   },
   "uniequip_002_brownb": {
     "char_id": "char_137_brownb",
+    "en_US": {
+      "enabled": true,
+      "name": "Strong Jaw"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "歯を食いしばれ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이를 악물고"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "咬紧牙关"
@@ -4961,6 +5093,18 @@
   },
   "uniequip_002_rfalcn": {
     "char_id": "char_4023_rfalcn",
+    "en_US": {
+      "enabled": true,
+      "name": "Intimidator"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "威嚇する者"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "협박자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "威吓者"
@@ -5265,6 +5409,69 @@
     "zh_CN": {
       "enabled": true,
       "name": "诗怀雅的龙门美食指南"
+    }
+  },
+  "uniequip_004_kalts": {
+    "char_id": "char_003_kalts",
+    "zh_CN": {
+      "enabled": true,
+      "name": "凯尔希特限证章"
+    }
+  },
+  "uniequip_004_phatom": {
+    "char_id": "char_250_phatom",
+    "zh_CN": {
+      "enabled": true,
+      "name": "傀影特限证章"
+    }
+  },
+  "uniequip_002_lasher": {
+    "char_id": "char_4140_lasher",
+    "zh_CN": {
+      "enabled": true,
+      "name": "过往留痕"
+    }
+  },
+  "uniequip_002_agoat2": {
+    "char_id": "char_1016_agoat2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "想要留住的声音"
+    }
+  },
+  "uniequip_002_harold": {
+    "char_id": "char_4114_harold",
+    "zh_CN": {
+      "enabled": true,
+      "name": "腿部护理套装"
+    }
+  },
+  "uniequip_002_mberry": {
+    "char_id": "char_473_mberry",
+    "zh_CN": {
+      "enabled": true,
+      "name": "宁心静神"
+    }
+  },
+  "uniequip_002_glider": {
+    "char_id": "char_449_glider",
+    "zh_CN": {
+      "enabled": true,
+      "name": "落地之后"
+    }
+  },
+  "uniequip_002_chnut": {
+    "char_id": "char_4041_chnut",
+    "zh_CN": {
+      "enabled": true,
+      "name": "地上巡旅纪念灯"
+    }
+  },
+  "uniequip_003_cgbird": {
+    "char_id": "char_179_cgbird",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“莺歌”"
     }
   }
 }
