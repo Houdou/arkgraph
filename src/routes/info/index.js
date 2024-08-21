@@ -52,6 +52,8 @@ const Info = ({
 			<hr />
 			<h2>{ir('homepage-announcement', '公告')}</h2>
 
+			<p>2024-08-21</p>
+			修复多语言数据导致的重名干员（i.e. 佩佩）通过url访问异常的bug<br />
 			<p>2024-07-15</p>
 			修复一个数据导入id识别的bug<br />
 
