@@ -85,6 +85,11 @@ const readTable = (lang) => {
 			// Duplicated rogue characters
 			([unique_id]) => unique_id !== 'char_512_aprot' // char_4025_aprot2
 		)
+		.filter(
+			([, value]) => {
+				return !["TRAP"].includes(value.profession);
+			}
+		)
 		.forEach(([unique_id, value]) => {
 			operator_data[unique_id] = operator_data[unique_id] || {};
 			operator_data[unique_id][lang] = {
