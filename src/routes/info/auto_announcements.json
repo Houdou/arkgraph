@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2024-09-02",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4141_marcil",
+      "char_4144_chilc",
+      "char_4142_laios",
+      "char_4143_sensi"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -117,21 +130,6 @@
       "char_4109_baslin",
       "char_4100_caper",
       "char_4107_vrdant"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2024-05-01",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1035_wisdel",
-      "char_4133_logos",
-      "char_4134_cetsyr",
-      "char_1036_fang2",
-      "char_1037_amiya3",
-      "char_4136_phonor"
     ]
   }
 ]

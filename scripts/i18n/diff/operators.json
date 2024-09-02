@@ -17118,6 +17118,23 @@
     "code": null,
     "code_name": "Mitm"
   },
+  "char_4144_chilc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "齐尔查克",
+      "skills": [
+        "开锁工具",
+        "随机应变"
+      ],
+      "alias": [
+        "qi er cha ke",
+        "qierchake"
+      ],
+      "appellation": "Chilchuck"
+    },
+    "code": null,
+    "code_name": "Chilchuck"
+  },
   "char_4125_rdoc": {
     "zh_CN": {
       "enabled": true,
@@ -17134,6 +17151,23 @@
     },
     "code": null,
     "code_name": "Doc"
+  },
+  "char_4142_laios": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱欧斯",
+      "skills": [
+        "胆小剑助",
+        "威吓战法"
+      ],
+      "alias": [
+        "lai ou si",
+        "laiousi"
+      ],
+      "appellation": "Laios"
+    },
+    "code": null,
+    "code_name": "Laios"
   },
   "char_4126_fuze": {
     "zh_CN": {
@@ -17219,6 +17253,23 @@
     },
     "code": null,
     "code_name": "Papyrus"
+  },
+  "char_4143_sensi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "森西",
+      "skills": [
+        "单人份料理",
+        "团体魔物大餐"
+      ],
+      "alias": [
+        "sen xi",
+        "senxi"
+      ],
+      "appellation": "Senshi"
+    },
+    "code": null,
+    "code_name": "Senshi"
   },
   "char_4137_udflow": {
     "zh_CN": {
@@ -17341,6 +17392,24 @@
     },
     "code": null,
     "code_name": "Logos"
+  },
+  "char_4141_marcil": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "玛露西尔",
+      "skills": [
+        "才女的实力",
+        "召唤使魔",
+        "爆破魔法"
+      ],
+      "alias": [
+        "ma lou xi er",
+        "malouxier"
+      ],
+      "appellation": "Marcille"
+    },
+    "code": null,
+    "code_name": "Marcille"
   },
   "char_4146_nymph": {
     "zh_CN": {
