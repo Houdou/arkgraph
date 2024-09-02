@@ -32276,6 +32276,60 @@
       "enabled": true
     }
   },
+  "act36side_01": {
+    "code": "DT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_tr01": {
+    "code": "DT-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_02": {
+    "code": "DT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_03": {
+    "code": "DT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_04": {
+    "code": "DT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_05": {
+    "code": "DT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_06": {
+    "code": "DT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_07": {
+    "code": "DT-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act36side_08": {
+    "code": "DT-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act35side_st01": {
     "code": "AS-ST-1",
     "zh_CN": {
@@ -33334,6 +33388,12 @@
   },
   "camp_r_23": {
     "code": "维多利亚",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_24": {
+    "code": "谢拉格",
     "zh_CN": {
       "enabled": true
     }

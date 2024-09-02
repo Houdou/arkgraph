@@ -5473,5 +5473,68 @@
       "enabled": true,
       "name": "“莺歌”"
     }
+  },
+  "uniequip_002_marcil": {
+    "char_id": "char_4141_marcil",
+    "zh_CN": {
+      "enabled": true,
+      "name": "才女的藏书"
+    }
+  },
+  "uniequip_002_laios": {
+    "char_id": "char_4142_laios",
+    "zh_CN": {
+      "enabled": true,
+      "name": "想要带回迷宫的包裹"
+    }
+  },
+  "uniequip_002_chilc": {
+    "char_id": "char_4144_chilc",
+    "zh_CN": {
+      "enabled": true,
+      "name": "原版开锁工具"
+    }
+  },
+  "uniequip_002_sensi": {
+    "char_id": "char_4143_sensi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "非魔法厨艺"
+    }
+  },
+  "uniequip_002_hodrer": {
+    "char_id": "char_4088_hodrer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新的生活"
+    }
+  },
+  "uniequip_002_ulpia": {
+    "char_id": "char_4145_ulpia",
+    "zh_CN": {
+      "enabled": true,
+      "name": "乌尔比安的衣橱"
+    }
+  },
+  "uniequip_002_chimes": {
+    "char_id": "char_4083_chimes",
+    "zh_CN": {
+      "enabled": true,
+      "name": "致继任者"
+    }
+  },
+  "uniequip_002_quartz": {
+    "char_id": "char_4063_quartz",
+    "zh_CN": {
+      "enabled": true,
+      "name": "钟表修理套组"
+    }
+  },
+  "uniequip_003_irene": {
+    "char_id": "char_4009_irene",
+    "zh_CN": {
+      "enabled": true,
+      "name": "审判官口粮"
+    }
   }
 }
