@@ -5112,6 +5112,18 @@
   },
   "uniequip_002_jesca2": {
     "char_id": "char_1034_jesca2",
+    "en_US": {
+      "enabled": true,
+      "name": "This Hero of Mine"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「わたしのヒーロー」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'나만의 영웅'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“私家英雄”"
@@ -5119,6 +5131,18 @@
   },
   "uniequip_002_liskam": {
     "char_id": "char_107_liskam",
+    "en_US": {
+      "enabled": true,
+      "name": "Stunner's Storage"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スタニングストレージ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스터닝 스토리지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "震撼存储"
@@ -5126,6 +5150,18 @@
   },
   "uniequip_002_blitz": {
     "char_id": "char_457_blitz",
+    "en_US": {
+      "enabled": true,
+      "name": "Shield Maintenance Oil"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シールドメンテナンス油"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "전술 방패 보수용 오일"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "战术盾牌维护油"
@@ -5133,6 +5169,18 @@
   },
   "uniequip_002_ela": {
     "char_id": "char_4123_ela",
+    "en_US": {
+      "enabled": true,
+      "name": "Social Expectation Backpack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "社会の期待を背負って"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사회적 기대 전술배낭"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "社会期望背包"
@@ -5140,6 +5188,18 @@
   },
   "uniequip_002_fuze": {
     "char_id": "char_4126_fuze",
+    "en_US": {
+      "enabled": true,
+      "name": "Sublinguistical Sign Showing System"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パラ言語サイン表示システム"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "하위 언어 기호 표시 시스템"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "副语言符号展示系统"
@@ -5147,6 +5207,18 @@
   },
   "uniequip_002_iana": {
     "char_id": "char_4124_iana",
+    "en_US": {
+      "enabled": true,
+      "name": "'Distant and Less Familiar World'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「遥けき未知の世界」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'생소하고 머나먼 세상'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“遥远陌生的世界”"
@@ -5154,6 +5226,18 @@
   },
   "uniequip_002_rdoc": {
     "char_id": "char_4125_rdoc",
+    "en_US": {
+      "enabled": true,
+      "name": "'The Third Power'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「第三の力」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'제3의 힘'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“第三种力量”"
@@ -5161,6 +5245,18 @@
   },
   "uniequip_003_ash": {
     "char_id": "char_456_ash",
+    "en_US": {
+      "enabled": true,
+      "name": "Modified Breaching Grenade"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "改良型ブリーチング弾"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "M120 CREM 파괴탄"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "刺针式合金爆破弹"
@@ -5535,6 +5631,55 @@
     "zh_CN": {
       "enabled": true,
       "name": "审判官口粮"
+    }
+  },
+  "uniequip_003_ironmn": {
+    "char_id": "char_4072_ironmn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "海布里印记"
+    }
+  },
+  "uniequip_002_heidi": {
+    "char_id": "char_4045_heidi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "华贵璀璨的死斗"
+    }
+  },
+  "uniequip_003_horn": {
+    "char_id": "char_4039_horn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧日新装"
+    }
+  },
+  "uniequip_002_cathy": {
+    "char_id": "char_4162_cathy",
+    "zh_CN": {
+      "enabled": true,
+      "name": "闲暇时分"
+    }
+  },
+  "uniequip_002_sora": {
+    "char_id": "char_101_sora",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“齐唱”"
+    }
+  },
+  "uniequip_002_cetsyr": {
+    "char_id": "char_4134_cetsyr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "故事的结局"
+    }
+  },
+  "uniequip_002_skadi2": {
+    "char_id": "char_1012_skadi2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "蜕化的残迹"
     }
   }
 }
