@@ -4515,6 +4515,52 @@
     "code": "bryophyta",
     "code_name": "Bryophyta"
   },
+  "char_4125_rdoc": {
+    "en_US": {
+      "enabled": true,
+      "name": "Doc",
+      "skills": [
+        "Violent Response",
+        "Stim Pistol"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Doc",
+      "skills": [
+        "カウンターバイオレンス",
+        "スティムピストル"
+      ],
+      "alias": [
+        "Doc"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Doc",
+      "skills": [
+        "폭력 대응",
+        "자극제 권총"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "医生",
+      "skills": [
+        "以暴制暴",
+        "激素手枪"
+      ],
+      "alias": [
+        "yi sheng",
+        "yisheng"
+      ],
+      "appellation": "Doc"
+    },
+    "code": "doc",
+    "code_name": "Doc"
+  },
   "char_106_franka": {
     "en_US": {
       "enabled": true,
@@ -5200,6 +5246,52 @@
     },
     "code": "broca",
     "code_name": "Broca"
+  },
+  "char_4126_fuze": {
+    "en_US": {
+      "enabled": true,
+      "name": "Fuze",
+      "skills": [
+        "Force Recon",
+        "Cluster Charge"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Fuze",
+      "skills": [
+        "威力偵察",
+        "クラスターチャージ"
+      ],
+      "alias": [
+        "Fuze"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Fuze",
+      "skills": [
+        "화력 정찰",
+        "접착식 집속탄"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "导火索",
+      "skills": [
+        "火力侦察",
+        "霰射炸药"
+      ],
+      "alias": [
+        "dao huo suo",
+        "daohuosuo"
+      ],
+      "appellation": "Fuze"
+    },
+    "code": "fuze",
+    "code_name": "Fuze"
   },
   "char_274_astesi": {
     "en_US": {
@@ -10253,6 +10345,52 @@
     "code": "kazemaru",
     "code_name": "Kazemaru"
   },
+  "char_4124_iana": {
+    "en_US": {
+      "enabled": true,
+      "name": "Iana",
+      "skills": [
+        "Mirage Mine",
+        "Omniscient Tactics"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Iana",
+      "skills": [
+        "ミラージュマイン",
+        "頭脳派の戦術"
+      ],
+      "alias": [
+        "Iana"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Iana",
+      "skills": [
+        "홀로그램 트랩",
+        "전지자의 전술"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "双月",
+      "skills": [
+        "幻影诡雷",
+        "全知者的战术"
+      ],
+      "alias": [
+        "shuang yue",
+        "shuangyue"
+      ],
+      "appellation": "Iana"
+    },
+    "code": "iana",
+    "code_name": "Iana"
+  },
   "char_103_angel": {
     "en_US": {
       "enabled": true,
@@ -12852,6 +12990,56 @@
     },
     "code": "dorothy",
     "code_name": "Dorothy"
+  },
+  "char_4123_ela": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ela",
+      "skills": [
+        "Optical Interference",
+        "Shock Defense",
+        "'The Bosak Tempest'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Ela",
+      "skills": [
+        "視界遮断",
+        "ショックディフェンス",
+        "「ボサックテンペスト」"
+      ],
+      "alias": [
+        "Ela"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Ela",
+      "skills": [
+        "옵티컬 인터퍼런스",
+        "쇼크 디펜스",
+        "'보삭 템페스트'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "艾拉",
+      "skills": [
+        "眩目阻滞",
+        "震荡坚守",
+        "“博萨克风暴”"
+      ],
+      "alias": [
+        "ai la",
+        "aila"
+      ],
+      "appellation": "Ela"
+    },
+    "code": "ela",
+    "code_name": "Ela"
   },
   "char_147_shining": {
     "en_US": {
@@ -16601,6 +16789,56 @@
     "code": "sandbeast",
     "code_name": "Sandbeast"
   },
+  "token_10033_ela_grzmot": {
+    "en_US": {
+      "enabled": true,
+      "name": "Grzmot Mine",
+      "skills": [
+        "Optical Interference",
+        "Shock Defense",
+        "'The Bosak Tempest'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "GRZMOTマイン",
+      "skills": [
+        "視界遮断",
+        "ショックディフェンス",
+        "「ボサックテンペスト」"
+      ],
+      "alias": [
+        "GRZMOTまいん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "GRZMOT 지뢰",
+      "skills": [
+        "옵티컬 인터퍼런스",
+        "쇼크 디펜스",
+        "'보삭 템페스트'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "雷鸣地雷",
+      "skills": [
+        "眩目阻滞",
+        "震荡坚守",
+        "“博萨克风暴”"
+      ],
+      "alias": [
+        "lei ming di lei",
+        "leimingdilei"
+      ],
+      "appellation": "GRZMOT Mine"
+    },
+    "code": "grzmot mine",
+    "code_name": "GRZMOT Mine"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -17135,23 +17373,6 @@
     "code": null,
     "code_name": "Chilchuck"
   },
-  "char_4125_rdoc": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "医生",
-      "skills": [
-        "以暴制暴",
-        "激素手枪"
-      ],
-      "alias": [
-        "yi sheng",
-        "yisheng"
-      ],
-      "appellation": "Doc"
-    },
-    "code": null,
-    "code_name": "Doc"
-  },
   "char_4142_laios": {
     "zh_CN": {
       "enabled": true,
@@ -17168,23 +17389,6 @@
     },
     "code": null,
     "code_name": "Laios"
-  },
-  "char_4126_fuze": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "导火索",
-      "skills": [
-        "火力侦察",
-        "霰射炸药"
-      ],
-      "alias": [
-        "dao huo suo",
-        "daohuosuo"
-      ],
-      "appellation": "Fuze"
-    },
-    "code": null,
-    "code_name": "Fuze"
   },
   "char_4131_odda": {
     "zh_CN": {
@@ -17305,22 +17509,39 @@
     "code": null,
     "code_name": "Lucilla"
   },
-  "char_4124_iana": {
+  "char_4162_cathy": {
     "zh_CN": {
       "enabled": true,
-      "name": "双月",
+      "name": "凯瑟琳",
       "skills": [
-        "幻影诡雷",
-        "全知者的战术"
+        "岁月锻打",
+        "战火淬炼"
       ],
       "alias": [
-        "shuang yue",
-        "shuangyue"
+        "kai se lin",
+        "kaiselin"
       ],
-      "appellation": "Iana"
+      "appellation": "Catherine"
     },
     "code": null,
-    "code_name": "Iana"
+    "code_name": "Catherine"
+  },
+  "char_487_bobb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "波卜",
+      "skills": [
+        "非和平劝说",
+        "“此路不通”"
+      ],
+      "alias": [
+        "bo bu",
+        "bobu"
+      ],
+      "appellation": "Bobbing"
+    },
+    "code": null,
+    "code_name": "Bobbing"
   },
   "char_4151_tinman": {
     "zh_CN": {
@@ -17465,24 +17686,6 @@
     "code": null,
     "code_name": "Ascalon"
   },
-  "char_4123_ela": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "艾拉",
-      "skills": [
-        "眩目阻滞",
-        "震荡坚守",
-        "“博萨克风暴”"
-      ],
-      "alias": [
-        "ai la",
-        "aila"
-      ],
-      "appellation": "Ela"
-    },
-    "code": null,
-    "code_name": "Ela"
-  },
   "char_4145_ulpia": {
     "zh_CN": {
       "enabled": true,
@@ -17519,23 +17722,40 @@
     "code": null,
     "code_name": "Pepe"
   },
-  "token_10033_ela_grzmot": {
+  "char_1019_siege2": {
     "zh_CN": {
       "enabled": true,
-      "name": "雷鸣地雷",
+      "name": "维娜·维多利亚",
       "skills": [
-        "眩目阻滞",
-        "震荡坚守",
-        "“博萨克风暴”"
+        "重铸晖光",
+        "进赴故土",
+        "俱以我之名"
       ],
       "alias": [
-        "lei ming di lei",
-        "leimingdilei"
+        "wei na · wei duo li ya",
+        "weina·weiduoliya"
       ],
-      "appellation": "GRZMOT Mine"
+      "appellation": "Vina Victoria"
     },
     "code": null,
-    "code_name": "GRZMOT Mine"
+    "code_name": "Vina Victoria"
+  },
+  "token_10041_cathy_catsld": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "爬行号·防护单元",
+      "skills": [
+        "岁月锻打",
+        "战火淬炼"
+      ],
+      "alias": [
+        "pa hang hao · fang hu dan yuan",
+        "pahanghao·fanghudanyuan"
+      ],
+      "appellation": "Crawler Protection Unit"
+    },
+    "code": null,
+    "code_name": "Crawler Protection Unit"
   },
   "token_10035_wisdel_wward": {
     "zh_CN": {
@@ -17606,6 +17826,24 @@
     },
     "code": null,
     "code_name": "Clockwork Fowlbeast"
+  },
+  "token_10040_siege2_vlion": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "黄金盟誓",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "huang jin meng shi",
+        "huangjinmengshi"
+      ],
+      "appellation": "Golden Vow"
+    },
+    "code": null,
+    "code_name": "Golden Vow"
   },
   "char_1037_amiya3": {
     "zh_CN": {
