@@ -5264,6 +5264,18 @@
   },
   "uniequip_002_mlyss": {
     "char_id": "char_249_mlyss",
+    "en_US": {
+      "enabled": true,
+      "name": "Dresser Flowing Shape"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "身繕い用水影"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "드레서 유동체"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "梳妆流形"
@@ -5271,6 +5283,18 @@
   },
   "uniequip_002_vigil": {
     "char_id": "char_427_vigil",
+    "en_US": {
+      "enabled": true,
+      "name": "La Punciuta"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シラクーザ式入門の証"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시라쿠사 입문 의식"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "叙拉古式入门礼"
@@ -5278,6 +5302,18 @@
   },
   "uniequip_002_blkngt": {
     "char_id": "char_476_blkngt",
+    "en_US": {
+      "enabled": true,
+      "name": "The Stars and The Sleepyhead"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "星々と寝坊助"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "별과 잠벌레"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "星星与瞌睡虫"
@@ -5285,6 +5321,18 @@
   },
   "uniequip_002_bstalk": {
     "char_id": "char_452_bstalk",
+    "en_US": {
+      "enabled": true,
+      "name": "All-You-Crabs-Eat"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カニカニビュッフェ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "크랩 전용 뷔페"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "钳钳自助餐"
@@ -5292,6 +5340,18 @@
   },
   "uniequip_002_ascln": {
     "char_id": "char_4132_ascln",
+    "en_US": {
+      "enabled": true,
+      "name": "'Hidden Blade'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「無形、無情」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'히든 블레이드'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“无形，无情”"
@@ -5299,6 +5359,18 @@
   },
   "uniequip_002_aroma": {
     "char_id": "char_446_aroma",
+    "en_US": {
+      "enabled": true,
+      "name": "Lemon-flavored Childhood"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レモンの薫る子供時代"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레몬 맛 어린 시절"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "柠檬味的童年"
@@ -5306,6 +5378,18 @@
   },
   "uniequip_002_luton": {
     "char_id": "char_4130_luton",
+    "en_US": {
+      "enabled": true,
+      "name": "Survivors"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "生還者たち"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "생존자"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "生还的人与物"
@@ -5313,6 +5397,18 @@
   },
   "uniequip_003_heyak": {
     "char_id": "char_4027_heyak",
+    "en_US": {
+      "enabled": true,
+      "name": "Time Gallery of K'uk'ulkan"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ククルカンの時間博物館"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "쿠쿨칸의 시간 박물관"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "羽蛇的时间博物馆"
@@ -5320,6 +5416,18 @@
   },
   "uniequip_002_svrash": {
     "char_id": "char_172_svrash",
+    "en_US": {
+      "enabled": true,
+      "name": "Snow Realm Fowlcare Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "雪境羽獣お手入れセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "히라 파울케어 키트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "雪境羽兽护理套组"
@@ -5327,6 +5435,18 @@
   },
   "uniequip_002_thorns": {
     "char_id": "char_293_thorns",
+    "en_US": {
+      "enabled": true,
+      "name": "The Salt and the Sand"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「塩と砂」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'소금과 모래'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“盐与沙”"
@@ -5334,6 +5454,18 @@
   },
   "uniequip_002_qiubai": {
     "char_id": "char_4082_qiubai",
+    "en_US": {
+      "enabled": true,
+      "name": "A Weathered Snow Hat"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "雪に濡れる笠"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "눈에 침식된 삿갓"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "雪浸过的斗笠"
@@ -5341,6 +5473,18 @@
   },
   "uniequip_002_whitew": {
     "char_id": "char_140_whitew",
+    "en_US": {
+      "enabled": true,
+      "name": "'The Young Fang'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「幼き狼の牙」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'어린 송곳니'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“幼狼的牙齿”"
@@ -5348,6 +5492,18 @@
   },
   "uniequip_002_leto": {
     "char_id": "char_194_leto",
+    "en_US": {
+      "enabled": true,
+      "name": "The Old Clothes"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "古い衣服"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "헌 옷"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "旧衣服"
@@ -5355,6 +5511,18 @@
   },
   "uniequip_002_ayer": {
     "char_id": "char_294_ayer",
+    "en_US": {
+      "enabled": true,
+      "name": "Portable Wildland Stimulants"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "荒野用携帯気付け薬"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "황야의 휴대용 각성제"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "荒野便携提神剂"
@@ -5362,6 +5530,18 @@
   },
   "uniequip_002_spikes": {
     "char_id": "char_271_spikes",
+    "en_US": {
+      "enabled": true,
+      "name": "The Book of Arene"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アレーンのノート"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아렌의 책"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "芳汀之书"
@@ -5369,6 +5549,18 @@
   },
   "uniequip_002_frostl": {
     "char_id": "char_193_frostl",
+    "en_US": {
+      "enabled": true,
+      "name": "The Seamless Mixtape"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "止まないビート"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "멈추지 않는 율동"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "不歇律动"
@@ -5376,6 +5568,18 @@
   },
   "uniequip_002_lolxh": {
     "char_id": "char_4067_lolxh",
+    "en_US": {
+      "enabled": true,
+      "name": "Ball of Yarn"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "毛糸玉"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "털실 공"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "毛线球"
@@ -5383,6 +5587,18 @@
   },
   "uniequip_002_fang2": {
     "char_id": "char_1036_fang2",
+    "en_US": {
+      "enabled": true,
+      "name": "The Dauntless"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "たゆまず進め"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "돈틀리스"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "一往无前"
@@ -5390,6 +5606,18 @@
   },
   "uniequip_002_logos": {
     "char_id": "char_4133_logos",
+    "en_US": {
+      "enabled": true,
+      "name": "A Pen Collection from the Convallis"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "河谷より来たる筆入れ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "협곡에서 온 필통"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "来自河谷的笔盒"
@@ -5397,6 +5625,18 @@
   },
   "uniequip_002_wisdel": {
     "char_id": "char_1035_wisdel",
+    "en_US": {
+      "enabled": true,
+      "name": "'Ancestor Launcher'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ご先祖ランチャー」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'조상 발사기'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“祖宗发射器”"
@@ -5680,6 +5920,76 @@
     "zh_CN": {
       "enabled": true,
       "name": "蜕化的残迹"
+    }
+  },
+  "uniequip_002_cello": {
+    "char_id": "char_245_cello",
+    "zh_CN": {
+      "enabled": true,
+      "name": "强弱法"
+    }
+  },
+  "uniequip_002_threye": {
+    "char_id": "char_4102_threye",
+    "zh_CN": {
+      "enabled": true,
+      "name": "启行未来的灯"
+    }
+  },
+  "uniequip_002_bobb": {
+    "char_id": "char_487_bobb",
+    "zh_CN": {
+      "enabled": true,
+      "name": "社工课程二手教材"
+    }
+  },
+  "uniequip_002_whitw2": {
+    "char_id": "char_1038_whitw2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "狼时"
+    }
+  },
+  "uniequip_002_vulpis": {
+    "char_id": "char_4026_vulpis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "杀手也有假期"
+    }
+  },
+  "uniequip_002_crosly": {
+    "char_id": "char_1502_crosly",
+    "zh_CN": {
+      "enabled": true,
+      "name": "弑君刃"
+    }
+  },
+  "uniequip_002_talr": {
+    "char_id": "char_4155_talr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“头面人物”"
+    }
+  },
+  "uniequip_003_lessng": {
+    "char_id": "char_4011_lessng",
+    "zh_CN": {
+      "enabled": true,
+      "name": "苦修者的抗压训练"
+    }
+  },
+  "uniequip_004_aglina": {
+    "char_id": "char_291_aglina",
+    "zh_CN": {
+      "enabled": true,
+      "name": "安洁莉娜特限证章"
+    }
+  },
+  "uniequip_003_rosmon": {
+    "char_id": "char_391_rosmon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "迷迭香特限证章"
     }
   }
 }
