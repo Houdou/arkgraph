@@ -237,6 +237,40 @@
     "code": "friston-3",
     "code_name": "Friston-3"
   },
+  "char_4136_phonor": {
+    "en_US": {
+      "enabled": true,
+      "name": "PhonoR-0",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "PhonoR-0",
+      "skills": [],
+      "alias": [
+        "PhonoR-0"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "PhonoR-0",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "PhonoR-0",
+      "skills": [],
+      "alias": [
+        "PhonoR-0",
+        "PhonoR-0"
+      ],
+      "appellation": "PhonoR-0"
+    },
+    "code": "phonor-0",
+    "code_name": "PhonoR-0"
+  },
   "char_502_nblade": {
     "en_US": {
       "enabled": true,
@@ -3277,6 +3311,52 @@
     "code": "bubble",
     "code_name": "Bubble"
   },
+  "char_4130_luton": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lutonada",
+      "skills": [
+        "Power Strike β",
+        "Magnetic Defense"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ルトナダ",
+      "skills": [
+        "強撃β",
+        "強磁場シールド"
+      ],
+      "alias": [
+        "るとなだ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "루토나다",
+      "skills": [
+        "강타 β",
+        "마그네틱 디펜스"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "露托",
+      "skills": [
+        "强力击·β型",
+        "强磁防卫"
+      ],
+      "alias": [
+        "lou tuo",
+        "loutuo"
+      ],
+      "appellation": "Lutonada"
+    },
+    "code": "lutonada",
+    "code_name": "Lutonada"
+  },
   "char_196_sunbr": {
     "en_US": {
       "enabled": true,
@@ -4146,6 +4226,52 @@
     },
     "code": "wild mane",
     "code_name": "Wild Mane"
+  },
+  "char_1036_fang2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Fang the Fire-Sharpened",
+      "skills": [
+        "Impaler Lance",
+        "Stand Your Ground"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "歴陣鋭槍フェン",
+      "skills": [
+        "ペネトレイトスピア",
+        "前線維持"
+      ],
+      "alias": [
+        "歴陣鋭槍ふぇん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "팽 더 파이어 샤픈드",
+      "skills": [
+        "적을 뚫는 창",
+        "전선 사수"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "历阵锐枪芬",
+      "skills": [
+        "贯敌刺枪",
+        "执守阵线"
+      ],
+      "alias": [
+        "li zhen rui qiang fen",
+        "lizhenruiqiangfen"
+      ],
+      "appellation": "Fang the Fire-sharpened"
+    },
+    "code": "fang the fire-sharpened",
+    "code_name": "Fang the Fire-sharpened"
   },
   "char_401_elysm": {
     "en_US": {
@@ -5615,6 +5741,52 @@
     "code": "tequila",
     "code_name": "Tequila"
   },
+  "char_4131_odda": {
+    "en_US": {
+      "enabled": true,
+      "name": "Odda",
+      "skills": [
+        "Sputterspark",
+        "Hammerforce"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "オッダ",
+      "skills": [
+        "散火槌",
+        "炎撃槌"
+      ],
+      "alias": [
+        "おっだ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오다",
+      "skills": [
+        "작렬하는 불꽃",
+        "주조 망치의 힘"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "奥达",
+      "skills": [
+        "火花溅射",
+        "锻锤之力"
+      ],
+      "alias": [
+        "ao da",
+        "aoda"
+      ],
+      "appellation": "Odda"
+    },
+    "code": "odda",
+    "code_name": "Odda"
+  },
   "char_129_bluep": {
     "en_US": {
       "enabled": true,
@@ -6944,6 +7116,52 @@
     },
     "code": "corroserum",
     "code_name": "Corroserum"
+  },
+  "char_446_aroma": {
+    "en_US": {
+      "enabled": true,
+      "name": "Aroma",
+      "skills": [
+        "Power Cleaning",
+        "Caution! Wet Floor!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アロマ",
+      "skills": [
+        "強力洗浄",
+        "スリップ注意"
+      ],
+      "alias": [
+        "あろま"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아로마",
+      "skills": [
+        "파워 클리닝",
+        "미끄럼 주의"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿罗玛",
+      "skills": [
+        "强效清洁",
+        "小心地滑"
+      ],
+      "alias": [
+        "a luo ma",
+        "aluoma"
+      ],
+      "appellation": "Aroma"
+    },
+    "code": "aroma",
+    "code_name": "Aroma"
   },
   "char_4013_kjera": {
     "en_US": {
@@ -10941,6 +11159,56 @@
     "code": "rosmontis",
     "code_name": "Rosmontis"
   },
+  "char_1035_wisdel": {
+    "en_US": {
+      "enabled": true,
+      "name": "Wiš'adel",
+      "skills": [
+        "Localized Liquidation",
+        "Saturated Vengeance",
+        "Explosive Dawn"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウィシャデル",
+      "skills": [
+        "クリアランス",
+        "オーバーレネゲード",
+        "デイブレイクバースト"
+      ],
+      "alias": [
+        "うぃしゃでる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "위셔델",
+      "skills": [
+        "국부적 청산",
+        "가득한 복수심",
+        "작열하는 여명"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "维什戴尔",
+      "skills": [
+        "定点清算",
+        "饱和复仇",
+        "爆裂黎明"
+      ],
+      "alias": [
+        "wei shi dai er",
+        "weishidaier"
+      ],
+      "appellation": "Wiš'adel"
+    },
+    "code": "wiš'adel",
+    "code_name": "Wiš'adel"
+  },
   "char_1013_chen2": {
     "en_US": {
       "enabled": true,
@@ -11618,9 +11886,9 @@
       "enabled": true,
       "name": "케오베",
       "skills": [
-        " '엄청 차가운' 도끼",
-        " '엄청 뜨거운' 칼",
-        " '엄청 무거운' 창"
+        "'엄청 차가운' 도끼",
+        "'엄청 뜨거운' 칼",
+        "'엄청 무거운' 창"
       ],
       "alias": []
     },
@@ -11690,6 +11958,56 @@
     },
     "code": "ho'olheyak",
     "code_name": "Ho'olheyak"
+  },
+  "char_4133_logos": {
+    "en_US": {
+      "enabled": true,
+      "name": "Logos",
+      "skills": [
+        "Perish",
+        "Synecdoche",
+        "Extended Acuity"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロゴス",
+      "skills": [
+        "歿亡",
+        "提喩",
+        "差延視界"
+      ],
+      "alias": [
+        "ろごす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로고스",
+      "skills": [
+        "몰망",
+        "제유",
+        "확장 시야"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "逻各斯",
+      "skills": [
+        "殁亡",
+        "提喻",
+        "延异视阈"
+      ],
+      "alias": [
+        "luo ge si",
+        "luogesi"
+      ],
+      "appellation": "Logos"
+    },
+    "code": "logos",
+    "code_name": "Logos"
   },
   "char_2015_dusk": {
     "en_US": {
@@ -12240,6 +12558,56 @@
     },
     "code": "skadi the corrupting heart",
     "code_name": "Skadi the Corrupting Heart"
+  },
+  "char_4134_cetsyr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Civilight Eterna",
+      "skills": [
+        "The Past Lingering",
+        "The Future Elusive",
+        "The Present Reconstructed"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シヴィライト・エテルナ",
+      "skills": [
+        "身に纏わる過去",
+        "未だ届かぬ明日",
+        "紡ぎ直される現世"
+      ],
+      "alias": [
+        "しゔぃらいと・えてるな"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시빌라이트 에테르나",
+      "skills": [
+        "과거의 여운",
+        "아득한 미래",
+        "재구성된 현재"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "魔王",
+      "skills": [
+        "往昔萦绕身旁",
+        "明日渺远不及",
+        "编织重构现世"
+      ],
+      "alias": [
+        "mo wang",
+        "mowang"
+      ],
+      "appellation": "Civilight Eterna"
+    },
+    "code": "civilight eterna",
+    "code_name": "Civilight Eterna"
   },
   "char_1031_slent2": {
     "en_US": {
@@ -12890,6 +13258,56 @@
     },
     "code": "mizuki",
     "code_name": "Mizuki"
+  },
+  "char_4132_ascln": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ascalon",
+      "skills": [
+        "Pursuit",
+        "Endowment",
+        "Descent"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アスカロン",
+      "skills": [
+        "追襲",
+        "恩賜",
+        "降臨"
+      ],
+      "alias": [
+        "あすかろん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아스카론",
+      "skills": [
+        "추격",
+        "은총",
+        "강림"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿斯卡纶",
+      "skills": [
+        "追袭",
+        "恩赐",
+        "降临"
+      ],
+      "alias": [
+        "a si ka lun",
+        "asikalun"
+      ],
+      "appellation": "Ascalon"
+    },
+    "code": "ascalon",
+    "code_name": "Ascalon"
   },
   "char_1023_ghost2": {
     "en_US": {
@@ -16839,6 +17257,56 @@
     "code": "grzmot mine",
     "code_name": "GRZMOT Mine"
   },
+  "token_10035_wisdel_wward": {
+    "en_US": {
+      "enabled": true,
+      "name": "Revenant's Shadow",
+      "skills": [
+        "Revenant's Shadow",
+        "Revenant's Shadow",
+        "Revenant's Shadow"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レヴァナントの影",
+      "skills": [
+        "レヴァナントの影",
+        "レヴァナントの影",
+        "レヴァナントの影"
+      ],
+      "alias": [
+        "れゔぁなんとの影"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "레버넌트의 그림자",
+      "skills": [
+        "레버넌트의 그림자",
+        "레버넌트의 그림자",
+        "레버넌트의 그림자"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "魂灵之影",
+      "skills": [
+        "魂灵之影",
+        "魂灵之影",
+        "魂灵之影"
+      ],
+      "alias": [
+        "hun ling zhi ying",
+        "hunlingzhiying"
+      ],
+      "appellation": "Shadow of Revenant"
+    },
+    "code": "revenant's shadow",
+    "code_name": "Shadow of Revenant"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -17291,53 +17759,68 @@
     "code": "promoted amiya warrior",
     "code_name": "Amiya"
   },
-  "char_4136_phonor": {
-    "zh_CN": {
+  "char_1037_amiya3": {
+    "en_US": {
       "enabled": true,
-      "name": "PhonoR-0",
-      "skills": [],
-      "alias": [
-        "PhonoR-0",
-        "PhonoR-0"
-      ],
-      "appellation": "PhonoR-0"
-    },
-    "code": null,
-    "code_name": "PhonoR-0"
-  },
-  "char_4130_luton": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "露托",
+      "name": "Promoted Amiya Medic",
       "skills": [
-        "强力击·β型",
-        "强磁防卫"
+        "Empathy of Grief",
+        "Vision of Mercy"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "昇格アーミヤ医療",
+      "skills": [
+        "悲痛共感",
+        "慈悲先途"
       ],
       "alias": [
-        "lou tuo",
-        "loutuo"
-      ],
-      "appellation": "Lutonada"
+        "昇格あーみや医療"
+      ]
     },
-    "code": null,
-    "code_name": "Lutonada"
-  },
-  "char_1036_fang2": {
+    "ko_KR": {
+      "enabled": true,
+      "name": "Promoted 아미야 Medic",
+      "skills": [
+        "슬픔의 공감",
+        "자비의 비전"
+      ],
+      "alias": []
+    },
     "zh_CN": {
       "enabled": true,
-      "name": "历阵锐枪芬",
+      "name": "升变阿米娅医疗",
       "skills": [
-        "贯敌刺枪",
-        "执守阵线"
+        "哀恸共情",
+        "慈悲愿景"
       ],
       "alias": [
-        "li zhen rui qiang fen",
-        "lizhenruiqiangfen"
+        "sheng bian a mi ya yi liao",
+        "shengbianamiyayiliao"
       ],
-      "appellation": "Fang the Fire-sharpened"
+      "appellation": "Amiya"
+    },
+    "code": "promoted amiya medic",
+    "code_name": "Amiya"
+  },
+  "char_4165_ctrail": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "云迹",
+      "skills": [
+        "紧急升空",
+        "掠空飞翎"
+      ],
+      "alias": [
+        "yun ji",
+        "yunji"
+      ],
+      "appellation": "Contrail"
     },
     "code": null,
-    "code_name": "Fang the Fire-sharpened"
+    "code_name": "Contrail"
   },
   "char_4147_mitm": {
     "zh_CN": {
@@ -17390,40 +17873,6 @@
     "code": null,
     "code_name": "Laios"
   },
-  "char_4131_odda": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "奥达",
-      "skills": [
-        "火花溅射",
-        "锻锤之力"
-      ],
-      "alias": [
-        "ao da",
-        "aoda"
-      ],
-      "appellation": "Odda"
-    },
-    "code": null,
-    "code_name": "Odda"
-  },
-  "char_446_aroma": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿罗玛",
-      "skills": [
-        "强效清洁",
-        "小心地滑"
-      ],
-      "alias": [
-        "a luo ma",
-        "aluoma"
-      ],
-      "appellation": "Aroma"
-    },
-    "code": null,
-    "code_name": "Aroma"
-  },
   "char_4140_lasher": {
     "zh_CN": {
       "enabled": true,
@@ -17475,6 +17924,23 @@
     "code": null,
     "code_name": "Senshi"
   },
+  "char_4155_talr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "裁度",
+      "skills": [
+        "量衣尺",
+        "缝线缠身"
+      ],
+      "alias": [
+        "cai du",
+        "caidu"
+      ],
+      "appellation": "Figurino"
+    },
+    "code": null,
+    "code_name": "Figurino"
+  },
   "char_4137_udflow": {
     "zh_CN": {
       "enabled": true,
@@ -17491,6 +17957,23 @@
     },
     "code": null,
     "code_name": "Underflow"
+  },
+  "char_4148_philae": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "菲莱",
+      "skills": [
+        "灵河护佑",
+        "冥河诅咒"
+      ],
+      "alias": [
+        "fei lai",
+        "feilai"
+      ],
+      "appellation": "Philae"
+    },
+    "code": null,
+    "code_name": "Philae"
   },
   "char_4079_haini": {
     "zh_CN": {
@@ -17560,24 +18043,6 @@
     "code": null,
     "code_name": "Tin Man"
   },
-  "char_1035_wisdel": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "维什戴尔",
-      "skills": [
-        "定点清算",
-        "饱和复仇",
-        "爆裂黎明"
-      ],
-      "alias": [
-        "wei shi dai er",
-        "weishidaier"
-      ],
-      "appellation": "Wiš'adel"
-    },
-    "code": null,
-    "code_name": "Wiš'adel"
-  },
   "char_4138_narant": {
     "zh_CN": {
       "enabled": true,
@@ -17596,23 +18061,23 @@
     "code": null,
     "code_name": "Narantuya"
   },
-  "char_4133_logos": {
+  "char_4026_vulpis": {
     "zh_CN": {
       "enabled": true,
-      "name": "逻各斯",
+      "name": "忍冬",
       "skills": [
-        "殁亡",
-        "提喻",
-        "延异视阈"
+        "小施惩戒",
+        "坠刃拷问",
+        "隐狐之艺"
       ],
       "alias": [
-        "luo ge si",
-        "luogesi"
+        "ren dong",
+        "rendong"
       ],
-      "appellation": "Logos"
+      "appellation": "Vulpisfoglia"
     },
     "code": null,
-    "code_name": "Logos"
+    "code_name": "Vulpisfoglia"
   },
   "char_4141_marcil": {
     "zh_CN": {
@@ -17632,6 +18097,24 @@
     "code": null,
     "code_name": "Marcille"
   },
+  "char_1038_whitw2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "荒芜拉普兰德",
+      "skills": [
+        "慵怠者悲鸣",
+        "逐猎狂飙",
+        "终幕·浩劫"
+      ],
+      "alias": [
+        "huang wu la pu lan de",
+        "huangwulapulande"
+      ],
+      "appellation": "Lappland the Decadenza"
+    },
+    "code": null,
+    "code_name": "Lappland the Decadenza"
+  },
   "char_4146_nymph": {
     "zh_CN": {
       "enabled": true,
@@ -17650,41 +18133,23 @@
     "code": null,
     "code_name": "Nymph"
   },
-  "char_4134_cetsyr": {
+  "char_1502_crosly": {
     "zh_CN": {
       "enabled": true,
-      "name": "魔王",
+      "name": "弑君者",
       "skills": [
-        "往昔萦绕身旁",
-        "明日渺远不及",
-        "编织重构现世"
+        "尘烟蔽目",
+        "硝烟震爆",
+        "烽烟行刑场"
       ],
       "alias": [
-        "mo wang",
-        "mowang"
+        "shi jun zhe",
+        "shijunzhe"
       ],
-      "appellation": "Civilight Eterna"
+      "appellation": "Crownslayer"
     },
     "code": null,
-    "code_name": "Civilight Eterna"
-  },
-  "char_4132_ascln": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿斯卡纶",
-      "skills": [
-        "追袭",
-        "恩赐",
-        "降临"
-      ],
-      "alias": [
-        "a si ka lun",
-        "asikalun"
-      ],
-      "appellation": "Ascalon"
-    },
-    "code": null,
-    "code_name": "Ascalon"
+    "code_name": "Crownslayer"
   },
   "char_4145_ulpia": {
     "zh_CN": {
@@ -17757,24 +18222,6 @@
     "code": null,
     "code_name": "Crawler Protection Unit"
   },
-  "token_10035_wisdel_wward": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "魂灵之影",
-      "skills": [
-        "魂灵之影",
-        "魂灵之影",
-        "魂灵之影"
-      ],
-      "alias": [
-        "hun ling zhi ying",
-        "hunlingzhiying"
-      ],
-      "appellation": "Shadow of Revenant"
-    },
-    "code": null,
-    "code_name": "Shadow of Revenant"
-  },
   "token_10039_ulpia_block": {
     "zh_CN": {
       "enabled": true,
@@ -17844,22 +18291,5 @@
     },
     "code": null,
     "code_name": "Golden Vow"
-  },
-  "char_1037_amiya3": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "升变阿米娅医疗",
-      "skills": [
-        "哀恸共情",
-        "慈悲愿景"
-      ],
-      "alias": [
-        "sheng bian a mi ya yi liao",
-        "shengbianamiyayiliao"
-      ],
-      "appellation": "Amiya"
-    },
-    "code": null,
-    "code_name": "Amiya"
   }
 }
