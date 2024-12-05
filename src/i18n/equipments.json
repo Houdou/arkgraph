@@ -5644,6 +5644,18 @@
   },
   "uniequip_002_amiya3": {
     "char_id": "char_002_amiya",
+    "en_US": {
+      "enabled": true,
+      "name": "The Dress Handpicked by Theresa"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "焦げ跡のついたワンピース"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그을림 자국의 치마"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "带有灼痕的裙子"
@@ -5651,6 +5663,18 @@
   },
   "uniequip_002_coldst": {
     "char_id": "char_4104_coldst",
+    "en_US": {
+      "enabled": true,
+      "name": "'Unbridled'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「じゃじゃ馬」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'난폭'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“桀骜”"
@@ -5658,6 +5682,18 @@
   },
   "uniequip_003_judge": {
     "char_id": "char_4065_judge",
+    "en_US": {
+      "enabled": true,
+      "name": "'Innocent'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「無罪」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'무죄'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“无罪”"
@@ -5665,6 +5701,18 @@
   },
   "uniequip_003_glady": {
     "char_id": "char_474_glady",
+    "en_US": {
+      "enabled": true,
+      "name": "Pale Gold Hair Pendant"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "淡い金色のペンダント"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "페일 골드 헤어 펜던트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "淡金坠饰"
@@ -5672,6 +5720,18 @@
   },
   "uniequip_002_haini": {
     "char_id": "char_4079_haini",
+    "en_US": {
+      "enabled": true,
+      "name": "Multifunctional Mapping Instruments (Early Access)"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "多機能型測量機・改良版"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "다기능 지도 작성자 - 개량판"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "多功能测绘仪-改良版"
@@ -5679,6 +5739,18 @@
   },
   "uniequip_002_ray": {
     "char_id": "char_4117_ray",
+    "en_US": {
+      "enabled": true,
+      "name": "Dancing Moonlight"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「月光と踊る」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "《춤추는 달빛》"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "《跳舞的月光》"
@@ -5686,6 +5758,18 @@
   },
   "uniequip_002_udflow": {
     "char_id": "char_4137_udflow",
+    "en_US": {
+      "enabled": true,
+      "name": "A Neural Stimulant Based on 'Coffee'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コーヒーベースの神経活性剤"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "커피 소재의 신경 활성제"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "基于咖啡的神经活性剂"
@@ -5693,6 +5777,18 @@
   },
   "uniequip_003_ifrit": {
     "char_id": "char_134_ifrit",
+    "en_US": {
+      "enabled": true,
+      "name": "'Thermoformed Memory'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「熱成形された記憶」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'열화 메모리'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“热成形记忆”"
@@ -5990,6 +6086,125 @@
     "zh_CN": {
       "enabled": true,
       "name": "迷迭香特限证章"
+    }
+  },
+  "uniequip_002_acnipe": {
+    "char_id": "char_611_acnipe",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Stormeye证章"
+    }
+  },
+  "uniequip_002_acspec": {
+    "char_id": "char_615_acspec",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Misery证章"
+    }
+  },
+  "uniequip_002_acguad": {
+    "char_id": "char_609_acguad",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Sharp证章"
+    }
+  },
+  "uniequip_002_acfend": {
+    "char_id": "char_610_acfend",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mechanist证章"
+    }
+  },
+  "uniequip_002_acsupo": {
+    "char_id": "char_614_acsupo",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Raidian证章"
+    }
+  },
+  "uniequip_002_accast": {
+    "char_id": "char_612_accast",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Pith证章"
+    }
+  },
+  "uniequip_002_acpion": {
+    "char_id": "char_608_acpion",
+    "zh_CN": {
+      "enabled": true,
+      "name": "郁金香证章"
+    }
+  },
+  "uniequip_002_acmedc": {
+    "char_id": "char_613_acmedc",
+    "zh_CN": {
+      "enabled": true,
+      "name": "Touch证章"
+    }
+  },
+  "uniequip_002_surtr": {
+    "char_id": "char_350_surtr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "萨米的不灭心脏碎片"
+    }
+  },
+  "uniequip_002_vvana": {
+    "char_id": "char_4098_vvana",
+    "zh_CN": {
+      "enabled": true,
+      "name": "目不能及之处"
+    }
+  },
+  "uniequip_002_siege2": {
+    "char_id": "char_1019_siege2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "城主的冒险"
+    }
+  },
+  "uniequip_002_amiya2": {
+    "char_id": "char_002_amiya",
+    "zh_CN": {
+      "enabled": true,
+      "name": "待调弦的怒火"
+    }
+  },
+  "uniequip_002_sidero": {
+    "char_id": "char_333_sidero",
+    "zh_CN": {
+      "enabled": true,
+      "name": "漫游者的压舱石"
+    }
+  },
+  "uniequip_002_astesi": {
+    "char_id": "char_274_astesi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未卜星图"
+    }
+  },
+  "uniequip_002_frncat": {
+    "char_id": "char_185_frncat",
+    "zh_CN": {
+      "enabled": true,
+      "name": "美爪套装二象性"
+    }
+  },
+  "uniequip_002_rosesa": {
+    "char_id": "char_4163_rosesa",
+    "zh_CN": {
+      "enabled": true,
+      "name": "多彩盐漠生活"
+    }
+  },
+  "uniequip_003_angel": {
+    "char_id": "char_103_angel",
+    "zh_CN": {
+      "enabled": true,
+      "name": "欢迎光临，企鹅物流"
     }
   }
 }

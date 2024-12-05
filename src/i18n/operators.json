@@ -8447,6 +8447,52 @@
     "code": "liskarm",
     "code_name": "Liskarm"
   },
+  "char_4137_udflow": {
+    "en_US": {
+      "enabled": true,
+      "name": "Underflow",
+      "skills": [
+        "Invasion Response",
+        "Pinning Maneuver"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アンダーフロー",
+      "skills": [
+        "侵攻への備え",
+        "毒棘制圧射撃"
+      ],
+      "alias": [
+        "あんだーふろー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "언더플로우",
+      "skills": [
+        "침입파괴 대응",
+        "행동능력 박탈"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "深巡",
+      "skills": [
+        "侵袭破坏应对",
+        "行动能力剥夺"
+      ],
+      "alias": [
+        "shen xun",
+        "shenxun"
+      ],
+      "appellation": "Underflow"
+    },
+    "code": "underflow",
+    "code_name": "Underflow"
+  },
   "char_201_moeshd": {
     "en_US": {
       "enabled": true,
@@ -9688,6 +9734,52 @@
     },
     "code": "shamare",
     "code_name": "Shamare"
+  },
+  "char_4079_haini": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lucilla",
+      "skills": [
+        "Camouflaging Current Chart",
+        "Release-retarding Chromogen"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ルシーラ",
+      "skills": [
+        "惑わす海流図",
+        "遮断性発色剤"
+      ],
+      "alias": [
+        "るしーら"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "루실라",
+      "skills": [
+        "현혹성 해류도",
+        "저지성 현색제"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "海霓",
+      "skills": [
+        "迷惑性洋流图",
+        "阻滞性显色剂"
+      ],
+      "alias": [
+        "hai ni",
+        "haini"
+      ],
+      "appellation": "Lucilla"
+    },
+    "code": "lucilla",
+    "code_name": "Lucilla"
   },
   "char_195_glassb": {
     "en_US": {
@@ -14559,6 +14651,56 @@
     "code": "hoederer",
     "code_name": "Hoederer"
   },
+  "char_4145_ulpia": {
+    "en_US": {
+      "enabled": true,
+      "name": "Ulpianus",
+      "skills": [
+        "Contact Must Be Made",
+        "Boundaries Must Be Kept",
+        "Paths Must Be Opened"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウルピアヌス",
+      "skills": [
+        "成すべき接触",
+        "維持すべき境界",
+        "拓くべき活路"
+      ],
+      "alias": [
+        "うるぴあぬす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "울피아누스",
+      "skills": [
+        "이뤄져야 할 만남",
+        "지켜야 할 선",
+        "개척해야 할 길"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "乌尔比安",
+      "skills": [
+        "必须促成的接触",
+        "必须维系的界限",
+        "必须开辟的通路"
+      ],
+      "alias": [
+        "wu er bi an",
+        "wuerbian"
+      ],
+      "appellation": "Ulpianus"
+    },
+    "code": "ulpianus",
+    "code_name": "Ulpianus"
+  },
   "char_010_chen": {
     "en_US": {
       "enabled": true,
@@ -17307,6 +17449,56 @@
     "code": "revenant's shadow",
     "code_name": "Shadow of Revenant"
   },
+  "token_10039_ulpia_block": {
+    "en_US": {
+      "enabled": true,
+      "name": "Undeviating Course",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "混同せぬ方向",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "混同せぬ方向"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "헷갈리지 않는 방향",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "从不混淆的方向",
+      "skills": [
+        "",
+        "",
+        ""
+      ],
+      "alias": [
+        "cong bu hun xiao de fang xiang",
+        "congbuhunxiaodefangxiang"
+      ],
+      "appellation": "Undeviating Course"
+    },
+    "code": "undeviating course",
+    "code_name": "Undeviating Course"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -17805,6 +17997,150 @@
     "code": "promoted amiya medic",
     "code_name": "Amiya"
   },
+  "char_604_ccast": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-术师",
+      "skills": [
+        "战术咏唱·α型",
+        "战术咏唱·β型",
+        "战术咏唱·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - shu shi",
+        "yubeiganyuan-shushi"
+      ],
+      "appellation": "Reserve Operator - Caster"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Caster"
+  },
+  "char_603_csnipe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-狙击",
+      "skills": [
+        "攻击力强化·α型",
+        "攻击力强化·β型",
+        "攻击力强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - ju ji",
+        "yubeiganyuan-juji"
+      ],
+      "appellation": "Reserve Operator - Sniper"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Sniper"
+  },
+  "char_600_cpione": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-先锋",
+      "skills": [
+        "冲锋号令·α型",
+        "冲锋号令·β型",
+        "冲锋号令·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - xian feng",
+        "yubeiganyuan-xianfeng"
+      ],
+      "appellation": "Reserve Operator - Vanguard"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Vanguard"
+  },
+  "char_601_cguard": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-近卫",
+      "skills": [
+        "攻击力强化·α型",
+        "攻击力强化·β型",
+        "攻击力强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - jin wei",
+        "yubeiganyuan-jinwei"
+      ],
+      "appellation": "Reserve Operator - Guard"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Guard"
+  },
+  "char_607_cspec": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-特种",
+      "skills": [
+        "一击即退·α型",
+        "一击即退·β型",
+        "一击即退·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - te zhong",
+        "yubeiganyuan-tezhong"
+      ],
+      "appellation": "Reserve Operator - Specialist"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Specialist"
+  },
+  "char_605_cmedic": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-医疗",
+      "skills": [
+        "治疗强化·α型",
+        "治疗强化·β型",
+        "治疗强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - yi liao",
+        "yubeiganyuan-yiliao"
+      ],
+      "appellation": "Reserve Operator - Medic"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Medic"
+  },
+  "char_602_cdfend": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-重装",
+      "skills": [
+        "防御力强化·α型",
+        "防御力强化·β型",
+        "防御力强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - zhong zhuang",
+        "yubeiganyuan-zhongzhuang"
+      ],
+      "appellation": "Reserve Operator - Defender"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Defender"
+  },
+  "char_606_csuppo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-辅助",
+      "skills": [
+        "战术咏唱·α型",
+        "战术咏唱·β型",
+        "战术咏唱·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - fu zhu",
+        "yubeiganyuan-fuzhu"
+      ],
+      "appellation": "Reserve Operator - Supporter"
+    },
+    "code": null,
+    "code_name": "Reserve Operator - Supporter"
+  },
   "char_4165_ctrail": {
     "zh_CN": {
       "enabled": true,
@@ -17821,6 +18157,23 @@
     },
     "code": null,
     "code_name": "Contrail"
+  },
+  "char_4163_rosesa": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "瑰盐",
+      "skills": [
+        "上佳的应急药呀",
+        "绝妙的长效药呀"
+      ],
+      "alias": [
+        "gui yan",
+        "guiyan"
+      ],
+      "appellation": "Rose Salt"
+    },
+    "code": null,
+    "code_name": "Rose Salt"
   },
   "char_4147_mitm": {
     "zh_CN": {
@@ -17872,6 +18225,23 @@
     },
     "code": null,
     "code_name": "Laios"
+  },
+  "char_4164_tecno": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "特克诺",
+      "skills": [
+        "关节锁定",
+        "恣意挥洒"
+      ],
+      "alias": [
+        "te ke nuo",
+        "tekenuo"
+      ],
+      "appellation": "Tecno"
+    },
+    "code": null,
+    "code_name": "Tecno"
   },
   "char_4140_lasher": {
     "zh_CN": {
@@ -17941,23 +18311,6 @@
     "code": null,
     "code_name": "Figurino"
   },
-  "char_4137_udflow": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "深巡",
-      "skills": [
-        "侵袭破坏应对",
-        "行动能力剥夺"
-      ],
-      "alias": [
-        "shen xun",
-        "shenxun"
-      ],
-      "appellation": "Underflow"
-    },
-    "code": null,
-    "code_name": "Underflow"
-  },
   "char_4148_philae": {
     "zh_CN": {
       "enabled": true,
@@ -17974,23 +18327,6 @@
     },
     "code": null,
     "code_name": "Philae"
-  },
-  "char_4079_haini": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "海霓",
-      "skills": [
-        "迷惑性洋流图",
-        "阻滞性显色剂"
-      ],
-      "alias": [
-        "hai ni",
-        "haini"
-      ],
-      "appellation": "Lucilla"
-    },
-    "code": null,
-    "code_name": "Lucilla"
   },
   "char_4162_cathy": {
     "zh_CN": {
@@ -18043,6 +18379,24 @@
     "code": null,
     "code_name": "Tin Man"
   },
+  "char_611_acnipe": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "破空",
+        "心手合一",
+        "旋臂"
+      ],
+      "alias": [
+        "Stormeye",
+        "Stormeye"
+      ],
+      "appellation": "Stormeye"
+    },
+    "code": null,
+    "code_name": "Stormeye"
+  },
   "char_4138_narant": {
     "zh_CN": {
       "enabled": true,
@@ -18079,6 +18433,24 @@
     "code": null,
     "code_name": "Vulpisfoglia"
   },
+  "char_608_acpion": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "郁金香",
+      "skills": [
+        "钻心",
+        "迅瞬",
+        "只余芬芳"
+      ],
+      "alias": [
+        "yu jin xiang",
+        "yujinxiang"
+      ],
+      "appellation": "Tulip"
+    },
+    "code": null,
+    "code_name": "Tulip"
+  },
   "char_4141_marcil": {
     "zh_CN": {
       "enabled": true,
@@ -18096,6 +18468,24 @@
     },
     "code": null,
     "code_name": "Marcille"
+  },
+  "char_612_accast": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“书我所书”",
+        "“为我所为”",
+        "“驭我所驭”"
+      ],
+      "alias": [
+        "Pith",
+        "Pith"
+      ],
+      "appellation": "Pith"
+    },
+    "code": null,
+    "code_name": "Pith"
   },
   "char_1038_whitw2": {
     "zh_CN": {
@@ -18133,6 +18523,24 @@
     "code": null,
     "code_name": "Nymph"
   },
+  "char_614_acsupo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Raidian",
+      "skills": [
+        "双声",
+        "三形",
+        "信号跃动"
+      ],
+      "alias": [
+        "Raidian",
+        "Raidian"
+      ],
+      "appellation": "Raidian"
+    },
+    "code": null,
+    "code_name": "Raidian"
+  },
   "char_1502_crosly": {
     "zh_CN": {
       "enabled": true,
@@ -18151,23 +18559,77 @@
     "code": null,
     "code_name": "Crownslayer"
   },
-  "char_4145_ulpia": {
+  "char_615_acspec": {
     "zh_CN": {
       "enabled": true,
-      "name": "乌尔比安",
+      "name": "Misery",
       "skills": [
-        "必须促成的接触",
-        "必须维系的界限",
-        "必须开辟的通路"
+        "物理的服从",
+        "战争的恭顺",
+        "空间的归依"
       ],
       "alias": [
-        "wu er bi an",
-        "wuerbian"
+        "Misery",
+        "Misery"
       ],
-      "appellation": "Ulpianus"
+      "appellation": "Misery"
     },
     "code": null,
-    "code_name": "Ulpianus"
+    "code_name": "Misery"
+  },
+  "char_1039_thorn2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "引星棘刺",
+      "skills": [
+        "度算浪波",
+        "解构涌潮",
+        "“我的海疆”"
+      ],
+      "alias": [
+        "yin xing ji ci",
+        "yinxingjici"
+      ],
+      "appellation": "Thorns the Lodestar"
+    },
+    "code": null,
+    "code_name": "Thorns the Lodestar"
+  },
+  "char_613_acmedc": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "慨赠",
+        "宛如天启",
+        "恳切福音"
+      ],
+      "alias": [
+        "Touch",
+        "Touch"
+      ],
+      "appellation": "Touch"
+    },
+    "code": null,
+    "code_name": "Touch"
+  },
+  "char_610_acfend": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mechanist",
+      "skills": [
+        "结构稳定",
+        "不变性原理",
+        "应力倒置"
+      ],
+      "alias": [
+        "Mechanist",
+        "Mechanist"
+      ],
+      "appellation": "Mechanist"
+    },
+    "code": null,
+    "code_name": "Mechanist"
   },
   "char_4058_pepe": {
     "zh_CN": {
@@ -18205,6 +18667,24 @@
     "code": null,
     "code_name": "Vina Victoria"
   },
+  "char_609_acguad": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "快刀",
+        "亮剑",
+        "力战不竭"
+      ],
+      "alias": [
+        "Sharp",
+        "Sharp"
+      ],
+      "appellation": "Sharp"
+    },
+    "code": null,
+    "code_name": "Sharp"
+  },
   "token_10041_cathy_catsld": {
     "zh_CN": {
       "enabled": true,
@@ -18221,24 +18701,6 @@
     },
     "code": null,
     "code_name": "Crawler Protection Unit"
-  },
-  "token_10039_ulpia_block": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "从不混淆的方向",
-      "skills": [
-        "",
-        "",
-        ""
-      ],
-      "alias": [
-        "cong bu hun xiao de fang xiang",
-        "congbuhunxiaodefangxiang"
-      ],
-      "appellation": "Undeviating Course"
-    },
-    "code": null,
-    "code_name": "Undeviating Course"
   },
   "token_10037_mitm_trshrb": {
     "zh_CN": {
@@ -18291,5 +18753,22 @@
     },
     "code": null,
     "code_name": "Golden Vow"
+  },
+  "token_10042_tecno_puppet": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "木偶舞者",
+      "skills": [
+        "",
+        ""
+      ],
+      "alias": [
+        "mu ou wu zhe",
+        "muouwuzhe"
+      ],
+      "appellation": "Puppet Dancer"
+    },
+    "code": null,
+    "code_name": "Puppet Dancer"
   }
 }
