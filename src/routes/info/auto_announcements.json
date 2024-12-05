@@ -5,6 +5,48 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2024-12-05",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4145_ulpia",
+      "char_4137_udflow",
+      "char_4079_haini"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2024-12-05",
+    "type": "new_operators",
+    "new_operators": [
+      "char_611_acnipe",
+      "char_608_acpion",
+      "char_612_accast",
+      "char_614_acsupo",
+      "char_615_acspec",
+      "char_1039_thorn2",
+      "char_613_acmedc",
+      "char_610_acfend",
+      "char_609_acguad",
+      "char_4163_rosesa",
+      "char_4164_tecno",
+      "char_604_ccast",
+      "char_603_csnipe",
+      "char_600_cpione",
+      "char_601_cguard",
+      "char_607_cspec",
+      "char_605_cmedic",
+      "char_602_cdfend",
+      "char_606_csuppo"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2024-11-01",
     "type": "new_operators",
     "new_operators": [
@@ -112,29 +154,6 @@
     "type": "new_operators",
     "new_operators": [
       "char_4151_tinman"
-    ]
-  },
-  {
-    "server": [
-      "en_US"
-    ],
-    "date": "2024-07-15",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4117_ray",
-      "char_4081_warmy"
-    ]
-  },
-  {
-    "server": [
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2024-07-09",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4117_ray",
-      "char_4081_warmy"
     ]
   }
 ]
