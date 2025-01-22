@@ -5794,6 +5794,177 @@
       "name": "“热成形记忆”"
     }
   },
+  "uniequip_004_kalts": {
+    "char_id": "char_003_kalts",
+    "en_US": {
+      "enabled": true,
+      "name": "Kal'tsit's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ケルシーの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "켈시의 특별 한정 배지"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "凯尔希特限证章"
+    }
+  },
+  "uniequip_004_phatom": {
+    "char_id": "char_250_phatom",
+    "en_US": {
+      "enabled": true,
+      "name": "Phantom's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ファントムの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "팬텀의 특별 한정 배지"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "傀影特限证章"
+    }
+  },
+  "uniequip_002_lasher": {
+    "char_id": "char_4140_lasher",
+    "en_US": {
+      "enabled": true,
+      "name": "Traces From the Past"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "過去の痕跡"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "과거의 흔적"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "过往留痕"
+    }
+  },
+  "uniequip_002_agoat2": {
+    "char_id": "char_1016_agoat2",
+    "en_US": {
+      "enabled": true,
+      "name": "Sounds I Want to Retain"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "残したい音声"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "간직하고 싶은 소리"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "想要留住的声音"
+    }
+  },
+  "uniequip_002_harold": {
+    "char_id": "char_4114_harold",
+    "en_US": {
+      "enabled": true,
+      "name": "Legs Care Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "足ケアセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "다리 관리 키트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "腿部护理套装"
+    }
+  },
+  "uniequip_002_mberry": {
+    "char_id": "char_473_mberry",
+    "en_US": {
+      "enabled": true,
+      "name": "Serenity Inside"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "心を静めて"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "마음속 평온함"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "宁心静神"
+    }
+  },
+  "uniequip_002_glider": {
+    "char_id": "char_449_glider",
+    "en_US": {
+      "enabled": true,
+      "name": "After Landing"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "着地の後"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "착지 후"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "落地之后"
+    }
+  },
+  "uniequip_002_chnut": {
+    "char_id": "char_4041_chnut",
+    "en_US": {
+      "enabled": true,
+      "name": "Ground Journey Commemorative Light"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "地上旅行記念の鉱石灯"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지상 여행 기념 램프"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "地上巡旅纪念灯"
+    }
+  },
+  "uniequip_003_cgbird": {
+    "char_id": "char_179_cgbird",
+    "en_US": {
+      "enabled": true,
+      "name": "'Nocturnal Echoes'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「小夜啼鳥の歌」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'밤의 노래'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“莺歌”"
+    }
+  },
   "uniequip_002_chen2": {
     "char_id": "char_1013_chen2",
     "zh_CN": {
@@ -5841,69 +6012,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "诗怀雅的龙门美食指南"
-    }
-  },
-  "uniequip_004_kalts": {
-    "char_id": "char_003_kalts",
-    "zh_CN": {
-      "enabled": true,
-      "name": "凯尔希特限证章"
-    }
-  },
-  "uniequip_004_phatom": {
-    "char_id": "char_250_phatom",
-    "zh_CN": {
-      "enabled": true,
-      "name": "傀影特限证章"
-    }
-  },
-  "uniequip_002_lasher": {
-    "char_id": "char_4140_lasher",
-    "zh_CN": {
-      "enabled": true,
-      "name": "过往留痕"
-    }
-  },
-  "uniequip_002_agoat2": {
-    "char_id": "char_1016_agoat2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "想要留住的声音"
-    }
-  },
-  "uniequip_002_harold": {
-    "char_id": "char_4114_harold",
-    "zh_CN": {
-      "enabled": true,
-      "name": "腿部护理套装"
-    }
-  },
-  "uniequip_002_mberry": {
-    "char_id": "char_473_mberry",
-    "zh_CN": {
-      "enabled": true,
-      "name": "宁心静神"
-    }
-  },
-  "uniequip_002_glider": {
-    "char_id": "char_449_glider",
-    "zh_CN": {
-      "enabled": true,
-      "name": "落地之后"
-    }
-  },
-  "uniequip_002_chnut": {
-    "char_id": "char_4041_chnut",
-    "zh_CN": {
-      "enabled": true,
-      "name": "地上巡旅纪念灯"
-    }
-  },
-  "uniequip_003_cgbird": {
-    "char_id": "char_179_cgbird",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“莺歌”"
     }
   },
   "uniequip_002_marcil": {
@@ -6205,6 +6313,62 @@
     "zh_CN": {
       "enabled": true,
       "name": "欢迎光临，企鹅物流"
+    }
+  },
+  "uniequip_002_pepe": {
+    "char_id": "char_4058_pepe",
+    "zh_CN": {
+      "enabled": true,
+      "name": "晴雨"
+    }
+  },
+  "uniequip_002_odda": {
+    "char_id": "char_4131_odda",
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧背包"
+    }
+  },
+  "uniequip_002_xingzh": {
+    "char_id": "char_4172_xingzh",
+    "zh_CN": {
+      "enabled": true,
+      "name": "别昔年"
+    }
+  },
+  "uniequip_003_lin": {
+    "char_id": "char_4080_lin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“情与义”"
+    }
+  },
+  "uniequip_003_zuole": {
+    "char_id": "char_4121_zuole",
+    "zh_CN": {
+      "enabled": true,
+      "name": "秉烛人的记录"
+    }
+  },
+  "uniequip_003_chyue": {
+    "char_id": "char_2024_chyue",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“朔”"
+    }
+  },
+  "uniequip_004_dusk": {
+    "char_id": "char_2015_dusk",
+    "zh_CN": {
+      "enabled": true,
+      "name": "夕特限证章"
+    }
+  },
+  "uniequip_004_zumama": {
+    "char_id": "char_416_zumama",
+    "zh_CN": {
+      "enabled": true,
+      "name": "森蚺特限证章"
     }
   }
 }

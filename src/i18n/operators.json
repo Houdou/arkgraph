@@ -7485,6 +7485,52 @@
     "code": "scene",
     "code_name": "Scene"
   },
+  "char_4140_lasher": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sand Reckoner",
+      "skills": [
+        "Winding Up",
+        "Weighing the Scales"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サンドレコナー",
+      "skills": [
+        "ゼンマイ巻き",
+        "天秤の持ち手"
+      ],
+      "alias": [
+        "さんどれこなー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "샌드레코너",
+      "skills": [
+        "태엽감기",
+        "현권이동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "衡沙",
+      "skills": [
+        "上紧发条",
+        "权知轻重"
+      ],
+      "alias": [
+        "heng sha",
+        "hengsha"
+      ],
+      "appellation": "Sand Reckoner"
+    },
+    "code": "sand reckoner",
+    "code_name": "Sand Reckoner"
+  },
   "char_108_silent": {
     "en_US": {
       "enabled": true,
@@ -8078,6 +8124,52 @@
     },
     "code": "paprika",
     "code_name": "Paprika"
+  },
+  "char_4139_papyrs": {
+    "en_US": {
+      "enabled": true,
+      "name": "Papyrus",
+      "skills": [
+        "Flash of Ingenuity",
+        "Pre-Exhibit Examination"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "パピルス",
+      "skills": [
+        "「ひらめいた！」",
+        "「なるようになれー！」"
+      ],
+      "alias": [
+        "ぱぴるす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "파피루스",
+      "skills": [
+        "번뜩이는 생각",
+        "벼락치기"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "莎草",
+      "skills": [
+        "巧思乍现",
+        "临考发挥"
+      ],
+      "alias": [
+        "suo cao",
+        "suocao"
+      ],
+      "appellation": "Papyrus"
+    },
+    "code": "papyrus",
+    "code_name": "Papyrus"
   },
   "char_148_nearl": {
     "en_US": {
@@ -11401,6 +11493,56 @@
     "code": "ray",
     "code_name": "Ray"
   },
+  "char_4138_narant": {
+    "en_US": {
+      "enabled": true,
+      "name": "Narantuya",
+      "skills": [
+        "Whirling Blade",
+        "Nightmare",
+        "Sunswallower"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ナラントゥヤ",
+      "skills": [
+        "旋刃",
+        "悪夢",
+        "日喰"
+      ],
+      "alias": [
+        "ならんとぅや"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "나란투야",
+      "skills": [
+        "회전 칼날",
+        "악몽",
+        "탄일"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "娜仁图亚",
+      "skills": [
+        "旋刃",
+        "恶魇",
+        "吞日"
+      ],
+      "alias": [
+        "na ren tu ya",
+        "narentuya"
+      ],
+      "appellation": "Narantuya"
+    },
+    "code": "narantuya",
+    "code_name": "Narantuya"
+  },
   "char_112_siege": {
     "en_US": {
       "enabled": true,
@@ -14701,6 +14843,56 @@
     "code": "ulpianus",
     "code_name": "Ulpianus"
   },
+  "char_4058_pepe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pepe",
+      "skills": [
+        "Get Stamped!",
+        "Whirling Hammer Defense",
+        "Shock of Time"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ペペ",
+      "skills": [
+        "ぺったん！",
+        "トラブル解決術",
+        "時の激震"
+      ],
+      "alias": [
+        "ぺぺ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "페페",
+      "skills": [
+        "도장!",
+        "혼돈 제압 망치",
+        "시간의 진동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "佩佩",
+      "skills": [
+        "盖戳！",
+        "阻遏混乱锤",
+        "时光震荡"
+      ],
+      "alias": [
+        "pei pei",
+        "peipei"
+      ],
+      "appellation": "Pepe"
+    },
+    "code": "pepe",
+    "code_name": "Pepe"
+  },
   "char_010_chen": {
     "en_US": {
       "enabled": true,
@@ -17499,6 +17691,52 @@
     "code": "undeviating course",
     "code_name": "Undeviating Course"
   },
+  "token_10036_lasher_mcbird": {
+    "en_US": {
+      "enabled": true,
+      "name": "Clockwork Fowlbeast",
+      "skills": [
+        "Winding Up",
+        "Weighing the Scales"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カラクリ羽獣",
+      "skills": [
+        "ゼンマイ巻き",
+        "天秤の持ち手"
+      ],
+      "alias": [
+        "からくり羽獣"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "태엽 파울비스트",
+      "skills": [
+        "태엽감기",
+        "현권이동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "发条羽兽",
+      "skills": [
+        "上紧发条",
+        "权知轻重"
+      ],
+      "alias": [
+        "fa tiao yu shou",
+        "fatiaoyushou"
+      ],
+      "appellation": "Clockwork Fowlbeast"
+    },
+    "code": "clockwork fowlbeast",
+    "code_name": "Clockwork Fowlbeast"
+  },
   "char_230_savage": {
     "en_US": {
       "enabled": true,
@@ -18209,6 +18447,23 @@
     "code": null,
     "code_name": "Chilchuck"
   },
+  "char_4052_surfer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "寻澜",
+      "skills": [
+        "探寻",
+        "洞悉"
+      ],
+      "alias": [
+        "xun lan",
+        "xunlan"
+      ],
+      "appellation": "Surfer"
+    },
+    "code": null,
+    "code_name": "Surfer"
+  },
   "char_4142_laios": {
     "zh_CN": {
       "enabled": true,
@@ -18242,40 +18497,6 @@
     },
     "code": null,
     "code_name": "Tecno"
-  },
-  "char_4140_lasher": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "衡沙",
-      "skills": [
-        "上紧发条",
-        "权知轻重"
-      ],
-      "alias": [
-        "heng sha",
-        "hengsha"
-      ],
-      "appellation": "Sand Reckoner"
-    },
-    "code": null,
-    "code_name": "Sand Reckoner"
-  },
-  "char_4139_papyrs": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "莎草",
-      "skills": [
-        "巧思乍现",
-        "临考发挥"
-      ],
-      "alias": [
-        "suo cao",
-        "suocao"
-      ],
-      "appellation": "Papyrus"
-    },
-    "code": null,
-    "code_name": "Papyrus"
   },
   "char_4143_sensi": {
     "zh_CN": {
@@ -18345,6 +18566,23 @@
     "code": null,
     "code_name": "Catherine"
   },
+  "char_4172_xingzh": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "行箸",
+      "skills": [
+        "盈帙满笥",
+        "食不厌精"
+      ],
+      "alias": [
+        "hang zhu",
+        "hangzhu"
+      ],
+      "appellation": "Xingzhu"
+    },
+    "code": null,
+    "code_name": "Xingzhu"
+  },
   "char_487_bobb": {
     "zh_CN": {
       "enabled": true,
@@ -18396,24 +18634,6 @@
     },
     "code": null,
     "code_name": "Stormeye"
-  },
-  "char_4138_narant": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "娜仁图亚",
-      "skills": [
-        "旋刃",
-        "恶魇",
-        "吞日"
-      ],
-      "alias": [
-        "na ren tu ya",
-        "narentuya"
-      ],
-      "appellation": "Narantuya"
-    },
-    "code": null,
-    "code_name": "Narantuya"
   },
   "char_4026_vulpis": {
     "zh_CN": {
@@ -18523,6 +18743,24 @@
     "code": null,
     "code_name": "Nymph"
   },
+  "char_1040_blaze2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "烛煌",
+      "skills": [
+        "炙手之援",
+        "沸血燎原",
+        "众恶的焚场"
+      ],
+      "alias": [
+        "zhu huang",
+        "zhuhuang"
+      ],
+      "appellation": "Blaze the Igniting Spark"
+    },
+    "code": null,
+    "code_name": "Blaze the Igniting Spark"
+  },
   "char_614_acsupo": {
     "zh_CN": {
       "enabled": true,
@@ -18631,23 +18869,23 @@
     "code": null,
     "code_name": "Mechanist"
   },
-  "char_4058_pepe": {
+  "char_2026_yu": {
     "zh_CN": {
       "enabled": true,
-      "name": "佩佩",
+      "name": "余",
       "skills": [
-        "盖戳！",
-        "阻遏混乱锤",
-        "时光震荡"
+        "今日做东",
+        "厚礼上宾",
+        "灶里乾坤"
       ],
       "alias": [
-        "pei pei",
-        "peipei"
+        "yu",
+        "yu"
       ],
-      "appellation": "Pepe"
+      "appellation": "Yu"
     },
     "code": null,
-    "code_name": "Pepe"
+    "code_name": "Yu"
   },
   "char_1019_siege2": {
     "zh_CN": {
@@ -18718,23 +18956,6 @@
     },
     "code": null,
     "code_name": "Cherry-3"
-  },
-  "token_10036_lasher_mcbird": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "发条羽兽",
-      "skills": [
-        "上紧发条",
-        "权知轻重"
-      ],
-      "alias": [
-        "fa tiao yu shou",
-        "fatiaoyushou"
-      ],
-      "appellation": "Clockwork Fowlbeast"
-    },
-    "code": null,
-    "code_name": "Clockwork Fowlbeast"
   },
   "token_10040_siege2_vlion": {
     "zh_CN": {
