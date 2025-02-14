@@ -5794,6 +5794,139 @@
       "name": "“热成形记忆”"
     }
   },
+  "uniequip_002_chen2": {
+    "char_id": "char_1013_chen2",
+    "en_US": {
+      "enabled": true,
+      "name": "Beach Combat Suit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ビーチ用コンバットセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "해변 전투 세트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙滩战斗套装"
+    }
+  },
+  "uniequip_002_aosta": {
+    "char_id": "char_346_aosta",
+    "en_US": {
+      "enabled": true,
+      "name": "Emergency Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "逃亡用の緊急キット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "도망길의 응급 키트"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "逃亡路上的应急小包"
+    }
+  },
+  "uniequip_002_excu": {
+    "char_id": "char_279_excu",
+    "en_US": {
+      "enabled": true,
+      "name": "Executor's Satchel"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "執行人のバッグ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "집행자의 휴대 가방"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "执行者随身包"
+    }
+  },
+  "uniequip_002_pinecn": {
+    "char_id": "char_440_pinecn",
+    "en_US": {
+      "enabled": true,
+      "name": "Mobile Powerbank"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ポータブル電源"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이동식 보조 베터리"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "移动电箱"
+    }
+  },
+  "uniequip_002_mitm": {
+    "char_id": "char_4147_mitm",
+    "en_US": {
+      "enabled": true,
+      "name": "Beware of the Edges"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "秘められた鋭さ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "감춰진 예리함"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "内敛锋芒"
+    }
+  },
+  "uniequip_003_mostma": {
+    "char_id": "char_213_mostma",
+    "en_US": {
+      "enabled": true,
+      "name": "Veteran Legatus' Customized Cloak"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レガトゥス専用クローク"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "베테랑 만국 전달자의 커스텀 망토"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "资深万国信使定制斗篷"
+    }
+  },
+  "uniequip_003_swire2": {
+    "char_id": "char_1033_swire2",
+    "en_US": {
+      "enabled": true,
+      "name": "Director Swire's Lungmen Food Guide"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "スワイヤーの龍門グルメガイド"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스와이어 용문 미식 가이드"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "诗怀雅的龙门美食指南"
+    }
+  },
   "uniequip_004_kalts": {
     "char_id": "char_003_kalts",
     "en_US": {
@@ -5963,55 +6096,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "“莺歌”"
-    }
-  },
-  "uniequip_002_chen2": {
-    "char_id": "char_1013_chen2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "沙滩战斗套装"
-    }
-  },
-  "uniequip_002_aosta": {
-    "char_id": "char_346_aosta",
-    "zh_CN": {
-      "enabled": true,
-      "name": "逃亡路上的应急小包"
-    }
-  },
-  "uniequip_002_excu": {
-    "char_id": "char_279_excu",
-    "zh_CN": {
-      "enabled": true,
-      "name": "执行者随身包"
-    }
-  },
-  "uniequip_002_pinecn": {
-    "char_id": "char_440_pinecn",
-    "zh_CN": {
-      "enabled": true,
-      "name": "移动电箱"
-    }
-  },
-  "uniequip_002_mitm": {
-    "char_id": "char_4147_mitm",
-    "zh_CN": {
-      "enabled": true,
-      "name": "内敛锋芒"
-    }
-  },
-  "uniequip_003_mostma": {
-    "char_id": "char_213_mostma",
-    "zh_CN": {
-      "enabled": true,
-      "name": "资深万国信使定制斗篷"
-    }
-  },
-  "uniequip_003_swire2": {
-    "char_id": "char_1033_swire2",
-    "zh_CN": {
-      "enabled": true,
-      "name": "诗怀雅的龙门美食指南"
     }
   },
   "uniequip_002_marcil": {
@@ -6357,6 +6441,13 @@
       "name": "“朔”"
     }
   },
+  "uniequip_002_nowell": {
+    "char_id": "char_4173_nowell",
+    "zh_CN": {
+      "enabled": true,
+      "name": "致祖父"
+    }
+  },
   "uniequip_004_dusk": {
     "char_id": "char_2015_dusk",
     "zh_CN": {
@@ -6369,6 +6460,13 @@
     "zh_CN": {
       "enabled": true,
       "name": "森蚺特限证章"
+    }
+  },
+  "uniequip_002_etlchi": {
+    "char_id": "char_4010_etlchi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "易枯萎的航船"
     }
   }
 }

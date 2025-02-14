@@ -506,7 +506,7 @@
       "enabled": true,
       "name": "바닐라",
       "skills": [
-        "돌격지령-원군"
+        "돌격지령 - 원군"
       ],
       "alias": []
     },
@@ -868,7 +868,7 @@
       "enabled": true,
       "name": "크루스",
       "skills": [
-        "2연사-자동"
+        "2연사 - 자동"
       ],
       "alias": []
     },
@@ -1589,7 +1589,7 @@
       "name": "메테오",
       "skills": [
         "쇄갑격",
-        "쇄갑격-확산"
+        "쇄갑격 - 확산"
       ],
       "alias": []
     },
@@ -2003,7 +2003,7 @@
       "name": "쿠리어",
       "skills": [
         "돌격 지령 β",
-        "돌격지령-방어"
+        "돌격지령 - 방어"
       ],
       "alias": []
     },
@@ -2049,7 +2049,7 @@
       "name": "스캐빈저",
       "skills": [
         "돌격 지령 β",
-        "돌격지령-공격"
+        "돌격지령 - 공격"
       ],
       "alias": []
     },
@@ -2969,7 +2969,7 @@
       "name": "가비알",
       "skills": [
         "활력회복",
-        "활력회복-광역"
+        "활력회복 - 광역"
       ],
       "alias": []
     },
@@ -4411,6 +4411,52 @@
     "code": "blacknight",
     "code_name": "Blacknight"
   },
+  "char_4147_mitm": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mitm",
+      "skills": [
+        "Remote Self-Destruct",
+        "Power Under Pressure"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミトム",
+      "skills": [
+        "リモートパージ",
+        "負荷テスト"
+      ],
+      "alias": [
+        "みとむ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미틈",
+      "skills": [
+        "원격 해체",
+        "내압 출력"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "渡桥",
+      "skills": [
+        "遥控解体",
+        "承压功率"
+      ],
+      "alias": [
+        "du qiao",
+        "duqiao"
+      ],
+      "appellation": "Mitm"
+    },
+    "code": "mitm",
+    "code_name": "Mitm"
+  },
   "char_497_ctable": {
     "en_US": {
       "enabled": true,
@@ -5812,7 +5858,7 @@
       "enabled": true,
       "name": "블루포이즌",
       "skills": [
-        "이중사격-자동",
+        "이중사격 - 자동",
         "독액 살포"
       ],
       "alias": []
@@ -5930,7 +5976,7 @@
       "enabled": true,
       "name": "Stormeye",
       "skills": [
-        "Spiral Arm"
+        "Pronation"
       ],
       "alias": []
     },
@@ -10174,8 +10220,8 @@
       "enabled": true,
       "name": "하이디",
       "skills": [
-        "픽션-분노한 병사",
-        "픽션-녹슨 도시"
+        "픽션 - 분노한 병사",
+        "픽션 - 녹슨 도시"
       ],
       "alias": []
     },
@@ -10792,6 +10838,52 @@
     },
     "code": "iana",
     "code_name": "Iana"
+  },
+  "char_4151_tinman": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tin Man",
+      "skills": [
+        "'Ol' Curly'",
+        "'Big Larry'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブリキ",
+      "skills": [
+        "「オールドカーリー」",
+        "「ビッグラリー」"
+      ],
+      "alias": [
+        "ぶりき"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "틴맨",
+      "skills": [
+        "'올드 켈리'",
+        "'빅 래리'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "锡人",
+      "skills": [
+        "“老科利”",
+        "“大拉里”"
+      ],
+      "alias": [
+        "xi ren",
+        "xiren"
+      ],
+      "appellation": "Tin Man"
+    },
+    "code": "tin man",
+    "code_name": "Tin Man"
   },
   "char_103_angel": {
     "en_US": {
@@ -12543,6 +12635,56 @@
     "code": "ebenholz",
     "code_name": "Ebenholz"
   },
+  "char_4146_nymph": {
+    "en_US": {
+      "enabled": true,
+      "name": "Nymph",
+      "skills": [
+        "Strike of the Djall",
+        "Fear Blast",
+        "Crumbling Heart"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ニンフ",
+      "skills": [
+        "心の笞刑",
+        "心の戦慄",
+        "心の決壊"
+      ],
+      "alias": [
+        "にんふ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "님프",
+      "skills": [
+        "디얄 일격",
+        "공포의 폭파",
+        "마음의 붕괴"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "妮芙",
+      "skills": [
+        "笞心击",
+        "怵然震爆",
+        "心防溃决"
+      ],
+      "alias": [
+        "ni fu",
+        "nifu"
+      ],
+      "appellation": "Nymph"
+    },
+    "code": "nymph",
+    "code_name": "Nymph"
+  },
   "char_206_gnosis": {
     "en_US": {
       "enabled": true,
@@ -12620,9 +12762,9 @@
       "enabled": true,
       "name": "안젤리나",
       "skills": [
-        "아케인스태프-충전",
-        "아케인스태프-미립자",
-        "아케인스태프-반중력"
+        "아케인스태프 - 충전",
+        "아케인스태프 - 미립자",
+        "아케인스태프 - 반중력"
       ],
       "alias": []
     },
@@ -14921,8 +15063,8 @@
       "name": "첸",
       "skills": [
         "칼집 공격",
-        "적소-발도",
-        "적소-절영"
+        "적소 - 발도",
+        "적소 - 절영"
       ],
       "alias": []
     },
@@ -17691,6 +17833,52 @@
     "code": "undeviating course",
     "code_name": "Undeviating Course"
   },
+  "token_10037_mitm_trshrb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Cherry-3",
+      "skills": [
+        "Scrapheap Buggies",
+        "Scrapheap Buggies"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チェリー3号",
+      "skills": [
+        "ガラクタの戦車",
+        "ガラクタの戦車"
+      ],
+      "alias": [
+        "ちぇりー3号"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "체리 3호",
+      "skills": [
+        "폐품 전차",
+        "폐품 전차"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "樱桃三号",
+      "skills": [
+        "废品战车",
+        "废品战车"
+      ],
+      "alias": [
+        "ying tao san hao",
+        "yingtaosanhao"
+      ],
+      "appellation": "Cherry-3"
+    },
+    "code": "cherry-3",
+    "code_name": "Cherry-3"
+  },
   "token_10036_lasher_mcbird": {
     "en_US": {
       "enabled": true,
@@ -18413,23 +18601,6 @@
     "code": null,
     "code_name": "Rose Salt"
   },
-  "char_4147_mitm": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "渡桥",
-      "skills": [
-        "遥控解体",
-        "承压功率"
-      ],
-      "alias": [
-        "du qiao",
-        "duqiao"
-      ],
-      "appellation": "Mitm"
-    },
-    "code": null,
-    "code_name": "Mitm"
-  },
   "char_4144_chilc": {
     "zh_CN": {
       "enabled": true,
@@ -18497,6 +18668,23 @@
     },
     "code": null,
     "code_name": "Tecno"
+  },
+  "char_4173_nowell": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "诺威尔",
+      "skills": [
+        "步履不停",
+        "生命不息"
+      ],
+      "alias": [
+        "nuo wei er",
+        "nuoweier"
+      ],
+      "appellation": "Nowell"
+    },
+    "code": null,
+    "code_name": "Nowell"
   },
   "char_4143_sensi": {
     "zh_CN": {
@@ -18599,23 +18787,6 @@
     },
     "code": null,
     "code_name": "Bobbing"
-  },
-  "char_4151_tinman": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "锡人",
-      "skills": [
-        "“老科利”",
-        "“大拉里”"
-      ],
-      "alias": [
-        "xi ren",
-        "xiren"
-      ],
-      "appellation": "Tin Man"
-    },
-    "code": null,
-    "code_name": "Tin Man"
   },
   "char_611_acnipe": {
     "zh_CN": {
@@ -18724,24 +18895,6 @@
     },
     "code": null,
     "code_name": "Lappland the Decadenza"
-  },
-  "char_4146_nymph": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "妮芙",
-      "skills": [
-        "笞心击",
-        "怵然震爆",
-        "心防溃决"
-      ],
-      "alias": [
-        "ni fu",
-        "nifu"
-      ],
-      "appellation": "Nymph"
-    },
-    "code": null,
-    "code_name": "Nymph"
   },
   "char_1040_blaze2": {
     "zh_CN": {
@@ -18923,6 +19076,24 @@
     "code": null,
     "code_name": "Sharp"
   },
+  "char_4010_etlchi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "隐德来希",
+      "skills": [
+        "玫影觅迹",
+        "绯红壁合",
+        "灵与欲的惜别"
+      ],
+      "alias": [
+        "yin de lai xi",
+        "yindelaixi"
+      ],
+      "appellation": "Entelechia"
+    },
+    "code": null,
+    "code_name": "Entelechia"
+  },
   "token_10041_cathy_catsld": {
     "zh_CN": {
       "enabled": true,
@@ -18939,23 +19110,6 @@
     },
     "code": null,
     "code_name": "Crawler Protection Unit"
-  },
-  "token_10037_mitm_trshrb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "樱桃三号",
-      "skills": [
-        "废品战车",
-        "废品战车"
-      ],
-      "alias": [
-        "ying tao san hao",
-        "yingtaosanhao"
-      ],
-      "appellation": "Cherry-3"
-    },
-    "code": null,
-    "code_name": "Cherry-3"
   },
   "token_10040_siege2_vlion": {
     "zh_CN": {
