@@ -35921,6 +35921,78 @@
       "enabled": true
     }
   },
+  "act41side_st01": {
+    "code": "EA-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_01": {
+    "code": "EA-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_tr01": {
+    "code": "EA-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_02": {
+    "code": "EA-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_03": {
+    "code": "EA-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_04": {
+    "code": "EA-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_05": {
+    "code": "EA-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_06": {
+    "code": "EA-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_st02": {
+    "code": "EA-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_07": {
+    "code": "EA-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_08": {
+    "code": "EA-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act41side_st03": {
+    "code": "EA-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act40side_st01": {
     "code": "OR-ST-1",
     "zh_CN": {
@@ -37213,6 +37285,12 @@
   },
   "camp_r_26": {
     "code": "炎国",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_27": {
+    "code": "莱塔尼亚",
     "zh_CN": {
       "enabled": true
     }

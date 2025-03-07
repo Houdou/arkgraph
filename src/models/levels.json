@@ -1,5 +1,63 @@
 [
   {
+    "level": "EA-1",
+    "energy": 9,
+    "unique_id": "act41side_01",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-1-3"
+      },
+      {
+        "resource": "M-1-2"
+      },
+      {
+        "resource": "M-1-5"
+      },
+      {
+        "resource": "M-1-6"
+      },
+      {
+        "resource": "M-1-4"
+      },
+      {
+        "resource": "M-1-1"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "EA-2",
+    "energy": 9,
+    "unique_id": "act41side_02",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-1-3"
+      },
+      {
+        "resource": "M-1-2"
+      },
+      {
+        "resource": "M-1-5"
+      },
+      {
+        "resource": "M-1-6"
+      },
+      {
+        "resource": "M-1-4"
+      },
+      {
+        "resource": "M-1-1"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "OR-1",
     "energy": 9,
     "unique_id": "act40side_01",
@@ -2415,6 +2473,57 @@
       },
       {
         "resource": "C-4-8"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "EA-3",
+    "energy": 12,
+    "unique_id": "act41side_03",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-2-1"
+      },
+      {
+        "resource": "M-2-4"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "EA-4",
+    "energy": 12,
+    "unique_id": "act41side_04",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-2-5"
+      },
+      {
+        "resource": "M-2-6"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "EA-5",
+    "energy": 12,
+    "unique_id": "act41side_05",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-2-4"
+      },
+      {
+        "resource": "M-2-5"
       }
     ],
     "special_drop": [],
@@ -18935,6 +19044,48 @@
     "extra_drop": []
   },
   {
+    "level": "EA-6",
+    "energy": 21,
+    "unique_id": "act41side_06",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-3-9"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "EA-7",
+    "energy": 21,
+    "unique_id": "act41side_07",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-3-14"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
+    "level": "EA-8",
+    "energy": 21,
+    "unique_id": "act41side_08",
+    "zone_id": "act41side_zone1",
+    "is_perm": false,
+    "normal_drop": [
+      {
+        "resource": "M-3-17"
+      }
+    ],
+    "special_drop": [],
+    "extra_drop": []
+  },
+  {
     "level": "OR-7",
     "energy": 21,
     "unique_id": "act40side_07",
@@ -20337,7 +20488,7 @@
     "level": "HS-1",
     "energy": 9,
     "unique_id": "act31side_01",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20376,7 +20527,7 @@
     "level": "HS-2",
     "energy": 9,
     "unique_id": "act31side_02",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20415,7 +20566,7 @@
     "level": "HS-3",
     "energy": 9,
     "unique_id": "act31side_03",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20454,7 +20605,7 @@
     "level": "HS-4",
     "energy": 12,
     "unique_id": "act31side_04",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20493,7 +20644,7 @@
     "level": "HS-5",
     "energy": 12,
     "unique_id": "act31side_05",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20540,7 +20691,7 @@
     "level": "HS-6",
     "energy": 12,
     "unique_id": "act31side_06",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20587,7 +20738,7 @@
     "level": "HS-7",
     "energy": 21,
     "unique_id": "act31side_07",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20638,7 +20789,7 @@
     "level": "HS-8",
     "energy": 21,
     "unique_id": "act31side_08",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -20701,7 +20852,7 @@
     "level": "HS-9",
     "energy": 21,
     "unique_id": "act31side_09",
-    "zone_id": "act31side_zone1",
+    "zone_id": "act31sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {

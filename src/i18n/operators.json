@@ -18737,6 +18737,23 @@
     "code": null,
     "code_name": "Philae"
   },
+  "char_4177_brigid": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "水灯心",
+      "skills": [
+        "所熟知的",
+        "可驯服的"
+      ],
+      "alias": [
+        "shui deng xin",
+        "shuidengxin"
+      ],
+      "appellation": "Brigid"
+    },
+    "code": null,
+    "code_name": "Brigid"
+  },
   "char_4162_cathy": {
     "zh_CN": {
       "enabled": true,
@@ -18787,6 +18804,23 @@
     },
     "code": null,
     "code_name": "Bobbing"
+  },
+  "char_4171_wulfen": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "钼铅",
+      "skills": [
+        "“驱兽专用”",
+        "“顽石专用”"
+      ],
+      "alias": [
+        "mu qian",
+        "muqian"
+      ],
+      "appellation": "Wulfenite"
+    },
+    "code": null,
+    "code_name": "Wulfenite"
   },
   "char_611_acnipe": {
     "zh_CN": {
@@ -18913,6 +18947,24 @@
     },
     "code": null,
     "code_name": "Blaze the Igniting Spark"
+  },
+  "char_450_necras": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "死芒",
+      "skills": [
+        "噩愿",
+        "折朽",
+        "冠死以冕"
+      ],
+      "alias": [
+        "si mang",
+        "simang"
+      ],
+      "appellation": "Necrass"
+    },
+    "code": null,
+    "code_name": "Necrass"
   },
   "char_614_acsupo": {
     "zh_CN": {
@@ -19145,5 +19197,40 @@
     },
     "code": null,
     "code_name": "Puppet Dancer"
+  },
+  "token_10043_necras_skeltn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "悲叹的仆役",
+      "skills": [
+        "怨火缠身",
+        "怨火缠身",
+        "怨火缠身"
+      ],
+      "alias": [
+        "bei tan de pu yi",
+        "beitandepuyi"
+      ],
+      "appellation": "The Servant of Lament"
+    },
+    "code": null,
+    "code_name": "The Servant of Lament"
+  },
+  "token_10044_wulfen_mine": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "矿石“杀手”",
+      "skills": [
+        "“驱兽专用”",
+        "“顽石专用”"
+      ],
+      "alias": [
+        "kuang shi “ sha shou ”",
+        "kuangshi“shashou”"
+      ],
+      "appellation": "Rocky Chomper"
+    },
+    "code": null,
+    "code_name": "Rocky Chomper"
   }
 }

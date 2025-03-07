@@ -6468,5 +6468,54 @@
       "enabled": true,
       "name": "易枯萎的航船"
     }
+  },
+  "uniequip_002_thorn2": {
+    "char_id": "char_1039_thorn2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "三面的金币"
+    }
+  },
+  "uniequip_002_tinman": {
+    "char_id": "char_4151_tinman",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“颅相学”"
+    }
+  },
+  "uniequip_002_wulfen": {
+    "char_id": "char_4171_wulfen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "矿石展览柜"
+    }
+  },
+  "uniequip_003_gnosis": {
+    "char_id": "char_206_gnosis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "一号项目模型"
+    }
+  },
+  "uniequip_003_vigil": {
+    "char_id": "char_427_vigil",
+    "zh_CN": {
+      "enabled": true,
+      "name": "时光不再"
+    }
+  },
+  "uniequip_003_sleach": {
+    "char_id": "char_479_sleach",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“友谊万岁”"
+    }
+  },
+  "uniequip_003_bgsnow": {
+    "char_id": "char_4055_bgsnow",
+    "zh_CN": {
+      "enabled": true,
+      "name": "仪式感"
+    }
   }
 }
