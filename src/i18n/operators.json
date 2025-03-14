@@ -4549,6 +4549,52 @@
     "code": "puzzle",
     "code_name": "Puzzle"
   },
+  "char_4144_chilc": {
+    "en_US": {
+      "enabled": true,
+      "name": "Chilchuck",
+      "skills": [
+        "Lockpicks",
+        "Improvisation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チルチャック",
+      "skills": [
+        "ピッキングツール",
+        "臨機応変"
+      ],
+      "alias": [
+        "ちるちゃっく"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "칠책",
+      "skills": [
+        "피킹 툴",
+        "임기응변"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "齐尔查克",
+      "skills": [
+        "开锁工具",
+        "随机应变"
+      ],
+      "alias": [
+        "qi er cha ke",
+        "qierchake"
+      ],
+      "appellation": "Chilchuck"
+    },
+    "code": "chilchuck",
+    "code_name": "Chilchuck"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -4912,6 +4958,52 @@
     },
     "code": "sharp",
     "code_name": "Sharp"
+  },
+  "char_4142_laios": {
+    "en_US": {
+      "enabled": true,
+      "name": "Laios",
+      "skills": [
+        "Cowardly Kensuke",
+        "Intimidation Tactics"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ライオス",
+      "skills": [
+        "臆病なケン助",
+        "威嚇戦法"
+      ],
+      "alias": [
+        "らいおす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "라이오스",
+      "skills": [
+        "겁쟁이 검돌이",
+        "위협 전법"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "莱欧斯",
+      "skills": [
+        "胆小剑助",
+        "威吓战法"
+      ],
+      "alias": [
+        "lai ou si",
+        "laiousi"
+      ],
+      "appellation": "Laios"
+    },
+    "code": "laios",
+    "code_name": "Laios"
   },
   "char_155_tiger": {
     "en_US": {
@@ -8354,6 +8446,52 @@
     },
     "code": "bassline",
     "code_name": "Bassline"
+  },
+  "char_4143_sensi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Senshi",
+      "skills": [
+        "A Meal For One",
+        "Monster Meals For Many"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "センシ",
+      "skills": [
+        "一人分の料理",
+        "宴会用魔物料理"
+      ],
+      "alias": [
+        "せんし"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "센시",
+      "skills": [
+        "1인분 요리",
+        "연회용 마물 요리"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "森西",
+      "skills": [
+        "单人份料理",
+        "团体魔物大餐"
+      ],
+      "alias": [
+        "sen xi",
+        "senxi"
+      ],
+      "appellation": "Senshi"
+    },
+    "code": "senshi",
+    "code_name": "Senshi"
   },
   "char_144_red": {
     "en_US": {
@@ -12384,6 +12522,56 @@
     },
     "code": "dusk",
     "code_name": "Dusk"
+  },
+  "char_4141_marcil": {
+    "en_US": {
+      "enabled": true,
+      "name": "Marcille",
+      "skills": [
+        "A Top Student's Abilities",
+        "Summon Familiar",
+        "Explosion Magic"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "マルシル",
+      "skills": [
+        "才女の実力",
+        "使い魔召喚",
+        "爆破魔法"
+      ],
+      "alias": [
+        "まるしる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "마르실",
+      "skills": [
+        "수재의 실력",
+        "사역마 소환",
+        "폭파 마법"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "玛露西尔",
+      "skills": [
+        "才女的实力",
+        "召唤使魔",
+        "爆破魔法"
+      ],
+      "alias": [
+        "ma lou xi er",
+        "malouxier"
+      ],
+      "appellation": "Marcille"
+    },
+    "code": "marcille",
+    "code_name": "Marcille"
   },
   "char_472_pasngr": {
     "en_US": {
@@ -18601,23 +18789,6 @@
     "code": null,
     "code_name": "Rose Salt"
   },
-  "char_4144_chilc": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "齐尔查克",
-      "skills": [
-        "开锁工具",
-        "随机应变"
-      ],
-      "alias": [
-        "qi er cha ke",
-        "qierchake"
-      ],
-      "appellation": "Chilchuck"
-    },
-    "code": null,
-    "code_name": "Chilchuck"
-  },
   "char_4052_surfer": {
     "zh_CN": {
       "enabled": true,
@@ -18634,23 +18805,6 @@
     },
     "code": null,
     "code_name": "Surfer"
-  },
-  "char_4142_laios": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "莱欧斯",
-      "skills": [
-        "胆小剑助",
-        "威吓战法"
-      ],
-      "alias": [
-        "lai ou si",
-        "laiousi"
-      ],
-      "appellation": "Laios"
-    },
-    "code": null,
-    "code_name": "Laios"
   },
   "char_4164_tecno": {
     "zh_CN": {
@@ -18685,23 +18839,6 @@
     },
     "code": null,
     "code_name": "Nowell"
-  },
-  "char_4143_sensi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "森西",
-      "skills": [
-        "单人份料理",
-        "团体魔物大餐"
-      ],
-      "alias": [
-        "sen xi",
-        "senxi"
-      ],
-      "appellation": "Senshi"
-    },
-    "code": null,
-    "code_name": "Senshi"
   },
   "char_4155_talr": {
     "zh_CN": {
@@ -18875,24 +19012,6 @@
     },
     "code": null,
     "code_name": "Tulip"
-  },
-  "char_4141_marcil": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "玛露西尔",
-      "skills": [
-        "才女的实力",
-        "召唤使魔",
-        "爆破魔法"
-      ],
-      "alias": [
-        "ma lou xi er",
-        "malouxier"
-      ],
-      "appellation": "Marcille"
-    },
-    "code": null,
-    "code_name": "Marcille"
   },
   "char_612_accast": {
     "zh_CN": {

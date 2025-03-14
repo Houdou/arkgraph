@@ -6100,6 +6100,18 @@
   },
   "uniequip_002_marcil": {
     "char_id": "char_4141_marcil",
+    "en_US": {
+      "enabled": true,
+      "name": "Book Collection of the Best Magician"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "才女の蔵書"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "수재의 장서"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "才女的藏书"
@@ -6107,6 +6119,18 @@
   },
   "uniequip_002_laios": {
     "char_id": "char_4142_laios",
+    "en_US": {
+      "enabled": true,
+      "name": "Trophies to Bring Back to the Dungeon"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "持ち帰りたい荷物"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가지고 돌아가고 싶은 짐"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "想要带回迷宫的包裹"
@@ -6114,6 +6138,18 @@
   },
   "uniequip_002_chilc": {
     "char_id": "char_4144_chilc",
+    "en_US": {
+      "enabled": true,
+      "name": "Authentic Locksmith's Instruments"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "オリジナルピッキングツール"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오리지널 피킹 툴"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "原版开锁工具"
@@ -6121,6 +6157,18 @@
   },
   "uniequip_002_sensi": {
     "char_id": "char_4143_sensi",
+    "en_US": {
+      "enabled": true,
+      "name": "Non-Magical Culinary Arts"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "魔法と無縁の調理技術"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "마법과는 연이 없는 조리 기술"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "非魔法厨艺"
@@ -6128,6 +6176,18 @@
   },
   "uniequip_002_hodrer": {
     "char_id": "char_4088_hodrer",
+    "en_US": {
+      "enabled": true,
+      "name": "A New Life"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "新たな生活"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "새로운 삶"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "新的生活"
@@ -6135,6 +6195,18 @@
   },
   "uniequip_002_ulpia": {
     "char_id": "char_4145_ulpia",
+    "en_US": {
+      "enabled": true,
+      "name": "Vestiarium Ulpiani"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウルピアヌスのクローゼット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "울피아누스의 옷장"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "乌尔比安的衣橱"
@@ -6142,6 +6214,18 @@
   },
   "uniequip_002_chimes": {
     "char_id": "char_4083_chimes",
+    "en_US": {
+      "enabled": true,
+      "name": "To My Successor"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "後任の方へ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "후임자에게"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "致继任者"
@@ -6149,6 +6233,18 @@
   },
   "uniequip_002_quartz": {
     "char_id": "char_4063_quartz",
+    "en_US": {
+      "enabled": true,
+      "name": "Watchmaker's Kit"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "時計修理キット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시계 수리 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "钟表修理套组"
@@ -6156,6 +6252,18 @@
   },
   "uniequip_003_irene": {
     "char_id": "char_4009_irene",
+    "en_US": {
+      "enabled": true,
+      "name": "Inquisitor's Ration"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "審問官のレーション"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "재판관의 보급"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "审判官口粮"
