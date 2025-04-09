@@ -6271,6 +6271,18 @@
   },
   "uniequip_003_ironmn": {
     "char_id": "char_4072_ironmn",
+    "en_US": {
+      "enabled": true,
+      "name": "Highbury Imprint"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ハイベリー・インプリント"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "하이버리의 낙인"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "海布里印记"
@@ -6278,6 +6290,18 @@
   },
   "uniequip_002_heidi": {
     "char_id": "char_4045_heidi",
+    "en_US": {
+      "enabled": true,
+      "name": "Luxurious Life-and-Death Struggle"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "絢爛豪華なる死闘"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "찬란하고 화려한 사투"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "华贵璀璨的死斗"
@@ -6285,6 +6309,18 @@
   },
   "uniequip_003_horn": {
     "char_id": "char_4039_horn",
+    "en_US": {
+      "enabled": true,
+      "name": "Old Clothes, New Days"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "過ぎし日の新装"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오래된 나날과 새로운 옷"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "旧日新装"
@@ -6292,6 +6328,18 @@
   },
   "uniequip_002_cathy": {
     "char_id": "char_4162_cathy",
+    "en_US": {
+      "enabled": true,
+      "name": "Leisure Hours"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ひと時の暇"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "여가 시간"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "闲暇时分"
@@ -6299,6 +6347,18 @@
   },
   "uniequip_002_sora": {
     "char_id": "char_101_sora",
+    "en_US": {
+      "enabled": true,
+      "name": "'Unison'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「ユニゾン」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'제창'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“齐唱”"
@@ -6306,6 +6366,18 @@
   },
   "uniequip_002_cetsyr": {
     "char_id": "char_4134_cetsyr",
+    "en_US": {
+      "enabled": true,
+      "name": "Another Story"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "物語の結末"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이야기의 결말"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "故事的结局"
@@ -6313,6 +6385,18 @@
   },
   "uniequip_002_skadi2": {
     "char_id": "char_1012_skadi2",
+    "en_US": {
+      "enabled": true,
+      "name": "An Exuvia of Her Past"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "彼女の残滓"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "과거의 허물"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "蜕化的残迹"
@@ -6624,6 +6708,55 @@
     "zh_CN": {
       "enabled": true,
       "name": "仪式感"
+    }
+  },
+  "uniequip_002_ines": {
+    "char_id": "char_4087_ines",
+    "zh_CN": {
+      "enabled": true,
+      "name": "角部“护理”套组"
+    }
+  },
+  "uniequip_002_ctable": {
+    "char_id": "char_497_ctable",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“不发声者”"
+    }
+  },
+  "uniequip_002_surfer": {
+    "char_id": "char_4052_surfer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "佳肴"
+    }
+  },
+  "uniequip_002_alanna": {
+    "char_id": "char_4178_alanna",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“随身保险杠”"
+    }
+  },
+  "uniequip_003_logos": {
+    "char_id": "char_4133_logos",
+    "zh_CN": {
+      "enabled": true,
+      "name": "《语义范式百科》"
+    }
+  },
+  "uniequip_003_mudrok": {
+    "char_id": "char_311_mudrok",
+    "zh_CN": {
+      "enabled": true,
+      "name": "沃土的愿景"
+    }
+  },
+  "uniequip_002_puzzle": {
+    "char_id": "char_4017_puzzle",
+    "zh_CN": {
+      "enabled": true,
+      "name": "首要任务"
     }
   }
 }
