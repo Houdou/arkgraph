@@ -5,6 +5,32 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2025-04-10",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1019_siege2",
+      "char_4162_cathy",
+      "char_487_bobb"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2025-04-10",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4179_monstr",
+      "char_4178_alanna",
+      "char_445_wscoot"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2025-03-14",
     "type": "new_operators",
     "new_operators": [
@@ -119,42 +145,6 @@
       "char_605_cmedic",
       "char_602_cdfend",
       "char_606_csuppo"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2024-11-01",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1035_wisdel",
-      "char_4133_logos",
-      "char_4134_cetsyr",
-      "char_4132_ascln",
-      "char_1036_fang2",
-      "char_4131_odda",
-      "char_446_aroma",
-      "char_1037_amiya3",
-      "char_4130_luton",
-      "char_4136_phonor"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2024-11-01",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4026_vulpis",
-      "char_1038_whitw2",
-      "char_1502_crosly",
-      "char_4155_talr",
-      "char_4148_philae",
-      "char_4165_ctrail"
     ]
   }
 ]
