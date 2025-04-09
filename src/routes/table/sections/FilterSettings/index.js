@@ -41,6 +41,7 @@ const resource_filter_options = [
 			{ value: 'salt', render: 'material_grouping_options-type-salt' },
 			{ value: 'fiber', render: 'material_grouping_options-type-fiber' },
 			{ value: 'cyclichc', render: 'material_grouping_options-type-cyclichc' },
+			{ value: 'optical', render: 'material_grouping_options-type-optical' },
 			{ value: 'skill', render: 'material_grouping_options-type-skill' },
 			{ value: 'chip', render: 'material_grouping_options-type-chip' },
 		],

@@ -1,5 +1,21 @@
 [
   {
+    "id": "M-5-6",
+    "unique_id": 30165,
+    "name": "重相位对映体",
+    "pinyin": "chong xiang wei dui ying ti",
+    "tier": "T5",
+    "type": "rare",
+    "source": {},
+    "formula": {
+      "M-4-19": 2,
+      "M-4-18": 1,
+      "M-4-17": 1,
+      "G-4-1": 400
+    },
+    "sort_id": 100001
+  },
+  {
     "id": "M-5-5",
     "unique_id": 30155,
     "name": "烧结核凝晶",
@@ -77,6 +93,37 @@
       "G-4-1": 400
     },
     "sort_id": 100006
+  },
+  {
+    "id": "M-4-19",
+    "unique_id": 31094,
+    "name": "手性屈光体",
+    "pinyin": "shou xing qu guang ti",
+    "tier": "T4",
+    "type": "optical",
+    "source": {
+      "15-9": "罕见"
+    },
+    "formula": {
+      "M-3-19": 1,
+      "M-3-18": 1,
+      "M-3-4": 1,
+      "G-4-1": 300
+    },
+    "sort_id": 100007
+  },
+  {
+    "id": "M-3-19",
+    "unique_id": 31093,
+    "name": "类凝结核",
+    "pinyin": "lei ning jie he",
+    "tier": "T3",
+    "type": "optical",
+    "source": {
+      "15-9": "小概率"
+    },
+    "formula": {},
+    "sort_id": 100008
   },
   {
     "id": "M-4-18",

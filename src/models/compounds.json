@@ -108,6 +108,7 @@
       },
       {
         "probability": 0.568,
+        "resource": "M-4-19",
         "quantity": 1
       }
     ],
@@ -218,6 +219,7 @@
       },
       {
         "probability": 0.568,
+        "resource": "M-4-19",
         "quantity": 1
       }
     ],
@@ -332,6 +334,7 @@
       },
       {
         "probability": 0.568,
+        "resource": "M-4-19",
         "quantity": 1
       }
     ],
@@ -446,6 +449,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -560,6 +564,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -674,6 +679,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -788,6 +794,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -986,6 +993,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -1184,6 +1192,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -1382,6 +1391,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -1580,6 +1590,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -1778,6 +1789,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -1968,6 +1980,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2082,6 +2095,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2196,6 +2210,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2310,6 +2325,7 @@
       },
       {
         "probability": 0.568,
+        "resource": "M-4-19",
         "quantity": 1
       }
     ],
@@ -2424,6 +2440,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2538,6 +2555,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2652,6 +2670,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2766,6 +2785,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -2880,6 +2900,7 @@
       },
       {
         "probability": 0.568,
+        "resource": "M-4-19",
         "quantity": 1
       }
     ],
@@ -2994,6 +3015,7 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
@@ -3108,14 +3130,17 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
     "ap_cost": 4
   },
   {
+    "material_id": "M-4-19",
     "formula": [
       {
+        "resource": "M-3-19",
         "quantity": 1
       },
       {
@@ -3220,14 +3245,17 @@
       },
       {
         "probability": 0.483,
+        "resource": "M-3-19",
         "quantity": 1
       }
     ],
     "ap_cost": 4
   },
   {
+    "material_id": "M-5-6",
     "formula": [
       {
+        "resource": "M-4-19",
         "quantity": 2
       },
       {
@@ -3332,6 +3360,7 @@
       },
       {
         "probability": 0.568,
+        "resource": "M-4-19",
         "quantity": 1
       }
     ],

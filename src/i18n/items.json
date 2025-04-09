@@ -2169,6 +2169,32 @@
       "sortId": 100002
     }
   },
+  "M-5-6": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "重相位对映体",
+      "alias": [
+        "zhong xiang wei dui ying ti",
+        "zhongxiangweiduiyingti"
+      ],
+      "sortId": 100001
+    }
+  },
   "M-3-11": {
     "en_US": {
       "enabled": true,
@@ -2663,6 +2689,58 @@
         "huantingyuzhiti"
       ],
       "sortId": 100009
+    }
+  },
+  "M-3-19": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "类凝结核",
+      "alias": [
+        "lei ning jie he",
+        "leiningjiehe"
+      ],
+      "sortId": 100008
+    }
+  },
+  "M-4-19": {
+    "en_US": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "ko_KR": {
+      "enabled": false,
+      "name": "",
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "手性屈光体",
+      "alias": [
+        "shou xing qu guang ti",
+        "shouxingquguangti"
+      ],
+      "sortId": 100007
     }
   },
   "O-4-1": {
