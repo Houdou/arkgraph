@@ -57,7 +57,7 @@ const operator_data = {};
 
 const readTable = (lang) => {
 	const repo = lang === 'zh_CN' ? 'data' : 'data-i18n';
-	
+
 	const characters = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/character_table.json`));
 	const skills = require(path.resolve(__dirname, `./${repo}/${lang}/gamedata/excel/skill_table.json`));
 
@@ -87,7 +87,7 @@ const readTable = (lang) => {
 		)
 		.filter(
 			([, value]) => {
-				return !["TRAP"].includes(value.profession);
+				return !["TRAP", "TOKEN"].includes(value.profession);
 			}
 		)
 		.forEach(([unique_id, value]) => {
