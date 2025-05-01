@@ -3771,6 +3771,52 @@
     "code": "verdant",
     "code_name": "Verdant"
   },
+  "char_4165_ctrail": {
+    "en_US": {
+      "enabled": true,
+      "name": "Contrail",
+      "skills": [
+        "Emergency Take-Off",
+        "Skyswoop Shot"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "コントレイル",
+      "skills": [
+        "緊急離陸",
+        "空を切る羽根"
+      ],
+      "alias": [
+        "こんとれいる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "콘트레일",
+      "skills": [
+        "긴급 이륙",
+        "하늘을 가르는 비행"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "云迹",
+      "skills": [
+        "紧急升空",
+        "掠空飞翎"
+      ],
+      "alias": [
+        "yun ji",
+        "yunji"
+      ],
+      "appellation": "Contrail"
+    },
+    "code": "contrail",
+    "code_name": "Contrail"
+  },
   "char_128_plosis": {
     "en_US": {
       "enabled": true,
@@ -8677,6 +8723,52 @@
     "code": "mr. nothing",
     "code_name": "Mr.Nothing"
   },
+  "char_4155_talr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Figurino",
+      "skills": [
+        "Tailor's Measure",
+        "Lockstitch"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フィグリーノ",
+      "skills": [
+        "採寸用メジャー",
+        "絡みつく縫い糸"
+      ],
+      "alias": [
+        "ふぃぐりーの"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "피구리노",
+      "skills": [
+        "재단용 자",
+        "재봉실 속박"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "裁度",
+      "skills": [
+        "量衣尺",
+        "缝线缠身"
+      ],
+      "alias": [
+        "cai du",
+        "caidu"
+      ],
+      "appellation": "Figurino"
+    },
+    "code": "figurino",
+    "code_name": "Figurino"
+  },
   "char_107_liskam": {
     "en_US": {
       "enabled": true,
@@ -9320,6 +9412,52 @@
     },
     "code": "cement",
     "code_name": "Cement"
+  },
+  "char_4148_philae": {
+    "en_US": {
+      "enabled": true,
+      "name": "Philae",
+      "skills": [
+        "Blessing of the River of Life",
+        "Curse of the River of Death"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "フィラエ",
+      "skills": [
+        "霊河の加護",
+        "冥河の呪詛"
+      ],
+      "alias": [
+        "ふぃらえ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "필라에",
+      "skills": [
+        "영혼의 강의 보호",
+        "죽음의 강의 저주"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "菲莱",
+      "skills": [
+        "灵河护佑",
+        "冥河诅咒"
+      ],
+      "alias": [
+        "fei lai",
+        "feilai"
+      ],
+      "appellation": "Philae"
+    },
+    "code": "philae",
+    "code_name": "Philae"
   },
   "char_145_prove": {
     "en_US": {
@@ -12015,6 +12153,56 @@
     "code": "saga",
     "code_name": "Saga"
   },
+  "char_4026_vulpis": {
+    "en_US": {
+      "enabled": true,
+      "name": "Vulpisfoglia",
+      "skills": [
+        "Discreet Discipline",
+        "Damoclean Interrogation",
+        "La Volpe Nascosta"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウルピスフォリア",
+      "skills": [
+        "お仕置き",
+        "鋭利な尋問",
+        "狐隠れの技"
+      ],
+      "alias": [
+        "うるぴすふぉりあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "불피스폴리아",
+      "skills": [
+        "가벼운 징계",
+        "칼날 낙하 고문",
+        "은밀한 여우의 예술"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "忍冬",
+      "skills": [
+        "小施惩戒",
+        "坠刃拷问",
+        "隐狐之艺"
+      ],
+      "alias": [
+        "ren dong",
+        "rendong"
+      ],
+      "appellation": "Vulpisfoglia"
+    },
+    "code": "vulpisfoglia",
+    "code_name": "Vulpisfoglia"
+  },
   "char_479_sleach": {
     "en_US": {
       "enabled": true,
@@ -12865,6 +13053,56 @@
     "code": "goldenglow",
     "code_name": "Goldenglow"
   },
+  "char_1038_whitw2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lappland the Decadenza",
+      "skills": [
+        "Lament of the Apathetic",
+        "Hurricane Chase",
+        "Finale: Catastrofe"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "荒蕪ラップランド",
+      "skills": [
+        "怠け者の悲鳴",
+        "狼たちの戯れ",
+        "ディザストロ・フィナーレ"
+      ],
+      "alias": [
+        "荒蕪らっぷらんど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "라플란드 더 데카덴차",
+      "skills": [
+        "나태한 자의 비명",
+        "사냥의 질주",
+        "종막 - 재난"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "荒芜拉普兰德",
+      "skills": [
+        "慵怠者悲鸣",
+        "逐猎狂飙",
+        "终幕·浩劫"
+      ],
+      "alias": [
+        "huang wu la pu lan de",
+        "huangwulapulande"
+      ],
+      "appellation": "Lappland the Decadenza"
+    },
+    "code": "lappland the decadenza",
+    "code_name": "Lappland the Decadenza"
+  },
   "char_4046_ebnhlz": {
     "en_US": {
       "enabled": true,
@@ -13614,6 +13852,56 @@
     },
     "code": "kirin r yato",
     "code_name": "Kirin R Yato"
+  },
+  "char_1502_crosly": {
+    "en_US": {
+      "enabled": true,
+      "name": "CrownSlayer",
+      "skills": [
+        "Smoke and Mirrors",
+        "Smokebomb Blast",
+        "Smokescreen Execution"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "クラウンスレイヤー",
+      "skills": [
+        "煙塵の目眩まし",
+        "硝煙の爆震",
+        "狼煙の処刑場"
+      ],
+      "alias": [
+        "くらうんすれいやー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "크라운슬레이어",
+      "skills": [
+        "시야 차단 연막",
+        "포연과 진폭",
+        "봉화 처형장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "弑君者",
+      "skills": [
+        "尘烟蔽目",
+        "硝烟震爆",
+        "烽烟行刑场"
+      ],
+      "alias": [
+        "shi jun zhe",
+        "shijunzhe"
+      ],
+      "appellation": "Crownslayer"
+    },
+    "code": "crownslayer",
+    "code_name": "Crownslayer"
   },
   "char_322_lmlee": {
     "en_US": {
@@ -16521,6 +16809,20 @@
     "code": "promoted amiya medic",
     "code_name": "Amiya"
   },
+  "char_4188_confes": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "CONFESS-47",
+      "skills": [],
+      "alias": [
+        "CONFESS-47",
+        "CONFESS-47"
+      ],
+      "appellation": "CONFESS-47"
+    },
+    "code": null,
+    "code_name": "CONFESS-47"
+  },
   "char_604_ccast": {
     "zh_CN": {
       "enabled": true,
@@ -16682,23 +16984,6 @@
     "code": null,
     "code_name": "Reserve Operator - Supporter"
   },
-  "char_4165_ctrail": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "云迹",
-      "skills": [
-        "紧急升空",
-        "掠空飞翎"
-      ],
-      "alias": [
-        "yun ji",
-        "yunji"
-      ],
-      "appellation": "Contrail"
-    },
-    "code": null,
-    "code_name": "Contrail"
-  },
   "char_4163_rosesa": {
     "zh_CN": {
       "enabled": true,
@@ -16733,6 +17018,23 @@
     "code": null,
     "code_name": "Surfer"
   },
+  "char_4187_graceb": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "聆音",
+      "skills": [
+        "开颅挽歌",
+        "破膛弥撒"
+      ],
+      "alias": [
+        "ling yin",
+        "lingyin"
+      ],
+      "appellation": "Gracebearer"
+    },
+    "code": null,
+    "code_name": "Gracebearer"
+  },
   "char_4164_tecno": {
     "zh_CN": {
       "enabled": true,
@@ -16766,40 +17068,6 @@
     },
     "code": null,
     "code_name": "Nowell"
-  },
-  "char_4155_talr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "裁度",
-      "skills": [
-        "量衣尺",
-        "缝线缠身"
-      ],
-      "alias": [
-        "cai du",
-        "caidu"
-      ],
-      "appellation": "Figurino"
-    },
-    "code": null,
-    "code_name": "Figurino"
-  },
-  "char_4148_philae": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "菲莱",
-      "skills": [
-        "灵河护佑",
-        "冥河诅咒"
-      ],
-      "alias": [
-        "fei lai",
-        "feilai"
-      ],
-      "appellation": "Philae"
-    },
-    "code": null,
-    "code_name": "Philae"
   },
   "char_4177_brigid": {
     "zh_CN": {
@@ -16887,23 +17155,23 @@
     "code": null,
     "code_name": "Stormeye"
   },
-  "char_4026_vulpis": {
+  "char_4193_lemuen": {
     "zh_CN": {
       "enabled": true,
-      "name": "忍冬",
+      "name": "蕾缪安",
       "skills": [
-        "小施惩戒",
-        "坠刃拷问",
-        "隐狐之艺"
+        "重逢问候",
+        "归乡邀约",
+        "礼炮·强制追思"
       ],
       "alias": [
-        "ren dong",
-        "rendong"
+        "lei mou an",
+        "leimouan"
       ],
-      "appellation": "Vulpisfoglia"
+      "appellation": "Lemuen"
     },
     "code": null,
-    "code_name": "Vulpisfoglia"
+    "code_name": "Lemuen"
   },
   "char_608_acpion": {
     "zh_CN": {
@@ -16940,24 +17208,6 @@
     },
     "code": null,
     "code_name": "Pith"
-  },
-  "char_1038_whitw2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "荒芜拉普兰德",
-      "skills": [
-        "慵怠者悲鸣",
-        "逐猎狂飙",
-        "终幕·浩劫"
-      ],
-      "alias": [
-        "huang wu la pu lan de",
-        "huangwulapulande"
-      ],
-      "appellation": "Lappland the Decadenza"
-    },
-    "code": null,
-    "code_name": "Lappland the Decadenza"
   },
   "char_1040_blaze2": {
     "zh_CN": {
@@ -17013,24 +17263,6 @@
     "code": null,
     "code_name": "Raidian"
   },
-  "char_1502_crosly": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "弑君者",
-      "skills": [
-        "尘烟蔽目",
-        "硝烟震爆",
-        "烽烟行刑场"
-      ],
-      "alias": [
-        "shi jun zhe",
-        "shijunzhe"
-      ],
-      "appellation": "Crownslayer"
-    },
-    "code": null,
-    "code_name": "Crownslayer"
-  },
   "char_615_acspec": {
     "zh_CN": {
       "enabled": true,
@@ -17048,6 +17280,24 @@
     },
     "code": null,
     "code_name": "Misery"
+  },
+  "char_1041_angel2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "新约能天使",
+      "skills": [
+        "天空大扫除",
+        "开火成瘾症",
+        "使命必达！"
+      ],
+      "alias": [
+        "xin yue neng tian shi",
+        "xinyuenengtianshi"
+      ],
+      "appellation": "Exusiai the New Covenant"
+    },
+    "code": null,
+    "code_name": "Exusiai the New Covenant"
   },
   "char_1039_thorn2": {
     "zh_CN": {
@@ -17120,6 +17370,24 @@
     },
     "code": null,
     "code_name": "Mechanist"
+  },
+  "char_4194_rmixer": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "信仰搅拌机",
+      "skills": [
+        "铳骑主考官",
+        "八臂电锯侠",
+        "退休前布道"
+      ],
+      "alias": [
+        "xin yang jiao ban ji",
+        "xinyangjiaobanji"
+      ],
+      "appellation": "Sankta Miksaparato"
+    },
+    "code": null,
+    "code_name": "Sankta Miksaparato"
   },
   "char_2026_yu": {
     "zh_CN": {
