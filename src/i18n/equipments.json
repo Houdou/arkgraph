@@ -6404,6 +6404,18 @@
   },
   "uniequip_002_cello": {
     "char_id": "char_245_cello",
+    "en_US": {
+      "enabled": true,
+      "name": "The Decrescendo"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "デクレシェンド"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "셈여림표"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "强弱法"
@@ -6411,6 +6423,18 @@
   },
   "uniequip_002_threye": {
     "char_id": "char_4102_threye",
+    "en_US": {
+      "enabled": true,
+      "name": "The Enlightened"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "未来を導く明かり"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미래를 향한 등불"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "启行未来的灯"
@@ -6418,6 +6442,18 @@
   },
   "uniequip_002_bobb": {
     "char_id": "char_487_bobb",
+    "en_US": {
+      "enabled": true,
+      "name": "Second-hand Textbook for Social Work"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "中古のソーシャルワーク教科書"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사회복지학 중고 교재"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "社工课程二手教材"
@@ -6425,6 +6461,18 @@
   },
   "uniequip_002_whitw2": {
     "char_id": "char_1038_whitw2",
+    "en_US": {
+      "enabled": true,
+      "name": "Hour of the Wolf"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "狼の時間"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "늑대의 시간"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "狼时"
@@ -6432,6 +6480,18 @@
   },
   "uniequip_002_vulpis": {
     "char_id": "char_4026_vulpis",
+    "en_US": {
+      "enabled": true,
+      "name": "Patience, Mission, Vacation"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "殺し屋にも休暇あり"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "킬러의 휴일"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "杀手也有假期"
@@ -6439,6 +6499,18 @@
   },
   "uniequip_002_crosly": {
     "char_id": "char_1502_crosly",
+    "en_US": {
+      "enabled": true,
+      "name": "Цареубийца"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "王冠を屠る刃"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시해의 칼"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "弑君刃"
@@ -6446,6 +6518,18 @@
   },
   "uniequip_002_talr": {
     "char_id": "char_4155_talr",
+    "en_US": {
+      "enabled": true,
+      "name": "'The Big Shot'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「大物」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'거물'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“头面人物”"
@@ -6453,6 +6537,18 @@
   },
   "uniequip_003_lessng": {
     "char_id": "char_4011_lessng",
+    "en_US": {
+      "enabled": true,
+      "name": "Stress Test for Ascetics"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "修行者のストレス耐性訓練"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "고행자의 스트레스 해소 훈련"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "苦修者的抗压训练"
@@ -6460,6 +6556,18 @@
   },
   "uniequip_004_aglina": {
     "char_id": "char_291_aglina",
+    "en_US": {
+      "enabled": true,
+      "name": "Angelina's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アンジェリーナの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "안젤리나의 특별 한정 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "安洁莉娜特限证章"
@@ -6467,6 +6575,18 @@
   },
   "uniequip_003_rosmon": {
     "char_id": "char_391_rosmon",
+    "en_US": {
+      "enabled": true,
+      "name": "Rosmontis's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ロスモンティスの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로즈몬티스의 특별 한정 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "迷迭香特限证章"
@@ -6757,6 +6877,90 @@
     "zh_CN": {
       "enabled": true,
       "name": "首要任务"
+    }
+  },
+  "uniequip_003_slent2": {
+    "char_id": "char_1031_slent2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "可控动量"
+    }
+  },
+  "uniequip_002_mlynar": {
+    "char_id": "char_4064_mlynar",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“鞘中人”"
+    }
+  },
+  "uniequip_002_takila": {
+    "char_id": "char_486_takila",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“双重身份”"
+    }
+  },
+  "uniequip_002_wscoot": {
+    "char_id": "char_445_wscoot",
+    "zh_CN": {
+      "enabled": true,
+      "name": "义"
+    }
+  },
+  "uniequip_003_mlyss": {
+    "char_id": "char_249_mlyss",
+    "zh_CN": {
+      "enabled": true,
+      "name": "落叶四季"
+    }
+  },
+  "uniequip_003_thorns": {
+    "char_id": "char_293_thorns",
+    "zh_CN": {
+      "enabled": true,
+      "name": "沙蚀"
+    }
+  },
+  "uniequip_004_mizuki": {
+    "char_id": "char_437_mizuki",
+    "zh_CN": {
+      "enabled": true,
+      "name": "水月特限证章"
+    }
+  },
+  "uniequip_004_archet": {
+    "char_id": "char_332_archet",
+    "zh_CN": {
+      "enabled": true,
+      "name": "空弦特限证章"
+    }
+  },
+  "uniequip_003_crosly": {
+    "char_id": "char_1502_crosly",
+    "zh_CN": {
+      "enabled": true,
+      "name": "木炭画"
+    }
+  },
+  "uniequip_002_angel2": {
+    "char_id": "char_1041_angel2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新朋友圣城生活套组"
+    }
+  },
+  "uniequip_002_lemuen": {
+    "char_id": "char_4193_lemuen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“弹匣与花窗”"
+    }
+  },
+  "uniequip_002_rmixer": {
+    "char_id": "char_4194_rmixer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "毛刷套装"
     }
   }
 }
