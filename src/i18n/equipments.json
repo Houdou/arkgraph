@@ -6594,6 +6594,18 @@
   },
   "uniequip_002_acnipe": {
     "char_id": "char_611_acnipe",
+    "en_US": {
+      "enabled": true,
+      "name": "Stormeye's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Stormeyeの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "스톰아이의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Stormeye证章"
@@ -6601,6 +6613,18 @@
   },
   "uniequip_002_acspec": {
     "char_id": "char_615_acspec",
+    "en_US": {
+      "enabled": true,
+      "name": "Misery's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Miseryの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미저리의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Misery证章"
@@ -6608,6 +6632,18 @@
   },
   "uniequip_002_acguad": {
     "char_id": "char_609_acguad",
+    "en_US": {
+      "enabled": true,
+      "name": "Sharp's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Sharpの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "샤프의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Sharp证章"
@@ -6615,6 +6651,18 @@
   },
   "uniequip_002_acfend": {
     "char_id": "char_610_acfend",
+    "en_US": {
+      "enabled": true,
+      "name": "Mechanist's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Mechanistの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "메커니스트의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Mechanist证章"
@@ -6622,6 +6670,18 @@
   },
   "uniequip_002_acsupo": {
     "char_id": "char_614_acsupo",
+    "en_US": {
+      "enabled": true,
+      "name": "Raidian's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Raidianの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "라이디언의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Raidian证章"
@@ -6629,6 +6689,18 @@
   },
   "uniequip_002_accast": {
     "char_id": "char_612_accast",
+    "en_US": {
+      "enabled": true,
+      "name": "Pith's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Pithの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "피스의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Pith证章"
@@ -6636,6 +6708,18 @@
   },
   "uniequip_002_acpion": {
     "char_id": "char_608_acpion",
+    "en_US": {
+      "enabled": true,
+      "name": "Tulip's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チューリップの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "튤립의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "郁金香证章"
@@ -6643,6 +6727,18 @@
   },
   "uniequip_002_acmedc": {
     "char_id": "char_613_acmedc",
+    "en_US": {
+      "enabled": true,
+      "name": "Touch's Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Touchの記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "터치의 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "Touch证章"
@@ -6961,6 +7057,48 @@
     "zh_CN": {
       "enabled": true,
       "name": "毛刷套装"
+    }
+  },
+  "uniequip_002_phatm2": {
+    "char_id": "char_1042_phatm2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "酒神之心"
+    }
+  },
+  "uniequip_002_necras": {
+    "char_id": "char_450_necras",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未处理的遗产"
+    }
+  },
+  "uniequip_002_tecno": {
+    "char_id": "char_4164_tecno",
+    "zh_CN": {
+      "enabled": true,
+      "name": "烧烤店官方优惠章"
+    }
+  },
+  "uniequip_003_ascln": {
+    "char_id": "char_4132_ascln",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“阿斯卡纶的眼睛”"
+    }
+  },
+  "uniequip_003_f12yin": {
+    "char_id": "char_264_f12yin",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“夜深人静”"
+    }
+  },
+  "uniequip_003_doroth": {
+    "char_id": "char_4048_doroth",
+    "zh_CN": {
+      "enabled": true,
+      "name": "梦中人"
     }
   }
 }

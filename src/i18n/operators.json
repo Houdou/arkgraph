@@ -1287,6 +1287,56 @@
     "code": "haze",
     "code_name": "Haze"
   },
+  "char_604_ccast": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Caster",
+      "skills": [
+        "Tactical Chant α",
+        "Tactical Chant β",
+        "Tactical Chant γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-術師",
+      "skills": [
+        "戦術詠唱α",
+        "戦術詠唱β",
+        "戦術詠唱γ"
+      ],
+      "alias": [
+        "予備隊員-術師"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 캐스터",
+      "skills": [
+        "전술 영창 α",
+        "전술 영창 β",
+        "전술 영창 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-术师",
+      "skills": [
+        "战术咏唱·α型",
+        "战术咏唱·β型",
+        "战术咏唱·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - shu shi",
+        "yubeiganyuan-shushi"
+      ],
+      "appellation": "Reserve Operator - Caster"
+    },
+    "code": "reserve operator - caster",
+    "code_name": "Reserve Operator - Caster"
+  },
   "char_109_fmout": {
     "en_US": {
       "enabled": true,
@@ -1701,6 +1751,56 @@
     "code": "may",
     "code_name": "May"
   },
+  "char_603_csnipe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Sniper",
+      "skills": [
+        "ATK Up α",
+        "ATK Up β",
+        "ATK Up γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-狙撃",
+      "skills": [
+        "攻撃力強化α",
+        "攻撃力強化β",
+        "攻撃力強化γ"
+      ],
+      "alias": [
+        "予備隊員-狙撃"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 스나이퍼",
+      "skills": [
+        "공격 강화 α",
+        "공격 강화 β",
+        "공격 강화 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-狙击",
+      "skills": [
+        "攻击力强化·α型",
+        "攻击力强化·β型",
+        "攻击力强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - ju ji",
+        "yubeiganyuan-juji"
+      ],
+      "appellation": "Reserve Operator - Sniper"
+    },
+    "code": "reserve operator - sniper",
+    "code_name": "Reserve Operator - Sniper"
+  },
   "char_118_yuki": {
     "en_US": {
       "enabled": true,
@@ -2069,6 +2169,56 @@
     "code": "scavenger",
     "code_name": "Scavenger"
   },
+  "char_600_cpione": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Vanguard",
+      "skills": [
+        "Charge α",
+        "Charge β",
+        "Charge γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-先鋒",
+      "skills": [
+        "突撃指令α",
+        "突撃指令β",
+        "突撃指令γ"
+      ],
+      "alias": [
+        "予備隊員-先鋒"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 오퍼레이터 - 뱅가드",
+      "skills": [
+        "돌격 지령 α",
+        "돌격 지령 β",
+        "돌격 지령 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-先锋",
+      "skills": [
+        "冲锋号令·α型",
+        "冲锋号令·β型",
+        "冲锋号令·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - xian feng",
+        "yubeiganyuan-xianfeng"
+      ],
+      "appellation": "Reserve Operator - Vanguard"
+    },
+    "code": "reserve operator - vanguard",
+    "code_name": "Reserve Operator - Vanguard"
+  },
   "char_290_vigna": {
     "en_US": {
       "enabled": true,
@@ -2344,6 +2494,56 @@
     },
     "code": "conviction",
     "code_name": "Conviction"
+  },
+  "char_601_cguard": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Guard",
+      "skills": [
+        "ATK Up α",
+        "ATK Up β",
+        "ATK Up γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-前衛",
+      "skills": [
+        "攻撃力強化α",
+        "攻撃力強化β",
+        "攻撃力強化γ"
+      ],
+      "alias": [
+        "予備隊員-前衛"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 오퍼레이터 - 가드",
+      "skills": [
+        "공격 강화 α",
+        "공격 강화 β",
+        "공격 강화 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-近卫",
+      "skills": [
+        "攻击力强化·α型",
+        "攻击力强化·β型",
+        "攻击力强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - jin wei",
+        "yubeiganyuan-jinwei"
+      ],
+      "appellation": "Reserve Operator - Guard"
+    },
+    "code": "reserve operator - guard",
+    "code_name": "Reserve Operator - Guard"
   },
   "char_193_frostl": {
     "en_US": {
@@ -2805,6 +3005,56 @@
     "code": "gravel",
     "code_name": "Gravel"
   },
+  "char_607_cspec": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Specialist",
+      "skills": [
+        "Hit and Run α",
+        "Hit and Run β",
+        "Hit and Run γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-特殊",
+      "skills": [
+        "一撃離脱α",
+        "一撃離脱β",
+        "一撃離脱γ"
+      ],
+      "alias": [
+        "予備隊員-特殊"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 오퍼레이터 - 스페셜리스트",
+      "skills": [
+        "일격즉퇴 α",
+        "일격즉퇴 β",
+        "일격즉퇴 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-特种",
+      "skills": [
+        "一击即退·α型",
+        "一击即退·β型",
+        "一击即退·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - te zhong",
+        "yubeiganyuan-tezhong"
+      ],
+      "appellation": "Reserve Operator - Specialist"
+    },
+    "code": "reserve operator - specialist",
+    "code_name": "Reserve Operator - Specialist"
+  },
   "char_272_strong": {
     "en_US": {
       "enabled": true,
@@ -3034,6 +3284,56 @@
     },
     "code": "sussurro",
     "code_name": "Sussurro"
+  },
+  "char_605_cmedic": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Medic",
+      "skills": [
+        "Healing Up α",
+        "Healing Up β",
+        "Healing Up γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-医療",
+      "skills": [
+        "回復力強化α",
+        "回復力強化β",
+        "回復力強化γ"
+      ],
+      "alias": [
+        "予備隊員-医療"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 오퍼레이터 - 메딕",
+      "skills": [
+        "치료 강화 α",
+        "치료 강화 β",
+        "치료 강화 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-医疗",
+      "skills": [
+        "治疗强化·α型",
+        "治疗强化·β型",
+        "治疗强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - yi liao",
+        "yubeiganyuan-yiliao"
+      ],
+      "appellation": "Reserve Operator - Medic"
+    },
+    "code": "reserve operator - medic",
+    "code_name": "Reserve Operator - Medic"
   },
   "char_181_flower": {
     "en_US": {
@@ -3311,6 +3611,56 @@
     "code": "bubble",
     "code_name": "Bubble"
   },
+  "char_602_cdfend": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Defender",
+      "skills": [
+        "DEF Up α",
+        "DEF Up β",
+        "DEF Up γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-重装",
+      "skills": [
+        "防御力強化α",
+        "防御力強化β",
+        "防御力強化γ"
+      ],
+      "alias": [
+        "予備隊員-重装"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 인원 - 디펜더",
+      "skills": [
+        "방어 강화 α",
+        "방어 강화 β",
+        "방어 강화 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-重装",
+      "skills": [
+        "防御力强化·α型",
+        "防御力强化·β型",
+        "防御力强化·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - zhong zhuang",
+        "yubeiganyuan-zhongzhuang"
+      ],
+      "appellation": "Reserve Operator - Defender"
+    },
+    "code": "reserve operator - defender",
+    "code_name": "Reserve Operator - Defender"
+  },
   "char_4130_luton": {
     "en_US": {
       "enabled": true,
@@ -3586,6 +3936,56 @@
     },
     "code": "podenco",
     "code_name": "Podenco"
+  },
+  "char_606_csuppo": {
+    "en_US": {
+      "enabled": true,
+      "name": "Reserve Operator - Supporter",
+      "skills": [
+        "Tactical Chant α",
+        "Tactical Chant β",
+        "Tactical Chant γ"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "予備隊員-補助",
+      "skills": [
+        "戦術詠唱α",
+        "戦術詠唱β",
+        "戦術詠唱γ"
+      ],
+      "alias": [
+        "予備隊員-補助"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예비 오퍼레이터 - 서포터",
+      "skills": [
+        "전술 영창 α",
+        "전술 영창 β",
+        "전술 영창 γ"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "预备干员-辅助",
+      "skills": [
+        "战术咏唱·α型",
+        "战术咏唱·β型",
+        "战术咏唱·γ型"
+      ],
+      "alias": [
+        "yu bei gan yuan - fu zhu",
+        "yubeiganyuan-fuzhu"
+      ],
+      "appellation": "Reserve Operator - Supporter"
+    },
+    "code": "reserve operator - supporter",
+    "code_name": "Reserve Operator - Supporter"
   },
   "char_484_robrta": {
     "en_US": {
@@ -11403,6 +11803,56 @@
     "code": "ash",
     "code_name": "Ash"
   },
+  "char_611_acnipe": {
+    "en_US": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "Skyshatter",
+        "One With the Bow",
+        "Pronation"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "破空",
+        "心技一体",
+        "旋風矢"
+      ],
+      "alias": [
+        "Stormeye"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "파공",
+        "심수합일",
+        "스파이럴 암"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Stormeye",
+      "skills": [
+        "破空",
+        "心手合一",
+        "旋臂"
+      ],
+      "alias": [
+        "Stormeye",
+        "Stormeye"
+      ],
+      "appellation": "Stormeye"
+    },
+    "code": "stormeye",
+    "code_name": "Stormeye"
+  },
   "char_340_shwaz": {
     "en_US": {
       "enabled": true,
@@ -12303,6 +12753,56 @@
     "code": "flametail",
     "code_name": "Flametail"
   },
+  "char_608_acpion": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tulip",
+      "skills": [
+        "Estocada",
+        "Ráfaga",
+        "Lingering Scent"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "チューリップ",
+      "skills": [
+        "貫心",
+        "瞬迅",
+        "残り香"
+      ],
+      "alias": [
+        "ちゅーりっぷ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "튤립",
+      "skills": [
+        "사무침",
+        "순식간",
+        "향기의 여운"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "郁金香",
+      "skills": [
+        "钻心",
+        "迅瞬",
+        "只余芬芳"
+      ],
+      "alias": [
+        "yu jin xiang",
+        "yujinxiang"
+      ],
+      "appellation": "Tulip"
+    },
+    "code": "tulip",
+    "code_name": "Tulip"
+  },
   "char_427_vigil": {
     "en_US": {
       "enabled": true,
@@ -12853,6 +13353,56 @@
     "code": "marcille",
     "code_name": "Marcille"
   },
+  "char_612_accast": {
+    "en_US": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "'All That I Author'",
+        "'All That I Do'",
+        "'All That I Command'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "「我が記すものを記せ」",
+        "「我が成すことを成せ」",
+        "「我が御すものを御せ」"
+      ],
+      "alias": [
+        "Pith"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“쓰고 싶은 걸 쓴다”",
+        "“하고 싶은 걸 한다”",
+        "“다루고 싶은 걸 다룬다”"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Pith",
+      "skills": [
+        "“书我所书”",
+        "“为我所为”",
+        "“驭我所驭”"
+      ],
+      "alias": [
+        "Pith",
+        "Pith"
+      ],
+      "appellation": "Pith"
+    },
+    "code": "pith",
+    "code_name": "Pith"
+  },
   "char_472_pasngr": {
     "en_US": {
       "enabled": true,
@@ -13352,6 +13902,56 @@
     },
     "code": "suzuran",
     "code_name": "Suzuran"
+  },
+  "char_614_acsupo": {
+    "en_US": {
+      "enabled": true,
+      "name": "Raidian",
+      "skills": [
+        "Diphony",
+        "Triform",
+        "Impulse Signal"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Raidian",
+      "skills": [
+        "双音",
+        "三形",
+        "躍動するシグナル"
+      ],
+      "alias": [
+        "Raidian"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Raidian",
+      "skills": [
+        "두 가지 음",
+        "세 가지 형",
+        "시그널 약동"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Raidian",
+      "skills": [
+        "双声",
+        "三形",
+        "信号跃动"
+      ],
+      "alias": [
+        "Raidian",
+        "Raidian"
+      ],
+      "appellation": "Raidian"
+    },
+    "code": "raidian",
+    "code_name": "Raidian"
   },
   "char_248_mgllan": {
     "en_US": {
@@ -13903,6 +14503,56 @@
     "code": "crownslayer",
     "code_name": "Crownslayer"
   },
+  "char_615_acspec": {
+    "en_US": {
+      "enabled": true,
+      "name": "Misery",
+      "skills": [
+        "When Physics Obeys",
+        "When War Complies",
+        "When Space Surrenders"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Misery",
+      "skills": [
+        "服従せし法則",
+        "恭順せし戦争",
+        "帰依せし空間"
+      ],
+      "alias": [
+        "Misery"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Misery",
+      "skills": [
+        "물리의 복종",
+        "전쟁의 공순",
+        "공간의 귀의"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Misery",
+      "skills": [
+        "物理的服从",
+        "战争的恭顺",
+        "空间的归依"
+      ],
+      "alias": [
+        "Misery",
+        "Misery"
+      ],
+      "appellation": "Misery"
+    },
+    "code": "misery",
+    "code_name": "Misery"
+  },
   "char_322_lmlee": {
     "en_US": {
       "enabled": true,
@@ -14453,6 +15103,56 @@
     "code": "shining",
     "code_name": "Shining"
   },
+  "char_613_acmedc": {
+    "en_US": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "Generous Gift",
+        "Apocalyptic Scene",
+        "Earnest Gospel"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "高潔なる贈与",
+        "天啓の光",
+        "懇願の福音"
+      ],
+      "alias": [
+        "Touch"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "아낌없는 선사",
+        "천계와 같이",
+        "간절함의 복음"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Touch",
+      "skills": [
+        "慨赠",
+        "宛如天启",
+        "恳切福音"
+      ],
+      "alias": [
+        "Touch",
+        "Touch"
+      ],
+      "appellation": "Touch"
+    },
+    "code": "touch",
+    "code_name": "Touch"
+  },
   "char_179_cgbird": {
     "en_US": {
       "enabled": true,
@@ -14752,6 +15452,56 @@
     },
     "code": "hoshiguma",
     "code_name": "Hoshiguma"
+  },
+  "char_610_acfend": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mechanist",
+      "skills": [
+        "Structural Stability",
+        "Invariance Principle",
+        "Stress Inversion"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Mechanist",
+      "skills": [
+        "構造堅牢化",
+        "不変性原理",
+        "応力反転"
+      ],
+      "alias": [
+        "Mechanist"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Mechanist",
+      "skills": [
+        "구조 안정",
+        "불변성 원리",
+        "응력 반전"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mechanist",
+      "skills": [
+        "结构稳定",
+        "不变性原理",
+        "应力倒置"
+      ],
+      "alias": [
+        "Mechanist",
+        "Mechanist"
+      ],
+      "appellation": "Mechanist"
+    },
+    "code": "mechanist",
+    "code_name": "Mechanist"
   },
   "char_202_demkni": {
     "en_US": {
@@ -16253,6 +17003,56 @@
     "code": "lessing",
     "code_name": "Lessing"
   },
+  "char_609_acguad": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "Swiftblade",
+        "Drawing Sword",
+        "To The Bitter End"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "快刀",
+        "鋭刃",
+        "死力"
+      ],
+      "alias": [
+        "Sharp"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "빠른 칼",
+        "빛나는 검",
+        "지치지 않는 힘"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Sharp",
+      "skills": [
+        "快刀",
+        "亮剑",
+        "力战不竭"
+      ],
+      "alias": [
+        "Sharp",
+        "Sharp"
+      ],
+      "appellation": "Sharp"
+    },
+    "code": "sharp",
+    "code_name": "Sharp"
+  },
   "char_1032_excu2": {
     "en_US": {
       "enabled": true,
@@ -16823,78 +17623,6 @@
     "code": null,
     "code_name": "CONFESS-47"
   },
-  "char_604_ccast": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-术师",
-      "skills": [
-        "战术咏唱·α型",
-        "战术咏唱·β型",
-        "战术咏唱·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - shu shi",
-        "yubeiganyuan-shushi"
-      ],
-      "appellation": "Reserve Operator - Caster"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Caster"
-  },
-  "char_603_csnipe": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-狙击",
-      "skills": [
-        "攻击力强化·α型",
-        "攻击力强化·β型",
-        "攻击力强化·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - ju ji",
-        "yubeiganyuan-juji"
-      ],
-      "appellation": "Reserve Operator - Sniper"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Sniper"
-  },
-  "char_600_cpione": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-先锋",
-      "skills": [
-        "冲锋号令·α型",
-        "冲锋号令·β型",
-        "冲锋号令·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - xian feng",
-        "yubeiganyuan-xianfeng"
-      ],
-      "appellation": "Reserve Operator - Vanguard"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Vanguard"
-  },
-  "char_601_cguard": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-近卫",
-      "skills": [
-        "攻击力强化·α型",
-        "攻击力强化·β型",
-        "攻击力强化·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - jin wei",
-        "yubeiganyuan-jinwei"
-      ],
-      "appellation": "Reserve Operator - Guard"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Guard"
-  },
   "char_445_wscoot": {
     "zh_CN": {
       "enabled": true,
@@ -16911,78 +17639,6 @@
     },
     "code": null,
     "code_name": "Windscoot"
-  },
-  "char_607_cspec": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-特种",
-      "skills": [
-        "一击即退·α型",
-        "一击即退·β型",
-        "一击即退·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - te zhong",
-        "yubeiganyuan-tezhong"
-      ],
-      "appellation": "Reserve Operator - Specialist"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Specialist"
-  },
-  "char_605_cmedic": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-医疗",
-      "skills": [
-        "治疗强化·α型",
-        "治疗强化·β型",
-        "治疗强化·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - yi liao",
-        "yubeiganyuan-yiliao"
-      ],
-      "appellation": "Reserve Operator - Medic"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Medic"
-  },
-  "char_602_cdfend": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-重装",
-      "skills": [
-        "防御力强化·α型",
-        "防御力强化·β型",
-        "防御力强化·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - zhong zhuang",
-        "yubeiganyuan-zhongzhuang"
-      ],
-      "appellation": "Reserve Operator - Defender"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Defender"
-  },
-  "char_606_csuppo": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "预备干员-辅助",
-      "skills": [
-        "战术咏唱·α型",
-        "战术咏唱·β型",
-        "战术咏唱·γ型"
-      ],
-      "alias": [
-        "yu bei gan yuan - fu zhu",
-        "yubeiganyuan-fuzhu"
-      ],
-      "appellation": "Reserve Operator - Supporter"
-    },
-    "code": null,
-    "code_name": "Reserve Operator - Supporter"
   },
   "char_4163_rosesa": {
     "zh_CN": {
@@ -17034,6 +17690,23 @@
     },
     "code": null,
     "code_name": "Gracebearer"
+  },
+  "char_4198_christ": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "Miss.Christine",
+      "skills": [
+        "自由用餐礼仪",
+        "狂饮之宴"
+      ],
+      "alias": [
+        "Miss.Christine",
+        "Miss.Christine"
+      ],
+      "appellation": "Miss.Christine"
+    },
+    "code": null,
+    "code_name": "Miss.Christine"
   },
   "char_4164_tecno": {
     "zh_CN": {
@@ -17137,23 +17810,22 @@
     "code": null,
     "code_name": "Wulfenite"
   },
-  "char_611_acnipe": {
+  "char_4191_tippi": {
     "zh_CN": {
       "enabled": true,
-      "name": "Stormeye",
+      "name": "蒂比",
       "skills": [
-        "破空",
-        "心手合一",
-        "旋臂"
+        "专业喷绘技巧",
+        "紧急赶场通知"
       ],
       "alias": [
-        "Stormeye",
-        "Stormeye"
+        "di bi",
+        "dibi"
       ],
-      "appellation": "Stormeye"
+      "appellation": "Tippi"
     },
     "code": null,
-    "code_name": "Stormeye"
+    "code_name": "Tippi"
   },
   "char_4193_lemuen": {
     "zh_CN": {
@@ -17172,42 +17844,6 @@
     },
     "code": null,
     "code_name": "Lemuen"
-  },
-  "char_608_acpion": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "郁金香",
-      "skills": [
-        "钻心",
-        "迅瞬",
-        "只余芬芳"
-      ],
-      "alias": [
-        "yu jin xiang",
-        "yujinxiang"
-      ],
-      "appellation": "Tulip"
-    },
-    "code": null,
-    "code_name": "Tulip"
-  },
-  "char_612_accast": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Pith",
-      "skills": [
-        "“书我所书”",
-        "“为我所为”",
-        "“驭我所驭”"
-      ],
-      "alias": [
-        "Pith",
-        "Pith"
-      ],
-      "appellation": "Pith"
-    },
-    "code": null,
-    "code_name": "Pith"
   },
   "char_1040_blaze2": {
     "zh_CN": {
@@ -17245,41 +17881,23 @@
     "code": null,
     "code_name": "Necrass"
   },
-  "char_614_acsupo": {
+  "char_1042_phatm2": {
     "zh_CN": {
       "enabled": true,
-      "name": "Raidian",
+      "name": "酒神",
       "skills": [
-        "双声",
-        "三形",
-        "信号跃动"
+        "暗夜回声",
+        "群体性谵妄",
+        "空剧场"
       ],
       "alias": [
-        "Raidian",
-        "Raidian"
+        "jiu shen",
+        "jiushen"
       ],
-      "appellation": "Raidian"
+      "appellation": "Tragodia"
     },
     "code": null,
-    "code_name": "Raidian"
-  },
-  "char_615_acspec": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Misery",
-      "skills": [
-        "物理的服从",
-        "战争的恭顺",
-        "空间的归依"
-      ],
-      "alias": [
-        "Misery",
-        "Misery"
-      ],
-      "appellation": "Misery"
-    },
-    "code": null,
-    "code_name": "Misery"
+    "code_name": "Tragodia"
   },
   "char_1041_angel2": {
     "zh_CN": {
@@ -17317,24 +17935,6 @@
     "code": null,
     "code_name": "Thorns the Lodestar"
   },
-  "char_613_acmedc": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Touch",
-      "skills": [
-        "慨赠",
-        "宛如天启",
-        "恳切福音"
-      ],
-      "alias": [
-        "Touch",
-        "Touch"
-      ],
-      "appellation": "Touch"
-    },
-    "code": null,
-    "code_name": "Touch"
-  },
   "char_4179_monstr": {
     "zh_CN": {
       "enabled": true,
@@ -17352,24 +17952,6 @@
     },
     "code": null,
     "code_name": "Mon3tr"
-  },
-  "char_610_acfend": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Mechanist",
-      "skills": [
-        "结构稳定",
-        "不变性原理",
-        "应力倒置"
-      ],
-      "alias": [
-        "Mechanist",
-        "Mechanist"
-      ],
-      "appellation": "Mechanist"
-    },
-    "code": null,
-    "code_name": "Mechanist"
   },
   "char_4194_rmixer": {
     "zh_CN": {
@@ -17406,24 +17988,6 @@
     },
     "code": null,
     "code_name": "Yu"
-  },
-  "char_609_acguad": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Sharp",
-      "skills": [
-        "快刀",
-        "亮剑",
-        "力战不竭"
-      ],
-      "alias": [
-        "Sharp",
-        "Sharp"
-      ],
-      "appellation": "Sharp"
-    },
-    "code": null,
-    "code_name": "Sharp"
   },
   "char_4010_etlchi": {
     "zh_CN": {
