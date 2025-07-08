@@ -6746,6 +6746,18 @@
   },
   "uniequip_002_surtr": {
     "char_id": "char_350_surtr",
+    "en_US": {
+      "enabled": true,
+      "name": "Heart of Sami"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サーミの不滅なる心臓の欠片"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사미 불멸의 심장"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "萨米的不灭心脏碎片"
@@ -6753,6 +6765,18 @@
   },
   "uniequip_002_vvana": {
     "char_id": "char_4098_vvana",
+    "en_US": {
+      "enabled": true,
+      "name": "The Unforeseeable"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "目の届かないところ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "눈이 닿지 않는 곳"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "目不能及之处"
@@ -6760,6 +6784,18 @@
   },
   "uniequip_002_siege2": {
     "char_id": "char_1019_siege2",
+    "en_US": {
+      "enabled": true,
+      "name": "The Adventure of the Lioness"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アドベンチャー・オブ・ライオネス"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "성주의 모험"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "城主的冒险"
@@ -6767,6 +6803,18 @@
   },
   "uniequip_002_amiya2": {
     "char_id": "char_002_amiya",
+    "en_US": {
+      "enabled": true,
+      "name": "Anger to be Tuned"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "調律を待つ怒りの弦"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "조율해야 할 분노"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "待调弦的怒火"
@@ -6774,6 +6822,18 @@
   },
   "uniequip_002_sidero": {
     "char_id": "char_333_sidero",
+    "en_US": {
+      "enabled": true,
+      "name": "Ballast For Wanderlust"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "放浪者のためのバラスト"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "방랑자의 바닥짐"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "漫游者的压舱石"
@@ -6781,6 +6841,18 @@
   },
   "uniequip_002_astesi": {
     "char_id": "char_274_astesi",
+    "en_US": {
+      "enabled": true,
+      "name": "Unpredictable Star Chart"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "未知の星図"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "예측 불가능한 별자리표"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "未卜星图"
@@ -6788,6 +6860,18 @@
   },
   "uniequip_002_frncat": {
     "char_id": "char_185_frncat",
+    "en_US": {
+      "enabled": true,
+      "name": "Clawcure Set with Duality"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ネイルセットの二面性"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "이중성의 발톱 미용 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "美爪套装二象性"
@@ -6795,6 +6879,18 @@
   },
   "uniequip_002_rosesa": {
     "char_id": "char_4163_rosesa",
+    "en_US": {
+      "enabled": true,
+      "name": "Colorful Life in the Salt Flat"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "カラフル塩海生活"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "다채로운 소금 사막 생활"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "多彩盐漠生活"
@@ -6802,9 +6898,40 @@
   },
   "uniequip_003_angel": {
     "char_id": "char_103_angel",
+    "en_US": {
+      "enabled": true,
+      "name": "Welcome to Penguin Logistics"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ようこそ、ペンギン急便へ！"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "웰컴 투 펭귄 로지스틱스"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "欢迎光临，企鹅物流"
+    }
+  },
+  "uniequip_003_chyue": {
+    "char_id": "char_2024_chyue",
+    "en_US": {
+      "enabled": true,
+      "name": "Shuo"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「朔」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'숴'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“朔”"
     }
   },
   "uniequip_002_pepe": {
@@ -6840,13 +6967,6 @@
     "zh_CN": {
       "enabled": true,
       "name": "秉烛人的记录"
-    }
-  },
-  "uniequip_003_chyue": {
-    "char_id": "char_2024_chyue",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“朔”"
     }
   },
   "uniequip_002_nowell": {
@@ -7099,6 +7219,41 @@
     "zh_CN": {
       "enabled": true,
       "name": "梦中人"
+    }
+  },
+  "uniequip_002_reckpr": {
+    "char_id": "char_4196_reckpr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未完成的录武簿"
+    }
+  },
+  "uniequip_002_leizi2": {
+    "char_id": "char_1043_leizi2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“一念”"
+    }
+  },
+  "uniequip_003_typhon": {
+    "char_id": "char_2012_typhon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "冰原的影子"
+    }
+  },
+  "uniequip_003_gdglow": {
+    "char_id": "char_377_gdglow",
+    "zh_CN": {
+      "enabled": true,
+      "name": "梦想终将实现"
+    }
+  },
+  "uniequip_003_gvial2": {
+    "char_id": "char_1026_gvial2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "好锯多磨"
     }
   }
 }
