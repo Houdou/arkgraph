@@ -2046,7 +2046,7 @@
       "name": "ケイパー",
       "skills": [
         "強撃β",
-        "ハピネス200％！"
+        "ハピネス200%！"
       ],
       "alias": [
         "けいぱー"
@@ -4308,6 +4308,52 @@
     },
     "code": "breeze",
     "code_name": "Breeze"
+  },
+  "char_4163_rosesa": {
+    "en_US": {
+      "enabled": true,
+      "name": "Rose Salt",
+      "skills": [
+        "Top-Notch Emergency Meds!",
+        "Super-Fine Slow-Release Meds!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ローズソルト",
+      "skills": [
+        "急なケガにはこの薬！",
+        "長く効くのがこの薬！"
+      ],
+      "alias": [
+        "ろーずそると"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "로즈솔트",
+      "skills": [
+        "최상의 응급약",
+        "절묘한 장기효과약"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "瑰盐",
+      "skills": [
+        "上佳的应急药呀",
+        "绝妙的长效药呀"
+      ],
+      "alias": [
+        "gui yan",
+        "guiyan"
+      ],
+      "appellation": "Rose Salt"
+    },
+    "code": "rose salt",
+    "code_name": "Rose Salt"
   },
   "char_115_headbr": {
     "en_US": {
@@ -7976,6 +8022,52 @@
     },
     "code": "warmy",
     "code_name": "Warmy"
+  },
+  "char_4164_tecno": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tecno",
+      "skills": [
+        "Lockin'",
+        "Poppin'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "テクノ",
+      "skills": [
+        "関節部補強",
+        "気ままなグラフィティ"
+      ],
+      "alias": [
+        "てくの"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "테크노",
+      "skills": [
+        "관절 고정",
+        "자유로운 표현"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "特克诺",
+      "skills": [
+        "关节锁定",
+        "恣意挥洒"
+      ],
+      "alias": [
+        "te ke nuo",
+        "tekenuo"
+      ],
+      "appellation": "Tecno"
+    },
+    "code": "tecno",
+    "code_name": "Tecno"
   },
   "char_242_otter": {
     "en_US": {
@@ -15053,6 +15145,56 @@
     "code": "ela",
     "code_name": "Ela"
   },
+  "char_1039_thorn2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Thorns the Lodestar",
+      "skills": [
+        "Wave Reckoning",
+        "Surge of Ceration",
+        "'Zona Marítima Personal'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "引星ソーンズ",
+      "skills": [
+        "波を計りて",
+        "潮を解析す",
+        "「我が海域」"
+      ],
+      "alias": [
+        "引星そーんず"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "쏜즈 더 로드스타",
+      "skills": [
+        "파도 측정",
+        "해일 분해",
+        "'나의 바다'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "引星棘刺",
+      "skills": [
+        "度算浪波",
+        "解构涌潮",
+        "“我的海疆”"
+      ],
+      "alias": [
+        "yin xing ji ci",
+        "yinxingjici"
+      ],
+      "appellation": "Thorns the Lodestar"
+    },
+    "code": "thorns the lodestar",
+    "code_name": "Thorns the Lodestar"
+  },
   "char_147_shining": {
     "en_US": {
       "enabled": true,
@@ -17640,23 +17782,6 @@
     "code": null,
     "code_name": "Windscoot"
   },
-  "char_4163_rosesa": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "瑰盐",
-      "skills": [
-        "上佳的应急药呀",
-        "绝妙的长效药呀"
-      ],
-      "alias": [
-        "gui yan",
-        "guiyan"
-      ],
-      "appellation": "Rose Salt"
-    },
-    "code": null,
-    "code_name": "Rose Salt"
-  },
   "char_4052_surfer": {
     "zh_CN": {
       "enabled": true,
@@ -17708,22 +17833,22 @@
     "code": null,
     "code_name": "Miss.Christine"
   },
-  "char_4164_tecno": {
+  "char_4196_reckpr": {
     "zh_CN": {
       "enabled": true,
-      "name": "特克诺",
+      "name": "录武官",
       "skills": [
-        "关节锁定",
-        "恣意挥洒"
+        "触类旁通",
+        "一点关窍"
       ],
       "alias": [
-        "te ke nuo",
-        "tekenuo"
+        "lu wu guan",
+        "luwuguan"
       ],
-      "appellation": "Tecno"
+      "appellation": "Record Keeper"
     },
     "code": null,
-    "code_name": "Tecno"
+    "code_name": "Record Keeper"
   },
   "char_4173_nowell": {
     "zh_CN": {
@@ -17917,24 +18042,6 @@
     "code": null,
     "code_name": "Exusiai the New Covenant"
   },
-  "char_1039_thorn2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "引星棘刺",
-      "skills": [
-        "度算浪波",
-        "解构涌潮",
-        "“我的海疆”"
-      ],
-      "alias": [
-        "yin xing ji ci",
-        "yinxingjici"
-      ],
-      "appellation": "Thorns the Lodestar"
-    },
-    "code": null,
-    "code_name": "Thorns the Lodestar"
-  },
   "char_4179_monstr": {
     "zh_CN": {
       "enabled": true,
@@ -18006,5 +18113,23 @@
     },
     "code": null,
     "code_name": "Entelechia"
+  },
+  "char_1043_leizi2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "司霆惊蛰",
+      "skills": [
+        "浩气长存",
+        "正霆摄威",
+        "天地通明"
+      ],
+      "alias": [
+        "si ting jing zhe",
+        "sitingjingzhe"
+      ],
+      "appellation": "Leizi the Thunderbringer"
+    },
+    "code": null,
+    "code_name": "Leizi the Thunderbringer"
   }
 }

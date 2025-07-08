@@ -5,6 +5,31 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2025-07-08",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1039_thorn2",
+      "char_4163_rosesa",
+      "char_4164_tecno"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2025-07-08",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1043_leizi2",
+      "char_4196_reckpr"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2025-06-05",
     "type": "new_operators",
     "new_operators": [
@@ -120,31 +145,6 @@
       "char_450_necras",
       "char_4177_brigid",
       "char_4171_wulfen"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2025-02-14",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4146_nymph",
-      "char_4147_mitm",
-      "char_4151_tinman"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2025-02-14",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4010_etlchi",
-      "char_4173_nowell"
     ]
   }
 ]
