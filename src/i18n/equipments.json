@@ -6915,6 +6915,101 @@
       "name": "欢迎光临，企鹅物流"
     }
   },
+  "uniequip_002_pepe": {
+    "char_id": "char_4058_pepe",
+    "en_US": {
+      "enabled": true,
+      "name": "Rain or Shine"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "晴れか雨か"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비가 오나 맑으나"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "晴雨"
+    }
+  },
+  "uniequip_002_odda": {
+    "char_id": "char_4131_odda",
+    "en_US": {
+      "enabled": true,
+      "name": "Old Backpack"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "古いバッグ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "오래된 배낭"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "旧背包"
+    }
+  },
+  "uniequip_002_xingzh": {
+    "char_id": "char_4172_xingzh",
+    "en_US": {
+      "enabled": true,
+      "name": "Farewell to the Old Days"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "昔年に別れを"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "과거와의 작별"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "别昔年"
+    }
+  },
+  "uniequip_003_lin": {
+    "char_id": "char_4080_lin",
+    "en_US": {
+      "enabled": true,
+      "name": "The Compassionate and the Just"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「情と義」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'정과 의'"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "“情与义”"
+    }
+  },
+  "uniequip_003_zuole": {
+    "char_id": "char_4121_zuole",
+    "en_US": {
+      "enabled": true,
+      "name": "'Who is he?'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "持燭人の記録"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지촉인의 기록"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "秉烛人的记录"
+    }
+  },
   "uniequip_003_chyue": {
     "char_id": "char_2024_chyue",
     "en_US": {
@@ -6934,50 +7029,20 @@
       "name": "“朔”"
     }
   },
-  "uniequip_002_pepe": {
-    "char_id": "char_4058_pepe",
-    "zh_CN": {
-      "enabled": true,
-      "name": "晴雨"
-    }
-  },
-  "uniequip_002_odda": {
-    "char_id": "char_4131_odda",
-    "zh_CN": {
-      "enabled": true,
-      "name": "旧背包"
-    }
-  },
-  "uniequip_002_xingzh": {
-    "char_id": "char_4172_xingzh",
-    "zh_CN": {
-      "enabled": true,
-      "name": "别昔年"
-    }
-  },
-  "uniequip_003_lin": {
-    "char_id": "char_4080_lin",
-    "zh_CN": {
-      "enabled": true,
-      "name": "“情与义”"
-    }
-  },
-  "uniequip_003_zuole": {
-    "char_id": "char_4121_zuole",
-    "zh_CN": {
-      "enabled": true,
-      "name": "秉烛人的记录"
-    }
-  },
-  "uniequip_002_nowell": {
-    "char_id": "char_4173_nowell",
-    "zh_CN": {
-      "enabled": true,
-      "name": "致祖父"
-    }
-  },
   "uniequip_004_dusk": {
     "char_id": "char_2015_dusk",
+    "en_US": {
+      "enabled": true,
+      "name": "Dusk's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シーの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시의 특별 한정 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "夕特限证章"
@@ -6985,9 +7050,28 @@
   },
   "uniequip_004_zumama": {
     "char_id": "char_416_zumama",
+    "en_US": {
+      "enabled": true,
+      "name": "Eunectes's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ユーネクテスの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "유넥티스의 특별 한정 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "森蚺特限证章"
+    }
+  },
+  "uniequip_002_nowell": {
+    "char_id": "char_4173_nowell",
+    "zh_CN": {
+      "enabled": true,
+      "name": "致祖父"
     }
   },
   "uniequip_002_etlchi": {
@@ -7219,6 +7303,13 @@
     "zh_CN": {
       "enabled": true,
       "name": "梦中人"
+    }
+  },
+  "uniequip_002_radian": {
+    "char_id": "char_4195_radian",
+    "zh_CN": {
+      "enabled": true,
+      "name": "电弧特勤证章"
     }
   },
   "uniequip_002_reckpr": {

@@ -20506,6 +20506,137 @@
     }
   },
   {
+    "unique_id": "char_4195_radian",
+    "name": "电弧",
+    "pinyin": [
+      "dian hu",
+      "dianhu"
+    ],
+    "profession": "SUPPORT",
+    "rarity": 5,
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_radian",
+          "equipment_level": "1",
+          "code": "A",
+          "materials": []
+        },
+        {
+          "equipment_id": "uniequip_002_radian",
+          "equipment_level": "2",
+          "code": "A",
+          "materials": []
+        },
+        {
+          "equipment_id": "uniequip_002_radian",
+          "equipment_level": "3",
+          "code": "A",
+          "materials": []
+        }
+      ]
+    ],
+    "skill_names": [
+      "律动线",
+      "环形鳞地",
+      "手牵手"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      },
+      {
+        "level": 3,
+        "materials": []
+      },
+      {
+        "level": 4,
+        "materials": []
+      },
+      {
+        "level": 5,
+        "materials": []
+      },
+      {
+        "level": 6,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "律动线",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": []
+          },
+          {
+            "level": 1,
+            "materials": []
+          },
+          {
+            "level": 2,
+            "materials": []
+          }
+        ]
+      },
+      {
+        "name": "环形鳞地",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": []
+          },
+          {
+            "level": 1,
+            "materials": []
+          },
+          {
+            "level": 2,
+            "materials": []
+          }
+        ]
+      },
+      {
+        "name": "手牵手",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": []
+          },
+          {
+            "level": 1,
+            "materials": []
+          },
+          {
+            "level": 2,
+            "materials": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": null
+      },
+      {
+        "rank": 2,
+        "materials": null
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "max_equipments": 1
+    }
+  },
+  {
     "unique_id": "char_1012_skadi2",
     "name": "浊心斯卡蒂",
     "pinyin": [

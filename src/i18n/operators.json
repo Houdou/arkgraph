@@ -5087,6 +5087,52 @@
     "code": "chilchuck",
     "code_name": "Chilchuck"
   },
+  "char_4052_surfer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Surfer",
+      "skills": [
+        "Search and Seek",
+        "Quick Learner"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サーファー",
+      "skills": [
+        "トレッキング",
+        "オブザーブ"
+      ],
+      "alias": [
+        "さーふぁー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "서퍼",
+      "skills": [
+        "탐색",
+        "통찰"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "寻澜",
+      "skills": [
+        "探寻",
+        "洞悉"
+      ],
+      "alias": [
+        "xun lan",
+        "xunlan"
+      ],
+      "appellation": "Surfer"
+    },
+    "code": "surfer",
+    "code_name": "Surfer"
+  },
   "char_308_swire": {
     "en_US": {
       "enabled": true,
@@ -11193,6 +11239,52 @@
     "code": "quercus",
     "code_name": "Quercus"
   },
+  "char_4172_xingzh": {
+    "en_US": {
+      "enabled": true,
+      "name": "Xingzhu",
+      "skills": [
+        "Filled Tomes, Spilling Sheets",
+        "Fine Food, Soothed Souls"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "シィンズゥ",
+      "skills": [
+        "万巻の書",
+        "百味食珍"
+      ],
+      "alias": [
+        "しぃんずぅ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "싱주",
+      "skills": [
+        "수많은 저서",
+        "정성이 담긴 음식"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "行箸",
+      "skills": [
+        "盈帙满笥",
+        "食不厌精"
+      ],
+      "alias": [
+        "hang zhu",
+        "hangzhu"
+      ],
+      "appellation": "Xingzhu"
+    },
+    "code": "xingzhu",
+    "code_name": "Xingzhu"
+  },
   "char_4102_threye": {
     "en_US": {
       "enabled": true,
@@ -13845,6 +13937,56 @@
     "code": "nymph",
     "code_name": "Nymph"
   },
+  "char_1040_blaze2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Blaze the Igniting Spark",
+      "skills": [
+        "Hand in Heated Hand",
+        "Boiling Blood Ablaze",
+        "Pyre of Perdition"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "熾炎ブレイズ",
+      "skills": [
+        "灼熱の救い手",
+        "燎原の血潮",
+        "衆悪の焚獄"
+      ],
+      "alias": [
+        "熾炎ぶれいず"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "블레이즈 디 이그나이팅 스파크",
+      "skills": [
+        "화끈한 지원",
+        "끓어오르는 피의 불꽃",
+        "만악의 소각장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "烛煌",
+      "skills": [
+        "炙手之援",
+        "沸血燎原",
+        "众恶的焚场"
+      ],
+      "alias": [
+        "zhu huang",
+        "zhuhuang"
+      ],
+      "appellation": "Blaze the Igniting Spark"
+    },
+    "code": "blaze the igniting spark",
+    "code_name": "Blaze the Igniting Spark"
+  },
   "char_206_gnosis": {
     "en_US": {
       "enabled": true,
@@ -16095,6 +16237,56 @@
     "code": "jessica the liberated",
     "code_name": "Jessica the Liberated"
   },
+  "char_2026_yu": {
+    "en_US": {
+      "enabled": true,
+      "name": "Yu",
+      "skills": [
+        "Today's Host",
+        "For Guests, Bounteous Gifts",
+        "Enter the Stove's Palm"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ユー",
+      "skills": [
+        "椀飯振舞",
+        "客至如帰",
+        "竈中乾坤"
+      ],
+      "alias": [
+        "ゆー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "위",
+      "skills": [
+        "오늘의 주인공",
+        "귀빈 대접",
+        "부엌 속 세상"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "余",
+      "skills": [
+        "今日做东",
+        "厚礼上宾",
+        "灶里乾坤"
+      ],
+      "alias": [
+        "yu",
+        "yu"
+      ],
+      "appellation": "Yu"
+    },
+    "code": "yu",
+    "code_name": "Yu"
+  },
   "char_264_f12yin": {
     "en_US": {
       "enabled": true,
@@ -17782,23 +17974,6 @@
     "code": null,
     "code_name": "Windscoot"
   },
-  "char_4052_surfer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "寻澜",
-      "skills": [
-        "探寻",
-        "洞悉"
-      ],
-      "alias": [
-        "xun lan",
-        "xunlan"
-      ],
-      "appellation": "Surfer"
-    },
-    "code": null,
-    "code_name": "Surfer"
-  },
   "char_4187_graceb": {
     "zh_CN": {
       "enabled": true,
@@ -17901,23 +18076,6 @@
     "code": null,
     "code_name": "Alanna"
   },
-  "char_4172_xingzh": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "行箸",
-      "skills": [
-        "盈帙满笥",
-        "食不厌精"
-      ],
-      "alias": [
-        "hang zhu",
-        "hangzhu"
-      ],
-      "appellation": "Xingzhu"
-    },
-    "code": null,
-    "code_name": "Xingzhu"
-  },
   "char_4171_wulfen": {
     "zh_CN": {
       "enabled": true,
@@ -17970,24 +18128,6 @@
     "code": null,
     "code_name": "Lemuen"
   },
-  "char_1040_blaze2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "烛煌",
-      "skills": [
-        "炙手之援",
-        "沸血燎原",
-        "众恶的焚场"
-      ],
-      "alias": [
-        "zhu huang",
-        "zhuhuang"
-      ],
-      "appellation": "Blaze the Igniting Spark"
-    },
-    "code": null,
-    "code_name": "Blaze the Igniting Spark"
-  },
   "char_450_necras": {
     "zh_CN": {
       "enabled": true,
@@ -18005,6 +18145,24 @@
     },
     "code": null,
     "code_name": "Necrass"
+  },
+  "char_4195_radian": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "电弧",
+      "skills": [
+        "律动线",
+        "环形鳞地",
+        "手牵手"
+      ],
+      "alias": [
+        "dian hu",
+        "dianhu"
+      ],
+      "appellation": "Raidian"
+    },
+    "code": null,
+    "code_name": "Raidian"
   },
   "char_1042_phatm2": {
     "zh_CN": {
@@ -18077,24 +18235,6 @@
     },
     "code": null,
     "code_name": "Sankta Miksaparato"
-  },
-  "char_2026_yu": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "余",
-      "skills": [
-        "今日做东",
-        "厚礼上宾",
-        "灶里乾坤"
-      ],
-      "alias": [
-        "yu",
-        "yu"
-      ],
-      "appellation": "Yu"
-    },
-    "code": null,
-    "code_name": "Yu"
   },
   "char_4010_etlchi": {
     "zh_CN": {
