@@ -17974,6 +17974,23 @@
     "code": null,
     "code_name": "Windscoot"
   },
+  "char_4199_makiri": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "松桐",
+      "skills": [
+        "入场安排",
+        "万手成局"
+      ],
+      "alias": [
+        "song tong",
+        "songtong"
+      ],
+      "appellation": "Matsukiri"
+    },
+    "code": null,
+    "code_name": "Matsukiri"
+  },
   "char_4187_graceb": {
     "zh_CN": {
       "enabled": true,
@@ -17990,6 +18007,23 @@
     },
     "code": null,
     "code_name": "Gracebearer"
+  },
+  "char_4203_kichi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "吉星",
+      "skills": [
+        "欢迎您来！",
+        "吉星高照！"
+      ],
+      "alias": [
+        "ji xing",
+        "jixing"
+      ],
+      "appellation": "Kichisei"
+    },
+    "code": null,
+    "code_name": "Kichisei"
   },
   "char_4198_christ": {
     "zh_CN": {
@@ -18164,6 +18198,24 @@
     "code": null,
     "code_name": "Raidian"
   },
+  "char_4202_haruka": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "遥",
+      "skills": [
+        "夜啼彩羽",
+        "幽隙栖萤",
+        "夏末游鳞"
+      ],
+      "alias": [
+        "yao",
+        "yao"
+      ],
+      "appellation": "Haruka"
+    },
+    "code": null,
+    "code_name": "Haruka"
+  },
   "char_1042_phatm2": {
     "zh_CN": {
       "enabled": true,
@@ -18235,6 +18287,24 @@
     },
     "code": null,
     "code_name": "Sankta Miksaparato"
+  },
+  "char_1044_hsgma2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "斩业星熊",
+      "skills": [
+        "恶业苦果",
+        "无始无明",
+        "地狱变相"
+      ],
+      "alias": [
+        "zhan ye xing xiong",
+        "zhanyexingxiong"
+      ],
+      "appellation": "Hoshiguma the Breacher"
+    },
+    "code": null,
+    "code_name": "Hoshiguma the Breacher"
   },
   "char_4010_etlchi": {
     "zh_CN": {

@@ -1,6 +1,19 @@
 [
   {
     "server": [
+      "zh_CN"
+    ],
+    "date": "2025-08-02",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4202_haruka",
+      "char_1044_hsgma2",
+      "char_4199_makiri",
+      "char_4203_kichi"
+    ]
+  },
+  {
+    "server": [
       "en_US",
       "ja_JP",
       "ko_KR"
@@ -131,18 +144,6 @@
       "char_1019_siege2",
       "char_4162_cathy",
       "char_487_bobb"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2025-04-10",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4179_monstr",
-      "char_4178_alanna",
-      "char_445_wscoot"
     ]
   }
 ]
