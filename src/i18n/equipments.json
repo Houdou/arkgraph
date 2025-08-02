@@ -7346,5 +7346,75 @@
       "enabled": true,
       "name": "好锯多磨"
     }
+  },
+  "uniequip_002_kichi": {
+    "char_id": "char_4203_kichi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "可疑的宣传页"
+    }
+  },
+  "uniequip_002_nymph": {
+    "char_id": "char_4146_nymph",
+    "zh_CN": {
+      "enabled": true,
+      "name": "心声"
+    }
+  },
+  "uniequip_002_blaze2": {
+    "char_id": "char_1040_blaze2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "热切的期盼"
+    }
+  },
+  "uniequip_002_christ": {
+    "char_id": "char_4198_christ",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“黑色”贩卖机"
+    }
+  },
+  "uniequip_002_kaitou": {
+    "char_id": "char_499_kaitou",
+    "zh_CN": {
+      "enabled": true,
+      "name": "凡石"
+    }
+  },
+  "uniequip_002_warmy": {
+    "char_id": "char_4081_warmy",
+    "zh_CN": {
+      "enabled": true,
+      "name": "赠别之味"
+    }
+  },
+  "uniequip_003_chen2": {
+    "char_id": "char_1013_chen2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "假期的最后一天"
+    }
+  },
+  "uniequip_004_swire2": {
+    "char_id": "char_1033_swire2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "琳琅诗怀雅特限证章"
+    }
+  },
+  "uniequip_003_pepe": {
+    "char_id": "char_4058_pepe",
+    "zh_CN": {
+      "enabled": true,
+      "name": "佩佩特限证章"
+    }
+  },
+  "uniequip_002_haruka": {
+    "char_id": "char_4202_haruka",
+    "zh_CN": {
+      "enabled": true,
+      "name": "迟来的纪念"
+    }
   }
 }

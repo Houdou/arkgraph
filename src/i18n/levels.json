@@ -39449,6 +39449,198 @@
       "enabled": true
     }
   },
+  "act44side_st01": {
+    "code": "AT-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_tr01": {
+    "code": "AT-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_01": {
+    "code": "AT-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_02": {
+    "code": "AT-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_03": {
+    "code": "AT-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_04": {
+    "code": "AT-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_tr02": {
+    "code": "AT-TR-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_05": {
+    "code": "AT-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_st02": {
+    "code": "AT-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_06": {
+    "code": "AT-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_07": {
+    "code": "AT-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_08": {
+    "code": "AT-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_st03": {
+    "code": "AT-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex01": {
+    "code": "AT-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex01#f#": {
+    "code": "AT-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex02": {
+    "code": "AT-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex02#f#": {
+    "code": "AT-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex03": {
+    "code": "AT-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex03#f#": {
+    "code": "AT-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex04": {
+    "code": "AT-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex04#f#": {
+    "code": "AT-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex05": {
+    "code": "AT-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex05#f#": {
+    "code": "AT-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex06": {
+    "code": "AT-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex06#f#": {
+    "code": "AT-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex07": {
+    "code": "AT-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex07#f#": {
+    "code": "AT-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex08": {
+    "code": "AT-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_ex08#f#": {
+    "code": "AT-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_sp01": {
+    "code": "AT-P-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_sp02": {
+    "code": "AT-P-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act44side_sp03": {
+    "code": "AT-P-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act19mini_01": {
     "code": "FM-1",
     "zh_CN": {
@@ -41065,6 +41257,12 @@
   },
   "camp_r_28": {
     "code": "萨尔贡",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_29": {
+    "code": "伊比利亚",
     "zh_CN": {
       "enabled": true
     }
