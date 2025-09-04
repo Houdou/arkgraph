@@ -8525,6 +8525,52 @@
     "code": "whisperain",
     "code_name": "Whisperain"
   },
+  "char_4173_nowell": {
+    "en_US": {
+      "enabled": true,
+      "name": "Nowell",
+      "skills": [
+        "Ceaseless Steps",
+        "Unending Life"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ノウエル",
+      "skills": [
+        "たゆまぬ歩み",
+        "ついえぬ命"
+      ],
+      "alias": [
+        "のうえる"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "노웰",
+      "skills": [
+        "멈추지 않는 걸음",
+        "끊기지 않는 생명"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "诺威尔",
+      "skills": [
+        "步履不停",
+        "生命不息"
+      ],
+      "alias": [
+        "nuo wei er",
+        "nuoweier"
+      ],
+      "appellation": "Nowell"
+    },
+    "code": "nowell",
+    "code_name": "Nowell"
+  },
   "char_402_tuye": {
     "en_US": {
       "enabled": true,
@@ -17437,6 +17483,56 @@
     "code": "executor the ex foedere",
     "code_name": "Executor the Ex Foedere"
   },
+  "char_4010_etlchi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Entelechia",
+      "skills": [
+        "Chasing the Rose Shadow",
+        "Crimson Harvest",
+        "Clinging Desire, Longing Spirit"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "エンテレケイア",
+      "skills": [
+        "薔薇の残影",
+        "深紅の抱擁",
+        "霊魂と欲望の惜別"
+      ],
+      "alias": [
+        "えんてれけいあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "엔텔레키아",
+      "skills": [
+        "장미의 흔적",
+        "진홍빛 장벽",
+        "영혼과 욕망의 이별"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "隐德来希",
+      "skills": [
+        "玫影觅迹",
+        "绯红壁合",
+        "灵与欲的惜别"
+      ],
+      "alias": [
+        "yin de lai xi",
+        "yindelaixi"
+      ],
+      "appellation": "Entelechia"
+    },
+    "code": "entelechia",
+    "code_name": "Entelechia"
+  },
   "char_4064_mlynar": {
     "en_US": {
       "enabled": true,
@@ -18008,6 +18104,23 @@
     "code": null,
     "code_name": "Gracebearer"
   },
+  "char_4185_amoris": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "祐天寺若麦",
+      "skills": [
+        "如焰般热烈",
+        "如麦般生长"
+      ],
+      "alias": [
+        "you tian si ruo mai",
+        "youtiansiruomai"
+      ],
+      "appellation": "Yūtenji Nyamu"
+    },
+    "code": null,
+    "code_name": "Yūtenji Nyamu"
+  },
   "char_4203_kichi": {
     "zh_CN": {
       "enabled": true,
@@ -18059,23 +18172,6 @@
     "code": null,
     "code_name": "Record Keeper"
   },
-  "char_4173_nowell": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "诺威尔",
-      "skills": [
-        "步履不停",
-        "生命不息"
-      ],
-      "alias": [
-        "nuo wei er",
-        "nuoweier"
-      ],
-      "appellation": "Nowell"
-    },
-    "code": null,
-    "code_name": "Nowell"
-  },
   "char_4177_brigid": {
     "zh_CN": {
       "enabled": true,
@@ -18110,6 +18206,40 @@
     "code": null,
     "code_name": "Alanna"
   },
+  "char_4184_dolris": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "三角初华",
+      "skills": [
+        "我思念的",
+        "我悲悯的"
+      ],
+      "alias": [
+        "san jiao chu hua",
+        "sanjiaochuhua"
+      ],
+      "appellation": "Misumi Uika"
+    },
+    "code": null,
+    "code_name": "Misumi Uika"
+  },
+  "char_4186_tmoris": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "八幡海铃",
+      "skills": [
+        "颤栗之弦",
+        "无存之所"
+      ],
+      "alias": [
+        "ba fan hai ling",
+        "bafanhailing"
+      ],
+      "appellation": "Yahata Umiri"
+    },
+    "code": null,
+    "code_name": "Yahata Umiri"
+  },
   "char_4171_wulfen": {
     "zh_CN": {
       "enabled": true,
@@ -18126,6 +18256,23 @@
     },
     "code": null,
     "code_name": "Wulfenite"
+  },
+  "char_4183_mortis": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "若叶睦",
+      "skills": [
+        "多首野兽",
+        "破坏与滋养"
+      ],
+      "alias": [
+        "ruo ye mu",
+        "ruoyemu"
+      ],
+      "appellation": "Wakaba Mutsumi"
+    },
+    "code": null,
+    "code_name": "Wakaba Mutsumi"
   },
   "char_4191_tippi": {
     "zh_CN": {
@@ -18306,23 +18453,23 @@
     "code": null,
     "code_name": "Hoshiguma the Breacher"
   },
-  "char_4010_etlchi": {
+  "char_4182_oblvns": {
     "zh_CN": {
       "enabled": true,
-      "name": "隐德来希",
+      "name": "丰川祥子",
       "skills": [
-        "玫影觅迹",
-        "绯红壁合",
-        "灵与欲的惜别"
+        "新月的苏醒",
+        "满月的舞会",
+        "残月的余响"
       ],
       "alias": [
-        "yin de lai xi",
-        "yindelaixi"
+        "feng chuan xiang zi",
+        "fengchuanxiangzi"
       ],
-      "appellation": "Entelechia"
+      "appellation": "Togawa Sakiko"
     },
     "code": null,
-    "code_name": "Entelechia"
+    "code_name": "Togawa Sakiko"
   },
   "char_1043_leizi2": {
     "zh_CN": {
