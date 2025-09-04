@@ -7029,6 +7029,25 @@
       "name": "“朔”"
     }
   },
+  "uniequip_002_nowell": {
+    "char_id": "char_4173_nowell",
+    "en_US": {
+      "enabled": true,
+      "name": "To Grandpa"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "祖父へ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "할아버지께"
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "致祖父"
+    }
+  },
   "uniequip_004_dusk": {
     "char_id": "char_2015_dusk",
     "en_US": {
@@ -7067,15 +7086,20 @@
       "name": "森蚺特限证章"
     }
   },
-  "uniequip_002_nowell": {
-    "char_id": "char_4173_nowell",
-    "zh_CN": {
-      "enabled": true,
-      "name": "致祖父"
-    }
-  },
   "uniequip_002_etlchi": {
     "char_id": "char_4010_etlchi",
+    "en_US": {
+      "enabled": true,
+      "name": "A Ferry that Withers"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ひとときで朽ちる船"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "시들어버린 배"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "易枯萎的航船"
@@ -7415,6 +7439,55 @@
     "zh_CN": {
       "enabled": true,
       "name": "迟来的纪念"
+    }
+  },
+  "uniequip_002_oblvns": {
+    "char_id": "char_4182_oblvns",
+    "zh_CN": {
+      "enabled": true,
+      "name": "无言的约定"
+    }
+  },
+  "uniequip_002_amoris": {
+    "char_id": "char_4185_amoris",
+    "zh_CN": {
+      "enabled": true,
+      "name": "年轻的麦子"
+    }
+  },
+  "uniequip_002_dolris": {
+    "char_id": "char_4184_dolris",
+    "zh_CN": {
+      "enabled": true,
+      "name": "占卜的意义"
+    }
+  },
+  "uniequip_002_tmoris": {
+    "char_id": "char_4186_tmoris",
+    "zh_CN": {
+      "enabled": true,
+      "name": "额外训练"
+    }
+  },
+  "uniequip_002_mortis": {
+    "char_id": "char_4183_mortis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "睦的新朋友"
+    }
+  },
+  "uniequip_003_huang": {
+    "char_id": "char_017_huang",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“稍后回来”"
+    }
+  },
+  "uniequip_003_cello": {
+    "char_id": "char_245_cello",
+    "zh_CN": {
+      "enabled": true,
+      "name": "音乐家的旅程"
     }
   }
 }
