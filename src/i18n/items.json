@@ -1027,7 +1027,7 @@
       "enabled": true,
       "name": "Orirock",
       "alias": [],
-      "sortId": 100033
+      "sortId": 100036
     },
     "ja_JP": {
       "enabled": true,
@@ -1035,13 +1035,13 @@
       "alias": [
         "源岩鉱"
       ],
-      "sortId": 100033
+      "sortId": 100036
     },
     "ko_KR": {
       "enabled": true,
       "name": "원암",
       "alias": [],
-      "sortId": 100033
+      "sortId": 100036
     },
     "zh_CN": {
       "enabled": true,
@@ -1058,7 +1058,7 @@
       "enabled": true,
       "name": "Orirock Cube",
       "alias": [],
-      "sortId": 100032
+      "sortId": 100035
     },
     "ja_JP": {
       "enabled": true,
@@ -1066,13 +1066,13 @@
       "alias": [
         "初級源岩"
       ],
-      "sortId": 100032
+      "sortId": 100035
     },
     "ko_KR": {
       "enabled": true,
       "name": "원암 큐브",
       "alias": [],
-      "sortId": 100032
+      "sortId": 100035
     },
     "zh_CN": {
       "enabled": true,
@@ -1089,7 +1089,7 @@
       "enabled": true,
       "name": "Orirock Cluster",
       "alias": [],
-      "sortId": 100031
+      "sortId": 100034
     },
     "ja_JP": {
       "enabled": true,
@@ -1097,13 +1097,13 @@
       "alias": [
         "中級源岩"
       ],
-      "sortId": 100031
+      "sortId": 100034
     },
     "ko_KR": {
       "enabled": true,
       "name": "원암 큐브 번들",
       "alias": [],
-      "sortId": 100031
+      "sortId": 100034
     },
     "zh_CN": {
       "enabled": true,
@@ -1120,7 +1120,7 @@
       "enabled": true,
       "name": "Orirock Concentration",
       "alias": [],
-      "sortId": 100030
+      "sortId": 100033
     },
     "ja_JP": {
       "enabled": true,
@@ -1128,13 +1128,13 @@
       "alias": [
         "上級源岩"
       ],
-      "sortId": 100030
+      "sortId": 100033
     },
     "ko_KR": {
       "enabled": true,
       "name": "정제 원암",
       "alias": [],
-      "sortId": 100030
+      "sortId": 100033
     },
     "zh_CN": {
       "enabled": true,
@@ -1151,7 +1151,7 @@
       "enabled": true,
       "name": "Sugar Substitute",
       "alias": [],
-      "sortId": 100045
+      "sortId": 100048
     },
     "ja_JP": {
       "enabled": true,
@@ -1159,13 +1159,13 @@
       "alias": [
         "ぶどう糖"
       ],
-      "sortId": 100045
+      "sortId": 100048
     },
     "ko_KR": {
       "enabled": true,
       "name": "대체당",
       "alias": [],
-      "sortId": 100045
+      "sortId": 100048
     },
     "zh_CN": {
       "enabled": true,
@@ -1182,7 +1182,7 @@
       "enabled": true,
       "name": "Sugar",
       "alias": [],
-      "sortId": 100044
+      "sortId": 100047
     },
     "ja_JP": {
       "enabled": true,
@@ -1190,13 +1190,13 @@
       "alias": [
         "初級糖原"
       ],
-      "sortId": 100044
+      "sortId": 100047
     },
     "ko_KR": {
       "enabled": true,
       "name": "포도당",
       "alias": [],
-      "sortId": 100044
+      "sortId": 100047
     },
     "zh_CN": {
       "enabled": true,
@@ -1213,7 +1213,7 @@
       "enabled": true,
       "name": "Sugar Pack",
       "alias": [],
-      "sortId": 100043
+      "sortId": 100046
     },
     "ja_JP": {
       "enabled": true,
@@ -1221,13 +1221,13 @@
       "alias": [
         "中級糖原"
       ],
-      "sortId": 100043
+      "sortId": 100046
     },
     "ko_KR": {
       "enabled": true,
       "name": "포도당 번들",
       "alias": [],
-      "sortId": 100043
+      "sortId": 100046
     },
     "zh_CN": {
       "enabled": true,
@@ -1244,7 +1244,7 @@
       "enabled": true,
       "name": "Sugar Lump",
       "alias": [],
-      "sortId": 100042
+      "sortId": 100045
     },
     "ja_JP": {
       "enabled": true,
@@ -1252,13 +1252,13 @@
       "alias": [
         "上級糖原"
       ],
-      "sortId": 100042
+      "sortId": 100045
     },
     "ko_KR": {
       "enabled": true,
       "name": "포도당 팩",
       "alias": [],
-      "sortId": 100042
+      "sortId": 100045
     },
     "zh_CN": {
       "enabled": true,
@@ -1275,7 +1275,7 @@
       "enabled": true,
       "name": "Ester",
       "alias": [],
-      "sortId": 100041
+      "sortId": 100044
     },
     "ja_JP": {
       "enabled": true,
@@ -1283,13 +1283,13 @@
       "alias": [
         "えすてる原料"
       ],
-      "sortId": 100041
+      "sortId": 100044
     },
     "ko_KR": {
       "enabled": true,
       "name": "에스테르 원료",
       "alias": [],
-      "sortId": 100041
+      "sortId": 100044
     },
     "zh_CN": {
       "enabled": true,
@@ -1306,7 +1306,7 @@
       "enabled": true,
       "name": "Polyester",
       "alias": [],
-      "sortId": 100040
+      "sortId": 100043
     },
     "ja_JP": {
       "enabled": true,
@@ -1314,13 +1314,13 @@
       "alias": [
         "初級えすてる"
       ],
-      "sortId": 100040
+      "sortId": 100043
     },
     "ko_KR": {
       "enabled": true,
       "name": "폴리에스테르",
       "alias": [],
-      "sortId": 100040
+      "sortId": 100043
     },
     "zh_CN": {
       "enabled": true,
@@ -1337,7 +1337,7 @@
       "enabled": true,
       "name": "Polyester Pack",
       "alias": [],
-      "sortId": 100039
+      "sortId": 100042
     },
     "ja_JP": {
       "enabled": true,
@@ -1345,13 +1345,13 @@
       "alias": [
         "中級えすてる"
       ],
-      "sortId": 100039
+      "sortId": 100042
     },
     "ko_KR": {
       "enabled": true,
       "name": "폴리에스테르 번들",
       "alias": [],
-      "sortId": 100039
+      "sortId": 100042
     },
     "zh_CN": {
       "enabled": true,
@@ -1368,7 +1368,7 @@
       "enabled": true,
       "name": "Polyester Lump",
       "alias": [],
-      "sortId": 100038
+      "sortId": 100041
     },
     "ja_JP": {
       "enabled": true,
@@ -1376,13 +1376,13 @@
       "alias": [
         "上級えすてる"
       ],
-      "sortId": 100038
+      "sortId": 100041
     },
     "ko_KR": {
       "enabled": true,
       "name": "폴리에스테르 팩",
       "alias": [],
-      "sortId": 100038
+      "sortId": 100041
     },
     "zh_CN": {
       "enabled": true,
@@ -1399,7 +1399,7 @@
       "enabled": true,
       "name": "Oriron Shard",
       "alias": [],
-      "sortId": 100049
+      "sortId": 100052
     },
     "ja_JP": {
       "enabled": true,
@@ -1407,13 +1407,13 @@
       "alias": [
         "異鉄の欠片"
       ],
-      "sortId": 100049
+      "sortId": 100052
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철 조각",
       "alias": [],
-      "sortId": 100049
+      "sortId": 100052
     },
     "zh_CN": {
       "enabled": true,
@@ -1430,7 +1430,7 @@
       "enabled": true,
       "name": "Oriron",
       "alias": [],
-      "sortId": 100048
+      "sortId": 100051
     },
     "ja_JP": {
       "enabled": true,
@@ -1438,13 +1438,13 @@
       "alias": [
         "初級異鉄"
       ],
-      "sortId": 100048
+      "sortId": 100051
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철",
       "alias": [],
-      "sortId": 100048
+      "sortId": 100051
     },
     "zh_CN": {
       "enabled": true,
@@ -1461,7 +1461,7 @@
       "enabled": true,
       "name": "Oriron Cluster",
       "alias": [],
-      "sortId": 100047
+      "sortId": 100050
     },
     "ja_JP": {
       "enabled": true,
@@ -1469,13 +1469,13 @@
       "alias": [
         "中級異鉄"
       ],
-      "sortId": 100047
+      "sortId": 100050
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철 번들",
       "alias": [],
-      "sortId": 100047
+      "sortId": 100050
     },
     "zh_CN": {
       "enabled": true,
@@ -1492,7 +1492,7 @@
       "enabled": true,
       "name": "Oriron Block",
       "alias": [],
-      "sortId": 100046
+      "sortId": 100049
     },
     "ja_JP": {
       "enabled": true,
@@ -1500,13 +1500,13 @@
       "alias": [
         "上級異鉄"
       ],
-      "sortId": 100046
+      "sortId": 100049
     },
     "ko_KR": {
       "enabled": true,
       "name": "이철 팩",
       "alias": [],
-      "sortId": 100046
+      "sortId": 100049
     },
     "zh_CN": {
       "enabled": true,
@@ -1523,7 +1523,7 @@
       "enabled": true,
       "name": "Diketon",
       "alias": [],
-      "sortId": 100053
+      "sortId": 100056
     },
     "ja_JP": {
       "enabled": true,
@@ -1531,13 +1531,13 @@
       "alias": [
         "あけとん試剤"
       ],
-      "sortId": 100053
+      "sortId": 100056
     },
     "ko_KR": {
       "enabled": true,
       "name": "디케톤",
       "alias": [],
-      "sortId": 100053
+      "sortId": 100056
     },
     "zh_CN": {
       "enabled": true,
@@ -1554,7 +1554,7 @@
       "enabled": true,
       "name": "Polyketon",
       "alias": [],
-      "sortId": 100052
+      "sortId": 100055
     },
     "ja_JP": {
       "enabled": true,
@@ -1562,13 +1562,13 @@
       "alias": [
         "初級あけとん"
       ],
-      "sortId": 100052
+      "sortId": 100055
     },
     "ko_KR": {
       "enabled": true,
       "name": "아케톤 응집체",
       "alias": [],
-      "sortId": 100052
+      "sortId": 100055
     },
     "zh_CN": {
       "enabled": true,
@@ -1585,7 +1585,7 @@
       "enabled": true,
       "name": "Aketon",
       "alias": [],
-      "sortId": 100051
+      "sortId": 100054
     },
     "ja_JP": {
       "enabled": true,
@@ -1593,13 +1593,13 @@
       "alias": [
         "中級あけとん"
       ],
-      "sortId": 100051
+      "sortId": 100054
     },
     "ko_KR": {
       "enabled": true,
       "name": "아케톤 응집체 번들",
       "alias": [],
-      "sortId": 100051
+      "sortId": 100054
     },
     "zh_CN": {
       "enabled": true,
@@ -1616,7 +1616,7 @@
       "enabled": true,
       "name": "Keton Colloid",
       "alias": [],
-      "sortId": 100050
+      "sortId": 100053
     },
     "ja_JP": {
       "enabled": true,
@@ -1624,13 +1624,13 @@
       "alias": [
         "上級あけとん"
       ],
-      "sortId": 100050
+      "sortId": 100053
     },
     "ko_KR": {
       "enabled": true,
       "name": "아케톤 팩",
       "alias": [],
-      "sortId": 100050
+      "sortId": 100053
     },
     "zh_CN": {
       "enabled": true,
@@ -1647,7 +1647,7 @@
       "enabled": true,
       "name": "Damaged Device",
       "alias": [],
-      "sortId": 100037
+      "sortId": 100040
     },
     "ja_JP": {
       "enabled": true,
@@ -1655,13 +1655,13 @@
       "alias": [
         "破損装置"
       ],
-      "sortId": 100037
+      "sortId": 100040
     },
     "ko_KR": {
       "enabled": true,
       "name": "파손된 장치",
       "alias": [],
-      "sortId": 100037
+      "sortId": 100040
     },
     "zh_CN": {
       "enabled": true,
@@ -1678,7 +1678,7 @@
       "enabled": true,
       "name": "Device",
       "alias": [],
-      "sortId": 100036
+      "sortId": 100039
     },
     "ja_JP": {
       "enabled": true,
@@ -1686,13 +1686,13 @@
       "alias": [
         "初級装置"
       ],
-      "sortId": 100036
+      "sortId": 100039
     },
     "ko_KR": {
       "enabled": true,
       "name": "장치",
       "alias": [],
-      "sortId": 100036
+      "sortId": 100039
     },
     "zh_CN": {
       "enabled": true,
@@ -1709,7 +1709,7 @@
       "enabled": true,
       "name": "Integrated Device",
       "alias": [],
-      "sortId": 100035
+      "sortId": 100038
     },
     "ja_JP": {
       "enabled": true,
@@ -1717,13 +1717,13 @@
       "alias": [
         "中級装置"
       ],
-      "sortId": 100035
+      "sortId": 100038
     },
     "ko_KR": {
       "enabled": true,
       "name": "리뉴얼 장치",
       "alias": [],
-      "sortId": 100035
+      "sortId": 100038
     },
     "zh_CN": {
       "enabled": true,
@@ -1740,7 +1740,7 @@
       "enabled": true,
       "name": "Optimized Device",
       "alias": [],
-      "sortId": 100034
+      "sortId": 100037
     },
     "ja_JP": {
       "enabled": true,
@@ -1748,13 +1748,13 @@
       "alias": [
         "上級装置"
       ],
-      "sortId": 100034
+      "sortId": 100037
     },
     "ko_KR": {
       "enabled": true,
       "name": "개량 장치",
       "alias": [],
-      "sortId": 100034
+      "sortId": 100037
     },
     "zh_CN": {
       "enabled": true,
@@ -1771,7 +1771,7 @@
       "enabled": true,
       "name": "Loxic Kohl",
       "alias": [],
-      "sortId": 100023
+      "sortId": 100026
     },
     "ja_JP": {
       "enabled": true,
@@ -1779,13 +1779,13 @@
       "alias": [
         "合成こーる"
       ],
-      "sortId": 100023
+      "sortId": 100026
     },
     "ko_KR": {
       "enabled": true,
       "name": "로식 콜",
       "alias": [],
-      "sortId": 100023
+      "sortId": 100026
     },
     "zh_CN": {
       "enabled": true,
@@ -1802,7 +1802,7 @@
       "enabled": true,
       "name": "White Horse Kohl",
       "alias": [],
-      "sortId": 100022
+      "sortId": 100025
     },
     "ja_JP": {
       "enabled": true,
@@ -1810,13 +1810,13 @@
       "alias": [
         "上級合成こーる"
       ],
-      "sortId": 100022
+      "sortId": 100025
     },
     "ko_KR": {
       "enabled": true,
       "name": "화이트 호스 콜",
       "alias": [],
-      "sortId": 100022
+      "sortId": 100025
     },
     "zh_CN": {
       "enabled": true,
@@ -1833,7 +1833,7 @@
       "enabled": true,
       "name": "Manganese Ore",
       "alias": [],
-      "sortId": 100025
+      "sortId": 100028
     },
     "ja_JP": {
       "enabled": true,
@@ -1841,13 +1841,13 @@
       "alias": [
         "まんがん"
       ],
-      "sortId": 100025
+      "sortId": 100028
     },
     "ko_KR": {
       "enabled": true,
       "name": "망간 광석",
       "alias": [],
-      "sortId": 100025
+      "sortId": 100028
     },
     "zh_CN": {
       "enabled": true,
@@ -1864,7 +1864,7 @@
       "enabled": true,
       "name": "Manganese Trihydrate",
       "alias": [],
-      "sortId": 100024
+      "sortId": 100027
     },
     "ja_JP": {
       "enabled": true,
@@ -1872,13 +1872,13 @@
       "alias": [
         "上級まんがん"
       ],
-      "sortId": 100024
+      "sortId": 100027
     },
     "ko_KR": {
       "enabled": true,
       "name": "망간 중합체",
       "alias": [],
-      "sortId": 100024
+      "sortId": 100027
     },
     "zh_CN": {
       "enabled": true,
@@ -1895,7 +1895,7 @@
       "enabled": true,
       "name": "Grindstone",
       "alias": [],
-      "sortId": 100027
+      "sortId": 100030
     },
     "ja_JP": {
       "enabled": true,
@@ -1903,13 +1903,13 @@
       "alias": [
         "砥石"
       ],
-      "sortId": 100027
+      "sortId": 100030
     },
     "ko_KR": {
       "enabled": true,
       "name": "연마석",
       "alias": [],
-      "sortId": 100027
+      "sortId": 100030
     },
     "zh_CN": {
       "enabled": true,
@@ -1926,7 +1926,7 @@
       "enabled": true,
       "name": "Grindstone Pentahydrate",
       "alias": [],
-      "sortId": 100026
+      "sortId": 100029
     },
     "ja_JP": {
       "enabled": true,
@@ -1934,13 +1934,13 @@
       "alias": [
         "上級砥石"
       ],
-      "sortId": 100026
+      "sortId": 100029
     },
     "ko_KR": {
       "enabled": true,
       "name": "고급연마석",
       "alias": [],
-      "sortId": 100026
+      "sortId": 100029
     },
     "zh_CN": {
       "enabled": true,
@@ -1957,7 +1957,7 @@
       "enabled": true,
       "name": "RMA70-12",
       "alias": [],
-      "sortId": 100029
+      "sortId": 100032
     },
     "ja_JP": {
       "enabled": true,
@@ -1965,13 +1965,13 @@
       "alias": [
         "RMA70-12"
       ],
-      "sortId": 100029
+      "sortId": 100032
     },
     "ko_KR": {
       "enabled": true,
       "name": "RMA70-12",
       "alias": [],
-      "sortId": 100029
+      "sortId": 100032
     },
     "zh_CN": {
       "enabled": true,
@@ -1988,7 +1988,7 @@
       "enabled": true,
       "name": "RMA70-24",
       "alias": [],
-      "sortId": 100028
+      "sortId": 100031
     },
     "ja_JP": {
       "enabled": true,
@@ -1996,13 +1996,13 @@
       "alias": [
         "RMA70-24"
       ],
-      "sortId": 100028
+      "sortId": 100031
     },
     "ko_KR": {
       "enabled": true,
       "name": "RMA70-24",
       "alias": [],
-      "sortId": 100028
+      "sortId": 100031
     },
     "zh_CN": {
       "enabled": true,
@@ -2019,7 +2019,7 @@
       "enabled": true,
       "name": "Polymerization Preparation",
       "alias": [],
-      "sortId": 100005
+      "sortId": 100006
     },
     "ja_JP": {
       "enabled": true,
@@ -2027,13 +2027,13 @@
       "alias": [
         "融合剤"
       ],
-      "sortId": 100005
+      "sortId": 100006
     },
     "ko_KR": {
       "enabled": true,
       "name": "중합제",
       "alias": [],
-      "sortId": 100005
+      "sortId": 100006
     },
     "zh_CN": {
       "enabled": true,
@@ -2050,7 +2050,7 @@
       "enabled": true,
       "name": "Bipolar Nanoflake",
       "alias": [],
-      "sortId": 100004
+      "sortId": 100005
     },
     "ja_JP": {
       "enabled": true,
@@ -2058,13 +2058,13 @@
       "alias": [
         "なのふれーく"
       ],
-      "sortId": 100004
+      "sortId": 100005
     },
     "ko_KR": {
       "enabled": true,
       "name": "바이폴라 나노플레이크 칩",
       "alias": [],
-      "sortId": 100004
+      "sortId": 100005
     },
     "zh_CN": {
       "enabled": true,
@@ -2081,7 +2081,7 @@
       "enabled": true,
       "name": "D32 Steel",
       "alias": [],
-      "sortId": 100003
+      "sortId": 100004
     },
     "ja_JP": {
       "enabled": true,
@@ -2089,13 +2089,13 @@
       "alias": [
         "D32鋼"
       ],
-      "sortId": 100003
+      "sortId": 100004
     },
     "ko_KR": {
       "enabled": true,
       "name": "D32강",
       "alias": [],
-      "sortId": 100003
+      "sortId": 100004
     },
     "zh_CN": {
       "enabled": true,
@@ -2112,7 +2112,7 @@
       "enabled": true,
       "name": "Crystalline Electronic Unit",
       "alias": [],
-      "sortId": 100002
+      "sortId": 100003
     },
     "ja_JP": {
       "enabled": true,
@@ -2120,13 +2120,13 @@
       "alias": [
         "結晶制御装置"
       ],
-      "sortId": 100002
+      "sortId": 100003
     },
     "ko_KR": {
       "enabled": true,
       "name": "결정 전자 장치",
       "alias": [],
-      "sortId": 100002
+      "sortId": 100003
     },
     "zh_CN": {
       "enabled": true,
@@ -2143,7 +2143,7 @@
       "enabled": true,
       "name": "Nucleic Crystal Sinter",
       "alias": [],
-      "sortId": 100001
+      "sortId": 100002
     },
     "ja_JP": {
       "enabled": true,
@@ -2151,13 +2151,13 @@
       "alias": [
         "焼結核凝晶"
       ],
-      "sortId": 100001
+      "sortId": 100002
     },
     "ko_KR": {
       "enabled": true,
       "name": "핵결정체 소결물",
       "alias": [],
-      "sortId": 100001
+      "sortId": 100002
     },
     "zh_CN": {
       "enabled": true,
@@ -2171,19 +2171,24 @@
   },
   "M-5-6": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Rephasic Enantiomer",
+      "alias": [],
+      "sortId": 100001
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "重相位鏡像体",
+      "alias": [
+        "重相位鏡像体"
+      ],
+      "sortId": 100001
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "중위상 엔안티오머",
+      "alias": [],
+      "sortId": 100001
     },
     "zh_CN": {
       "enabled": true,
@@ -2200,7 +2205,7 @@
       "enabled": true,
       "name": "Coagulating Gel",
       "alias": [],
-      "sortId": 100021
+      "sortId": 100024
     },
     "ja_JP": {
       "enabled": true,
@@ -2208,13 +2213,13 @@
       "alias": [
         "人工げる"
       ],
-      "sortId": 100021
+      "sortId": 100024
     },
     "ko_KR": {
       "enabled": true,
       "name": "젤",
       "alias": [],
-      "sortId": 100021
+      "sortId": 100024
     },
     "zh_CN": {
       "enabled": true,
@@ -2231,7 +2236,7 @@
       "enabled": true,
       "name": "Polymerized Gel",
       "alias": [],
-      "sortId": 100020
+      "sortId": 100023
     },
     "ja_JP": {
       "enabled": true,
@@ -2239,13 +2244,13 @@
       "alias": [
         "融合げる"
       ],
-      "sortId": 100020
+      "sortId": 100023
     },
     "ko_KR": {
       "enabled": true,
       "name": "중합젤",
       "alias": [],
-      "sortId": 100020
+      "sortId": 100023
     },
     "zh_CN": {
       "enabled": true,
@@ -2262,7 +2267,7 @@
       "enabled": true,
       "name": "Incandescent Alloy",
       "alias": [],
-      "sortId": 100019
+      "sortId": 100022
     },
     "ja_JP": {
       "enabled": true,
@@ -2270,13 +2275,13 @@
       "alias": [
         "熾合金"
       ],
-      "sortId": 100019
+      "sortId": 100022
     },
     "ko_KR": {
       "enabled": true,
       "name": "열합금",
       "alias": [],
-      "sortId": 100019
+      "sortId": 100022
     },
     "zh_CN": {
       "enabled": true,
@@ -2293,7 +2298,7 @@
       "enabled": true,
       "name": "Incandescent Alloy Block",
       "alias": [],
-      "sortId": 100018
+      "sortId": 100021
     },
     "ja_JP": {
       "enabled": true,
@@ -2301,13 +2306,13 @@
       "alias": [
         "上級熾合金"
       ],
-      "sortId": 100018
+      "sortId": 100021
     },
     "ko_KR": {
       "enabled": true,
       "name": "열합금 팩",
       "alias": [],
-      "sortId": 100018
+      "sortId": 100021
     },
     "zh_CN": {
       "enabled": true,
@@ -2324,7 +2329,7 @@
       "enabled": true,
       "name": "Crystalline Component",
       "alias": [],
-      "sortId": 100017
+      "sortId": 100020
     },
     "ja_JP": {
       "enabled": true,
@@ -2332,13 +2337,13 @@
       "alias": [
         "素子結晶"
       ],
-      "sortId": 100017
+      "sortId": 100020
     },
     "ko_KR": {
       "enabled": true,
       "name": "결정 부품",
       "alias": [],
-      "sortId": 100017
+      "sortId": 100020
     },
     "zh_CN": {
       "enabled": true,
@@ -2355,7 +2360,7 @@
       "enabled": true,
       "name": "Crystalline Circuit",
       "alias": [],
-      "sortId": 100016
+      "sortId": 100019
     },
     "ja_JP": {
       "enabled": true,
@@ -2363,13 +2368,13 @@
       "alias": [
         "結晶回路"
       ],
-      "sortId": 100016
+      "sortId": 100019
     },
     "ko_KR": {
       "enabled": true,
       "name": "결정 회로",
       "alias": [],
-      "sortId": 100016
+      "sortId": 100019
     },
     "zh_CN": {
       "enabled": true,
@@ -2386,7 +2391,7 @@
       "enabled": true,
       "name": "Semi-Synthetic Solvent",
       "alias": [],
-      "sortId": 100015
+      "sortId": 100018
     },
     "ja_JP": {
       "enabled": true,
@@ -2394,13 +2399,13 @@
       "alias": [
         "半自然溶剤"
       ],
-      "sortId": 100015
+      "sortId": 100018
     },
     "ko_KR": {
       "enabled": true,
       "name": "반합성 용제",
       "alias": [],
-      "sortId": 100015
+      "sortId": 100018
     },
     "zh_CN": {
       "enabled": true,
@@ -2417,7 +2422,7 @@
       "enabled": true,
       "name": "Refined Solvent",
       "alias": [],
-      "sortId": 100014
+      "sortId": 100017
     },
     "ja_JP": {
       "enabled": true,
@@ -2425,13 +2430,13 @@
       "alias": [
         "精錬溶剤"
       ],
-      "sortId": 100014
+      "sortId": 100017
     },
     "ko_KR": {
       "enabled": true,
       "name": "정제된 용제",
       "alias": [],
-      "sortId": 100014
+      "sortId": 100017
     },
     "zh_CN": {
       "enabled": true,
@@ -2448,7 +2453,7 @@
       "enabled": true,
       "name": "Compound Cutting Fluid",
       "alias": [],
-      "sortId": 100013
+      "sortId": 100016
     },
     "ja_JP": {
       "enabled": true,
@@ -2456,13 +2461,13 @@
       "alias": [
         "切削液"
       ],
-      "sortId": 100013
+      "sortId": 100016
     },
     "ko_KR": {
       "enabled": true,
       "name": "중합 절삭유",
       "alias": [],
-      "sortId": 100013
+      "sortId": 100016
     },
     "zh_CN": {
       "enabled": true,
@@ -2479,7 +2484,7 @@
       "enabled": true,
       "name": "Cutting Fluid Solution",
       "alias": [],
-      "sortId": 100012
+      "sortId": 100015
     },
     "ja_JP": {
       "enabled": true,
@@ -2487,13 +2492,13 @@
       "alias": [
         "上級切削液"
       ],
-      "sortId": 100012
+      "sortId": 100015
     },
     "ko_KR": {
       "enabled": true,
       "name": "절삭유 원액",
       "alias": [],
-      "sortId": 100012
+      "sortId": 100015
     },
     "zh_CN": {
       "enabled": true,
@@ -2510,7 +2515,7 @@
       "enabled": true,
       "name": "Transmuted Salt",
       "alias": [],
-      "sortId": 100011
+      "sortId": 100014
     },
     "ja_JP": {
       "enabled": true,
@@ -2518,13 +2523,13 @@
       "alias": [
         "転化塩"
       ],
-      "sortId": 100011
+      "sortId": 100014
     },
     "ko_KR": {
       "enabled": true,
       "name": "합성 소금 번들",
       "alias": [],
-      "sortId": 100011
+      "sortId": 100014
     },
     "zh_CN": {
       "enabled": true,
@@ -2541,7 +2546,7 @@
       "enabled": true,
       "name": "Transmuted Salt Agglomerate",
       "alias": [],
-      "sortId": 100010
+      "sortId": 100013
     },
     "ja_JP": {
       "enabled": true,
@@ -2549,13 +2554,13 @@
       "alias": [
         "上級転化塩"
       ],
-      "sortId": 100010
+      "sortId": 100013
     },
     "ko_KR": {
       "enabled": true,
       "name": "합성 소금 팩",
       "alias": [],
-      "sortId": 100010
+      "sortId": 100013
     },
     "zh_CN": {
       "enabled": true,
@@ -2572,7 +2577,7 @@
       "enabled": true,
       "name": "Fuscous Fiber",
       "alias": [],
-      "sortId": 100009
+      "sortId": 100012
     },
     "ja_JP": {
       "enabled": true,
@@ -2580,13 +2585,13 @@
       "alias": [
         "褐素繊維"
       ],
-      "sortId": 100009
+      "sortId": 100012
     },
     "ko_KR": {
       "enabled": true,
       "name": "퓨신 섬유",
       "alias": [],
-      "sortId": 100009
+      "sortId": 100012
     },
     "zh_CN": {
       "enabled": true,
@@ -2603,7 +2608,7 @@
       "enabled": true,
       "name": "Solidified Fiber Board",
       "alias": [],
-      "sortId": 100008
+      "sortId": 100011
     },
     "ja_JP": {
       "enabled": true,
@@ -2611,13 +2616,13 @@
       "alias": [
         "硬化ふぁいばー基板"
       ],
-      "sortId": 100008
+      "sortId": 100011
     },
     "ko_KR": {
       "enabled": true,
       "name": "경화 섬유판",
       "alias": [],
-      "sortId": 100008
+      "sortId": 100011
     },
     "zh_CN": {
       "enabled": true,
@@ -2634,7 +2639,7 @@
       "enabled": true,
       "name": "Aggregate Cyclicene",
       "alias": [],
-      "sortId": 100007
+      "sortId": 100010
     },
     "ja_JP": {
       "enabled": true,
@@ -2642,13 +2647,13 @@
       "alias": [
         "炭化水素ぽりまー"
       ],
-      "sortId": 100007
+      "sortId": 100010
     },
     "ko_KR": {
       "enabled": true,
       "name": "고리탄화수소 응집질",
       "alias": [],
-      "sortId": 100007
+      "sortId": 100010
     },
     "zh_CN": {
       "enabled": true,
@@ -2665,7 +2670,7 @@
       "enabled": true,
       "name": "Cyclicene Prefab",
       "alias": [],
-      "sortId": 100006
+      "sortId": 100009
     },
     "ja_JP": {
       "enabled": true,
@@ -2673,13 +2678,13 @@
       "alias": [
         "ぷれはぶ式炭化水素"
       ],
-      "sortId": 100006
+      "sortId": 100009
     },
     "ko_KR": {
       "enabled": true,
       "name": "고리탄화수소 프리폼",
       "alias": [],
-      "sortId": 100006
+      "sortId": 100009
     },
     "zh_CN": {
       "enabled": true,
@@ -2693,19 +2698,24 @@
   },
   "M-3-19": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Coagulative Nodule",
+      "alias": [],
+      "sortId": 100008
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "凝固核",
+      "alias": [
+        "凝固核"
+      ],
+      "sortId": 100008
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "유사 응결핵",
+      "alias": [],
+      "sortId": 100008
     },
     "zh_CN": {
       "enabled": true,
@@ -2719,19 +2729,24 @@
   },
   "M-4-19": {
     "en_US": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "Chiral Refractor",
+      "alias": [],
+      "sortId": 100007
     },
     "ja_JP": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "カイラル屈光体",
+      "alias": [
+        "かいらる屈光体"
+      ],
+      "sortId": 100007
     },
     "ko_KR": {
-      "enabled": false,
-      "name": "",
-      "alias": []
+      "enabled": true,
+      "name": "카이랄 굴광체",
+      "alias": [],
+      "sortId": 100007
     },
     "zh_CN": {
       "enabled": true,

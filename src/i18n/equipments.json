@@ -7107,6 +7107,18 @@
   },
   "uniequip_002_thorn2": {
     "char_id": "char_1039_thorn2",
+    "en_US": {
+      "enabled": true,
+      "name": "A Three-Sided Coin"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "第三の選択"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "삼면의 금화"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "三面的金币"
@@ -7114,6 +7126,18 @@
   },
   "uniequip_002_tinman": {
     "char_id": "char_4151_tinman",
+    "en_US": {
+      "enabled": true,
+      "name": "'Phrenology'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「骨相学」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'골상학'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“颅相学”"
@@ -7121,6 +7145,18 @@
   },
   "uniequip_002_wulfen": {
     "char_id": "char_4171_wulfen",
+    "en_US": {
+      "enabled": true,
+      "name": "Mineral Display Cabinet"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "鉱石のショーケース"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "광석 전시대"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "矿石展览柜"
@@ -7128,6 +7164,18 @@
   },
   "uniequip_003_gnosis": {
     "char_id": "char_206_gnosis",
+    "en_US": {
+      "enabled": true,
+      "name": "Project One Model"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "第一号プロジェクトモデル"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "1호 프로젝트 모델"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "一号项目模型"
@@ -7135,6 +7183,18 @@
   },
   "uniequip_003_vigil": {
     "char_id": "char_427_vigil",
+    "en_US": {
+      "enabled": true,
+      "name": "Time Has Gone"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "過ぎ去りし時間"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "지나간 시간"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "时光不再"
@@ -7142,6 +7202,18 @@
   },
   "uniequip_003_sleach": {
     "char_id": "char_479_sleach",
+    "en_US": {
+      "enabled": true,
+      "name": "'Auld Lang Syne'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「友情讃歌」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'우정 만세'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“友谊万岁”"
@@ -7149,6 +7221,18 @@
   },
   "uniequip_003_bgsnow": {
     "char_id": "char_4055_bgsnow",
+    "en_US": {
+      "enabled": true,
+      "name": "чувство ритуала"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ささやかなこだわり"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "의식감"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "仪式感"
@@ -7156,6 +7240,18 @@
   },
   "uniequip_002_ines": {
     "char_id": "char_4087_ines",
+    "en_US": {
+      "enabled": true,
+      "name": "'Horncare Set'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "角「ケア」セット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "뿔 '케어' 키트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "角部“护理”套组"
@@ -7163,6 +7259,18 @@
   },
   "uniequip_002_ctable": {
     "char_id": "char_497_ctable",
+    "en_US": {
+      "enabled": true,
+      "name": "'The Voiceless'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「声なき者」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'소리내지 않는 자'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“不发声者”"
@@ -7170,6 +7278,18 @@
   },
   "uniequip_002_surfer": {
     "char_id": "char_4052_surfer",
+    "en_US": {
+      "enabled": true,
+      "name": "The Delicacy"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ごちそう"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "멋진 요리"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "佳肴"
@@ -7177,6 +7297,18 @@
   },
   "uniequip_002_alanna": {
     "char_id": "char_4178_alanna",
+    "en_US": {
+      "enabled": true,
+      "name": "'Carry-On Bumper'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「携帯用バンパー」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'휴대용 범퍼'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“随身保险杠”"
@@ -7184,6 +7316,18 @@
   },
   "uniequip_003_logos": {
     "char_id": "char_4133_logos",
+    "en_US": {
+      "enabled": true,
+      "name": "Semantics Paradigm Encyclopedia"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "『語義規範百科事典』"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "《의미 범주 백과사전》"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "《语义范式百科》"
@@ -7191,6 +7335,18 @@
   },
   "uniequip_003_mudrok": {
     "char_id": "char_311_mudrok",
+    "en_US": {
+      "enabled": true,
+      "name": "Wish of the Fertile Earth"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "沃土の望み"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "비옥한 땅의 전망"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "沃土的愿景"
@@ -7198,6 +7354,18 @@
   },
   "uniequip_002_puzzle": {
     "char_id": "char_4017_puzzle",
+    "en_US": {
+      "enabled": true,
+      "name": "Top Priority"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "最重要任務"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "가장 중요한 임무"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "首要任务"
@@ -7488,6 +7656,62 @@
     "zh_CN": {
       "enabled": true,
       "name": "音乐家的旅程"
+    }
+  },
+  "uniequip_002_wintim": {
+    "char_id": "char_4208_wintim",
+    "zh_CN": {
+      "enabled": true,
+      "name": "缺角的权限"
+    }
+  },
+  "uniequip_002_branch": {
+    "char_id": "char_4207_branch",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“时间的痕迹”"
+    }
+  },
+  "uniequip_002_mantra": {
+    "char_id": "char_4204_mantra",
+    "zh_CN": {
+      "enabled": true,
+      "name": "中枢神经探测模块"
+    }
+  },
+  "uniequip_002_narant": {
+    "char_id": "char_4138_narant",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“吹尽狂沙”"
+    }
+  },
+  "uniequip_002_brigid": {
+    "char_id": "char_4177_brigid",
+    "zh_CN": {
+      "enabled": true,
+      "name": "风的颜色"
+    }
+  },
+  "uniequip_002_caper": {
+    "char_id": "char_4100_caper",
+    "zh_CN": {
+      "enabled": true,
+      "name": "暖意的归宿"
+    }
+  },
+  "uniequip_003_excu2": {
+    "char_id": "char_1032_excu2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "已知悉"
+    }
+  },
+  "uniequip_003_amgoat": {
+    "char_id": "char_180_amgoat",
+    "zh_CN": {
+      "enabled": true,
+      "name": "宠物大赛第一名"
     }
   }
 }
