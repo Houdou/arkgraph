@@ -2959,6 +2959,52 @@
     "code": "humus",
     "code_name": "Humus"
   },
+  "char_445_wscoot": {
+    "en_US": {
+      "enabled": true,
+      "name": "Windscoot",
+      "skills": [
+        "The Best Defense",
+        "Unerring Proficiency"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウィンドスクート",
+      "skills": [
+        "攻防一如",
+        "快刀連斬"
+      ],
+      "alias": [
+        "うぃんどすくーと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "윈드스쿠트",
+      "skills": [
+        "공격으로 방어",
+        "무허발"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "骋风",
+      "skills": [
+        "以攻为守",
+        "招无虚发"
+      ],
+      "alias": [
+        "cheng feng",
+        "chengfeng"
+      ],
+      "appellation": "Windscoot"
+    },
+    "code": "windscoot",
+    "code_name": "Windscoot"
+  },
   "char_237_gravel": {
     "en_US": {
       "enabled": true,
@@ -10457,6 +10503,52 @@
     "code": "coldshot",
     "code_name": "Coldshot"
   },
+  "char_4177_brigid": {
+    "en_US": {
+      "enabled": true,
+      "name": "Brigid",
+      "skills": [
+        "Familiarity",
+        "Bring to Heel"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ブリギッド",
+      "skills": [
+        "ノマドの心得",
+        "遊牧の知恵"
+      ],
+      "alias": [
+        "ぶりぎっど"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "브리지드",
+      "skills": [
+        "익숙한 것",
+        "조련 가능한 것"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "水灯心",
+      "skills": [
+        "所熟知的",
+        "可驯服的"
+      ],
+      "alias": [
+        "shui deng xin",
+        "shuidengxin"
+      ],
+      "appellation": "Brigid"
+    },
+    "code": "brigid",
+    "code_name": "Brigid"
+  },
   "char_4015_spuria": {
     "en_US": {
       "enabled": true,
@@ -11054,6 +11146,52 @@
     },
     "code": "catherine",
     "code_name": "Catherine"
+  },
+  "char_4178_alanna": {
+    "en_US": {
+      "enabled": true,
+      "name": "Alanna",
+      "skills": [
+        "Pneumatic Power-Up",
+        "'Million-Pound Jack'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アランナ",
+      "skills": [
+        "エアブースター",
+        "ウルトラジャッキ"
+      ],
+      "alias": [
+        "あらんな"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "알라나",
+      "skills": [
+        "에어 부스터",
+        "'만근추'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "阿兰娜",
+      "skills": [
+        "气动增压",
+        "“万斤顶”"
+      ],
+      "alias": [
+        "a lan na",
+        "alanna"
+      ],
+      "appellation": "Alanna"
+    },
+    "code": "alanna",
+    "code_name": "Alanna"
   },
   "char_101_sora": {
     "en_US": {
@@ -11698,6 +11836,52 @@
     },
     "code": "frost",
     "code_name": "Frost"
+  },
+  "char_4171_wulfen": {
+    "en_US": {
+      "enabled": true,
+      "name": "Wulfenite",
+      "skills": [
+        "'For Scaring Beasts'",
+        "'For Stubborn Rocks'"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ウルフェナイト",
+      "skills": [
+        "「害獣専用」",
+        "「硬石専用」"
+      ],
+      "alias": [
+        "うるふぇないと"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "울페나이트",
+      "skills": [
+        "'짐승 퇴치 전용'",
+        "'견석 전용'"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "钼铅",
+      "skills": [
+        "“驱兽专用”",
+        "“顽石专用”"
+      ],
+      "alias": [
+        "mu qian",
+        "muqian"
+      ],
+      "appellation": "Wulfenite"
+    },
+    "code": "wulfenite",
+    "code_name": "Wulfenite"
   },
   "char_369_bena": {
     "en_US": {
@@ -14033,6 +14217,56 @@
     "code": "blaze the igniting spark",
     "code_name": "Blaze the Igniting Spark"
   },
+  "char_450_necras": {
+    "en_US": {
+      "enabled": true,
+      "name": "Necrass",
+      "skills": [
+        "Dread Desire",
+        "Snap the Withered",
+        "Crown the Dead"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ネクラス",
+      "skills": [
+        "禍呼ぶ願い",
+        "枯れゆく命",
+        "死に授く冠"
+      ],
+      "alias": [
+        "ねくらす"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "네크라스",
+      "skills": [
+        "저주받은 염원",
+        "무너지는 부패",
+        "왕관으로 빛나는 죽음"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "死芒",
+      "skills": [
+        "噩愿",
+        "折朽",
+        "冠死以冕"
+      ],
+      "alias": [
+        "si mang",
+        "simang"
+      ],
+      "appellation": "Necrass"
+    },
+    "code": "necrass",
+    "code_name": "Necrass"
+  },
   "char_206_gnosis": {
     "en_US": {
       "enabled": true,
@@ -14736,7 +14970,7 @@
   "char_1502_crosly": {
     "en_US": {
       "enabled": true,
-      "name": "CrownSlayer",
+      "name": "Crownslayer",
       "skills": [
         "Smoke and Mirrors",
         "Smokebomb Blast",
@@ -15732,6 +15966,56 @@
     },
     "code": "reed the flame shadow",
     "code_name": "Reed The Flame Shadow"
+  },
+  "char_4179_monstr": {
+    "en_US": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "Stratagem: Hyperpressurized Link",
+        "Stratagem: Overload",
+        "Stratagem: Meltdown"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "戦術：過圧力連結",
+        "戦術：超飽和治療",
+        "戦術：メルトダウン"
+      ],
+      "alias": [
+        "Mon3tr"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "책략: 초연결",
+        "책략: 과부하",
+        "책략: 용해"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Mon3tr",
+      "skills": [
+        "策略：超压链接",
+        "策略：超负荷",
+        "策略：熔毁"
+      ],
+      "alias": [
+        "Mon3tr",
+        "Mon3tr"
+      ],
+      "appellation": "Mon3tr"
+    },
+    "code": "mon3tr",
+    "code_name": "Mon3tr"
   },
   "char_136_hsguma": {
     "en_US": {
@@ -18053,22 +18337,22 @@
     "code": null,
     "code_name": "CONFESS-47"
   },
-  "char_445_wscoot": {
+  "char_4208_wintim": {
     "zh_CN": {
       "enabled": true,
-      "name": "骋风",
+      "name": "冬时",
       "skills": [
-        "以攻为守",
-        "招无虚发"
+        "数据分析",
+        "循理归因"
       ],
       "alias": [
-        "cheng feng",
-        "chengfeng"
+        "dong shi",
+        "dongshi"
       ],
-      "appellation": "Windscoot"
+      "appellation": "Снегyрочка"
     },
     "code": null,
-    "code_name": "Windscoot"
+    "code_name": "Снегyрочка"
   },
   "char_4199_makiri": {
     "zh_CN": {
@@ -18172,39 +18456,22 @@
     "code": null,
     "code_name": "Record Keeper"
   },
-  "char_4177_brigid": {
+  "char_4207_branch": {
     "zh_CN": {
       "enabled": true,
-      "name": "水灯心",
+      "name": "折桠",
       "skills": [
-        "所熟知的",
-        "可驯服的"
+        "绝境抵抗",
+        "生存决心"
       ],
       "alias": [
-        "shui deng xin",
-        "shuidengxin"
+        "zhe ya",
+        "zheya"
       ],
-      "appellation": "Brigid"
+      "appellation": "Веточки"
     },
     "code": null,
-    "code_name": "Brigid"
-  },
-  "char_4178_alanna": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "阿兰娜",
-      "skills": [
-        "气动增压",
-        "“万斤顶”"
-      ],
-      "alias": [
-        "a lan na",
-        "alanna"
-      ],
-      "appellation": "Alanna"
-    },
-    "code": null,
-    "code_name": "Alanna"
+    "code_name": "Веточки"
   },
   "char_4184_dolris": {
     "zh_CN": {
@@ -18239,23 +18506,6 @@
     },
     "code": null,
     "code_name": "Yahata Umiri"
-  },
-  "char_4171_wulfen": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "钼铅",
-      "skills": [
-        "“驱兽专用”",
-        "“顽石专用”"
-      ],
-      "alias": [
-        "mu qian",
-        "muqian"
-      ],
-      "appellation": "Wulfenite"
-    },
-    "code": null,
-    "code_name": "Wulfenite"
   },
   "char_4183_mortis": {
     "zh_CN": {
@@ -18309,23 +18559,23 @@
     "code": null,
     "code_name": "Lemuen"
   },
-  "char_450_necras": {
+  "char_4204_mantra": {
     "zh_CN": {
       "enabled": true,
-      "name": "死芒",
+      "name": "真言",
       "skills": [
-        "噩愿",
-        "折朽",
-        "冠死以冕"
+        "共鸣溃缩",
+        "意识联协",
+        "无言为真"
       ],
       "alias": [
-        "si mang",
-        "simang"
+        "zhen yan",
+        "zhenyan"
       ],
-      "appellation": "Necrass"
+      "appellation": "Mantra"
     },
     "code": null,
-    "code_name": "Necrass"
+    "code_name": "Mantra"
   },
   "char_4195_radian": {
     "zh_CN": {
@@ -18398,24 +18648,6 @@
     },
     "code": null,
     "code_name": "Exusiai the New Covenant"
-  },
-  "char_4179_monstr": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Mon3tr",
-      "skills": [
-        "策略：超压链接",
-        "策略：超负荷",
-        "策略：熔毁"
-      ],
-      "alias": [
-        "Mon3tr",
-        "Mon3tr"
-      ],
-      "appellation": "Mon3tr"
-    },
-    "code": null,
-    "code_name": "Mon3tr"
   },
   "char_4194_rmixer": {
     "zh_CN": {

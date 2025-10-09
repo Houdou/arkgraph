@@ -5,6 +5,35 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2025-10-09",
+    "type": "new_operators",
+    "new_operators": [
+      "char_450_necras",
+      "char_4179_monstr",
+      "char_4177_brigid",
+      "char_4178_alanna",
+      "char_4171_wulfen",
+      "char_445_wscoot"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2025-10-09",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4204_mantra",
+      "char_4207_branch",
+      "char_4208_wintim"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2025-09-04",
     "type": "new_operators",
     "new_operators": [
@@ -114,35 +143,6 @@
       "char_605_cmedic",
       "char_602_cdfend",
       "char_606_csuppo"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2025-06-05",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1042_phatm2",
-      "char_4198_christ",
-      "char_4191_tippi"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2025-05-01",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4026_vulpis",
-      "char_1038_whitw2",
-      "char_1502_crosly",
-      "char_4155_talr",
-      "char_4148_philae",
-      "char_4165_ctrail"
     ]
   }
 ]
