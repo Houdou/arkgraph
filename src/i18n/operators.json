@@ -271,6 +271,40 @@
     "code": "phonor-0",
     "code_name": "PhonoR-0"
   },
+  "char_4188_confes": {
+    "en_US": {
+      "enabled": true,
+      "name": "CONFESS-47",
+      "skills": [],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "CONFESS-47",
+      "skills": [],
+      "alias": [
+        "CONFESS-47"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "CONFESS-47",
+      "skills": [],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "CONFESS-47",
+      "skills": [],
+      "alias": [
+        "CONFESS-47",
+        "CONFESS-47"
+      ],
+      "appellation": "CONFESS-47"
+    },
+    "code": "confess-47",
+    "code_name": "CONFESS-47"
+  },
   "char_502_nblade": {
     "en_US": {
       "enabled": true,
@@ -5522,7 +5556,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Sharp",
+      "name": "샤프",
       "skills": [
         "빛나는 검"
       ],
@@ -6509,6 +6543,52 @@
     "code": "odda",
     "code_name": "Odda"
   },
+  "char_4187_graceb": {
+    "en_US": {
+      "enabled": true,
+      "name": "Gracebearer",
+      "skills": [
+        "Skullcracking Elegy",
+        "Disemboweling Mass"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "グレースベアラー",
+      "skills": [
+        "開頭の挽歌",
+        "開胸の弥撒"
+      ],
+      "alias": [
+        "ぐれーすべあらー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "그레이스베어러",
+      "skills": [
+        "두개골 파열 엘레지",
+        "가슴을 가르는 미사"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "聆音",
+      "skills": [
+        "开颅挽歌",
+        "破膛弥撒"
+      ],
+      "alias": [
+        "ling yin",
+        "lingyin"
+      ],
+      "appellation": "Gracebearer"
+    },
+    "code": "gracebearer",
+    "code_name": "Gracebearer"
+  },
   "char_129_bluep": {
     "en_US": {
       "enabled": true,
@@ -6668,7 +6748,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Stormeye",
+      "name": "스톰아이",
       "skills": [
         "스파이럴 암"
       ],
@@ -7312,7 +7392,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Pith",
+      "name": "피스",
       "skills": [
         "“하고 싶은 걸 한다”"
       ],
@@ -8115,6 +8195,52 @@
     "code": "warmy",
     "code_name": "Warmy"
   },
+  "char_4198_christ": {
+    "en_US": {
+      "enabled": true,
+      "name": "Miss.Christine",
+      "skills": [
+        "Mealtime Manners",
+        "Bacchanalia"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミス・クリスティーン",
+      "skills": [
+        "食事は気ままに",
+        "狂飲の宴"
+      ],
+      "alias": [
+        "みす・くりすてぃーん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미스 크리스틴",
+      "skills": [
+        "식사 에티켓",
+        "과음의 연회"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "Miss.Christine",
+      "skills": [
+        "自由用餐礼仪",
+        "狂饮之宴"
+      ],
+      "alias": [
+        "Miss.Christine",
+        "Miss.Christine"
+      ],
+      "appellation": "Miss.Christine"
+    },
+    "code": "miss.christine",
+    "code_name": "Miss.Christine"
+  },
   "char_4164_tecno": {
     "en_US": {
       "enabled": true,
@@ -8458,7 +8584,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Touch",
+      "name": "터치",
       "skills": [
         "천계와 같이"
       ],
@@ -12242,7 +12368,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Stormeye",
+      "name": "스톰아이",
       "skills": [
         "파공",
         "심수합일",
@@ -12416,6 +12542,56 @@
     },
     "code": "fartooth",
     "code_name": "Fartooth"
+  },
+  "char_4193_lemuen": {
+    "en_US": {
+      "enabled": true,
+      "name": "Lemuen",
+      "skills": [
+        "Salvē Etiam",
+        "Honesta Missio",
+        "Salutatio Sclopeti: Memento Mori"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "レミュアン",
+      "skills": [
+        "再会の挨拶",
+        "帰郷の誘い",
+        "礼砲・強制追悼"
+      ],
+      "alias": [
+        "れみゅあん"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "르무엔",
+      "skills": [
+        "재회 인사",
+        "귀향의 약속",
+        "예포 - 강제적인 추모"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "蕾缪安",
+      "skills": [
+        "重逢问候",
+        "归乡邀约",
+        "礼炮·强制追思"
+      ],
+      "alias": [
+        "lei mou an",
+        "leimouan"
+      ],
+      "appellation": "Lemuen"
+    },
+    "code": "lemuen",
+    "code_name": "Lemuen"
   },
   "char_113_cqbw": {
     "en_US": {
@@ -13792,7 +13968,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Pith",
+      "name": "피스",
       "skills": [
         "“쓰고 싶은 걸 쓴다”",
         "“하고 싶은 걸 한다”",
@@ -14442,7 +14618,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Raidian",
+      "name": "라이디언",
       "skills": [
         "두 가지 음",
         "세 가지 형",
@@ -15042,7 +15218,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Misery",
+      "name": "미저리",
       "skills": [
         "물리의 복종",
         "전쟁의 공순",
@@ -15266,6 +15442,56 @@
     },
     "code": "aak",
     "code_name": "Aak"
+  },
+  "char_1041_angel2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Exusiai the New Covenant",
+      "skills": [
+        "Sweeping the Skies",
+        "Shootoholic",
+        "Guaranteed Success!"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "新約エクシア",
+      "skills": [
+        "スカイスイーパー",
+        "トリガーハッピー",
+        "絶対に、確実に！"
+      ],
+      "alias": [
+        "新約えくしあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "엑시아 더 뉴 커버넌트",
+      "skills": [
+        "하늘 대청소",
+        "발포 중독증",
+        "신속배달!"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "新约能天使",
+      "skills": [
+        "天空大扫除",
+        "开火成瘾症",
+        "使命必达！"
+      ],
+      "alias": [
+        "xin yue neng tian shi",
+        "xinyuenengtianshi"
+      ],
+      "appellation": "Exusiai the New Covenant"
+    },
+    "code": "exusiai the new covenant",
+    "code_name": "Exusiai the New Covenant"
   },
   "char_474_glady": {
     "en_US": {
@@ -15692,7 +15918,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Touch",
+      "name": "터치",
       "skills": [
         "아낌없는 선사",
         "천계와 같이",
@@ -16092,7 +16318,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Mechanist",
+      "name": "메커니스트",
       "skills": [
         "구조 안정",
         "불변성 원리",
@@ -16566,6 +16792,56 @@
     },
     "code": "jessica the liberated",
     "code_name": "Jessica the Liberated"
+  },
+  "char_4194_rmixer": {
+    "en_US": {
+      "enabled": true,
+      "name": "Sankta Miksaparato",
+      "skills": [
+        "Gun-Knight Examiner-in-Chief",
+        "Eight-Armed Chainsaw Guy",
+        "Pre-Retirement Preaching"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "サンクタ・ミキサー",
+      "skills": [
+        "銃騎士主任試験官",
+        "オクトパス・チェーンソー",
+        "引退前の布教"
+      ],
+      "alias": [
+        "さんくた・みきさー"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "산크타 믹사파라토",
+      "skills": [
+        "총기사 시험관",
+        "여덟팔 전기톱맨",
+        "은퇴 전 포교"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "信仰搅拌机",
+      "skills": [
+        "铳骑主考官",
+        "八臂电锯侠",
+        "退休前布道"
+      ],
+      "alias": [
+        "xin yang jiao ban ji",
+        "xinyangjiaobanji"
+      ],
+      "appellation": "Sankta Miksaparato"
+    },
+    "code": "sankta miksaparato",
+    "code_name": "Sankta Miksaparato"
   },
   "char_2026_yu": {
     "en_US": {
@@ -17692,7 +17968,7 @@
     },
     "ko_KR": {
       "enabled": true,
-      "name": "Sharp",
+      "name": "샤프",
       "skills": [
         "빠른 칼",
         "빛나는 검",
@@ -18323,19 +18599,22 @@
     "code": "promoted amiya medic",
     "code_name": "Amiya"
   },
-  "char_4188_confes": {
+  "char_4051_akkord": {
     "zh_CN": {
       "enabled": true,
-      "name": "CONFESS-47",
-      "skills": [],
-      "alias": [
-        "CONFESS-47",
-        "CONFESS-47"
+      "name": "协律",
+      "skills": [
+        "反拍重音",
+        "震爆调谐"
       ],
-      "appellation": "CONFESS-47"
+      "alias": [
+        "xie lv",
+        "xielv"
+      ],
+      "appellation": "Akkord"
     },
     "code": null,
-    "code_name": "CONFESS-47"
+    "code_name": "Akkord"
   },
   "char_4208_wintim": {
     "zh_CN": {
@@ -18349,10 +18628,10 @@
         "dong shi",
         "dongshi"
       ],
-      "appellation": "Снегyрочка"
+      "appellation": "Снегурочка"
     },
     "code": null,
-    "code_name": "Снегyрочка"
+    "code_name": "Снегурочка"
   },
   "char_4199_makiri": {
     "zh_CN": {
@@ -18371,23 +18650,6 @@
     "code": null,
     "code_name": "Matsukiri"
   },
-  "char_4187_graceb": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "聆音",
-      "skills": [
-        "开颅挽歌",
-        "破膛弥撒"
-      ],
-      "alias": [
-        "ling yin",
-        "lingyin"
-      ],
-      "appellation": "Gracebearer"
-    },
-    "code": null,
-    "code_name": "Gracebearer"
-  },
   "char_4185_amoris": {
     "zh_CN": {
       "enabled": true,
@@ -18405,6 +18667,23 @@
     "code": null,
     "code_name": "Yūtenji Nyamu"
   },
+  "char_394_hadiya": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "哈蒂娅",
+      "skills": [
+        "沙地战术改良",
+        "剑角之锋"
+      ],
+      "alias": [
+        "ha di ya",
+        "hadiya"
+      ],
+      "appellation": "Hadiya"
+    },
+    "code": null,
+    "code_name": "Hadiya"
+  },
   "char_4203_kichi": {
     "zh_CN": {
       "enabled": true,
@@ -18421,23 +18700,6 @@
     },
     "code": null,
     "code_name": "Kichisei"
-  },
-  "char_4198_christ": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "Miss.Christine",
-      "skills": [
-        "自由用餐礼仪",
-        "狂饮之宴"
-      ],
-      "alias": [
-        "Miss.Christine",
-        "Miss.Christine"
-      ],
-      "appellation": "Miss.Christine"
-    },
-    "code": null,
-    "code_name": "Miss.Christine"
   },
   "char_4196_reckpr": {
     "zh_CN": {
@@ -18472,6 +18734,23 @@
     },
     "code": null,
     "code_name": "Веточки"
+  },
+  "char_4211_snhunt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "雪猎",
+      "skills": [
+        "强力击·β型",
+        "风雪连弩"
+      ],
+      "alias": [
+        "xue lie",
+        "xuelie"
+      ],
+      "appellation": "Snow Hunter"
+    },
+    "code": null,
+    "code_name": "Snow Hunter"
   },
   "char_4184_dolris": {
     "zh_CN": {
@@ -18541,23 +18820,41 @@
     "code": null,
     "code_name": "Tippi"
   },
-  "char_4193_lemuen": {
+  "char_1045_svash2": {
     "zh_CN": {
       "enabled": true,
-      "name": "蕾缪安",
+      "name": "凛御银灰",
       "skills": [
-        "重逢问候",
-        "归乡邀约",
-        "礼炮·强制追思"
+        "周旋的谋略",
+        "御敌的锋锐",
+        "变革已至"
       ],
       "alias": [
-        "lei mou an",
-        "leimouan"
+        "lin yu yin hui",
+        "linyuyinhui"
       ],
-      "appellation": "Lemuen"
+      "appellation": "SilverAsh the Reignfrost"
     },
     "code": null,
-    "code_name": "Lemuen"
+    "code_name": "SilverAsh the Reignfrost"
+  },
+  "char_1046_sbell2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "圣聆初雪",
+      "skills": [
+        "铃音吹雪",
+        "霜涛覆岭",
+        "群山俯首"
+      ],
+      "alias": [
+        "sheng ling chu xue",
+        "shenglingchuxue"
+      ],
+      "appellation": "Pramanix the Prerita"
+    },
+    "code": null,
+    "code_name": "Pramanix the Prerita"
   },
   "char_4204_mantra": {
     "zh_CN": {
@@ -18576,6 +18873,24 @@
     },
     "code": null,
     "code_name": "Mantra"
+  },
+  "char_1047_halo2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "溯光星源",
+      "skills": [
+        "星图闪烁",
+        "星束引力",
+        "并流连锁"
+      ],
+      "alias": [
+        "su guang xing yuan",
+        "suguangxingyuan"
+      ],
+      "appellation": "Astgenne the Lightchaser"
+    },
+    "code": null,
+    "code_name": "Astgenne the Lightchaser"
   },
   "char_4195_radian": {
     "zh_CN": {
@@ -18630,42 +18945,6 @@
     },
     "code": null,
     "code_name": "Tragodia"
-  },
-  "char_1041_angel2": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "新约能天使",
-      "skills": [
-        "天空大扫除",
-        "开火成瘾症",
-        "使命必达！"
-      ],
-      "alias": [
-        "xin yue neng tian shi",
-        "xinyuenengtianshi"
-      ],
-      "appellation": "Exusiai the New Covenant"
-    },
-    "code": null,
-    "code_name": "Exusiai the New Covenant"
-  },
-  "char_4194_rmixer": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "信仰搅拌机",
-      "skills": [
-        "铳骑主考官",
-        "八臂电锯侠",
-        "退休前布道"
-      ],
-      "alias": [
-        "xin yang jiao ban ji",
-        "xinyangjiaobanji"
-      ],
-      "appellation": "Sankta Miksaparato"
-    },
-    "code": null,
-    "code_name": "Sankta Miksaparato"
   },
   "char_1044_hsgma2": {
     "zh_CN": {

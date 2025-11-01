@@ -7373,6 +7373,18 @@
   },
   "uniequip_003_slent2": {
     "char_id": "char_1031_slent2",
+    "en_US": {
+      "enabled": true,
+      "name": "Controllable Momentum"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "制御可能変数"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "제어 가능한 모멘텀"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "可控动量"
@@ -7380,6 +7392,18 @@
   },
   "uniequip_002_mlynar": {
     "char_id": "char_4064_mlynar",
+    "en_US": {
+      "enabled": true,
+      "name": "'Man in Scabbard'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「鞘に納められた人」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'칼집 속 사람'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“鞘中人”"
@@ -7387,6 +7411,18 @@
   },
   "uniequip_002_takila": {
     "char_id": "char_486_takila",
+    "en_US": {
+      "enabled": true,
+      "name": "'Two Faces'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「二つの顔」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'이중 신분'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“双重身份”"
@@ -7394,6 +7430,18 @@
   },
   "uniequip_002_wscoot": {
     "char_id": "char_445_wscoot",
+    "en_US": {
+      "enabled": true,
+      "name": "Yi"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "義"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'의'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "义"
@@ -7401,6 +7449,18 @@
   },
   "uniequip_003_mlyss": {
     "char_id": "char_249_mlyss",
+    "en_US": {
+      "enabled": true,
+      "name": "Fallen Leaves of Four Seasons"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "落ち葉と四季"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "사계절의 낙엽"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "落叶四季"
@@ -7408,6 +7468,18 @@
   },
   "uniequip_003_thorns": {
     "char_id": "char_293_thorns",
+    "en_US": {
+      "enabled": true,
+      "name": "Sand Erosion"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "砂の侵食"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "모래 침식"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "沙蚀"
@@ -7415,6 +7487,18 @@
   },
   "uniequip_004_mizuki": {
     "char_id": "char_437_mizuki",
+    "en_US": {
+      "enabled": true,
+      "name": "Mizuki's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ミヅキの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "미즈키의 특별 한정 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "水月特限证章"
@@ -7422,6 +7506,18 @@
   },
   "uniequip_004_archet": {
     "char_id": "char_332_archet",
+    "en_US": {
+      "enabled": true,
+      "name": "Archetto's Specialized Badge"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "アルケットの特別限定記章"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "아르케토의 특별 한정 배지"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "空弦特限证章"
@@ -7429,6 +7525,18 @@
   },
   "uniequip_003_crosly": {
     "char_id": "char_1502_crosly",
+    "en_US": {
+      "enabled": true,
+      "name": "рисунок углем"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "木炭画"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "목탄화"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "木炭画"
@@ -7436,6 +7544,18 @@
   },
   "uniequip_002_angel2": {
     "char_id": "char_1041_angel2",
+    "en_US": {
+      "enabled": true,
+      "name": "Convenience Kit for New Friends"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "聖都歓迎キット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "새 친구를 위한 웰컴 키트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "新朋友圣城生活套组"
@@ -7443,6 +7563,18 @@
   },
   "uniequip_002_lemuen": {
     "char_id": "char_4193_lemuen",
+    "en_US": {
+      "enabled": true,
+      "name": "'Magazine and Stained Glass'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「弾倉とステンドグラス」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'탄창과 색유리 창'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“弹匣与花窗”"
@@ -7450,6 +7582,18 @@
   },
   "uniequip_002_rmixer": {
     "char_id": "char_4194_rmixer",
+    "en_US": {
+      "enabled": true,
+      "name": "Armor Cleaning Brush Set"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "甲冑手入れセット"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "갑옷 청소용 브러시 세트"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "毛刷套装"
@@ -7679,6 +7823,13 @@
       "name": "中枢神经探测模块"
     }
   },
+  "uniequip_003_radian": {
+    "char_id": "char_4195_radian",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新起点"
+    }
+  },
   "uniequip_002_narant": {
     "char_id": "char_4138_narant",
     "zh_CN": {
@@ -7712,6 +7863,90 @@
     "zh_CN": {
       "enabled": true,
       "name": "宠物大赛第一名"
+    }
+  },
+  "uniequip_002_sbell2": {
+    "char_id": "char_1046_sbell2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "千分之一的心"
+    }
+  },
+  "uniequip_004_heyak": {
+    "char_id": "char_4027_heyak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "霍尔海雅特限证章"
+    }
+  },
+  "uniequip_004_gnosis": {
+    "char_id": "char_206_gnosis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "灵知特限证章"
+    }
+  },
+  "uniequip_002_halo2": {
+    "char_id": "char_1047_halo2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "探索者的收藏"
+    }
+  },
+  "uniequip_002_akkord": {
+    "char_id": "char_4051_akkord",
+    "zh_CN": {
+      "enabled": true,
+      "name": "移动八音盒"
+    }
+  },
+  "uniequip_003_siege2": {
+    "char_id": "char_1019_siege2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "秩序圣“球”"
+    }
+  },
+  "uniequip_002_durnar": {
+    "char_id": "char_260_durnar",
+    "zh_CN": {
+      "enabled": true,
+      "name": "守护的道路"
+    }
+  },
+  "uniequip_002_pianst": {
+    "char_id": "char_4047_pianst",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“日复一日”"
+    }
+  },
+  "uniequip_002_asbest": {
+    "char_id": "char_378_asbest",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“石棉大战双头钳兽”"
+    }
+  },
+  "uniequip_002_aprot2": {
+    "char_id": "char_4025_aprot2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "票根收纳册"
+    }
+  },
+  "uniequip_002_hsgma2": {
+    "char_id": "char_1044_hsgma2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "无迹"
+    }
+  },
+  "uniequip_002_snhunt": {
+    "char_id": "char_4211_snhunt",
+    "zh_CN": {
+      "enabled": true,
+      "name": "过去的狩猎"
     }
   }
 }
