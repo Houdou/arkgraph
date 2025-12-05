@@ -7601,6 +7601,18 @@
   },
   "uniequip_002_phatm2": {
     "char_id": "char_1042_phatm2",
+    "en_US": {
+      "enabled": true,
+      "name": "Heart of Tragodia"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トラゴーディアの心"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "트라고디아의 심장"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "酒神之心"
@@ -7608,6 +7620,18 @@
   },
   "uniequip_002_necras": {
     "char_id": "char_450_necras",
+    "en_US": {
+      "enabled": true,
+      "name": "Unclaimed Legacy"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "手つかずの遺産"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "주인 없는 유산"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "未处理的遗产"
@@ -7615,6 +7639,18 @@
   },
   "uniequip_002_tecno": {
     "char_id": "char_4164_tecno",
+    "en_US": {
+      "enabled": true,
+      "name": "Official Coupon Stamp of the BBQ House"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "バーベキューハウス割引スタンプ"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "바비큐 식당 공식 쿠폰 도장"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "烧烤店官方优惠章"
@@ -7622,6 +7658,18 @@
   },
   "uniequip_003_ascln": {
     "char_id": "char_4132_ascln",
+    "en_US": {
+      "enabled": true,
+      "name": "'Eyes of Ascalon'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「アスカロンの瞳」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'아스카론의 눈'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“阿斯卡纶的眼睛”"
@@ -7629,6 +7677,18 @@
   },
   "uniequip_003_f12yin": {
     "char_id": "char_264_f12yin",
+    "en_US": {
+      "enabled": true,
+      "name": "'In the Dead of Night'"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "「誰もが寝静まった夜」"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "'깊은 밤'"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "“夜深人静”"
@@ -7636,6 +7696,18 @@
   },
   "uniequip_003_doroth": {
     "char_id": "char_4048_doroth",
+    "en_US": {
+      "enabled": true,
+      "name": "In My Dreams"
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "夢の中で"
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "꿈속에서"
+    },
     "zh_CN": {
       "enabled": true,
       "name": "梦中人"
@@ -7947,6 +8019,55 @@
     "zh_CN": {
       "enabled": true,
       "name": "过去的狩猎"
+    }
+  },
+  "uniequip_002_pithst": {
+    "char_id": "char_616_pithst",
+    "zh_CN": {
+      "enabled": true,
+      "name": "盟约·辅助干员证章"
+    }
+  },
+  "uniequip_002_sharp2": {
+    "char_id": "char_617_sharp2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "领主·Sharp证章"
+    }
+  },
+  "uniequip_002_monstr": {
+    "char_id": "char_4179_monstr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "记忆存档"
+    }
+  },
+  "uniequip_002_peper": {
+    "char_id": "char_4071_peper",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“多彩人生”"
+    }
+  },
+  "uniequip_002_papyrs": {
+    "char_id": "char_4139_papyrs",
+    "zh_CN": {
+      "enabled": true,
+      "name": "小小的种子"
+    }
+  },
+  "uniequip_002_nasti": {
+    "char_id": "char_4212_nasti",
+    "zh_CN": {
+      "enabled": true,
+      "name": "工程师们"
+    }
+  },
+  "uniequip_003_ray": {
+    "char_id": "char_4117_ray",
+    "zh_CN": {
+      "enabled": true,
+      "name": "证明什么？"
     }
   }
 }

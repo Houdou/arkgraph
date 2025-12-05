@@ -12193,6 +12193,52 @@
     "code": "tin man",
     "code_name": "Tin Man"
   },
+  "char_4191_tippi": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tippi",
+      "skills": [
+        "Specialist's Spraying Skills",
+        "Emergency Scene Change"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "ティッピ",
+      "skills": [
+        "スプレーアート",
+        "撮影現場急行"
+      ],
+      "alias": [
+        "てぃっぴ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "티피",
+      "skills": [
+        "전문 페인팅 기술",
+        "긴급 이동 안내"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "蒂比",
+      "skills": [
+        "专业喷绘技巧",
+        "紧急赶场通知"
+      ],
+      "alias": [
+        "di bi",
+        "dibi"
+      ],
+      "appellation": "Tippi"
+    },
+    "code": "tippi",
+    "code_name": "Tippi"
+  },
   "char_103_angel": {
     "en_US": {
       "enabled": true,
@@ -14992,6 +15038,56 @@
     },
     "code": "virtuosa",
     "code_name": "Virtuosa"
+  },
+  "char_1042_phatm2": {
+    "en_US": {
+      "enabled": true,
+      "name": "Tragodia",
+      "skills": [
+        "Night Echoes",
+        "Folie à Plusieurs",
+        "Le Théâtre du Vide"
+      ],
+      "alias": []
+    },
+    "ja_JP": {
+      "enabled": true,
+      "name": "トラゴーディア",
+      "skills": [
+        "闇夜の反響",
+        "群体性譫妄",
+        "無人の劇場"
+      ],
+      "alias": [
+        "とらごーでぃあ"
+      ]
+    },
+    "ko_KR": {
+      "enabled": true,
+      "name": "트라고디아",
+      "skills": [
+        "밤의 메아리",
+        "집단적 섬망",
+        "빈 극장"
+      ],
+      "alias": []
+    },
+    "zh_CN": {
+      "enabled": true,
+      "name": "酒神",
+      "skills": [
+        "暗夜回声",
+        "群体性谵妄",
+        "空剧场"
+      ],
+      "alias": [
+        "jiu shen",
+        "jiushen"
+      ],
+      "appellation": "Tragodia"
+    },
+    "code": "tragodia",
+    "code_name": "Tragodia"
   },
   "char_250_phatom": {
     "en_US": {
@@ -18633,6 +18729,22 @@
     "code": null,
     "code_name": "Снегурочка"
   },
+  "char_616_pithst": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "盟约·辅助干员",
+      "skills": [
+        "战术咏唱·双型"
+      ],
+      "alias": [
+        "meng yue · fu zhu gan yuan",
+        "mengyue·fuzhuganyuan"
+      ],
+      "appellation": "Alliance/Supportive Opertator"
+    },
+    "code": null,
+    "code_name": "Alliance/Supportive Opertator"
+  },
   "char_4199_makiri": {
     "zh_CN": {
       "enabled": true,
@@ -18700,6 +18812,23 @@
     },
     "code": null,
     "code_name": "Kichisei"
+  },
+  "char_4213_skybx": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "天空盒",
+      "skills": [
+        "源石火药驾临",
+        "电磁脉冲恩宠"
+      ],
+      "alias": [
+        "tian kong he",
+        "tiankonghe"
+      ],
+      "appellation": "Skybox"
+    },
+    "code": null,
+    "code_name": "Skybox"
   },
   "char_4196_reckpr": {
     "zh_CN": {
@@ -18802,23 +18931,6 @@
     },
     "code": null,
     "code_name": "Wakaba Mutsumi"
-  },
-  "char_4191_tippi": {
-    "zh_CN": {
-      "enabled": true,
-      "name": "蒂比",
-      "skills": [
-        "专业喷绘技巧",
-        "紧急赶场通知"
-      ],
-      "alias": [
-        "di bi",
-        "dibi"
-      ],
-      "appellation": "Tippi"
-    },
-    "code": null,
-    "code_name": "Tippi"
   },
   "char_1045_svash2": {
     "zh_CN": {
@@ -18928,23 +19040,23 @@
     "code": null,
     "code_name": "Haruka"
   },
-  "char_1042_phatm2": {
+  "char_4212_nasti": {
     "zh_CN": {
       "enabled": true,
-      "name": "酒神",
+      "name": "娜斯提",
       "skills": [
-        "暗夜回声",
-        "群体性谵妄",
-        "空剧场"
+        "“拱卫”",
+        "“执行”",
+        "栖脚地"
       ],
       "alias": [
-        "jiu shen",
-        "jiushen"
+        "na si ti",
+        "nasiti"
       ],
-      "appellation": "Tragodia"
+      "appellation": "Nasti"
     },
     "code": null,
-    "code_name": "Tragodia"
+    "code_name": "Nasti"
   },
   "char_1044_hsgma2": {
     "zh_CN": {
@@ -18982,6 +19094,22 @@
     "code": null,
     "code_name": "Togawa Sakiko"
   },
+  "char_617_sharp2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "领主·Sharp",
+      "skills": [
+        "沉默的爆发"
+      ],
+      "alias": [
+        "ling zhu ·Sharp",
+        "lingzhu·Sharp"
+      ],
+      "appellation": "Lord/Sharp"
+    },
+    "code": null,
+    "code_name": "Lord/Sharp"
+  },
   "char_1043_leizi2": {
     "zh_CN": {
       "enabled": true,
@@ -18999,5 +19127,22 @@
     },
     "code": null,
     "code_name": "Leizi the Thunderbringer"
+  },
+  "char_4214_cairn": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "响石",
+      "skills": [
+        "覆盖式休整",
+        "震撼型指路"
+      ],
+      "alias": [
+        "xiang shi",
+        "xiangshi"
+      ],
+      "appellation": "Cairn"
+    },
+    "code": null,
+    "code_name": "Cairn"
   }
 }
