@@ -5,6 +5,33 @@
       "ja_JP",
       "ko_KR"
     ],
+    "date": "2025-12-05",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1042_phatm2",
+      "char_4191_tippi"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
+    "date": "2025-12-05",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4212_nasti",
+      "char_617_sharp2",
+      "char_4213_skybx",
+      "char_4214_cairn",
+      "char_616_pithst"
+    ]
+  },
+  {
+    "server": [
+      "en_US",
+      "ja_JP",
+      "ko_KR"
+    ],
     "date": "2025-11-01",
     "type": "new_operators",
     "new_operators": [
@@ -113,30 +140,6 @@
       "char_2026_yu",
       "char_4052_surfer",
       "char_4172_xingzh"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2025-07-18",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4195_radian"
-    ]
-  },
-  {
-    "server": [
-      "en_US",
-      "ja_JP",
-      "ko_KR"
-    ],
-    "date": "2025-07-08",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1039_thorn2",
-      "char_4163_rosesa",
-      "char_4164_tecno"
     ]
   }
 ]
