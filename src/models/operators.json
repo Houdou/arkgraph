@@ -4275,6 +4275,73 @@
             }
           ]
         }
+      ],
+      [
+        {
+          "equipment_id": "uniequip_003_poca",
+          "equipment_level": "1",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-6",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_poca",
+          "equipment_level": "2",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_poca",
+          "equipment_level": "3",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
       ]
     ],
     "skill_names": [
@@ -4587,7 +4654,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 1
+      "max_equipments": 2
     }
   },
   {
@@ -36248,6 +36315,397 @@
     }
   },
   {
+    "unique_id": "char_4056_titi",
+    "name": "缇缇",
+    "pinyin": [
+      "ti ti",
+      "titi"
+    ],
+    "profession": "MEDIC",
+    "rarity": 5,
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_titi",
+          "equipment_level": "1",
+          "code": "X",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-5",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_titi",
+          "equipment_level": "2",
+          "code": "X",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-4",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_titi",
+          "equipment_level": "3",
+          "code": "X",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-6",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
+      ]
+    ],
+    "skill_names": [
+      "缓蚀",
+      "封护",
+      "旧日绽放"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-4",
+            "quantity": 5
+          },
+          {
+            "resource": "M-1-6",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-14",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 8
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 5
+          },
+          {
+            "resource": "M-3-17",
+            "quantity": 4
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "缓蚀",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-13",
+                "quantity": 7
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-5",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-17",
+                "quantity": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "封护",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 9
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-19",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "旧日绽放",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 8
+              },
+              {
+                "resource": "M-4-18",
+                "quantity": 4
+              },
+              {
+                "resource": "M-3-11",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 12
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 8
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 15
+              },
+              {
+                "resource": "M-5-6",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 30000
+          },
+          {
+            "resource": "C-3-6",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 180000
+          },
+          {
+            "resource": "C-5-6",
+            "quantity": 4
+          },
+          {
+            "resource": "M-5-5",
+            "quantity": 4
+          },
+          {
+            "resource": "M-4-5",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 3,
+      "max_equipments": 1
+    }
+  },
+  {
     "unique_id": "char_4179_monstr",
     "name": "Mon3tr",
     "pinyin": [
@@ -45031,6 +45489,73 @@
             }
           ]
         }
+      ],
+      [
+        {
+          "equipment_id": "uniequip_003_hodrer",
+          "equipment_level": "1",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_hodrer",
+          "equipment_level": "2",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-5",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_hodrer",
+          "equipment_level": "3",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-4",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
       ]
     ],
     "skill_names": [
@@ -45343,7 +45868,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 1
+      "max_equipments": 2
     }
   },
   {
@@ -48853,6 +49378,73 @@
             }
           ]
         }
+      ],
+      [
+        {
+          "equipment_id": "uniequip_003_vvana",
+          "equipment_level": "1",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_vvana",
+          "equipment_level": "2",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-1",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_vvana",
+          "equipment_level": "3",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-5",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
       ]
     ],
     "skill_names": [
@@ -49165,7 +49757,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 1
+      "max_equipments": 2
     }
   },
   {
@@ -52560,6 +53152,73 @@
             }
           ]
         }
+      ],
+      [
+        {
+          "equipment_id": "uniequip_003_etlchi",
+          "equipment_level": "1",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "M-5-4",
+              "quantity": 2
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 80000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_etlchi",
+          "equipment_level": "2",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 60
+            },
+            {
+              "resource": "M-5-6",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 100000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_003_etlchi",
+          "equipment_level": "3",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 4
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 20
+            },
+            {
+              "resource": "M-5-3",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 120000
+            }
+          ]
+        }
       ]
     ],
     "skill_names": [
@@ -52872,7 +53531,7 @@
     "meta": {
       "max_elite_rank": 2,
       "max_master_skills": 3,
-      "max_equipments": 1
+      "max_equipments": 2
     }
   },
   {
@@ -67225,6 +67884,332 @@
           {
             "resource": "M-3-4",
             "quantity": 16
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "max_equipments": 1
+    }
+  },
+  {
+    "unique_id": "char_4166_varkis",
+    "name": "摆渡人",
+    "pinyin": [
+      "bai du ren",
+      "baiduren"
+    ],
+    "profession": "WARRIOR",
+    "rarity": 4,
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_varkis",
+          "equipment_level": "1",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "M-4-14",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 40000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_varkis",
+          "equipment_level": "2",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 20
+            },
+            {
+              "resource": "M-4-15",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 50000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_varkis",
+          "equipment_level": "3",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 8
+            },
+            {
+              "resource": "M-4-17",
+              "quantity": 5
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 60000
+            }
+          ]
+        }
+      ]
+    ],
+    "skill_names": [
+      "奔流",
+      "同胞的意志"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-5",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-6",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-4",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-9",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-8",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "奔流",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-13",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-17",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-1",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-6",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-3",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-18",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "同胞的意志",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-5",
+                "quantity": 4
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-12",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-18",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-1",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 4
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-2",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-4",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-2",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-12",
+            "quantity": 7
+          },
+          {
+            "resource": "M-3-15",
+            "quantity": 14
           }
         ]
       }
@@ -107464,6 +108449,332 @@
           {
             "resource": "M-3-7",
             "quantity": 20
+          }
+        ]
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 2,
+      "max_equipments": 1
+    }
+  },
+  {
+    "unique_id": "char_1022_flwr2",
+    "name": "撷英调香师",
+    "pinyin": [
+      "xie ying tiao xiang shi",
+      "xieyingtiaoxiangshi"
+    ],
+    "profession": "SUPPORT",
+    "rarity": 4,
+    "equipments": [
+      [
+        {
+          "equipment_id": "uniequip_002_flwr2",
+          "equipment_level": "1",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "M-4-16",
+              "quantity": 3
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 40000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_flwr2",
+          "equipment_level": "2",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-2",
+              "quantity": 20
+            },
+            {
+              "resource": "M-4-18",
+              "quantity": 4
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 50000
+            }
+          ]
+        },
+        {
+          "equipment_id": "uniequip_002_flwr2",
+          "equipment_level": "3",
+          "code": "Y",
+          "materials": [
+            {
+              "resource": "W-5-1",
+              "quantity": 2
+            },
+            {
+              "resource": "W-5-3",
+              "quantity": 8
+            },
+            {
+              "resource": "M-4-5",
+              "quantity": 5
+            },
+            {
+              "resource": "G-4-1",
+              "quantity": 60000
+            }
+          ]
+        }
+      ]
+    ],
+    "skill_names": [
+      "“山中的喜悦”",
+      "“神殿的余烬”"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "materials": [
+          {
+            "resource": "S-2-1",
+            "quantity": 4
+          },
+          {
+            "resource": "M-1-6",
+            "quantity": 5
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-2",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-2-1",
+            "quantity": 8
+          }
+        ]
+      },
+      {
+        "level": 5,
+        "materials": [
+          {
+            "resource": "S-3-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-13",
+            "quantity": 4
+          }
+        ]
+      },
+      {
+        "level": 6,
+        "materials": [
+          {
+            "resource": "S-4-1",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-12",
+            "quantity": 3
+          },
+          {
+            "resource": "M-3-17",
+            "quantity": 2
+          }
+        ]
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "“山中的喜悦”",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-14",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-9",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-16",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-15",
+                "quantity": 6
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-4",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-19",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "“神殿的余烬”",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 5
+              },
+              {
+                "resource": "M-4-17",
+                "quantity": 3
+              },
+              {
+                "resource": "M-3-12",
+                "quantity": 3
+              }
+            ]
+          },
+          {
+            "level": 1,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 6
+              },
+              {
+                "resource": "M-4-5",
+                "quantity": 3
+              },
+              {
+                "resource": "M-4-11",
+                "quantity": 5
+              }
+            ]
+          },
+          {
+            "level": 2,
+            "materials": [
+              {
+                "resource": "S-4-1",
+                "quantity": 10
+              },
+              {
+                "resource": "M-5-6",
+                "quantity": 4
+              },
+              {
+                "resource": "M-4-10",
+                "quantity": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 20000
+          },
+          {
+            "resource": "C-3-7",
+            "quantity": 4
+          },
+          {
+            "resource": "M-2-3",
+            "quantity": 5
+          },
+          {
+            "resource": "M-2-5",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "materials": [
+          {
+            "resource": "G-4-1",
+            "quantity": 120000
+          },
+          {
+            "resource": "C-5-7",
+            "quantity": 3
+          },
+          {
+            "resource": "M-4-13",
+            "quantity": 6
+          },
+          {
+            "resource": "M-3-2",
+            "quantity": 11
           }
         ]
       }

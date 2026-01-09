@@ -8069,5 +8069,54 @@
       "enabled": true,
       "name": "证明什么？"
     }
+  },
+  "uniequip_002_titi": {
+    "char_id": "char_4056_titi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "远方的礼物"
+    }
+  },
+  "uniequip_002_flwr2": {
+    "char_id": "char_1022_flwr2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“双月的呼吸”"
+    }
+  },
+  "uniequip_002_varkis": {
+    "char_id": "char_4166_varkis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "回家的路"
+    }
+  },
+  "uniequip_003_vvana": {
+    "char_id": "char_4098_vvana",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“最后一行”"
+    }
+  },
+  "uniequip_003_etlchi": {
+    "char_id": "char_4010_etlchi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "玫瑰色故事集"
+    }
+  },
+  "uniequip_003_poca": {
+    "char_id": "char_197_poca",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“心”"
+    }
+  },
+  "uniequip_003_hodrer": {
+    "char_id": "char_4088_hodrer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "笔迹"
+    }
   }
 }
