@@ -18762,6 +18762,23 @@
     "code": null,
     "code_name": "Matsukiri"
   },
+  "char_4166_varkis": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "摆渡人",
+      "skills": [
+        "奔流",
+        "同胞的意志"
+      ],
+      "alias": [
+        "bai du ren",
+        "baiduren"
+      ],
+      "appellation": "Varkáris"
+    },
+    "code": null,
+    "code_name": "Varkáris"
+  },
   "char_4185_amoris": {
     "zh_CN": {
       "enabled": true,
@@ -18897,6 +18914,23 @@
     },
     "code": null,
     "code_name": "Misumi Uika"
+  },
+  "char_1022_flwr2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "撷英调香师",
+      "skills": [
+        "“山中的喜悦”",
+        "“神殿的余烬”"
+      ],
+      "alias": [
+        "xie ying tiao xiang shi",
+        "xieyingtiaoxiangshi"
+      ],
+      "appellation": "Perfumer the Distilled"
+    },
+    "code": null,
+    "code_name": "Perfumer the Distilled"
   },
   "char_4186_tmoris": {
     "zh_CN": {
@@ -19057,6 +19091,24 @@
     },
     "code": null,
     "code_name": "Nasti"
+  },
+  "char_4056_titi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "缇缇",
+      "skills": [
+        "缓蚀",
+        "封护",
+        "旧日绽放"
+      ],
+      "alias": [
+        "ti ti",
+        "titi"
+      ],
+      "appellation": "Titi"
+    },
+    "code": null,
+    "code_name": "Titi"
   },
   "char_1044_hsgma2": {
     "zh_CN": {
