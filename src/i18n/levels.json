@@ -43409,6 +43409,186 @@
       "enabled": true
     }
   },
+  "act49side_st01": {
+    "code": "TA-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_01": {
+    "code": "TA-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_tr01": {
+    "code": "TA-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_02": {
+    "code": "TA-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_03": {
+    "code": "TA-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_04": {
+    "code": "TA-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_05": {
+    "code": "TA-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_06": {
+    "code": "TA-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_07": {
+    "code": "TA-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_08": {
+    "code": "TA-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_09": {
+    "code": "TA-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_10": {
+    "code": "TA-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_11": {
+    "code": "TA-11",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_st02": {
+    "code": "TA-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex01": {
+    "code": "TA-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex01#f#": {
+    "code": "TA-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex02": {
+    "code": "TA-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex02#f#": {
+    "code": "TA-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex03": {
+    "code": "TA-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex03#f#": {
+    "code": "TA-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex04": {
+    "code": "TA-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex04#f#": {
+    "code": "TA-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex05": {
+    "code": "TA-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex05#f#": {
+    "code": "TA-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex06": {
+    "code": "TA-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex06#f#": {
+    "code": "TA-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex07": {
+    "code": "TA-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex07#f#": {
+    "code": "TA-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex08": {
+    "code": "TA-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act49side_ex08#f#": {
+    "code": "TA-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act48side_st01": {
     "code": "ME-ST-1",
     "zh_CN": {
@@ -43477,6 +43657,102 @@
   },
   "act48side_st03": {
     "code": "ME-ST-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex01": {
+    "code": "ME-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex01#f#": {
+    "code": "ME-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex02": {
+    "code": "ME-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex02#f#": {
+    "code": "ME-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex03": {
+    "code": "ME-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex03#f#": {
+    "code": "ME-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex04": {
+    "code": "ME-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex04#f#": {
+    "code": "ME-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex05": {
+    "code": "ME-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex05#f#": {
+    "code": "ME-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex06": {
+    "code": "ME-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex06#f#": {
+    "code": "ME-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex07": {
+    "code": "ME-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex07#f#": {
+    "code": "ME-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex08": {
+    "code": "ME-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act48side_ex08#f#": {
+    "code": "ME-EX-8",
     "zh_CN": {
       "enabled": true
     }
@@ -45151,6 +45427,12 @@
   },
   "camp_r_30": {
     "code": "阿戈尔",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_31": {
+    "code": "卡兹戴尔",
     "zh_CN": {
       "enabled": true
     }

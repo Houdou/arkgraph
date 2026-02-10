@@ -8118,5 +8118,61 @@
       "enabled": true,
       "name": "笔迹"
     }
+  },
+  "uniequip_002_wang": {
+    "char_id": "char_2027_wang",
+    "zh_CN": {
+      "enabled": true,
+      "name": "兽形棋盒"
+    }
+  },
+  "uniequip_002_chen3": {
+    "char_id": "char_1050_chen3",
+    "zh_CN": {
+      "enabled": true,
+      "name": "记忆残页"
+    }
+  },
+  "uniequip_002_ju": {
+    "char_id": "char_4221_ju",
+    "zh_CN": {
+      "enabled": true,
+      "name": "田间吓兽人"
+    }
+  },
+  "uniequip_002_yu": {
+    "char_id": "char_2026_yu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "人间百味"
+    }
+  },
+  "uniequip_002_philae": {
+    "char_id": "char_4148_philae",
+    "zh_CN": {
+      "enabled": true,
+      "name": "被摩挲的日子"
+    }
+  },
+  "uniequip_002_cairn": {
+    "char_id": "char_4214_cairn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“降落伞”"
+    }
+  },
+  "uniequip_004_irene": {
+    "char_id": "char_4009_irene",
+    "zh_CN": {
+      "enabled": true,
+      "name": "艾丽妮特限证章"
+    }
+  },
+  "uniequip_004_pasngr": {
+    "char_id": "char_472_pasngr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "异客特限证章"
+    }
   }
 }

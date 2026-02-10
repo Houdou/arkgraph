@@ -18864,6 +18864,23 @@
     "code": null,
     "code_name": "Record Keeper"
   },
+  "char_4222_taraxa": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "风絮",
+      "skills": [
+        "何处着",
+        "扶风起"
+      ],
+      "alias": [
+        "feng xu",
+        "fengxu"
+      ],
+      "appellation": "Taraxacum"
+    },
+    "code": null,
+    "code_name": "Taraxacum"
+  },
   "char_4207_branch": {
     "zh_CN": {
       "enabled": true,
@@ -18880,6 +18897,23 @@
     },
     "code": null,
     "code_name": "Веточки"
+  },
+  "char_4221_ju": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "矩",
+      "skills": [
+        "良弓难张",
+        "良翼难乘"
+      ],
+      "alias": [
+        "ju",
+        "ju"
+      ],
+      "appellation": "Ju"
+    },
+    "code": null,
+    "code_name": "Ju"
   },
   "char_4211_snhunt": {
     "zh_CN": {
@@ -19092,6 +19126,24 @@
     "code": null,
     "code_name": "Nasti"
   },
+  "char_2027_wang": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "望",
+      "skills": [
+        "取势",
+        "连星",
+        "天下劫"
+      ],
+      "alias": [
+        "wang",
+        "wang"
+      ],
+      "appellation": "Wang"
+    },
+    "code": null,
+    "code_name": "Wang"
+  },
   "char_4056_titi": {
     "zh_CN": {
       "enabled": true,
@@ -19161,6 +19213,24 @@
     },
     "code": null,
     "code_name": "Lord/Sharp"
+  },
+  "char_1050_chen3": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "赤刃明霄陈",
+      "skills": [
+        "赤霄·奔夜",
+        "赤霄·绝影-驰",
+        "赤霄·天喟"
+      ],
+      "alias": [
+        "chi ren ming xiao chen",
+        "chirenmingxiaochen"
+      ],
+      "appellation": "Ch'en the Dawnstreak"
+    },
+    "code": null,
+    "code_name": "Ch'en the Dawnstreak"
   },
   "char_1043_leizi2": {
     "zh_CN": {
