@@ -8174,5 +8174,40 @@
       "enabled": true,
       "name": "异客特限证章"
     }
+  },
+  "uniequip_002_demetr": {
+    "char_id": "char_4037_demetr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "实用的工具"
+    }
+  },
+  "uniequip_002_liesel": {
+    "char_id": "char_4031_liesel",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“暮约”"
+    }
+  },
+  "uniequip_003_agoat2": {
+    "char_id": "char_1016_agoat2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "想要留下的生命"
+    }
+  },
+  "uniequip_003_haak": {
+    "char_id": "char_225_haak",
+    "zh_CN": {
+      "enabled": true,
+      "name": "毒医残章"
+    }
+  },
+  "uniequip_003_jesca2": {
+    "char_id": "char_1034_jesca2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "未曾风化"
+    }
   }
 }

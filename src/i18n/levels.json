@@ -43409,6 +43409,114 @@
       "enabled": true
     }
   },
+  "act20mini_01": {
+    "code": "CG-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_01#f#": {
+    "code": "CG-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_02": {
+    "code": "CG-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_02#f#": {
+    "code": "CG-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_03": {
+    "code": "CG-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_03#f#": {
+    "code": "CG-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_04": {
+    "code": "CG-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_04#f#": {
+    "code": "CG-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_05": {
+    "code": "CG-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_05#f#": {
+    "code": "CG-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_06": {
+    "code": "CG-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_06#f#": {
+    "code": "CG-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_07": {
+    "code": "CG-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_07#f#": {
+    "code": "CG-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_08": {
+    "code": "CG-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_08#f#": {
+    "code": "CG-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_s01": {
+    "code": "CG-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act20mini_s02": {
+    "code": "CG-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act2break_01": {
     "code": "VEC-01",
     "zh_CN": {
@@ -44245,48 +44353,6 @@
   },
   "act47side_ex08#f#": {
     "code": "UR-EX-8",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m01": {
-    "code": "卫戍协议·盟约",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m02": {
-    "code": "卫戍协议·盟约",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m03": {
-    "code": "卫戍协议·盟约",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m04": {
-    "code": "卫戍协议·盟约",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m05": {
-    "code": "卫戍协议·盟约",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m06": {
-    "code": "卫戍协议·盟约",
-    "zh_CN": {
-      "enabled": true
-    }
-  },
-  "act1autochess_m07": {
-    "code": "卫戍协议·盟约",
     "zh_CN": {
       "enabled": true
     }
@@ -45661,6 +45727,48 @@
   },
   "act19mini_s02": {
     "code": "FM-S-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m01": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m02": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m03": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m04": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m05": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m06": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1autochess_m07": {
+    "code": null,
     "zh_CN": {
       "enabled": true
     }
