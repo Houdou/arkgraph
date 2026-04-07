@@ -18847,6 +18847,23 @@
     "code": null,
     "code_name": "Skybox"
   },
+  "char_4031_liesel": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "复奏",
+      "skills": [
+        "合奏起拍",
+        "直到终曲"
+      ],
+      "alias": [
+        "fu zou",
+        "fuzou"
+      ],
+      "appellation": "Ripresa"
+    },
+    "code": null,
+    "code_name": "Ripresa"
+  },
   "char_4196_reckpr": {
     "zh_CN": {
       "enabled": true,
@@ -19179,6 +19196,24 @@
     },
     "code": null,
     "code_name": "Hoshiguma the Breacher"
+  },
+  "char_4037_demetr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "贝洛内",
+      "skills": [
+        "家主的余裕",
+        "军师的手段",
+        "清算"
+      ],
+      "alias": [
+        "bei luo nei",
+        "beiluonei"
+      ],
+      "appellation": "Bellone"
+    },
+    "code": null,
+    "code_name": "Bellone"
   },
   "char_4182_oblvns": {
     "zh_CN": {

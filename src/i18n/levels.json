@@ -43409,6 +43409,72 @@
       "enabled": true
     }
   },
+  "act51side_st01": {
+    "code": "PA-ST-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_01": {
+    "code": "PA-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_tr01": {
+    "code": "PA-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_02": {
+    "code": "PA-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_03": {
+    "code": "PA-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_04": {
+    "code": "PA-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_05": {
+    "code": "PA-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_06": {
+    "code": "PA-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_07": {
+    "code": "PA-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_08": {
+    "code": "PA-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act51side_st02": {
+    "code": "PA-ST-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act20mini_01": {
     "code": "CG-1",
     "zh_CN": {
@@ -45768,6 +45834,30 @@
     }
   },
   "act1autochess_m07": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act2autochess_m01": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act2autochess_m02": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act2autochess_m03": {
+    "code": null,
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act2autochess_m04": {
     "code": null,
     "zh_CN": {
       "enabled": true

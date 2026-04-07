@@ -8209,5 +8209,47 @@
       "enabled": true,
       "name": "未曾风化"
     }
+  },
+  "uniequip_002_headb2": {
+    "char_id": "char_1051_headb2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "迟到的勋章"
+    }
+  },
+  "uniequip_002_turdus": {
+    "char_id": "char_4224_turdus",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“睡前故事”"
+    }
+  },
+  "uniequip_002_botany": {
+    "char_id": "char_4223_botany",
+    "zh_CN": {
+      "enabled": true,
+      "name": "昨日、今日、明日"
+    }
+  },
+  "uniequip_003_surtr": {
+    "char_id": "char_350_surtr",
+    "zh_CN": {
+      "enabled": true,
+      "name": "旅游必需品"
+    }
+  },
+  "uniequip_003_nymph": {
+    "char_id": "char_4146_nymph",
+    "zh_CN": {
+      "enabled": true,
+      "name": "烦恼问诊匣"
+    }
+  },
+  "uniequip_003_skadi2": {
+    "char_id": "char_1012_skadi2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新生代"
+    }
   }
 }

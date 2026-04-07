@@ -18881,6 +18881,23 @@
     "code": null,
     "code_name": "Record Keeper"
   },
+  "char_4224_turdus": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "乌啾",
+      "skills": [
+        "火钳秘咒",
+        "“捉迷藏！”"
+      ],
+      "alias": [
+        "wu jiu",
+        "wujiu"
+      ],
+      "appellation": "Укусик"
+    },
+    "code": null,
+    "code_name": "Укусик"
+  },
   "char_4222_taraxa": {
     "zh_CN": {
       "enabled": true,
@@ -18982,6 +18999,23 @@
     },
     "code": null,
     "code_name": "Perfumer the Distilled"
+  },
+  "char_4223_botany": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "伯塔尼",
+      "skills": [
+        "谐波破坏",
+        "静域回声"
+      ],
+      "alias": [
+        "bo ta ni",
+        "botani"
+      ],
+      "appellation": "Ботани"
+    },
+    "code": null,
+    "code_name": "Ботани"
   },
   "char_4186_tmoris": {
     "zh_CN": {
@@ -19248,6 +19282,24 @@
     },
     "code": null,
     "code_name": "Lord/Sharp"
+  },
+  "char_1051_headb2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "怒潮凛冬",
+      "skills": [
+        "誓不低头",
+        "绝不罢休",
+        "无可抵挡"
+      ],
+      "alias": [
+        "nu chao lin dong",
+        "nuchaolindong"
+      ],
+      "appellation": "Zima the Raging Tide"
+    },
+    "code": null,
+    "code_name": "Zima the Raging Tide"
   },
   "char_1050_chen3": {
     "zh_CN": {
