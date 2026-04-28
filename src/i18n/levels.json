@@ -43409,6 +43409,12 @@
       "enabled": true
     }
   },
+  "act3enemyduel_01a": {
+    "code": "VS-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act51side_st01": {
     "code": "PA-ST-1",
     "zh_CN": {
@@ -45973,6 +45979,12 @@
   },
   "camp_r_31": {
     "code": "卡兹戴尔",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_32": {
+    "code": "炎国",
     "zh_CN": {
       "enabled": true
     }
