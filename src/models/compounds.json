@@ -3567,6 +3567,7 @@
     "ap_cost": 8
   },
   {
+    "material_id": "M-4-20",
     "formula": [
       {
         "resource": "M-3-6",
@@ -3577,6 +3578,7 @@
         "quantity": 1
       },
       {
+        "resource": "M-3-20",
         "quantity": 1
       }
     ],
@@ -3678,25 +3680,30 @@
       },
       {
         "probability": 0.399,
+        "resource": "M-3-20",
         "quantity": 1
       },
       {
         "probability": 0.442,
+        "resource": "M-3-21",
         "quantity": 1
       }
     ],
     "ap_cost": 4
   },
   {
+    "material_id": "M-4-21",
     "formula": [
       {
         "resource": "M-3-2",
         "quantity": 1
       },
       {
+        "resource": "M-3-20",
         "quantity": 1
       },
       {
+        "resource": "M-3-21",
         "quantity": 1
       }
     ],
@@ -3798,10 +3805,12 @@
       },
       {
         "probability": 0.399,
+        "resource": "M-3-20",
         "quantity": 1
       },
       {
         "probability": 0.442,
+        "resource": "M-3-21",
         "quantity": 1
       }
     ],

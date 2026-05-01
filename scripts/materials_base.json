@@ -716,5 +716,55 @@
       "M-4-17": 1,
       "G-4-1": 400
     }
+  },
+  {
+    "id": "M-4-20",
+    "unique_id": 31104,
+    "name": "液化醚吸聚体",
+    "pinyin": "ye hua mi xi ju ti",
+    "tier": "T4",
+    "type": "liquid",
+    "source": {},
+    "formula": {
+      "M-3-6": 1,
+      "M-3-19": 1,
+      "M-3-20": 1,
+      "G-4-1": 300
+    }
+  },
+  {
+    "id": "M-3-20",
+    "unique_id": 31103,
+    "name": "液化高能气体",
+    "pinyin": "ye hua gao neng qi ti",
+    "tier": "T3",
+    "type": "liquid",
+    "source": {},
+    "formula": {}
+  },
+  {
+    "id": "M-4-21",
+    "unique_id": 31114,
+    "name": "聚能动力单元",
+    "pinyin": "ju neng dong li dan yuan",
+    "tier": "T4",
+    "type": "power",
+    "source": {},
+    "formula": {
+      "M-3-2": 1,
+      "M-3-20": 1,
+      "M-3-21": 1,
+      "G-4-1": 300
+    }
+  },
+  {
+    "id": "M-3-21",
+    "unique_id": 31113,
+    "name": "电极单元",
+    "pinyin": "dian ji dan yuan",
+    "tier": "T3",
+    "type": "power",
+    "source": {},
+    "formula": {}
   }
 ]

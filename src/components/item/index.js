@@ -8,6 +8,8 @@ const resources_available = Object.keys(RESOURCES);
 
 const ArkItem = (props) => {
 	const material_id = resources_available.includes(props.id) ? props.id : '404';
+	const resource = RESOURCES[material_id] || {};
+	const material_icon = resource.icon_id || material_id;
 	const card_tier = /^T[123456]$/.test(props.tier) ? props.tier : 'T1';
 	const shortage = (props.requirement) ? Math.max(props.requirement - (props.quantity || 0), 0) : null;
 	const exceeded = props.show_exceeded ? Math.max((props.quantity || 0) - (props.requirement || 0), 0) : null;
@@ -34,7 +36,7 @@ const ArkItem = (props) => {
 						transform: `scale(${props.scale || 0.3})`,
 					}}
 				>
-					<img src={`../../assets/materials/${material_id}.png`} class={style.item} alt="material_id" />
+					<img src={`../../assets/materials/${material_icon}.png`} class={style.item} alt="material_id" />
 					<img src={`../../assets/cards/${card_tier}.png`} class={style.card} alt="card_tier" />
 					<div class={style.numbers}>
 						{

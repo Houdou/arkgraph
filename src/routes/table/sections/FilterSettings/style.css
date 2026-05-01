@@ -221,6 +221,14 @@
   background-image: url('/assets/materials/M-4-19.png');
 }
 
+.setting_option_type_liquid.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-20.png');
+}
+
+.setting_option_type_power.setting_option_type:after {
+  background-image: url('/assets/materials/M-4-21.png');
+}
+
 .setting_option_type_rare.setting_option_type:after {
   background-image: url('/assets/materials/M-5-1.png');
 }

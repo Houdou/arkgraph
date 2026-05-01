@@ -5,7 +5,7 @@ import { RESOURCES, MATERIALS, EXP } from './Resources';
 import processRecord from './processRecord';
 
 export const STORAGE_KEY = 'Towa_ArkTable_Save';
-const STORAGE_VERSION = '2.5.0';
+const STORAGE_VERSION = '2.6.0';
 
 // V1 => V2 migration
 import { findOperatorByName } from './Operators';
@@ -300,15 +300,17 @@ const reducer = (state, action) => {
 						loaded.version = STORAGE_VERSION;
 					}
 
-					// Patch any => v2.5.0
-					if (loaded.version !== '2.5.0') {
+					// Patch any => v2.6.0
+					if (loaded.version !== '2.6.0') {
 						[
 							'M-5-6',
 							'M-5-5',
 							'M-4-16',
 							'M-4-17',
 							'M-4-18',
-							'M-4-19'
+							'M-4-19',
+							'M-4-20',
+							'M-4-21'
 						].forEach(material_id => {
 							const patch = loaded.compound_materials.find(
 								record => record.id === material_id

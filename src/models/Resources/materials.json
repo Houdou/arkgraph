@@ -95,6 +95,68 @@
     "sort_id": 100006
   },
   {
+    "id": "M-4-21",
+    "unique_id": 31114,
+    "name": "聚能动力单元",
+    "pinyin": "ju neng dong li dan yuan",
+    "tier": "T4",
+    "type": "power",
+    "source": {
+      "17-10": "罕见"
+    },
+    "formula": {
+      "M-3-2": 1,
+      "M-3-20": 1,
+      "M-3-21": 1,
+      "G-4-1": 300
+    },
+    "sort_id": 100007
+  },
+  {
+    "id": "M-3-21",
+    "unique_id": 31113,
+    "name": "电极单元",
+    "pinyin": "dian ji dan yuan",
+    "tier": "T3",
+    "type": "power",
+    "source": {
+      "17-10": "小概率"
+    },
+    "formula": {},
+    "sort_id": 100008
+  },
+  {
+    "id": "M-4-20",
+    "unique_id": 31104,
+    "name": "液化醚吸聚体",
+    "pinyin": "ye hua mi xi ju ti",
+    "tier": "T4",
+    "type": "liquid",
+    "source": {
+      "17-4": "罕见"
+    },
+    "formula": {
+      "M-3-6": 1,
+      "M-3-19": 1,
+      "M-3-20": 1,
+      "G-4-1": 300
+    },
+    "sort_id": 100009
+  },
+  {
+    "id": "M-3-20",
+    "unique_id": 31103,
+    "name": "液化高能气体",
+    "pinyin": "ye hua gao neng qi ti",
+    "tier": "T3",
+    "type": "liquid",
+    "source": {
+      "17-4": "小概率"
+    },
+    "formula": {},
+    "sort_id": 100010
+  },
+  {
     "id": "M-4-19",
     "unique_id": 31094,
     "name": "手性屈光体",
