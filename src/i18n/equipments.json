@@ -8251,5 +8251,61 @@
       "enabled": true,
       "name": "新生代"
     }
+  },
+  "uniequip_002_veen": {
+    "char_id": "char_4226_veen",
+    "zh_CN": {
+      "enabled": true,
+      "name": "军械库"
+    }
+  },
+  "uniequip_002_tanya": {
+    "char_id": "char_4225_tanya",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“漂洗”"
+    }
+  },
+  "uniequip_002_closur": {
+    "char_id": "char_4228_closur",
+    "zh_CN": {
+      "enabled": true,
+      "name": "给自己的小奖杯"
+    }
+  },
+  "uniequip_003_blkkgt": {
+    "char_id": "char_4116_blkkgt",
+    "zh_CN": {
+      "enabled": true,
+      "name": "新合同"
+    }
+  },
+  "uniequip_003_rmixer": {
+    "char_id": "char_4194_rmixer",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“老朋友”"
+    }
+  },
+  "uniequip_003_texas2": {
+    "char_id": "char_1028_texas2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“新车和新生活”"
+    }
+  },
+  "uniequip_004_typhon": {
+    "char_id": "char_2012_typhon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "提丰特限证章"
+    }
+  },
+  "uniequip_004_ghost2": {
+    "char_id": "char_1023_ghost2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "归溟幽灵鲨特限证章"
+    }
   }
 }
