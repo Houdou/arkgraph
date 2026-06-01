@@ -8307,5 +8307,40 @@
       "enabled": true,
       "name": "归溟幽灵鲨特限证章"
     }
+  },
+  "uniequip_002_catap2": {
+    "char_id": "char_1049_catap2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "狩猎之路"
+    }
+  },
+  "uniequip_002_orchd2": {
+    "char_id": "char_1048_orchd2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "梓兰特制箭靶"
+    }
+  },
+  "uniequip_003_yato2": {
+    "char_id": "char_1029_yato2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗德岛制式双刀"
+    }
+  },
+  "uniequip_003_narant": {
+    "char_id": "char_4138_narant",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“致我们的老大”"
+    }
+  },
+  "uniequip_003_vulpis": {
+    "char_id": "char_4026_vulpis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "剑舞"
+    }
   }
 }

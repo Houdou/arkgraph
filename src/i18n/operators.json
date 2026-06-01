@@ -18709,6 +18709,20 @@
     "code": null,
     "code_name": "GALLUS²"
   },
+  "char_4215_buddy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "罗德岛隐秘队",
+      "skills": [],
+      "alias": [
+        "luo de dao yin mi dui",
+        "luodedaoyinmidui"
+      ],
+      "appellation": "Rhodes Island Recon"
+    },
+    "code": null,
+    "code_name": "Rhodes Island Recon"
+  },
   "char_4051_akkord": {
     "zh_CN": {
       "enabled": true,
@@ -18826,6 +18840,23 @@
     },
     "code": null,
     "code_name": "Hadiya"
+  },
+  "char_1049_catap2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "雷狼龙S空爆",
+      "skills": [
+        "高压回填斩",
+        "超高输出属性解放斩"
+      ],
+      "alias": [
+        "lei lang long S kong bao",
+        "leilanglongSkongbao"
+      ],
+      "appellation": "Zinogre S Catapult"
+    },
+    "code": null,
+    "code_name": "Zinogre S Catapult"
   },
   "char_4203_kichi": {
     "zh_CN": {
@@ -19081,6 +19112,24 @@
     },
     "code": null,
     "code_name": "Wakaba Mutsumi"
+  },
+  "char_1048_orchd2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "焰狐龙梓兰",
+      "skills": [
+        "刚射",
+        "飞翔瞪射",
+        "龙之箭"
+      ],
+      "alias": [
+        "yan hu long zi lan",
+        "yanhulongzilan"
+      ],
+      "appellation": "Violet Mizutsune Orchid"
+    },
+    "code": null,
+    "code_name": "Violet Mizutsune Orchid"
   },
   "char_4228_closur": {
     "zh_CN": {
