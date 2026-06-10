@@ -43409,6 +43409,60 @@
       "enabled": true
     }
   },
+  "act1football_tr01": {
+    "code": "PF-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_01": {
+    "code": "PF-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_02": {
+    "code": "PF-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_03": {
+    "code": "PF-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_04": {
+    "code": "PF-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_05": {
+    "code": "PF-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_06": {
+    "code": "PF-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_07": {
+    "code": "PF-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_s01": {
+    "code": "PF-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act50side_st01": {
     "code": "TD-ST-1",
     "zh_CN": {
@@ -43477,6 +43531,108 @@
   },
   "act50side_p-1": {
     "code": "TD-P-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex01": {
+    "code": "TD-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex01#f#": {
+    "code": "TD-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex02": {
+    "code": "TD-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex02#f#": {
+    "code": "TD-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex03": {
+    "code": "TD-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex03#f#": {
+    "code": "TD-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex04": {
+    "code": "TD-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex04#f#": {
+    "code": "TD-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex05": {
+    "code": "TD-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex05#f#": {
+    "code": "TD-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex06": {
+    "code": "TD-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex06#f#": {
+    "code": "TD-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex07": {
+    "code": "TD-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex07#f#": {
+    "code": "TD-EX-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex08": {
+    "code": "TD-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_ex08#f#": {
+    "code": "TD-EX-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act50side_s01": {
+    "code": "TD-S-1",
     "zh_CN": {
       "enabled": true
     }
