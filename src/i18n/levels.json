@@ -43457,8 +43457,38 @@
       "enabled": true
     }
   },
+  "act1football_ex01": {
+    "code": "PF-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_ex02": {
+    "code": "PF-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_ex03": {
+    "code": "PF-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_ex04": {
+    "code": "PF-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act1football_s01": {
     "code": "PF-S-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1football_s02": {
+    "code": "PF-S-2",
     "zh_CN": {
       "enabled": true
     }
