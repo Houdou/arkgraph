@@ -3,6 +3,17 @@
     "server": [
       "zh_CN"
     ],
+    "date": "2026-07-10",
+    "type": "new_operators",
+    "new_operators": [
+      "char_4229_aphris",
+      "char_4234_pedro"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
     "date": "2026-06-01",
     "type": "new_operators",
     "new_operators": [
@@ -115,21 +126,6 @@
       "char_4187_graceb",
       "char_4198_christ",
       "char_4188_confes"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2025-11-01",
-    "type": "new_operators",
-    "new_operators": [
-      "char_1045_svash2",
-      "char_1046_sbell2",
-      "char_1047_halo2",
-      "char_394_hadiya",
-      "char_4211_snhunt",
-      "char_4051_akkord"
     ]
   }
 ]

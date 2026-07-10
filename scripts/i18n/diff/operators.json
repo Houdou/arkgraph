@@ -19079,6 +19079,23 @@
     "code": null,
     "code_name": "Ботани"
   },
+  "char_4234_pedro": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "佩德洛",
+      "skills": [
+        "标记射击",
+        "交替撤离"
+      ],
+      "alias": [
+        "pei de luo",
+        "peideluo"
+      ],
+      "appellation": "Pedro"
+    },
+    "code": null,
+    "code_name": "Pedro"
+  },
   "char_4186_tmoris": {
     "zh_CN": {
       "enabled": true,
@@ -19166,6 +19183,24 @@
     },
     "code": null,
     "code_name": "SilverAsh the Reignfrost"
+  },
+  "char_4229_aphris": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "谬因",
+      "skills": [
+        "连续映射",
+        "临界瞬爆",
+        "混沌的本质"
+      ],
+      "alias": [
+        "miu yin",
+        "miuyin"
+      ],
+      "appellation": "Aphrissa"
+    },
+    "code": null,
+    "code_name": "Aphrissa"
   },
   "char_1046_sbell2": {
     "zh_CN": {
