@@ -8342,5 +8342,26 @@
       "enabled": true,
       "name": "剑舞"
     }
+  },
+  "uniequip_002_aphris": {
+    "char_id": "char_4229_aphris",
+    "zh_CN": {
+      "enabled": true,
+      "name": "第三相态"
+    }
+  },
+  "uniequip_003_blaze2": {
+    "char_id": "char_1040_blaze2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "沟通小助手"
+    }
+  },
+  "uniequip_003_reed2": {
+    "char_id": "char_1020_reed2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“独属自己的一隅”"
+    }
   }
 }
