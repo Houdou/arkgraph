@@ -19382,6 +19382,24 @@
     "code": null,
     "code_name": "Kal'tsit·Esperanta"
   },
+  "char_4230_mcnist": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "机械师",
+      "skills": [
+        "聚类分析",
+        "协防术式",
+        "工程学十字星"
+      ],
+      "alias": [
+        "ji xie shi",
+        "jixieshi"
+      ],
+      "appellation": "Mechanist"
+    },
+    "code": null,
+    "code_name": "Mechanist"
+  },
   "char_1044_hsgma2": {
     "zh_CN": {
       "enabled": true,
