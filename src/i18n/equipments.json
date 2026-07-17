@@ -8363,5 +8363,12 @@
       "enabled": true,
       "name": "“独属自己的一隅”"
     }
+  },
+  "uniequip_002_mcnist": {
+    "char_id": "char_4230_mcnist",
+    "zh_CN": {
+      "enabled": true,
+      "name": "机械师特勤证章"
+    }
   }
 }

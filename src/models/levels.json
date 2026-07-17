@@ -24639,7 +24639,7 @@
     "level": "AD-1",
     "energy": 9,
     "unique_id": "act43side_01",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -24678,7 +24678,7 @@
     "level": "AD-2",
     "energy": 9,
     "unique_id": "act43side_02",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -24717,7 +24717,7 @@
     "level": "AD-3",
     "energy": 12,
     "unique_id": "act43side_03",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -24756,7 +24756,7 @@
     "level": "AD-5",
     "energy": 12,
     "unique_id": "act43side_05",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -24795,7 +24795,7 @@
     "level": "AD-6",
     "energy": 21,
     "unique_id": "act43side_06",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -24850,7 +24850,7 @@
     "level": "AD-7",
     "energy": 21,
     "unique_id": "act43side_07",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -24917,7 +24917,7 @@
     "level": "AD-8",
     "energy": 21,
     "unique_id": "act43side_08",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -47494,7 +47494,7 @@
     "level": "AD-4",
     "energy": 12,
     "unique_id": "act43side_04",
-    "zone_id": "act43side_zone1",
+    "zone_id": "act43sre_zone1",
     "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
