@@ -3,6 +3,19 @@
     "server": [
       "zh_CN"
     ],
+    "date": "2026-08-01",
+    "type": "new_operators",
+    "new_operators": [
+      "char_1015_aglna2",
+      "char_4235_thumpy",
+      "char_4237_jcinta",
+      "char_4236_tmslot"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
     "date": "2026-07-17",
     "type": "new_operators",
     "new_operators": [
@@ -105,20 +118,6 @@
     "new_operators": [
       "char_1042_phatm2",
       "char_4191_tippi"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2025-12-05",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4212_nasti",
-      "char_617_sharp2",
-      "char_4213_skybx",
-      "char_4214_cairn",
-      "char_616_pithst"
     ]
   }
 ]
