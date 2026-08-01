@@ -18790,6 +18790,23 @@
     "code": null,
     "code_name": "Matsukiri"
   },
+  "char_4237_jcinta": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "嘉辛塔",
+      "skills": [
+        "支援号令·γ型",
+        "伞下乘荫"
+      ],
+      "alias": [
+        "jia xin ta",
+        "jiaxinta"
+      ],
+      "appellation": "Jacinta"
+    },
+    "code": null,
+    "code_name": "Jacinta"
+  },
   "char_4166_varkis": {
     "zh_CN": {
       "enabled": true,
@@ -18908,6 +18925,23 @@
     },
     "code": null,
     "code_name": "Ripresa"
+  },
+  "char_4236_tmslot": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "时隙",
+      "skills": [
+        "攻击力强化·γ型",
+        "科技与传统仪式"
+      ],
+      "alias": [
+        "shi xi",
+        "shixi"
+      ],
+      "appellation": "Timeslot"
+    },
+    "code": null,
+    "code_name": "Timeslot"
   },
   "char_4196_reckpr": {
     "zh_CN": {
@@ -19346,6 +19380,24 @@
     "code": null,
     "code_name": "Wang"
   },
+  "char_1015_aglna2": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "予愿安洁莉娜",
+      "skills": [
+        "极速送达",
+        "重力自定义",
+        "酸橙的心事"
+      ],
+      "alias": [
+        "yu yuan an jie li na",
+        "yuyuananjielina"
+      ],
+      "appellation": "Angelina the Mellow Wish"
+    },
+    "code": null,
+    "code_name": "Angelina the Mellow Wish"
+  },
   "char_4056_titi": {
     "zh_CN": {
       "enabled": true,
@@ -19399,6 +19451,24 @@
     },
     "code": null,
     "code_name": "Mechanist"
+  },
+  "char_4235_thumpy": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "珊比",
+      "skills": [
+        "“还不走？”",
+        "“慢慢走~”",
+        "“不准走！”"
+      ],
+      "alias": [
+        "shan bi",
+        "shanbi"
+      ],
+      "appellation": "Thumpy"
+    },
+    "code": null,
+    "code_name": "Thumpy"
   },
   "char_1044_hsgma2": {
     "zh_CN": {

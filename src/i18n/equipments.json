@@ -8370,5 +8370,40 @@
       "enabled": true,
       "name": "机械师特勤证章"
     }
+  },
+  "uniequip_002_thumpy": {
+    "char_id": "char_4235_thumpy",
+    "zh_CN": {
+      "enabled": true,
+      "name": "出发的勇气"
+    }
+  },
+  "uniequip_002_jcinta": {
+    "char_id": "char_4237_jcinta",
+    "zh_CN": {
+      "enabled": true,
+      "name": "弹射起步"
+    }
+  },
+  "uniequip_002_tmslot": {
+    "char_id": "char_4236_tmslot",
+    "zh_CN": {
+      "enabled": true,
+      "name": "突发性创造思维"
+    }
+  },
+  "uniequip_004_phenxi": {
+    "char_id": "char_300_phenxi",
+    "zh_CN": {
+      "enabled": true,
+      "name": "菲亚梅塔特限证章"
+    }
+  },
+  "uniequip_004_gvial2": {
+    "char_id": "char_1026_gvial2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "百炼嘉维尔特限证章"
+    }
   }
 }
