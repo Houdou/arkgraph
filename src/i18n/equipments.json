@@ -8405,5 +8405,33 @@
       "enabled": true,
       "name": "百炼嘉维尔特限证章"
     }
+  },
+  "uniequip_002_makoto": {
+    "char_id": "char_4217_makoto",
+    "zh_CN": {
+      "enabled": true,
+      "name": "彼此的声音"
+    }
+  },
+  "uniequip_002_aigis": {
+    "char_id": "char_4218_aigis",
+    "zh_CN": {
+      "enabled": true,
+      "name": "约定的证明"
+    }
+  },
+  "uniequip_002_yukari": {
+    "char_id": "char_4219_yukari",
+    "zh_CN": {
+      "enabled": true,
+      "name": "命运的奖赏"
+    }
+  },
+  "uniequip_003_qiubai": {
+    "char_id": "char_4082_qiubai",
+    "zh_CN": {
+      "enabled": true,
+      "name": "欲雪时"
+    }
   }
 }

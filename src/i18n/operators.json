@@ -18695,6 +18695,20 @@
     "code": "promoted amiya medic",
     "code_name": "Amiya"
   },
+  "char_4220_kormr": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "虎狼丸",
+      "skills": [],
+      "alias": [
+        "hu lang wan",
+        "hulangwan"
+      ],
+      "appellation": "Koromaru"
+    },
+    "code": null,
+    "code_name": "Koromaru"
+  },
   "char_4227_gallus": {
     "zh_CN": {
       "enabled": true,
@@ -18909,6 +18923,23 @@
     "code": null,
     "code_name": "Skybox"
   },
+  "char_4218_aigis": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "埃癸斯",
+      "skills": [
+        "启动狂宴模式",
+        "全弹发射"
+      ],
+      "alias": [
+        "ai gui si",
+        "aiguisi"
+      ],
+      "appellation": "Aegis"
+    },
+    "code": null,
+    "code_name": "Aegis"
+  },
   "char_4031_liesel": {
     "zh_CN": {
       "enabled": true,
@@ -19112,6 +19143,23 @@
     },
     "code": null,
     "code_name": "Ботани"
+  },
+  "char_4219_yukari": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "岳羽由加莉",
+      "skills": [
+        "龙卷箭",
+        "明镜止水"
+      ],
+      "alias": [
+        "yue yu you jia li",
+        "yueyuyoujiali"
+      ],
+      "appellation": "Yukari Takeba"
+    },
+    "code": null,
+    "code_name": "Yukari Takeba"
   },
   "char_4234_pedro": {
     "zh_CN": {
@@ -19361,6 +19409,24 @@
     },
     "code": null,
     "code_name": "Nasti"
+  },
+  "char_4217_makoto": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "结城理",
+      "skills": [
+        "俄耳甫斯的竖琴",
+        "塔纳托斯的囚锁",
+        "开辟明日的剑刃"
+      ],
+      "alias": [
+        "jie cheng li",
+        "jiechengli"
+      ],
+      "appellation": "Makoto Yuki"
+    },
+    "code": null,
+    "code_name": "Makoto Yuki"
   },
   "char_2027_wang": {
     "zh_CN": {
