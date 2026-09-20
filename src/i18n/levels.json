@@ -43409,6 +43409,132 @@
       "enabled": true
     }
   },
+  "act1dp_tr01": {
+    "code": "DP-TR-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_01": {
+    "code": "DP-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_02": {
+    "code": "DP-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_03": {
+    "code": "DP-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_04": {
+    "code": "DP-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_s01": {
+    "code": "DS-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_05": {
+    "code": "DP-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_06": {
+    "code": "DP-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex01": {
+    "code": "DP-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex01#f#": {
+    "code": "DP-EX-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex02": {
+    "code": "DP-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex02#f#": {
+    "code": "DP-EX-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex03": {
+    "code": "DP-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex03#f#": {
+    "code": "DP-EX-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex04": {
+    "code": "DP-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex04#f#": {
+    "code": "DP-EX-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_s02": {
+    "code": "DS-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex05": {
+    "code": "DP-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex05#f#": {
+    "code": "DP-EX-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex06": {
+    "code": "DP-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1dp_ex06#f#": {
+    "code": "DP-EX-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act54side_st01": {
     "code": "SR-ST-1",
     "zh_CN": {
