@@ -19093,6 +19093,23 @@
     "code": null,
     "code_name": "Snow Hunter"
   },
+  "char_393_toledo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "德·托莱多",
+      "skills": [
+        "以假乱真",
+        "危言耸听"
+      ],
+      "alias": [
+        "de · tuo lai duo",
+        "de·tuolaiduo"
+      ],
+      "appellation": "de Toledo"
+    },
+    "code": null,
+    "code_name": "de Toledo"
+  },
   "char_4184_dolris": {
     "zh_CN": {
       "enabled": true,
@@ -19211,6 +19228,23 @@
     },
     "code": null,
     "code_name": "Wakaba Mutsumi"
+  },
+  "char_4232_hbound": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "旅骨",
+      "skills": [
+        "触礁",
+        "座浅"
+      ],
+      "alias": [
+        "lv gu",
+        "lvgu"
+      ],
+      "appellation": "Homebound"
+    },
+    "code": null,
+    "code_name": "Homebound"
   },
   "char_1048_orchd2": {
     "zh_CN": {
@@ -19659,6 +19693,24 @@
     },
     "code": null,
     "code_name": "Leizi the Thunderbringer"
+  },
+  "char_4231_clemnt": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "克莱门莎",
+      "skills": [
+        "冲蚀",
+        "风暴潮",
+        "与海为敌"
+      ],
+      "alias": [
+        "ke lai men suo",
+        "kelaimensuo"
+      ],
+      "appellation": "Clementia"
+    },
+    "code": null,
+    "code_name": "Clementia"
   },
   "char_4214_cairn": {
     "zh_CN": {
