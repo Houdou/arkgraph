@@ -8433,5 +8433,33 @@
       "enabled": true,
       "name": "欲雪时"
     }
+  },
+  "uniequip_002_toledo": {
+    "char_id": "char_393_toledo",
+    "zh_CN": {
+      "enabled": true,
+      "name": "贵族义务"
+    }
+  },
+  "uniequip_002_hbound": {
+    "char_id": "char_4232_hbound",
+    "zh_CN": {
+      "enabled": true,
+      "name": "看不见的大海"
+    }
+  },
+  "uniequip_003_ulpia": {
+    "char_id": "char_4145_ulpia",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“前路”"
+    }
+  },
+  "uniequip_003_shu": {
+    "char_id": "char_2025_shu",
+    "zh_CN": {
+      "enabled": true,
+      "name": "好时节"
+    }
   }
 }
