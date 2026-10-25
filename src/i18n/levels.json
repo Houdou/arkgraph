@@ -43409,6 +43409,78 @@
       "enabled": true
     }
   },
+  "act1museum_m1_01": {
+    "code": "PM-1",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m1_02": {
+    "code": "PM-2",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m1_03": {
+    "code": "PM-3",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m2_01": {
+    "code": "PM-4",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m2_02": {
+    "code": "PM-5",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m2_03": {
+    "code": "PM-6",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m3_01": {
+    "code": "PM-7",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m3_02": {
+    "code": "PM-8",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m3_03": {
+    "code": "PM-9",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m4_01": {
+    "code": "PM-10",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m4_02": {
+    "code": "PM-11",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "act1museum_m4_03": {
+    "code": "PM-12",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
   "act52side_st01": {
     "code": "YW-ST-1",
     "zh_CN": {
@@ -47605,6 +47677,12 @@
   },
   "camp_r_33": {
     "code": "拉特兰",
+    "zh_CN": {
+      "enabled": true
+    }
+  },
+  "camp_r_34": {
+    "code": "米诺斯",
     "zh_CN": {
       "enabled": true
     }
