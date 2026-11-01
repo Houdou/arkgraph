@@ -8461,5 +8461,61 @@
       "enabled": true,
       "name": "好时节"
     }
+  },
+  "uniequip_002_dminon": {
+    "char_id": "char_4246_dminon",
+    "zh_CN": {
+      "enabled": true,
+      "name": "空瓶罐们"
+    }
+  },
+  "uniequip_004_horn": {
+    "char_id": "char_4039_horn",
+    "zh_CN": {
+      "enabled": true,
+      "name": "号角特限证章"
+    }
+  },
+  "uniequip_002_caledo": {
+    "char_id": "char_4169_caledo",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“啊哈！”"
+    }
+  },
+  "uniequip_002_svash2": {
+    "char_id": "char_1045_svash2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "邀约"
+    }
+  },
+  "uniequip_002_makiri": {
+    "char_id": "char_4199_makiri",
+    "zh_CN": {
+      "enabled": true,
+      "name": "神明的惦念"
+    }
+  },
+  "uniequip_003_halo2": {
+    "char_id": "char_1047_halo2",
+    "zh_CN": {
+      "enabled": true,
+      "name": "远方问候"
+    }
+  },
+  "uniequip_004_mlyss": {
+    "char_id": "char_249_mlyss",
+    "zh_CN": {
+      "enabled": true,
+      "name": "“缪尔赛思和朋友们”"
+    }
+  },
+  "uniequip_002_alga": {
+    "char_id": "char_4245_alga",
+    "zh_CN": {
+      "enabled": true,
+      "name": "来自昨天"
+    }
   }
 }
