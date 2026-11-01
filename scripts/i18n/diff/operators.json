@@ -18771,6 +18771,23 @@
     "code": null,
     "code_name": "Снегурочка"
   },
+  "char_4170_hdbell": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "行铃",
+      "skills": [
+        "花椰菜冲击",
+        "蔬菜大拼盘"
+      ],
+      "alias": [
+        "hang ling",
+        "hangling"
+      ],
+      "appellation": "Herdbells"
+    },
+    "code": null,
+    "code_name": "Herdbells"
+  },
   "char_616_pithst": {
     "zh_CN": {
       "enabled": true,
@@ -18820,6 +18837,23 @@
     },
     "code": null,
     "code_name": "Jacinta"
+  },
+  "char_4245_alga": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "奥尔佳",
+      "skills": [
+        "交叉施压",
+        "只为我的答案"
+      ],
+      "alias": [
+        "ao er jia",
+        "aoerjia"
+      ],
+      "appellation": "Ольга"
+    },
+    "code": null,
+    "code_name": "Ольга"
   },
   "char_4166_varkis": {
     "zh_CN": {
@@ -19059,6 +19093,23 @@
     "code": null,
     "code_name": "Crackborne"
   },
+  "char_4169_caledo": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "镜匠",
+      "skills": [
+        "无公差切割",
+        "“多面镜”"
+      ],
+      "alias": [
+        "jing jiang",
+        "jingjiang"
+      ],
+      "appellation": "Caleido"
+    },
+    "code": null,
+    "code_name": "Caleido"
+  },
   "char_4221_ju": {
     "zh_CN": {
       "enabled": true,
@@ -19194,6 +19245,24 @@
     },
     "code": null,
     "code_name": "Pedro"
+  },
+  "char_4244_tocka": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "冻河",
+      "skills": [
+        "一无所有之人",
+        "意欲呼啸之心",
+        "踽踽独行之春"
+      ],
+      "alias": [
+        "dong he",
+        "donghe"
+      ],
+      "appellation": "Тоска"
+    },
+    "code": null,
+    "code_name": "Тоска"
   },
   "char_4186_tmoris": {
     "zh_CN": {
@@ -19444,6 +19513,24 @@
     "code": null,
     "code_name": "Nasti"
   },
+  "char_4246_dminon": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "国度",
+      "skills": [
+        "停步",
+        "受戮",
+        "无人的国度"
+      ],
+      "alias": [
+        "guo du",
+        "guodu"
+      ],
+      "appellation": "Территория"
+    },
+    "code": null,
+    "code_name": "Территория"
+  },
   "char_4217_makoto": {
     "zh_CN": {
       "enabled": true,
@@ -19693,6 +19780,24 @@
     },
     "code": null,
     "code_name": "Leizi the Thunderbringer"
+  },
+  "char_4247_oxi": {
+    "zh_CN": {
+      "enabled": true,
+      "name": "塔露拉",
+      "skills": [
+        "照霎白夜",
+        "阂断骤雪",
+        "日冕重烈"
+      ],
+      "alias": [
+        "ta lou la",
+        "taloula"
+      ],
+      "appellation": "Talulah"
+    },
+    "code": null,
+    "code_name": "Talulah"
   },
   "char_4231_clemnt": {
     "zh_CN": {
