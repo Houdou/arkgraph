@@ -45131,6 +45131,80 @@
     }
   },
   {
+    "unique_id": "char_618_acrbot",
+    "name": "“暴躁铁皮”",
+    "pinyin": [
+      "“ bao zao tie pi ”",
+      "“baozaotiepi”"
+    ],
+    "profession": "TANK",
+    "rarity": 5,
+    "equipments": [],
+    "skill_names": [
+      "大丑的愤怒"
+    ],
+    "skills": [
+      {
+        "level": 1,
+        "materials": []
+      },
+      {
+        "level": 2,
+        "materials": []
+      },
+      {
+        "level": 3,
+        "materials": []
+      },
+      {
+        "level": 4,
+        "materials": []
+      },
+      {
+        "level": 5,
+        "materials": []
+      },
+      {
+        "level": 6,
+        "materials": []
+      }
+    ],
+    "master_skills": [
+      {
+        "name": "大丑的愤怒",
+        "upgrades": [
+          {
+            "level": 0,
+            "materials": []
+          },
+          {
+            "level": 1,
+            "materials": []
+          },
+          {
+            "level": 2,
+            "materials": []
+          }
+        ]
+      }
+    ],
+    "elites": [
+      {
+        "rank": 1,
+        "materials": null
+      },
+      {
+        "rank": 2,
+        "materials": null
+      }
+    ],
+    "meta": {
+      "max_elite_rank": 2,
+      "max_master_skills": 1,
+      "max_equipments": 0
+    }
+  },
+  {
     "unique_id": "char_416_zumama",
     "name": "森蚺",
     "pinyin": [
