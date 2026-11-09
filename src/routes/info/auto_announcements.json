@@ -3,6 +3,16 @@
     "server": [
       "zh_CN"
     ],
+    "date": "2026-11-09",
+    "type": "new_operators",
+    "new_operators": [
+      "char_618_acrbot"
+    ]
+  },
+  {
+    "server": [
+      "zh_CN"
+    ],
     "date": "2026-11-01",
     "type": "new_operators",
     "new_operators": [
@@ -109,17 +119,6 @@
       "char_1051_headb2",
       "char_4224_turdus",
       "char_4223_botany"
-    ]
-  },
-  {
-    "server": [
-      "zh_CN"
-    ],
-    "date": "2026-03-10",
-    "type": "new_operators",
-    "new_operators": [
-      "char_4037_demetr",
-      "char_4031_liesel"
     ]
   }
 ]
