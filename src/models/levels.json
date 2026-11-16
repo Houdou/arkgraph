@@ -23026,7 +23026,7 @@
     "level": "OS-1",
     "energy": 9,
     "unique_id": "act46side_01",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23065,7 +23065,7 @@
     "level": "OS-2",
     "energy": 9,
     "unique_id": "act46side_02",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23104,7 +23104,7 @@
     "level": "OS-3",
     "energy": 9,
     "unique_id": "act46side_03",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23143,7 +23143,7 @@
     "level": "OS-5",
     "energy": 12,
     "unique_id": "act46side_05",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23190,7 +23190,7 @@
     "level": "OS-6",
     "energy": 12,
     "unique_id": "act46side_06",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23229,7 +23229,7 @@
     "level": "OS-7",
     "energy": 21,
     "unique_id": "act46side_07",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23284,7 +23284,7 @@
     "level": "OS-8",
     "energy": 21,
     "unique_id": "act46side_08",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -23351,7 +23351,7 @@
     "level": "OS-9",
     "energy": 21,
     "unique_id": "act46side_09",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [
       {
@@ -48428,7 +48428,7 @@
     "level": "OS-4",
     "energy": 12,
     "unique_id": "act46side_04",
-    "zone_id": "act46side_zone1",
+    "zone_id": "act46sre_zone1",
     "is_perm": true,
     "normal_drop": [],
     "special_drop": [],
